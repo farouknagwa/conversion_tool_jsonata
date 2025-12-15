@@ -15,7 +15,7 @@
       {
         "n": 1,
         "type": "string",
-        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: justify;\"><span style=\"white-space: pre-wrap;\">Correct the underlined word(s): In an experiment testing how the state of a substance affects its temperature change, the change in temperature is the </span><u><span class=\"LexicalTheme__textUnderline\" style=\"white-space: pre-wrap;\">independent variable</span></u><span style=\"white-space: pre-wrap;\">.</span></p>",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">Correct the underlined word(s): In an experiment testing how the state of a substance affects its temperature change, the change in temperature is the </span><u><span class=\"LexicalTheme__textUnderline\" style=\"white-space: pre-wrap;\">independent variable</span></u><span style=\"white-space: pre-wrap;\">.</span></p>",
         "ai_template_id": "593158513739",
         "acceptable_answers": [
           "dependent variable"

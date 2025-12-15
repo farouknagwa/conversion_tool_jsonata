@@ -4,7 +4,7 @@
       "n": 1,
       "type": "counting",
       "subtype": null,
-      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span style=\"white-space: pre-wrap;\">ضَعِ العدد الصحيح من قطع العَدِّ في إطار العشرة.</span></p><p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span class=\"audio-wrapper\" data-node-type=\"audio\"><audio src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/412189532568.mp3\" class=\"audio-player\"></audio></span></p><p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/352142327670.svg\" alt=\"653107832692\" width=\"125\" height=\"150\" style=\"aspect-ratio: 125/150;\" class=\"displayed-image\"></span></p>",
+      "stem": "<p><span style=\"white-space: pre-wrap;\">ضَعِ العدد الصحيح من قطع العَدِّ في إطار العشرة.</span></p><p><span class=\"audio-wrapper\" data-node-type=\"audio\"><audio class=\"audio-player\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/412189532568.mp3\"></audio></span></p><p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"653107832692\" class=\"displayed-image\" height=\"150\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/352142327670.svg\" style=\"aspect-ratio: 125/150;\" width=\"125\"/></span></p>",
       "choices": [],
       "standalone": false,
       "answer": "10",

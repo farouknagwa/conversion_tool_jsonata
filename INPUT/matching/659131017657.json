@@ -4,11 +4,11 @@
       "n": 1,
       "type": "matching",
       "subtype": null,
-      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Match the picture with the sentence.</span></p>",
+      "stem": "<p><span style=\"white-space: pre-wrap;\">Match the picture with the sentence.</span></p>",
       "choices": [
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/873171627590.svg\" alt=\"659131017657.1\" width=\"150\" height=\"218.42985470997587\" style=\"aspect-ratio: 150/218.42985470997587;\" class=\"displayed-image\"></span></p>",
+          "html_content": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"659131017657.1\" class=\"displayed-image\" height=\"218.42985470997587\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/873171627590.svg\" style=\"aspect-ratio: 150/218.42985470997587;\" width=\"150\"/></span></p>",
           "values": [],
           "unit": null,
           "index": 0,
@@ -19,7 +19,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/506126386917.svg\" alt=\"659131017657.2\" width=\"220\" height=\"157.88438871330536\" style=\"aspect-ratio: 220/157.88438871330536;\" class=\"displayed-image\"></span></p>",
+          "html_content": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"659131017657.2\" class=\"displayed-image\" height=\"157.88438871330536\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/506126386917.svg\" style=\"aspect-ratio: 220/157.88438871330536;\" width=\"220\"/></span></p>",
           "values": [],
           "unit": null,
           "index": 1,
@@ -30,7 +30,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/806172494257.svg\" alt=\"659131017657.3\" width=\"300\" height=\"116.99639892578125\" style=\"aspect-ratio: 300/116.99639892578125;\" class=\"displayed-image\"></span></p>",
+          "html_content": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"659131017657.3\" class=\"displayed-image\" height=\"116.99639892578125\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/806172494257.svg\" style=\"aspect-ratio: 300/116.99639892578125;\" width=\"300\"/></span></p>",
           "values": [],
           "unit": null,
           "index": 2,
@@ -41,7 +41,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">A house or apartment is a place where people live.</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">A house or apartment is a place where people live.</span></p>",
           "values": [],
           "unit": null,
           "index": 0,
@@ -52,7 +52,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">In Egypt, there are many new houses.</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">In Egypt, there are many new houses.</span></p>",
           "values": [],
           "unit": null,
           "index": 1,
@@ -63,7 +63,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">A houseboat is a home on the water.</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">A houseboat is a home on the water.</span></p>",
           "values": [],
           "unit": null,
           "index": 2,

@@ -4,14 +4,14 @@
       "n": 1,
       "type": "mrq",
       "subtype": null,
-      "stem": "<p dir=\"ltr\" style=\"text-align: left;\">The perimeter of a rectangle is 18 cm.</p><p dir=\"ltr\" style=\"text-align: left;\">What could its side lengths be? Select two answers.</p>",
+      "stem": "<p>The perimeter of a rectangle is 18 cm.</p><p>What could its side lengths be? Select two answers.</p>",
       "answer": null,
       "grid_size": null,
       "gap_text_keys": null,
       "choices": [
         {
           "type": "distractor",
-          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">5 cm, 5 cm, 3 cm, 3 cm</p>",
+          "html_content": "<p>5 cm, 5 cm, 3 cm, 3 cm</p>",
           "values": [],
           "unit": null,
           "index": 0,
@@ -22,7 +22,7 @@
         },
         {
           "type": "key",
-          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">5 cm, 5 cm, 4 cm, 4 cm</p>",
+          "html_content": "<p>5 cm, 5 cm, 4 cm, 4 cm</p>",
           "values": [],
           "unit": null,
           "index": 1,
@@ -33,7 +33,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">6 cm, 6 cm, 2 cm, 2 cm</p>",
+          "html_content": "<p>6 cm, 6 cm, 2 cm, 2 cm</p>",
           "values": [],
           "unit": null,
           "index": 2,
@@ -44,7 +44,7 @@
         },
         {
           "type": "key",
-          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">6 cm, 6 cm, 3 cm, 3 cm</p>",
+          "html_content": "<p>6 cm, 6 cm, 3 cm, 3 cm</p>",
           "values": [],
           "unit": null,
           "index": 3,

@@ -15,7 +15,7 @@
       {
         "n": 1,
         "type": "gap",
-        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">إذا كانت الأعداد 3، 6، 12 </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span><span style=\"white-space: pre-wrap;\"> للعدد 36، فإن العدد </span><span style=\"white-space: pre-wrap;\">36 </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span><span style=\"white-space: pre-wrap;\"> لها.</span></p>",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">إذا كانت الأعداد 3، 6، 12 </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span><span style=\"white-space: pre-wrap;\"> للعدد 36، فإن العدد </span><span style=\"white-space: pre-wrap;\">36 </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span><span style=\"white-space: pre-wrap;\"> لها.</span></p>",
         "gap_keys": [
           {
             "value": "عوامل",
@@ -28,7 +28,7 @@
             "correct_order": 2
           }
         ],
-        "correct_answer": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">إذا كانت الأعداد 3، 6، 12 </span> عوامل<span style=\"white-space: pre-wrap;\"> للعدد 36، فإن العدد </span><span style=\"white-space: pre-wrap;\">36 </span> مضاعِف<span style=\"white-space: pre-wrap;\"> لها.</span></p>",
+        "correct_answer": "<p><span style=\"white-space: pre-wrap;\">إذا كانت الأعداد 3، 6، 12 </span> عوامل<span style=\"white-space: pre-wrap;\"> للعدد 36، فإن العدد </span><span style=\"white-space: pre-wrap;\">36 </span> مضاعِف<span style=\"white-space: pre-wrap;\"> لها.</span></p>",
         "explanation": ""
       }
     ]

@@ -15,7 +15,7 @@
       {
         "n": 1,
         "type": "puzzle",
-        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span style=\"white-space: pre-wrap;\">حُلَّ اللغز لاكتشاف ما سوف نتعلم عنه اليوم.</span></p>",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">حُلَّ اللغز لاكتشاف ما سوف نتعلم عنه اليوم.</span></p>",
         "rows": "3",
         "columns": "3",
         "pieces": [

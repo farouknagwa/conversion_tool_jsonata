@@ -15,10 +15,10 @@
       {
         "n": 1,
         "type": "frq",
-        "stem": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: justify;\"><span style=\"white-space: pre-line;\">What happens to a body’s state of motion when it is affected by balanced forces?</span></p>",
+        "stem": "<p><span style=\"white-space: pre-line;\">What happens to a body’s state of motion when it is affected by balanced forces?</span></p>",
         "ai_template_id": "352108393701",
         "acceptable_answers": [
-          "<p class=\"LexicalTheme__paragraph\" style=\"text-align: justify;\"><span style=\"white-space: pre-line;\">The body's state of motion does not change. If it is at rest, it stays at rest. If it is moving, it will keep moving at a constant speed and direction.</span></p>"
+          "<p><span style=\"white-space: pre-line;\">The body's state of motion does not change. If it is at rest, it stays at rest. If it is moving, it will keep moving at a constant speed and direction.</span></p>"
         ],
         "explanation": ""
       }

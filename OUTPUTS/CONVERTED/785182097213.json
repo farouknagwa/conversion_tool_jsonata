@@ -15,10 +15,10 @@
       {
         "n": 1,
         "type": "frq",
-        "stem": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: justify;\"><span style=\"white-space: pre-line;\">What happens to a body’s state of motion when it is affected by unbalanced forces?</span></p>",
+        "stem": "<p><span style=\"white-space: pre-line;\">What happens to a body’s state of motion when it is affected by unbalanced forces?</span></p>",
         "ai_template_id": "352108393701",
         "acceptable_answers": [
-          "<p class=\"LexicalTheme__paragraph\" style=\"text-align: justify;\"><span style=\"white-space: pre-line;\">The body's state of motion changes; it will start moving, speed up, slow down, or change direction.</span></p>"
+          "<p><span style=\"white-space: pre-line;\">The body's state of motion changes; it will start moving, speed up, slow down, or change direction.</span></p>"
         ],
         "explanation": ""
       }

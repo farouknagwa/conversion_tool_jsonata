@@ -15,23 +15,23 @@
       {
         "n": 1,
         "type": "opinion",
-        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">Fatma said, “I like making things in art class, and I love baking cakes at home with my mum.”</span></p><p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">What job might Fatma like to do?</span></p>",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">Fatma said, “I like making things in art class, and I love baking cakes at home with my mum.”</span></p><p><span style=\"white-space: pre-wrap;\">What job might Fatma like to do?</span></p>",
         "choices": [
           {
             "label": "A",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">Baker</span></p>"
+            "value": "<p><span style=\"white-space: pre-wrap;\">Baker</span></p>"
           },
           {
             "label": "B",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">Architect</span></p>"
+            "value": "<p><span style=\"white-space: pre-wrap;\">Architect</span></p>"
           },
           {
             "label": "C",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">Doctor</span></p>"
+            "value": "<p><span style=\"white-space: pre-wrap;\">Doctor</span></p>"
           },
           {
             "label": "D",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">Engineer</span></p>"
+            "value": "<p><span style=\"white-space: pre-wrap;\">Engineer</span></p>"
           }
         ],
         "explanation": ""

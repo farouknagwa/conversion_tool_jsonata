@@ -15,37 +15,37 @@
       {
         "n": 1,
         "type": "mrq",
-        "stem": "<p dir=\"ltr\" style=\"text-align: left;\">The perimeter of a rectangle is 18 cm.</p><p dir=\"ltr\" style=\"text-align: left;\">What could its side lengths be? Select two answers.</p>",
+        "stem": "<p>The perimeter of a rectangle is 18 cm.</p><p>What could its side lengths be? Select two answers.</p>",
         "choices": [
           {
             "label": "A",
-            "value": "<p dir=\"ltr\" style=\"text-align: left;\">5 cm, 5 cm, 3 cm, 3 cm</p>",
+            "value": "<p>5 cm, 5 cm, 3 cm, 3 cm</p>",
             "is_correct": false
           },
           {
             "label": "B",
-            "value": "<p dir=\"ltr\" style=\"text-align: left;\">5 cm, 5 cm, 4 cm, 4 cm</p>",
+            "value": "<p>5 cm, 5 cm, 4 cm, 4 cm</p>",
             "is_correct": true
           },
           {
             "label": "C",
-            "value": "<p dir=\"ltr\" style=\"text-align: left;\">6 cm, 6 cm, 2 cm, 2 cm</p>",
+            "value": "<p>6 cm, 6 cm, 2 cm, 2 cm</p>",
             "is_correct": false
           },
           {
             "label": "D",
-            "value": "<p dir=\"ltr\" style=\"text-align: left;\">6 cm, 6 cm, 3 cm, 3 cm</p>",
+            "value": "<p>6 cm, 6 cm, 3 cm, 3 cm</p>",
             "is_correct": true
           }
         ],
         "correct_answer": [
           {
             "label": "B",
-            "value": "<p dir=\"ltr\" style=\"text-align: left;\">5 cm, 5 cm, 4 cm, 4 cm</p>"
+            "value": "<p>5 cm, 5 cm, 4 cm, 4 cm</p>"
           },
           {
             "label": "D",
-            "value": "<p dir=\"ltr\" style=\"text-align: left;\">6 cm, 6 cm, 3 cm, 3 cm</p>"
+            "value": "<p>6 cm, 6 cm, 3 cm, 3 cm</p>"
           }
         ],
         "explanation": ""

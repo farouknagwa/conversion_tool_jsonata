@@ -4,7 +4,7 @@
       "n": 1,
       "type": "gapText",
       "subtype": null,
-      "stem": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: justify;\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Use the words to complete the sentence.\n</span><span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span><span style=\"white-space: pre-wrap;\"> and camels use their legs to </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span><span style=\"white-space: pre-wrap;\">.</span></p>",
+      "stem": "<p><span style=\"white-space: pre-wrap;\">Use the words to complete the sentence.\n</span><span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span><span style=\"white-space: pre-wrap;\"> and camels use their legs to </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span><span style=\"white-space: pre-wrap;\">.</span></p>",
       "choices": [],
       "standalone": false,
       "gap_text_keys": [

@@ -15,15 +15,15 @@
       {
         "n": 1,
         "type": "opinion",
-        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Would you rather have a dog or a cat as a pet?</span></p>",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">Would you rather have a dog or a cat as a pet?</span></p>",
         "choices": [
           {
             "label": "A",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: center;\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://images.nagwa.com/590183597193.jpg\" alt=\"\" width=\"250\" height=\"166.66666666666666\" style=\"aspect-ratio: 250/166.66666666666666;\" class=\"displayed-image\"></span><span style=\"white-space: pre-wrap;\">A dog</span></p>"
+            "value": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"\" class=\"displayed-image\" height=\"166.66666666666666\" src=\"https://images.nagwa.com/590183597193.jpg\" style=\"aspect-ratio: 250/166.66666666666666;\" width=\"250\"/></span><span style=\"white-space: pre-wrap;\">A dog</span></p>"
           },
           {
             "label": "B",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: center;\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://images.nagwa.com/812162165724.jpg\" alt=\"\" width=\"250\" height=\"166.66666666666666\" style=\"aspect-ratio: 250/166.66666666666666;\" class=\"displayed-image\"></span><span style=\"white-space: pre-wrap;\">A cat</span></p>"
+            "value": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"\" class=\"displayed-image\" height=\"166.66666666666666\" src=\"https://images.nagwa.com/812162165724.jpg\" style=\"aspect-ratio: 250/166.66666666666666;\" width=\"250\"/></span><span style=\"white-space: pre-wrap;\">A cat</span></p>"
           }
         ],
         "explanation": ""

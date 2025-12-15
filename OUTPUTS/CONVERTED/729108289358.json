@@ -11,39 +11,39 @@
   "section_id": "469121250810",
   "source": "human",
   "content": {
-    "statement": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: justify;\"><span style=\"white-space: pre-wrap;\">ماجد لديه ١١ قميصًا على أحد حِبال الغسيل. طار بعض القمصان منها. يوجد الآن ٤ قمصان على حبل الغسيل.</span></p>",
+    "statement": "<p><span style=\"white-space: pre-wrap;\">ماجد لديه ١١ قميصًا على أحد حِبال الغسيل. طار بعض القمصان منها. يوجد الآن ٤ قمصان على حبل الغسيل.</span></p>",
     "parts": [
       {
         "n": 1,
         "type": "mcq",
-        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">أيُّ الجمل العددية ستستخدمها لإيجاد عدد القمصان التي طارت؟</span></p>",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">أيُّ الجمل العددية ستستخدمها لإيجاد عدد القمصان التي طارت؟</span></p>",
         "choices": [
           {
             "label": "أ",
-            "value": "<p class=\"LexicalTheme__paragraph\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"\\displaystyle{١١ - ٧ = \\textBlank }\" locale=\"ar\" lang=\"ar\">\\displaystyle{١١ - ٧ = \\textBlank }</math-field></span></p>",
+            "value": "<p><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" lang=\"ar\" locale=\"ar\" read-only=\"true\" value=\"\\displaystyle{١١ - ٧ = \\textBlank }\">\\displaystyle{١١ - ٧ = \\textBlank }</math-field></span></p>",
             "is_correct": false
           },
           {
             "label": "ب",
-            "value": "<p class=\"LexicalTheme__paragraph\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"\\displaystyle{١١ - ٤ = \\textBlank }\" locale=\"ar\" lang=\"ar\">\\displaystyle{١١ - ٤ = \\textBlank }</math-field></span></p>",
+            "value": "<p><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" lang=\"ar\" locale=\"ar\" read-only=\"true\" value=\"\\displaystyle{١١ - ٤ = \\textBlank }\">\\displaystyle{١١ - ٤ = \\textBlank }</math-field></span></p>",
             "is_correct": true
           },
           {
             "label": "ج",
-            "value": "<p class=\"LexicalTheme__paragraph\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"\\displaystyle{٧ - ٤ = \\textBlank }\" locale=\"ar\" lang=\"ar\">\\displaystyle{٧ - ٤ = \\textBlank }</math-field></span></p>",
+            "value": "<p><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" lang=\"ar\" locale=\"ar\" read-only=\"true\" value=\"\\displaystyle{٧ - ٤ = \\textBlank }\">\\displaystyle{٧ - ٤ = \\textBlank }</math-field></span></p>",
             "is_correct": false
           }
         ],
         "correct_answer": {
           "label": "ب",
-          "value": "<p class=\"LexicalTheme__paragraph\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"\\displaystyle{١١ - ٤ = \\textBlank }\" locale=\"ar\" lang=\"ar\">\\displaystyle{١١ - ٤ = \\textBlank }</math-field></span></p>"
+          "value": "<p><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" lang=\"ar\" locale=\"ar\" read-only=\"true\" value=\"\\displaystyle{١١ - ٤ = \\textBlank }\">\\displaystyle{١١ - ٤ = \\textBlank }</math-field></span></p>"
         },
         "explanation": ""
       },
       {
         "n": 2,
         "type": "input",
-        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">ما عدد القمصان التي طارت؟</span></p>",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">ما عدد القمصان التي طارت؟</span></p>",
         "correct_answer": {
           "value": 7,
           "unit": "قمصان",

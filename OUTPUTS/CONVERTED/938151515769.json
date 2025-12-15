@@ -15,51 +15,51 @@
       {
         "n": 1,
         "type": "matching",
-        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">Drag each moving part of an animal to match its name.</span></p>",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">Drag each moving part of an animal to match its name.</span></p>",
         "items": {
           "A": [
             {
-              "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">Fins</span></p>",
+              "value": "<p><span style=\"white-space: pre-wrap;\">Fins</span></p>",
               "label": "A1"
             },
             {
-              "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">Wings</span></p>",
+              "value": "<p><span style=\"white-space: pre-wrap;\">Wings</span></p>",
               "label": "A2"
             },
             {
-              "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">Hooves</span></p>",
+              "value": "<p><span style=\"white-space: pre-wrap;\">Hooves</span></p>",
               "label": "A3"
             }
           ],
           "B": [
             {
-              "value": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/497190496428.svg\" alt=\"412139818173\" width=\"100\" height=\"71\" style=\"aspect-ratio: 100/71;\" class=\"displayed-image\"></span></p>",
+              "value": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"412139818173\" class=\"displayed-image\" height=\"71\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/497190496428.svg\" style=\"aspect-ratio: 100/71;\" width=\"100\"/></span></p>",
               "label": "B1",
               "matches": "A1"
             },
             {
-              "value": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/196149407107.svg\" alt=\"837192454871\" width=\"200\" height=\"135\" style=\"aspect-ratio: 200/135;\" class=\"displayed-image\"></span></p>",
+              "value": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"837192454871\" class=\"displayed-image\" height=\"135\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/196149407107.svg\" style=\"aspect-ratio: 200/135;\" width=\"200\"/></span></p>",
               "label": "B2",
               "matches": "A2"
             },
             {
-              "value": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/806107937453.svg\" alt=\"597164595750\" width=\"200\" height=\"83\" style=\"aspect-ratio: 200/83;\" class=\"displayed-image\"></span></p>",
+              "value": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"597164595750\" class=\"displayed-image\" height=\"83\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/806107937453.svg\" style=\"aspect-ratio: 200/83;\" width=\"200\"/></span></p>",
               "label": "B3",
               "matches": "A3"
             }
           ],
           "correct_answer": [
             {
-              "A": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">Fins</span></p>",
-              "B": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/497190496428.svg\" alt=\"412139818173\" width=\"100\" height=\"71\" style=\"aspect-ratio: 100/71;\" class=\"displayed-image\"></span></p>"
+              "A": "<p><span style=\"white-space: pre-wrap;\">Fins</span></p>",
+              "B": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"412139818173\" class=\"displayed-image\" height=\"71\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/497190496428.svg\" style=\"aspect-ratio: 100/71;\" width=\"100\"/></span></p>"
             },
             {
-              "A": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">Wings</span></p>",
-              "B": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/196149407107.svg\" alt=\"837192454871\" width=\"200\" height=\"135\" style=\"aspect-ratio: 200/135;\" class=\"displayed-image\"></span></p>"
+              "A": "<p><span style=\"white-space: pre-wrap;\">Wings</span></p>",
+              "B": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"837192454871\" class=\"displayed-image\" height=\"135\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/196149407107.svg\" style=\"aspect-ratio: 200/135;\" width=\"200\"/></span></p>"
             },
             {
-              "A": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">Hooves</span></p>",
-              "B": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/806107937453.svg\" alt=\"597164595750\" width=\"200\" height=\"83\" style=\"aspect-ratio: 200/83;\" class=\"displayed-image\"></span></p>"
+              "A": "<p><span style=\"white-space: pre-wrap;\">Hooves</span></p>",
+              "B": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"597164595750\" class=\"displayed-image\" height=\"83\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/806107937453.svg\" style=\"aspect-ratio: 200/83;\" width=\"200\"/></span></p>"
             }
           ]
         },

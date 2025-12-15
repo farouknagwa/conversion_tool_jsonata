@@ -4,11 +4,11 @@
       "n": 1,
       "type": "opinion",
       "subtype": null,
-      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">برأيك، من أين يأتي الماء في منزلك؟</span></p>",
+      "stem": "<p><span style=\"white-space: pre-wrap;\">برأيك، من أين يأتي الماء في منزلك؟</span></p>",
       "choices": [
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">البحر.</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">البحر.</span></p>",
           "values": [],
           "unit": null,
           "index": 0,
@@ -19,7 +19,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">النهر.</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">النهر.</span></p>",
           "values": [],
           "unit": null,
           "index": 1,
@@ -30,7 +30,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">البحيرة.</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">البحيرة.</span></p>",
           "values": [],
           "unit": null,
           "index": 2,

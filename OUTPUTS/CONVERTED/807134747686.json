@@ -15,7 +15,7 @@
       {
         "n": 1,
         "type": "string",
-        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">تتطاير </span><span data-node-type=\"blank-line\" data-node-variation=\"space\">&nbsp;</span><span style=\"white-space: pre-wrap;\"> بعيدًا عن الزهور إلى بيئات طبيعية جديدة، وتنمو في أماكن أخرى عندما تكون الظروف مناسبة.</span></p>",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">تتطاير </span><span data-node-type=\"blank-line\" data-node-variation=\"space\"> </span><span style=\"white-space: pre-wrap;\"> بعيدًا عن الزهور إلى بيئات طبيعية جديدة، وتنمو في أماكن أخرى عندما تكون الظروف مناسبة.</span></p>",
         "ai_template_id": "593158513739",
         "acceptable_answers": [
           "البذور"

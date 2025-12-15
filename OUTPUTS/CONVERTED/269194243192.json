@@ -15,7 +15,7 @@
       {
         "n": 1,
         "type": "counting",
-        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Draw dots to show the missing number.</span><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/479134382129.svg\" alt=\"Untitled-233 copy999\" width=\"500\" height=\"171.64352416992188\" style=\"aspect-ratio: 500/171.64352416992188;\" class=\"displayed-image\"></span></p>",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">Draw dots to show the missing number.</span><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"Untitled-233 copy999\" class=\"displayed-image\" height=\"171.64352416992188\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/479134382129.svg\" style=\"aspect-ratio: 500/171.64352416992188;\" width=\"500\"/></span></p>",
         "grid": {
           "rows": 1,
           "columns": 5

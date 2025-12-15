@@ -4,11 +4,11 @@
       "n": 1,
       "type": "oq",
       "subtype": null,
-      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Put the words in the correct order.</span></p>",
+      "stem": "<p><span style=\"white-space: pre-wrap;\">Put the words in the correct order.</span></p>",
       "choices": [
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">leaped out</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">leaped out</span></p>",
           "values": [],
           "unit": null,
           "index": 0,
@@ -19,7 +19,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">in the pond.</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">in the pond.</span></p>",
           "values": [],
           "unit": null,
           "index": 1,
@@ -30,7 +30,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">of the well</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">of the well</span></p>",
           "values": [],
           "unit": null,
           "index": 2,
@@ -41,7 +41,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">The frogs</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">The frogs</span></p>",
           "values": [],
           "unit": null,
           "index": 3,
@@ -52,7 +52,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">safely</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">safely</span></p>",
           "values": [],
           "unit": null,
           "index": 4,
@@ -63,7 +63,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">and landed</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">and landed</span></p>",
           "values": [],
           "unit": null,
           "index": 5,

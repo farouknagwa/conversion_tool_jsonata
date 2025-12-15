@@ -15,7 +15,7 @@
       {
         "n": 1,
         "type": "string",
-        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Determine system B in the picture in front of you.</span><span style=\"white-space: pre-wrap;\">  </span><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/847162585161.svg\" alt=\"fill\" width=\"180\" height=\"482.1428571428571\" style=\"aspect-ratio: 180/482.1428571428571;\" class=\"displayed-image\"></span></p><p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><br></p>",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">Determine system B in the picture in front of you.</span><span style=\"white-space: pre-wrap;\"> </span><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"fill\" class=\"displayed-image\" height=\"482.1428571428571\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/847162585161.svg\" style=\"aspect-ratio: 180/482.1428571428571;\" width=\"180\"/></span></p><p><br/></p>",
         "ai_template_id": "593158513739",
         "acceptable_answers": [
           "The skeletal system"

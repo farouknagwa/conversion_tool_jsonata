@@ -5,12 +5,12 @@
       "type": "oq",
       "subtype": null,
       "standalone": false,
-      "stem": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Put the words in the correct order.</span></p>",
+      "stem": "<p><span style=\"white-space: pre-wrap;\">Put the words in the correct order.</span></p>",
       "direction": "horizontal",
       "choices": [
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">They</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">They</span></p>",
           "correct_order": 1,
           "values": [],
           "unit": null,
@@ -20,7 +20,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">are</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">are</span></p>",
           "correct_order": 2,
           "values": [],
           "unit": null,
@@ -30,7 +30,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">able</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">able</span></p>",
           "correct_order": 3,
           "values": [],
           "unit": null,
@@ -40,7 +40,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">to</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">to</span></p>",
           "correct_order": 4,
           "values": [],
           "unit": null,
@@ -50,7 +50,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">deliver</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">deliver</span></p>",
           "correct_order": 5,
           "values": [],
           "unit": null,
@@ -60,7 +60,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">food.</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">food.</span></p>",
           "correct_order": 6,
           "values": [],
           "unit": null,

@@ -15,51 +15,51 @@
       {
         "n": 1,
         "type": "matching",
-        "stem": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Drag to match the effect to the cause.</span></p>",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">Drag to match the effect to the cause.</span></p>",
         "items": {
           "A": [
             {
-              "value": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Drought</span></p>",
+              "value": "<p><span style=\"white-space: pre-wrap;\">Drought</span></p>",
               "label": "A1"
             },
             {
-              "value": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Heavy rains cover dry land with water</span></p>",
+              "value": "<p><span style=\"white-space: pre-wrap;\">Heavy rains cover dry land with water</span></p>",
               "label": "A2"
             },
             {
-              "value": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Lightning strikes dry grass</span></p>",
+              "value": "<p><span style=\"white-space: pre-wrap;\">Lightning strikes dry grass</span></p>",
               "label": "A3"
             }
           ],
           "B": [
             {
-              "value": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Animals move to find water</span></p>",
+              "value": "<p><span style=\"white-space: pre-wrap;\">Animals move to find water</span></p>",
               "label": "B1",
               "matches": "A1"
             },
             {
-              "value": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Washes away soil and plants</span></p>",
+              "value": "<p><span style=\"white-space: pre-wrap;\">Washes away soil and plants</span></p>",
               "label": "B2",
               "matches": "A2"
             },
             {
-              "value": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Fire destroys habitats</span></p>",
+              "value": "<p><span style=\"white-space: pre-wrap;\">Fire destroys habitats</span></p>",
               "label": "B3",
               "matches": "A3"
             }
           ],
           "correct_answer": [
             {
-              "A": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Drought</span></p>",
-              "B": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Animals move to find water</span></p>"
+              "A": "<p><span style=\"white-space: pre-wrap;\">Drought</span></p>",
+              "B": "<p><span style=\"white-space: pre-wrap;\">Animals move to find water</span></p>"
             },
             {
-              "A": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Heavy rains cover dry land with water</span></p>",
-              "B": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Washes away soil and plants</span></p>"
+              "A": "<p><span style=\"white-space: pre-wrap;\">Heavy rains cover dry land with water</span></p>",
+              "B": "<p><span style=\"white-space: pre-wrap;\">Washes away soil and plants</span></p>"
             },
             {
-              "A": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Lightning strikes dry grass</span></p>",
-              "B": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Fire destroys habitats</span></p>"
+              "A": "<p><span style=\"white-space: pre-wrap;\">Lightning strikes dry grass</span></p>",
+              "B": "<p><span style=\"white-space: pre-wrap;\">Fire destroys habitats</span></p>"
             }
           ]
         },

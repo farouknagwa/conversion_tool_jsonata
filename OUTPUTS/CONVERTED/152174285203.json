@@ -15,32 +15,32 @@
       {
         "n": 1,
         "type": "mcq",
-        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: start;\"><span style=\"white-space: pre-wrap;\">جلفانومتر مقاومة ملفه ‎2 Ω يتطلب انحرافه إلى نهاية تدريجه مرور تيار شدته ‎5 mA. ما أقصى جهد يمكن قياسه عندما يكون ملف الجلفانومتر مُوصَّلًا على التوالي مع مقاومة مضاعفة للجهد مقدارها ‎498 Ω؟</span></p><p class=\"LexicalTheme__paragraph\"><br></p>",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">جلفانومتر مقاومة ملفه ‎2 Ω يتطلب انحرافه إلى نهاية تدريجه مرور تيار شدته ‎5 mA. ما أقصى جهد يمكن قياسه عندما يكون ملف الجلفانومتر مُوصَّلًا على التوالي مع مقاومة مضاعفة للجهد مقدارها ‎498 Ω؟</span></p><p><br/></p>",
         "choices": [
           {
             "label": "أ",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: justify;\"><span style=\"white-space: pre-wrap;\">‎10 mV</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">‎10 mV</span></p>",
             "is_correct": false
           },
           {
             "label": "ب",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: justify;\"><span style=\"white-space: pre-wrap;\">‎2.5 V</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">‎2.5 V</span></p>",
             "is_correct": true
           },
           {
             "label": "ج",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: justify;\"><span style=\"white-space: pre-wrap;\">‎10 V</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">‎10 V</span></p>",
             "is_correct": false
           },
           {
             "label": "د",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: justify;\"><span style=\"white-space: pre-wrap;\">‎5 V</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">‎5 V</span></p>",
             "is_correct": false
           }
         ],
         "correct_answer": {
           "label": "ب",
-          "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: justify;\"><span style=\"white-space: pre-wrap;\">‎2.5 V</span></p>"
+          "value": "<p><span style=\"white-space: pre-wrap;\">‎2.5 V</span></p>"
         },
         "explanation": ""
       }

@@ -4,11 +4,11 @@
       "n": 1,
       "type": "mrq",
       "subtype": null,
-      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">According to the following table, which </span><b><strong class=\"LexicalTheme__textBold\" style=\"white-space: pre-wrap;\">three</strong></b><span style=\"white-space: pre-wrap;\"> minerals are found in eggs?</span></p><p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/912195420612.svg\" alt=\"Untitled-81\" width=\"500\" height=\"414\" style=\"aspect-ratio: 500/414;\" class=\"displayed-image\"></span></p>",
+      "stem": "<p><span style=\"white-space: pre-wrap;\">According to the following table, which </span><b><strong class=\"LexicalTheme__textBold\" style=\"white-space: pre-wrap;\">three</strong></b><span style=\"white-space: pre-wrap;\"> minerals are found in eggs?</span></p><p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"Untitled-81\" class=\"displayed-image\" height=\"414\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/912195420612.svg\" style=\"aspect-ratio: 500/414;\" width=\"500\"/></span></p>",
       "choices": [
         {
           "type": "key",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">Iron</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">Iron</span></p>",
           "values": [],
           "unit": null,
           "index": 0,
@@ -19,7 +19,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">Calcium</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">Calcium</span></p>",
           "values": [],
           "unit": null,
           "index": 1,
@@ -30,7 +30,7 @@
         },
         {
           "type": "key",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">Iodine</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">Iodine</span></p>",
           "values": [],
           "unit": null,
           "index": 2,
@@ -41,7 +41,7 @@
         },
         {
           "type": "key",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">Phosphorus</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">Phosphorus</span></p>",
           "values": [],
           "unit": null,
           "index": 3,

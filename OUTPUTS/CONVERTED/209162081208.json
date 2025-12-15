@@ -15,29 +15,29 @@
       {
         "n": 1,
         "type": "ordering",
-        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Put the letters in the correct order to form a word.</span></p>",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">Put the letters in the correct order to form a word.</span></p>",
         "direction": "horizontal",
         "items": [
           {
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">er</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">er</span></p>",
             "display_order": 1,
             "correct_order": 2
           },
           {
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">ous</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">ous</span></p>",
             "display_order": 2,
             "correct_order": 3
           },
           {
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Gen</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">Gen</span></p>",
             "display_order": 3,
             "correct_order": 1
           }
         ],
         "correct_answer": [
-          "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Gen</span></p>",
-          "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">er</span></p>",
-          "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">ous</span></p>"
+          "<p><span style=\"white-space: pre-wrap;\">Gen</span></p>",
+          "<p><span style=\"white-space: pre-wrap;\">er</span></p>",
+          "<p><span style=\"white-space: pre-wrap;\">ous</span></p>"
         ],
         "explanation": ""
       }

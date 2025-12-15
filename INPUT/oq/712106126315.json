@@ -4,11 +4,11 @@
       "n": 1,
       "type": "oq",
       "subtype": null,
-      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">Put the words in the correct order to form a sentence.</span><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/107142035184.jpg\" alt=\"258134357893\" width=\"350\" height=\"233.2716777841142\" style=\"aspect-ratio: 350/233.2716777841142;\" class=\"displayed-image\"></span></p>",
+      "stem": "<p><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">Put the words in the correct order to form a sentence.</span><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"258134357893\" class=\"displayed-image\" height=\"233.2716777841142\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/107142035184.jpg\" style=\"aspect-ratio: 350/233.2716777841142;\" width=\"350\"/></span></p>",
       "choices": [
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">can</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">can</span></p>",
           "values": [],
           "unit": null,
           "index": 0,
@@ -19,7 +19,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">people</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">people</span></p>",
           "values": [],
           "unit": null,
           "index": 1,
@@ -30,7 +30,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Wheelchairs</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">Wheelchairs</span></p>",
           "values": [],
           "unit": null,
           "index": 2,
@@ -41,7 +41,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">for</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">for</span></p>",
           "values": [],
           "unit": null,
           "index": 3,
@@ -52,7 +52,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">who</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">who</span></p>",
           "values": [],
           "unit": null,
           "index": 4,
@@ -63,7 +63,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">walk.</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">walk.</span></p>",
           "values": [],
           "unit": null,
           "index": 5,
@@ -74,7 +74,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">made</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">made</span></p>",
           "values": [],
           "unit": null,
           "index": 6,
@@ -85,7 +85,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">aren't</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">aren't</span></p>",
           "values": [],
           "unit": null,
           "index": 7,

@@ -15,10 +15,10 @@
       {
         "n": 1,
         "type": "frq",
-        "stem": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: justify;\"><span style=\"white-space: pre-line;\">What happens when you kick a ball with a certain force?</span></p>",
+        "stem": "<p><span style=\"white-space: pre-line;\">What happens when you kick a ball with a certain force?</span></p>",
         "ai_template_id": "352108393701",
         "acceptable_answers": [
-          "<p class=\"LexicalTheme__paragraph\" style=\"text-align: justify;\"><span style=\"white-space: pre-line;\">A pushing force is applied that causes the ball to move.</span></p>"
+          "<p><span style=\"white-space: pre-line;\">A pushing force is applied that causes the ball to move.</span></p>"
         ],
         "explanation": ""
       }

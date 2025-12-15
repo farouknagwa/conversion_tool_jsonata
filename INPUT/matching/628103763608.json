@@ -4,14 +4,14 @@
       "n": 1,
       "type": "matching",
       "subtype": null,
-      "stem": "<p dir=\"ltr\" style=\"text-align: left;\">Match the instructions with the pictures. </p>",
+      "stem": "<p>Match the instructions with the pictures. </p>",
       "answer": null,
       "grid_size": null,
       "gap_text_keys": null,
       "choices": [
         {
           "type": "distractor",
-          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">Stay in bed.</p>",
+          "html_content": "<p>Stay in bed.</p>",
           "values": [],
           "unit": null,
           "index": 0,
@@ -22,7 +22,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">Cover your mouth and nose.</p>",
+          "html_content": "<p>Cover your mouth and nose.</p>",
           "values": [],
           "unit": null,
           "index": 1,
@@ -33,7 +33,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">Wash your hands. </p>",
+          "html_content": "<p>Wash your hands. </p>",
           "values": [],
           "unit": null,
           "index": 2,
@@ -44,7 +44,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">Eat healthy food.</p>",
+          "html_content": "<p>Eat healthy food.</p>",
           "values": [],
           "unit": null,
           "index": 3,
@@ -55,7 +55,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\"></p><div dir=\"ltr\"><img style=\"width: 298.60358905928234px;height: 250px;\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/625169253513.svg\" alt=\"Question Image\" /></div><p dir=\"ltr\" style=\"text-align: left;\"></p>",
+          "html_content": "<p></p><div dir=\"ltr\"><img alt=\"Question Image\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/625169253513.svg\" style=\"width: 298.60358905928234px;height: 250px;\"/></div><p></p>",
           "values": [],
           "unit": null,
           "index": 0,
@@ -66,7 +66,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\"></p><div dir=\"ltr\"><img style=\"width: 298.60358905928234px;height: 250px;\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/925184267683.svg\" alt=\"Question Image\" /></div><p dir=\"ltr\" style=\"text-align: left;\"></p>",
+          "html_content": "<p></p><div dir=\"ltr\"><img alt=\"Question Image\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/925184267683.svg\" style=\"width: 298.60358905928234px;height: 250px;\"/></div><p></p>",
           "values": [],
           "unit": null,
           "index": 1,
@@ -77,7 +77,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\"></p><div dir=\"ltr\"><img style=\"width: 298.60358905928234px;height: 250px;\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/179173787867.svg\" alt=\"Question Image\" /></div><p dir=\"ltr\" style=\"text-align: left;\"></p>",
+          "html_content": "<p></p><div dir=\"ltr\"><img alt=\"Question Image\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/179173787867.svg\" style=\"width: 298.60358905928234px;height: 250px;\"/></div><p></p>",
           "values": [],
           "unit": null,
           "index": 2,
@@ -88,7 +88,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\"></p><div dir=\"ltr\"><img style=\"width: 298.60358905928234px;height: 250px;\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/838195429420.svg\" alt=\"Question Image\" /></div><p dir=\"ltr\" style=\"text-align: left;\"></p>",
+          "html_content": "<p></p><div dir=\"ltr\"><img alt=\"Question Image\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/838195429420.svg\" style=\"width: 298.60358905928234px;height: 250px;\"/></div><p></p>",
           "values": [],
           "unit": null,
           "index": 3,

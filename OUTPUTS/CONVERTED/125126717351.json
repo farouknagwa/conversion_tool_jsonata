@@ -15,41 +15,41 @@
       {
         "n": 1,
         "type": "mrq",
-        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Which three effects does sugar have on the body?</span></p>",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">Which three effects does sugar have on the body?</span></p>",
         "choices": [
           {
             "label": "A",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Damage your teeth</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">Damage your teeth</span></p>",
             "is_correct": true
           },
           {
             "label": "B",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Help your hair</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">Help your hair</span></p>",
             "is_correct": false
           },
           {
             "label": "C",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Make you anxious</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">Make you anxious</span></p>",
             "is_correct": true
           },
           {
             "label": "D",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Affect your heart</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">Affect your heart</span></p>",
             "is_correct": true
           }
         ],
         "correct_answer": [
           {
             "label": "A",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Damage your teeth</span></p>"
+            "value": "<p><span style=\"white-space: pre-wrap;\">Damage your teeth</span></p>"
           },
           {
             "label": "C",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Make you anxious</span></p>"
+            "value": "<p><span style=\"white-space: pre-wrap;\">Make you anxious</span></p>"
           },
           {
             "label": "D",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Affect your heart</span></p>"
+            "value": "<p><span style=\"white-space: pre-wrap;\">Affect your heart</span></p>"
           }
         ],
         "explanation": ""

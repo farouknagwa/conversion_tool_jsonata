@@ -5,9 +5,9 @@
       "type": "frq_ai",
       "subtype": null,
       "standalone": false,
-      "stem": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: justify;\"><span style=\"white-space: pre-line;\">Give reason: A ball moving on a surface moves a distance and then stops.</span></p>",
+      "stem": "<p><span style=\"white-space: pre-line;\">Give reason: A ball moving on a surface moves a distance and then stops.</span></p>",
       "choices": [],
-      "answer": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: justify;\"><span style=\"white-space: pre-line;\">Because of the force of friction between the ball and the surface, which acts opposite to the direction of motion, causing it to slow down and stop.</span></p>",
+      "answer": "<p><span style=\"white-space: pre-line;\">Because of the force of friction between the ball and the surface, which acts opposite to the direction of motion, causing it to slow down and stop.</span></p>",
       "ai": {
         "ai_template_id": 352108393701
       }

@@ -15,15 +15,15 @@
       {
         "n": 1,
         "type": "opinion",
-        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">In your opinion, why does the forest have many trees while the desert does not?</span><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/417183142383.jpg\" alt=\"106185347910 (1)\" width=\"530\" height=\"197.0745044429255\" style=\"aspect-ratio: 530/197.0745044429255;\" class=\"displayed-image\"></span></p>",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">In your opinion, why does the forest have many trees while the desert does not?</span><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"106185347910 (1)\" class=\"displayed-image\" height=\"197.0745044429255\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/417183142383.jpg\" style=\"aspect-ratio: 530/197.0745044429255;\" width=\"530\"/></span></p>",
         "choices": [
           {
             "label": "A",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">Because the forest is rainy</span></p>"
+            "value": "<p><span style=\"white-space: pre-wrap;\">Because the forest is rainy</span></p>"
           },
           {
             "label": "B",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">Because the forest is dry</span></p>"
+            "value": "<p><span style=\"white-space: pre-wrap;\">Because the forest is dry</span></p>"
           }
         ],
         "explanation": ""

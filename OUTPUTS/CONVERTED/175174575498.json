@@ -15,7 +15,7 @@
       {
         "n": 1,
         "type": "counting",
-        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span style=\"white-space: pre-wrap;\">عُدَّ الأشياء الموضَّحة.</span></p><p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/967130396069.svg\" alt=\"Question Image\" width=\"749\" height=\"40\" style=\"aspect-ratio: 749/40;\" class=\"displayed-image\"></span></p><p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span style=\"white-space: pre-wrap;\">وضِّح نفس العدد على إطار العشرة.</span></p>",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">عُدَّ الأشياء الموضَّحة.</span></p><p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"Question Image\" class=\"displayed-image\" height=\"40\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/967130396069.svg\" style=\"aspect-ratio: 749/40;\" width=\"749\"/></span></p><p><span style=\"white-space: pre-wrap;\">وضِّح نفس العدد على إطار العشرة.</span></p>",
         "grid": {
           "rows": 2,
           "columns": 5

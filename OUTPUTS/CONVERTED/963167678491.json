@@ -15,7 +15,7 @@
       {
         "n": 1,
         "type": "string",
-        "stem": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: justify;\"><span style=\"white-space: pre-wrap;\">The pattern that the iron filings make near the magnet is the outline of its </span><span data-node-type=\"blank-line\" data-node-variation=\"space\">&nbsp;</span><span style=\"white-space: pre-wrap;\">.</span></p>",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">The pattern that the iron filings make near the magnet is the outline of its </span><span data-node-type=\"blank-line\" data-node-variation=\"space\"> </span><span style=\"white-space: pre-wrap;\">.</span></p>",
         "ai_template_id": "593158513739",
         "acceptable_answers": [
           "magnetic field"

@@ -5,9 +5,9 @@
       "type": "frq_ai",
       "subtype": null,
       "standalone": false,
-      "stem": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: justify;\"><span style=\"white-space: pre-line;\">What is meant by friction?</span></p>",
+      "stem": "<p><span style=\"white-space: pre-line;\">What is meant by friction?</span></p>",
       "choices": [],
-      "answer": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: justify;\"><span style=\"white-space: pre-line;\">A force that arises between two touching surfaces and opposes motion.</span></p>",
+      "answer": "<p><span style=\"white-space: pre-line;\">A force that arises between two touching surfaces and opposes motion.</span></p>",
       "ai": {
         "ai_template_id": 352108393701
       }

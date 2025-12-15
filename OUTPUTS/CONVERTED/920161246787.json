@@ -15,19 +15,19 @@
       {
         "n": 1,
         "type": "opinion",
-        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span style=\"white-space: pre-wrap;\">قالت فاطمة: «إ</span><span style=\"white-space: pre-wrap;\">نها تستخدم الكمبيوتر في العمل مثل أمي».</span></p><p class=\"LexicalTheme__paragraph\"><br></p><p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span style=\"white-space: pre-wrap;\">في رأيك، ماذا تعمل والدتها؟</span></p>",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">قالت فاطمة: «إ</span><span style=\"white-space: pre-wrap;\">نها تستخدم الكمبيوتر في العمل مثل أمي».</span></p><p><br/></p><p><span style=\"white-space: pre-wrap;\">في رأيك، ماذا تعمل والدتها؟</span></p>",
         "choices": [
           {
             "label": "أ",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span style=\"white-space: pre-wrap;\">موظفة مكتبية</span></p>"
+            "value": "<p><span style=\"white-space: pre-wrap;\">موظفة مكتبية</span></p>"
           },
           {
             "label": "ب",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span style=\"white-space: pre-wrap;\">مزارعة</span></p>"
+            "value": "<p><span style=\"white-space: pre-wrap;\">مزارعة</span></p>"
           },
           {
             "label": "ج",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span style=\"white-space: pre-wrap;\">طبيبة بيطرية</span></p>"
+            "value": "<p><span style=\"white-space: pre-wrap;\">طبيبة بيطرية</span></p>"
           }
         ],
         "explanation": ""

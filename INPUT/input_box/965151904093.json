@@ -4,7 +4,7 @@
       "n": 1,
       "type": "input_box",
       "subtype": null,
-      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span style=\"white-space: pre-wrap;\">يوجد ١٤ بالونًا في الحفل. انفجرت ٨ بالونات منها.</span></p><p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span style=\"white-space: pre-wrap;\">كم بالونًا متبقيًا؟</span></p>",
+      "stem": "<p><span style=\"white-space: pre-wrap;\">يوجد ١٤ بالونًا في الحفل. انفجرت ٨ بالونات منها.</span></p><p><span style=\"white-space: pre-wrap;\">كم بالونًا متبقيًا؟</span></p>",
       "choices": [],
       "standalone": false,
       "answer": {

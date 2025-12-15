@@ -11,12 +11,12 @@
   "section_id": "970194294617",
   "source": "human",
   "content": {
-    "statement": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">عُدَّ الطيور.</span><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/632153591402.svg\" alt=\"1 (4)\" width=\"1959\" height=\"300\" style=\"aspect-ratio: 1959/300;\" class=\"displayed-image\"></span></p>",
+    "statement": "<p><span style=\"white-space: pre-wrap;\">عُدَّ الطيور.</span><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"1 (4)\" class=\"displayed-image\" height=\"300\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/632153591402.svg\" style=\"aspect-ratio: 1959/300;\" width=\"1959\"/></span></p>",
     "parts": [
       {
         "n": 1,
         "type": "counting",
-        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">أَضِف قطع العَدِّ لتُوضِّح عددها.</span></p>",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">أَضِف قطع العَدِّ لتُوضِّح عددها.</span></p>",
         "grid": {
           "rows": 2,
           "columns": 5
@@ -27,27 +27,27 @@
       {
         "n": 2,
         "type": "mcq",
-        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">ما عدد قطع العَدِّ؟</span></p>",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">ما عدد قطع العَدِّ؟</span></p>",
         "choices": [
           {
             "label": "أ",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">٤</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">٤</span></p>",
             "is_correct": false
           },
           {
             "label": "ب",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">٥</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">٥</span></p>",
             "is_correct": true
           },
           {
             "label": "ج",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">٦</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">٦</span></p>",
             "is_correct": false
           }
         ],
         "correct_answer": {
           "label": "ب",
-          "value": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">٥</span></p>"
+          "value": "<p><span style=\"white-space: pre-wrap;\">٥</span></p>"
         },
         "explanation": ""
       }

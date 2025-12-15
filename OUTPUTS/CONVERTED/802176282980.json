@@ -15,7 +15,7 @@
       {
         "n": 1,
         "type": "counting",
-        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span style=\"white-space: pre-wrap;\">عُدَّ الطائرات الورقية.</span></p><p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/634163716391.svg\" alt=\"Question Image\" width=\"800\" height=\"123\" style=\"aspect-ratio: 800/123;\" class=\"displayed-image\"></span></p><p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span style=\"white-space: pre-wrap;\">أضف نقاطًا إلى إطار العشرة لتوضيح عدد </span><span style=\"white-space: pre-wrap;\">الطائرات الورقية.</span></p>",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">عُدَّ الطائرات الورقية.</span></p><p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"Question Image\" class=\"displayed-image\" height=\"123\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/634163716391.svg\" style=\"aspect-ratio: 800/123;\" width=\"800\"/></span></p><p><span style=\"white-space: pre-wrap;\">أضف نقاطًا إلى إطار العشرة لتوضيح عدد </span><span style=\"white-space: pre-wrap;\">الطائرات الورقية.</span></p>",
         "grid": {
           "rows": 2,
           "columns": 5

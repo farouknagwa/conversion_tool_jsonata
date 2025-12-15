@@ -4,11 +4,11 @@
       "n": 1,
       "type": "oq",
       "subtype": null,
-      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Put the words in the correct order to form a sentence. </span></p>",
+      "stem": "<p><span style=\"white-space: pre-wrap;\">Put the words in the correct order to form a sentence. </span></p>",
       "choices": [
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Khaled, Nour,</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">Khaled, Nour,</span></p>",
           "values": [],
           "unit": null,
           "index": 0,
@@ -19,7 +19,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">and Nagwa</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">and Nagwa</span></p>",
           "values": [],
           "unit": null,
           "index": 1,
@@ -30,7 +30,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">siblings</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">siblings</span></p>",
           "values": [],
           "unit": null,
           "index": 2,
@@ -41,7 +41,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">My</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">My</span></p>",
           "values": [],
           "unit": null,
           "index": 3,
@@ -52,7 +52,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">triplets.</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">triplets.</span></p>",
           "values": [],
           "unit": null,
           "index": 4,
@@ -63,7 +63,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">are</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">are</span></p>",
           "values": [],
           "unit": null,
           "index": 5,
@@ -74,7 +74,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">younger</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">younger</span></p>",
           "values": [],
           "unit": null,
           "index": 6,

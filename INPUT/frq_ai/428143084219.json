@@ -5,9 +5,9 @@
       "type": "frq_ai",
       "subtype": null,
       "standalone": false,
-      "stem": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: justify;\"><span style=\"white-space: pre-line;\">Give reason: A body does not move when it is exerted on by balanced forces.</span></p>",
+      "stem": "<p><span style=\"white-space: pre-line;\">Give reason: A body does not move when it is exerted on by balanced forces.</span></p>",
       "choices": [],
-      "answer": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: justify;\"><span style=\"white-space: pre-line;\">Because the forces are equal in size and opposite in direction, they cancel each other, resulting in no change in motion.</span></p>",
+      "answer": "<p><span style=\"white-space: pre-line;\">Because the forces are equal in size and opposite in direction, they cancel each other, resulting in no change in motion.</span></p>",
       "ai": {
         "ai_template_id": 352108393701
       }

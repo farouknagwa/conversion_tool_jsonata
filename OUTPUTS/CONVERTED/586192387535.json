@@ -15,47 +15,47 @@
       {
         "n": 1,
         "type": "ordering",
-        "stem": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Put the words in the correct order.</span></p>",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">Put the words in the correct order.</span></p>",
         "direction": "horizontal",
         "items": [
           {
-            "value": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">to</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">to</span></p>",
             "display_order": 1,
             "correct_order": 4
           },
           {
-            "value": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">deliver</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">deliver</span></p>",
             "display_order": 2,
             "correct_order": 5
           },
           {
-            "value": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">are</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">are</span></p>",
             "display_order": 3,
             "correct_order": 2
           },
           {
-            "value": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">food.</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">food.</span></p>",
             "display_order": 4,
             "correct_order": 6
           },
           {
-            "value": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">able</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">able</span></p>",
             "display_order": 5,
             "correct_order": 3
           },
           {
-            "value": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">They</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">They</span></p>",
             "display_order": 6,
             "correct_order": 1
           }
         ],
         "correct_answer": [
-          "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">They</span></p>",
-          "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">are</span></p>",
-          "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">able</span></p>",
-          "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">to</span></p>",
-          "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">deliver</span></p>",
-          "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">food.</span></p>"
+          "<p><span style=\"white-space: pre-wrap;\">They</span></p>",
+          "<p><span style=\"white-space: pre-wrap;\">are</span></p>",
+          "<p><span style=\"white-space: pre-wrap;\">able</span></p>",
+          "<p><span style=\"white-space: pre-wrap;\">to</span></p>",
+          "<p><span style=\"white-space: pre-wrap;\">deliver</span></p>",
+          "<p><span style=\"white-space: pre-wrap;\">food.</span></p>"
         ],
         "explanation": ""
       }

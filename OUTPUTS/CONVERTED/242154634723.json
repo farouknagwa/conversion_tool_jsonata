@@ -15,7 +15,7 @@
       {
         "n": 1,
         "type": "string",
-        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: justify;\"><span style=\"white-space: pre-wrap;\">Correct the underlined word(s): The increase in the temperature of a mass of water is </span><u><span class=\"LexicalTheme__textUnderline\" style=\"white-space: pre-wrap;\">equal to</span></u><span style=\"white-space: pre-wrap;\"> the increase in the temperature of an equal mass of ice when they gain the same quantity of thermal energy.</span></p>",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">Correct the underlined word(s): The increase in the temperature of a mass of water is </span><u><span class=\"LexicalTheme__textUnderline\" style=\"white-space: pre-wrap;\">equal to</span></u><span style=\"white-space: pre-wrap;\"> the increase in the temperature of an equal mass of ice when they gain the same quantity of thermal energy.</span></p>",
         "ai_template_id": "593158513739",
         "acceptable_answers": [
           "less than"

@@ -4,11 +4,11 @@
       "n": 1,
       "type": "mrq",
       "subtype": null,
-      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Which of the following are examples of interactions between living organisms and non-living things? Pick </span><b><strong class=\"LexicalTheme__textBold\" style=\"white-space: pre-wrap;\">two</strong></b><span style=\"white-space: pre-wrap;\">.</span></p>",
+      "stem": "<p><span style=\"white-space: pre-wrap;\">Which of the following are examples of interactions between living organisms and non-living things? Pick </span><b><strong class=\"LexicalTheme__textBold\" style=\"white-space: pre-wrap;\">two</strong></b><span style=\"white-space: pre-wrap;\">.</span></p>",
       "choices": [
         {
           "type": "key",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">A mole making a burrow in the ground</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">A mole making a burrow in the ground</span></p>",
           "values": [],
           "unit": null,
           "index": 0,
@@ -19,7 +19,7 @@
         },
         {
           "type": "key",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Green plants growing on rocks</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">Green plants growing on rocks</span></p>",
           "values": [],
           "unit": null,
           "index": 1,
@@ -30,7 +30,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">A hawk catching a mouse</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">A hawk catching a mouse</span></p>",
           "values": [],
           "unit": null,
           "index": 2,

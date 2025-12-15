@@ -4,7 +4,7 @@
       "n": 1,
       "type": "input_box",
       "subtype": null,
-      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">تمتلك رانيا ١٤ طابعًا. فقدت ٢ من الطوابع. ما عدد الطوابع المتبقية؟</span></p>",
+      "stem": "<p><span style=\"white-space: pre-wrap;\">تمتلك رانيا ١٤ طابعًا. فقدت ٢ من الطوابع. ما عدد الطوابع المتبقية؟</span></p>",
       "choices": [],
       "standalone": false,
       "answer": {

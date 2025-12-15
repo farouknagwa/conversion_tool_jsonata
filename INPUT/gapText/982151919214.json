@@ -5,7 +5,7 @@
       "type": "gapText",
       "subtype": null,
       "standalone": false,
-      "stem": "<p class=\"LexicalTheme__paragraph\">Complete the text with the correct words.<br>\nAmina loved asking questions about science. Her classmates sometimes became <span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span> because she always had dozens of questions. The teacher explained that this was part of her <span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span> and encouraged her to feel proud of it. He also reminded the class that every person is <span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span> in their own way, and that being <span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span> helps us to discover new things.</p>",
+      "stem": "<p>Complete the text with the correct words.<br/>\nAmina loved asking questions about science. Her classmates sometimes became <span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span> because she always had dozens of questions. The teacher explained that this was part of her <span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span> and encouraged her to feel proud of it. He also reminded the class that every person is <span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span> in their own way, and that being <span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span> helps us to discover new things.</p>",
       "choices": [],
       "gap_text_keys": [
         {

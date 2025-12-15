@@ -15,15 +15,15 @@
       {
         "n": 1,
         "type": "opinion",
-        "stem": "<p dir=\"ltr\" style=\"text-align: left;\">What could Wael and his friends volunteer to do?</p>",
+        "stem": "<p>What could Wael and his friends volunteer to do?</p>",
         "choices": [
           {
             "label": "A",
-            "value": "<div dir=\"ltr\" style=\"text-align: center;\"><img style=\"width: 256.1944580078125px;height: 200px;\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/916164782684.svg\" alt=\"Question Image\" /></div><p dir=\"ltr\" style=\"text-align: center;\">Plant trees</p><p dir=\"ltr\" style=\"text-align: left;\"><b></b></p><p dir=\"ltr\" style=\"text-align: left;\"></p>"
+            "value": "<div dir=\"ltr\" style=\"text-align: center;\"><img alt=\"Question Image\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/916164782684.svg\" style=\"width: 256.1944580078125px;height: 200px;\"/></div><p>Plant trees</p><p><b></b></p><p></p>"
           },
           {
             "label": "B",
-            "value": "<div dir=\"ltr\" style=\"text-align: center;\"><img style=\"width: 278.482771248653px;height: 200px;\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/196180680235.svg\" alt=\"Question Image\" /></div><p dir=\"ltr\" style=\"text-align: center;\">Work in a restaurant</p><p dir=\"ltr\" style=\"text-align: left;\"><b></b></p><p dir=\"ltr\" style=\"text-align: left;\"></p>"
+            "value": "<div dir=\"ltr\" style=\"text-align: center;\"><img alt=\"Question Image\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/196180680235.svg\" style=\"width: 278.482771248653px;height: 200px;\"/></div><p>Work in a restaurant</p><p><b></b></p><p></p>"
           }
         ],
         "explanation": ""

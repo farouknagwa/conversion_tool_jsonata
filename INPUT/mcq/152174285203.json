@@ -4,11 +4,11 @@
       "n": 1,
       "type": "mcq",
       "subtype": null,
-      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: start;\"><span style=\"white-space: pre-wrap;\">جلفانومتر مقاومة ملفه ‎2 Ω يتطلب انحرافه إلى نهاية تدريجه مرور تيار شدته ‎5 mA. ما أقصى جهد يمكن قياسه عندما يكون ملف الجلفانومتر مُوصَّلًا على التوالي مع مقاومة مضاعفة للجهد مقدارها ‎498 Ω؟</span></p><p class=\"LexicalTheme__paragraph\"><br></p>",
+      "stem": "<p><span style=\"white-space: pre-wrap;\">جلفانومتر مقاومة ملفه ‎2 Ω يتطلب انحرافه إلى نهاية تدريجه مرور تيار شدته ‎5 mA. ما أقصى جهد يمكن قياسه عندما يكون ملف الجلفانومتر مُوصَّلًا على التوالي مع مقاومة مضاعفة للجهد مقدارها ‎498 Ω؟</span></p><p><br/></p>",
       "choices": [
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: justify;\"><span style=\"white-space: pre-wrap;\">‎10 mV</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">‎10 mV</span></p>",
           "values": [],
           "unit": null,
           "index": 0,
@@ -19,7 +19,7 @@
         },
         {
           "type": "key",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: justify;\"><span style=\"white-space: pre-wrap;\">‎2.5 V</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">‎2.5 V</span></p>",
           "values": [],
           "unit": null,
           "index": 1,
@@ -30,7 +30,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: justify;\"><span style=\"white-space: pre-wrap;\">‎10 V</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">‎10 V</span></p>",
           "values": [],
           "unit": null,
           "index": 2,
@@ -41,7 +41,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: justify;\"><span style=\"white-space: pre-wrap;\">‎5 V</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">‎5 V</span></p>",
           "values": [],
           "unit": null,
           "index": 3,

@@ -4,11 +4,11 @@
       "n": 1,
       "type": "matching",
       "subtype": null,
-      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Match the beginning of the sentence with the end of the sentence.</span></p><p class=\"LexicalTheme__paragraph\"><br></p>",
+      "stem": "<p><span style=\"white-space: pre-wrap;\">Match the beginning of the sentence with the end of the sentence.</span></p><p><br/></p>",
       "choices": [
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Sugar can damage</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">Sugar can damage</span></p>",
           "values": [],
           "unit": null,
           "index": 0,
@@ -19,7 +19,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">We feel anxious</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">We feel anxious</span></p>",
           "values": [],
           "unit": null,
           "index": 1,
@@ -30,7 +30,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">We use a teaspoon</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">We use a teaspoon</span></p>",
           "values": [],
           "unit": null,
           "index": 2,
@@ -41,7 +41,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">if we eat too much sugar.</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">if we eat too much sugar.</span></p>",
           "values": [],
           "unit": null,
           "index": 0,
@@ -52,7 +52,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">your teeth.</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">your teeth.</span></p>",
           "values": [],
           "unit": null,
           "index": 1,
@@ -63,7 +63,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">to measure sugar.</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">to measure sugar.</span></p>",
           "values": [],
           "unit": null,
           "index": 2,

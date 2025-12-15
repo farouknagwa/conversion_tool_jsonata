@@ -15,7 +15,7 @@
       {
         "n": 1,
         "type": "puzzle",
-        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span style=\"white-space: pre-wrap;\">رتب الصور لمعرفة الحيوان الأخير لدينا.</span></p>",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">رتب الصور لمعرفة الحيوان الأخير لدينا.</span></p>",
         "rows": "3",
         "columns": "3",
         "pieces": [

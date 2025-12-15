@@ -15,7 +15,7 @@
       {
         "n": 1,
         "type": "puzzle",
-        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">Arrange the pictures to find out the last animal we are going to meet.</span></p><p class=\"LexicalTheme__paragraph\" style=\"text-align: left;\"><br></p>",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">Arrange the pictures to find out the last animal we are going to meet.</span></p><p><br/></p>",
         "rows": "3",
         "columns": "3",
         "pieces": [

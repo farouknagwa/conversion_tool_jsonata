@@ -4,11 +4,11 @@
       "n": 1,
       "type": "opinion",
       "subtype": null,
-      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span style=\"white-space: pre-wrap;\">هل تعتقد أن أداء ياسمين في كرة القدم سيئ؟</span></p><p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/515128070405.png\" alt=\"247143252740\" width=\"525\" height=\"250\" style=\"aspect-ratio: 525/250;\" class=\"displayed-image\"></span></p>",
+      "stem": "<p><span style=\"white-space: pre-wrap;\">هل تعتقد أن أداء ياسمين في كرة القدم سيئ؟</span></p><p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"247143252740\" class=\"displayed-image\" height=\"250\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/515128070405.png\" style=\"aspect-ratio: 525/250;\" width=\"525\"/></span></p>",
       "choices": [
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span style=\"white-space: pre-wrap;\">نعم</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">نعم</span></p>",
           "values": [],
           "unit": null,
           "index": 0,
@@ -19,7 +19,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span style=\"white-space: pre-wrap;\">لا</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">لا</span></p>",
           "values": [],
           "unit": null,
           "index": 1,

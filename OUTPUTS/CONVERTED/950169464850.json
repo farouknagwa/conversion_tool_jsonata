@@ -15,7 +15,7 @@
       {
         "n": 1,
         "type": "input",
-        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">بنى شريف برجًا مُستخدِمًا ٨ مكعبات. ثم أضاف ٥ مكعبات أخرى. كم مكعبًا في البرج الآن؟</span><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/735173156794.svg\" alt=\"123 (1)\" width=\"16\" height=\"150\" style=\"aspect-ratio: 16/150;\" class=\"displayed-image\"></span></p>",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">بنى شريف برجًا مُستخدِمًا ٨ مكعبات. ثم أضاف ٥ مكعبات أخرى. كم مكعبًا في البرج الآن؟</span><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"123 (1)\" class=\"displayed-image\" height=\"150\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/735173156794.svg\" style=\"aspect-ratio: 16/150;\" width=\"16\"/></span></p>",
         "correct_answer": {
           "value": 13,
           "unit": "مكعبًا",

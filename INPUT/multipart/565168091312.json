@@ -4,11 +4,11 @@
       "n": 1,
       "type": "mcq",
       "subtype": null,
-      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">What doesn't stop the girl from smiling?</span></p>",
+      "stem": "<p><span style=\"white-space: pre-wrap;\">What doesn't stop the girl from smiling?</span></p>",
       "choices": [
         {
           "type": "key",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Braces</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">Braces</span></p>",
           "values": [],
           "unit": null,
           "index": 0,
@@ -19,7 +19,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Curly hair</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">Curly hair</span></p>",
           "values": [],
           "unit": null,
           "index": 1,
@@ -30,7 +30,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Mean</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">Mean</span></p>",
           "values": [],
           "unit": null,
           "index": 2,
@@ -41,7 +41,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Hearing aid</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">Hearing aid</span></p>",
           "values": [],
           "unit": null,
           "index": 3,
@@ -57,11 +57,11 @@
       "n": 2,
       "type": "mcq",
       "subtype": null,
-      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">What do the boy’s friends do for him?</span></p>",
+      "stem": "<p><span style=\"white-space: pre-wrap;\">What do the boy’s friends do for him?</span></p>",
       "choices": [
         {
           "type": "key",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Look after him</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">Look after him</span></p>",
           "values": [],
           "unit": null,
           "index": 0,
@@ -72,7 +72,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Make a difference</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">Make a difference</span></p>",
           "values": [],
           "unit": null,
           "index": 1,
@@ -83,7 +83,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Exciting</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">Exciting</span></p>",
           "values": [],
           "unit": null,
           "index": 2,
@@ -94,7 +94,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Imagine</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">Imagine</span></p>",
           "values": [],
           "unit": null,
           "index": 3,
@@ -110,11 +110,11 @@
       "n": 3,
       "type": "mcq",
       "subtype": null,
-      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">What do the students believe is more important than how they look?</span></p>",
+      "stem": "<p><span style=\"white-space: pre-wrap;\">What do the students believe is more important than how they look?</span></p>",
       "choices": [
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Straight hair</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">Straight hair</span></p>",
           "values": [],
           "unit": null,
           "index": 0,
@@ -125,7 +125,7 @@
         },
         {
           "type": "key",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Being kind</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">Being kind</span></p>",
           "values": [],
           "unit": null,
           "index": 1,
@@ -136,7 +136,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Different</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">Different</span></p>",
           "values": [],
           "unit": null,
           "index": 2,
@@ -147,7 +147,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Exciting</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">Exciting</span></p>",
           "values": [],
           "unit": null,
           "index": 3,
@@ -163,10 +163,10 @@
       "n": 4,
       "type": "frq_ai",
       "subtype": null,
-      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Why do the friends look after the boy in the wheelchair?</span></p>",
+      "stem": "<p><span style=\"white-space: pre-wrap;\">Why do the friends look after the boy in the wheelchair?</span></p>",
       "choices": [],
       "standalone": false,
-      "answer": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Because they care about him and want to help.</span></p>",
+      "answer": "<p><span style=\"white-space: pre-wrap;\">Because they care about him and want to help.</span></p>",
       "ai": {
         "ai_template_id": 458121578659,
         "feedback_dialect": "American English",
@@ -177,10 +177,10 @@
       "n": 5,
       "type": "frq_ai",
       "subtype": null,
-      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">How can you make a difference when someone feels sad?</span></p>",
+      "stem": "<p><span style=\"white-space: pre-wrap;\">How can you make a difference when someone feels sad?</span></p>",
       "choices": [],
       "standalone": false,
-      "answer": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">By being kind or trying to make them laugh.</span></p>",
+      "answer": "<p><span style=\"white-space: pre-wrap;\">By being kind or trying to make them laugh.</span></p>",
       "ai": {
         "ai_template_id": 458121578659,
         "feedback_dialect": "American English",
@@ -191,10 +191,10 @@
       "n": 6,
       "type": "frq_ai",
       "subtype": null,
-      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">What do the students imagine about the world?</span></p>",
+      "stem": "<p><span style=\"white-space: pre-wrap;\">What do the students imagine about the world?</span></p>",
       "choices": [],
       "standalone": false,
-      "answer": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">A world where people treat each other equally.</span></p>",
+      "answer": "<p><span style=\"white-space: pre-wrap;\">A world where people treat each other equally.</span></p>",
       "ai": {
         "ai_template_id": 458121578659,
         "feedback_dialect": "American English",
@@ -202,7 +202,7 @@
       }
     }
   ],
-  "statement": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">In our school, we believe that kindness can make a difference. One boy in our class uses a wheelchair, and his friends always look after him. Another girl wears braces, but she says they don’t stop her from smiling! Some of us have curly hair, others have straight hair, but we know that being kind is more important than how we look. If someone feels sad, we try to make them laugh. We imagine a world where people treat each other equally and nobody is mean or unkind.</span></p>",
+  "statement": "<p><span style=\"white-space: pre-wrap;\">In our school, we believe that kindness can make a difference. One boy in our class uses a wheelchair, and his friends always look after him. Another girl wears braces, but she says they don’t stop her from smiling! Some of us have curly hair, others have straight hair, but we know that being kind is more important than how we look. If someone feels sad, we try to make them laugh. We imagine a world where people treat each other equally and nobody is mean or unkind.</span></p>",
   "instance_number": 1,
   "metadata": {
     "id": 565168091312,

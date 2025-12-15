@@ -15,7 +15,7 @@
       {
         "n": 1,
         "type": "string",
-        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: justify;\"><span style=\"white-space: pre-wrap;\">Write what the following statement refers to: The measure of the average kinetic energy of the molecules or particles in a sample of matter.</span></p>",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">Write what the following statement refers to: The measure of the average kinetic energy of the molecules or particles in a sample of matter.</span></p>",
         "ai_template_id": "593158513739",
         "acceptable_answers": [
           "Temperature"

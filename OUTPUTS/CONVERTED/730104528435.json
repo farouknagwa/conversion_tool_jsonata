@@ -15,41 +15,41 @@
       {
         "n": 1,
         "type": "mrq",
-        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Which three help keep food fresh?</span></p>",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">Which three help keep food fresh?</span></p>",
         "choices": [
           {
             "label": "A",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Keep it cool</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">Keep it cool</span></p>",
             "is_correct": true
           },
           {
             "label": "B",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Leave it outside</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">Leave it outside</span></p>",
             "is_correct": false
           },
           {
             "label": "C",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Store it</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">Store it</span></p>",
             "is_correct": true
           },
           {
             "label": "D",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Cover it</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">Cover it</span></p>",
             "is_correct": true
           }
         ],
         "correct_answer": [
           {
             "label": "A",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Keep it cool</span></p>"
+            "value": "<p><span style=\"white-space: pre-wrap;\">Keep it cool</span></p>"
           },
           {
             "label": "C",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Store it</span></p>"
+            "value": "<p><span style=\"white-space: pre-wrap;\">Store it</span></p>"
           },
           {
             "label": "D",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Cover it</span></p>"
+            "value": "<p><span style=\"white-space: pre-wrap;\">Cover it</span></p>"
           }
         ],
         "explanation": ""

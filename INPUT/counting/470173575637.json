@@ -4,7 +4,7 @@
       "n": 1,
       "type": "counting",
       "subtype": null,
-      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span style=\"white-space: pre-wrap;\">عُدَّ كرات القدم.</span></p><p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/823142124952.svg\" alt=\"Question Image\" width=\"350\" height=\"172\" style=\"aspect-ratio: 350/172;\" class=\"displayed-image\"></span></p><p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span style=\"white-space: pre-wrap;\">أضف نقاطًا إلى إطار العشرة لتوضيح عدد </span><span style=\"white-space: pre-wrap;\">كرات القدم.</span></p>",
+      "stem": "<p><span style=\"white-space: pre-wrap;\">عُدَّ كرات القدم.</span></p><p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"Question Image\" class=\"displayed-image\" height=\"172\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/823142124952.svg\" style=\"aspect-ratio: 350/172;\" width=\"350\"/></span></p><p><span style=\"white-space: pre-wrap;\">أضف نقاطًا إلى إطار العشرة لتوضيح عدد </span><span style=\"white-space: pre-wrap;\">كرات القدم.</span></p>",
       "choices": [],
       "standalone": false,
       "answer": "7",

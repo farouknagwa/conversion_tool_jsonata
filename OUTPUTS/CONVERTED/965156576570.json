@@ -11,39 +11,39 @@
   "section_id": "469121250810",
   "source": "human",
   "content": {
-    "statement": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">لدى سوزان ١٥ سيارة لعبة. توجد ٣ سيارات خضراء، وبقية السيارات برتقالية. تريد صديقة سوزان معرفة عدد السيارات البرتقالية لدى سوزان.</span></p>",
+    "statement": "<p><span style=\"white-space: pre-wrap;\">لدى سوزان ١٥ سيارة لعبة. توجد ٣ سيارات خضراء، وبقية السيارات برتقالية. تريد صديقة سوزان معرفة عدد السيارات البرتقالية لدى سوزان.</span></p>",
     "parts": [
       {
         "n": 1,
         "type": "mcq",
-        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">أيُّ جملة عددية تُطابِق المسألة؟</span></p>",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">أيُّ جملة عددية تُطابِق المسألة؟</span></p>",
         "choices": [
           {
             "label": "أ",
-            "value": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: right;\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"{\\displaystyle{\\displaystyle{١٥+٣=\\textBlank}}}\" locale=\"ar\" lang=\"ar\">{\\displaystyle{\\displaystyle{١٥+٣=\\textBlank}}}</math-field></span></p>",
+            "value": "<p><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" lang=\"ar\" locale=\"ar\" read-only=\"true\" value=\"{\\displaystyle{\\displaystyle{١٥+٣=\\textBlank}}}\">{\\displaystyle{\\displaystyle{١٥+٣=\\textBlank}}}</math-field></span></p>",
             "is_correct": false
           },
           {
             "label": "ب",
-            "value": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: right;\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"\\displaystyle{١٥-٣=\\textBlank}\" locale=\"ar\" lang=\"ar\">\\displaystyle{١٥-٣=\\textBlank}</math-field></span></p>",
+            "value": "<p><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" lang=\"ar\" locale=\"ar\" read-only=\"true\" value=\"\\displaystyle{١٥-٣=\\textBlank}\">\\displaystyle{١٥-٣=\\textBlank}</math-field></span></p>",
             "is_correct": true
           },
           {
             "label": "ج",
-            "value": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: right;\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"\\displaystyle{٣-١٥=\\textBlank}\" locale=\"ar\" lang=\"ar\">\\displaystyle{٣-١٥=\\textBlank}</math-field></span></p>",
+            "value": "<p><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" lang=\"ar\" locale=\"ar\" read-only=\"true\" value=\"\\displaystyle{٣-١٥=\\textBlank}\">\\displaystyle{٣-١٥=\\textBlank}</math-field></span></p>",
             "is_correct": false
           }
         ],
         "correct_answer": {
           "label": "ب",
-          "value": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: right;\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"\\displaystyle{١٥-٣=\\textBlank}\" locale=\"ar\" lang=\"ar\">\\displaystyle{١٥-٣=\\textBlank}</math-field></span></p>"
+          "value": "<p><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" lang=\"ar\" locale=\"ar\" read-only=\"true\" value=\"\\displaystyle{١٥-٣=\\textBlank}\">\\displaystyle{١٥-٣=\\textBlank}</math-field></span></p>"
         },
         "explanation": ""
       },
       {
         "n": 2,
         "type": "input",
-        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">ما عدد السيارات البرتقالية؟</span></p>",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">ما عدد السيارات البرتقالية؟</span></p>",
         "correct_answer": {
           "value": 12,
           "unit": " سيارة برتقالية",

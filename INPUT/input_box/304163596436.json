@@ -4,7 +4,7 @@
       "n": 1,
       "type": "input_box",
       "subtype": null,
-      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span style=\"white-space: pre-wrap;\">يوجد ٩ ركاب في حافلة. عند محطة الحافلة، ركب ٤ أشخاص آخرون.</span></p><p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span style=\"white-space: pre-wrap;\">كم شخصًا في الحافلة الآن؟</span></p>",
+      "stem": "<p><span style=\"white-space: pre-wrap;\">يوجد ٩ ركاب في حافلة. عند محطة الحافلة، ركب ٤ أشخاص آخرون.</span></p><p><span style=\"white-space: pre-wrap;\">كم شخصًا في الحافلة الآن؟</span></p>",
       "choices": [],
       "standalone": false,
       "answer": {

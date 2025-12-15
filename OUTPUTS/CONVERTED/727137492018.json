@@ -15,53 +15,53 @@
       {
         "n": 1,
         "type": "ordering",
-        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Put the words in the correct order to form a sentence. </span></p>",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">Put the words in the correct order to form a sentence. </span></p>",
         "direction": "horizontal",
         "items": [
           {
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Khaled, Nour,</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">Khaled, Nour,</span></p>",
             "display_order": 1,
             "correct_order": 4
           },
           {
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">and Nagwa</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">and Nagwa</span></p>",
             "display_order": 2,
             "correct_order": 5
           },
           {
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">siblings</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">siblings</span></p>",
             "display_order": 3,
             "correct_order": 3
           },
           {
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">My</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">My</span></p>",
             "display_order": 4,
             "correct_order": 1
           },
           {
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">triplets.</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">triplets.</span></p>",
             "display_order": 5,
             "correct_order": 7
           },
           {
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">are</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">are</span></p>",
             "display_order": 6,
             "correct_order": 6
           },
           {
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">younger</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">younger</span></p>",
             "display_order": 7,
             "correct_order": 2
           }
         ],
         "correct_answer": [
-          "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">My</span></p>",
-          "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">younger</span></p>",
-          "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">siblings</span></p>",
-          "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Khaled, Nour,</span></p>",
-          "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">and Nagwa</span></p>",
-          "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">are</span></p>",
-          "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">triplets.</span></p>"
+          "<p><span style=\"white-space: pre-wrap;\">My</span></p>",
+          "<p><span style=\"white-space: pre-wrap;\">younger</span></p>",
+          "<p><span style=\"white-space: pre-wrap;\">siblings</span></p>",
+          "<p><span style=\"white-space: pre-wrap;\">Khaled, Nour,</span></p>",
+          "<p><span style=\"white-space: pre-wrap;\">and Nagwa</span></p>",
+          "<p><span style=\"white-space: pre-wrap;\">are</span></p>",
+          "<p><span style=\"white-space: pre-wrap;\">triplets.</span></p>"
         ],
         "explanation": ""
       }

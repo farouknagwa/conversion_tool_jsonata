@@ -4,11 +4,11 @@
       "n": 1,
       "type": "opinion",
       "subtype": null,
-      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span style=\"white-space: pre-wrap;\">قالت فاطمة: «إ</span><span style=\"white-space: pre-wrap;\">نها تستخدم الكمبيوتر في العمل مثل أمي».</span></p><p class=\"LexicalTheme__paragraph\"><br></p><p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span style=\"white-space: pre-wrap;\">في رأيك، ماذا تعمل والدتها؟</span></p>",
+      "stem": "<p><span style=\"white-space: pre-wrap;\">قالت فاطمة: «إ</span><span style=\"white-space: pre-wrap;\">نها تستخدم الكمبيوتر في العمل مثل أمي».</span></p><p><br/></p><p><span style=\"white-space: pre-wrap;\">في رأيك، ماذا تعمل والدتها؟</span></p>",
       "choices": [
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span style=\"white-space: pre-wrap;\">موظفة مكتبية</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">موظفة مكتبية</span></p>",
           "values": [],
           "unit": null,
           "index": 0,
@@ -19,7 +19,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span style=\"white-space: pre-wrap;\">مزارعة</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">مزارعة</span></p>",
           "values": [],
           "unit": null,
           "index": 1,
@@ -30,7 +30,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span style=\"white-space: pre-wrap;\">طبيبة بيطرية</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">طبيبة بيطرية</span></p>",
           "values": [],
           "unit": null,
           "index": 2,

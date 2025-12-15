@@ -15,7 +15,7 @@
       {
         "n": 1,
         "type": "input",
-        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">زرعت هبة ٦ زهور. </span></p><p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">زرعت ليلى ٨ زهور.</span></p><p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">باستخدام طريقة الجمع بتكوين العدد عشرة، ما إجمالي عدد الزهور التي زرعتها كلتا الطالبتين؟</span></p>",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">زرعت هبة ٦ زهور. </span></p><p><span style=\"white-space: pre-wrap;\">زرعت ليلى ٨ زهور.</span></p><p><span style=\"white-space: pre-wrap;\">باستخدام طريقة الجمع بتكوين العدد عشرة، ما إجمالي عدد الزهور التي زرعتها كلتا الطالبتين؟</span></p>",
         "correct_answer": {
           "value": 14,
           "unit": "زهرةً",

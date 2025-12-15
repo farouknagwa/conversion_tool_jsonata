@@ -4,7 +4,7 @@
       "n": 1,
       "type": "puzzle",
       "subtype": null,
-      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">Solve the following puzzle to identify animals that can be found in the ocean.</span></p>",
+      "stem": "<p><span style=\"white-space: pre-wrap;\">Solve the following puzzle to identify animals that can be found in the ocean.</span></p>",
       "choices": [],
       "standalone": false,
       "puzzleColumns": "3",

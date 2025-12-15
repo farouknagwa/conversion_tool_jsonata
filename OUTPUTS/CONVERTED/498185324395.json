@@ -15,41 +15,41 @@
       {
         "n": 1,
         "type": "mrq",
-        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">What three types of preserved foods can we eat?</span></p>",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">What three types of preserved foods can we eat?</span></p>",
         "choices": [
           {
             "label": "A",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Dried fish</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">Dried fish</span></p>",
             "is_correct": true
           },
           {
             "label": "B",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Canned beans</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">Canned beans</span></p>",
             "is_correct": true
           },
           {
             "label": "C",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Wet bread</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">Wet bread</span></p>",
             "is_correct": false
           },
           {
             "label": "D",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Smoked meat</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">Smoked meat</span></p>",
             "is_correct": true
           }
         ],
         "correct_answer": [
           {
             "label": "A",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Dried fish</span></p>"
+            "value": "<p><span style=\"white-space: pre-wrap;\">Dried fish</span></p>"
           },
           {
             "label": "B",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Canned beans</span></p>"
+            "value": "<p><span style=\"white-space: pre-wrap;\">Canned beans</span></p>"
           },
           {
             "label": "D",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Smoked meat</span></p>"
+            "value": "<p><span style=\"white-space: pre-wrap;\">Smoked meat</span></p>"
           }
         ],
         "explanation": ""

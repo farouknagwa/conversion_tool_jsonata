@@ -5,9 +5,9 @@
       "type": "frq_ai",
       "subtype": null,
       "standalone": false,
-      "stem": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: justify;\"><span style=\"white-space: pre-line;\">What is meant by movement?</span></p>",
+      "stem": "<p><span style=\"white-space: pre-line;\">What is meant by movement?</span></p>",
       "choices": [],
-      "answer": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: justify;\"><span style=\"white-space: pre-line;\">The change in the position of an object relative to a fixed point.</span></p>",
+      "answer": "<p><span style=\"white-space: pre-line;\">The change in the position of an object relative to a fixed point.</span></p>",
       "ai": {
         "ai_template_id": 352108393701
       }

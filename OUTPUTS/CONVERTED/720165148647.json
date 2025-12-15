@@ -15,41 +15,41 @@
       {
         "n": 1,
         "type": "mrq",
-        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Select </span><span style=\"color:#0D80F2; white-space: pre-wrap;\">all</span><span style=\"white-space: pre-wrap;\"> the causes of pollution.</span></p>",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">Select </span><span style=\"color:#0D80F2; white-space: pre-wrap;\">all</span><span style=\"white-space: pre-wrap;\"> the causes of pollution.</span></p>",
         "choices": [
           {
             "label": "A",
-            "value": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Humans leaving garbage on the land</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">Humans leaving garbage on the land</span></p>",
             "is_correct": true
           },
           {
             "label": "B",
-            "value": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Washing away soil and plants</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">Washing away soil and plants</span></p>",
             "is_correct": false
           },
           {
             "label": "C",
-            "value": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Volcanoes</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">Volcanoes</span></p>",
             "is_correct": true
           },
           {
             "label": "D",
-            "value": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Humans pouring chemicals into water</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">Humans pouring chemicals into water</span></p>",
             "is_correct": true
           }
         ],
         "correct_answer": [
           {
             "label": "A",
-            "value": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Humans leaving garbage on the land</span></p>"
+            "value": "<p><span style=\"white-space: pre-wrap;\">Humans leaving garbage on the land</span></p>"
           },
           {
             "label": "C",
-            "value": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Volcanoes</span></p>"
+            "value": "<p><span style=\"white-space: pre-wrap;\">Volcanoes</span></p>"
           },
           {
             "label": "D",
-            "value": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Humans pouring chemicals into water</span></p>"
+            "value": "<p><span style=\"white-space: pre-wrap;\">Humans pouring chemicals into water</span></p>"
           }
         ],
         "explanation": ""

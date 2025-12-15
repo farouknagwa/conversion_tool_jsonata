@@ -4,14 +4,14 @@
       "n": 1,
       "type": "matching",
       "subtype": null,
-      "stem": "<p dir=\"ltr\" style=\"text-align: left;\">Match the words with the pictures.</p>",
+      "stem": "<p>Match the words with the pictures.</p>",
       "answer": null,
       "grid_size": null,
       "gap_text_keys": null,
       "choices": [
         {
           "type": "distractor",
-          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">Play football</p>",
+          "html_content": "<p>Play football</p>",
           "values": [],
           "unit": null,
           "index": 0,
@@ -22,7 +22,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">Sleep</p>",
+          "html_content": "<p>Sleep</p>",
           "values": [],
           "unit": null,
           "index": 1,
@@ -33,7 +33,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">Vegetables</p>",
+          "html_content": "<p>Vegetables</p>",
           "values": [],
           "unit": null,
           "index": 2,
@@ -44,7 +44,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\"></p><div dir=\"ltr\" style=\"text-align: left;\"><img style=\"width: 115px;height: 82.1411px;\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/346106769148.svg\" alt=\"Question Image\" /></div><p dir=\"ltr\" style=\"text-align: left;\"></p>",
+          "html_content": "<p></p><div dir=\"ltr\" style=\"text-align: left;\"><img alt=\"Question Image\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/346106769148.svg\" style=\"width: 115px;height: 82.1411px;\"/></div><p></p>",
           "values": [],
           "unit": null,
           "index": 0,
@@ -55,7 +55,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\"></p><div dir=\"ltr\" style=\"text-align: left;\"><img style=\"width: 240px;height: 102.196px;\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/324108240396.svg\" alt=\"Question Image\" /></div><p dir=\"ltr\" style=\"text-align: left;\"></p>",
+          "html_content": "<p></p><div dir=\"ltr\" style=\"text-align: left;\"><img alt=\"Question Image\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/324108240396.svg\" style=\"width: 240px;height: 102.196px;\"/></div><p></p>",
           "values": [],
           "unit": null,
           "index": 1,
@@ -66,7 +66,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\"></p><div dir=\"ltr\" style=\"text-align: left;\"><img style=\"width: 230px;height: 258.836px;\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/546159095085.svg\" alt=\"Question Image\" /></div><p dir=\"ltr\" style=\"text-align: left;\"></p>",
+          "html_content": "<p></p><div dir=\"ltr\" style=\"text-align: left;\"><img alt=\"Question Image\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/546159095085.svg\" style=\"width: 230px;height: 258.836px;\"/></div><p></p>",
           "values": [],
           "unit": null,
           "index": 2,

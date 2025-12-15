@@ -15,7 +15,7 @@
       {
         "n": 1,
         "type": "string",
-        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"color: inherit; white-space: pre-wrap;\">Muscle pairs work so that when one contracts, the other </span><span data-node-type=\"blank-line\" data-node-variation=\"space\">&nbsp;</span><span style=\"color: inherit; white-space: pre-wrap;\">.</span></p>",
+        "stem": "<p><span style=\"color: inherit; white-space: pre-wrap;\">Muscle pairs work so that when one contracts, the other </span><span data-node-type=\"blank-line\" data-node-variation=\"space\"> </span><span style=\"color: inherit; white-space: pre-wrap;\">.</span></p>",
         "ai_template_id": "593158513739",
         "acceptable_answers": [
           "relaxes"

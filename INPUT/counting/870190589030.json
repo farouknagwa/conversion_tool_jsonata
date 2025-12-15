@@ -4,7 +4,7 @@
       "n": 1,
       "type": "counting",
       "subtype": null,
-      "stem": "<p dir=\"ltr\" style=\"text-align: left;\">Place this number of counters on the five frame.</p><p dir=\"ltr\" style=\"text-align: left;\"></p><div dir=\"ltr\" style=\"text-align: center;\" class=\"h-scroll\"><img style=\"width: 150px;height: 132.868px;\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/923161584218.svg\" alt=\"Question Image\" class=\"displayed-image\" /></div><p dir=\"ltr\" style=\"text-align: left;\"></p><div dir=\"\" style=\"text-align: ;\" class=\"audio-wrapper\"><audio  src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/918135021013.mp3\" class=\"audio-player\"></audio></div>",
+      "stem": "<p>Place this number of counters on the five frame.</p><p></p><div class=\"h-scroll\" dir=\"ltr\" style=\"text-align: center;\"><img alt=\"Question Image\" class=\"displayed-image\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/923161584218.svg\" style=\"width: 150px;height: 132.868px;\"/></div><p></p><div class=\"audio-wrapper\" dir=\"\" style=\"text-align: ;\"><audio class=\"audio-player\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/918135021013.mp3\"></audio></div>",
       "answer": "4",
       "grid_size": "1×5",
       "gap_text_keys": null,

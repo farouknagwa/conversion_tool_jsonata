@@ -15,32 +15,32 @@
       {
         "n": 1,
         "type": "mcq",
-        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: justify;\"><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">جلفانومتر مقاومة ملفه ‎0.5 Ω يتطلَّب انحرافه إلى نهاية تدريجه مرور تيار شدته ‎2 mA. </span><span style=\"color: rgb(51, 51, 51); white-space: pre-wrap;\">ما قيمة المقاومة الكلية للفولتميتر عند تحويله إلى قياس أقصى مدى مقداره</span><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\"> </span><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">‎20 V؟</span></p>",
+        "stem": "<p><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">جلفانومتر مقاومة ملفه ‎0.5 Ω يتطلَّب انحرافه إلى نهاية تدريجه مرور تيار شدته ‎2 mA. </span><span style=\"color: rgb(51, 51, 51); white-space: pre-wrap;\">ما قيمة المقاومة الكلية للفولتميتر عند تحويله إلى قياس أقصى مدى مقداره</span><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\"> </span><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">‎20 V؟</span></p>",
         "choices": [
           {
             "label": "أ",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: justify;\"><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">‎9,999.5 Ω</span></p>",
+            "value": "<p><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">‎9,999.5 Ω</span></p>",
             "is_correct": true
           },
           {
             "label": "ب",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: justify;\"><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">‎1,000 Ω</span></p>",
+            "value": "<p><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">‎1,000 Ω</span></p>",
             "is_correct": false
           },
           {
             "label": "ج",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: justify;\"><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">‎9,500 Ω</span></p>",
+            "value": "<p><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">‎9,500 Ω</span></p>",
             "is_correct": false
           },
           {
             "label": "د",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: justify;\"><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">‎500 Ω</span></p>",
+            "value": "<p><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">‎500 Ω</span></p>",
             "is_correct": false
           }
         ],
         "correct_answer": {
           "label": "أ",
-          "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: justify;\"><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">‎9,999.5 Ω</span></p>"
+          "value": "<p><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">‎9,999.5 Ω</span></p>"
         },
         "explanation": ""
       }

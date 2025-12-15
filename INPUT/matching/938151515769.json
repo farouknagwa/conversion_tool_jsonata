@@ -4,11 +4,11 @@
       "n": 1,
       "type": "matching",
       "subtype": null,
-      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">Drag each moving part of an animal to match its name.</span></p>",
+      "stem": "<p><span style=\"white-space: pre-wrap;\">Drag each moving part of an animal to match its name.</span></p>",
       "choices": [
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">Fins</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">Fins</span></p>",
           "values": [],
           "unit": null,
           "index": 0,
@@ -19,7 +19,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">Wings</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">Wings</span></p>",
           "values": [],
           "unit": null,
           "index": 1,
@@ -30,7 +30,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">Hooves</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">Hooves</span></p>",
           "values": [],
           "unit": null,
           "index": 2,
@@ -41,7 +41,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/497190496428.svg\" alt=\"412139818173\" width=\"100\" height=\"71\" style=\"aspect-ratio: 100/71;\" class=\"displayed-image\"></span></p>",
+          "html_content": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"412139818173\" class=\"displayed-image\" height=\"71\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/497190496428.svg\" style=\"aspect-ratio: 100/71;\" width=\"100\"/></span></p>",
           "values": [],
           "unit": null,
           "index": 0,
@@ -52,7 +52,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/196149407107.svg\" alt=\"837192454871\" width=\"200\" height=\"135\" style=\"aspect-ratio: 200/135;\" class=\"displayed-image\"></span></p>",
+          "html_content": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"837192454871\" class=\"displayed-image\" height=\"135\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/196149407107.svg\" style=\"aspect-ratio: 200/135;\" width=\"200\"/></span></p>",
           "values": [],
           "unit": null,
           "index": 1,
@@ -63,7 +63,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/806107937453.svg\" alt=\"597164595750\" width=\"200\" height=\"83\" style=\"aspect-ratio: 200/83;\" class=\"displayed-image\"></span></p>",
+          "html_content": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"597164595750\" class=\"displayed-image\" height=\"83\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/806107937453.svg\" style=\"aspect-ratio: 200/83;\" width=\"200\"/></span></p>",
           "values": [],
           "unit": null,
           "index": 2,

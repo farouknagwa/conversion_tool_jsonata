@@ -15,51 +15,51 @@
       {
         "n": 1,
         "type": "matching",
-        "stem": "<p dir=\"ltr\" style=\"text-align: left;\">Match the words with the pictures.</p>",
+        "stem": "<p>Match the words with the pictures.</p>",
         "items": {
           "A": [
             {
-              "value": "<p dir=\"ltr\" style=\"text-align: left;\">Play football</p>",
+              "value": "<p>Play football</p>",
               "label": "A1"
             },
             {
-              "value": "<p dir=\"ltr\" style=\"text-align: left;\">Sleep</p>",
+              "value": "<p>Sleep</p>",
               "label": "A2"
             },
             {
-              "value": "<p dir=\"ltr\" style=\"text-align: left;\">Vegetables</p>",
+              "value": "<p>Vegetables</p>",
               "label": "A3"
             }
           ],
           "B": [
             {
-              "value": "<p dir=\"ltr\" style=\"text-align: left;\"></p><div dir=\"ltr\" style=\"text-align: left;\"><img style=\"width: 115px;height: 82.1411px;\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/346106769148.svg\" alt=\"Question Image\" /></div><p dir=\"ltr\" style=\"text-align: left;\"></p>",
+              "value": "<p></p><div dir=\"ltr\" style=\"text-align: left;\"><img alt=\"Question Image\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/346106769148.svg\" style=\"width: 115px;height: 82.1411px;\"/></div><p></p>",
               "label": "B1",
               "matches": "A3"
             },
             {
-              "value": "<p dir=\"ltr\" style=\"text-align: left;\"></p><div dir=\"ltr\" style=\"text-align: left;\"><img style=\"width: 240px;height: 102.196px;\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/324108240396.svg\" alt=\"Question Image\" /></div><p dir=\"ltr\" style=\"text-align: left;\"></p>",
+              "value": "<p></p><div dir=\"ltr\" style=\"text-align: left;\"><img alt=\"Question Image\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/324108240396.svg\" style=\"width: 240px;height: 102.196px;\"/></div><p></p>",
               "label": "B2",
               "matches": "A2"
             },
             {
-              "value": "<p dir=\"ltr\" style=\"text-align: left;\"></p><div dir=\"ltr\" style=\"text-align: left;\"><img style=\"width: 230px;height: 258.836px;\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/546159095085.svg\" alt=\"Question Image\" /></div><p dir=\"ltr\" style=\"text-align: left;\"></p>",
+              "value": "<p></p><div dir=\"ltr\" style=\"text-align: left;\"><img alt=\"Question Image\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/546159095085.svg\" style=\"width: 230px;height: 258.836px;\"/></div><p></p>",
               "label": "B3",
               "matches": "A1"
             }
           ],
           "correct_answer": [
             {
-              "A": "<p dir=\"ltr\" style=\"text-align: left;\">Play football</p>",
-              "B": "<p dir=\"ltr\" style=\"text-align: left;\"></p><div dir=\"ltr\" style=\"text-align: left;\"><img style=\"width: 230px;height: 258.836px;\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/546159095085.svg\" alt=\"Question Image\" /></div><p dir=\"ltr\" style=\"text-align: left;\"></p>"
+              "A": "<p>Play football</p>",
+              "B": "<p></p><div dir=\"ltr\" style=\"text-align: left;\"><img alt=\"Question Image\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/546159095085.svg\" style=\"width: 230px;height: 258.836px;\"/></div><p></p>"
             },
             {
-              "A": "<p dir=\"ltr\" style=\"text-align: left;\">Sleep</p>",
-              "B": "<p dir=\"ltr\" style=\"text-align: left;\"></p><div dir=\"ltr\" style=\"text-align: left;\"><img style=\"width: 240px;height: 102.196px;\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/324108240396.svg\" alt=\"Question Image\" /></div><p dir=\"ltr\" style=\"text-align: left;\"></p>"
+              "A": "<p>Sleep</p>",
+              "B": "<p></p><div dir=\"ltr\" style=\"text-align: left;\"><img alt=\"Question Image\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/324108240396.svg\" style=\"width: 240px;height: 102.196px;\"/></div><p></p>"
             },
             {
-              "A": "<p dir=\"ltr\" style=\"text-align: left;\">Vegetables</p>",
-              "B": "<p dir=\"ltr\" style=\"text-align: left;\"></p><div dir=\"ltr\" style=\"text-align: left;\"><img style=\"width: 115px;height: 82.1411px;\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/346106769148.svg\" alt=\"Question Image\" /></div><p dir=\"ltr\" style=\"text-align: left;\"></p>"
+              "A": "<p>Vegetables</p>",
+              "B": "<p></p><div dir=\"ltr\" style=\"text-align: left;\"><img alt=\"Question Image\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/346106769148.svg\" style=\"width: 115px;height: 82.1411px;\"/></div><p></p>"
             }
           ]
         },

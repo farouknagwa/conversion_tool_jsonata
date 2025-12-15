@@ -4,11 +4,11 @@
       "n": 1,
       "type": "matching",
       "subtype": null,
-      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Drag the cause on the right to match its effect on the left.</span></p>",
+      "stem": "<p><span style=\"white-space: pre-wrap;\">Drag the cause on the right to match its effect on the left.</span></p>",
       "choices": [
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Plants and soil are washed away.</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">Plants and soil are washed away.</span></p>",
           "values": [],
           "unit": null,
           "index": 0,
@@ -19,7 +19,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Dead plants are cleared, returning nutrients to the soil.</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">Dead plants are cleared, returning nutrients to the soil.</span></p>",
           "values": [],
           "unit": null,
           "index": 1,
@@ -30,7 +30,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Animals move away to find water.</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">Animals move away to find water.</span></p>",
           "values": [],
           "unit": null,
           "index": 2,
@@ -41,7 +41,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Lightning strikes dry grass starting a fire.</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">Lightning strikes dry grass starting a fire.</span></p>",
           "values": [],
           "unit": null,
           "index": 0,
@@ -52,7 +52,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Huge amounts of rain flood a valley.</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">Huge amounts of rain flood a valley.</span></p>",
           "values": [],
           "unit": null,
           "index": 1,
@@ -63,7 +63,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">A long period of time passes without rain.</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">A long period of time passes without rain.</span></p>",
           "values": [],
           "unit": null,
           "index": 2,

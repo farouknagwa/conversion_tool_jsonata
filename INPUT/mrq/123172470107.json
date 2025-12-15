@@ -5,11 +5,11 @@
       "type": "mrq",
       "subtype": null,
       "standalone": false,
-      "stem": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Choose the two words that have the /er/ sound.</span></p>",
+      "stem": "<p><span style=\"white-space: pre-wrap;\">Choose the two words that have the /er/ sound.</span></p>",
       "choices": [
         {
           "type": "key",
-          "html_content": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">ladder</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">ladder</span></p>",
           "values": [],
           "unit": null,
           "index": 0,
@@ -18,7 +18,7 @@
         },
         {
           "type": "key",
-          "html_content": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">there</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">there</span></p>",
           "values": [],
           "unit": null,
           "index": 1,
@@ -27,7 +27,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">square</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">square</span></p>",
           "values": [],
           "unit": null,
           "index": 2,
@@ -36,7 +36,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">stare</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">stare</span></p>",
           "values": [],
           "unit": null,
           "index": 3,

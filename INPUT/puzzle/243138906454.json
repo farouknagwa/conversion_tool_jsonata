@@ -4,7 +4,7 @@
       "n": 1,
       "type": "puzzle",
       "subtype": null,
-      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span style=\"white-space: pre-wrap;\">رتب الصور لمعرفة الحيوان الأخير لدينا.</span></p>",
+      "stem": "<p><span style=\"white-space: pre-wrap;\">رتب الصور لمعرفة الحيوان الأخير لدينا.</span></p>",
       "choices": [],
       "standalone": false,
       "puzzleColumns": "3",

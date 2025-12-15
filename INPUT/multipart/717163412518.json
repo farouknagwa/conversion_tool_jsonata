@@ -4,7 +4,7 @@
       "n": 1,
       "type": "counting",
       "subtype": null,
-      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">أَضِف قطع العَدِّ لتُوضِّح عددها.</span></p>",
+      "stem": "<p><span style=\"white-space: pre-wrap;\">أَضِف قطع العَدِّ لتُوضِّح عددها.</span></p>",
       "choices": [],
       "standalone": false,
       "answer": "5",
@@ -14,11 +14,11 @@
       "n": 2,
       "type": "mcq",
       "subtype": null,
-      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">ما عدد قطع العَدِّ؟</span></p>",
+      "stem": "<p><span style=\"white-space: pre-wrap;\">ما عدد قطع العَدِّ؟</span></p>",
       "choices": [
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">٤</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">٤</span></p>",
           "values": [],
           "unit": null,
           "index": 0,
@@ -29,7 +29,7 @@
         },
         {
           "type": "key",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">٥</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">٥</span></p>",
           "values": [],
           "unit": null,
           "index": 1,
@@ -40,7 +40,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">٦</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">٦</span></p>",
           "values": [],
           "unit": null,
           "index": 2,
@@ -53,7 +53,7 @@
       "standalone": false
     }
   ],
-  "statement": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">عُدَّ الطيور.</span><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/632153591402.svg\" alt=\"1 (4)\" width=\"1959\" height=\"300\" style=\"aspect-ratio: 1959/300;\" class=\"displayed-image\"></span></p>",
+  "statement": "<p><span style=\"white-space: pre-wrap;\">عُدَّ الطيور.</span><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"1 (4)\" class=\"displayed-image\" height=\"300\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/632153591402.svg\" style=\"aspect-ratio: 1959/300;\" width=\"1959\"/></span></p>",
   "instance_number": 1,
   "metadata": {
     "id": 519145345950,

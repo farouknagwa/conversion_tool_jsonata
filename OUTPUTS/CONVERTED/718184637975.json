@@ -15,7 +15,7 @@
       {
         "n": 1,
         "type": "string",
-        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">صوِّب الكلمة التي تحتها خط: النظام المُغلَق يَسمح بتبادُل </span><u><span class=\"LexicalTheme__textUnderline\" style=\"white-space: pre-wrap;\">المادة</span></u><span style=\"white-space: pre-wrap;\"> مع الوَسَط المُحيط.</span></p>",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">صوِّب الكلمة التي تحتها خط: النظام المُغلَق يَسمح بتبادُل </span><u><span class=\"LexicalTheme__textUnderline\" style=\"white-space: pre-wrap;\">المادة</span></u><span style=\"white-space: pre-wrap;\"> مع الوَسَط المُحيط.</span></p>",
         "ai_template_id": "593158513739",
         "acceptable_answers": [
           "الطاقة"

@@ -15,7 +15,7 @@
       {
         "n": 1,
         "type": "string",
-        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"color: rgb(89, 89, 89); white-space: pre-wrap;\">Correct the underlined word: Scientists use a </span><u><span class=\"LexicalTheme__textUnderline\" style=\"color: rgb(89, 89, 89); white-space: pre-wrap;\">generator</span></u><span style=\"color: rgb(89, 89, 89); white-space: pre-wrap;\"> to detect the flow of small electric currents.</span></p>",
+        "stem": "<p><span style=\"color: rgb(89, 89, 89); white-space: pre-wrap;\">Correct the underlined word: Scientists use a </span><u><span class=\"LexicalTheme__textUnderline\" style=\"color: rgb(89, 89, 89); white-space: pre-wrap;\">generator</span></u><span style=\"color: rgb(89, 89, 89); white-space: pre-wrap;\"> to detect the flow of small electric currents.</span></p>",
         "ai_template_id": "593158513739",
         "acceptable_answers": [
           "galvanometer"

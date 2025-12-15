@@ -4,11 +4,11 @@
       "n": 1,
       "type": "opinion",
       "subtype": null,
-      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">Why do you think Nadia’s dad chose to be a farmer?</span></p>",
+      "stem": "<p><span style=\"white-space: pre-wrap;\">Why do you think Nadia’s dad chose to be a farmer?</span></p>",
       "choices": [
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">He likes growing things.</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">He likes growing things.</span></p>",
           "values": [],
           "unit": null,
           "index": 0,
@@ -19,7 +19,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">He likes fixing cars.</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">He likes fixing cars.</span></p>",
           "values": [],
           "unit": null,
           "index": 1,
@@ -30,7 +30,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">He likes drawing.</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">He likes drawing.</span></p>",
           "values": [],
           "unit": null,
           "index": 2,

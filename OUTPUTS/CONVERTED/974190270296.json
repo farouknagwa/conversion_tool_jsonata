@@ -15,7 +15,7 @@
       {
         "n": 1,
         "type": "mrq",
-        "stem": "<p dir=\"ltr\" style=\"text-align: left;\">Which two of these foods are sources of <b>fat</b>?</p>",
+        "stem": "<p>Which two of these foods are sources of <b>fat</b>?</p>",
         "choices": [
           {
             "label": "A",

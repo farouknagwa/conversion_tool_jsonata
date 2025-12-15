@@ -4,10 +4,10 @@
       "n": 1,
       "type": "frq_ai",
       "subtype": null,
-      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"color: rgb(51, 51, 51); white-space: pre-wrap;\">Give reason: This ball was in motion.</span><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/197167938797.svg\" alt=\"236102925634\" width=\"350\" height=\"210\" style=\"aspect-ratio: 350/210;\" class=\"displayed-image\"></span></p>",
+      "stem": "<p><span style=\"color: rgb(51, 51, 51); white-space: pre-wrap;\">Give reason: This ball was in motion.</span><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"236102925634\" class=\"displayed-image\" height=\"210\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/197167938797.svg\" style=\"aspect-ratio: 350/210;\" width=\"350\"/></span></p>",
       "choices": [],
       "standalone": false,
-      "answer": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"color: rgb(51, 51, 51); white-space: pre-wrap;\">Because the ball has changed position over time relative to a fixed starting point.</span></p>",
+      "answer": "<p><span style=\"color: rgb(51, 51, 51); white-space: pre-wrap;\">Because the ball has changed position over time relative to a fixed starting point.</span></p>",
       "ai": {
         "ai_template_id": 352108393701
       }

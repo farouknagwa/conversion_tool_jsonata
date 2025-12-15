@@ -15,7 +15,7 @@
       {
         "n": 1,
         "type": "gap",
-        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Our bodies need lots of </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span><span style=\"white-space: pre-wrap;\"> vitamins in </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span><span style=\"white-space: pre-wrap;\"> amounts.</span></p>",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">Our bodies need lots of </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span><span style=\"white-space: pre-wrap;\"> vitamins in </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span><span style=\"white-space: pre-wrap;\"> amounts.</span></p>",
         "gap_keys": [
           {
             "value": "the same",
@@ -36,7 +36,7 @@
             "correct_order": 2
           }
         ],
-        "correct_answer": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Our bodies need lots of </span> different<span style=\"white-space: pre-wrap;\"> vitamins in </span> small<span style=\"white-space: pre-wrap;\"> amounts.</span></p>",
+        "correct_answer": "<p><span style=\"white-space: pre-wrap;\">Our bodies need lots of </span> different<span style=\"white-space: pre-wrap;\"> vitamins in </span> small<span style=\"white-space: pre-wrap;\"> amounts.</span></p>",
         "explanation": ""
       }
     ]

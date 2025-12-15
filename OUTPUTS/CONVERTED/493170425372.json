@@ -15,19 +15,19 @@
       {
         "n": 1,
         "type": "opinion",
-        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">Why do you think Nadia’s dad chose to be a farmer?</span></p>",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">Why do you think Nadia’s dad chose to be a farmer?</span></p>",
         "choices": [
           {
             "label": "A",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">He likes growing things.</span></p>"
+            "value": "<p><span style=\"white-space: pre-wrap;\">He likes growing things.</span></p>"
           },
           {
             "label": "B",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">He likes fixing cars.</span></p>"
+            "value": "<p><span style=\"white-space: pre-wrap;\">He likes fixing cars.</span></p>"
           },
           {
             "label": "C",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">He likes drawing.</span></p>"
+            "value": "<p><span style=\"white-space: pre-wrap;\">He likes drawing.</span></p>"
           }
         ],
         "explanation": ""

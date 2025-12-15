@@ -5,11 +5,11 @@
       "type": "matching",
       "subtype": null,
       "standalone": false,
-      "stem": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Match each animal to its correct habitat.</span></p>",
+      "stem": "<p><span style=\"white-space: pre-wrap;\">Match each animal to its correct habitat.</span></p>",
       "choices": [
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Shark</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">Shark</span></p>",
           "group": 1,
           "correct_order": 1,
           "values": [],
@@ -20,7 +20,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Camel</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">Camel</span></p>",
           "group": 1,
           "correct_order": 2,
           "values": [],
@@ -31,7 +31,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Rabbit</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">Rabbit</span></p>",
           "group": 1,
           "correct_order": 3,
           "values": [],
@@ -42,7 +42,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Ocean</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">Ocean</span></p>",
           "group": 2,
           "correct_order": 1,
           "values": [],
@@ -53,7 +53,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Desert</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">Desert</span></p>",
           "group": 2,
           "correct_order": 2,
           "values": [],
@@ -64,7 +64,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Grassland</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">Grassland</span></p>",
           "group": 2,
           "correct_order": 3,
           "values": [],

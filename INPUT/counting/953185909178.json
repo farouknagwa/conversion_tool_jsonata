@@ -4,7 +4,7 @@
       "n": 1,
       "type": "counting",
       "subtype": null,
-      "stem": "<p dir=\"rtl\" style=\"text-align: justify;\">ضع هذا العدد من قِطَع العدِّ في إطار الخمسة.</p><div dir=\"rtl\" style=\"text-align: center;\" class=\"h-scroll\"><img style=\"width: 80px;height: 137.242px;\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/194150367048.svg\" alt=\"صورة السؤال\" class=\"displayed-image\" /></div><div dir=\"\" style=\"text-align: ;\" class=\"audio-wrapper\"><audio  src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/586176572059.mp3\" class=\"audio-player\"></audio></div>",
+      "stem": "<p>ضع هذا العدد من قِطَع العدِّ في إطار الخمسة.</p><div class=\"h-scroll\" dir=\"rtl\" style=\"text-align: center;\"><img alt=\"صورة السؤال\" class=\"displayed-image\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/194150367048.svg\" style=\"width: 80px;height: 137.242px;\"/></div><div class=\"audio-wrapper\" dir=\"\" style=\"text-align: ;\"><audio class=\"audio-player\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/586176572059.mp3\"></audio></div>",
       "answer": "٤",
       "grid_size": "1×5",
       "gap_text_keys": null,

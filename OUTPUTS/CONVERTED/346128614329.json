@@ -15,51 +15,51 @@
       {
         "n": 1,
         "type": "matching",
-        "stem": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Match each animal to its correct habitat.</span></p>",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">Match each animal to its correct habitat.</span></p>",
         "items": {
           "A": [
             {
-              "value": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Shark</span></p>",
+              "value": "<p><span style=\"white-space: pre-wrap;\">Shark</span></p>",
               "label": "A1"
             },
             {
-              "value": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Camel</span></p>",
+              "value": "<p><span style=\"white-space: pre-wrap;\">Camel</span></p>",
               "label": "A2"
             },
             {
-              "value": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Rabbit</span></p>",
+              "value": "<p><span style=\"white-space: pre-wrap;\">Rabbit</span></p>",
               "label": "A3"
             }
           ],
           "B": [
             {
-              "value": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Ocean</span></p>",
+              "value": "<p><span style=\"white-space: pre-wrap;\">Ocean</span></p>",
               "label": "B1",
               "matches": "A1"
             },
             {
-              "value": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Desert</span></p>",
+              "value": "<p><span style=\"white-space: pre-wrap;\">Desert</span></p>",
               "label": "B2",
               "matches": "A2"
             },
             {
-              "value": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Grassland</span></p>",
+              "value": "<p><span style=\"white-space: pre-wrap;\">Grassland</span></p>",
               "label": "B3",
               "matches": "A3"
             }
           ],
           "correct_answer": [
             {
-              "A": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Shark</span></p>",
-              "B": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Ocean</span></p>"
+              "A": "<p><span style=\"white-space: pre-wrap;\">Shark</span></p>",
+              "B": "<p><span style=\"white-space: pre-wrap;\">Ocean</span></p>"
             },
             {
-              "A": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Camel</span></p>",
-              "B": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Desert</span></p>"
+              "A": "<p><span style=\"white-space: pre-wrap;\">Camel</span></p>",
+              "B": "<p><span style=\"white-space: pre-wrap;\">Desert</span></p>"
             },
             {
-              "A": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Rabbit</span></p>",
-              "B": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Grassland</span></p>"
+              "A": "<p><span style=\"white-space: pre-wrap;\">Rabbit</span></p>",
+              "B": "<p><span style=\"white-space: pre-wrap;\">Grassland</span></p>"
             }
           ]
         },

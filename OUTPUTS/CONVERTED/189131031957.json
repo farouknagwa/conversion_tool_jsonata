@@ -15,19 +15,19 @@
       {
         "n": 1,
         "type": "opinion",
-        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">برأيك، من أين يأتي الماء في منزلك؟</span></p>",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">برأيك، من أين يأتي الماء في منزلك؟</span></p>",
         "choices": [
           {
             "label": "أ",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">البحر.</span></p>"
+            "value": "<p><span style=\"white-space: pre-wrap;\">البحر.</span></p>"
           },
           {
             "label": "ب",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">النهر.</span></p>"
+            "value": "<p><span style=\"white-space: pre-wrap;\">النهر.</span></p>"
           },
           {
             "label": "ج",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">البحيرة.</span></p>"
+            "value": "<p><span style=\"white-space: pre-wrap;\">البحيرة.</span></p>"
           }
         ],
         "explanation": ""

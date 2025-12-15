@@ -15,32 +15,32 @@
       {
         "n": 1,
         "type": "mrq",
-        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Which </span><b><strong class=\"LexicalTheme__textBold\" style=\"white-space: pre-wrap;\">two </strong></b><span style=\"white-space: pre-wrap;\">nutrient types give your body energy?</span></p><p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/326182158986.svg\" alt=\"595153649247 (1)\" width=\"700\" height=\"116.66666666666667\" style=\"aspect-ratio: 700/116.66666666666667;\" class=\"displayed-image\"></span></p>",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">Which </span><b><strong class=\"LexicalTheme__textBold\" style=\"white-space: pre-wrap;\">two </strong></b><span style=\"white-space: pre-wrap;\">nutrient types give your body energy?</span></p><p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"595153649247 (1)\" class=\"displayed-image\" height=\"116.66666666666667\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/326182158986.svg\" style=\"aspect-ratio: 700/116.66666666666667;\" width=\"700\"/></span></p>",
         "choices": [
           {
             "label": "A",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Proteins</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">Proteins</span></p>",
             "is_correct": false
           },
           {
             "label": "B",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Fats</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">Fats</span></p>",
             "is_correct": true
           },
           {
             "label": "C",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Carbohydrates</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">Carbohydrates</span></p>",
             "is_correct": true
           }
         ],
         "correct_answer": [
           {
             "label": "B",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Fats</span></p>"
+            "value": "<p><span style=\"white-space: pre-wrap;\">Fats</span></p>"
           },
           {
             "label": "C",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Carbohydrates</span></p>"
+            "value": "<p><span style=\"white-space: pre-wrap;\">Carbohydrates</span></p>"
           }
         ],
         "explanation": ""

@@ -15,64 +15,64 @@
       {
         "n": 1,
         "type": "matching",
-        "stem": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: left;\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Drag each part of a plant to match its function.</span></p>",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">Drag each part of a plant to match its function.</span></p>",
         "items": {
           "A": [
             {
-              "value": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: left;\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">They drink up water and nutrients from the soil and hold the plant in the ground.</span></p>",
+              "value": "<p><span style=\"white-space: pre-wrap;\">They drink up water and nutrients from the soil and hold the plant in the ground.</span></p>",
               "label": "A1"
             },
             {
-              "value": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: left;\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">It uses sunlight to make food for the plant.</span></p>",
+              "value": "<p><span style=\"white-space: pre-wrap;\">It uses sunlight to make food for the plant.</span></p>",
               "label": "A2"
             },
             {
-              "value": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: left;\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">It makes seeds.</span></p>",
+              "value": "<p><span style=\"white-space: pre-wrap;\">It makes seeds.</span></p>",
               "label": "A3"
             },
             {
-              "value": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: left;\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">It carries water from the roots to the other parts of the plant.</span></p>",
+              "value": "<p><span style=\"white-space: pre-wrap;\">It carries water from the roots to the other parts of the plant.</span></p>",
               "label": "A4"
             }
           ],
           "B": [
             {
-              "value": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: center;\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/268161731298.svg\" alt=\"526152454306\" width=\"200\" class=\"displayed-image\"></span></p>",
+              "value": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"526152454306\" class=\"displayed-image\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/268161731298.svg\" width=\"200\"/></span></p>",
               "label": "B1",
               "matches": "A1"
             },
             {
-              "value": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/628193793897.svg\" alt=\"765161403745\" width=\"100\" class=\"displayed-image\"></span></p>",
+              "value": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"765161403745\" class=\"displayed-image\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/628193793897.svg\" width=\"100\"/></span></p>",
               "label": "B2",
               "matches": "A3"
             },
             {
-              "value": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/176148495362.svg\" alt=\"934161646849\" width=\"100\" class=\"displayed-image\"></span></p>",
+              "value": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"934161646849\" class=\"displayed-image\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/176148495362.svg\" width=\"100\"/></span></p>",
               "label": "B3",
               "matches": "A2"
             },
             {
-              "value": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/512187985417.svg\" alt=\"579138603918\" width=\"70\" class=\"displayed-image\"></span></p>",
+              "value": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"579138603918\" class=\"displayed-image\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/512187985417.svg\" width=\"70\"/></span></p>",
               "label": "B4",
               "matches": "A4"
             }
           ],
           "correct_answer": [
             {
-              "A": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: left;\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">They drink up water and nutrients from the soil and hold the plant in the ground.</span></p>",
-              "B": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: center;\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/268161731298.svg\" alt=\"526152454306\" width=\"200\" class=\"displayed-image\"></span></p>"
+              "A": "<p><span style=\"white-space: pre-wrap;\">They drink up water and nutrients from the soil and hold the plant in the ground.</span></p>",
+              "B": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"526152454306\" class=\"displayed-image\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/268161731298.svg\" width=\"200\"/></span></p>"
             },
             {
-              "A": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: left;\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">It uses sunlight to make food for the plant.</span></p>",
-              "B": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/176148495362.svg\" alt=\"934161646849\" width=\"100\" class=\"displayed-image\"></span></p>"
+              "A": "<p><span style=\"white-space: pre-wrap;\">It uses sunlight to make food for the plant.</span></p>",
+              "B": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"934161646849\" class=\"displayed-image\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/176148495362.svg\" width=\"100\"/></span></p>"
             },
             {
-              "A": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: left;\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">It makes seeds.</span></p>",
-              "B": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/628193793897.svg\" alt=\"765161403745\" width=\"100\" class=\"displayed-image\"></span></p>"
+              "A": "<p><span style=\"white-space: pre-wrap;\">It makes seeds.</span></p>",
+              "B": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"765161403745\" class=\"displayed-image\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/628193793897.svg\" width=\"100\"/></span></p>"
             },
             {
-              "A": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: left;\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">It carries water from the roots to the other parts of the plant.</span></p>",
-              "B": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/512187985417.svg\" alt=\"579138603918\" width=\"70\" class=\"displayed-image\"></span></p>"
+              "A": "<p><span style=\"white-space: pre-wrap;\">It carries water from the roots to the other parts of the plant.</span></p>",
+              "B": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"579138603918\" class=\"displayed-image\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/512187985417.svg\" width=\"70\"/></span></p>"
             }
           ]
         },

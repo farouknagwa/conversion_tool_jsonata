@@ -5,9 +5,9 @@
       "type": "frq_ai",
       "subtype": null,
       "standalone": false,
-      "stem": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: justify;\"><span style=\"white-space: pre-line;\">Mention an example of an object that has balanced forces acting on it.</span></p>",
+      "stem": "<p><span style=\"white-space: pre-line;\">Mention an example of an object that has balanced forces acting on it.</span></p>",
       "choices": [],
-      "answer": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: justify;\"><span style=\"white-space: pre-line;\">A book resting on a table.</span></p>",
+      "answer": "<p><span style=\"white-space: pre-line;\">A book resting on a table.</span></p>",
       "ai": {
         "ai_template_id": 352108393701
       }

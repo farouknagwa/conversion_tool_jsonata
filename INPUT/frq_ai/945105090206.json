@@ -5,9 +5,9 @@
       "type": "frq_ai",
       "subtype": null,
       "standalone": false,
-      "stem": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: justify;\"><span style=\"white-space: pre-line;\">Give an example of a pushing and a pulling force.</span></p>",
+      "stem": "<p><span style=\"white-space: pre-line;\">Give an example of a pushing and a pulling force.</span></p>",
       "choices": [],
-      "answer": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: justify;\"><span style=\"white-space: pre-line;\">Pushing force: Kicking a ball<br>Pulling force: Opening a drawer</span></p>",
+      "answer": "<p><span style=\"white-space: pre-line;\">Pushing force: Kicking a ball<br/>Pulling force: Opening a drawer</span></p>",
       "ai": {
         "ai_template_id": 352108393701
       }

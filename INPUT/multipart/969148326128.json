@@ -4,11 +4,11 @@
       "n": 1,
       "type": "mcq",
       "subtype": null,
-      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: justify;\"><span style=\"white-space: pre-wrap;\">معنى كلمة «الذِّمَام»</span><span style=\"white-space: pre-wrap;\"> </span><span data-node-type=\"blank-line\" data-node-variation=\"space\">&nbsp;</span><span style=\"white-space: pre-wrap;\">.</span></p>",
+      "stem": "<p><span style=\"white-space: pre-wrap;\">معنى كلمة «الذِّمَام»</span><span style=\"white-space: pre-wrap;\"> </span><span data-node-type=\"blank-line\" data-node-variation=\"space\"> </span><span style=\"white-space: pre-wrap;\">.</span></p>",
       "choices": [
         {
           "type": "key",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span style=\"white-space: pre-wrap;\">العَهْد</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">العَهْد</span></p>",
           "values": [],
           "unit": null,
           "index": 0,
@@ -19,7 +19,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span style=\"white-space: pre-wrap;\">المِيراث</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">المِيراث</span></p>",
           "values": [],
           "unit": null,
           "index": 1,
@@ -30,7 +30,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span style=\"white-space: pre-wrap;\">الحضارة</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">الحضارة</span></p>",
           "values": [],
           "unit": null,
           "index": 2,
@@ -41,7 +41,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span style=\"white-space: pre-wrap;\">الأرض</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">الأرض</span></p>",
           "values": [],
           "unit": null,
           "index": 3,
@@ -57,11 +57,11 @@
       "n": 2,
       "type": "mcq",
       "subtype": null,
-      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: justify;\"><span style=\"white-space: pre-wrap;\">جمع كلمة «الحَشَا» </span><span data-node-type=\"blank-line\" data-node-variation=\"space\">&nbsp;</span><span style=\"white-space: pre-wrap;\">.</span></p>",
+      "stem": "<p><span style=\"white-space: pre-wrap;\">جمع كلمة «الحَشَا» </span><span data-node-type=\"blank-line\" data-node-variation=\"space\"> </span><span style=\"white-space: pre-wrap;\">.</span></p>",
       "choices": [
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span style=\"white-space: pre-wrap;\">الحشايا</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">الحشايا</span></p>",
           "values": [],
           "unit": null,
           "index": 0,
@@ -72,7 +72,7 @@
         },
         {
           "type": "key",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span style=\"white-space: pre-wrap;\">الأحشاء</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">الأحشاء</span></p>",
           "values": [],
           "unit": null,
           "index": 1,
@@ -83,7 +83,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span style=\"white-space: pre-wrap;\">الحُشَّان</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">الحُشَّان</span></p>",
           "values": [],
           "unit": null,
           "index": 2,
@@ -94,7 +94,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span style=\"white-space: pre-wrap;\">الحواشي</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">الحواشي</span></p>",
           "values": [],
           "unit": null,
           "index": 3,
@@ -110,7 +110,7 @@
       "n": 3,
       "type": "string",
       "subtype": null,
-      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">بين «بِسُهولِهِ» و«جِبالِهِ» علاقة </span><span data-node-type=\"blank-line\" data-node-variation=\"space\">&nbsp;</span><span style=\"white-space: pre-wrap;\">.</span></p>",
+      "stem": "<p><span style=\"white-space: pre-wrap;\">بين «بِسُهولِهِ» و«جِبالِهِ» علاقة </span><span data-node-type=\"blank-line\" data-node-variation=\"space\"> </span><span style=\"white-space: pre-wrap;\">.</span></p>",
       "choices": null,
       "standalone": false,
       "answer": [
@@ -131,11 +131,11 @@
       "n": 4,
       "type": "mcq",
       "subtype": null,
-      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">ما الرسالة الأساسية التي حرص الشاعر على إيصالها في هذه الأبيات؟</span></p>",
+      "stem": "<p><span style=\"white-space: pre-wrap;\">ما الرسالة الأساسية التي حرص الشاعر على إيصالها في هذه الأبيات؟</span></p>",
       "choices": [
         {
           "type": "key",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">الفخر العميق بالوطن وشدة حُبِّه والانتماء إليه.</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">الفخر العميق بالوطن وشدة حُبِّه والانتماء إليه.</span></p>",
           "values": [],
           "unit": null,
           "index": 0,
@@ -146,7 +146,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">الحنين إلى الماضي وذكريات الطفولة على أرض الوطن.</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">الحنين إلى الماضي وذكريات الطفولة على أرض الوطن.</span></p>",
           "values": [],
           "unit": null,
           "index": 1,
@@ -157,7 +157,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">الاحتفاء بجمال الطبيعة في أرجاء الوطن.</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">الاحتفاء بجمال الطبيعة في أرجاء الوطن.</span></p>",
           "values": [],
           "unit": null,
           "index": 2,
@@ -168,7 +168,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">الدعوة إلى التمسُّك بالعادات والحفاظ على إرث الأجداد.</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">الدعوة إلى التمسُّك بالعادات والحفاظ على إرث الأجداد.</span></p>",
           "values": [],
           "unit": null,
           "index": 3,
@@ -184,16 +184,16 @@
       "n": 5,
       "type": "frq_ai",
       "subtype": null,
-      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">ما الجمال في قول الشاعر: «يا جَنَّةً بِكَمالِهِ»؟ وعلام يدلُّ؟</span></p>",
+      "stem": "<p><span style=\"white-space: pre-wrap;\">ما الجمال في قول الشاعر: «يا جَنَّةً بِكَمالِهِ»؟ وعلام يدلُّ؟</span></p>",
       "choices": [],
       "standalone": false,
-      "answer": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">تشبيه للوطن بالجنة، يدلُّ على جمال الوطن وروعة طبيعته، وشدة حب الشاعر له وإعجابه بطبيعته الساحرة.</span></p>",
+      "answer": "<p><span style=\"white-space: pre-wrap;\">تشبيه للوطن بالجنة، يدلُّ على جمال الوطن وروعة طبيعته، وشدة حب الشاعر له وإعجابه بطبيعته الساحرة.</span></p>",
       "ai": {
         "ai_template_id": 248170436092
       }
     }
   ],
-  "statement": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span style=\"white-space: pre-wrap;\">يقول نصرة سعيد عن الوطن:</span></p><div class=\"PoemContainer\"><article class=\"Poem vertical-split\"><p>يــــــا أرضَ آبـــــائـــــي الـــــكِـــــرامْ</p><p>يـــــا إرثَ أجـــــدادِي الــــعِــــظامْ</p><p>أرَعى لك — العُمرَ — الذِّمَامْ</p><p>لـك في الحَشَا أسمى نَصِيبْ</p></article></div><div class=\"PoemContainer\"><article class=\"Poem vertical\"><p>أهواكَ يا وطني الحَبِيبْ</p></article></div><div class=\"PoemContainer\"><article class=\"Poem vertical-split\"><p>يــــــا جَــــــنَّــــــةً بــــــكَــــــمـــــالِـــــهِ</p><p>يــــــا روضـــــةً بـــــجَـــــمـــــالِـــــهِ</p><p>بِـــــسُـــــهـــــولِـــــهِ وَجِـــــبـــــالِـــــهِ</p><p>يا مَوطِنَ الحُسنِ العجيبْ</p></article></div><div class=\"PoemContainer\"><article class=\"Poem vertical\"><p>أهواكَ ياوطني الحبِيبْ</p></article></div>",
+  "statement": "<p><span style=\"white-space: pre-wrap;\">يقول نصرة سعيد عن الوطن:</span></p><div class=\"PoemContainer\"><article class=\"Poem vertical-split\"><p>يــــــا أرضَ آبـــــائـــــي الـــــكِـــــرامْ</p><p>يـــــا إرثَ أجـــــدادِي الــــعِــــظامْ</p><p>أرَعى لك — العُمرَ — الذِّمَامْ</p><p>لـك في الحَشَا أسمى نَصِيبْ</p></article></div><div class=\"PoemContainer\"><article class=\"Poem vertical\"><p>أهواكَ يا وطني الحَبِيبْ</p></article></div><div class=\"PoemContainer\"><article class=\"Poem vertical-split\"><p>يــــــا جَــــــنَّــــــةً بــــــكَــــــمـــــالِـــــهِ</p><p>يــــــا روضـــــةً بـــــجَـــــمـــــالِـــــهِ</p><p>بِـــــسُـــــهـــــولِـــــهِ وَجِـــــبـــــالِـــــهِ</p><p>يا مَوطِنَ الحُسنِ العجيبْ</p></article></div><div class=\"PoemContainer\"><article class=\"Poem vertical\"><p>أهواكَ ياوطني الحبِيبْ</p></article></div>",
   "instance_number": 1,
   "metadata": {
     "id": 969148326128,

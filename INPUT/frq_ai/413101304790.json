@@ -5,9 +5,9 @@
       "type": "frq_ai",
       "subtype": null,
       "standalone": false,
-      "stem": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: justify;\"><span style=\"white-space: pre-line;\">Give reason: An object moves when an unbalanced force acts on it.</span></p>",
+      "stem": "<p><span style=\"white-space: pre-line;\">Give reason: An object moves when an unbalanced force acts on it.</span></p>",
       "choices": [],
-      "answer": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: justify;\"><span style=\"white-space: pre-line;\">Because an unbalanced force means there is a force greater than the other force resisting its motion, causing it to move.</span></p>",
+      "answer": "<p><span style=\"white-space: pre-line;\">Because an unbalanced force means there is a force greater than the other force resisting its motion, causing it to move.</span></p>",
       "ai": {
         "ai_template_id": 352108393701
       }

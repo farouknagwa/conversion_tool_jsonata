@@ -11,12 +11,12 @@
   "section_id": "939191723496",
   "source": "human",
   "content": {
-    "statement": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\"> انظر إلى الصورة الموضَّحة.</span></p><p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/937121687674.jpg\" alt=\"839178450818.1\" width=\"400\" height=\"266\" style=\"aspect-ratio: 400/266;\" class=\"displayed-image\"></span></p>",
+    "statement": "<p><span style=\"white-space: pre-wrap;\"> انظر إلى الصورة الموضَّحة.</span></p><p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"839178450818.1\" class=\"displayed-image\" height=\"266\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/937121687674.jpg\" style=\"aspect-ratio: 400/266;\" width=\"400\"/></span></p>",
     "parts": [
       {
         "n": 1,
         "type": "string",
-        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">ما اسم الأجزاء الصغيرة الداكنة في وسط الزهرة؟</span></p>",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">ما اسم الأجزاء الصغيرة الداكنة في وسط الزهرة؟</span></p>",
         "ai_template_id": "593158513739",
         "acceptable_answers": [
           "البذور."
@@ -33,10 +33,10 @@
       {
         "n": 2,
         "type": "frq",
-        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">ما أهميتها للنباتات؟</span></p>",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">ما أهميتها للنباتات؟</span></p>",
         "ai_template_id": "352108393701",
         "acceptable_answers": [
-          "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">البذور تُساعِد النباتات على التكاثر وإنتاج نباتات جديدة.</span></p>"
+          "<p><span style=\"white-space: pre-wrap;\">البذور تُساعِد النباتات على التكاثر وإنتاج نباتات جديدة.</span></p>"
         ],
         "explanation": ""
       }

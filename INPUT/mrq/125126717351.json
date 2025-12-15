@@ -4,11 +4,11 @@
       "n": 1,
       "type": "mrq",
       "subtype": null,
-      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Which three effects does sugar have on the body?</span></p>",
+      "stem": "<p><span style=\"white-space: pre-wrap;\">Which three effects does sugar have on the body?</span></p>",
       "choices": [
         {
           "type": "key",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Damage your teeth</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">Damage your teeth</span></p>",
           "values": [],
           "unit": null,
           "index": 0,
@@ -19,7 +19,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Help your hair</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">Help your hair</span></p>",
           "values": [],
           "unit": null,
           "index": 1,
@@ -30,7 +30,7 @@
         },
         {
           "type": "key",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Make you anxious</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">Make you anxious</span></p>",
           "values": [],
           "unit": null,
           "index": 2,
@@ -41,7 +41,7 @@
         },
         {
           "type": "key",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Affect your heart</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">Affect your heart</span></p>",
           "values": [],
           "unit": null,
           "index": 3,

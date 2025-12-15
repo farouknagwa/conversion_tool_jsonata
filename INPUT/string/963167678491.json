@@ -5,7 +5,7 @@
       "type": "string",
       "subtype": null,
       "standalone": false,
-      "stem": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: justify;\"><span style=\"white-space: pre-wrap;\">The pattern that the iron filings make near the magnet is the outline of its </span><span data-node-type=\"blank-line\" data-node-variation=\"space\">&nbsp;</span><span style=\"white-space: pre-wrap;\">.</span></p>",
+      "stem": "<p><span style=\"white-space: pre-wrap;\">The pattern that the iron filings make near the magnet is the outline of its </span><span data-node-type=\"blank-line\" data-node-variation=\"space\"> </span><span style=\"white-space: pre-wrap;\">.</span></p>",
       "choices": null,
       "answer": [
         "magnetic field"

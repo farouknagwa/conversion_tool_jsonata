@@ -15,53 +15,53 @@
       {
         "n": 1,
         "type": "ordering",
-        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">Put the words in the correct order to form a sentence.</span></p>",
+        "stem": "<p><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">Put the words in the correct order to form a sentence.</span></p>",
         "direction": "horizontal",
         "items": [
           {
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">things</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">things</span></p>",
             "display_order": 1,
             "correct_order": 3
           },
           {
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">to</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">to</span></p>",
             "display_order": 2,
             "correct_order": 6
           },
           {
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">need</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">need</span></p>",
             "display_order": 3,
             "correct_order": 4
           },
           {
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">All</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">All</span></p>",
             "display_order": 4,
             "correct_order": 1
           },
           {
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">living</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">living</span></p>",
             "display_order": 5,
             "correct_order": 2
           },
           {
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">water</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">water</span></p>",
             "display_order": 6,
             "correct_order": 5
           },
           {
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">survive.</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">survive.</span></p>",
             "display_order": 7,
             "correct_order": 7
           }
         ],
         "correct_answer": [
-          "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">All</span></p>",
-          "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">living</span></p>",
-          "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">things</span></p>",
-          "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">need</span></p>",
-          "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">water</span></p>",
-          "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">to</span></p>",
-          "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">survive.</span></p>"
+          "<p><span style=\"white-space: pre-wrap;\">All</span></p>",
+          "<p><span style=\"white-space: pre-wrap;\">living</span></p>",
+          "<p><span style=\"white-space: pre-wrap;\">things</span></p>",
+          "<p><span style=\"white-space: pre-wrap;\">need</span></p>",
+          "<p><span style=\"white-space: pre-wrap;\">water</span></p>",
+          "<p><span style=\"white-space: pre-wrap;\">to</span></p>",
+          "<p><span style=\"white-space: pre-wrap;\">survive.</span></p>"
         ],
         "explanation": ""
       }

@@ -15,37 +15,37 @@
       {
         "n": 1,
         "type": "mrq",
-        "stem": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Which of these are minerals?</span></p>",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">Which of these are minerals?</span></p>",
         "choices": [
           {
             "label": "A",
-            "value": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Iron</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">Iron</span></p>",
             "is_correct": true
           },
           {
             "label": "B",
-            "value": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Fats</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">Fats</span></p>",
             "is_correct": false
           },
           {
             "label": "C",
-            "value": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Calcium</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">Calcium</span></p>",
             "is_correct": true
           },
           {
             "label": "D",
-            "value": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Protein</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">Protein</span></p>",
             "is_correct": false
           }
         ],
         "correct_answer": [
           {
             "label": "A",
-            "value": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Iron</span></p>"
+            "value": "<p><span style=\"white-space: pre-wrap;\">Iron</span></p>"
           },
           {
             "label": "C",
-            "value": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Calcium</span></p>"
+            "value": "<p><span style=\"white-space: pre-wrap;\">Calcium</span></p>"
           }
         ],
         "explanation": ""

@@ -4,11 +4,11 @@
       "n": 1,
       "type": "oq",
       "subtype": null,
-      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Order these containers from smallest to largest capacity.</span></p>",
+      "stem": "<p><span style=\"white-space: pre-wrap;\">Order these containers from smallest to largest capacity.</span></p>",
       "choices": [
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/868160781909.svg\" alt=\"534126181920\" width=\"110\" height=\"163.35138836267694\" style=\"aspect-ratio: 110/163.35138836267694;\" class=\"displayed-image\"></span></p>",
+          "html_content": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"534126181920\" class=\"displayed-image\" height=\"163.35138836267694\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/868160781909.svg\" style=\"aspect-ratio: 110/163.35138836267694;\" width=\"110\"/></span></p>",
           "values": [],
           "unit": null,
           "index": 0,
@@ -19,7 +19,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/695198137327.svg\" alt=\"712132739438\" width=\"50\" height=\"120.9605157365371\" style=\"aspect-ratio: 50/120.9605157365371;\" class=\"displayed-image\"></span></p>",
+          "html_content": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"712132739438\" class=\"displayed-image\" height=\"120.9605157365371\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/695198137327.svg\" style=\"aspect-ratio: 50/120.9605157365371;\" width=\"50\"/></span></p>",
           "values": [],
           "unit": null,
           "index": 1,
@@ -30,7 +30,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/818175618369.svg\" alt=\"298164682095\" width=\"80\" height=\"49.72402149755399\" style=\"aspect-ratio: 80/49.72402149755399;\" class=\"displayed-image\"></span></p>",
+          "html_content": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"298164682095\" class=\"displayed-image\" height=\"49.72402149755399\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/818175618369.svg\" style=\"aspect-ratio: 80/49.72402149755399;\" width=\"80\"/></span></p>",
           "values": [],
           "unit": null,
           "index": 2,

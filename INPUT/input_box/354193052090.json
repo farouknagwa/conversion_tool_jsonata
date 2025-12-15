@@ -4,7 +4,7 @@
       "n": 1,
       "type": "input_box",
       "subtype": null,
-      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span style=\"white-space: pre-wrap;\">يوجَد في الحديقة ٥ أزهار. بعد ذلك، قطفت كايا زهرتَين منها.</span></p><p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span style=\"white-space: pre-wrap;\">كم زهرةً تبقَّت في الحديقة؟</span></p><p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/914154157573.svg\" alt=\"Question Image\" width=\"386\" height=\"300\" style=\"aspect-ratio: 386/300;\" class=\"displayed-image\"></span></p>",
+      "stem": "<p><span style=\"white-space: pre-wrap;\">يوجَد في الحديقة ٥ أزهار. بعد ذلك، قطفت كايا زهرتَين منها.</span></p><p><span style=\"white-space: pre-wrap;\">كم زهرةً تبقَّت في الحديقة؟</span></p><p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"Question Image\" class=\"displayed-image\" height=\"300\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/914154157573.svg\" style=\"aspect-ratio: 386/300;\" width=\"386\"/></span></p>",
       "choices": [],
       "standalone": false,
       "answer": {

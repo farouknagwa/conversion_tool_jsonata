@@ -15,7 +15,7 @@
       {
         "n": 1,
         "type": "input",
-        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: justify;\"><span style=\"white-space: pre-wrap;\">في إحدى الحفلات، يوجد ٩ بالونات معلقة في السقف. إذا عُلِّقت ٧ بالونات أخرى، فما عدد كل البالونات المعلقة؟</span></p>",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">في إحدى الحفلات، يوجد ٩ بالونات معلقة في السقف. إذا عُلِّقت ٧ بالونات أخرى، فما عدد كل البالونات المعلقة؟</span></p>",
         "correct_answer": {
           "value": 16,
           "unit": null,

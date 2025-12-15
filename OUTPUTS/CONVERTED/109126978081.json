@@ -15,10 +15,10 @@
       {
         "n": 1,
         "type": "frq",
-        "stem": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: justify;\"><span style=\"white-space: pre-line;\">What is meant by friction?</span></p>",
+        "stem": "<p><span style=\"white-space: pre-line;\">What is meant by friction?</span></p>",
         "ai_template_id": "352108393701",
         "acceptable_answers": [
-          "<p class=\"LexicalTheme__paragraph\" style=\"text-align: justify;\"><span style=\"white-space: pre-line;\">A force that arises between two touching surfaces and opposes motion.</span></p>"
+          "<p><span style=\"white-space: pre-line;\">A force that arises between two touching surfaces and opposes motion.</span></p>"
         ],
         "explanation": ""
       }

@@ -15,15 +15,15 @@
       {
         "n": 1,
         "type": "opinion",
-        "stem": "<p dir=\"rtl\" style=\"text-align: right;\">هل تعتقد أن اختيار ياسمين للوجبة الخفيفة كان جيِّدًا؟</p><div dir=\"\" style=\"text-align: center;\"><img style=\"width: 200px;height: 145.792px;\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/946198316013.svg\" alt=\"Question Image\" /></div><p dir=\"ltr\" style=\"text-align: left;\"></p>",
+        "stem": "<p>هل تعتقد أن اختيار ياسمين للوجبة الخفيفة كان جيِّدًا؟</p><div dir=\"\" style=\"text-align: center;\"><img alt=\"Question Image\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/946198316013.svg\" style=\"width: 200px;height: 145.792px;\"/></div><p></p>",
         "choices": [
           {
             "label": "أ",
-            "value": "<p dir=\"ltr\" style=\"text-align: left;\">لا</p>"
+            "value": "<p>لا</p>"
           },
           {
             "label": "ب",
-            "value": "<p dir=\"ltr\" style=\"text-align: left;\">نعم</p>"
+            "value": "<p>نعم</p>"
           }
         ],
         "explanation": ""

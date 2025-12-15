@@ -15,32 +15,32 @@
       {
         "n": 1,
         "type": "mrq",
-        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Which of the following are examples of interactions between living organisms and non-living things? Pick </span><b><strong class=\"LexicalTheme__textBold\" style=\"white-space: pre-wrap;\">two</strong></b><span style=\"white-space: pre-wrap;\">.</span></p>",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">Which of the following are examples of interactions between living organisms and non-living things? Pick </span><b><strong class=\"LexicalTheme__textBold\" style=\"white-space: pre-wrap;\">two</strong></b><span style=\"white-space: pre-wrap;\">.</span></p>",
         "choices": [
           {
             "label": "A",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">A mole making a burrow in the ground</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">A mole making a burrow in the ground</span></p>",
             "is_correct": true
           },
           {
             "label": "B",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Green plants growing on rocks</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">Green plants growing on rocks</span></p>",
             "is_correct": true
           },
           {
             "label": "C",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">A hawk catching a mouse</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">A hawk catching a mouse</span></p>",
             "is_correct": false
           }
         ],
         "correct_answer": [
           {
             "label": "A",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">A mole making a burrow in the ground</span></p>"
+            "value": "<p><span style=\"white-space: pre-wrap;\">A mole making a burrow in the ground</span></p>"
           },
           {
             "label": "B",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Green plants growing on rocks</span></p>"
+            "value": "<p><span style=\"white-space: pre-wrap;\">Green plants growing on rocks</span></p>"
           }
         ],
         "explanation": ""

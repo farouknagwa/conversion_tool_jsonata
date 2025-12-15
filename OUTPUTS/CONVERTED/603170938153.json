@@ -15,7 +15,7 @@
       {
         "n": 1,
         "type": "gap",
-        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">Complète le texte avec les mots corrects.</span></p><p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">Allons faire des </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\"> au </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\"> des produits </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">. Nous devons </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\"> des glaces pour ce soir.</span></p><p class=\"LexicalTheme__paragraph\"><br></p>",
+        "stem": "<p><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">Complète le texte avec les mots corrects.</span></p><p><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">Allons faire des </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\"> au </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\"> des produits </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">. Nous devons </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\"> des glaces pour ce soir.</span></p><p><br/></p>",
         "gap_keys": [
           {
             "value": "achats ",
@@ -38,7 +38,7 @@
             "correct_order": 4
           }
         ],
-        "correct_answer": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">Complète le texte avec les mots corrects.</span></p><p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">Allons faire des </span> achats <span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\"> au </span> rayon <span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\"> des produits </span> surgelés <span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">. Nous devons </span> acheter <span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\"> des glaces pour ce soir.</span></p><p class=\"LexicalTheme__paragraph\"><br></p>",
+        "correct_answer": "<p><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">Complète le texte avec les mots corrects.</span></p><p><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">Allons faire des </span> achats <span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\"> au </span> rayon <span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\"> des produits </span> surgelés <span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">. Nous devons </span> acheter <span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\"> des glaces pour ce soir.</span></p><p><br/></p>",
         "explanation": ""
       }
     ]

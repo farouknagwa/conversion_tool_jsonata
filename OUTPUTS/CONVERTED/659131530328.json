@@ -15,32 +15,32 @@
       {
         "n": 1,
         "type": "mrq",
-        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Identify </span><span style=\"color: rgb(13, 128, 242); white-space: pre-wrap;\">two</span><span style=\"white-space: pre-wrap;\"> living organisms from the diagram.</span></p><p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/519167029054.svg\" alt=\"568121726747\" width=\"400\" height=\"220.58823529411765\" style=\"aspect-ratio: 400/220.58823529411765;\" class=\"displayed-image\"></span></p>",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">Identify </span><span style=\"color: rgb(13, 128, 242); white-space: pre-wrap;\">two</span><span style=\"white-space: pre-wrap;\"> living organisms from the diagram.</span></p><p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"568121726747\" class=\"displayed-image\" height=\"220.58823529411765\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/519167029054.svg\" style=\"aspect-ratio: 400/220.58823529411765;\" width=\"400\"/></span></p>",
         "choices": [
           {
             "label": "A",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Cat</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">Cat</span></p>",
             "is_correct": true
           },
           {
             "label": "B",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Phone</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">Phone</span></p>",
             "is_correct": false
           },
           {
             "label": "C",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Plant</span></p>",
+            "value": "<p><span style=\"white-space: pre-wrap;\">Plant</span></p>",
             "is_correct": true
           }
         ],
         "correct_answer": [
           {
             "label": "A",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Cat</span></p>"
+            "value": "<p><span style=\"white-space: pre-wrap;\">Cat</span></p>"
           },
           {
             "label": "C",
-            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Plant</span></p>"
+            "value": "<p><span style=\"white-space: pre-wrap;\">Plant</span></p>"
           }
         ],
         "explanation": ""

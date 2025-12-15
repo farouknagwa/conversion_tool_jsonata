@@ -4,11 +4,11 @@
       "n": 1,
       "type": "opinion",
       "subtype": null,
-      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Which communication method do you mostly use?</span></p>",
+      "stem": "<p><span style=\"white-space: pre-wrap;\">Which communication method do you mostly use?</span></p>",
       "choices": [
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/927150905458.svg\" alt=\"A\" width=\"103\" height=\"150\" style=\"aspect-ratio: 103/150;\" class=\"displayed-image\"></span></p>",
+          "html_content": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"A\" class=\"displayed-image\" height=\"150\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/927150905458.svg\" style=\"aspect-ratio: 103/150;\" width=\"103\"/></span></p>",
           "values": [],
           "unit": null,
           "index": 0,
@@ -19,7 +19,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/545185641405.svg\" alt=\"b\" width=\"180\" height=\"126.16822429906541\" style=\"aspect-ratio: 180/126.16822429906541;\" class=\"displayed-image\"></span></p>",
+          "html_content": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"b\" class=\"displayed-image\" height=\"126.16822429906541\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/545185641405.svg\" style=\"aspect-ratio: 180/126.16822429906541;\" width=\"180\"/></span></p>",
           "values": [],
           "unit": null,
           "index": 1,
@@ -30,7 +30,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/840139042373.svg\" alt=\"c\" width=\"200\" height=\"97.33333333333333\" style=\"aspect-ratio: 200/97.33333333333333;\" class=\"displayed-image\"></span></p>",
+          "html_content": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"c\" class=\"displayed-image\" height=\"97.33333333333333\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/840139042373.svg\" style=\"aspect-ratio: 200/97.33333333333333;\" width=\"200\"/></span></p>",
           "values": [],
           "unit": null,
           "index": 2,
@@ -41,7 +41,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/585139369593.svg\" alt=\"d\" width=\"200\" height=\"135.74660633484163\" style=\"aspect-ratio: 200/135.74660633484163;\" class=\"displayed-image\"></span></p>",
+          "html_content": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"d\" class=\"displayed-image\" height=\"135.74660633484163\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/585139369593.svg\" style=\"aspect-ratio: 200/135.74660633484163;\" width=\"200\"/></span></p>",
           "values": [],
           "unit": null,
           "index": 3,

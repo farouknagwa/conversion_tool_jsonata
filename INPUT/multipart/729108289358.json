@@ -4,11 +4,11 @@
       "n": 1,
       "type": "mcq",
       "subtype": null,
-      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">أيُّ الجمل العددية ستستخدمها لإيجاد عدد القمصان التي طارت؟</span></p>",
+      "stem": "<p><span style=\"white-space: pre-wrap;\">أيُّ الجمل العددية ستستخدمها لإيجاد عدد القمصان التي طارت؟</span></p>",
       "choices": [
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"\\displaystyle{١١ - ٧ = \\textBlank }\" locale=\"ar\" lang=\"ar\">\\displaystyle{١١ - ٧ = \\textBlank }</math-field></span></p>",
+          "html_content": "<p><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" lang=\"ar\" locale=\"ar\" read-only=\"true\" value=\"\\displaystyle{١١ - ٧ = \\textBlank }\">\\displaystyle{١١ - ٧ = \\textBlank }</math-field></span></p>",
           "values": [],
           "unit": null,
           "index": 0,
@@ -19,7 +19,7 @@
         },
         {
           "type": "key",
-          "html_content": "<p class=\"LexicalTheme__paragraph\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"\\displaystyle{١١ - ٤ = \\textBlank }\" locale=\"ar\" lang=\"ar\">\\displaystyle{١١ - ٤ = \\textBlank }</math-field></span></p>",
+          "html_content": "<p><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" lang=\"ar\" locale=\"ar\" read-only=\"true\" value=\"\\displaystyle{١١ - ٤ = \\textBlank }\">\\displaystyle{١١ - ٤ = \\textBlank }</math-field></span></p>",
           "values": [],
           "unit": null,
           "index": 1,
@@ -30,7 +30,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"\\displaystyle{٧ - ٤ = \\textBlank }\" locale=\"ar\" lang=\"ar\">\\displaystyle{٧ - ٤ = \\textBlank }</math-field></span></p>",
+          "html_content": "<p><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" lang=\"ar\" locale=\"ar\" read-only=\"true\" value=\"\\displaystyle{٧ - ٤ = \\textBlank }\">\\displaystyle{٧ - ٤ = \\textBlank }</math-field></span></p>",
           "values": [],
           "unit": null,
           "index": 2,
@@ -46,7 +46,7 @@
       "n": 2,
       "type": "input_box",
       "subtype": null,
-      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">ما عدد القمصان التي طارت؟</span></p>",
+      "stem": "<p><span style=\"white-space: pre-wrap;\">ما عدد القمصان التي طارت؟</span></p>",
       "choices": [],
       "standalone": false,
       "answer": {
@@ -58,7 +58,7 @@
       }
     }
   ],
-  "statement": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: justify;\"><span style=\"white-space: pre-wrap;\">ماجد لديه ١١ قميصًا على أحد حِبال الغسيل. طار بعض القمصان منها. يوجد الآن ٤ قمصان على حبل الغسيل.</span></p>",
+  "statement": "<p><span style=\"white-space: pre-wrap;\">ماجد لديه ١١ قميصًا على أحد حِبال الغسيل. طار بعض القمصان منها. يوجد الآن ٤ قمصان على حبل الغسيل.</span></p>",
   "instance_number": 1,
   "metadata": {
     "id": 265124764618,

@@ -15,10 +15,10 @@
       {
         "n": 1,
         "type": "frq",
-        "stem": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: justify;\"><span style=\"white-space: pre-line;\">What happens when you try to open a classroom door?</span></p>",
+        "stem": "<p><span style=\"white-space: pre-line;\">What happens when you try to open a classroom door?</span></p>",
         "ai_template_id": "352108393701",
         "acceptable_answers": [
-          "<p class=\"LexicalTheme__paragraph\" style=\"text-align: justify;\"><span style=\"white-space: pre-line;\">You apply a pulling or a pushing force to cause the door to move (motion).</span></p>"
+          "<p><span style=\"white-space: pre-line;\">You apply a pulling or a pushing force to cause the door to move (motion).</span></p>"
         ],
         "explanation": ""
       }

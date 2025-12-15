@@ -15,7 +15,7 @@
       {
         "n": 1,
         "type": "string",
-        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">صحح الكلمة التي تحتها خط: التغير في درجة حرارة مادة ما ي</span><u><span class=\"LexicalTheme__textUnderline\" style=\"white-space: pre-wrap;\">تناسب طرديًّا</span></u><span style=\"white-space: pre-wrap;\"> مع كتلتها عندما تكتسب </span><span style=\"color: rgb(51, 51, 51); white-space: pre-wrap;\">نفس الكمية من الحرارة</span><span style=\"white-space: pre-wrap;\">.</span></p>",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">صحح الكلمة التي تحتها خط: التغير في درجة حرارة مادة ما ي</span><u><span class=\"LexicalTheme__textUnderline\" style=\"white-space: pre-wrap;\">تناسب طرديًّا</span></u><span style=\"white-space: pre-wrap;\"> مع كتلتها عندما تكتسب </span><span style=\"color: rgb(51, 51, 51); white-space: pre-wrap;\">نفس الكمية من الحرارة</span><span style=\"white-space: pre-wrap;\">.</span></p>",
         "ai_template_id": "593158513739",
         "acceptable_answers": [
           "يتناسب عكسيًّا"

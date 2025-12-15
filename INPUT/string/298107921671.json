@@ -4,7 +4,7 @@
       "n": 1,
       "type": "string",
       "subtype": null,
-      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">صحح الكلمة التي تحتها خط: عضلة القلب هي عضلة  </span><u><span class=\"LexicalTheme__textUnderline\" style=\"white-space: pre-wrap;\">إرادية</span></u><span style=\"white-space: pre-wrap;\">.</span></p>",
+      "stem": "<p><span style=\"white-space: pre-wrap;\">صحح الكلمة التي تحتها خط: عضلة القلب هي عضلة  </span><u><span class=\"LexicalTheme__textUnderline\" style=\"white-space: pre-wrap;\">إرادية</span></u><span style=\"white-space: pre-wrap;\">.</span></p>",
       "choices": null,
       "standalone": false,
       "answer": [

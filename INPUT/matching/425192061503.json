@@ -4,11 +4,11 @@
       "n": 1,
       "type": "matching",
       "subtype": null,
-      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Match the beginning of the sentence with the end of the sentences.</span></p>",
+      "stem": "<p><span style=\"white-space: pre-wrap;\">Match the beginning of the sentence with the end of the sentences.</span></p>",
       "choices": [
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">A cottage is</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">A cottage is</span></p>",
           "values": [],
           "unit": null,
           "index": 0,
@@ -19,7 +19,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">A house in Iceland is</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">A house in Iceland is</span></p>",
           "values": [],
           "unit": null,
           "index": 1,
@@ -30,7 +30,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">warm.</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">warm.</span></p>",
           "values": [],
           "unit": null,
           "index": 0,
@@ -41,7 +41,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">old.</span></p>",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">old.</span></p>",
           "values": [],
           "unit": null,
           "index": 1,
