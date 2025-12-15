@@ -1,0 +1,50 @@
+{
+  "question_id": "156185275243",
+  "parent_id": "156185275243",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Discover",
+  "grade": "3",
+  "number_of_parts": 1,
+  "section_id": "237120274501",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "mrq",
+        "stem": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: left;\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">According to the following posters, which </span><b><strong class=\"LexicalTheme__textBold\" style=\"white-space: pre-wrap;\">two </strong></b><span style=\"white-space: pre-wrap;\">of these foods contain vitamin B1?</span></p><p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/287109146714.svg\" alt=\"748159326353\" width=\"700\" height=\"149\" style=\"aspect-ratio: 700/149;\" class=\"displayed-image\"></span></p>",
+        "choices": [
+          {
+            "label": "A",
+            "value": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: center;\" dir=\"ltr\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/908162693461.svg\" alt=\"4\" width=\"101\" height=\"58\" style=\"aspect-ratio: 101/58;\" class=\"displayed-image\"></span><span style=\"white-space: pre-wrap;\">Beans</span></p>",
+            "is_correct": true
+          },
+          {
+            "label": "B",
+            "value": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: center;\" dir=\"ltr\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/464156901454.svg\" alt=\"3\" width=\"220\" height=\"77\" style=\"aspect-ratio: 220/77;\" class=\"displayed-image\"></span><span style=\"white-space: pre-wrap;\">Nuts</span></p><p class=\"LexicalTheme__paragraph\"><br></p>",
+            "is_correct": true
+          },
+          {
+            "label": "C",
+            "value": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: center;\" dir=\"ltr\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/265135709695.svg\" alt=\"2\" width=\"180\" height=\"101\" style=\"aspect-ratio: 180/101;\" class=\"displayed-image\"></span><span style=\"white-space: pre-wrap;\">Meat</span></p><p class=\"LexicalTheme__paragraph\"><br></p>",
+            "is_correct": false
+          }
+        ],
+        "correct_answer": [
+          {
+            "label": "A",
+            "value": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: center;\" dir=\"ltr\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/908162693461.svg\" alt=\"4\" width=\"101\" height=\"58\" style=\"aspect-ratio: 101/58;\" class=\"displayed-image\"></span><span style=\"white-space: pre-wrap;\">Beans</span></p>"
+          },
+          {
+            "label": "B",
+            "value": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: center;\" dir=\"ltr\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/464156901454.svg\" alt=\"3\" width=\"220\" height=\"77\" style=\"aspect-ratio: 220/77;\" class=\"displayed-image\"></span><span style=\"white-space: pre-wrap;\">Nuts</span></p><p class=\"LexicalTheme__paragraph\"><br></p>"
+          }
+        ],
+        "explanation": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+POST-CONVERSION VALIDATIONS (NEW JSON STRUCTURE)
+
+ROOT LEVEL FIELDS:
+- Required: question_id, parent_id, language_code, language, country_code, country, subject, grade, number_of_parts, section_id, source, content
+- question_id must be string
+- parent_id must be null or string
+- language_code must be valid and match language name
+- country_code must be valid and match country name
+- number_of_parts must be positive integer
+- grade, section_id, source must be strings
+
+CONTENT STRUCTURE:
+- content.parts array required and non-empty
+- content.statement required only for multi-part (number_of_parts > 1)
+- content.statement NOT allowed for single-part
+- Number of parts in array must match number_of_parts
+
+COMMON PART FIELDS:
+- n (part number) must match position
+- type must exist
+- stem must be string
+- explanation: for single-part should be string
+
+COUNTING PART:
+- grid object required with rows and columns (both integers)
+- correct_answer must be integer
+
+FRQ PART:
+- acceptable_answers must be array
+- ai_template_id required (string, exactly 12 digits)
+
+GAP PART:
+- gap_keys must be array
+- Each gap_key must have: value, display_order
+- correct_answer must be string
+
+INPUT PART:
+- correct_answer must be object with:
+  * value (required)
+  * constraints object with type (required)
+
+MATCHING PART:
+- items object required with:
+  * A (required)
+  * B (required)
+  * correct_answer (required)
+
+MCQ PART:
+- choices array required
+- Each choice must have: label, value, is_correct
+- correct_answer object required with label and value
+
+MRQ PART:
+- choices array required
+- correct_answer must be array
+
+OPINION PART:
+- choices array required
+- correct_answer must NOT exist (no correct answer for opinion questions)
+
+ORDERING PART:
+- direction must be "vertical" or "horizontal"
+- items array required
+- correct_answer array required
+
+PUZZLE PART:
+- rows required
+- columns required
+- pieces array required
+
+STRING PART:
+- ai_template_id required (string)
+- acceptable_answers must be array
+

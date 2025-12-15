@@ -1,0 +1,34 @@
+{
+  "question_id": "298107921671",
+  "parent_id": "468131945608",
+  "language_code": "ar",
+  "language": "Arabic",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "العلوم",
+  "grade": "6",
+  "number_of_parts": 1,
+  "section_id": "602198018019",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "string",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">صحح الكلمة التي تحتها خط: عضلة القلب هي عضلة  </span><u><span class=\"LexicalTheme__textUnderline\" style=\"white-space: pre-wrap;\">إرادية</span></u><span style=\"white-space: pre-wrap;\">.</span></p>",
+        "ai_template_id": "593158513739",
+        "acceptable_answers": [
+          "لا إرادية"
+        ],
+        "guidelines": [
+          {
+            "student_answer": "لا إرادية",
+            "mark": "1",
+            "comment": "إجابة صحيحة!"
+          }
+        ],
+        "explanation": ""
+      }
+    ]
+  }
+}

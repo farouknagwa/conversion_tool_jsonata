@@ -1,0 +1,22 @@
+(
+  /* Parse grid_size "2×5" into {rows: 2, columns: 5} */
+  $gridParts := $split(part.grid_size, '×');
+  $grid := {
+    "rows": $number($gridParts[0]),
+    "columns": $number($gridParts[1])
+  };
+  
+  /* Convert answer string to integer */
+  $correctAnswer := $number(part.answer);
+  
+  /* Return the complete part structure */
+  {
+    "n": part.n,
+    "type": "counting",
+    "stem": part.stem,
+    "grid": $grid,
+    "correct_answer": $correctAnswer,
+    "explanation": explanation
+  }
+)
+

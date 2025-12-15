@@ -1,0 +1,49 @@
+{
+  "question_id": "562187380723",
+  "parent_id": "562187380723",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Mathematics",
+  "grade": "4",
+  "number_of_parts": 1,
+  "section_id": "482142617197",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "mcq",
+        "stem": "<p>Which of the following shows the same afternoon time as the given clock?</p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"https://images.nagwa.com/figures/562187380723/1.svg\"/></div>",
+        "choices": [
+          {
+            "label": "A",
+            "value": "<div class=\"h-scroll\"><img class=\"displayed-image\" src=\"https://images.nagwa.com/figures/562187380723/5.svg\"/></div>",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "value": "<div class=\"h-scroll\"><img class=\"displayed-image\" src=\"https://images.nagwa.com/figures/562187380723/2.svg\"/></div>",
+            "is_correct": true
+          },
+          {
+            "label": "C",
+            "value": "<div class=\"h-scroll\"><img class=\"displayed-image\" src=\"https://images.nagwa.com/figures/562187380723/4.svg\"/></div>",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "value": "<div class=\"h-scroll\"><img class=\"displayed-image\" src=\"https://images.nagwa.com/figures/562187380723/3.svg\"/></div>",
+            "is_correct": false
+          }
+        ],
+        "correct_answer": {
+          "label": "B",
+          "value": "<div class=\"h-scroll\"><img class=\"displayed-image\" src=\"https://images.nagwa.com/figures/562187380723/2.svg\"/></div>"
+        },
+        "explanation": ""
+      }
+    ]
+  }
+}

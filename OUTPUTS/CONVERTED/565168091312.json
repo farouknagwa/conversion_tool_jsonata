@@ -1,0 +1,144 @@
+{
+  "question_id": "565168091312",
+  "parent_id": "565168091312",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Connect Plus",
+  "grade": "6",
+  "number_of_parts": 6,
+  "section_id": "518176589173",
+  "source": "human",
+  "content": {
+    "statement": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">In our school, we believe that kindness can make a difference. One boy in our class uses a wheelchair, and his friends always look after him. Another girl wears braces, but she says they don’t stop her from smiling! Some of us have curly hair, others have straight hair, but we know that being kind is more important than how we look. If someone feels sad, we try to make them laugh. We imagine a world where people treat each other equally and nobody is mean or unkind.</span></p>",
+    "parts": [
+      {
+        "n": 1,
+        "type": "mcq",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">What doesn't stop the girl from smiling?</span></p>",
+        "choices": [
+          {
+            "label": "A",
+            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Braces</span></p>",
+            "is_correct": true
+          },
+          {
+            "label": "B",
+            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Curly hair</span></p>",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Mean</span></p>",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Hearing aid</span></p>",
+            "is_correct": false
+          }
+        ],
+        "correct_answer": {
+          "label": "A",
+          "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Braces</span></p>"
+        },
+        "explanation": ""
+      },
+      {
+        "n": 2,
+        "type": "mcq",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">What do the boy’s friends do for him?</span></p>",
+        "choices": [
+          {
+            "label": "A",
+            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Look after him</span></p>",
+            "is_correct": true
+          },
+          {
+            "label": "B",
+            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Make a difference</span></p>",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Exciting</span></p>",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Imagine</span></p>",
+            "is_correct": false
+          }
+        ],
+        "correct_answer": {
+          "label": "A",
+          "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Look after him</span></p>"
+        },
+        "explanation": ""
+      },
+      {
+        "n": 3,
+        "type": "mcq",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">What do the students believe is more important than how they look?</span></p>",
+        "choices": [
+          {
+            "label": "A",
+            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Straight hair</span></p>",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Being kind</span></p>",
+            "is_correct": true
+          },
+          {
+            "label": "C",
+            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Different</span></p>",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Exciting</span></p>",
+            "is_correct": false
+          }
+        ],
+        "correct_answer": {
+          "label": "B",
+          "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Being kind</span></p>"
+        },
+        "explanation": ""
+      },
+      {
+        "n": 4,
+        "type": "frq",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Why do the friends look after the boy in the wheelchair?</span></p>",
+        "ai_template_id": "458121578659",
+        "acceptable_answers": [
+          "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Because they care about him and want to help.</span></p>"
+        ],
+        "explanation": ""
+      },
+      {
+        "n": 5,
+        "type": "frq",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">How can you make a difference when someone feels sad?</span></p>",
+        "ai_template_id": "458121578659",
+        "acceptable_answers": [
+          "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">By being kind or trying to make them laugh.</span></p>"
+        ],
+        "explanation": ""
+      },
+      {
+        "n": 6,
+        "type": "frq",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">What do the students imagine about the world?</span></p>",
+        "ai_template_id": "458121578659",
+        "acceptable_answers": [
+          "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">A world where people treat each other equally.</span></p>"
+        ],
+        "explanation": ""
+      }
+    ]
+  }
+}

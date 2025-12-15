@@ -1,0 +1,36 @@
+(
+  /* Transform gap_text_keys to gap_keys with display_order */
+  $gapKeys := $map(part.gap_text_keys, function($key, $idx) {
+    $key.correct_order ? {
+      "value": $key.value,
+      "display_order": $idx + 1,
+      "correct_order": $key.correct_order
+    } : {
+      "value": $key.value,
+      "display_order": $idx + 1
+    }
+  });
+  
+  /* Generate correct_answer by replacing gaps in stem with correct values */
+  $correctKeys := $filter(part.gap_text_keys, function($k) {
+    $exists($k.correct_order)
+  })^(correct_order);
+  
+  $gapMarker := /<span[^>]*data-node-variation="gap"[^>]*>.*?<\/span>/;
+  
+  /* Replace gaps iteratively - limit to 1 to replace only first occurrence each time */
+  $correctAnswer := $reduce($correctKeys, function($stem, $key) {
+    $replace($stem, $gapMarker, ' ' & $key.value, 1)
+  }, part.stem);
+  
+  /* Return the complete part structure */
+  {
+    "n": part.n,
+    "type": "gap",
+    "stem": part.stem,
+    "gap_keys": $gapKeys,
+    "correct_answer": $correctAnswer,
+    "explanation": explanation
+  }
+)
+

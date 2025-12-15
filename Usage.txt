@@ -1,0 +1,29 @@
+JSON CONVERSION TOOL - JSONATA VERSION
+
+REQUIREMENTS:
+pip install -r requirements.txt
+(Requires: jsonata-python, tqdm, openpyxl)
+
+BASIC USAGE:
+python3 -B main.py                                    # Convert all files in INPUT/ folder
+python3 -B main.py -v                                 # Verbose mode with detailed progress
+python3 -B main.py --input path/to/files              # Specify custom input path
+python3 -B main.py --output path/to/output            # Specify custom output path
+python3 -B main.py --types mcq,mrq,counting           # Filter by question types
+python3 -B main.py --dry-run                          # Validation only, no files written
+
+INPUT/OUTPUT:
+- Place JSON files in INPUT/ folder (supports subdirectories)
+- Converted files saved to OUTPUTS/CONVERTED/
+- Failed files saved to:
+  * PRE_CONVERSION_VALIDATION_FAILED/ (original files)
+  * CONVERSION_FAILED/ (original files)
+  * POST_CONVERSION_VALIDATION_FAILED/ (converted files)
+- Error reports in LOGS_REPORTS/ (.log and .xlsx)
+
+SUPPORTED QUESTION TYPES:
+mcq, mrq, frq, frq_ai, oq, gapText, string, opinion, matching, counting, puzzle, input_box
+
+CONVERSION RULES:
+JSONata transformation rules located in JSONATA_RULES/ folder (one .jsonata file per type)
+

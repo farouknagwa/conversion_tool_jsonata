@@ -1,0 +1,72 @@
+{
+  "question_id": "819108747329",
+  "parent_id": "395146574343",
+  "language_code": "ar",
+  "language": "Arabic",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "اكتشف",
+  "grade": "3",
+  "number_of_parts": 1,
+  "section_id": "975196989325",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "puzzle",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span style=\"white-space: pre-wrap;\">حلَّ اللغز الآتي للتعرف على الحيوانات التي يُمكِن أن تعيش في المحيط.</span></p>",
+        "rows": "3",
+        "columns": "3",
+        "pieces": [
+          {
+            "display_order": 1,
+            "correct_order": 6,
+            "src": "https://files-cds-chestnut-com.s3.amazonaws.com/images/382136836230.png"
+          },
+          {
+            "display_order": 2,
+            "correct_order": 5,
+            "src": "https://files-cds-chestnut-com.s3.amazonaws.com/images/128156850458.png"
+          },
+          {
+            "display_order": 3,
+            "correct_order": 4,
+            "src": "https://files-cds-chestnut-com.s3.amazonaws.com/images/305176853728.png"
+          },
+          {
+            "display_order": 4,
+            "correct_order": 8,
+            "src": "https://files-cds-chestnut-com.s3.amazonaws.com/images/569165368757.png"
+          },
+          {
+            "display_order": 5,
+            "correct_order": 7,
+            "src": "https://files-cds-chestnut-com.s3.amazonaws.com/images/567163640306.png"
+          },
+          {
+            "display_order": 6,
+            "correct_order": 9,
+            "src": "https://files-cds-chestnut-com.s3.amazonaws.com/images/594142062846.png"
+          },
+          {
+            "display_order": 7,
+            "correct_order": 3,
+            "src": "https://files-cds-chestnut-com.s3.amazonaws.com/images/536140264596.png"
+          },
+          {
+            "display_order": 8,
+            "correct_order": 2,
+            "src": "https://files-cds-chestnut-com.s3.amazonaws.com/images/438168790670.png"
+          },
+          {
+            "display_order": 9,
+            "correct_order": 1,
+            "src": "https://files-cds-chestnut-com.s3.amazonaws.com/images/832149402746.png"
+          }
+        ],
+        "correct_answer": "https://files-cds-chestnut-com.s3.amazonaws.com/images/693137491802.svg"
+      }
+    ]
+  }
+}

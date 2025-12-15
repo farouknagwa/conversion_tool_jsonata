@@ -1,0 +1,49 @@
+{
+  "question_id": "316187946837",
+  "parent_id": "526163415475",
+  "language_code": "ar",
+  "language": "Arabic",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "الفيزياء",
+  "grade": "12",
+  "number_of_parts": 1,
+  "section_id": "856138270306",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "mcq",
+        "stem": "<p>تبلغ مقاومة ملف جلفانومتر <span class=\"merge\"><span class=\"merge no_margin\" dir=\"ltr\">25 &Omega;</span>. </span>قيمة المقاومة المُضاعِفة للجهد اللازمة ليقيس الجلفانومتر فرق جهد يساوي 5 أمثال فرق الجهد عَبْرَ ملفه هي <span class=\"merge\"><span data-node-type=\"blank-line\" data-node-variation=\"space\">&nbsp;</span>.</span></p>",
+        "choices": [
+          {
+            "label": "أ",
+            "value": "<span class=\"merge no_margin\" dir=\"ltr\">20 &Omega;</span>",
+            "is_correct": false
+          },
+          {
+            "label": "ب",
+            "value": "<span class=\"merge no_margin\" dir=\"ltr\">125 &Omega;</span>",
+            "is_correct": false
+          },
+          {
+            "label": "ج",
+            "value": "<span class=\"merge no_margin\" dir=\"ltr\">100 &Omega;</span>",
+            "is_correct": true
+          },
+          {
+            "label": "د",
+            "value": "<span class=\"merge no_margin\" dir=\"ltr\">5 &Omega;</span>",
+            "is_correct": false
+          }
+        ],
+        "correct_answer": {
+          "label": "ج",
+          "value": "<span class=\"merge no_margin\" dir=\"ltr\">100 &Omega;</span>"
+        },
+        "explanation": ""
+      }
+    ]
+  }
+}

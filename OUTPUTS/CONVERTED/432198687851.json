@@ -1,0 +1,72 @@
+{
+  "question_id": "432198687851",
+  "parent_id": "640107264349",
+  "language_code": "ar",
+  "language": "Arabic",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "اكتشف",
+  "grade": "1",
+  "number_of_parts": 1,
+  "section_id": "136193912753",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "puzzle",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span style=\"white-space: pre-wrap;\">حُلَّ اللغز لاكتشاف ما سوف نتعلم عنه اليوم.</span></p>",
+        "rows": "3",
+        "columns": "3",
+        "pieces": [
+          {
+            "display_order": 1,
+            "correct_order": 1,
+            "src": "https://files-cds-chestnut-com.s3.amazonaws.com/images/258189148258.png"
+          },
+          {
+            "display_order": 2,
+            "correct_order": 7,
+            "src": "https://files-cds-chestnut-com.s3.amazonaws.com/images/625138509042.png"
+          },
+          {
+            "display_order": 3,
+            "correct_order": 2,
+            "src": "https://files-cds-chestnut-com.s3.amazonaws.com/images/503170870656.png"
+          },
+          {
+            "display_order": 4,
+            "correct_order": 9,
+            "src": "https://files-cds-chestnut-com.s3.amazonaws.com/images/967145270608.png"
+          },
+          {
+            "display_order": 5,
+            "correct_order": 4,
+            "src": "https://files-cds-chestnut-com.s3.amazonaws.com/images/670141510808.png"
+          },
+          {
+            "display_order": 6,
+            "correct_order": 5,
+            "src": "https://files-cds-chestnut-com.s3.amazonaws.com/images/213178626765.png"
+          },
+          {
+            "display_order": 7,
+            "correct_order": 3,
+            "src": "https://files-cds-chestnut-com.s3.amazonaws.com/images/737121380352.png"
+          },
+          {
+            "display_order": 8,
+            "correct_order": 8,
+            "src": "https://files-cds-chestnut-com.s3.amazonaws.com/images/604167358218.png"
+          },
+          {
+            "display_order": 9,
+            "correct_order": 6,
+            "src": "https://files-cds-chestnut-com.s3.amazonaws.com/images/104165619073.png"
+          }
+        ],
+        "correct_answer": "https://files-cds-chestnut-com.s3.amazonaws.com/images/948121602172.png"
+      }
+    ]
+  }
+}

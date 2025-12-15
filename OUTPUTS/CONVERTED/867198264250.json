@@ -1,0 +1,70 @@
+{
+  "question_id": "867198264250",
+  "parent_id": "867198264250",
+  "language_code": "fr",
+  "language": "French",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Français",
+  "grade": "11",
+  "number_of_parts": 1,
+  "section_id": "105195451710",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "matching",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">Associe l’image à son nom.</span></p>",
+        "items": {
+          "A": [
+            {
+              "value": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/494160483494.jpg\" alt=\"928165016204\" width=\"220\" height=\"129.4091576251187\" style=\"aspect-ratio: 220/129.4091576251187;\" class=\"displayed-image\"></span></p>",
+              "label": "A1"
+            },
+            {
+              "value": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/893131730851.jpg\" alt=\"953190720868\" width=\"220\" height=\"129.4091576251187\" style=\"aspect-ratio: 220/129.4091576251187;\" class=\"displayed-image\"></span></p>",
+              "label": "A2"
+            },
+            {
+              "value": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/234174309483.jpg\" alt=\"136149230215 (1)\" width=\"220\" height=\"129.4091576251187\" style=\"aspect-ratio: 220/129.4091576251187;\" class=\"displayed-image\"></span></p>",
+              "label": "A3"
+            }
+          ],
+          "B": [
+            {
+              "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">L’appareil photo</span></p>",
+              "label": "B1",
+              "matches": "A3"
+            },
+            {
+              "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">L’ordinateur</span></p><p class=\"LexicalTheme__paragraph\"><br></p>",
+              "label": "B2",
+              "matches": "A2"
+            },
+            {
+              "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">La table</span></p><p class=\"LexicalTheme__paragraph\"><br></p>",
+              "label": "B3",
+              "matches": "A1"
+            }
+          ],
+          "correct_answer": [
+            {
+              "A": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/494160483494.jpg\" alt=\"928165016204\" width=\"220\" height=\"129.4091576251187\" style=\"aspect-ratio: 220/129.4091576251187;\" class=\"displayed-image\"></span></p>",
+              "B": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">La table</span></p><p class=\"LexicalTheme__paragraph\"><br></p>"
+            },
+            {
+              "A": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/893131730851.jpg\" alt=\"953190720868\" width=\"220\" height=\"129.4091576251187\" style=\"aspect-ratio: 220/129.4091576251187;\" class=\"displayed-image\"></span></p>",
+              "B": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">L’ordinateur</span></p><p class=\"LexicalTheme__paragraph\"><br></p>"
+            },
+            {
+              "A": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/234174309483.jpg\" alt=\"136149230215 (1)\" width=\"220\" height=\"129.4091576251187\" style=\"aspect-ratio: 220/129.4091576251187;\" class=\"displayed-image\"></span></p>",
+              "B": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">L’appareil photo</span></p>"
+            }
+          ]
+        },
+        "explanation": ""
+      }
+    ]
+  }
+}

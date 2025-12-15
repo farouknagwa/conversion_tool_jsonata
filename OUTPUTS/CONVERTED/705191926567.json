@@ -1,0 +1,36 @@
+{
+  "question_id": "705191926567",
+  "parent_id": "705191926567",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Science",
+  "grade": "4",
+  "number_of_parts": 1,
+  "section_id": "486138475278",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "gap",
+        "stem": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: justify;\"><span style=\"white-space: pre-line;\">An apple falling from a tree is a </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span><span style=\"white-space: pre-line;\"> force while kicking a ball is a </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span><span style=\"white-space: pre-line;\"> force.</span></p>",
+        "gap_keys": [
+          {
+            "value": "pulling",
+            "display_order": 1,
+            "correct_order": 1
+          },
+          {
+            "value": "pushing",
+            "display_order": 2,
+            "correct_order": 2
+          }
+        ],
+        "correct_answer": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: justify;\"><span style=\"white-space: pre-line;\">An apple falling from a tree is a </span> pulling<span style=\"white-space: pre-line;\"> force while kicking a ball is a </span> pushing<span style=\"white-space: pre-line;\"> force.</span></p>",
+        "explanation": ""
+      }
+    ]
+  }
+}

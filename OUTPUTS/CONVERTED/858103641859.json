@@ -1,0 +1,49 @@
+{
+  "question_id": "858103641859",
+  "parent_id": "145120196947",
+  "language_code": "ar",
+  "language": "Arabic",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "الفيزياء",
+  "grade": "12",
+  "number_of_parts": 1,
+  "section_id": "856138270306",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "mcq",
+        "stem": "<p>جلفانومتر مقاومته <span class=\"merge\"><span class=\"merge no_margin\" dir=\"ltr\">175 m&Omega;</span>. </span>يؤدِّي تيار شدته <span class=\"merge no_margin\" dir=\"ltr\">20 mA</span> إلى انحراف مؤشر الجلفانومتر إلى نهاية التدريج. أوجد قيمة المقاومة المضاعِفة للجهد، التي عند توصيلها على التوالي مع الجلفانومتر، تَسمَح باستخدامه فولتميترًا يُمكنه قياس جهد قيمته القصوى <span class=\"merge\"><span class=\"merge no_margin\" dir=\"ltr\">15 V</span>. </span>قرِّب إجابتك لأقرب أوم.</p>",
+        "choices": [
+          {
+            "label": "أ",
+            "value": "<span class=\"merge no_margin\" dir=\"ltr\">750 &Omega;</span>",
+            "is_correct": true
+          },
+          {
+            "label": "ب",
+            "value": "<span class=\"merge no_margin\" dir=\"ltr\"><span class=\"no_margin merge\">1&lrm; &lrm;000</span> &Omega;</span>",
+            "is_correct": false
+          },
+          {
+            "label": "ج",
+            "value": "<span class=\"merge no_margin\" dir=\"ltr\">500 &Omega;</span>",
+            "is_correct": false
+          },
+          {
+            "label": "د",
+            "value": "<span class=\"merge no_margin\" dir=\"ltr\">250 &Omega;</span>",
+            "is_correct": false
+          }
+        ],
+        "correct_answer": {
+          "label": "أ",
+          "value": "<span class=\"merge no_margin\" dir=\"ltr\">750 &Omega;</span>"
+        },
+        "explanation": ""
+      }
+    ]
+  }
+}

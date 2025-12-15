@@ -1,0 +1,33 @@
+{
+  "question_id": "373185865425",
+  "parent_id": "596132340902",
+  "language_code": "ar",
+  "language": "Arabic",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "اكتشف",
+  "grade": "3",
+  "number_of_parts": 1,
+  "section_id": "648172398103",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "opinion",
+        "stem": "<p dir=\"rtl\" style=\"text-align: right;\">هل تعتقد أن اختيار ياسمين للوجبة الخفيفة كان جيِّدًا؟</p><div dir=\"\" style=\"text-align: center;\"><img style=\"width: 200px;height: 145.792px;\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/946198316013.svg\" alt=\"Question Image\" /></div><p dir=\"ltr\" style=\"text-align: left;\"></p>",
+        "choices": [
+          {
+            "label": "أ",
+            "value": "<p dir=\"ltr\" style=\"text-align: left;\">لا</p>"
+          },
+          {
+            "label": "ب",
+            "value": "<p dir=\"ltr\" style=\"text-align: left;\">نعم</p>"
+          }
+        ],
+        "explanation": ""
+      }
+    ]
+  }
+}

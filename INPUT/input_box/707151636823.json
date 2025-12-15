@@ -1,0 +1,51 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p> Farida will use a watering can with a capacity of <span class=\"merge no_margin\">5 litres</span> to water her garden. How many <span>millilitres</span> of water will she be able to put in the can before it starts to overflow?</p>",
+      "type": "input_box",
+      "answer": {
+        "unit": "<span>millilitres</span>",
+        "value": "5000",
+        "constrains": {
+          "type": "integer"
+        }
+      },
+      "choices": [],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "metadata": {
+    "id": 707151636823,
+    "title": "",
+    "automark": true,
+    "category": "lesson",
+    "country": "eg",
+    "language": "en",
+    "dialect": [
+      "american"
+    ],
+    "mapped_id": 707151636823,
+    "source_id": {
+      "value": 343172873720,
+      "page_number": null
+    },
+    "description": "Farida will use a watering can with a capacity of 5 litres to water her garden. How many millilitres of water will she be able to put in the can before it starts to overflow?",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 8,
+    "publication_date": "2020-12-16T12:42:07"
+  },
+  "statement": null,
+  "instance_number": 1,
+  "answer": "",
+  "section_id": "482142617197",
+  "language": "en",
+  "subject_id": "123456789012",
+  "subject": "Mathematics",
+  "grade_id": "123456789012",
+  "grade": "4",
+  "country": "eg",
+  "question_id": "707151636823"
+}

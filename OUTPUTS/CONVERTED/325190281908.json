@@ -1,0 +1,33 @@
+{
+  "question_id": "325190281908",
+  "parent_id": "325190281908",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Connect Plus",
+  "grade": "3",
+  "number_of_parts": 1,
+  "section_id": "682154257421",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "opinion",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">Which sports event do you prefer?</span></p>",
+        "choices": [
+          {
+            "label": "A",
+            "value": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/795159876939.jpeg\" alt=\"325190281908.1\" width=\"437\" height=\"300\" style=\"aspect-ratio: 437/300;\" class=\"displayed-image\"></span></p>"
+          },
+          {
+            "label": "B",
+            "value": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/143159505837.jpg\" alt=\"325190281908.2\" width=\"437\" height=\"300\" style=\"aspect-ratio: 437/300;\" class=\"displayed-image\"></span></p>"
+          }
+        ],
+        "explanation": ""
+      }
+    ]
+  }
+}

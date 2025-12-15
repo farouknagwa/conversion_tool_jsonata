@@ -1,0 +1,30 @@
+{
+  "question_id": "907186560841",
+  "parent_id": "907186560841",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "English",
+  "grade": "5",
+  "number_of_parts": 1,
+  "section_id": "250127042016",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "ordering",
+        "stem": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Put the words in the correct order. &lt;br&gt;</span></p>",
+        "direction": "horizontal",
+        "items": {
+          "value": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">The frogs watched a fly and leaped happily across the pond.</span></p>",
+          "display_order": 1,
+          "correct_order": 1
+        },
+        "correct_answer": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">The frogs watched a fly and leaped happily across the pond.</span></p>",
+        "explanation": ""
+      }
+    ]
+  }
+}

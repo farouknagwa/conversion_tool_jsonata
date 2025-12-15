@@ -1,0 +1,55 @@
+{
+  "question_id": "123172470107",
+  "parent_id": "123172470107",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "English",
+  "grade": "6",
+  "number_of_parts": 1,
+  "section_id": "413178503539",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "mrq",
+        "stem": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Choose the two words that have the /er/ sound.</span></p>",
+        "choices": [
+          {
+            "label": "A",
+            "value": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">stare</span></p>",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "value": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">there</span></p>",
+            "is_correct": true
+          },
+          {
+            "label": "C",
+            "value": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">ladder</span></p>",
+            "is_correct": true
+          },
+          {
+            "label": "D",
+            "value": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">square</span></p>",
+            "is_correct": false
+          }
+        ],
+        "correct_answer": [
+          {
+            "label": "B",
+            "value": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">there</span></p>"
+          },
+          {
+            "label": "C",
+            "value": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">ladder</span></p>"
+          }
+        ],
+        "explanation": ""
+      }
+    ]
+  }
+}

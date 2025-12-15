@@ -1,0 +1,57 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "string",
+      "subtype": null,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">تتطاير </span><span data-node-type=\"blank-line\" data-node-variation=\"space\">&nbsp;</span><span style=\"white-space: pre-wrap;\"> بعيدًا عن الزهور إلى بيئات طبيعية جديدة، وتنمو في أماكن أخرى عندما تكون الظروف مناسبة.</span></p>",
+      "choices": null,
+      "standalone": false,
+      "answer": [
+        "البذور"
+      ],
+      "ai": {
+        "ai_template_id": 593158513739,
+        "guidelines": [
+          {
+            "student_answer": "البذور",
+            "mark": "1",
+            "comment": "إجابة صحيحة!"
+          }
+        ]
+      }
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 434141925093,
+    "title": "S07 G5.1 2025/2026 ",
+    "category": "exam",
+    "country": "eg",
+    "language": "ar",
+    "dialect": [
+      "modern_standard"
+    ],
+    "mapped_id": 807134747686,
+    "source_id": {
+      "value": 698106520137,
+      "page_number": null
+    },
+    "description": "تتطاير   بعيدًا عن الزهور إلى بيئات طبيعية جديدة، وتنمو في أماكن أخرى عندما تكون الظروف مناسبة.",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": ""
+  },
+  "answer": "",
+  "section_id": "939191723496",
+  "language": "ar",
+  "subject_id": "123456789012",
+  "subject": "العلوم",
+  "grade_id": "123456789012",
+  "grade": "5",
+  "country": "eg",
+  "question_id": "807134747686"
+}

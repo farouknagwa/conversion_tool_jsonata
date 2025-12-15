@@ -1,0 +1,29 @@
+FILE: utils.py
+PURPOSE: Utility functions for JSON operations, validation helpers, and data extraction
+
+CUSTOM EXCEPTIONS:
+- ValidationError: Raised when validation fails (fields: message, field, actual_value, expected)
+- ConversionError: Raised when conversion fails (fields: message, part_type)
+
+UTILITY FUNCTIONS:
+- normalize_text(text): Removes extra newlines and spaces, returns cleaned text
+- format_timestamp(): Returns current timestamp in "YYYY-MM-DD HH:MM:SS" format
+- is_empty_or_none(value): Checks if value is None, empty string, empty list, or empty dict
+- load_json_file(filepath): Loads JSON file with error handling, raises ValidationError on failure
+- save_json_file(data, filepath, pretty=True): Saves JSON file with optional pretty printing
+
+EXTRACTION FUNCTIONS:
+- extract_language_code(json_data): Extracts and validates language code from language or metadata.language fields; raises ValidationError if invalid
+- extract_country_code(json_data): Extracts country code with priority logic (eg always wins if present, otherwise first valid found from country or metadata.country); raises ValidationError if invalid
+- extract_country_code_mandatory_return(json_data): Same as extract_country_code but returns raw value instead of raising error if invalid
+- validate_id_consistency(json_data, filename): Validates metadata.mapped_id, question_id, and filename all match; raises ValidationError if mismatch or missing
+- extract_parent_id(json_data): Extracts metadata.id as parent_id; raises ValidationError if empty/invalid
+- detect_question_types(json_data): Returns list of part types from parts array
+- get_source(json_data): Returns source field or DEFAULT_SOURCE ("nagwa")
+- extract_part_explanation(explanation, part_index): Extracts explanation for specific part in multi-part questions (currently basic implementation with TODO for proper parsing)
+
+VALIDATION HELPERS:
+- Language codes validated against LANGUAGES dict from config
+- Country codes validated against COUNTRIES dict from config
+- Special rule: "eg" (Egypt) country code has highest priority
+

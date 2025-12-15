@@ -1,0 +1,141 @@
+{
+  "question_id": "969148326128",
+  "parent_id": "969148326128",
+  "language_code": "ar",
+  "language": "Arabic",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "اللغة العربية",
+  "grade": "8",
+  "number_of_parts": 5,
+  "section_id": "262197376394",
+  "source": "human",
+  "content": {
+    "statement": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span style=\"white-space: pre-wrap;\">يقول نصرة سعيد عن الوطن:</span></p><div class=\"PoemContainer\"><article class=\"Poem vertical-split\"><p>يــــــا أرضَ آبـــــائـــــي الـــــكِـــــرامْ</p><p>يـــــا إرثَ أجـــــدادِي الــــعِــــظامْ</p><p>أرَعى لك — العُمرَ — الذِّمَامْ</p><p>لـك في الحَشَا أسمى نَصِيبْ</p></article></div><div class=\"PoemContainer\"><article class=\"Poem vertical\"><p>أهواكَ يا وطني الحَبِيبْ</p></article></div><div class=\"PoemContainer\"><article class=\"Poem vertical-split\"><p>يــــــا جَــــــنَّــــــةً بــــــكَــــــمـــــالِـــــهِ</p><p>يــــــا روضـــــةً بـــــجَـــــمـــــالِـــــهِ</p><p>بِـــــسُـــــهـــــولِـــــهِ وَجِـــــبـــــالِـــــهِ</p><p>يا مَوطِنَ الحُسنِ العجيبْ</p></article></div><div class=\"PoemContainer\"><article class=\"Poem vertical\"><p>أهواكَ ياوطني الحبِيبْ</p></article></div>",
+    "parts": [
+      {
+        "n": 1,
+        "type": "mcq",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: justify;\"><span style=\"white-space: pre-wrap;\">معنى كلمة «الذِّمَام»</span><span style=\"white-space: pre-wrap;\"> </span><span data-node-type=\"blank-line\" data-node-variation=\"space\">&nbsp;</span><span style=\"white-space: pre-wrap;\">.</span></p>",
+        "choices": [
+          {
+            "label": "أ",
+            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span style=\"white-space: pre-wrap;\">العَهْد</span></p>",
+            "is_correct": true
+          },
+          {
+            "label": "ب",
+            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span style=\"white-space: pre-wrap;\">المِيراث</span></p>",
+            "is_correct": false
+          },
+          {
+            "label": "ج",
+            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span style=\"white-space: pre-wrap;\">الحضارة</span></p>",
+            "is_correct": false
+          },
+          {
+            "label": "د",
+            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span style=\"white-space: pre-wrap;\">الأرض</span></p>",
+            "is_correct": false
+          }
+        ],
+        "correct_answer": {
+          "label": "أ",
+          "value": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span style=\"white-space: pre-wrap;\">العَهْد</span></p>"
+        },
+        "explanation": ""
+      },
+      {
+        "n": 2,
+        "type": "mcq",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: justify;\"><span style=\"white-space: pre-wrap;\">جمع كلمة «الحَشَا» </span><span data-node-type=\"blank-line\" data-node-variation=\"space\">&nbsp;</span><span style=\"white-space: pre-wrap;\">.</span></p>",
+        "choices": [
+          {
+            "label": "أ",
+            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span style=\"white-space: pre-wrap;\">الحشايا</span></p>",
+            "is_correct": false
+          },
+          {
+            "label": "ب",
+            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span style=\"white-space: pre-wrap;\">الأحشاء</span></p>",
+            "is_correct": true
+          },
+          {
+            "label": "ج",
+            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span style=\"white-space: pre-wrap;\">الحُشَّان</span></p>",
+            "is_correct": false
+          },
+          {
+            "label": "د",
+            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span style=\"white-space: pre-wrap;\">الحواشي</span></p>",
+            "is_correct": false
+          }
+        ],
+        "correct_answer": {
+          "label": "ب",
+          "value": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span style=\"white-space: pre-wrap;\">الأحشاء</span></p>"
+        },
+        "explanation": ""
+      },
+      {
+        "n": 3,
+        "type": "string",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">بين «بِسُهولِهِ» و«جِبالِهِ» علاقة </span><span data-node-type=\"blank-line\" data-node-variation=\"space\">&nbsp;</span><span style=\"white-space: pre-wrap;\">.</span></p>",
+        "ai_template_id": "593158513739",
+        "acceptable_answers": [
+          "تضاد"
+        ],
+        "guidelines": [
+          {
+            "student_answer": "تضاد",
+            "mark": "1",
+            "comment": "إجابة صحيحة!"
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "n": 4,
+        "type": "mcq",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">ما الرسالة الأساسية التي حرص الشاعر على إيصالها في هذه الأبيات؟</span></p>",
+        "choices": [
+          {
+            "label": "أ",
+            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">الفخر العميق بالوطن وشدة حُبِّه والانتماء إليه.</span></p>",
+            "is_correct": true
+          },
+          {
+            "label": "ب",
+            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">الحنين إلى الماضي وذكريات الطفولة على أرض الوطن.</span></p>",
+            "is_correct": false
+          },
+          {
+            "label": "ج",
+            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">الاحتفاء بجمال الطبيعة في أرجاء الوطن.</span></p>",
+            "is_correct": false
+          },
+          {
+            "label": "د",
+            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">الدعوة إلى التمسُّك بالعادات والحفاظ على إرث الأجداد.</span></p>",
+            "is_correct": false
+          }
+        ],
+        "correct_answer": {
+          "label": "أ",
+          "value": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">الفخر العميق بالوطن وشدة حُبِّه والانتماء إليه.</span></p>"
+        },
+        "explanation": ""
+      },
+      {
+        "n": 5,
+        "type": "frq",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">ما الجمال في قول الشاعر: «يا جَنَّةً بِكَمالِهِ»؟ وعلام يدلُّ؟</span></p>",
+        "ai_template_id": "248170436092",
+        "acceptable_answers": [
+          "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">تشبيه للوطن بالجنة، يدلُّ على جمال الوطن وروعة طبيعته، وشدة حب الشاعر له وإعجابه بطبيعته الساحرة.</span></p>"
+        ],
+        "explanation": ""
+      }
+    ]
+  }
+}

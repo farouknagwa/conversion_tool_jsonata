@@ -1,0 +1,31 @@
+JSON QUESTION CONVERSION TOOL - EXECUTIVE SUMMARY
+
+PURPOSE:
+Automated tool to convert educational question JSON files from legacy structure to new standardized structure, with comprehensive validation and error reporting.
+
+CAPABILITIES:
+- Converts 11 question types: MCQ, MRQ, FRQ_AI, Ordering, Gap-Text, String, Opinion, Matching, Counting, Puzzle, Input-Box
+- Uses JSONata transformation rules for type-specific conversions
+- Three-stage pipeline: Pre-validation → Conversion → Post-validation
+- Batch processing with progress tracking and error recovery
+- Generates detailed error reports (Excel + text logs)
+
+KEY FEATURES:
+- Pre-conversion validation ensures input quality (OLD structure)
+- Post-conversion validation ensures output correctness (NEW structure)
+- Failed files automatically segregated by failure type
+- Supports filtering by question type
+- Dry-run mode for validation-only testing
+- CLI interface with verbose mode
+
+OUTPUT CATEGORIES:
+✓ CONVERTED/ - Successfully converted files
+✗ PRE_CONVERSION_VALIDATION_FAILED/ - Invalid input structure
+✗ CONVERSION_FAILED/ - Transformation errors
+✗ POST_CONVERSION_VALIDATION_FAILED/ - Invalid output structure
+📊 LOGS_REPORTS/ - Detailed error tracking (.xlsx + .log)
+
+TYPICAL USAGE:
+python3 -B main.py
+(Processes all INPUT/ files with detailed progress)
+

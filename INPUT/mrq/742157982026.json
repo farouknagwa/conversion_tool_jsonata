@@ -1,0 +1,99 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "mrq",
+      "subtype": null,
+      "stem": "<p dir=\"ltr\" style=\"text-align: left;\">The perimeter of a rectangle is 18 cm.</p><p dir=\"ltr\" style=\"text-align: left;\">What could its side lengths be? Select two answers.</p>",
+      "answer": null,
+      "grid_size": null,
+      "gap_text_keys": null,
+      "choices": [
+        {
+          "type": "distractor",
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">5 cm, 5 cm, 3 cm, 3 cm</p>",
+          "values": [],
+          "unit": null,
+          "index": 0,
+          "fixed_order": 1,
+          "correct_order": 2,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "key",
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">5 cm, 5 cm, 4 cm, 4 cm</p>",
+          "values": [],
+          "unit": null,
+          "index": 1,
+          "fixed_order": 2,
+          "correct_order": 4,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">6 cm, 6 cm, 2 cm, 2 cm</p>",
+          "values": [],
+          "unit": null,
+          "index": 2,
+          "fixed_order": 3,
+          "correct_order": 3,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "key",
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">6 cm, 6 cm, 3 cm, 3 cm</p>",
+          "values": [],
+          "unit": null,
+          "index": 3,
+          "fixed_order": 4,
+          "correct_order": 1,
+          "last_order": false,
+          "group": 1
+        }
+      ],
+      "standalone": false,
+      "puzzleColumns": null,
+      "puzzleImage": null,
+      "puzzleImageHeight": null,
+      "puzzleImageSplited": null,
+      "puzzleImageWidth": null,
+      "puzzleRows": null
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 742157982026,
+    "title": "EG4.1 S9",
+    "category": "lesson",
+    "country": "eg",
+    "language": "en",
+    "dialect": [
+      "american",
+      "british"
+    ],
+    "mapped_id": 742157982026,
+    "source_id": {
+      "value": 345171316462,
+      "page_number": null
+    },
+    "description": "The perimeter of a rectangle is 18 cm.What could its side lengths be? Select two answers.",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": ""
+  },
+  "answer": "",
+  "section_id": "917148042571",
+  "language": "en",
+  "subject_id": "123456789012",
+  "subject": "Mathematics",
+  "grade_id": "123456789012",
+  "grade": "4",
+  "country": "eg",
+  "question_id": "742157982026"
+}

@@ -1,0 +1,36 @@
+{
+  "question_id": "246176950282",
+  "parent_id": "390159821741",
+  "language_code": "ar",
+  "language": "Arabic",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "الرياضيات",
+  "grade": "4",
+  "number_of_parts": 1,
+  "section_id": "520104501971",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "gap",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">إذا كانت الأعداد 3، 6، 12 </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span><span style=\"white-space: pre-wrap;\"> للعدد 36، فإن العدد </span><span style=\"white-space: pre-wrap;\">36 </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span><span style=\"white-space: pre-wrap;\"> لها.</span></p>",
+        "gap_keys": [
+          {
+            "value": "عوامل",
+            "display_order": 1,
+            "correct_order": 1
+          },
+          {
+            "value": "مضاعِف",
+            "display_order": 2,
+            "correct_order": 2
+          }
+        ],
+        "correct_answer": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">إذا كانت الأعداد 3، 6، 12 </span> عوامل<span style=\"white-space: pre-wrap;\"> للعدد 36، فإن العدد </span><span style=\"white-space: pre-wrap;\">36 </span> مضاعِف<span style=\"white-space: pre-wrap;\"> لها.</span></p>",
+        "explanation": ""
+      }
+    ]
+  }
+}

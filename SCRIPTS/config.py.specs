@@ -1,0 +1,19 @@
+FILE: config.py
+PURPOSE: Central configuration constants and mappings for JSON conversion
+
+CONSTANTS:
+- LANGUAGES: Maps language codes to language names (en→English, ar→Arabic, etc.)
+- COUNTRIES: Maps country codes to country names (eg→Egypt, us→United States, etc.)
+- VALID_PART_TYPES: List of allowed question part types (mcq, mrq, frq, oq, gapText, string, opinion, matching, counting, puzzle, input_box, frq_ai)
+- VALID_DIRECTIONS: Allowed ordering directions (vertical, horizontal)
+- VALID_CHOICE_TYPES: Allowed choice types (key, distractor)
+- VALID_CONSTRAINT_TYPES: Allowed input_box constraint types (decimal, integer)
+- VALID_STRING_AI_TEMPLATE_IDS: List of valid string AI template IDs
+- DEFAULT_SOURCE: Default source value ("nagwa")
+- GRID_SIZE_PATTERN: Regex pattern for counting question grid size (e.g., "5×4")
+- ERROR_TYPES: Error type labels for reporting (PRE_VALIDATION, CONVERSION, POST_VALIDATION)
+- EXCEL_COLUMNS: Column headers for Excel error reports
+
+USAGE:
+Imported by all other modules to ensure consistency in validation and conversion
+

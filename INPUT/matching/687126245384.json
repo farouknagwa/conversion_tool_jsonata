@@ -1,0 +1,112 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "matching",
+      "subtype": null,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Animals get food in different ways.</span></p><p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Drag the way of getting food to match the animal that uses it.</span></p>",
+      "choices": [
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Rabbits</span></p>",
+          "values": [],
+          "unit": null,
+          "index": 0,
+          "fixed_order": 1,
+          "correct_order": 1,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Lions</span></p>",
+          "values": [],
+          "unit": null,
+          "index": 1,
+          "fixed_order": 2,
+          "correct_order": 2,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Raccoons and vultures</span></p>",
+          "values": [],
+          "unit": null,
+          "index": 2,
+          "fixed_order": 3,
+          "correct_order": 3,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">eat dead animals.</span></p>",
+          "values": [],
+          "unit": null,
+          "index": 0,
+          "fixed_order": 1,
+          "correct_order": 3,
+          "last_order": false,
+          "group": 2
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">eat plants.</span></p>",
+          "values": [],
+          "unit": null,
+          "index": 1,
+          "fixed_order": 2,
+          "correct_order": 1,
+          "last_order": false,
+          "group": 2
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">catch other animals for food.</span></p>",
+          "values": [],
+          "unit": null,
+          "index": 2,
+          "fixed_order": 3,
+          "correct_order": 2,
+          "last_order": false,
+          "group": 2
+        }
+      ],
+      "standalone": false
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 687126245384,
+    "title": "",
+    "category": "lesson",
+    "country": "eg",
+    "language": "en",
+    "dialect": [
+      "american",
+      "british"
+    ],
+    "mapped_id": 687126245384,
+    "source_id": {
+      "value": 212194986282,
+      "page_number": null
+    },
+    "description": "Animals get food in different ways.Drag the way of getting food to match the animal that uses it.",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": ""
+  },
+  "answer": "",
+  "section_id": "618187670756",
+  "language": "en",
+  "subject_id": "123456789012",
+  "subject": "Discover",
+  "grade_id": "123456789012",
+  "grade": "3",
+  "country": "eg",
+  "question_id": "687126245384"
+}

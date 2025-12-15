@@ -1,0 +1,34 @@
+{
+  "question_id": "807134747686",
+  "parent_id": "434141925093",
+  "language_code": "ar",
+  "language": "Arabic",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "العلوم",
+  "grade": "5",
+  "number_of_parts": 1,
+  "section_id": "939191723496",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "string",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">تتطاير </span><span data-node-type=\"blank-line\" data-node-variation=\"space\">&nbsp;</span><span style=\"white-space: pre-wrap;\"> بعيدًا عن الزهور إلى بيئات طبيعية جديدة، وتنمو في أماكن أخرى عندما تكون الظروف مناسبة.</span></p>",
+        "ai_template_id": "593158513739",
+        "acceptable_answers": [
+          "البذور"
+        ],
+        "guidelines": [
+          {
+            "student_answer": "البذور",
+            "mark": "1",
+            "comment": "إجابة صحيحة!"
+          }
+        ],
+        "explanation": ""
+      }
+    ]
+  }
+}

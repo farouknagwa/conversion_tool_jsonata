@@ -1,0 +1,34 @@
+{
+  "question_id": "212132328509",
+  "parent_id": "837130957183",
+  "language_code": "ar",
+  "language": "Arabic",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "العلوم",
+  "grade": "5",
+  "number_of_parts": 1,
+  "section_id": "617195047385",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "string",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">ما المصطلح العلمي الذي يُطلَق على أنبوب في النبات، ينقل الجلوكوز الناتج عن عملية البناء الضوئي من الأوراق إلى باقي أجزاء النبات؟</span></p>",
+        "ai_template_id": "593158513739",
+        "acceptable_answers": [
+          "اللحاء"
+        ],
+        "guidelines": [
+          {
+            "student_answer": "اللحاء",
+            "mark": "1",
+            "comment": "إجابة صحيحة!"
+          }
+        ],
+        "explanation": ""
+      }
+    ]
+  }
+}

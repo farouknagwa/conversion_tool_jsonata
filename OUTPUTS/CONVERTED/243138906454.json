@@ -1,0 +1,72 @@
+{
+  "question_id": "243138906454",
+  "parent_id": "492194713781",
+  "language_code": "ar",
+  "language": "Arabic",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "اكتشف",
+  "grade": "1",
+  "number_of_parts": 1,
+  "section_id": "856173763185",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "puzzle",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span style=\"white-space: pre-wrap;\">رتب الصور لمعرفة الحيوان الأخير لدينا.</span></p>",
+        "rows": "3",
+        "columns": "3",
+        "pieces": [
+          {
+            "display_order": 1,
+            "correct_order": 7,
+            "src": "https://files-cds-chestnut-com.s3.amazonaws.com/images/476139192678.png"
+          },
+          {
+            "display_order": 2,
+            "correct_order": 6,
+            "src": "https://files-cds-chestnut-com.s3.amazonaws.com/images/950193269854.png"
+          },
+          {
+            "display_order": 3,
+            "correct_order": 4,
+            "src": "https://files-cds-chestnut-com.s3.amazonaws.com/images/702129419260.png"
+          },
+          {
+            "display_order": 4,
+            "correct_order": 1,
+            "src": "https://files-cds-chestnut-com.s3.amazonaws.com/images/387147515906.png"
+          },
+          {
+            "display_order": 5,
+            "correct_order": 9,
+            "src": "https://files-cds-chestnut-com.s3.amazonaws.com/images/169179230901.png"
+          },
+          {
+            "display_order": 6,
+            "correct_order": 5,
+            "src": "https://files-cds-chestnut-com.s3.amazonaws.com/images/145136801679.png"
+          },
+          {
+            "display_order": 7,
+            "correct_order": 8,
+            "src": "https://files-cds-chestnut-com.s3.amazonaws.com/images/506103269713.png"
+          },
+          {
+            "display_order": 8,
+            "correct_order": 2,
+            "src": "https://files-cds-chestnut-com.s3.amazonaws.com/images/690131745040.png"
+          },
+          {
+            "display_order": 9,
+            "correct_order": 3,
+            "src": "https://files-cds-chestnut-com.s3.amazonaws.com/images/249161736156.png"
+          }
+        ],
+        "correct_answer": "https://files-cds-chestnut-com.s3.amazonaws.com/images/897172643727.svg"
+      }
+    ]
+  }
+}

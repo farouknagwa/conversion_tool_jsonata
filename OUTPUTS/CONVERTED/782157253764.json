@@ -1,0 +1,50 @@
+{
+  "question_id": "782157253764",
+  "parent_id": "782157253764",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Discover",
+  "grade": "3",
+  "number_of_parts": 1,
+  "section_id": "960141594606",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "mrq",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Pick </span><b><strong class=\"LexicalTheme__textBold\" style=\"white-space: pre-wrap;\">two</strong></b><span style=\"white-space: pre-wrap;\"> ways in which water hyacinth harms the Nile habitat.</span></p>",
+        "choices": [
+          {
+            "label": "A",
+            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">It blocks sunlight from reaching plants under the water.</span></p>",
+            "is_correct": true
+          },
+          {
+            "label": "B",
+            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">It produces a lot of oxygen in the water.</span></p>",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">It consumes too much water.</span></p>",
+            "is_correct": true
+          }
+        ],
+        "correct_answer": [
+          {
+            "label": "A",
+            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">It blocks sunlight from reaching plants under the water.</span></p>"
+          },
+          {
+            "label": "C",
+            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">It consumes too much water.</span></p>"
+          }
+        ],
+        "explanation": ""
+      }
+    ]
+  }
+}

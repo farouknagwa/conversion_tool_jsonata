@@ -1,0 +1,37 @@
+{
+  "question_id": "189131031957",
+  "parent_id": "313107085940",
+  "language_code": "ar",
+  "language": "Arabic",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "اكتشف",
+  "grade": "2",
+  "number_of_parts": 1,
+  "section_id": "435183429316",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "opinion",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">برأيك، من أين يأتي الماء في منزلك؟</span></p>",
+        "choices": [
+          {
+            "label": "أ",
+            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">البحر.</span></p>"
+          },
+          {
+            "label": "ب",
+            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">النهر.</span></p>"
+          },
+          {
+            "label": "ج",
+            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">البحيرة.</span></p>"
+          }
+        ],
+        "explanation": ""
+      }
+    ]
+  }
+}

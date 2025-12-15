@@ -1,0 +1,134 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>Which calculations would you need to work out to find out how many more points Mariam and Rania need to score?</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{49{,}000 + 23{,}667}\">\\displaystyle{49{,}000 + 23{,}667}</math-field></span> and <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{200{,}822 - 72{,}667}\">\\displaystyle{200{,}822 - 72{,}667}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{49{,}000 + 23{,}667}\">\\displaystyle{49{,}000 + 23{,}667}</math-field></span> and <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{200{,}822 + 72{,}667}\">\\displaystyle{200{,}822 + 72{,}667}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{49{,}000 - 23{,}667}\">\\displaystyle{49{,}000 - 23{,}667}</math-field></span> and <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{200{,}822 - 25{,}333}\">\\displaystyle{200{,}822 - 25{,}333}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{49{,}000 - 23{,}667}\">\\displaystyle{49{,}000 - 23{,}667}</math-field></span> and <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{200{,}822 + 25{,}333}\">\\displaystyle{200{,}822 + 25{,}333}</math-field></span>"
+        }
+      ],
+      "subtype": null,
+      "standalone": false
+    },
+    {
+      "n": 2,
+      "stem": "<p>How many more points do Mariam and Rania need to score?</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [
+            {
+              "type": "integer",
+              "value": "128155",
+              "constrains": null
+            }
+          ],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "<span class=\"no_margin merge\">128,155</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<span class=\"no_margin merge\">273,489</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<span class=\"no_margin merge\">175,489</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "<span class=\"no_margin merge\">226,155</span>"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "metadata": {
+    "id": 936152763891,
+    "title": "",
+    "automark": true,
+    "category": "lesson",
+    "country": "eg",
+    "language": "en",
+    "dialect": [
+      "american british"
+    ],
+    "mapped_id": 936152763891,
+    "source_id": {
+      "value": 253187642141,
+      "page_number": null
+    },
+    "description": "Mariam and Rania play a two-player video game. Mariam scores 37,356 and Rania scores 23,966. They need 163,175 points to be top of the leaderboard. Which calculations would you need to work out to find out how many more points Mariam and Rania need to score? How many more points do Mariam and Rania need to score?",
+    "has_example": false,
+    "parts_count": 2,
+    "instances_count": 10,
+    "publication_date": "2021-11-04T11:44:54"
+  },
+  "statement": "<p> Mariam and Rania play a two-player video game. Mariam scores <span class=\"no_margin merge\">49,000</span> and Rania scores <span class=\"merge\"><span class=\"no_margin merge\">23,667</span>. </span>They need <span class=\"no_margin merge\">200,822</span> points to be top of the leaderboard.</p>",
+  "instance_number": 2,
+  "answer": "",
+  "section_id": "482142617197",
+  "language": "en",
+  "subject_id": "123456789012",
+  "subject": "Mathematics",
+  "grade_id": "123456789012",
+  "grade": "4",
+  "country": "eg",
+  "question_id": "936152763891"
+}

@@ -1,0 +1,37 @@
+{
+  "question_id": "493170425372",
+  "parent_id": "493170425372",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Discover",
+  "grade": "2",
+  "number_of_parts": 1,
+  "section_id": "919141561476",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "opinion",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">Why do you think Nadia’s dad chose to be a farmer?</span></p>",
+        "choices": [
+          {
+            "label": "A",
+            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">He likes growing things.</span></p>"
+          },
+          {
+            "label": "B",
+            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">He likes fixing cars.</span></p>"
+          },
+          {
+            "label": "C",
+            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">He likes drawing.</span></p>"
+          }
+        ],
+        "explanation": ""
+      }
+    ]
+  }
+}

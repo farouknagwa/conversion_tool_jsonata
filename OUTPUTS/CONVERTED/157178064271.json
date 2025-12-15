@@ -1,0 +1,83 @@
+{
+  "question_id": "157178064271",
+  "parent_id": "157178064271",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Discover",
+  "grade": "1",
+  "number_of_parts": 1,
+  "section_id": "802149709350",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "matching",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">Drag each word to match its picture.</span></p>",
+        "items": {
+          "A": [
+            {
+              "value": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/312158721768.svg\" alt=\"142193197853\" width=\"80\" height=\"79\" style=\"aspect-ratio: 80/79;\" class=\"displayed-image\"></span></p>",
+              "label": "A1"
+            },
+            {
+              "value": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/149102740717.svg\" alt=\"614198792041\" width=\"70\" height=\"58\" style=\"aspect-ratio: 70/58;\" class=\"displayed-image\"></span></p>",
+              "label": "A2"
+            },
+            {
+              "value": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/875107939793.svg\" alt=\"475106740410\" width=\"111\" height=\"150\" style=\"aspect-ratio: 111/150;\" class=\"displayed-image\"></span></p>",
+              "label": "A3"
+            },
+            {
+              "value": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/609196345452.svg\" alt=\"658191972073\" width=\"89\" height=\"150\" style=\"aspect-ratio: 89/150;\" class=\"displayed-image\"></span></p>",
+              "label": "A4"
+            }
+          ],
+          "B": [
+            {
+              "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">Flower</span></p>",
+              "label": "B1",
+              "matches": "A1"
+            },
+            {
+              "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">Roots</span></p>",
+              "label": "B2",
+              "matches": "A4"
+            },
+            {
+              "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">Leaf</span></p>",
+              "label": "B3",
+              "matches": "A2"
+            },
+            {
+              "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">Stem</span></p>",
+              "label": "B4",
+              "matches": "A3"
+            }
+          ],
+          "correct_answer": [
+            {
+              "A": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/312158721768.svg\" alt=\"142193197853\" width=\"80\" height=\"79\" style=\"aspect-ratio: 80/79;\" class=\"displayed-image\"></span></p>",
+              "B": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">Flower</span></p>"
+            },
+            {
+              "A": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/149102740717.svg\" alt=\"614198792041\" width=\"70\" height=\"58\" style=\"aspect-ratio: 70/58;\" class=\"displayed-image\"></span></p>",
+              "B": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">Leaf</span></p>"
+            },
+            {
+              "A": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/875107939793.svg\" alt=\"475106740410\" width=\"111\" height=\"150\" style=\"aspect-ratio: 111/150;\" class=\"displayed-image\"></span></p>",
+              "B": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">Stem</span></p>"
+            },
+            {
+              "A": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/609196345452.svg\" alt=\"658191972073\" width=\"89\" height=\"150\" style=\"aspect-ratio: 89/150;\" class=\"displayed-image\"></span></p>",
+              "B": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">Roots</span></p>"
+            }
+          ]
+        },
+        "explanation": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+FILE: converter.py
+PURPOSE: Converts JSON question data from old structure to new structure using JSONata transformation rules
+
+FUNCTIONS:
+- extract_common_metadata(json_data, filename): Extracts and validates metadata fields (question_id, parent_id, language_code, language, country_code, country, subject, grade, section_id, source, number_of_parts)
+- convert_part(part, part_index, language_code, json_data): Converts single part using appropriate JSONata rule file based on part type; handles explanation extraction for multi-part questions
+- build_final_json(metadata, converted_parts, original_json): Assembles final converted JSON with metadata, statement (for multi-part), and converted parts
+- convert_question(json_data, filename): Main entry point - orchestrates full conversion pipeline
+
+JSONATA MAPPING:
+Part type → JSONata rule file:
+- matching → matching.jsonata
+- mcq → mcq.jsonata
+- mrq → mrq.jsonata
+- opinion → opinion.jsonata
+- counting → counting.jsonata
+- oq → ordering.jsonata
+- string → string.jsonata
+- frq/frq_ai → frq.jsonata
+- gapText → gap.jsonata
+- input_box → input.jsonata
+- puzzle → puzzle.jsonata
+
+CONVERSION PROCESS:
+1. Extract and validate common metadata
+2. Convert each part using JSONata transformation
+3. Build final JSON structure with content.statement (multi-part only) and content.parts
+
+RAISES:
+- ValidationError: When required metadata is missing or invalid
+- ConversionError: When JSONata transformation fails or unknown part type
+

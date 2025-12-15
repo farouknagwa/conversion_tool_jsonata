@@ -1,0 +1,62 @@
+(
+  /* Extract constraint type */
+  $constraintType := part.answer.constrains.type;
+  
+  /* Parse value based on type */
+  $value := $string(part.answer.value);
+  
+  /* Detect number format based on digits used */
+  $numberFormat := $contains($string(part.answer.value), /[٠-٩]/) ? "hindi" : "arabic";
+  
+  /* Convert Hindi digits to Arabic digits and convert to number */
+  $step0 := $replace($value, "٠", "0");
+  $step1 := $replace($step0, "١", "1");
+  $step2 := $replace($step1, "٢", "2");
+  $step3 := $replace($step2, "٣", "3");
+  $step4 := $replace($step3, "٤", "4");
+  $step5 := $replace($step4, "٥", "5");
+  $step6 := $replace($step5, "٦", "6");
+  $step7 := $replace($step6, "٧", "7");
+  $step8 := $replace($step7, "٨", "8");
+  $step9 := $replace($step8, "٫", ".");
+  $arabicValue := $replace($step9, "٩", "9");
+  
+  $numericValue := $number($arabicValue);
+  
+  /* Build full constraints object with defaults */
+  $constraints := {
+    "type": $constraintType,
+    "number_format": $numberFormat,
+    "allow_leading_zeros": $exists(part.answer.constrains.allow_leading_zeros) ? part.answer.constrains.allow_leading_zeros : false,
+    "allow_trailing_zeros": $exists(part.answer.constrains.allow_trailing_zeros) ? part.answer.constrains.allow_trailing_zeros : false,
+    "sign": $exists(part.answer.constrains.sign) ? part.answer.constrains.sign : "canBeExplicitOrImplicit",
+    "remove_leading_zeros_from_normalized_form": $exists(part.answer.constrains.remove_leading_zeros_from_normalized_form) ? part.answer.constrains.remove_leading_zeros_from_normalized_form : true,
+    "remove_trailing_zeros_from_normalized_form": $exists(part.answer.constrains.remove_trailing_zeros_from_normalized_form) ? part.answer.constrains.remove_trailing_zeros_from_normalized_form : true,
+    "add_single_leading_zero_to_normalized_form": $exists(part.answer.constrains.add_single_leading_zero_to_normalized_form) ? part.answer.constrains.add_single_leading_zero_to_normalized_form : false,
+    "remove_trailing_decimal_point_from_normalized_form": $exists(part.answer.constrains.remove_trailing_decimal_point_from_normalized_form) ? part.answer.constrains.remove_trailing_decimal_point_from_normalized_form : false,
+    "normalize_sign": $exists(part.answer.constrains.normalize_sign) ? part.answer.constrains.normalize_sign : "notSet",
+    "must_have_no_more_than_nsf": $exists(part.answer.constrains.must_have_no_more_than_nsf) ? part.answer.constrains.must_have_no_more_than_nsf : null,
+    "must_have_at_least_nsf": $exists(part.answer.constrains.must_have_at_least_nsf) ? part.answer.constrains.must_have_at_least_nsf : null,
+    "must_have_exactly_nsf": $exists(part.answer.constrains.must_have_exactly_nsf) ? part.answer.constrains.must_have_exactly_nsf : null,
+    "must_have_at_least_ndp": $exists(part.answer.constrains.must_have_at_least_ndp) ? part.answer.constrains.must_have_at_least_ndp : null,
+    "must_have_no_more_than_ndp": $exists(part.answer.constrains.must_have_no_more_than_ndp) ? part.answer.constrains.must_have_no_more_than_ndp : null,
+    "must_have_exactly_ndp": $exists(part.answer.constrains.must_have_exactly_ndp) ? part.answer.constrains.must_have_exactly_ndp : null
+  };
+  
+  /* Build correct_answer */
+  $correctAnswer := {
+    "value": $numericValue,
+    "unit": $exists(part.answer.unit) ? part.answer.unit : null,
+    "constraints": $constraints
+  };
+  
+  /* Return the complete part structure */
+  {
+    "n": part.n,
+    "type": "input",
+    "stem": part.stem,
+    "correct_answer": $correctAnswer,
+    "explanation": explanation
+  }
+)
+

@@ -1,0 +1,26 @@
+(
+  /* Sort choices by fixed_order for display */
+  $sortedChoices := part.choices^(fixed_order);
+  
+  /* Determine label set based on language */
+  $labels := languageCode = 'ar' ? ['أ', 'ب', 'ج', 'د', 'ه', 'و', 'ز', 'ح', 'ط', 'ي'] : 
+                                    ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'];
+  
+  /* Transform choices with labels (no is_correct for opinion) */
+  $transformedChoices := $map($sortedChoices, function($choice, $idx) {
+    {
+      "label": $labels[$idx],
+      "value": $choice.html_content
+    }
+  });
+  
+  /* Return the complete part structure (no correct_answer for opinion) */
+  {
+    "n": part.n,
+    "type": "opinion",
+    "stem": part.stem,
+    "choices": $transformedChoices,
+    "explanation": explanation
+  }
+)
+

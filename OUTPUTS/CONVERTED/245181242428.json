@@ -1,0 +1,44 @@
+{
+  "question_id": "245181242428",
+  "parent_id": "245181242428",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Mathematics",
+  "grade": "4",
+  "number_of_parts": 1,
+  "section_id": "482142617197",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "mcq",
+        "stem": "<p>Is nine hundred twenty million twenty-eight thousand six hundred sixteen <span class=\"merge\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\lt }\">\\displaystyle{\\lt }</math-field></span>, </span><span class=\"merge\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{=}\">\\displaystyle{=}</math-field></span>, </span>or <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\gt }\">\\displaystyle{\\gt }</math-field></span> <span class=\"merge\"><span class=\"no_margin merge\">920&lrm; &lrm;028&lrm; &lrm;661</span>?</span></p>",
+        "choices": [
+          {
+            "label": "A",
+            "value": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{ \\gt }\">\\displaystyle{ \\gt }</math-field></span>",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "value": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{ \\lt }\">\\displaystyle{ \\lt }</math-field></span>",
+            "is_correct": true
+          },
+          {
+            "label": "C",
+            "value": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{ = }\">\\displaystyle{ = }</math-field></span>",
+            "is_correct": false
+          }
+        ],
+        "correct_answer": {
+          "label": "B",
+          "value": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{ \\lt }\">\\displaystyle{ \\lt }</math-field></span>"
+        },
+        "explanation": ""
+      }
+    ]
+  }
+}

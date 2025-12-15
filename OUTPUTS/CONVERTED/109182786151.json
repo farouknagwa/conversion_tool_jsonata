@@ -1,0 +1,28 @@
+{
+  "question_id": "109182786151",
+  "parent_id": "109182786151",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Mathematics",
+  "grade": "1",
+  "number_of_parts": 1,
+  "section_id": "642187084358",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "counting",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Add counters to show how many.</span><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/158125159721.png\" alt=\"Screenshot 2025-08-25 at 08.20.17\" width=\"522\" height=\"150\" style=\"aspect-ratio: 522/150;\" class=\"displayed-image\"></span></p>",
+        "grid": {
+          "rows": 2,
+          "columns": 5
+        },
+        "correct_answer": 3,
+        "explanation": ""
+      }
+    ]
+  }
+}

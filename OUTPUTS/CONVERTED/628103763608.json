@@ -1,0 +1,83 @@
+{
+  "question_id": "628103763608",
+  "parent_id": "628103763608",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "English",
+  "grade": "3",
+  "number_of_parts": 1,
+  "section_id": "875152395181",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "matching",
+        "stem": "<p dir=\"ltr\" style=\"text-align: left;\">Match the instructions with the pictures. </p>",
+        "items": {
+          "A": [
+            {
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">Stay in bed.</p>",
+              "label": "A1"
+            },
+            {
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">Cover your mouth and nose.</p>",
+              "label": "A2"
+            },
+            {
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">Wash your hands. </p>",
+              "label": "A3"
+            },
+            {
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">Eat healthy food.</p>",
+              "label": "A4"
+            }
+          ],
+          "B": [
+            {
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\"></p><div dir=\"ltr\"><img style=\"width: 298.60358905928234px;height: 250px;\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/625169253513.svg\" alt=\"Question Image\" /></div><p dir=\"ltr\" style=\"text-align: left;\"></p>",
+              "label": "B1",
+              "matches": "A1"
+            },
+            {
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\"></p><div dir=\"ltr\"><img style=\"width: 298.60358905928234px;height: 250px;\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/925184267683.svg\" alt=\"Question Image\" /></div><p dir=\"ltr\" style=\"text-align: left;\"></p>",
+              "label": "B2",
+              "matches": "A4"
+            },
+            {
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\"></p><div dir=\"ltr\"><img style=\"width: 298.60358905928234px;height: 250px;\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/179173787867.svg\" alt=\"Question Image\" /></div><p dir=\"ltr\" style=\"text-align: left;\"></p>",
+              "label": "B3",
+              "matches": "A2"
+            },
+            {
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\"></p><div dir=\"ltr\"><img style=\"width: 298.60358905928234px;height: 250px;\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/838195429420.svg\" alt=\"Question Image\" /></div><p dir=\"ltr\" style=\"text-align: left;\"></p>",
+              "label": "B4",
+              "matches": "A3"
+            }
+          ],
+          "correct_answer": [
+            {
+              "A": "<p dir=\"ltr\" style=\"text-align: left;\">Stay in bed.</p>",
+              "B": "<p dir=\"ltr\" style=\"text-align: left;\"></p><div dir=\"ltr\"><img style=\"width: 298.60358905928234px;height: 250px;\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/625169253513.svg\" alt=\"Question Image\" /></div><p dir=\"ltr\" style=\"text-align: left;\"></p>"
+            },
+            {
+              "A": "<p dir=\"ltr\" style=\"text-align: left;\">Cover your mouth and nose.</p>",
+              "B": "<p dir=\"ltr\" style=\"text-align: left;\"></p><div dir=\"ltr\"><img style=\"width: 298.60358905928234px;height: 250px;\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/179173787867.svg\" alt=\"Question Image\" /></div><p dir=\"ltr\" style=\"text-align: left;\"></p>"
+            },
+            {
+              "A": "<p dir=\"ltr\" style=\"text-align: left;\">Wash your hands. </p>",
+              "B": "<p dir=\"ltr\" style=\"text-align: left;\"></p><div dir=\"ltr\"><img style=\"width: 298.60358905928234px;height: 250px;\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/838195429420.svg\" alt=\"Question Image\" /></div><p dir=\"ltr\" style=\"text-align: left;\"></p>"
+            },
+            {
+              "A": "<p dir=\"ltr\" style=\"text-align: left;\">Eat healthy food.</p>",
+              "B": "<p dir=\"ltr\" style=\"text-align: left;\"></p><div dir=\"ltr\"><img style=\"width: 298.60358905928234px;height: 250px;\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/925184267683.svg\" alt=\"Question Image\" /></div><p dir=\"ltr\" style=\"text-align: left;\"></p>"
+            }
+          ]
+        },
+        "explanation": ""
+      }
+    ]
+  }
+}

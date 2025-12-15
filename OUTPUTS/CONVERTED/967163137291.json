@@ -1,0 +1,41 @@
+{
+  "question_id": "967163137291",
+  "parent_id": "967163137291",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "English",
+  "grade": "5",
+  "number_of_parts": 1,
+  "section_id": "107128475173",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "gap",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Complete the text with the correct words.</span></p><p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">During our trip to the Everglades, we rode a</span><span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span><span style=\"white-space: pre-wrap;\"> through the</span><span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span><span style=\"white-space: pre-wrap;\">. We saw an</span><span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span><span style=\"white-space: pre-wrap;\"> resting on the shore and heard an owl in the trees.</span></p>",
+        "gap_keys": [
+          {
+            "value": "canoe",
+            "display_order": 1,
+            "correct_order": 1
+          },
+          {
+            "value": "alligator",
+            "display_order": 2,
+            "correct_order": 3
+          },
+          {
+            "value": "swamp",
+            "display_order": 3,
+            "correct_order": 2
+          }
+        ],
+        "correct_answer": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Complete the text with the correct words.</span></p><p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">During our trip to the Everglades, we rode a</span> canoe<span style=\"white-space: pre-wrap;\"> through the</span> swamp<span style=\"white-space: pre-wrap;\">. We saw an</span> alligator<span style=\"white-space: pre-wrap;\"> resting on the shore and heard an owl in the trees.</span></p>",
+        "explanation": ""
+      }
+    ]
+  }
+}

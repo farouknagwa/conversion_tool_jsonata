@@ -1,0 +1,106 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "puzzle",
+      "subtype": null,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">Solve the puzzle to find out what we are going to learn about today.</span></p>",
+      "choices": [],
+      "standalone": false,
+      "puzzleColumns": "3",
+      "puzzleImage": "https://files-cds-chestnut-com.s3.amazonaws.com/images/948121602172.png",
+      "puzzleImageHeight": "300",
+      "puzzleImageSplited": [
+        {
+          "index": 1,
+          "fixed_order": 1,
+          "correct_order": 1,
+          "src": "https://files-cds-chestnut-com.s3.amazonaws.com/images/258189148258.png"
+        },
+        {
+          "index": 2,
+          "fixed_order": 2,
+          "correct_order": 7,
+          "src": "https://files-cds-chestnut-com.s3.amazonaws.com/images/625138509042.png"
+        },
+        {
+          "index": 3,
+          "fixed_order": 3,
+          "correct_order": 2,
+          "src": "https://files-cds-chestnut-com.s3.amazonaws.com/images/503170870656.png"
+        },
+        {
+          "index": 4,
+          "fixed_order": 4,
+          "correct_order": 9,
+          "src": "https://files-cds-chestnut-com.s3.amazonaws.com/images/967145270608.png"
+        },
+        {
+          "index": 5,
+          "fixed_order": 5,
+          "correct_order": 4,
+          "src": "https://files-cds-chestnut-com.s3.amazonaws.com/images/670141510808.png"
+        },
+        {
+          "index": 6,
+          "fixed_order": 6,
+          "correct_order": 5,
+          "src": "https://files-cds-chestnut-com.s3.amazonaws.com/images/213178626765.png"
+        },
+        {
+          "index": 7,
+          "fixed_order": 7,
+          "correct_order": 3,
+          "src": "https://files-cds-chestnut-com.s3.amazonaws.com/images/737121380352.png"
+        },
+        {
+          "index": 8,
+          "fixed_order": 8,
+          "correct_order": 8,
+          "src": "https://files-cds-chestnut-com.s3.amazonaws.com/images/604167358218.png"
+        },
+        {
+          "index": 9,
+          "fixed_order": 9,
+          "correct_order": 6,
+          "src": "https://files-cds-chestnut-com.s3.amazonaws.com/images/104165619073.png"
+        }
+      ],
+      "puzzleImageWidth": "300",
+      "puzzleRows": "3"
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 640107264349,
+    "title": "Ques 1.1.18.3\t\t\tPuzzle",
+    "category": "lesson",
+    "country": "eg",
+    "language": "en",
+    "dialect": [
+      "british",
+      "american"
+    ],
+    "mapped_id": 640107264349,
+    "source_id": {
+      "value": 963163430437,
+      "page_number": null
+    },
+    "description": "Solve the puzzle to find out what we are going to learn about today.",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": ""
+  },
+  "answer": "",
+  "section_id": "219139429315",
+  "language": "en",
+  "subject_id": "123456789012",
+  "subject": "Discover",
+  "grade_id": "123456789012",
+  "grade": "1",
+  "country": "eg",
+  "question_id": "640107264349"
+}

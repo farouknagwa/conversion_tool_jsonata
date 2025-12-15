@@ -1,0 +1,45 @@
+{
+  "question_id": "985127108427",
+  "parent_id": "136150465707",
+  "language_code": "ar",
+  "language": "Arabic",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "الرياضيات",
+  "grade": "2",
+  "number_of_parts": 1,
+  "section_id": "469121250810",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "input",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">يريد باسم تجميع ٢٠ طابعًا. لديه ١١ طابعًا حتى الآن. كم طابعًا يحتاج إليه ليكون لديه ٢٠ طابعًا؟</span></p><p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://images.nagwa.com/figures/136150465707/1.svg\" alt=\"\" data-source-file-url=\"https://files-cds-chestnut-com.s3.amazonaws.com/question/Original/136150465707/tex/136150465707.10.tex\" width=\"185\" height=\"185\" style=\"aspect-ratio: 185/185;\" class=\"displayed-image\"></span></p>",
+        "correct_answer": {
+          "value": 9,
+          "unit": "طوابع",
+          "constraints": {
+            "type": "integer",
+            "number_format": "hindi",
+            "allow_leading_zeros": false,
+            "allow_trailing_zeros": false,
+            "sign": "canBeExplicitOrImplicit",
+            "remove_leading_zeros_from_normalized_form": true,
+            "remove_trailing_zeros_from_normalized_form": true,
+            "add_single_leading_zero_to_normalized_form": false,
+            "remove_trailing_decimal_point_from_normalized_form": false,
+            "normalize_sign": "notSet",
+            "must_have_no_more_than_nsf": null,
+            "must_have_at_least_nsf": null,
+            "must_have_exactly_nsf": null,
+            "must_have_at_least_ndp": null,
+            "must_have_no_more_than_ndp": null,
+            "must_have_exactly_ndp": null
+          }
+        },
+        "explanation": ""
+      }
+    ]
+  }
+}

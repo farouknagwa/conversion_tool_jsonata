@@ -1,0 +1,70 @@
+{
+  "question_id": "976159303094",
+  "parent_id": "976159303094",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Connect Plus",
+  "grade": "3",
+  "number_of_parts": 1,
+  "section_id": "153185464182",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "matching",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Match the beginning of the sentence with the end of the sentence.</span></p><p class=\"LexicalTheme__paragraph\"><br></p>",
+        "items": {
+          "A": [
+            {
+              "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Sugar can damage</span></p>",
+              "label": "A1"
+            },
+            {
+              "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">We feel anxious</span></p>",
+              "label": "A2"
+            },
+            {
+              "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">We use a teaspoon</span></p>",
+              "label": "A3"
+            }
+          ],
+          "B": [
+            {
+              "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">if we eat too much sugar.</span></p>",
+              "label": "B1",
+              "matches": "A2"
+            },
+            {
+              "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">your teeth.</span></p>",
+              "label": "B2",
+              "matches": "A1"
+            },
+            {
+              "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">to measure sugar.</span></p>",
+              "label": "B3",
+              "matches": "A3"
+            }
+          ],
+          "correct_answer": [
+            {
+              "A": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Sugar can damage</span></p>",
+              "B": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">your teeth.</span></p>"
+            },
+            {
+              "A": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">We feel anxious</span></p>",
+              "B": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">if we eat too much sugar.</span></p>"
+            },
+            {
+              "A": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">We use a teaspoon</span></p>",
+              "B": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">to measure sugar.</span></p>"
+            }
+          ]
+        },
+        "explanation": ""
+      }
+    ]
+  }
+}

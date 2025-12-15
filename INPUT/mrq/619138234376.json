@@ -1,0 +1,81 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "mrq",
+      "subtype": null,
+      "standalone": false,
+      "stem": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Which of these are minerals?</span></p>",
+      "choices": [
+        {
+          "type": "key",
+          "html_content": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Iron</span></p>",
+          "values": [],
+          "unit": null,
+          "index": 0,
+          "fixed_order": 1,
+          "last_order": false
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Fats</span></p>",
+          "values": [],
+          "unit": null,
+          "index": 1,
+          "fixed_order": 2,
+          "last_order": false
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Protein</span></p>",
+          "values": [],
+          "unit": null,
+          "index": 2,
+          "fixed_order": 4,
+          "last_order": false
+        },
+        {
+          "type": "key",
+          "html_content": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Calcium</span></p>",
+          "values": [],
+          "unit": null,
+          "index": 3,
+          "fixed_order": 3,
+          "last_order": false
+        }
+      ]
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 619138234376,
+    "mapped_id": 619138234376,
+    "category": "lesson",
+    "language": "en",
+    "country": "eg",
+    "dialect": [
+      "american",
+      "british"
+    ],
+    "source_id": {
+      "value": 182136230818,
+      "page_number": null
+    },
+    "description": "",
+    "example_id": null,
+    "has_example": false,
+    "instances_count": 1,
+    "publication_date": "2025-09-24 10:03:05",
+    "parts_count": 1
+  },
+  "answer": "",
+  "section_id": "237120274501",
+  "language": "en",
+  "subject_id": "123456789012",
+  "subject": "Discover",
+  "grade_id": "123456789012",
+  "grade": "3",
+  "country": "eg",
+  "question_id": "619138234376"
+}

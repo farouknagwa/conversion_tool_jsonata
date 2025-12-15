@@ -1,0 +1,108 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "puzzle",
+      "subtype": null,
+      "stem": "<p dir=\"rtl\" style=\"text-align: right;\">رتِّب الصُّوَر لمعرفة مَن الذي سنلتقيه اليوم.</p><p dir=\"rtl\" style=\"text-align: right;\"></p>",
+      "answer": null,
+      "grid_size": null,
+      "gap_text_keys": null,
+      "choices": [],
+      "standalone": false,
+      "puzzleColumns": "3",
+      "puzzleImage": "https://files-cds-chestnut-com.s3.amazonaws.com/images/287151315464.png",
+      "puzzleImageHeight": "300",
+      "puzzleImageSplited": [
+        {
+          "index": 0,
+          "fixed_order": 0,
+          "correct_order": 3,
+          "src": "https://files-cds-chestnut-com.s3.amazonaws.com/images/549175368685.png"
+        },
+        {
+          "index": 1,
+          "fixed_order": 1,
+          "correct_order": 2,
+          "src": "https://files-cds-chestnut-com.s3.amazonaws.com/images/108151242730.png"
+        },
+        {
+          "index": 2,
+          "fixed_order": 2,
+          "correct_order": 5,
+          "src": "https://files-cds-chestnut-com.s3.amazonaws.com/images/198140104217.png"
+        },
+        {
+          "index": 3,
+          "fixed_order": 3,
+          "correct_order": 8,
+          "src": "https://files-cds-chestnut-com.s3.amazonaws.com/images/842156194519.png"
+        },
+        {
+          "index": 4,
+          "fixed_order": 4,
+          "correct_order": 4,
+          "src": "https://files-cds-chestnut-com.s3.amazonaws.com/images/865193671919.png"
+        },
+        {
+          "index": 5,
+          "fixed_order": 5,
+          "correct_order": 1,
+          "src": "https://files-cds-chestnut-com.s3.amazonaws.com/images/549163567602.png"
+        },
+        {
+          "index": 6,
+          "fixed_order": 6,
+          "correct_order": 0,
+          "src": "https://files-cds-chestnut-com.s3.amazonaws.com/images/812193029061.png"
+        },
+        {
+          "index": 7,
+          "fixed_order": 7,
+          "correct_order": 6,
+          "src": "https://files-cds-chestnut-com.s3.amazonaws.com/images/625135304067.png"
+        },
+        {
+          "index": 8,
+          "fixed_order": 8,
+          "correct_order": 7,
+          "src": "https://files-cds-chestnut-com.s3.amazonaws.com/images/376127362957.png"
+        }
+      ],
+      "puzzleImageWidth": "300",
+      "puzzleRows": "3"
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 965135419301,
+    "title": "Replacement for QID: 763185315309 (Duplicate)",
+    "category": "lesson",
+    "country": "eg",
+    "language": "ar",
+    "dialect": [
+      "modern_standard"
+    ],
+    "mapped_id": 403197913496,
+    "source_id": {
+      "value": 583147318469,
+      "page_number": null
+    },
+    "description": "رتِّب الصُّوَر لمعرفة مَن الذي سنلتقيه اليوم.",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": ""
+  },
+  "answer": "",
+  "section_id": "396107287185",
+  "language": "ar",
+  "subject_id": "123456789012",
+  "subject": "اكتشف",
+  "grade_id": "123456789012",
+  "grade": "2",
+  "country": "eg",
+  "question_id": "403197913496"
+}

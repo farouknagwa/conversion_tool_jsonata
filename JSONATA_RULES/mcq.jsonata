@@ -1,0 +1,38 @@
+(  
+  /* Sort choices by fixed_order for display */
+  $sortedChoices := part.choices^(fixed_order);
+  
+  /* Determine label set based on language */
+  $labels := languageCode = 'ar' ? ['أ', 'ب', 'ج', 'د', 'ه', 'و', 'ز', 'ح', 'ط', 'ي'] : 
+                                    ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'];
+  
+  /* Transform choices with labels and is_correct flag */
+  $transformedChoices := $map($sortedChoices, function($choice, $idx) {
+    {
+      "label": $labels[$idx],
+      "value": $choice.html_content,
+      "is_correct": $choice.type = 'key'
+    }
+  });
+  
+  /* Extract correct answer (the one with type='key') */
+  $keyChoiceIndex := $map($sortedChoices, function($choice, $idx) {
+    $choice.type = 'key' ? $idx : null
+  })[$!=null][0];
+  
+  $correctAnswer := {
+    "label": $labels[$keyChoiceIndex],
+    "value": $sortedChoices[$keyChoiceIndex].html_content
+  };
+  
+  /* Return the complete part structure */
+  {
+    "n": part.n,
+    "type": "mcq",
+    "stem": part.stem,
+    "choices": $transformedChoices,
+    "correct_answer": $correctAnswer,
+    "explanation": explanation
+  }
+)
+

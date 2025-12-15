@@ -1,0 +1,50 @@
+{
+  "question_id": "313148365925",
+  "parent_id": "313148365925",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "English",
+  "grade": "8",
+  "number_of_parts": 1,
+  "section_id": "764183915467",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "gap",
+        "stem": "<p class=\"LexicalTheme__paragraph\">Complete the text with the correct words.<br>\nSuccess is never simple. Sometimes you face an <span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span> that feels too heavy to move. At other times, you may feel <span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span> when your first attempt does not work as planned. However, it is important to have the <span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span> to try again, even when others doubt you. If you continue to <span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span>, every small step brings you closer to success.</p>",
+        "gap_keys": [
+          {
+            "value": "courage",
+            "display_order": 1,
+            "correct_order": 3
+          },
+          {
+            "value": "updates",
+            "display_order": 2
+          },
+          {
+            "value": "obstacle",
+            "display_order": 3,
+            "correct_order": 1
+          },
+          {
+            "value": "keep going",
+            "display_order": 4,
+            "correct_order": 4
+          },
+          {
+            "value": "discouraged",
+            "display_order": 5,
+            "correct_order": 2
+          }
+        ],
+        "correct_answer": "<p class=\"LexicalTheme__paragraph\">Complete the text with the correct words.<br>\nSuccess is never simple. Sometimes you face an  obstacle that feels too heavy to move. At other times, you may feel  discouraged when your first attempt does not work as planned. However, it is important to have the  courage to try again, even when others doubt you. If you continue to  keep going, every small step brings you closer to success.</p>",
+        "explanation": ""
+      }
+    ]
+  }
+}

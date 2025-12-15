@@ -1,0 +1,34 @@
+{
+  "question_id": "798105139301",
+  "parent_id": "798105139301",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Science",
+  "grade": "6",
+  "number_of_parts": 1,
+  "section_id": "514182381743",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "string",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"color: inherit; white-space: pre-wrap;\">Muscle pairs work so that when one contracts, the other </span><span data-node-type=\"blank-line\" data-node-variation=\"space\">&nbsp;</span><span style=\"color: inherit; white-space: pre-wrap;\">.</span></p>",
+        "ai_template_id": "593158513739",
+        "acceptable_answers": [
+          "relaxes"
+        ],
+        "guidelines": [
+          {
+            "student_answer": "relaxes",
+            "mark": "1",
+            "comment": "إجابة صحيحة!"
+          }
+        ],
+        "explanation": ""
+      }
+    ]
+  }
+}

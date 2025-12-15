@@ -1,0 +1,59 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "gapText",
+      "subtype": null,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">How could a car start moving?</span></p><p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">At the beginning, the car is stationary. The forces are </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span><span style=\"white-space: pre-wrap;\">. A forward </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span><span style=\"white-space: pre-wrap;\"> can be applied by using the engine. This makes the forces </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span><span style=\"white-space: pre-wrap;\"> so the car starts moving.</span></p>",
+      "choices": [],
+      "standalone": false,
+      "gap_text_keys": [
+        {
+          "value": "unbalanced",
+          "correct_order": 3
+        },
+        {
+          "value": "balanced",
+          "correct_order": 1
+        },
+        {
+          "value": "force",
+          "correct_order": 2
+        }
+      ]
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 859106871793,
+    "title": "4.1 S13 forces-HG",
+    "category": "lesson",
+    "country": "eg",
+    "language": "en",
+    "dialect": [
+      "american",
+      "british"
+    ],
+    "mapped_id": 859106871793,
+    "source_id": {
+      "value": 504190958067,
+      "page_number": null
+    },
+    "description": "How could a car start moving?At the beginning, the car is stationary. The forces are  . A forward   can be applied by using the engine. This makes the forces   so the car starts moving.",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": ""
+  },
+  "answer": "",
+  "section_id": "945152818506",
+  "language": "en",
+  "subject_id": "123456789012",
+  "subject": "Science",
+  "grade_id": "123456789012",
+  "grade": "4",
+  "country": "eg",
+  "question_id": "859106871793"
+}

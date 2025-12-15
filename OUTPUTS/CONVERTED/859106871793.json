@@ -1,0 +1,41 @@
+{
+  "question_id": "859106871793",
+  "parent_id": "859106871793",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Science",
+  "grade": "4",
+  "number_of_parts": 1,
+  "section_id": "945152818506",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "gap",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">How could a car start moving?</span></p><p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">At the beginning, the car is stationary. The forces are </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span><span style=\"white-space: pre-wrap;\">. A forward </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span><span style=\"white-space: pre-wrap;\"> can be applied by using the engine. This makes the forces </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span><span style=\"white-space: pre-wrap;\"> so the car starts moving.</span></p>",
+        "gap_keys": [
+          {
+            "value": "unbalanced",
+            "display_order": 1,
+            "correct_order": 3
+          },
+          {
+            "value": "balanced",
+            "display_order": 2,
+            "correct_order": 1
+          },
+          {
+            "value": "force",
+            "display_order": 3,
+            "correct_order": 2
+          }
+        ],
+        "correct_answer": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">How could a car start moving?</span></p><p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">At the beginning, the car is stationary. The forces are </span> balanced<span style=\"white-space: pre-wrap;\">. A forward </span> force<span style=\"white-space: pre-wrap;\"> can be applied by using the engine. This makes the forces </span> unbalanced<span style=\"white-space: pre-wrap;\"> so the car starts moving.</span></p>",
+        "explanation": ""
+      }
+    ]
+  }
+}

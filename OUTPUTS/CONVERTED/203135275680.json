@@ -1,0 +1,46 @@
+{
+  "question_id": "203135275680",
+  "parent_id": "203135275680",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "English",
+  "grade": "8",
+  "number_of_parts": 1,
+  "section_id": "720104828958",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "gap",
+        "stem": "<p class=\"LexicalTheme__paragraph\">Complete the text with the correct words.<br>\nGen Z and Gen Alpha are two young generations growing up in a digital world. They often have many things<span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span>, such as using smartphones, tablets, and online apps. Social media helps them<span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span> with friends and family, even if they live very <span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span>. Both groups like short videos, emojis, and memes, which are trends that usually <span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span> people from different backgrounds.</p>",
+        "gap_keys": [
+          {
+            "value": "include",
+            "display_order": 1,
+            "correct_order": 4
+          },
+          {
+            "value": "in common",
+            "display_order": 2,
+            "correct_order": 1
+          },
+          {
+            "value": "connect",
+            "display_order": 3,
+            "correct_order": 2
+          },
+          {
+            "value": "far apart",
+            "display_order": 4,
+            "correct_order": 3
+          }
+        ],
+        "correct_answer": "<p class=\"LexicalTheme__paragraph\">Complete the text with the correct words.<br>\nGen Z and Gen Alpha are two young generations growing up in a digital world. They often have many things in common, such as using smartphones, tablets, and online apps. Social media helps them connect with friends and family, even if they live very  far apart. Both groups like short videos, emojis, and memes, which are trends that usually  include people from different backgrounds.</p>",
+        "explanation": ""
+      }
+    ]
+  }
+}

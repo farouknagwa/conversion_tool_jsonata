@@ -1,0 +1,27 @@
+{
+  "question_id": "464143826131",
+  "parent_id": "464143826131",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Science",
+  "grade": "4",
+  "number_of_parts": 1,
+  "section_id": "945152818506",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "frq",
+        "stem": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: justify;\"><span style=\"white-space: pre-line;\">Give reason: A ball moving on a surface moves a distance and then stops.</span></p>",
+        "ai_template_id": "352108393701",
+        "acceptable_answers": [
+          "<p class=\"LexicalTheme__paragraph\" style=\"text-align: justify;\"><span style=\"white-space: pre-line;\">Because of the force of friction between the ball and the surface, which acts opposite to the direction of motion, causing it to slow down and stop.</span></p>"
+        ],
+        "explanation": ""
+      }
+    ]
+  }
+}

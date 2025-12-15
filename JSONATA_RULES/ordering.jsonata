@@ -1,0 +1,31 @@
+(  
+  /* Sort choices by fixed_order for display */
+  $sortedChoices := part.choices^(fixed_order);
+
+  /* Transform choices into items with display_order and correct_order */
+  $items := $map($sortedChoices, function($choice) {
+    {
+      "value": $choice.html_content,
+      "display_order": $choice.fixed_order,
+      "correct_order": $choice.correct_order
+    }
+  });
+  
+  /* Generate correct answer array sorted by correct_order */
+  $sortedByCorrectOrder := part.choices^(correct_order);
+  $correctAnswer := $map($sortedByCorrectOrder, function($choice) {
+    $choice.html_content
+  });
+  
+  /* Return the complete part structure */
+  {
+    "n": part.n,
+    "type": "ordering",
+    "stem": part.stem,
+    "direction": part.direction,
+    "items": $items,
+    "correct_answer": $correctAnswer,
+    "explanation": explanation
+  }
+)
+

@@ -1,0 +1,28 @@
+{
+  "question_id": "953185909178",
+  "parent_id": "870190589030",
+  "language_code": "ar",
+  "language": "Arabic",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "الرياضيات",
+  "grade": "1",
+  "number_of_parts": 1,
+  "section_id": "970194294617",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "counting",
+        "stem": "<p dir=\"rtl\" style=\"text-align: justify;\">ضع هذا العدد من قِطَع العدِّ في إطار الخمسة.</p><div dir=\"rtl\" style=\"text-align: center;\" class=\"h-scroll\"><img style=\"width: 80px;height: 137.242px;\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/194150367048.svg\" alt=\"صورة السؤال\" class=\"displayed-image\" /></div><div dir=\"\" style=\"text-align: ;\" class=\"audio-wrapper\"><audio  src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/586176572059.mp3\" class=\"audio-player\"></audio></div>",
+        "grid": {
+          "rows": 1,
+          "columns": 5
+        },
+        "correct_answer": 4,
+        "explanation": ""
+      }
+    ]
+  }
+}

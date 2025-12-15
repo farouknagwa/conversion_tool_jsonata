@@ -1,0 +1,49 @@
+{
+  "question_id": "718195798095",
+  "parent_id": "718195798095",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Mathematics",
+  "grade": "4",
+  "number_of_parts": 1,
+  "section_id": "482142617197",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "mcq",
+        "stem": "<p><span class=\"merge\"><span class=\"merge no_margin\">6 hours</span>, </span><span class=\"merge no_margin\">13 minutes</span> <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{-}\">\\displaystyle{-}</math-field></span> <span class=\"merge\"><span class=\"merge no_margin\">2 hours</span>, </span><span class=\"merge no_margin\">30 minutes</span> = <span data-node-type=\"blank-line\" data-node-variation=\"space\">&nbsp;</span></p>",
+        "choices": [
+          {
+            "label": "A",
+            "value": "<span class=\"merge\"><span class=\"merge no_margin\">4 hours</span>, </span><span class=\"merge no_margin\">43 minutes</span>",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "value": "<span class=\"merge\"><span class=\"merge no_margin\">3 hours</span>, </span><span class=\"merge no_margin\">13 minutes</span>",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "value": "<span class=\"merge\"><span class=\"merge no_margin\">3 hours</span>, </span><span class=\"merge no_margin\">43 minutes</span>",
+            "is_correct": true
+          },
+          {
+            "label": "D",
+            "value": "<span class=\"merge\"><span class=\"merge no_margin\">4 hours</span>, </span><span class=\"merge no_margin\">13 minutes</span>",
+            "is_correct": false
+          }
+        ],
+        "correct_answer": {
+          "label": "C",
+          "value": "<span class=\"merge\"><span class=\"merge no_margin\">3 hours</span>, </span><span class=\"merge no_margin\">43 minutes</span>"
+        },
+        "explanation": ""
+      }
+    ]
+  }
+}

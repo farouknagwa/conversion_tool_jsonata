@@ -1,0 +1,76 @@
+PRE-CONVERSION VALIDATIONS (OLD JSON STRUCTURE)
+
+METADATA & IDS:
+- metadata.mapped_id must match question_id and filename
+- metadata.id (parent_id) must be non-empty
+- language/metadata.language must be valid code (en, ar, de, fr, es, it, pt, zh)
+- country/metadata.country must be valid code (eg, us, uk, sa, in, zz)
+
+TOP-LEVEL STRUCTURE:
+- parts array must exist and be non-empty
+- metadata object must exist
+- statement field required for multi-part questions (parts.length > 1)
+
+COMMON PART FIELDS:
+- n (part number) must match position in array
+- type must be valid (mcq, mrq, frq, frq_ai, oq, gapText, string, opinion, matching, counting, puzzle, input_box)
+- stem must be non-empty string
+- standalone field must exist
+
+CHOICE VALIDATIONS (mcq, mrq, oq, opinion, matching):
+- type must be "key" or "distractor"
+- html_content must be non-empty string
+- values must be array
+- unit must be null or string
+- index must be non-negative integer
+- fixed_order must be positive integer
+- last_order must be boolean
+
+MCQ SPECIFIC:
+- Must have exactly 1 key choice
+- Egypt country: max 4 choices allowed
+
+MRQ SPECIFIC:
+- Must have at least 2 key choices
+
+FRQ_AI SPECIFIC:
+- answer field required (non-empty string)
+- ai object required with ai_template_id (exactly 12 digits)
+
+ORDERING (OQ) SPECIFIC:
+- All choices must be type "distractor"
+- direction must be "vertical" or "horizontal"
+
+GAP_TEXT SPECIFIC:
+- gap_text_keys array must be non-empty
+- Each gap_text_key must have "value"
+- stem must contain gap markers (data-node-variation="gap")
+- Number of correct_order entries must match number of gaps in stem
+
+STRING SPECIFIC:
+- answer must be array of strings
+- If AI enabled: ai_template_id must be valid
+
+OPINION SPECIFIC:
+- All choices must be type "distractor"
+
+MATCHING SPECIFIC:
+- Must have exactly 2 groups
+- All choices must be type "distractor"
+
+COUNTING SPECIFIC:
+- answer must be string representing number (e.g., "42")
+- grid_size must match format "rows×columns" (e.g., "5×4")
+
+PUZZLE SPECIFIC:
+- Required fields: puzzleColumns, puzzleRows, puzzleImage, puzzleImageHeight, puzzleImageWidth, puzzleImageSplited
+- puzzleColumns and puzzleRows must be numeric strings
+- puzzleImageSplited must be non-empty array
+- Number of pieces must equal rows × columns
+- Each piece must have: index, fixed_order, correct_order (integers), src (string URL)
+
+INPUT_BOX SPECIFIC:
+- answer must be object with "value" (string)
+- answer.constrains must be object with "type" ("decimal" or "integer")
+- answer.unit optional (string or undefined)
+

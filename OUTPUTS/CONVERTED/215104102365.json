@@ -1,0 +1,45 @@
+{
+  "question_id": "215104102365",
+  "parent_id": "605151489674",
+  "language_code": "ar",
+  "language": "Arabic",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "الرياضيات",
+  "grade": "2",
+  "number_of_parts": 1,
+  "section_id": "365139813507",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "input",
+        "stem": "<p>يشتري مطعم <span class=\"merge no_margin\">١٦ كيلوجرامًا</span> من البطاطا، ثم يشتري ٤ أخرى. ما إجمالي عدد ال<span class=\"merge no_margin\">كيلوجرامات</span> التي يبيعها المطعم؟</p>",
+        "correct_answer": {
+          "value": 20,
+          "unit": null,
+          "constraints": {
+            "type": "integer",
+            "number_format": "hindi",
+            "allow_leading_zeros": false,
+            "allow_trailing_zeros": false,
+            "sign": "canBeExplicitOrImplicit",
+            "remove_leading_zeros_from_normalized_form": true,
+            "remove_trailing_zeros_from_normalized_form": true,
+            "add_single_leading_zero_to_normalized_form": false,
+            "remove_trailing_decimal_point_from_normalized_form": false,
+            "normalize_sign": "notSet",
+            "must_have_no_more_than_nsf": null,
+            "must_have_at_least_nsf": null,
+            "must_have_exactly_nsf": null,
+            "must_have_at_least_ndp": null,
+            "must_have_no_more_than_ndp": null,
+            "must_have_exactly_ndp": null
+          }
+        },
+        "explanation": ""
+      }
+    ]
+  }
+}

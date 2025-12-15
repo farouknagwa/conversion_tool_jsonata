@@ -1,0 +1,25 @@
+(
+  /* Sort puzzleImageSplited by fixed_order for display */
+  $sortedpuzzleImageSplited := part.puzzleImageSplited^(fixed_order);
+
+  /* Transform puzzle pieces */
+  $pieces := $map($sortedpuzzleImageSplited, function($piece) {
+    {
+      "display_order": $piece.fixed_order,
+      "correct_order": $piece.correct_order,
+      "src": $piece.src
+    }
+  });
+  
+  /* Return the complete part structure */
+  {
+    "n": part.n,
+    "type": "puzzle",
+    "stem": part.stem,
+    "rows": part.puzzleRows,
+    "columns": part.puzzleColumns,
+    "pieces": $pieces,
+    "correct_answer": part.puzzleImage
+  }
+)
+

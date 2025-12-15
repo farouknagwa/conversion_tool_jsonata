@@ -1,0 +1,27 @@
+{
+  "question_id": "428143084219",
+  "parent_id": "428143084219",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Science",
+  "grade": "4",
+  "number_of_parts": 1,
+  "section_id": "945152818506",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "frq",
+        "stem": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: justify;\"><span style=\"white-space: pre-line;\">Give reason: A body does not move when it is exerted on by balanced forces.</span></p>",
+        "ai_template_id": "352108393701",
+        "acceptable_answers": [
+          "<p class=\"LexicalTheme__paragraph\" style=\"text-align: justify;\"><span style=\"white-space: pre-line;\">Because the forces are equal in size and opposite in direction, they cancel each other, resulting in no change in motion.</span></p>"
+        ],
+        "explanation": ""
+      }
+    ]
+  }
+}

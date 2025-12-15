@@ -1,0 +1,70 @@
+{
+  "question_id": "874174157160",
+  "parent_id": "874174157160",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Discover",
+  "grade": "3",
+  "number_of_parts": 1,
+  "section_id": "237120274501",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "matching",
+        "stem": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Drag to match the nutrient to the food.</span></p>",
+        "items": {
+          "A": [
+            {
+              "value": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"inline\" class=\"LexicalTheme__image LexicalTheme__image--inline h-scroll\"><img src=\"https://images.nagwa.com/pictogram/943174353612.svg\" alt=\"\" width=\"78\" height=\"150\" style=\"aspect-ratio: 78/150;\" class=\"displayed-image\"></span><span style=\"white-space: pre-wrap;\"> </span><span data-node-type=\"image\" data-node-variation=\"inline\" class=\"LexicalTheme__image LexicalTheme__image--inline h-scroll\"><img src=\"https://images.nagwa.com/pictogram/458167505480.svg\" alt=\"\" width=\"166\" height=\"91\" style=\"aspect-ratio: 166/91;\" class=\"displayed-image\"></span></p>",
+              "label": "A1"
+            },
+            {
+              "value": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"inline\" class=\"LexicalTheme__image LexicalTheme__image--inline h-scroll\"><img src=\"https://images.nagwa.com/pictogram/926182057978.svg\" alt=\"\" width=\"156\" height=\"140\" style=\"aspect-ratio: 156/140;\" class=\"displayed-image\"></span><span style=\"white-space: pre-wrap;\"> </span><span data-node-type=\"image\" data-node-variation=\"inline\" class=\"LexicalTheme__image LexicalTheme__image--inline h-scroll\"><img src=\"https://images.nagwa.com/pictogram/405108018194.svg\" alt=\"\" width=\"158\" height=\"99\" style=\"aspect-ratio: 158/99;\" class=\"displayed-image\"></span></p>",
+              "label": "A2"
+            },
+            {
+              "value": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"inline\" class=\"LexicalTheme__image LexicalTheme__image--inline h-scroll\"><img src=\"https://images.nagwa.com/pictogram/139107649075.svg\" alt=\"\" width=\"151\" height=\"150\" style=\"aspect-ratio: 151/150;\" class=\"displayed-image\"></span><span style=\"white-space: pre-wrap;\"> </span><span data-node-type=\"image\" data-node-variation=\"inline\" class=\"LexicalTheme__image LexicalTheme__image--inline h-scroll\"><img src=\"https://images.nagwa.com/pictogram/269156271786.svg\" alt=\"\" width=\"174\" height=\"150\" style=\"aspect-ratio: 174/150;\" class=\"displayed-image\"></span></p>",
+              "label": "A3"
+            }
+          ],
+          "B": [
+            {
+              "value": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Calcium</span></p>",
+              "label": "B1",
+              "matches": "A1"
+            },
+            {
+              "value": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Iron</span></p>",
+              "label": "B2",
+              "matches": "A2"
+            },
+            {
+              "value": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Vitamin C</span></p>",
+              "label": "B3",
+              "matches": "A3"
+            }
+          ],
+          "correct_answer": [
+            {
+              "A": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"inline\" class=\"LexicalTheme__image LexicalTheme__image--inline h-scroll\"><img src=\"https://images.nagwa.com/pictogram/943174353612.svg\" alt=\"\" width=\"78\" height=\"150\" style=\"aspect-ratio: 78/150;\" class=\"displayed-image\"></span><span style=\"white-space: pre-wrap;\"> </span><span data-node-type=\"image\" data-node-variation=\"inline\" class=\"LexicalTheme__image LexicalTheme__image--inline h-scroll\"><img src=\"https://images.nagwa.com/pictogram/458167505480.svg\" alt=\"\" width=\"166\" height=\"91\" style=\"aspect-ratio: 166/91;\" class=\"displayed-image\"></span></p>",
+              "B": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Calcium</span></p>"
+            },
+            {
+              "A": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"inline\" class=\"LexicalTheme__image LexicalTheme__image--inline h-scroll\"><img src=\"https://images.nagwa.com/pictogram/926182057978.svg\" alt=\"\" width=\"156\" height=\"140\" style=\"aspect-ratio: 156/140;\" class=\"displayed-image\"></span><span style=\"white-space: pre-wrap;\"> </span><span data-node-type=\"image\" data-node-variation=\"inline\" class=\"LexicalTheme__image LexicalTheme__image--inline h-scroll\"><img src=\"https://images.nagwa.com/pictogram/405108018194.svg\" alt=\"\" width=\"158\" height=\"99\" style=\"aspect-ratio: 158/99;\" class=\"displayed-image\"></span></p>",
+              "B": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Iron</span></p>"
+            },
+            {
+              "A": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"inline\" class=\"LexicalTheme__image LexicalTheme__image--inline h-scroll\"><img src=\"https://images.nagwa.com/pictogram/139107649075.svg\" alt=\"\" width=\"151\" height=\"150\" style=\"aspect-ratio: 151/150;\" class=\"displayed-image\"></span><span style=\"white-space: pre-wrap;\"> </span><span data-node-type=\"image\" data-node-variation=\"inline\" class=\"LexicalTheme__image LexicalTheme__image--inline h-scroll\"><img src=\"https://images.nagwa.com/pictogram/269156271786.svg\" alt=\"\" width=\"174\" height=\"150\" style=\"aspect-ratio: 174/150;\" class=\"displayed-image\"></span></p>",
+              "B": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Vitamin C</span></p>"
+            }
+          ]
+        },
+        "explanation": ""
+      }
+    ]
+  }
+}

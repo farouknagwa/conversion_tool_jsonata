@@ -1,0 +1,73 @@
+{
+  "question_id": "965156576570",
+  "parent_id": "242176303148",
+  "language_code": "ar",
+  "language": "Arabic",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "الرياضيات",
+  "grade": "2",
+  "number_of_parts": 2,
+  "section_id": "469121250810",
+  "source": "human",
+  "content": {
+    "statement": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">لدى سوزان ١٥ سيارة لعبة. توجد ٣ سيارات خضراء، وبقية السيارات برتقالية. تريد صديقة سوزان معرفة عدد السيارات البرتقالية لدى سوزان.</span></p>",
+    "parts": [
+      {
+        "n": 1,
+        "type": "mcq",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">أيُّ جملة عددية تُطابِق المسألة؟</span></p>",
+        "choices": [
+          {
+            "label": "أ",
+            "value": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: right;\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"{\\displaystyle{\\displaystyle{١٥+٣=\\textBlank}}}\" locale=\"ar\" lang=\"ar\">{\\displaystyle{\\displaystyle{١٥+٣=\\textBlank}}}</math-field></span></p>",
+            "is_correct": false
+          },
+          {
+            "label": "ب",
+            "value": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: right;\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"\\displaystyle{١٥-٣=\\textBlank}\" locale=\"ar\" lang=\"ar\">\\displaystyle{١٥-٣=\\textBlank}</math-field></span></p>",
+            "is_correct": true
+          },
+          {
+            "label": "ج",
+            "value": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: right;\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"\\displaystyle{٣-١٥=\\textBlank}\" locale=\"ar\" lang=\"ar\">\\displaystyle{٣-١٥=\\textBlank}</math-field></span></p>",
+            "is_correct": false
+          }
+        ],
+        "correct_answer": {
+          "label": "ب",
+          "value": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: right;\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"\\displaystyle{١٥-٣=\\textBlank}\" locale=\"ar\" lang=\"ar\">\\displaystyle{١٥-٣=\\textBlank}</math-field></span></p>"
+        },
+        "explanation": ""
+      },
+      {
+        "n": 2,
+        "type": "input",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">ما عدد السيارات البرتقالية؟</span></p>",
+        "correct_answer": {
+          "value": 12,
+          "unit": " سيارة برتقالية",
+          "constraints": {
+            "type": "integer",
+            "number_format": "hindi",
+            "allow_leading_zeros": false,
+            "allow_trailing_zeros": false,
+            "sign": "canBeExplicitOrImplicit",
+            "remove_leading_zeros_from_normalized_form": true,
+            "remove_trailing_zeros_from_normalized_form": true,
+            "add_single_leading_zero_to_normalized_form": false,
+            "remove_trailing_decimal_point_from_normalized_form": false,
+            "normalize_sign": "notSet",
+            "must_have_no_more_than_nsf": null,
+            "must_have_at_least_nsf": null,
+            "must_have_exactly_nsf": null,
+            "must_have_at_least_ndp": null,
+            "must_have_no_more_than_ndp": null,
+            "must_have_exactly_ndp": null
+          }
+        },
+        "explanation": ""
+      }
+    ]
+  }
+}

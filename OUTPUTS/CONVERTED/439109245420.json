@@ -1,0 +1,27 @@
+{
+  "question_id": "439109245420",
+  "parent_id": "439109245420",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Science",
+  "grade": "4",
+  "number_of_parts": 1,
+  "section_id": "486138475278",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "frq",
+        "stem": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: justify;\"><span style=\"white-space: pre-line;\">What happens when you try to open a classroom door?</span></p>",
+        "ai_template_id": "352108393701",
+        "acceptable_answers": [
+          "<p class=\"LexicalTheme__paragraph\" style=\"text-align: justify;\"><span style=\"white-space: pre-line;\">You apply a pulling or a pushing force to cause the door to move (motion).</span></p>"
+        ],
+        "explanation": ""
+      }
+    ]
+  }
+}

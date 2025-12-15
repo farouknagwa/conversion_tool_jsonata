@@ -1,0 +1,58 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "string",
+      "subtype": null,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: justify;\"><span style=\"white-space: pre-wrap;\">Write what the following statement refers to: The measure of the average kinetic energy of the molecules or particles in a sample of matter.</span></p>",
+      "choices": null,
+      "standalone": false,
+      "answer": [
+        "Temperature"
+      ],
+      "ai": {
+        "ai_template_id": 593158513739,
+        "guidelines": [
+          {
+            "student_answer": "Temperature",
+            "mark": "1",
+            "comment": "إجابة صحيحة"
+          }
+        ]
+      }
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 430176495965,
+    "title": "",
+    "category": "lesson",
+    "country": "eg",
+    "language": "en",
+    "dialect": [
+      "american",
+      "british"
+    ],
+    "mapped_id": 430176495965,
+    "source_id": {
+      "value": 154106968213,
+      "page_number": null
+    },
+    "description": "Write what the following statement refers to: The measure of the average kinetic energy of the molecules or particles in a sample of matter.",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": ""
+  },
+  "answer": "",
+  "section_id": "789105391931",
+  "language": "en",
+  "subject_id": "123456789012",
+  "subject": "Science",
+  "grade_id": "123456789012",
+  "grade": "6",
+  "country": "eg",
+  "question_id": "430176495965"
+}

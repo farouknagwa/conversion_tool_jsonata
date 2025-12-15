@@ -1,0 +1,50 @@
+{
+  "question_id": "597137494175",
+  "parent_id": "597137494175",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Discover",
+  "grade": "3",
+  "number_of_parts": 1,
+  "section_id": "618187670756",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "mrq",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Which of the following diagrams show two living things interacting together? Pick </span><b><strong class=\"LexicalTheme__textBold\" style=\"white-space: pre-wrap;\">two</strong></b><span style=\"white-space: pre-wrap;\">.</span></p>",
+        "choices": [
+          {
+            "label": "A",
+            "value": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/743126890230.svg\" alt=\"527127102086\" width=\"220\" height=\"220\" style=\"aspect-ratio: 220/220;\" class=\"displayed-image\"></span></p>",
+            "is_correct": true
+          },
+          {
+            "label": "B",
+            "value": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/942153183645.svg\" alt=\"230143750217\" width=\"220\" height=\"199.99999999999997\" style=\"aspect-ratio: 220/199.99999999999997;\" class=\"displayed-image\"></span></p>",
+            "is_correct": true
+          },
+          {
+            "label": "C",
+            "value": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/478135650315.svg\" alt=\"263184905749\" width=\"220\" height=\"194.11764705882354\" style=\"aspect-ratio: 220/194.11764705882354;\" class=\"displayed-image\"></span></p>",
+            "is_correct": false
+          }
+        ],
+        "correct_answer": [
+          {
+            "label": "A",
+            "value": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/743126890230.svg\" alt=\"527127102086\" width=\"220\" height=\"220\" style=\"aspect-ratio: 220/220;\" class=\"displayed-image\"></span></p>"
+          },
+          {
+            "label": "B",
+            "value": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/942153183645.svg\" alt=\"230143750217\" width=\"220\" height=\"199.99999999999997\" style=\"aspect-ratio: 220/199.99999999999997;\" class=\"displayed-image\"></span></p>"
+          }
+        ],
+        "explanation": ""
+      }
+    ]
+  }
+}

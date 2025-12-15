@@ -1,0 +1,70 @@
+{
+  "question_id": "503161843197",
+  "parent_id": "503161843197",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Discover",
+  "grade": "3",
+  "number_of_parts": 1,
+  "section_id": "618187670756",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "matching",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Drag the diagram to match the need being fulfilled.</span></p>",
+        "items": {
+          "A": [
+            {
+              "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Water</span></p>",
+              "label": "A1"
+            },
+            {
+              "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Food</span></p>",
+              "label": "A2"
+            },
+            {
+              "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Shelter</span></p>",
+              "label": "A3"
+            }
+          ],
+          "B": [
+            {
+              "value": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/390182053518.svg\" alt=\"925151723528\" width=\"170\" height=\"136.36363636363637\" style=\"aspect-ratio: 170/136.36363636363637;\" class=\"displayed-image\"></span></p>",
+              "label": "B1",
+              "matches": "A2"
+            },
+            {
+              "value": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/623138390831.svg\" alt=\"957185278797\" width=\"160\" height=\"161.07382550335572\" style=\"aspect-ratio: 160/161.07382550335572;\" class=\"displayed-image\"></span></p>",
+              "label": "B2",
+              "matches": "A1"
+            },
+            {
+              "value": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/656196538432.svg\" alt=\"858169872369\" width=\"144.8\" height=\"120\" style=\"aspect-ratio: 144.8/120;\" class=\"displayed-image\"></span></p>",
+              "label": "B3",
+              "matches": "A3"
+            }
+          ],
+          "correct_answer": [
+            {
+              "A": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Water</span></p>",
+              "B": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/623138390831.svg\" alt=\"957185278797\" width=\"160\" height=\"161.07382550335572\" style=\"aspect-ratio: 160/161.07382550335572;\" class=\"displayed-image\"></span></p>"
+            },
+            {
+              "A": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Food</span></p>",
+              "B": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/390182053518.svg\" alt=\"925151723528\" width=\"170\" height=\"136.36363636363637\" style=\"aspect-ratio: 170/136.36363636363637;\" class=\"displayed-image\"></span></p>"
+            },
+            {
+              "A": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Shelter</span></p>",
+              "B": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/656196538432.svg\" alt=\"858169872369\" width=\"144.8\" height=\"120\" style=\"aspect-ratio: 144.8/120;\" class=\"displayed-image\"></span></p>"
+            }
+          ]
+        },
+        "explanation": ""
+      }
+    ]
+  }
+}

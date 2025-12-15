@@ -1,0 +1,42 @@
+FILE: post_validator.py
+PURPOSE: Validates converted JSON structure after conversion (NEW structure validation)
+
+MAIN FUNCTION:
+- validate_post_conversion(converted_json): Entry point returning (is_valid, errors_list)
+
+VALIDATION FUNCTIONS:
+- _validate_root_fields(data): Validates root level metadata fields
+- _validate_content(content, number_of_parts): Validates content object structure
+- _validate_part(part, part_number, total_parts): Validates individual converted part
+
+PART TYPE VALIDATORS:
+- _validate_counting_part(part, part_number): Validates grid (rows, columns integers), correct_answer (integer)
+- _validate_frq_part(part, part_number): Validates acceptable_answers array, ai_template_id (12 digit string)
+- _validate_gap_part(part, part_number): Validates gap_keys array with value and display_order, correct_answer string
+- _validate_input_part(part, part_number): Validates correct_answer object with value and constraints.type
+- _validate_matching_part(part, part_number): Validates items object with A, B, correct_answer
+- _validate_mcq_part(part, part_number): Validates choices array (label, value, is_correct), correct_answer object
+- _validate_mrq_part(part, part_number): Validates choices array, correct_answer array
+- _validate_opinion_part(part, part_number): Validates choices array, ensures NO correct_answer
+- _validate_ordering_part(part, part_number): Validates direction (vertical/horizontal), items array, correct_answer array
+- _validate_puzzle_part(part, part_number): Validates rows, columns, pieces array
+- _validate_string_part(part, part_number): Validates ai_template_id string, acceptable_answers array
+
+ROOT LEVEL VALIDATIONS:
+- Required fields: question_id, language_code, language, country_code, country, subject, grade, number_of_parts, section_id, source, content
+- question_id must be string
+- parent_id must be null or string
+- language_code must be valid and match language
+- country_code must be valid and match country
+- number_of_parts must be positive integer
+- grade, section_id, source must be strings
+
+CONTENT VALIDATIONS:
+- parts array required and non-empty
+- statement required for multi-part (number_of_parts > 1)
+- statement NOT allowed for single-part
+- parts count must match number_of_parts
+- Each part: n, type, stem required
+- Part number n must match position
+- explanation logic: single-part should have root answer as string
+

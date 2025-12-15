@@ -1,0 +1,70 @@
+{
+  "question_id": "938151515769",
+  "parent_id": "938151515769",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Discover",
+  "grade": "1",
+  "number_of_parts": 1,
+  "section_id": "286178497490",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "matching",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">Drag each moving part of an animal to match its name.</span></p>",
+        "items": {
+          "A": [
+            {
+              "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">Fins</span></p>",
+              "label": "A1"
+            },
+            {
+              "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">Wings</span></p>",
+              "label": "A2"
+            },
+            {
+              "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">Hooves</span></p>",
+              "label": "A3"
+            }
+          ],
+          "B": [
+            {
+              "value": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/497190496428.svg\" alt=\"412139818173\" width=\"100\" height=\"71\" style=\"aspect-ratio: 100/71;\" class=\"displayed-image\"></span></p>",
+              "label": "B1",
+              "matches": "A1"
+            },
+            {
+              "value": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/196149407107.svg\" alt=\"837192454871\" width=\"200\" height=\"135\" style=\"aspect-ratio: 200/135;\" class=\"displayed-image\"></span></p>",
+              "label": "B2",
+              "matches": "A2"
+            },
+            {
+              "value": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/806107937453.svg\" alt=\"597164595750\" width=\"200\" height=\"83\" style=\"aspect-ratio: 200/83;\" class=\"displayed-image\"></span></p>",
+              "label": "B3",
+              "matches": "A3"
+            }
+          ],
+          "correct_answer": [
+            {
+              "A": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">Fins</span></p>",
+              "B": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/497190496428.svg\" alt=\"412139818173\" width=\"100\" height=\"71\" style=\"aspect-ratio: 100/71;\" class=\"displayed-image\"></span></p>"
+            },
+            {
+              "A": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">Wings</span></p>",
+              "B": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/196149407107.svg\" alt=\"837192454871\" width=\"200\" height=\"135\" style=\"aspect-ratio: 200/135;\" class=\"displayed-image\"></span></p>"
+            },
+            {
+              "A": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">Hooves</span></p>",
+              "B": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/806107937453.svg\" alt=\"597164595750\" width=\"200\" height=\"83\" style=\"aspect-ratio: 200/83;\" class=\"displayed-image\"></span></p>"
+            }
+          ]
+        },
+        "explanation": ""
+      }
+    ]
+  }
+}

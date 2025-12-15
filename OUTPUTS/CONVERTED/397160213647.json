@@ -1,0 +1,44 @@
+{
+  "question_id": "397160213647",
+  "parent_id": "397160213647",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Discover",
+  "grade": "1",
+  "number_of_parts": 1,
+  "section_id": "218153634689",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "gap",
+        "stem": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: justify;\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Use the words to complete the sentence.\n</span><span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span><span style=\"white-space: pre-wrap;\"> and camels use their legs to </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span><span style=\"white-space: pre-wrap;\">.</span></p>",
+        "gap_keys": [
+          {
+            "value": "Fish",
+            "display_order": 1
+          },
+          {
+            "value": "Horses",
+            "display_order": 2,
+            "correct_order": 1
+          },
+          {
+            "value": "run",
+            "display_order": 3,
+            "correct_order": 2
+          },
+          {
+            "value": "swim",
+            "display_order": 4
+          }
+        ],
+        "correct_answer": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: justify;\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Use the words to complete the sentence.\n</span> Horses<span style=\"white-space: pre-wrap;\"> and camels use their legs to </span> run<span style=\"white-space: pre-wrap;\">.</span></p>",
+        "explanation": ""
+      }
+    ]
+  }
+}

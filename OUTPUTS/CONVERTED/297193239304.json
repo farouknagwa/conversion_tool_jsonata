@@ -1,0 +1,44 @@
+{
+  "question_id": "297193239304",
+  "parent_id": "297193239304",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Discover",
+  "grade": "3",
+  "number_of_parts": 1,
+  "section_id": "607198982956",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "gap",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"color: inherit; white-space: pre-wrap;\">Use the following words to complete the sentence.</span></p><p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/514198060457.svg\" alt=\"297193239304\" width=\"250\" height=\"178.57142857142858\" style=\"aspect-ratio: 250/178.57142857142858;\" class=\"displayed-image\"></span><span style=\"color: inherit; white-space: pre-wrap;\">Iron is found in </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span><span style=\"color: inherit; white-space: pre-wrap;\"> and </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span><span style=\"color: inherit; white-space: pre-wrap;\"> vegetables. It helps our blood to carry oxygen.&nbsp;</span></p>",
+        "gap_keys": [
+          {
+            "value": "fruit",
+            "display_order": 1
+          },
+          {
+            "value": "green",
+            "display_order": 2,
+            "correct_order": 2
+          },
+          {
+            "value": "red",
+            "display_order": 3
+          },
+          {
+            "value": "meat",
+            "display_order": 4,
+            "correct_order": 1
+          }
+        ],
+        "correct_answer": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"color: inherit; white-space: pre-wrap;\">Use the following words to complete the sentence.</span></p><p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/514198060457.svg\" alt=\"297193239304\" width=\"250\" height=\"178.57142857142858\" style=\"aspect-ratio: 250/178.57142857142858;\" class=\"displayed-image\"></span><span style=\"color: inherit; white-space: pre-wrap;\">Iron is found in </span> meat<span style=\"color: inherit; white-space: pre-wrap;\"> and </span> green<span style=\"color: inherit; white-space: pre-wrap;\"> vegetables. It helps our blood to carry oxygen.&nbsp;</span></p>",
+        "explanation": ""
+      }
+    ]
+  }
+}

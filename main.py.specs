@@ -1,0 +1,34 @@
+FILE: main.py
+PURPOSE: Main orchestrator for JSON conversion tool with CLI interface
+
+FUNCTIONS:
+- ConversionStats: Tracks conversion statistics (total, success, failures by type, errors)
+- discover_json_files(input_path, filter_types): Recursively finds JSON files, optionally filters by question type
+- process_file(filepath, output_dir, ...): Processes single file through validation-conversion-validation pipeline
+- generate_excel_report(stats, output_path): Creates Excel report of all errors with columns (filename, question_id, error_type, etc.)
+- generate_text_log(stats, output_path): Creates text log with summary and detailed errors
+- main(): Entry point - parses CLI args, discovers files, processes batch, generates reports
+
+CLI ARGUMENTS:
+--input/-i: Input directory or file path (default: INPUT)
+--output/-o: Output directory for converted files (default: OUTPUTS/CONVERTED)
+--types/-t: Comma-separated question types to filter (e.g., counting,mcq)
+--dry-run: Validation only mode, no files written
+--verbose/-v: Detailed progress messages
+
+OUTPUT DIRECTORIES:
+- CONVERTED/: Successfully converted files
+- PRE_CONVERSION_VALIDATION_FAILED/: Files that failed pre-validation (original copies)
+- CONVERSION_FAILED/: Files that failed during conversion (original copies)
+- POST_CONVERSION_VALIDATION_FAILED/: Files that failed post-validation (converted versions)
+- LOGS_REPORTS/: Log files and Excel error reports
+
+WORKFLOW:
+1. Parse arguments and setup paths
+2. Discover JSON files (with optional type filtering)
+3. For each file: pre-validate → convert → post-validate → save to appropriate folder
+4. Generate Excel and text reports with all errors
+5. Exit with status code (0 = all success, 1 = some failures)
+
+DEPENDENCIES: tqdm (progress bar), openpyxl (Excel reports), jsonata-python (via converter)
+

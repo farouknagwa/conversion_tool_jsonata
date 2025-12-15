@@ -1,0 +1,34 @@
+{
+  "question_id": "956158326324",
+  "parent_id": "956158326324",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Science",
+  "grade": "8",
+  "number_of_parts": 1,
+  "section_id": "969183968630",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "string",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: justify;\"><span style=\"white-space: pre-wrap;\">Correct the underlined word(s): In an experiment to see how different substances heat up, the type of substance is the </span><u><span class=\"LexicalTheme__textUnderline\" style=\"white-space: pre-wrap;\">dependent variable</span></u><span style=\"white-space: pre-wrap;\">.</span></p>",
+        "ai_template_id": "593158513739",
+        "acceptable_answers": [
+          "independent variable"
+        ],
+        "guidelines": [
+          {
+            "student_answer": "independent variable",
+            "mark": "1",
+            "comment": "إجابة صحيحة!"
+          }
+        ],
+        "explanation": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "gapText",
+      "subtype": null,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">Complète le texte avec les mots corrects.</span></p><p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">Allons faire des </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\"> au </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\"> des produits </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">. Nous devons </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\"> des glaces pour ce soir.</span></p><p class=\"LexicalTheme__paragraph\"><br></p>",
+      "choices": [],
+      "standalone": false,
+      "gap_text_keys": [
+        {
+          "value": "achats ",
+          "correct_order": 1
+        },
+        {
+          "value": "rayon ",
+          "correct_order": 2
+        },
+        {
+          "value": "surgelés ",
+          "correct_order": 3
+        },
+        {
+          "value": "acheter ",
+          "correct_order": 4
+        }
+      ]
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 603170938153,
+    "title": "FR G12 T0 S13",
+    "category": "lesson",
+    "country": "eg",
+    "language": "fr",
+    "dialect": [
+      "standard"
+    ],
+    "mapped_id": 603170938153,
+    "source_id": {
+      "value": 185198317034,
+      "page_number": null
+    },
+    "description": "Complète le texte avec les mots corrects.Allons faire des   au   des produits  . Nous devons   des glaces pour ce soir.",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": ""
+  },
+  "answer": "",
+  "section_id": "804172492872",
+  "language": "fr",
+  "subject_id": "123456789012",
+  "subject": "Français",
+  "grade_id": "123456789012",
+  "grade": "7",
+  "country": "eg",
+  "question_id": "603170938153"
+}

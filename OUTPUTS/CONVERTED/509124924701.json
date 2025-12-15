@@ -1,0 +1,28 @@
+{
+  "question_id": "509124924701",
+  "parent_id": "509124924701",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Mathematics",
+  "grade": "1",
+  "number_of_parts": 1,
+  "section_id": "193147474597",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "counting",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">I have 10 counters.</span></p><p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/410108585978.svg\" alt=\"509124924701.1\" width=\"200\" height=\"80.66510440869254\" style=\"aspect-ratio: 200/80.66510440869254;\" class=\"displayed-image\"></span><span style=\"white-space: pre-wrap;\">Add more counters to the ten frame to make 18 counters.</span></p>",
+        "grid": {
+          "rows": 2,
+          "columns": 5
+        },
+        "correct_answer": 8,
+        "explanation": ""
+      }
+    ]
+  }
+}

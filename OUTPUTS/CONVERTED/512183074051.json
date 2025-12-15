@@ -1,0 +1,46 @@
+{
+  "question_id": "512183074051",
+  "parent_id": "512183074051",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "English",
+  "grade": "2",
+  "number_of_parts": 1,
+  "section_id": "242131208459",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "gap",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Complete the text with the correct words.</span></p><p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">My house is big. There is a</span><span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span><span style=\"white-space: pre-wrap;\"> where we cook food. There are two</span><span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span><span style=\"white-space: pre-wrap;\"> where we sleep. The TV is</span><span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span><span style=\"white-space: pre-wrap;\"> the table. My bed is</span><span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span><span style=\"white-space: pre-wrap;\"> the window.</span></p><p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><br></p>",
+        "gap_keys": [
+          {
+            "value": "next to",
+            "display_order": 1,
+            "correct_order": 4
+          },
+          {
+            "value": "bedrooms",
+            "display_order": 2,
+            "correct_order": 2
+          },
+          {
+            "value": "kitchen",
+            "display_order": 3,
+            "correct_order": 1
+          },
+          {
+            "value": "on",
+            "display_order": 4,
+            "correct_order": 3
+          }
+        ],
+        "correct_answer": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Complete the text with the correct words.</span></p><p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">My house is big. There is a</span> kitchen<span style=\"white-space: pre-wrap;\"> where we cook food. There are two</span> bedrooms<span style=\"white-space: pre-wrap;\"> where we sleep. The TV is</span> on<span style=\"white-space: pre-wrap;\"> the table. My bed is</span> next to<span style=\"white-space: pre-wrap;\"> the window.</span></p><p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><br></p>",
+        "explanation": ""
+      }
+    ]
+  }
+}

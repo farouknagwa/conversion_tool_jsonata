@@ -1,0 +1,37 @@
+{
+  "question_id": "513176252135",
+  "parent_id": "513176252135",
+  "language_code": "it",
+  "language": "Italian",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Italiano",
+  "grade": "12",
+  "number_of_parts": 1,
+  "section_id": "426109162749",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "opinion",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">Secondo te, cosa contribuisce di più alla protezione dell’ambiente?</span></p>",
+        "choices": [
+          {
+            "label": "A",
+            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: center;\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/419136736525.jpg\" alt=\"936172468902\" width=\"220\" height=\"153.9991279605235\" style=\"aspect-ratio: 220/153.9991279605235;\" class=\"displayed-image\"></span><span style=\"white-space: pre-wrap;\">Il riciclaggio dei rifiuti</span></p>"
+          },
+          {
+            "label": "B",
+            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: center;\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/826180481026.jpg\" alt=\"652101487585\" width=\"220\" height=\"153.9991279605235\" style=\"aspect-ratio: 220/153.9991279605235;\" class=\"displayed-image\"></span><span style=\"white-space: pre-wrap;\">L’uso di auto elettriche</span></p>"
+          },
+          {
+            "label": "C",
+            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: center;\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/289158187016.jpg\" alt=\"216146583058 (1)\" width=\"220\" height=\"153.9991279605235\" style=\"aspect-ratio: 220/153.9991279605235;\" class=\"displayed-image\"></span><span style=\"white-space: pre-wrap;\">L’utilizzo di energia eolica</span></p>"
+          }
+        ],
+        "explanation": ""
+      }
+    ]
+  }
+}

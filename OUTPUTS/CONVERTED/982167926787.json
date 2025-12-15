@@ -1,0 +1,49 @@
+{
+  "question_id": "982167926787",
+  "parent_id": "982167926787",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Mathematics",
+  "grade": "4",
+  "number_of_parts": 1,
+  "section_id": "482142617197",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "mcq",
+        "stem": "<p> Adam&rsquo;s weight is <span class=\"merge\"><span class=\"merge no_margin\">50 kg</span>. </span>How many <span>grams</span> are in <span class=\"merge\"><span class=\"merge no_margin\">50 kg</span>?</span></p>",
+        "choices": [
+          {
+            "label": "A",
+            "value": "<span class=\"no_margin merge\">50,000</span>",
+            "is_correct": true
+          },
+          {
+            "label": "B",
+            "value": "50",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "value": "500",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "value": "<span class=\"no_margin merge\">5,000</span>",
+            "is_correct": false
+          }
+        ],
+        "correct_answer": {
+          "label": "A",
+          "value": "<span class=\"no_margin merge\">50,000</span>"
+        },
+        "explanation": ""
+      }
+    ]
+  }
+}

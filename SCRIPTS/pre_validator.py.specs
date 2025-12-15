@@ -1,0 +1,33 @@
+FILE: pre_validator.py
+PURPOSE: Validates input JSON structure before conversion (OLD structure validation)
+
+MAIN FUNCTION:
+- validate_pre_conversion(json_data, filename): Entry point returning (is_valid, errors_list)
+
+VALIDATION FUNCTIONS:
+- validate_json_structure(json_data): Validates entire JSON structure
+- _validate_part(part, part_number, country_code): Validates individual part
+- _validate_choice(choice, choice_index, part_number): Validates choice properties (type, html_content, values, unit, index, fixed_order, last_order)
+
+PART TYPE VALIDATORS:
+- _validate_mcq(part, part_number, country_code): MCQ validation - exactly 1 key choice, max 4 choices for Egypt
+- _validate_mrq(part, part_number): MRQ validation - at least 2 key choices
+- _validate_frq_ai(part, part_number): FRQ AI validation - validates answer field, ai object, ai_template_id (12 digits)
+- _validate_oq(part, part_number): Ordering validation - all distractors, direction field required
+- _validate_gap_text(part, part_number): Gap text validation - gap_text_keys array, stem must have gaps, correct_order validation
+- _validate_string(part, part_number): String validation - answer array of strings, optional AI template ID
+- _validate_opinion(part, part_number): Opinion validation - all distractors
+- _validate_matching(part, part_number): Matching validation - exactly 2 groups, all distractors
+- _validate_counting(part, part_number): Counting validation - answer as string number, grid_size format (rows×columns)
+- _validate_puzzle(part, part_number): Puzzle validation - required fields (puzzleColumns, puzzleImage, puzzleImageHeight, puzzleImageSplited, puzzleImageWidth, puzzleRows), pieces count
+- _validate_input_box(part, part_number): Input box validation - answer object with value and constrains (type: decimal/integer)
+
+VALIDATIONS:
+- Top-level: parts array exists and non-empty, metadata object exists
+- Multi-part: statement field required
+- All parts: n (part number), type, stem, standalone fields required
+- Part number n must match position
+- ID consistency (metadata.mapped_id, question_id, filename must match)
+- Language code validity
+- Country code validity
+

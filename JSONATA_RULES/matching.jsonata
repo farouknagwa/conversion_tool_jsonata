@@ -1,0 +1,67 @@
+(
+  /* Separate choices by group and sort by index for display order */
+  $group1ByIndex := part.choices[group=1]^(index);
+  $group2ByIndex := part.choices[group=2]^(index);
+  
+  /* Build items A with labels based on index order */
+  $itemsA := $map($group1ByIndex, function($item, $idx) {
+    {
+      "value": $item.html_content,
+      "label": "A" & $string($idx + 1)
+    }
+  });
+  
+  /* Create mapping from index to label for group A */
+  $indexToLabelA := $map($group1ByIndex, function($item, $idx) {
+    {
+      "origIndex": $item.index,
+      "label": "A" & $string($idx + 1)
+    }
+  });
+  
+  /* Build items B with labels based on index order and matches based on correct_order */
+  $itemsB := $map($group2ByIndex, function($item, $idx) {
+    (
+      /* Find the matching A item by correct_order */
+      $matchingAItem := $group1ByIndex[correct_order = $item.correct_order];
+      
+      /* Get the label of the matching A item */
+      $matchingLabel := $filter($indexToLabelA, function($mapping) {
+        $mapping.origIndex = $matchingAItem[0].index
+      })[0].label;
+      
+      {
+        "value": $item.html_content,
+        "label": "B" & $string($idx + 1),
+        "matches": $matchingLabel
+      }
+    )
+  });
+  
+  /* Build correct_answers in same order as items A (by index) */
+  $correctAnswers := $map($group1ByIndex, function($aItem) {
+    (
+      /* Find the B item with same correct_order */
+      $matchingBItem := $group2ByIndex[correct_order = $aItem.correct_order];
+      
+      {
+        "A": $aItem.html_content,
+        "B": $matchingBItem[0].html_content
+      }
+    )
+  });
+  
+  /* Return the complete part structure */
+  {
+    "n": part.n,
+    "type": "matching",
+    "stem": part.stem,
+    "items": {
+      "A": $itemsA,
+      "B": $itemsB,
+      "correct_answer": $correctAnswers
+    },
+    "explanation": explanation
+  }
+)
+

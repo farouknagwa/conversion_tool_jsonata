@@ -1,0 +1,45 @@
+{
+  "question_id": "923187375824",
+  "parent_id": "546109591049",
+  "language_code": "ar",
+  "language": "Arabic",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "الرياضيات",
+  "grade": "2",
+  "number_of_parts": 1,
+  "section_id": "365139813507",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "input",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: justify;\"><span style=\"white-space: pre-wrap;\">في إحدى الحفلات، يوجد ٩ بالونات معلقة في السقف. إذا عُلِّقت ٧ بالونات أخرى، فما عدد كل البالونات المعلقة؟</span></p>",
+        "correct_answer": {
+          "value": 16,
+          "unit": null,
+          "constraints": {
+            "type": "integer",
+            "number_format": "hindi",
+            "allow_leading_zeros": false,
+            "allow_trailing_zeros": false,
+            "sign": "canBeExplicitOrImplicit",
+            "remove_leading_zeros_from_normalized_form": true,
+            "remove_trailing_zeros_from_normalized_form": true,
+            "add_single_leading_zero_to_normalized_form": false,
+            "remove_trailing_decimal_point_from_normalized_form": false,
+            "normalize_sign": "notSet",
+            "must_have_no_more_than_nsf": null,
+            "must_have_at_least_nsf": null,
+            "must_have_exactly_nsf": null,
+            "must_have_at_least_ndp": null,
+            "must_have_no_more_than_ndp": null,
+            "must_have_exactly_ndp": null
+          }
+        },
+        "explanation": ""
+      }
+    ]
+  }
+}

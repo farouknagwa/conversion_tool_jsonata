@@ -1,0 +1,90 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "mcq",
+      "subtype": null,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Engy bought </span><span style=\"white-space: pre-wrap;\">6 metres</span><span style=\"white-space: pre-wrap;\"> of cloth. She used </span><span style=\"white-space: pre-wrap;\">124 centimetres</span><span style=\"white-space: pre-wrap;\"> to make a shirt. How many </span><span style=\"white-space: pre-wrap;\">centimetres</span><span style=\"white-space: pre-wrap;\"> of cloth are left?</span></p>",
+      "choices": [
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">118 cm</span></p>",
+          "values": [],
+          "unit": null,
+          "index": 0,
+          "fixed_order": 1,
+          "correct_order": 1,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "key",
+          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">476 cm</span></p>",
+          "values": [],
+          "unit": null,
+          "index": 1,
+          "fixed_order": 2,
+          "correct_order": 4,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">724 cm</span></p>",
+          "values": [],
+          "unit": null,
+          "index": 2,
+          "fixed_order": 3,
+          "correct_order": 2,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">130 cm</span></p>",
+          "values": [],
+          "unit": null,
+          "index": 3,
+          "fixed_order": 4,
+          "correct_order": 3,
+          "last_order": false,
+          "group": 1
+        }
+      ],
+      "standalone": false
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 210102519891,
+    "title": "Converting Lengths from Metres to Centimetres",
+    "category": "exam",
+    "country": "eg",
+    "language": "en",
+    "dialect": [
+      "american",
+      "british"
+    ],
+    "mapped_id": 210102519891,
+    "source_id": {
+      "value": 345171316462,
+      "page_number": null
+    },
+    "description": "Engy bought 6 metres of cloth. She used 124 centimetres to make a shirt. How many centimetres of cloth are left?",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": ""
+  },
+  "answer": "",
+  "section_id": "482142617197",
+  "language": "en",
+  "subject_id": "123456789012",
+  "subject": "Mathematics",
+  "grade_id": "123456789012",
+  "grade": "4",
+  "country": "eg",
+  "question_id": "210102519891"
+}

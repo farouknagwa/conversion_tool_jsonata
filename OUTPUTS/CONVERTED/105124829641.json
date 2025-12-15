@@ -1,0 +1,50 @@
+{
+  "question_id": "105124829641",
+  "parent_id": "105124829641",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Discover",
+  "grade": "3",
+  "number_of_parts": 1,
+  "section_id": "618187670756",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "mrq",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Which of the following are examples of interactions between living organisms and non-living things? Pick </span><b><strong class=\"LexicalTheme__textBold\" style=\"white-space: pre-wrap;\">two</strong></b><span style=\"white-space: pre-wrap;\">.</span></p>",
+        "choices": [
+          {
+            "label": "A",
+            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">A mole making a burrow in the ground</span></p>",
+            "is_correct": true
+          },
+          {
+            "label": "B",
+            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Green plants growing on rocks</span></p>",
+            "is_correct": true
+          },
+          {
+            "label": "C",
+            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">A hawk catching a mouse</span></p>",
+            "is_correct": false
+          }
+        ],
+        "correct_answer": [
+          {
+            "label": "A",
+            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">A mole making a burrow in the ground</span></p>"
+          },
+          {
+            "label": "B",
+            "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Green plants growing on rocks</span></p>"
+          }
+        ],
+        "explanation": ""
+      }
+    ]
+  }
+}

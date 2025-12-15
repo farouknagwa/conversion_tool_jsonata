@@ -1,0 +1,73 @@
+{
+  "question_id": "729108289358",
+  "parent_id": "265124764618",
+  "language_code": "ar",
+  "language": "Arabic",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "الرياضيات",
+  "grade": "2",
+  "number_of_parts": 2,
+  "section_id": "469121250810",
+  "source": "human",
+  "content": {
+    "statement": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: justify;\"><span style=\"white-space: pre-wrap;\">ماجد لديه ١١ قميصًا على أحد حِبال الغسيل. طار بعض القمصان منها. يوجد الآن ٤ قمصان على حبل الغسيل.</span></p>",
+    "parts": [
+      {
+        "n": 1,
+        "type": "mcq",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">أيُّ الجمل العددية ستستخدمها لإيجاد عدد القمصان التي طارت؟</span></p>",
+        "choices": [
+          {
+            "label": "أ",
+            "value": "<p class=\"LexicalTheme__paragraph\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"\\displaystyle{١١ - ٧ = \\textBlank }\" locale=\"ar\" lang=\"ar\">\\displaystyle{١١ - ٧ = \\textBlank }</math-field></span></p>",
+            "is_correct": false
+          },
+          {
+            "label": "ب",
+            "value": "<p class=\"LexicalTheme__paragraph\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"\\displaystyle{١١ - ٤ = \\textBlank }\" locale=\"ar\" lang=\"ar\">\\displaystyle{١١ - ٤ = \\textBlank }</math-field></span></p>",
+            "is_correct": true
+          },
+          {
+            "label": "ج",
+            "value": "<p class=\"LexicalTheme__paragraph\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"\\displaystyle{٧ - ٤ = \\textBlank }\" locale=\"ar\" lang=\"ar\">\\displaystyle{٧ - ٤ = \\textBlank }</math-field></span></p>",
+            "is_correct": false
+          }
+        ],
+        "correct_answer": {
+          "label": "ب",
+          "value": "<p class=\"LexicalTheme__paragraph\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"\\displaystyle{١١ - ٤ = \\textBlank }\" locale=\"ar\" lang=\"ar\">\\displaystyle{١١ - ٤ = \\textBlank }</math-field></span></p>"
+        },
+        "explanation": ""
+      },
+      {
+        "n": 2,
+        "type": "input",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">ما عدد القمصان التي طارت؟</span></p>",
+        "correct_answer": {
+          "value": 7,
+          "unit": "قمصان",
+          "constraints": {
+            "type": "integer",
+            "number_format": "hindi",
+            "allow_leading_zeros": false,
+            "allow_trailing_zeros": false,
+            "sign": "canBeExplicitOrImplicit",
+            "remove_leading_zeros_from_normalized_form": true,
+            "remove_trailing_zeros_from_normalized_form": true,
+            "add_single_leading_zero_to_normalized_form": false,
+            "remove_trailing_decimal_point_from_normalized_form": false,
+            "normalize_sign": "notSet",
+            "must_have_no_more_than_nsf": null,
+            "must_have_at_least_nsf": null,
+            "must_have_exactly_nsf": null,
+            "must_have_at_least_ndp": null,
+            "must_have_no_more_than_ndp": null,
+            "must_have_exactly_ndp": null
+          }
+        },
+        "explanation": ""
+      }
+    ]
+  }
+}

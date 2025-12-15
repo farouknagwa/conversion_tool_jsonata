@@ -1,0 +1,45 @@
+{
+  "question_id": "786185809586",
+  "parent_id": "462181292615",
+  "language_code": "ar",
+  "language": "Arabic",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "العلوم",
+  "grade": "5",
+  "number_of_parts": 2,
+  "section_id": "939191723496",
+  "source": "human",
+  "content": {
+    "statement": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\"> انظر إلى الصورة الموضَّحة.</span></p><p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/937121687674.jpg\" alt=\"839178450818.1\" width=\"400\" height=\"266\" style=\"aspect-ratio: 400/266;\" class=\"displayed-image\"></span></p>",
+    "parts": [
+      {
+        "n": 1,
+        "type": "string",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">ما اسم الأجزاء الصغيرة الداكنة في وسط الزهرة؟</span></p>",
+        "ai_template_id": "593158513739",
+        "acceptable_answers": [
+          "البذور."
+        ],
+        "guidelines": [
+          {
+            "student_answer": "البذور.",
+            "mark": "1",
+            "comment": "إجابة صحيحة!"
+          }
+        ],
+        "explanation": ""
+      },
+      {
+        "n": 2,
+        "type": "frq",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">ما أهميتها للنباتات؟</span></p>",
+        "ai_template_id": "352108393701",
+        "acceptable_answers": [
+          "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">البذور تُساعِد النباتات على التكاثر وإنتاج نباتات جديدة.</span></p>"
+        ],
+        "explanation": ""
+      }
+    ]
+  }
+}

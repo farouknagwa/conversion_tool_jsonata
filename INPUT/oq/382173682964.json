@@ -1,0 +1,113 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "oq",
+      "subtype": null,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">Put the words in the correct order to form a sentence.</span></p>",
+      "choices": [
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">she</span></p>",
+          "values": [],
+          "unit": null,
+          "index": 0,
+          "fixed_order": 1,
+          "correct_order": 2,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">as</span></p>",
+          "values": [],
+          "unit": null,
+          "index": 1,
+          "fixed_order": 2,
+          "correct_order": 5,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">a copyeditor?</span></p>",
+          "values": [],
+          "unit": null,
+          "index": 2,
+          "fixed_order": 3,
+          "correct_order": 6,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">ever</span></p>",
+          "values": [],
+          "unit": null,
+          "index": 3,
+          "fixed_order": 4,
+          "correct_order": 3,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Has</span></p>",
+          "values": [],
+          "unit": null,
+          "index": 4,
+          "fixed_order": 5,
+          "correct_order": 1,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">worked</span></p>",
+          "values": [],
+          "unit": null,
+          "index": 5,
+          "fixed_order": 6,
+          "correct_order": 4,
+          "last_order": false,
+          "group": 1
+        }
+      ],
+      "standalone": false,
+      "direction": "horizontal"
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 382173682964,
+    "title": "Connect Plus G4 S1 Regular",
+    "category": "lesson",
+    "country": "eg",
+    "language": "en",
+    "dialect": [
+      "american",
+      "british"
+    ],
+    "mapped_id": 382173682964,
+    "source_id": {
+      "value": 865190148085,
+      "page_number": null
+    },
+    "description": "Put the words in the correct order to form a sentence.",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": ""
+  },
+  "answer": "",
+  "section_id": "424161237038",
+  "language": "en",
+  "subject_id": "123456789012",
+  "subject": "Connect Plus",
+  "grade_id": "123456789012",
+  "grade": "4",
+  "country": "eg",
+  "question_id": "382173682964"
+}

@@ -1,0 +1,28 @@
+{
+  "question_id": "870190589030",
+  "parent_id": "870190589030",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Mathematics",
+  "grade": "1",
+  "number_of_parts": 1,
+  "section_id": "642187084358",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "counting",
+        "stem": "<p dir=\"ltr\" style=\"text-align: left;\">Place this number of counters on the five frame.</p><p dir=\"ltr\" style=\"text-align: left;\"></p><div dir=\"ltr\" style=\"text-align: center;\" class=\"h-scroll\"><img style=\"width: 150px;height: 132.868px;\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/923161584218.svg\" alt=\"Question Image\" class=\"displayed-image\" /></div><p dir=\"ltr\" style=\"text-align: left;\"></p><div dir=\"\" style=\"text-align: ;\" class=\"audio-wrapper\"><audio  src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/918135021013.mp3\" class=\"audio-player\"></audio></div>",
+        "grid": {
+          "rows": 1,
+          "columns": 5
+        },
+        "correct_answer": 4,
+        "explanation": ""
+      }
+    ]
+  }
+}

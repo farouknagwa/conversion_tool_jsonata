@@ -1,0 +1,23 @@
+(
+  $aiTemplateId := $string(part.ai.ai_template_id);
+  
+  /* Handle answer as array */
+  $acceptableAnswers := $type(part.answer) = "array" ? part.answer : [part.answer];
+  
+  /* Extract guidelines if present */
+  $guidelines := part.ai.guidelines;
+  
+  /* Build base without explanation */
+  $base := {
+    "n": part.n,
+    "type": "string",
+    "stem": part.stem,
+    "ai_template_id": $aiTemplateId,
+    "acceptable_answers": $acceptableAnswers
+  };
+  
+  /* Add guidelines first (if any), then explanation last */
+  $withGuidelines := $guidelines ? $merge([$base, {"guidelines": $guidelines}]) : $base;
+  
+  $merge([$withGuidelines, {"explanation": explanation}])
+)

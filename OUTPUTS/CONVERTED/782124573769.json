@@ -1,0 +1,44 @@
+{
+  "question_id": "782124573769",
+  "parent_id": "782124573769",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Discover",
+  "grade": "3",
+  "number_of_parts": 1,
+  "section_id": "740167418093",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "gap",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Our bodies need lots of </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span><span style=\"white-space: pre-wrap;\"> vitamins in </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span><span style=\"white-space: pre-wrap;\"> amounts.</span></p>",
+        "gap_keys": [
+          {
+            "value": "the same",
+            "display_order": 1
+          },
+          {
+            "value": "large",
+            "display_order": 2
+          },
+          {
+            "value": "different",
+            "display_order": 3,
+            "correct_order": 1
+          },
+          {
+            "value": "small",
+            "display_order": 4,
+            "correct_order": 2
+          }
+        ],
+        "correct_answer": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Our bodies need lots of </span> different<span style=\"white-space: pre-wrap;\"> vitamins in </span> small<span style=\"white-space: pre-wrap;\"> amounts.</span></p>",
+        "explanation": ""
+      }
+    ]
+  }
+}

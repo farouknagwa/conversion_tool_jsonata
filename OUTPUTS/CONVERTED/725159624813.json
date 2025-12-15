@@ -1,0 +1,46 @@
+{
+  "question_id": "725159624813",
+  "parent_id": "725159624813",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "English",
+  "grade": "8",
+  "number_of_parts": 1,
+  "section_id": "946121584726",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "gap",
+        "stem": "<p class=\"LexicalTheme__paragraph\">Complete the text with the correct words.<br>\nDigital devices can be very useful in many situations. For example,<span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span> can be used anywhere to search for information. Having such a device helps people<span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span> very quickly, as long as they are online. They can instantly voice their support for important<span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span>, for example. Smartphones can also be used in emergencies,<span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span> various accidents and other dangerous situations. We just need to use them wisely.</p>",
+        "gap_keys": [
+          {
+            "value": "connect",
+            "display_order": 1,
+            "correct_order": 2
+          },
+          {
+            "value": "smartphones",
+            "display_order": 2,
+            "correct_order": 1
+          },
+          {
+            "value": "causes",
+            "display_order": 3,
+            "correct_order": 3
+          },
+          {
+            "value": "including",
+            "display_order": 4,
+            "correct_order": 4
+          }
+        ],
+        "correct_answer": "<p class=\"LexicalTheme__paragraph\">Complete the text with the correct words.<br>\nDigital devices can be very useful in many situations. For example, smartphones can be used anywhere to search for information. Having such a device helps people connect very quickly, as long as they are online. They can instantly voice their support for important causes, for example. Smartphones can also be used in emergencies, including various accidents and other dangerous situations. We just need to use them wisely.</p>",
+        "explanation": ""
+      }
+    ]
+  }
+}

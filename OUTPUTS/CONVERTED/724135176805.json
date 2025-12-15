@@ -1,0 +1,34 @@
+{
+  "question_id": "724135176805",
+  "parent_id": "483108703457",
+  "language_code": "ar",
+  "language": "Arabic",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "العلوم",
+  "grade": "8",
+  "number_of_parts": 1,
+  "section_id": "178163069373",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "string",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">صحح الكلمة التي تحتها خط: التغير في درجة حرارة مادة ما ي</span><u><span class=\"LexicalTheme__textUnderline\" style=\"white-space: pre-wrap;\">تناسب طرديًّا</span></u><span style=\"white-space: pre-wrap;\"> مع كتلتها عندما تكتسب </span><span style=\"color: rgb(51, 51, 51); white-space: pre-wrap;\">نفس الكمية من الحرارة</span><span style=\"white-space: pre-wrap;\">.</span></p>",
+        "ai_template_id": "593158513739",
+        "acceptable_answers": [
+          "يتناسب عكسيًّا"
+        ],
+        "guidelines": [
+          {
+            "student_answer": "يتناسب عكسيًّا",
+            "mark": "1",
+            "comment": "إجابة صحيحة!"
+          }
+        ],
+        "explanation": ""
+      }
+    ]
+  }
+}

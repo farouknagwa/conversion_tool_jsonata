@@ -1,0 +1,70 @@
+{
+  "question_id": "659131017657",
+  "parent_id": "659131017657",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Connect Plus",
+  "grade": "1",
+  "number_of_parts": 1,
+  "section_id": "975194083534",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "matching",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Match the picture with the sentence.</span></p>",
+        "items": {
+          "A": [
+            {
+              "value": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/873171627590.svg\" alt=\"659131017657.1\" width=\"150\" height=\"218.42985470997587\" style=\"aspect-ratio: 150/218.42985470997587;\" class=\"displayed-image\"></span></p>",
+              "label": "A1"
+            },
+            {
+              "value": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/506126386917.svg\" alt=\"659131017657.2\" width=\"220\" height=\"157.88438871330536\" style=\"aspect-ratio: 220/157.88438871330536;\" class=\"displayed-image\"></span></p>",
+              "label": "A2"
+            },
+            {
+              "value": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/806172494257.svg\" alt=\"659131017657.3\" width=\"300\" height=\"116.99639892578125\" style=\"aspect-ratio: 300/116.99639892578125;\" class=\"displayed-image\"></span></p>",
+              "label": "A3"
+            }
+          ],
+          "B": [
+            {
+              "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">A house or apartment is a place where people live.</span></p>",
+              "label": "B1",
+              "matches": "A1"
+            },
+            {
+              "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">In Egypt, there are many new houses.</span></p>",
+              "label": "B2",
+              "matches": "A3"
+            },
+            {
+              "value": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">A houseboat is a home on the water.</span></p>",
+              "label": "B3",
+              "matches": "A2"
+            }
+          ],
+          "correct_answer": [
+            {
+              "A": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/873171627590.svg\" alt=\"659131017657.1\" width=\"150\" height=\"218.42985470997587\" style=\"aspect-ratio: 150/218.42985470997587;\" class=\"displayed-image\"></span></p>",
+              "B": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">A house or apartment is a place where people live.</span></p>"
+            },
+            {
+              "A": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/506126386917.svg\" alt=\"659131017657.2\" width=\"220\" height=\"157.88438871330536\" style=\"aspect-ratio: 220/157.88438871330536;\" class=\"displayed-image\"></span></p>",
+              "B": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">A houseboat is a home on the water.</span></p>"
+            },
+            {
+              "A": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/806172494257.svg\" alt=\"659131017657.3\" width=\"300\" height=\"116.99639892578125\" style=\"aspect-ratio: 300/116.99639892578125;\" class=\"displayed-image\"></span></p>",
+              "B": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">In Egypt, there are many new houses.</span></p>"
+            }
+          ]
+        },
+        "explanation": ""
+      }
+    ]
+  }
+}
