@@ -1,0 +1,54 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "gapText",
+      "subtype": null,
+      "stem": "<p><span style=\"white-space: pre-wrap;\">إذا كانت الأعداد 3، 6، 12 </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span><span style=\"white-space: pre-wrap;\"> للعدد 36، فإن العدد </span><span style=\"white-space: pre-wrap;\">36 </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span><span style=\"white-space: pre-wrap;\"> لها.</span></p>",
+      "choices": [],
+      "standalone": false,
+      "gap_text_keys": [
+        {
+          "value": "عوامل",
+          "correct_order": 1
+        },
+        {
+          "value": "مضاعِف",
+          "correct_order": 2
+        }
+      ]
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 390159821741,
+    "title": "",
+    "category": "lesson",
+    "country": "eg",
+    "language": "ar",
+    "dialect": [
+      "modern_standard"
+    ],
+    "mapped_id": 246176950282,
+    "source_id": {
+      "value": 617180919760,
+      "page_number": null
+    },
+    "description": "إذا كانت الأعداد 3، 6، 12   للعدد 36، فإن العدد 36   لها.",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": ""
+  },
+  "answer": "",
+  "section_id": "520104501971",
+  "language": "ar",
+  "subject_id": "123456789012",
+  "subject": "الرياضيات",
+  "grade_id": "123456789012",
+  "grade": "4",
+  "country": "eg",
+  "question_id": "246176950282"
+}

@@ -1,0 +1,68 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "opinion",
+      "subtype": null,
+      "stem": "<p><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">Which sports event do you prefer?</span></p>",
+      "choices": [
+        {
+          "type": "distractor",
+          "html_content": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"325190281908.1\" class=\"displayed-image\" height=\"300\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/795159876939.jpeg\" style=\"aspect-ratio: 437/300;\" width=\"437\"/></span></p>",
+          "values": [],
+          "unit": null,
+          "index": 0,
+          "fixed_order": 1,
+          "correct_order": 1,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"325190281908.2\" class=\"displayed-image\" height=\"300\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/143159505837.jpg\" style=\"aspect-ratio: 437/300;\" width=\"437\"/></span></p>",
+          "values": [],
+          "unit": null,
+          "index": 1,
+          "fixed_order": 2,
+          "correct_order": 2,
+          "last_order": false,
+          "group": 1
+        }
+      ],
+      "standalone": false
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 325190281908,
+    "title": "EG_G03_T1_Connect Plus_S02_Regular",
+    "category": "lesson",
+    "country": "eg",
+    "language": "en",
+    "dialect": [
+      "american",
+      "british"
+    ],
+    "mapped_id": 325190281908,
+    "source_id": {
+      "value": 862172412125,
+      "page_number": null
+    },
+    "description": "Which sports event do you prefer?",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": ""
+  },
+  "answer": "",
+  "section_id": "682154257421",
+  "language": "en",
+  "subject_id": "123456789012",
+  "subject": "Connect Plus",
+  "grade_id": "123456789012",
+  "grade": "3",
+  "country": "eg",
+  "question_id": "325190281908"
+}

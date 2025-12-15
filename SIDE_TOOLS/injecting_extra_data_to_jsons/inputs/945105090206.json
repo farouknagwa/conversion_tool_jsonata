@@ -1,0 +1,40 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "frq_ai",
+      "subtype": null,
+      "standalone": false,
+      "stem": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: justify;\"><span style=\"white-space: pre-line;\">Give an example of a pushing and a pulling force.</span></p>",
+      "choices": [],
+      "answer": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: justify;\"><span style=\"white-space: pre-line;\">Pushing force: Kicking a ball<br>Pulling force: Opening a drawer</span></p>",
+      "ai": {
+        "ai_template_id": 352108393701
+      }
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 945105090206,
+    "mapped_id": 945105090206,
+    "category": "lesson",
+    "language": "en",
+    "country": "eg",
+    "dialect": [
+      "american",
+      "british"
+    ],
+    "source_id": {
+      "value": "154106968213",
+      "page_number": null
+    },
+    "description": "Give an example of a pushing and a pulling force.",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2025-10-18T01:47:09.486Z",
+    "schema_version": "1.0.0"
+  }
+}

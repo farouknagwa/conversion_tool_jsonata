@@ -1,0 +1,58 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "string",
+      "subtype": null,
+      "standalone": false,
+      "stem": "<p><span style=\"white-space: pre-wrap;\">The pattern that the iron filings make near the magnet is the outline of its </span><span data-node-type=\"blank-line\" data-node-variation=\"space\"> </span><span style=\"white-space: pre-wrap;\">.</span></p>",
+      "choices": null,
+      "answer": [
+        "magnetic field"
+      ],
+      "ai": {
+        "ai_template_id": 593158513739,
+        "guidelines": [
+          {
+            "student_answer": "magnetic field",
+            "mark": "1",
+            "comment": "إجابة صحيحة!"
+          }
+        ]
+      }
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 963167678491,
+    "mapped_id": 963167678491,
+    "category": "lesson",
+    "language": "en",
+    "country": "eg",
+    "dialect": [
+      "american",
+      "british"
+    ],
+    "source_id": {
+      "value": "154106968213",
+      "page_number": null
+    },
+    "description": "The pattern that the iron filings make near the magnet is the outline of its @BLANK.",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2025-09-24T14:35:18.788Z",
+    "schema_version": "1.0.0"
+  },
+  "answer": "",
+  "section_id": "247159714925",
+  "language": "en",
+  "subject_id": "123456789012",
+  "subject": "Science",
+  "grade_id": "123456789012",
+  "grade": "6",
+  "country": "eg",
+  "question_id": "963167678491"
+}

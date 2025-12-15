@@ -1,0 +1,51 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "input_box",
+      "subtype": null,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">صممت ندى برجًا من ١٤ مكعبًا، ولكن سقط ٦ مكعبات منها. كم مكعبًا لا يزال في البرج؟</span></p><p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/460105453569.svg\" alt=\"1 (2) (1)\" width=\"227\" height=\"150\" style=\"aspect-ratio: 227/150;\" class=\"displayed-image\"></span></p>",
+      "choices": [],
+      "standalone": false,
+      "answer": {
+        "value": "٨",
+        "constrains": {
+          "type": "integer"
+        },
+        "unit": "مكعبات"
+      }
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 202163797919,
+    "title": "Using Pictures to Solve Subtraction Word Problems with Numbers up to 20",
+    "category": "lesson",
+    "country": "eg",
+    "language": "ar",
+    "dialect": [
+      "modern_standard"
+    ],
+    "mapped_id": 548197641623,
+    "source_id": {
+      "value": 617180919760,
+      "page_number": null
+    },
+    "description": "صممت ندى برجًا من ١٤ مكعبًا، ولكن سقط ٦ مكعبات منها. كم مكعبًا لا يزال في البرج؟",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": ""
+  },
+  "answer": "",
+  "section_id": "469121250810",
+  "language": "ar",
+  "subject_id": "123456789012",
+  "subject": "الرياضيات",
+  "grade_id": "123456789012",
+  "grade": "2",
+  "country": "eg",
+  "question_id": "548197641623"
+}

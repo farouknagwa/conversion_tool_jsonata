@@ -1,0 +1,79 @@
+{
+    "parts": [
+        {
+            "n": 1,
+            "stem": "<p> Adam&rsquo;s weight is <span class=\"merge\"><span class=\"merge no_margin\">50 kg</span>. </span>How many <span>grams</span> are in <span class=\"merge\"><span class=\"merge no_margin\">50 kg</span>?</span></p>",
+            "type": "mcq",
+            "answer": null,
+            "choices": [
+                {
+                    "type": "key",
+                    "unit": null,
+                    "index": 0,
+                    "values": [
+                        {
+                            "type": "integer",
+                            "value": "50000",
+                            "constrains": null
+                        }
+                    ],
+                    "last_order": false,
+                    "fixed_order": 1,
+                    "html_content": "<span class=\"no_margin merge\">50,000</span>"
+                },
+                {
+                    "type": "distractor",
+                    "unit": null,
+                    "index": 1,
+                    "values": [],
+                    "last_order": false,
+                    "fixed_order": 4,
+                    "html_content": "<span class=\"no_margin merge\">5,000</span>"
+                },
+                {
+                    "type": "distractor",
+                    "unit": null,
+                    "index": 2,
+                    "values": [],
+                    "last_order": false,
+                    "fixed_order": 3,
+                    "html_content": "500"
+                },
+                {
+                    "type": "distractor",
+                    "unit": null,
+                    "index": 3,
+                    "values": [],
+                    "last_order": false,
+                    "fixed_order": 2,
+                    "html_content": "50"
+                }
+            ],
+            "subtype": null,
+            "standalone": true
+        }
+    ],
+    "metadata": {
+        "id": 982167926787,
+        "title": "",
+        "automark": true,
+        "category": "lesson",
+        "country": "eg",
+        "language": "en",
+        "dialect": [
+            "american british"
+        ],
+        "mapped_id": 982167926787,
+        "source_id": {
+            "value": 360528767742,
+            "page_number": null
+        },
+        "description": "Adam’s weight is 50 kg. How many grams are in 50 kg?",
+        "has_example": false,
+        "parts_count": 1,
+        "instances_count": 10,
+        "publication_date": "2019-12-08T06:35:29"
+    },
+    "statement": null,
+    "instance_number": 1
+}

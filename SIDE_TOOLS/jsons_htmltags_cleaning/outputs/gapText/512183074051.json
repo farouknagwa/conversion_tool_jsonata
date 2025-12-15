@@ -1,0 +1,63 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "gapText",
+      "subtype": null,
+      "stem": "<p><span style=\"white-space: pre-wrap;\">Complete the text with the correct words.</span></p><p><span style=\"white-space: pre-wrap;\">My house is big. There is a</span><span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span><span style=\"white-space: pre-wrap;\"> where we cook food. There are two</span><span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span><span style=\"white-space: pre-wrap;\"> where we sleep. The TV is</span><span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span><span style=\"white-space: pre-wrap;\"> the table. My bed is</span><span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span><span style=\"white-space: pre-wrap;\"> the window.</span></p><p><br/></p>",
+      "choices": [],
+      "standalone": false,
+      "gap_text_keys": [
+        {
+          "value": "next to",
+          "correct_order": 4
+        },
+        {
+          "value": "bedrooms",
+          "correct_order": 2
+        },
+        {
+          "value": "kitchen",
+          "correct_order": 1
+        },
+        {
+          "value": "on",
+          "correct_order": 3
+        }
+      ]
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 512183074051,
+    "title": "G2 t1 s21 ",
+    "category": "lesson",
+    "country": "eg",
+    "language": "en",
+    "dialect": [
+      "american",
+      "british"
+    ],
+    "mapped_id": 512183074051,
+    "source_id": {
+      "value": 289150706195,
+      "page_number": null
+    },
+    "description": "Complete the text with the correct words.My house is big. There is a  where we cook food. There are two  where we sleep. The TV is  the table. My bed is  the window.",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": ""
+  },
+  "answer": "",
+  "section_id": "242131208459",
+  "language": "en",
+  "subject_id": "123456789012",
+  "subject": "English",
+  "grade_id": "123456789012",
+  "grade": "2",
+  "country": "eg",
+  "question_id": "512183074051"
+}

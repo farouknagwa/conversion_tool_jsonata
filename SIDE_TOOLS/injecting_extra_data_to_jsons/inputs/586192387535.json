@@ -1,0 +1,97 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "oq",
+      "subtype": null,
+      "standalone": false,
+      "stem": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Put the words in the correct order.</span></p>",
+      "direction": "horizontal",
+      "choices": [
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">They</span></p>",
+          "correct_order": 1,
+          "values": [],
+          "unit": null,
+          "index": 0,
+          "fixed_order": 6,
+          "last_order": false
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">are</span></p>",
+          "correct_order": 2,
+          "values": [],
+          "unit": null,
+          "index": 1,
+          "fixed_order": 3,
+          "last_order": false
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">able</span></p>",
+          "correct_order": 3,
+          "values": [],
+          "unit": null,
+          "index": 2,
+          "fixed_order": 5,
+          "last_order": false
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">to</span></p>",
+          "correct_order": 4,
+          "values": [],
+          "unit": null,
+          "index": 3,
+          "fixed_order": 1,
+          "last_order": false
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">deliver</span></p>",
+          "correct_order": 5,
+          "values": [],
+          "unit": null,
+          "index": 4,
+          "fixed_order": 2,
+          "last_order": false
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">food.</span></p>",
+          "correct_order": 6,
+          "values": [],
+          "unit": null,
+          "index": 5,
+          "fixed_order": 4,
+          "last_order": false
+        }
+      ]
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 586192387535,
+    "mapped_id": 586192387535,
+    "category": "lesson",
+    "language": "en",
+    "country": "eg",
+    "dialect": [
+      "american",
+      "british"
+    ],
+    "source_id": {
+      "value": 182136230818,
+      "page_number": null
+    },
+    "description": "",
+    "example_id": null,
+    "has_example": false,
+    "instances_count": 1,
+    "publication_date": "2025-08-27 08:15:10",
+    "parts_count": 1
+  }
+}

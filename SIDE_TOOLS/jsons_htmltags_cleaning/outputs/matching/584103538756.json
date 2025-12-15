@@ -1,0 +1,121 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "matching",
+      "subtype": null,
+      "stem": "<p>Match the words with the pictures.</p>",
+      "answer": null,
+      "grid_size": null,
+      "gap_text_keys": null,
+      "choices": [
+        {
+          "type": "distractor",
+          "html_content": "<p>Play football</p>",
+          "values": [],
+          "unit": null,
+          "index": 0,
+          "fixed_order": 1,
+          "correct_order": 1,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p>Sleep</p>",
+          "values": [],
+          "unit": null,
+          "index": 1,
+          "fixed_order": 2,
+          "correct_order": 2,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p>Vegetables</p>",
+          "values": [],
+          "unit": null,
+          "index": 2,
+          "fixed_order": 3,
+          "correct_order": 3,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p></p><div dir=\"ltr\" style=\"text-align: left;\"><img alt=\"Question Image\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/346106769148.svg\" style=\"width: 115px;height: 82.1411px;\"/></div><p></p>",
+          "values": [],
+          "unit": null,
+          "index": 0,
+          "fixed_order": 1,
+          "correct_order": 3,
+          "last_order": false,
+          "group": 2
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p></p><div dir=\"ltr\" style=\"text-align: left;\"><img alt=\"Question Image\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/324108240396.svg\" style=\"width: 240px;height: 102.196px;\"/></div><p></p>",
+          "values": [],
+          "unit": null,
+          "index": 1,
+          "fixed_order": 2,
+          "correct_order": 2,
+          "last_order": false,
+          "group": 2
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p></p><div dir=\"ltr\" style=\"text-align: left;\"><img alt=\"Question Image\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/546159095085.svg\" style=\"width: 230px;height: 258.836px;\"/></div><p></p>",
+          "values": [],
+          "unit": null,
+          "index": 2,
+          "fixed_order": 3,
+          "correct_order": 1,
+          "last_order": false,
+          "group": 2
+        }
+      ],
+      "standalone": false,
+      "puzzleColumns": null,
+      "puzzleImage": null,
+      "puzzleImageHeight": null,
+      "puzzleImageSplited": null,
+      "puzzleImageWidth": null,
+      "puzzleRows": null
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 584103538756,
+    "title": "EN G3 S1 Foundation",
+    "category": "lesson",
+    "country": "eg",
+    "language": "en",
+    "dialect": [
+      "american",
+      "british"
+    ],
+    "mapped_id": 584103538756,
+    "source_id": {
+      "value": 424182093137,
+      "page_number": null
+    },
+    "description": "Match the words with the pictures.",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": ""
+  },
+  "answer": "",
+  "section_id": "784101043919",
+  "language": "en",
+  "subject_id": "123456789012",
+  "subject": "English",
+  "grade_id": "123456789012",
+  "grade": "3",
+  "country": "eg",
+  "question_id": "584103538756"
+}

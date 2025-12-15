@@ -1,0 +1,51 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "input_box",
+      "subtype": null,
+      "stem": "<p><span style=\"white-space: pre-wrap;\">يريد باسم تجميع ٢٠ طابعًا. لديه ١١ طابعًا حتى الآن. كم طابعًا يحتاج إليه ليكون لديه ٢٠ طابعًا؟</span></p><p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"\" class=\"displayed-image\" data-source-file-url=\"https://files-cds-chestnut-com.s3.amazonaws.com/question/Original/136150465707/tex/136150465707.10.tex\" height=\"185\" src=\"https://images.nagwa.com/figures/136150465707/1.svg\" style=\"aspect-ratio: 185/185;\" width=\"185\"/></span></p>",
+      "choices": [],
+      "standalone": false,
+      "answer": {
+        "value": "٩",
+        "constrains": {
+          "type": "integer"
+        },
+        "unit": "طوابع"
+      }
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 136150465707,
+    "title": "",
+    "category": "lesson",
+    "country": "eg",
+    "language": "ar",
+    "dialect": [
+      "modern_standard"
+    ],
+    "mapped_id": 985127108427,
+    "source_id": {
+      "value": 617180919760,
+      "page_number": null
+    },
+    "description": "يريد باسم تجميع ٢٠ طابعًا. لديه ١١ طابعًا حتى الآن. كم طابعًا يحتاج إليه ليكون لديه ٢٠ طابعًا؟",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": ""
+  },
+  "answer": "",
+  "section_id": "469121250810",
+  "language": "ar",
+  "subject_id": "123456789012",
+  "subject": "الرياضيات",
+  "grade_id": "123456789012",
+  "grade": "2",
+  "country": "eg",
+  "question_id": "985127108427"
+}

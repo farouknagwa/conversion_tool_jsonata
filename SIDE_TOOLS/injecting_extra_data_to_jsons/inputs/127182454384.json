@@ -1,0 +1,48 @@
+{
+    "parts": [
+        {
+            "n": 1,
+            "stem": "<p>What is the place value of the digit <span class=\"no_margin merge\">8</span> in <span class=\"merge\"><span class=\"no_margin merge\">81,374</span>? </span></p>",
+            "type": "string",
+            "answer": [
+                "Ten thousands"
+            ],
+            "choices": null,
+            "subtype": null,
+            "standalone": true,
+            "ai": {
+                "ai_template_id": 593158513739,
+                "guidelines": [
+                    {
+                        "student_answer": "Ten thousands",
+                        "mark": "1",
+                        "comment": "إجابة صحيحة!"
+                    }
+                ]
+            }
+        }
+    ],
+    "metadata": {
+        "id": 127182454384,
+        "title": "Understanding Place Value in Multidigit Numbers",
+        "automark": true,
+        "category": "lesson",
+        "country": null,
+        "language": "en",
+        "dialect": [
+            "american british"
+        ],
+        "mapped_id": 127182454384,
+        "source_id": {
+            "value": 698103509610,
+            "page_number": null
+        },
+        "description": "What is the place value of the digit 8 in 81,374?",
+        "has_example": false,
+        "parts_count": 1,
+        "instances_count": 1,
+        "publication_date": "2017-06-26T01:12:43"
+    },
+    "statement": null,
+    "instance_number": 1
+}

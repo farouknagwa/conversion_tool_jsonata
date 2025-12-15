@@ -1,0 +1,62 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "gapText",
+      "subtype": null,
+      "stem": "<p><span style=\"white-space: pre-wrap;\">Complete the text with the correct words.</span></p><p><span style=\"white-space: pre-wrap;\">While paddling a canoe through the</span><span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span><span style=\"white-space: pre-wrap;\">, the</span><span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span><span style=\"white-space: pre-wrap;\"> saw an alligator and heard a soft</span><span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span><span style=\"white-space: pre-wrap;\"> from a nearby owl. It was a peaceful day in the Everglades.</span></p>",
+      "choices": [],
+      "standalone": false,
+      "gap_text_keys": [
+        {
+          "value": "hoot",
+          "correct_order": 3
+        },
+        {
+          "value": "swamp",
+          "correct_order": 1
+        },
+        {
+          "value": "shelter"
+        },
+        {
+          "value": "scientist",
+          "correct_order": 2
+        }
+      ]
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 295123270649,
+    "title": "G5T1S22",
+    "category": "lesson",
+    "country": "eg",
+    "language": "en",
+    "dialect": [
+      "american",
+      "british"
+    ],
+    "mapped_id": 295123270649,
+    "source_id": {
+      "value": 312126191387,
+      "page_number": null
+    },
+    "description": "Complete the text with the correct words.While paddling a canoe through the , the  saw an alligator and heard a soft  from a nearby owl. It was a peaceful day in the Everglades.",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": ""
+  },
+  "answer": "",
+  "section_id": "107128475173",
+  "language": "en",
+  "subject_id": "123456789012",
+  "subject": "English",
+  "grade_id": "123456789012",
+  "grade": "5",
+  "country": "eg",
+  "question_id": "295123270649"
+}

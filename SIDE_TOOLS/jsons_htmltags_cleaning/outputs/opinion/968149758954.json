@@ -1,0 +1,90 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "opinion",
+      "subtype": null,
+      "stem": "<p><span style=\"white-space: pre-wrap;\">Which communication method do you mostly use?</span></p>",
+      "choices": [
+        {
+          "type": "distractor",
+          "html_content": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"A\" class=\"displayed-image\" height=\"150\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/927150905458.svg\" style=\"aspect-ratio: 103/150;\" width=\"103\"/></span></p>",
+          "values": [],
+          "unit": null,
+          "index": 0,
+          "fixed_order": 1,
+          "correct_order": 1,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"b\" class=\"displayed-image\" height=\"126.16822429906541\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/545185641405.svg\" style=\"aspect-ratio: 180/126.16822429906541;\" width=\"180\"/></span></p>",
+          "values": [],
+          "unit": null,
+          "index": 1,
+          "fixed_order": 2,
+          "correct_order": 2,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"c\" class=\"displayed-image\" height=\"97.33333333333333\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/840139042373.svg\" style=\"aspect-ratio: 200/97.33333333333333;\" width=\"200\"/></span></p>",
+          "values": [],
+          "unit": null,
+          "index": 2,
+          "fixed_order": 3,
+          "correct_order": 3,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"d\" class=\"displayed-image\" height=\"135.74660633484163\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/585139369593.svg\" style=\"aspect-ratio: 200/135.74660633484163;\" width=\"200\"/></span></p>",
+          "values": [],
+          "unit": null,
+          "index": 3,
+          "fixed_order": 4,
+          "correct_order": 4,
+          "last_order": false,
+          "group": 1
+        }
+      ],
+      "standalone": false
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 968149758954,
+    "title": "EG4.1 - S07 - Session Qs.",
+    "category": "lesson",
+    "country": "eg",
+    "language": "en",
+    "dialect": [
+      "american",
+      "british"
+    ],
+    "mapped_id": 968149758954,
+    "source_id": {
+      "value": 154106968213,
+      "page_number": null
+    },
+    "description": "Which communication method do you mostly use?",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": ""
+  },
+  "answer": "",
+  "section_id": "759173463849",
+  "language": "en",
+  "subject_id": "123456789012",
+  "subject": "Science",
+  "grade_id": "123456789012",
+  "grade": "4",
+  "country": "eg",
+  "question_id": "968149758954"
+}

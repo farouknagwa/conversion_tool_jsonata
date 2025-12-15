@@ -1,0 +1,57 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "string",
+      "subtype": null,
+      "stem": "<p><span style=\"white-space: pre-wrap;\">صحح الكلمة التي تحتها خط: التغير في درجة حرارة مادة ما ي</span><u><span class=\"LexicalTheme__textUnderline\" style=\"white-space: pre-wrap;\">تناسب طرديًّا</span></u><span style=\"white-space: pre-wrap;\"> مع كتلتها عندما تكتسب </span><span style=\"color: rgb(51, 51, 51); white-space: pre-wrap;\">نفس الكمية من الحرارة</span><span style=\"white-space: pre-wrap;\">.</span></p>",
+      "choices": null,
+      "standalone": false,
+      "answer": [
+        "يتناسب عكسيًّا"
+      ],
+      "ai": {
+        "ai_template_id": 593158513739,
+        "guidelines": [
+          {
+            "student_answer": "يتناسب عكسيًّا",
+            "mark": "1",
+            "comment": "إجابة صحيحة!"
+          }
+        ]
+      }
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 483108703457,
+    "title": "",
+    "category": "lesson",
+    "country": "eg",
+    "language": "ar",
+    "dialect": [
+      "modern_standard"
+    ],
+    "mapped_id": 724135176805,
+    "source_id": {
+      "value": 937145789737,
+      "page_number": null
+    },
+    "description": "صحح الكلمة التي تحتها خط: التغير في درجة حرارة مادة ما يتناسب طرديًّا مع كتلتها عندما تكتسب نفس الكمية من الحرارة.",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": ""
+  },
+  "answer": "",
+  "section_id": "178163069373",
+  "language": "ar",
+  "subject_id": "123456789012",
+  "subject": "العلوم",
+  "grade_id": "123456789012",
+  "grade": "8",
+  "country": "eg",
+  "question_id": "724135176805"
+}

@@ -1,0 +1,60 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "gapText",
+      "subtype": null,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"color: inherit; white-space: pre-wrap;\">Use the following words to complete the sentence.</span></p><p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/514198060457.svg\" alt=\"297193239304\" width=\"250\" height=\"178.57142857142858\" style=\"aspect-ratio: 250/178.57142857142858;\" class=\"displayed-image\"></span><span style=\"color: inherit; white-space: pre-wrap;\">Iron is found in </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span><span style=\"color: inherit; white-space: pre-wrap;\"> and </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span><span style=\"color: inherit; white-space: pre-wrap;\"> vegetables. It helps our blood to carry oxygen.&nbsp;</span></p>",
+      "choices": [],
+      "standalone": false,
+      "gap_text_keys": [
+        {
+          "value": "fruit"
+        },
+        {
+          "value": "green",
+          "correct_order": 2
+        },
+        {
+          "value": "red"
+        },
+        {
+          "value": "meat",
+          "correct_order": 1
+        }
+      ]
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 297193239304,
+    "title": "",
+    "category": "lesson",
+    "country": "eg",
+    "language": "en",
+    "dialect": [
+      "american"
+    ],
+    "mapped_id": 297193239304,
+    "source_id": {
+      "value": 945145262849,
+      "page_number": null
+    },
+    "description": "Use the following words to complete the sentence.Iron is found in   and   vegetables. It helps our blood to carry oxygen.",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": ""
+  },
+  "answer": "",
+  "section_id": "607198982956",
+  "language": "en",
+  "subject_id": "123456789012",
+  "subject": "Discover",
+  "grade_id": "123456789012",
+  "grade": "3",
+  "country": "eg",
+  "question_id": "297193239304"
+}

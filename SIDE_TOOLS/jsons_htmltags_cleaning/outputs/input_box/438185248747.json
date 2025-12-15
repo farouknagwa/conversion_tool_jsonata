@@ -1,0 +1,59 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "input_box",
+      "subtype": null,
+      "stem": "<p>اشترت سارة ٦ كيلوجرامات من الجزر، و٩ كيلوجرامات من البطاطس.</p><p>ما إجمالي كتلة الجزر والبطاطس معًا؟</p>",
+      "answer": {
+        "value": "١٥",
+        "constrains": {
+          "type": "integer"
+        },
+        "unit": "كجم"
+      },
+      "grid_size": null,
+      "gap_text_keys": null,
+      "choices": [],
+      "standalone": false,
+      "puzzleColumns": null,
+      "puzzleImage": null,
+      "puzzleImageHeight": null,
+      "puzzleImageSplited": null,
+      "puzzleImageWidth": null,
+      "puzzleRows": null
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 610109323817,
+    "title": "",
+    "category": "lesson",
+    "country": "eg",
+    "language": "ar",
+    "dialect": [
+      "modern_standard"
+    ],
+    "mapped_id": 438185248747,
+    "source_id": {
+      "value": 583147318469,
+      "page_number": null
+    },
+    "description": "اشترت سارة ٦ كيلوجرامات من الجزر، و٩ كيلوجرامات من البطاطس.ما إجمالي كتلة الجزر والبطاطس معًا؟",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": ""
+  },
+  "answer": "",
+  "section_id": "365139813507",
+  "language": "ar",
+  "subject_id": "123456789012",
+  "subject": "الرياضيات",
+  "grade_id": "123456789012",
+  "grade": "2",
+  "country": "eg",
+  "question_id": "438185248747"
+}

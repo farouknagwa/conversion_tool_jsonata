@@ -1,0 +1,51 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "input_box",
+      "subtype": null,
+      "stem": "<p><span style=\"white-space: pre-wrap;\">يوجد ١٤ بالونًا في الحفل. انفجرت ٨ بالونات منها.</span></p><p><span style=\"white-space: pre-wrap;\">كم بالونًا متبقيًا؟</span></p>",
+      "choices": [],
+      "standalone": false,
+      "answer": {
+        "value": "٦",
+        "constrains": {
+          "type": "integer"
+        },
+        "unit": "بالونات"
+      }
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 348186087543,
+    "title": "EG 2.1 S07",
+    "category": "lesson",
+    "country": "eg",
+    "language": "ar",
+    "dialect": [
+      "modern_standard"
+    ],
+    "mapped_id": 965151904093,
+    "source_id": {
+      "value": 583147318469,
+      "page_number": null
+    },
+    "description": "يوجد ١٤ بالونًا في الحفل. انفجرت ٨ بالونات منها.كم بالونًا متبقيًا؟",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": ""
+  },
+  "answer": "",
+  "section_id": "469121250810",
+  "language": "ar",
+  "subject_id": "123456789012",
+  "subject": "الرياضيات",
+  "grade_id": "123456789012",
+  "grade": "2",
+  "country": "eg",
+  "question_id": "965151904093"
+}

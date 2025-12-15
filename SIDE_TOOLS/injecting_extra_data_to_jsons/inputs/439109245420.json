@@ -1,0 +1,40 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "frq_ai",
+      "subtype": null,
+      "standalone": false,
+      "stem": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: justify;\"><span style=\"white-space: pre-line;\">What happens when you try to open a classroom door?</span></p>",
+      "choices": [],
+      "answer": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: justify;\"><span style=\"white-space: pre-line;\">You apply a pulling or a pushing force to cause the door to move (motion).</span></p>",
+      "ai": {
+        "ai_template_id": 352108393701
+      }
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 439109245420,
+    "mapped_id": 439109245420,
+    "category": "lesson",
+    "language": "en",
+    "country": "eg",
+    "dialect": [
+      "american",
+      "british"
+    ],
+    "source_id": {
+      "value": "154106968213",
+      "page_number": null
+    },
+    "description": "What happens when you try to open a classroom door?",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2025-10-18T01:47:09.487Z",
+    "schema_version": "1.0.0"
+  }
+}

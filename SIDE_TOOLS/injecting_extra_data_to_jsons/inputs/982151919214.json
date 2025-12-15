@@ -1,0 +1,53 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "gapText",
+      "subtype": null,
+      "standalone": false,
+      "stem": "<p class=\"LexicalTheme__paragraph\">Complete the text with the correct words.<br>\nAmina loved asking questions about science. Her classmates sometimes became <span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span> because she always had dozens of questions. The teacher explained that this was part of her <span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span> and encouraged her to feel proud of it. He also reminded the class that every person is <span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span> in their own way, and that being <span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span> helps us to discover new things.</p>",
+      "choices": [],
+      "gap_text_keys": [
+        {
+          "value": "special",
+          "correct_order": 3
+        },
+        {
+          "value": "identity",
+          "correct_order": 2
+        },
+        {
+          "value": "curious",
+          "correct_order": 4
+        },
+        {
+          "value": "annoyed",
+          "correct_order": 1
+        }
+      ]
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 982151919214,
+    "mapped_id": 982151919214,
+    "category": "lesson",
+    "language": "en",
+    "country": "eg",
+    "dialect": [
+      "american",
+      "british"
+    ],
+    "source_id": {
+      "value": 182136230818,
+      "page_number": null
+    },
+    "description": "",
+    "example_id": null,
+    "has_example": false,
+    "instances_count": 1,
+    "publication_date": "2025-09-15 10:40:48",
+    "parts_count": 1
+  }
+}

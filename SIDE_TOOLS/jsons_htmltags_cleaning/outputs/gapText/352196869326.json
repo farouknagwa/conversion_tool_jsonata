@@ -1,0 +1,74 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "gapText",
+      "subtype": null,
+      "stem": "<p><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">Complète le texte avec les mots corrects</span><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">.</span></p><p><b><strong class=\"LexicalTheme__textBold\" style=\"white-space: pre-wrap;\">Jean</strong></b><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">: </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\"> ma maison.</span></p><p><b><strong class=\"LexicalTheme__textBold\" style=\"white-space: pre-wrap;\">Marie</strong></b><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">: Qu’est-ce que c’est ?</span></p><p><b><strong class=\"LexicalTheme__textBold\" style=\"white-space: pre-wrap;\">Jean</strong></b><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">: </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\"> les livres pour </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\"> au collège.</span></p><p><b><strong class=\"LexicalTheme__textBold\" style=\"white-space: pre-wrap;\">Marie</strong></b><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">: Et </span><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">ç</span><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">a </span><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">?</span></p><p><b><strong class=\"LexicalTheme__textBold\" style=\"white-space: pre-wrap;\">Jean</strong></b><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">: C’est le gâteau pour </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\"> à midi.</span></p><p><b><strong class=\"LexicalTheme__textBold\" style=\"white-space: pre-wrap;\">Marie</strong></b><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">: Qu’est-ce qu’il y a dans le </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\"> ?</span></p><p><b><strong class=\"LexicalTheme__textBold\" style=\"white-space: pre-wrap;\">Jean</strong></b><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">: Il y a un vélo pour </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">.</span></p><p><b><strong class=\"LexicalTheme__textBold\" style=\"white-space: pre-wrap;\">Marie</strong></b><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">: Et dans la chambre ?</span></p><p><b><strong class=\"LexicalTheme__textBold\" style=\"white-space: pre-wrap;\">Jean</strong></b><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">: Il y a un lit pour </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">.</span></p><p><br/></p>",
+      "choices": [],
+      "standalone": false,
+      "gap_text_keys": [
+        {
+          "value": "jouer",
+          "correct_order": 6
+        },
+        {
+          "value": "Voici",
+          "correct_order": 1
+        },
+        {
+          "value": "manger",
+          "correct_order": 4
+        },
+        {
+          "value": "Ce sont",
+          "correct_order": 2
+        },
+        {
+          "value": "étudier",
+          "correct_order": 3
+        },
+        {
+          "value": "jardin",
+          "correct_order": 5
+        },
+        {
+          "value": "se coucher",
+          "correct_order": 7
+        }
+      ]
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 352196869326,
+    "title": "FR G7 T1 S7",
+    "category": "lesson",
+    "country": "eg",
+    "language": "fr",
+    "dialect": [
+      "standard"
+    ],
+    "mapped_id": 352196869326,
+    "source_id": {
+      "value": 185198317034,
+      "page_number": null
+    },
+    "description": "Complète le texte avec les mots corrects.Jean:   ma maison.Marie: Qu’est-ce que c’est ?Jean:   les livres pour   au collège.Marie: Et ça ?Jean: C’est le gâteau pour   à midi.Marie: Qu’est-ce qu’il y a dans le   ?Jean: Il y a un vélo pour  .Marie: Et d",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": ""
+  },
+  "answer": "",
+  "section_id": "260162367273",
+  "language": "fr",
+  "subject_id": "123456789012",
+  "subject": "Français",
+  "grade_id": "123456789012",
+  "grade": "7",
+  "country": "eg",
+  "question_id": "352196869326"
+}

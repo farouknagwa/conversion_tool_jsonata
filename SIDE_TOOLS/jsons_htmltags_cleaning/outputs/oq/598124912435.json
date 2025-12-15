@@ -1,0 +1,113 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "oq",
+      "subtype": null,
+      "stem": "<p><span style=\"white-space: pre-wrap;\">Put the words in the correct order.</span></p>",
+      "choices": [
+        {
+          "type": "distractor",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">leaped out</span></p>",
+          "values": [],
+          "unit": null,
+          "index": 0,
+          "fixed_order": 1,
+          "correct_order": 2,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">in the pond.</span></p>",
+          "values": [],
+          "unit": null,
+          "index": 1,
+          "fixed_order": 2,
+          "correct_order": 6,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">of the well</span></p>",
+          "values": [],
+          "unit": null,
+          "index": 2,
+          "fixed_order": 3,
+          "correct_order": 3,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">The frogs</span></p>",
+          "values": [],
+          "unit": null,
+          "index": 3,
+          "fixed_order": 4,
+          "correct_order": 1,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">safely</span></p>",
+          "values": [],
+          "unit": null,
+          "index": 4,
+          "fixed_order": 5,
+          "correct_order": 5,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p><span style=\"white-space: pre-wrap;\">and landed</span></p>",
+          "values": [],
+          "unit": null,
+          "index": 5,
+          "fixed_order": 6,
+          "correct_order": 4,
+          "last_order": false,
+          "group": 1
+        }
+      ],
+      "standalone": false,
+      "direction": "horizontal"
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 598124912435,
+    "title": "",
+    "category": "lesson",
+    "country": "eg",
+    "language": "en",
+    "dialect": [
+      "american",
+      "british"
+    ],
+    "mapped_id": 598124912435,
+    "source_id": {
+      "value": 573170142125,
+      "page_number": null
+    },
+    "description": "Put the words in the correct order.",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": ""
+  },
+  "answer": "",
+  "section_id": "250127042016",
+  "language": "en",
+  "subject_id": "123456789012",
+  "subject": "English",
+  "grade_id": "123456789012",
+  "grade": "5",
+  "country": "eg",
+  "question_id": "598124912435"
+}

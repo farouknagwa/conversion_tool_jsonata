@@ -1,0 +1,102 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "matching",
+      "subtype": null,
+      "standalone": false,
+      "stem": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Match each animal to its correct habitat.</span></p>",
+      "choices": [
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Shark</span></p>",
+          "group": 1,
+          "correct_order": 1,
+          "values": [],
+          "unit": null,
+          "index": 0,
+          "fixed_order": 1,
+          "last_order": false
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Camel</span></p>",
+          "group": 1,
+          "correct_order": 2,
+          "values": [],
+          "unit": null,
+          "index": 1,
+          "fixed_order": 2,
+          "last_order": false
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Rabbit</span></p>",
+          "group": 1,
+          "correct_order": 3,
+          "values": [],
+          "unit": null,
+          "index": 2,
+          "fixed_order": 3,
+          "last_order": false
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Ocean</span></p>",
+          "group": 2,
+          "correct_order": 1,
+          "values": [],
+          "unit": null,
+          "index": 0,
+          "fixed_order": 2,
+          "last_order": false
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Desert</span></p>",
+          "group": 2,
+          "correct_order": 2,
+          "values": [],
+          "unit": null,
+          "index": 1,
+          "fixed_order": 3,
+          "last_order": false
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Grassland</span></p>",
+          "group": 2,
+          "correct_order": 3,
+          "values": [],
+          "unit": null,
+          "index": 2,
+          "fixed_order": 1,
+          "last_order": false
+        }
+      ]
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 346128614329,
+    "mapped_id": 346128614329,
+    "category": "lesson",
+    "language": "en",
+    "country": "eg",
+    "dialect": [
+      "american",
+      "british"
+    ],
+    "source_id": {
+      "value": 182136230818,
+      "page_number": null
+    },
+    "description": "",
+    "example_id": null,
+    "has_example": false,
+    "instances_count": 1,
+    "publication_date": "2025-10-14 10:32:16",
+    "parts_count": 1
+  }
+}

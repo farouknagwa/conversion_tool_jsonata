@@ -1,0 +1,46 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "counting",
+      "subtype": null,
+      "stem": "<p><span style=\"white-space: pre-wrap;\">ضَعِ العدد الصحيح من قطع العَدِّ في إطار العشرة.</span></p><p><span class=\"audio-wrapper\" data-node-type=\"audio\"><audio class=\"audio-player\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/749168919812.mp3\"></audio></span></p><p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"927109239436\" class=\"displayed-image\" height=\"150\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/528126834873.svg\" style=\"aspect-ratio: 109/150;\" width=\"109\"/></span></p>",
+      "choices": [],
+      "standalone": false,
+      "answer": "9",
+      "grid_size": "2×5"
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 527197083868,
+    "title": "",
+    "category": "lesson",
+    "country": "eg",
+    "language": "ar",
+    "dialect": [
+      "modern_standard"
+    ],
+    "mapped_id": 927109239436,
+    "source_id": {
+      "value": 583147318469,
+      "page_number": null
+    },
+    "description": "ضَعِ العدد الصحيح من قطع العَدِّ في إطار العشرة.",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": ""
+  },
+  "answer": "",
+  "section_id": "970194294617",
+  "language": "ar",
+  "subject_id": "123456789012",
+  "subject": "الرياضيات",
+  "grade_id": "123456789012",
+  "grade": "1",
+  "country": "eg",
+  "question_id": "927109239436"
+}

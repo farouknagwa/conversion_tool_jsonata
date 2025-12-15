@@ -1,0 +1,70 @@
+{
+    "parts": [
+        {
+            "n": 1,
+            "stem": "<p>قيمة المقاومة المُضاعِفة للجهد التي يجب توصيلها على التوالي بالفولتميتر لكي يشير كلُّ تقسيم في التدريج إلى <span class=\"merge no_margin\" dir=\"ltr\">10 V</span> هي <span class=\"merge\"><span data-node-type=\"blank-line\" data-node-variation=\"space\">&nbsp;</span>.</span></p>",
+            "type": "mcq",
+            "answer": null,
+            "choices": [
+                {
+                    "type": "key",
+                    "unit": null,
+                    "index": 0,
+                    "values": [],
+                    "last_order": false,
+                    "fixed_order": 2,
+                    "html_content": "<span class=\"merge no_margin\" dir=\"ltr\"><span class=\"no_margin merge\">18&lrm; &lrm;000</span> &Omega;</span>"
+                },
+                {
+                    "type": "distractor",
+                    "unit": null,
+                    "index": 1,
+                    "values": [],
+                    "last_order": false,
+                    "fixed_order": 3,
+                    "html_content": "<span class=\"merge no_margin\" dir=\"ltr\"><span class=\"no_margin merge\">20&lrm; &lrm;000</span> &Omega;</span>"
+                },
+                {
+                    "type": "distractor",
+                    "unit": null,
+                    "index": 2,
+                    "values": [],
+                    "last_order": false,
+                    "fixed_order": 1,
+                    "html_content": "<span class=\"merge no_margin\" dir=\"ltr\"><span class=\"no_margin merge\">1&lrm; &lrm;800</span> &Omega;</span>"
+                },
+                {
+                    "type": "distractor",
+                    "unit": null,
+                    "index": 3,
+                    "values": [],
+                    "last_order": false,
+                    "fixed_order": 4,
+                    "html_content": "<span class=\"merge no_margin\" dir=\"ltr\">200 &Omega;</span>"
+                }
+            ],
+            "subtype": null,
+            "standalone": false
+        }
+    ],
+    "metadata": {
+        "id": 602142481297,
+        "title": "",
+        "automark": true,
+        "category": "lesson",
+        "country": null,
+        "language": "ar",
+        "dialect": [
+            "modern_standard"
+        ],
+        "mapped_id": 534185915289,
+        "source_id": null,
+        "description": "قيمة المقاومة المُضاعِفة للجهد التي يجب توصيلها على التوالي بالفولتميتر لكي يشير كلُّ تقسيم في التدريج إلى ١٠ V هي _.",
+        "has_example": true,
+        "parts_count": 1,
+        "instances_count": 1,
+        "publication_date": "2021-01-20T07:57:11"
+    },
+    "statement": null,
+    "instance_number": 1
+}

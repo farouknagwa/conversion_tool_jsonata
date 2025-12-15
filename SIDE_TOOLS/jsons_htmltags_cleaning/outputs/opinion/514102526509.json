@@ -1,0 +1,89 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "opinion",
+      "subtype": null,
+      "stem": "<p><span style=\"white-space: pre-wrap;\">Tu come proteggi l’ambiente?</span></p>",
+      "choices": [
+        {
+          "type": "distractor",
+          "html_content": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"402183242126\" class=\"displayed-image\" height=\"159.99786512955995\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/593120838386.jpg\" style=\"aspect-ratio: 200/159.99786512955995;\" width=\"200\"/></span><span style=\"white-space: pre-wrap;\">Uso i mezzi pubblici</span></p>",
+          "values": [],
+          "unit": null,
+          "index": 0,
+          "fixed_order": 1,
+          "correct_order": 1,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"630121517186\" class=\"displayed-image\" height=\"159.99786512955995\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/310107024785.jpg\" style=\"aspect-ratio: 200/159.99786512955995;\" width=\"200\"/></span><span style=\"white-space: pre-wrap;\">Uso lampadine a basso</span></p><p><span style=\"white-space: pre-wrap;\">consumo</span></p>",
+          "values": [],
+          "unit": null,
+          "index": 1,
+          "fixed_order": 2,
+          "correct_order": 2,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"870192948987\" class=\"displayed-image\" height=\"159.99786512955995\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/686131481607.jpg\" style=\"aspect-ratio: 200/159.99786512955995;\" width=\"200\"/></span><span style=\"white-space: pre-wrap;\">Faccio la raccolta</span></p><p><span style=\"white-space: pre-wrap;\">differenziata</span></p>",
+          "values": [],
+          "unit": null,
+          "index": 2,
+          "fixed_order": 3,
+          "correct_order": 3,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"348101956525\" class=\"displayed-image\" height=\"159.99786512955995\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/802198978372.jpg\" style=\"aspect-ratio: 200/159.99786512955995;\" width=\"200\"/></span><span style=\"white-space: pre-wrap;\">Cerco di usare poca acqua</span></p>",
+          "values": [],
+          "unit": null,
+          "index": 3,
+          "fixed_order": 4,
+          "correct_order": 4,
+          "last_order": false,
+          "group": 1
+        }
+      ],
+      "standalone": false
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 514102526509,
+    "title": "IT G12 Ambiente ed ecologia",
+    "category": "lesson",
+    "country": "eg",
+    "language": "it",
+    "dialect": [
+      "standard"
+    ],
+    "mapped_id": 514102526509,
+    "source_id": {
+      "value": 235120752920,
+      "page_number": null
+    },
+    "description": "Tu come proteggi l’ambiente?",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": ""
+  },
+  "answer": "",
+  "section_id": "426109162749",
+  "language": "it",
+  "subject_id": "123456789012",
+  "subject": "Italiano",
+  "grade_id": "123456789012",
+  "grade": "12",
+  "country": "eg",
+  "question_id": "514102526509"
+}

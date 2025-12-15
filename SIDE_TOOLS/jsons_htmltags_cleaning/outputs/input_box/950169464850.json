@@ -1,0 +1,51 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "input_box",
+      "subtype": null,
+      "stem": "<p><span style=\"white-space: pre-wrap;\">بنى شريف برجًا مُستخدِمًا ٨ مكعبات. ثم أضاف ٥ مكعبات أخرى. كم مكعبًا في البرج الآن؟</span><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"123 (1)\" class=\"displayed-image\" height=\"150\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/735173156794.svg\" style=\"aspect-ratio: 16/150;\" width=\"16\"/></span></p>",
+      "choices": [],
+      "standalone": false,
+      "answer": {
+        "value": "١٣",
+        "constrains": {
+          "type": "integer"
+        },
+        "unit": "مكعبًا"
+      }
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 638139701628,
+    "title": "Using Pictures to Solve Addition Word Problems with Numbers up to 20",
+    "category": "lesson",
+    "country": "eg",
+    "language": "ar",
+    "dialect": [
+      "modern_standard"
+    ],
+    "mapped_id": 950169464850,
+    "source_id": {
+      "value": 617180919760,
+      "page_number": null
+    },
+    "description": "بنى شريف برجًا مُستخدِمًا ٨ مكعبات. ثم أضاف ٥ مكعبات أخرى. كم مكعبًا في البرج الآن؟",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": ""
+  },
+  "answer": "",
+  "section_id": "365139813507",
+  "language": "ar",
+  "subject_id": "123456789012",
+  "subject": "الرياضيات",
+  "grade_id": "123456789012",
+  "grade": "2",
+  "country": "eg",
+  "question_id": "950169464850"
+}

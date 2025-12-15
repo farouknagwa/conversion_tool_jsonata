@@ -1,0 +1,83 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "oq",
+      "subtype": null,
+      "stem": "<p><span style=\"white-space: pre-wrap;\">Order these containers from smallest to largest capacity.</span></p>",
+      "choices": [
+        {
+          "type": "distractor",
+          "html_content": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"534126181920\" class=\"displayed-image\" height=\"163.35138836267694\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/868160781909.svg\" style=\"aspect-ratio: 110/163.35138836267694;\" width=\"110\"/></span></p>",
+          "values": [],
+          "unit": null,
+          "index": 0,
+          "fixed_order": 1,
+          "correct_order": 3,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"712132739438\" class=\"displayed-image\" height=\"120.9605157365371\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/695198137327.svg\" style=\"aspect-ratio: 50/120.9605157365371;\" width=\"50\"/></span></p>",
+          "values": [],
+          "unit": null,
+          "index": 1,
+          "fixed_order": 2,
+          "correct_order": 2,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"298164682095\" class=\"displayed-image\" height=\"49.72402149755399\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/818175618369.svg\" style=\"aspect-ratio: 80/49.72402149755399;\" width=\"80\"/></span></p>",
+          "values": [],
+          "unit": null,
+          "index": 2,
+          "fixed_order": 3,
+          "correct_order": 1,
+          "last_order": false,
+          "group": 1
+        }
+      ],
+      "standalone": false,
+      "ai": {
+        "ai_template_id": 0
+      },
+      "direction": "horizontal"
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 574132605805,
+    "title": "",
+    "category": "lesson",
+    "country": "eg",
+    "language": "en",
+    "dialect": [
+      "american",
+      "british"
+    ],
+    "mapped_id": 574132605805,
+    "source_id": {
+      "value": 345171316462,
+      "page_number": null
+    },
+    "description": "Order these containers from smallest to largest capacity.",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": ""
+  },
+  "answer": "",
+  "section_id": "823157592983",
+  "language": "en",
+  "subject_id": "123456789012",
+  "subject": "Mathematics",
+  "grade_id": "123456789012",
+  "grade": "3",
+  "country": "eg",
+  "question_id": "574132605805"
+}

@@ -1,0 +1,53 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "gapText",
+      "subtype": null,
+      "standalone": false,
+      "stem": "<p class=\"LexicalTheme__paragraph\">Complete the text with the correct words.<br>\nDigital devices can be very useful in many situations. For example,<span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span> can be used anywhere to search for information. Having such a device helps people<span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span> very quickly, as long as they are online. They can instantly voice their support for important<span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span>, for example. Smartphones can also be used in emergencies,<span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span> various accidents and other dangerous situations. We just need to use them wisely.</p>",
+      "choices": [],
+      "gap_text_keys": [
+        {
+          "value": "connect",
+          "correct_order": 2
+        },
+        {
+          "value": "smartphones",
+          "correct_order": 1
+        },
+        {
+          "value": "causes",
+          "correct_order": 3
+        },
+        {
+          "value": "including",
+          "correct_order": 4
+        }
+      ]
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 725159624813,
+    "mapped_id": 725159624813,
+    "category": "lesson",
+    "language": "en",
+    "country": "eg",
+    "dialect": [
+      "american",
+      "british"
+    ],
+    "source_id": {
+      "value": 182136230818,
+      "page_number": null
+    },
+    "description": "",
+    "example_id": null,
+    "has_example": false,
+    "instances_count": 1,
+    "publication_date": "2025-09-15 09:28:56",
+    "parts_count": 1
+  }
+}

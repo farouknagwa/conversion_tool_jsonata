@@ -1,0 +1,51 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "input_box",
+      "subtype": null,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">تمتلك رانيا ١٤ طابعًا. فقدت ٢ من الطوابع. ما عدد الطوابع المتبقية؟</span></p>",
+      "choices": [],
+      "standalone": false,
+      "answer": {
+        "value": "١٢",
+        "constrains": {
+          "type": "integer"
+        },
+        "unit": "طابعاً"
+      }
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 860143183069,
+    "title": "",
+    "category": "lesson",
+    "country": "eg",
+    "language": "ar",
+    "dialect": [
+      "modern_standard"
+    ],
+    "mapped_id": 140165489162,
+    "source_id": {
+      "value": 617180919760,
+      "page_number": null
+    },
+    "description": "تمتلك رانيا ١٤ طابعًا. فقدت ٢ من الطوابع. ما عدد الطوابع المتبقية؟",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": ""
+  },
+  "answer": "",
+  "section_id": "469121250810",
+  "language": "ar",
+  "subject_id": "123456789012",
+  "subject": "الرياضيات",
+  "grade_id": "123456789012",
+  "grade": "2",
+  "country": "eg",
+  "question_id": "140165489162"
+}

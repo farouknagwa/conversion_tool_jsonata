@@ -1,0 +1,93 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "mcq",
+      "subtype": null,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">أيُّ جملة عددية تُطابِق المسألة؟</span></p>",
+      "choices": [
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: right;\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"{\\displaystyle{\\displaystyle{١٥+٣=\\textBlank}}}\" locale=\"ar\" lang=\"ar\">{\\displaystyle{\\displaystyle{١٥+٣=\\textBlank}}}</math-field></span></p>",
+          "values": [],
+          "unit": null,
+          "index": 0,
+          "fixed_order": 1,
+          "correct_order": 1,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "key",
+          "html_content": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: right;\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"\\displaystyle{١٥-٣=\\textBlank}\" locale=\"ar\" lang=\"ar\">\\displaystyle{١٥-٣=\\textBlank}</math-field></span></p>",
+          "values": [],
+          "unit": null,
+          "index": 1,
+          "fixed_order": 2,
+          "correct_order": 3,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: right;\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"\\displaystyle{٣-١٥=\\textBlank}\" locale=\"ar\" lang=\"ar\">\\displaystyle{٣-١٥=\\textBlank}</math-field></span></p>",
+          "values": [],
+          "unit": null,
+          "index": 2,
+          "fixed_order": 3,
+          "correct_order": 2,
+          "last_order": false,
+          "group": 1
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "n": 2,
+      "type": "input_box",
+      "subtype": null,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">ما عدد السيارات البرتقالية؟</span></p>",
+      "choices": [],
+      "standalone": false,
+      "answer": {
+        "value": "١٢",
+        "constrains": {
+          "type": "integer"
+        },
+        "unit": " سيارة برتقالية"
+      }
+    }
+  ],
+  "statement": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">لدى سوزان ١٥ سيارة لعبة. توجد ٣ سيارات خضراء، وبقية السيارات برتقالية. تريد صديقة سوزان معرفة عدد السيارات البرتقالية لدى سوزان.</span></p>",
+  "instance_number": 1,
+  "metadata": {
+    "id": 242176303148,
+    "title": "",
+    "category": "lesson",
+    "country": "eg",
+    "language": "ar",
+    "dialect": [
+      "modern_standard"
+    ],
+    "mapped_id": 965156576570,
+    "source_id": {
+      "value": 238173260548,
+      "page_number": null
+    },
+    "description": "لدى سوزان ١٥ سيارة لعبة. توجد ٣ سيارات خضراء، وبقية السيارات برتقالية. تريد صديقة سوزان معرفة عدد السيارات البرتقالية لدى سوزان. أيُّ جملة عددية تُطابِق المسألة؟ ما عدد السيارات البرتقالية؟",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 2,
+    "instances_count": 1,
+    "publication_date": ""
+  },
+  "answer": "",
+  "section_id": "469121250810",
+  "language": "ar",
+  "subject_id": "123456789012",
+  "subject": "الرياضيات",
+  "grade_id": "123456789012",
+  "grade": "2",
+  "country": "eg",
+  "question_id": "965156576570"
+}

@@ -1,0 +1,143 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "matching",
+      "subtype": null,
+      "stem": "<p dir=\"ltr\" style=\"text-align: left;\">Match the instructions with the pictures. </p>",
+      "answer": null,
+      "grid_size": null,
+      "gap_text_keys": null,
+      "choices": [
+        {
+          "type": "distractor",
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">Stay in bed.</p>",
+          "values": [],
+          "unit": null,
+          "index": 0,
+          "fixed_order": 1,
+          "correct_order": 1,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">Cover your mouth and nose.</p>",
+          "values": [],
+          "unit": null,
+          "index": 1,
+          "fixed_order": 2,
+          "correct_order": 2,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">Wash your hands. </p>",
+          "values": [],
+          "unit": null,
+          "index": 2,
+          "fixed_order": 3,
+          "correct_order": 3,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">Eat healthy food.</p>",
+          "values": [],
+          "unit": null,
+          "index": 3,
+          "fixed_order": 4,
+          "correct_order": 4,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\"></p><div dir=\"ltr\"><img style=\"width: 298.60358905928234px;height: 250px;\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/625169253513.svg\" alt=\"Question Image\" /></div><p dir=\"ltr\" style=\"text-align: left;\"></p>",
+          "values": [],
+          "unit": null,
+          "index": 0,
+          "fixed_order": 1,
+          "correct_order": 1,
+          "last_order": false,
+          "group": 2
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\"></p><div dir=\"ltr\"><img style=\"width: 298.60358905928234px;height: 250px;\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/925184267683.svg\" alt=\"Question Image\" /></div><p dir=\"ltr\" style=\"text-align: left;\"></p>",
+          "values": [],
+          "unit": null,
+          "index": 1,
+          "fixed_order": 2,
+          "correct_order": 4,
+          "last_order": false,
+          "group": 2
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\"></p><div dir=\"ltr\"><img style=\"width: 298.60358905928234px;height: 250px;\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/179173787867.svg\" alt=\"Question Image\" /></div><p dir=\"ltr\" style=\"text-align: left;\"></p>",
+          "values": [],
+          "unit": null,
+          "index": 2,
+          "fixed_order": 3,
+          "correct_order": 2,
+          "last_order": false,
+          "group": 2
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\"></p><div dir=\"ltr\"><img style=\"width: 298.60358905928234px;height: 250px;\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/838195429420.svg\" alt=\"Question Image\" /></div><p dir=\"ltr\" style=\"text-align: left;\"></p>",
+          "values": [],
+          "unit": null,
+          "index": 3,
+          "fixed_order": 4,
+          "correct_order": 3,
+          "last_order": false,
+          "group": 2
+        }
+      ],
+      "standalone": false,
+      "puzzleColumns": null,
+      "puzzleImage": null,
+      "puzzleImageHeight": null,
+      "puzzleImageSplited": null,
+      "puzzleImageWidth": null,
+      "puzzleRows": null
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 628103763608,
+    "title": "EN G3 S1 Foundation",
+    "category": "lesson",
+    "country": "eg",
+    "language": "en",
+    "dialect": [
+      "american",
+      "british"
+    ],
+    "mapped_id": 628103763608,
+    "source_id": {
+      "value": 424182093137,
+      "page_number": null
+    },
+    "description": "Match the instructions with the pictures.",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": ""
+  },
+  "answer": "",
+  "section_id": "875152395181",
+  "language": "en",
+  "subject_id": "123456789012",
+  "subject": "English",
+  "grade_id": "123456789012",
+  "grade": "3",
+  "country": "eg",
+  "question_id": "628103763608"
+}

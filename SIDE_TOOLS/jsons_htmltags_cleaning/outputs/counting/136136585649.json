@@ -1,0 +1,53 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "counting",
+      "subtype": null,
+      "stem": "<p>ضع هذا العدد من قطع العدِّ في إطار الخمسة.</p><p></p><div class=\"h-scroll\" dir=\"rtl\" style=\"text-align: center;\"><img alt=\"صورة السؤال\" class=\"displayed-image\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/813105787804.svg\" style=\"width: 103.558px;height: 160px;\"/></div><div class=\"audio-wrapper\" dir=\"\" style=\"text-align: ;\"><audio class=\"audio-player\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/437182650810.mp3\"></audio></div>",
+      "answer": "٥",
+      "grid_size": "1×5",
+      "gap_text_keys": null,
+      "choices": [],
+      "standalone": false,
+      "puzzleColumns": null,
+      "puzzleImage": null,
+      "puzzleImageHeight": null,
+      "puzzleImageSplited": null,
+      "puzzleImageWidth": null,
+      "puzzleRows": null
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 460120427067,
+    "title": "Regular_EG1.1_Session_2",
+    "category": "lesson",
+    "country": "eg",
+    "language": "ar",
+    "dialect": [
+      "modern_standard"
+    ],
+    "mapped_id": 136136585649,
+    "source_id": {
+      "value": 583147318469,
+      "page_number": null
+    },
+    "description": "ضع هذا العدد من قطع العدِّ في إطار الخمسة.",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": ""
+  },
+  "answer": "",
+  "section_id": "970194294617",
+  "language": "ar",
+  "subject_id": "123456789012",
+  "subject": "الرياضيات",
+  "grade_id": "123456789012",
+  "grade": "1",
+  "country": "eg",
+  "question_id": "136136585649"
+}

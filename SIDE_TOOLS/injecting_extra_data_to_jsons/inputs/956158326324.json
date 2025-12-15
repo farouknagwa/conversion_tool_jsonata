@@ -1,0 +1,49 @@
+{
+    "parts": [
+        {
+            "n": 1,
+            "type": "string",
+            "subtype": null,
+            "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: justify;\"><span style=\"white-space: pre-wrap;\">Correct the underlined word(s): In an experiment to see how different substances heat up, the type of substance is the </span><u><span class=\"LexicalTheme__textUnderline\" style=\"white-space: pre-wrap;\">dependent variable</span></u><span style=\"white-space: pre-wrap;\">.</span></p>",
+            "choices": null,
+            "standalone": false,
+            "answer": [
+                "independent variable"
+            ],
+            "ai": {
+                "ai_template_id": 593158513739,
+                "guidelines": [
+                    {
+                        "student_answer": "independent variable",
+                        "mark": "1",
+                        "comment": "إجابة صحيحة!"
+                    }
+                ]
+            }
+        }
+    ],
+    "statement": null,
+    "instance_number": 1,
+    "metadata": {
+        "id": 956158326324,
+        "title": "",
+        "category": "exam",
+        "country": "eg",
+        "language": "en",
+        "dialect": [
+            "american",
+            "british"
+        ],
+        "mapped_id": 956158326324,
+        "source_id": {
+            "value": 942130798452,
+            "page_number": null
+        },
+        "description": "Correct the underlined word(s): In an experiment to see how different substances heat up, the type of substance is the dependent variable.",
+        "example_id": null,
+        "has_example": false,
+        "parts_count": 1,
+        "instances_count": 1,
+        "publication_date": ""
+    }
+}

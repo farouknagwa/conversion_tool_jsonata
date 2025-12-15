@@ -1,0 +1,53 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "gapText",
+      "subtype": null,
+      "standalone": false,
+      "stem": "<p class=\"LexicalTheme__paragraph\">Complete the text with the correct words.<br>\nGen Z and Gen Alpha are two young generations growing up in a digital world. They often have many things<span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span>, such as using smartphones, tablets, and online apps. Social media helps them<span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span> with friends and family, even if they live very <span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span>. Both groups like short videos, emojis, and memes, which are trends that usually <span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span> people from different backgrounds.</p>",
+      "choices": [],
+      "gap_text_keys": [
+        {
+          "value": "include",
+          "correct_order": 4
+        },
+        {
+          "value": "in common",
+          "correct_order": 1
+        },
+        {
+          "value": "connect",
+          "correct_order": 2
+        },
+        {
+          "value": "far apart",
+          "correct_order": 3
+        }
+      ]
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 203135275680,
+    "mapped_id": 203135275680,
+    "category": "lesson",
+    "language": "en",
+    "country": "eg",
+    "dialect": [
+      "american",
+      "british"
+    ],
+    "source_id": {
+      "value": 182136230818,
+      "page_number": null
+    },
+    "description": "",
+    "example_id": null,
+    "has_example": false,
+    "instances_count": 1,
+    "publication_date": "2025-09-15 09:28:56",
+    "parts_count": 1
+  }
+}

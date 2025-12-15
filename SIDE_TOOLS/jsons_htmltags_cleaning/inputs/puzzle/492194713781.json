@@ -1,0 +1,106 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "puzzle",
+      "subtype": null,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: left;\"><span style=\"white-space: pre-wrap;\">Arrange the pictures to find out the last animal we are going to meet.</span></p><p class=\"LexicalTheme__paragraph\" style=\"text-align: left;\"><br></p>",
+      "choices": [],
+      "standalone": false,
+      "puzzleColumns": "3",
+      "puzzleImage": "https://files-cds-chestnut-com.s3.amazonaws.com/images/897172643727.svg",
+      "puzzleImageHeight": "300",
+      "puzzleImageSplited": [
+        {
+          "index": 1,
+          "fixed_order": 1,
+          "correct_order": 7,
+          "src": "https://files-cds-chestnut-com.s3.amazonaws.com/images/476139192678.png"
+        },
+        {
+          "index": 2,
+          "fixed_order": 2,
+          "correct_order": 6,
+          "src": "https://files-cds-chestnut-com.s3.amazonaws.com/images/950193269854.png"
+        },
+        {
+          "index": 3,
+          "fixed_order": 3,
+          "correct_order": 4,
+          "src": "https://files-cds-chestnut-com.s3.amazonaws.com/images/702129419260.png"
+        },
+        {
+          "index": 4,
+          "fixed_order": 4,
+          "correct_order": 1,
+          "src": "https://files-cds-chestnut-com.s3.amazonaws.com/images/387147515906.png"
+        },
+        {
+          "index": 5,
+          "fixed_order": 5,
+          "correct_order": 9,
+          "src": "https://files-cds-chestnut-com.s3.amazonaws.com/images/169179230901.png"
+        },
+        {
+          "index": 6,
+          "fixed_order": 6,
+          "correct_order": 5,
+          "src": "https://files-cds-chestnut-com.s3.amazonaws.com/images/145136801679.png"
+        },
+        {
+          "index": 7,
+          "fixed_order": 7,
+          "correct_order": 8,
+          "src": "https://files-cds-chestnut-com.s3.amazonaws.com/images/506103269713.png"
+        },
+        {
+          "index": 8,
+          "fixed_order": 8,
+          "correct_order": 2,
+          "src": "https://files-cds-chestnut-com.s3.amazonaws.com/images/690131745040.png"
+        },
+        {
+          "index": 9,
+          "fixed_order": 9,
+          "correct_order": 3,
+          "src": "https://files-cds-chestnut-com.s3.amazonaws.com/images/249161736156.png"
+        }
+      ],
+      "puzzleImageWidth": "300",
+      "puzzleRows": "3"
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 492194713781,
+    "title": "New.Q.1.1.12.9\t\tPuzzle                       Session only",
+    "category": "lesson",
+    "country": "eg",
+    "language": "en",
+    "dialect": [
+      "american",
+      "british"
+    ],
+    "mapped_id": 492194713781,
+    "source_id": {
+      "value": 963163430437,
+      "page_number": null
+    },
+    "description": "Arrange the pictures to find out the last animal we are going to meet.",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": ""
+  },
+  "answer": "",
+  "section_id": "936197402403",
+  "language": "en",
+  "subject_id": "123456789012",
+  "subject": "Discover",
+  "grade_id": "123456789012",
+  "grade": "1",
+  "country": "eg",
+  "question_id": "492194713781"
+}

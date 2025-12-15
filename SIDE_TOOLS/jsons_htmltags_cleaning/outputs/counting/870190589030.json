@@ -1,0 +1,54 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "counting",
+      "subtype": null,
+      "stem": "<p>Place this number of counters on the five frame.</p><p></p><div class=\"h-scroll\" dir=\"ltr\" style=\"text-align: center;\"><img alt=\"Question Image\" class=\"displayed-image\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/923161584218.svg\" style=\"width: 150px;height: 132.868px;\"/></div><p></p><div class=\"audio-wrapper\" dir=\"\" style=\"text-align: ;\"><audio class=\"audio-player\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/918135021013.mp3\"></audio></div>",
+      "answer": "4",
+      "grid_size": "1×5",
+      "gap_text_keys": null,
+      "choices": [],
+      "standalone": false,
+      "puzzleColumns": null,
+      "puzzleImage": null,
+      "puzzleImageHeight": null,
+      "puzzleImageSplited": null,
+      "puzzleImageWidth": null,
+      "puzzleRows": null
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 870190589030,
+    "title": "Regular_EG1.1_Session_2",
+    "category": "lesson",
+    "country": "eg",
+    "language": "en",
+    "dialect": [
+      "american",
+      "british"
+    ],
+    "mapped_id": 870190589030,
+    "source_id": {
+      "value": 617180919760,
+      "page_number": null
+    },
+    "description": "Place this number of counters on the five frame.",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": ""
+  },
+  "answer": "",
+  "section_id": "642187084358",
+  "language": "en",
+  "subject_id": "123456789012",
+  "subject": "Mathematics",
+  "grade_id": "123456789012",
+  "grade": "1",
+  "country": "eg",
+  "question_id": "870190589030"
+}

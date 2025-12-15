@@ -1,0 +1,59 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "gapText",
+      "subtype": null,
+      "stem": "<p><span style=\"white-space: pre-wrap;\">Complete the text with the correct words.</span></p><p><span style=\"white-space: pre-wrap;\">During our trip to the Everglades, we rode a</span><span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span><span style=\"white-space: pre-wrap;\"> through the</span><span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span><span style=\"white-space: pre-wrap;\">. We saw an</span><span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span><span style=\"white-space: pre-wrap;\"> resting on the shore and heard an owl in the trees.</span></p>",
+      "choices": [],
+      "standalone": false,
+      "gap_text_keys": [
+        {
+          "value": "canoe",
+          "correct_order": 1
+        },
+        {
+          "value": "alligator",
+          "correct_order": 3
+        },
+        {
+          "value": "swamp",
+          "correct_order": 2
+        }
+      ]
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 967163137291,
+    "title": "g5t1s22",
+    "category": "lesson",
+    "country": "eg",
+    "language": "en",
+    "dialect": [
+      "american",
+      "british"
+    ],
+    "mapped_id": 967163137291,
+    "source_id": {
+      "value": 312126191387,
+      "page_number": null
+    },
+    "description": "Complete the text with the correct words.During our trip to the Everglades, we rode a  through the . We saw an  resting on the shore and heard an owl in the trees.",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": ""
+  },
+  "answer": "",
+  "section_id": "107128475173",
+  "language": "en",
+  "subject_id": "123456789012",
+  "subject": "English",
+  "grade_id": "123456789012",
+  "grade": "5",
+  "country": "eg",
+  "question_id": "967163137291"
+}

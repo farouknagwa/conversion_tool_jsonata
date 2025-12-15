@@ -1,0 +1,61 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "gapText",
+      "subtype": null,
+      "stem": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: justify;\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Use the words to complete the sentence.\n</span><span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span><span style=\"white-space: pre-wrap;\"> and camels use their legs to </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span><span style=\"white-space: pre-wrap;\">.</span></p>",
+      "choices": [],
+      "standalone": false,
+      "gap_text_keys": [
+        {
+          "value": "Fish"
+        },
+        {
+          "value": "Horses",
+          "correct_order": 1
+        },
+        {
+          "value": "run",
+          "correct_order": 2
+        },
+        {
+          "value": "swim"
+        }
+      ]
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 397160213647,
+    "title": "",
+    "category": "lesson",
+    "country": "eg",
+    "language": "en",
+    "dialect": [
+      "american",
+      "british"
+    ],
+    "mapped_id": 397160213647,
+    "source_id": {
+      "value": 475149294140,
+      "page_number": null
+    },
+    "description": "Use the words to complete the sentence.\n  and camels use their legs to  .",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": ""
+  },
+  "answer": "",
+  "section_id": "218153634689",
+  "language": "en",
+  "subject_id": "123456789012",
+  "subject": "Discover",
+  "grade_id": "123456789012",
+  "grade": "1",
+  "country": "eg",
+  "question_id": "397160213647"
+}

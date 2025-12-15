@@ -1,0 +1,49 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "frq_ai",
+      "subtype": null,
+      "standalone": false,
+      "stem": "<p><span style=\"white-space: pre-line;\">What happens to a body’s state of motion when it is affected by balanced forces?</span></p>",
+      "choices": [],
+      "answer": "<p><span style=\"white-space: pre-line;\">The body's state of motion does not change. If it is at rest, it stays at rest. If it is moving, it will keep moving at a constant speed and direction.</span></p>",
+      "ai": {
+        "ai_template_id": 352108393701
+      }
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 560101694818,
+    "mapped_id": 560101694818,
+    "category": "lesson",
+    "language": "en",
+    "country": "eg",
+    "dialect": [
+      "american",
+      "british"
+    ],
+    "source_id": {
+      "value": "154106968213",
+      "page_number": null
+    },
+    "description": "What happens to a body’s state of motion when it is affected by balanced forces?",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2025-10-18T01:47:09.488Z",
+    "schema_version": "1.0.0"
+  },
+  "answer": "",
+  "section_id": "945152818506",
+  "language": "en",
+  "subject_id": "123456789012",
+  "subject": "Science",
+  "grade_id": "123456789012",
+  "grade": "4",
+  "country": "eg",
+  "question_id": "560101694818"
+}

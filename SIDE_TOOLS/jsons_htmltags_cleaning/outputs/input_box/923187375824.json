@@ -1,0 +1,50 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "input_box",
+      "subtype": null,
+      "stem": "<p><span style=\"white-space: pre-wrap;\">في إحدى الحفلات، يوجد ٩ بالونات معلقة في السقف. إذا عُلِّقت ٧ بالونات أخرى، فما عدد كل البالونات المعلقة؟</span></p>",
+      "choices": [],
+      "standalone": false,
+      "answer": {
+        "value": "١٦",
+        "constrains": {
+          "type": "integer"
+        }
+      }
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 546109591049,
+    "title": "EG 2.1 S07",
+    "category": "lesson",
+    "country": "eg",
+    "language": "ar",
+    "dialect": [
+      "modern_standard"
+    ],
+    "mapped_id": 923187375824,
+    "source_id": {
+      "value": 583147318469,
+      "page_number": null
+    },
+    "description": "في إحدى الحفلات، يوجد ٩ بالونات معلقة في السقف. إذا عُلِّقت ٧ بالونات أخرى، فما عدد كل البالونات المعلقة؟",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": ""
+  },
+  "answer": "",
+  "section_id": "365139813507",
+  "language": "ar",
+  "subject_id": "123456789012",
+  "subject": "الرياضيات",
+  "grade_id": "123456789012",
+  "grade": "2",
+  "country": "eg",
+  "question_id": "923187375824"
+}

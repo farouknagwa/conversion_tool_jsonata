@@ -1,0 +1,47 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>يشتري مطعم <span class=\"merge no_margin\">١٦ كيلوجرامًا</span> من البطاطا، ثم يشتري ٤ أخرى. ما إجمالي عدد ال<span class=\"merge no_margin\">كيلوجرامات</span> التي يبيعها المطعم؟</p>",
+      "type": "input_box",
+      "answer": {
+        "value": "٢٠",
+        "constrains": {
+          "type": "integer"
+        }
+      },
+      "choices": [],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "metadata": {
+    "id": 605151489674,
+    "title": "",
+    "automark": true,
+    "category": "lesson",
+    "country": null,
+    "language": "ar",
+    "dialect": [
+      "modern_standard"
+    ],
+    "mapped_id": 215104102365,
+    "source_id": null,
+    "description": "يشتري مطعم ١٦ كيلوجرامًا من البطاطا، ثم يشتري ٤ أخرى. ما إجمالي عدد الكيلوجرامات التي يبيعها المطعم؟",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 6,
+    "publication_date": "2020-06-24T06:56:27"
+  },
+  "statement": null,
+  "instance_number": 1,
+  "answer": "",
+  "section_id": "365139813507",
+  "language": "ar",
+  "subject_id": "123456789012",
+  "subject": "الرياضيات",
+  "grade_id": "123456789012",
+  "grade": "2",
+  "country": "eg",
+  "question_id": "215104102365"
+}

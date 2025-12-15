@@ -1,0 +1,57 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "string",
+      "subtype": null,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">صوِّب الكلمة التي تحتها خط: النظام المُغلَق يَسمح بتبادُل </span><u><span class=\"LexicalTheme__textUnderline\" style=\"white-space: pre-wrap;\">المادة</span></u><span style=\"white-space: pre-wrap;\"> مع الوَسَط المُحيط.</span></p>",
+      "choices": null,
+      "standalone": false,
+      "answer": [
+        "الطاقة"
+      ],
+      "ai": {
+        "ai_template_id": 593158513739,
+        "guidelines": [
+          {
+            "student_answer": "الطاقة",
+            "mark": "1",
+            "comment": "إجابة صحيحة!"
+          }
+        ]
+      }
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 584141969026,
+    "title": "",
+    "category": "lesson",
+    "country": "eg",
+    "language": "ar",
+    "dialect": [
+      "modern_standard"
+    ],
+    "mapped_id": 718184637975,
+    "source_id": {
+      "value": 937145789737,
+      "page_number": null
+    },
+    "description": "صوِّب الكلمة التي تحتها خط: النظام المُغلَق يَسمح بتبادُل المادة مع الوَسَط المُحيط.",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": ""
+  },
+  "answer": "",
+  "section_id": "206194237067",
+  "language": "ar",
+  "subject_id": "123456789012",
+  "subject": "العلوم",
+  "grade_id": "123456789012",
+  "grade": "8",
+  "country": "eg",
+  "question_id": "718184637975"
+}

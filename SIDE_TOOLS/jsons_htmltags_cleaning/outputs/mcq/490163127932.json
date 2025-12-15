@@ -1,0 +1,89 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "mcq",
+      "subtype": null,
+      "stem": "<p><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">جلفانومتر مقاومة ملفه ‎0.5 Ω يتطلَّب انحرافه إلى نهاية تدريجه مرور تيار شدته ‎2 mA. </span><span style=\"color: rgb(51, 51, 51); white-space: pre-wrap;\">ما قيمة المقاومة الكلية للفولتميتر عند تحويله إلى قياس أقصى مدى مقداره</span><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\"> </span><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">‎20 V؟</span></p>",
+      "choices": [
+        {
+          "type": "key",
+          "html_content": "<p><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">‎9,999.5 Ω</span></p>",
+          "values": [],
+          "unit": null,
+          "index": 0,
+          "fixed_order": 1,
+          "correct_order": 4,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">‎1,000 Ω</span></p>",
+          "values": [],
+          "unit": null,
+          "index": 1,
+          "fixed_order": 2,
+          "correct_order": 2,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">‎9,500 Ω</span></p>",
+          "values": [],
+          "unit": null,
+          "index": 2,
+          "fixed_order": 3,
+          "correct_order": 1,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">‎500 Ω</span></p>",
+          "values": [],
+          "unit": null,
+          "index": 3,
+          "fixed_order": 4,
+          "correct_order": 3,
+          "last_order": false,
+          "group": 1
+        }
+      ],
+      "standalone": false
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 652142659525,
+    "title": "",
+    "category": "exam",
+    "country": "eg",
+    "language": "ar",
+    "dialect": [
+      "modern_standard"
+    ],
+    "mapped_id": 490163127932,
+    "source_id": {
+      "value": 805189370751,
+      "page_number": null
+    },
+    "description": "جلفانومتر مقاومة ملفه ‎0.5 Ω يتطلَّب انحرافه إلى نهاية تدريجه مرور تيار شدته ‎2 mA. ما قيمة المقاومة الكلية للفولتميتر عند تحويله إلى قياس أقصى مدى مقداره ‎20 V؟",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": ""
+  },
+  "answer": "",
+  "section_id": "528139562596",
+  "language": "ar",
+  "subject_id": "123456789012",
+  "subject": "الفيزياء",
+  "grade_id": "123456789012",
+  "grade": "12",
+  "country": "eg",
+  "question_id": "490163127932"
+}

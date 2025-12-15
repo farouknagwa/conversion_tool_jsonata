@@ -1,0 +1,102 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "matching",
+      "subtype": null,
+      "standalone": false,
+      "stem": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Drag to match the nutrient to the food.</span></p>",
+      "choices": [
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"inline\" class=\"LexicalTheme__image LexicalTheme__image--inline h-scroll\"><img src=\"https://images.nagwa.com/pictogram/943174353612.svg\" alt=\"\" width=\"78\" height=\"150\" style=\"aspect-ratio: 78/150;\" class=\"displayed-image\"></span><span style=\"white-space: pre-wrap;\"> </span><span data-node-type=\"image\" data-node-variation=\"inline\" class=\"LexicalTheme__image LexicalTheme__image--inline h-scroll\"><img src=\"https://images.nagwa.com/pictogram/458167505480.svg\" alt=\"\" width=\"166\" height=\"91\" style=\"aspect-ratio: 166/91;\" class=\"displayed-image\"></span></p>",
+          "group": 1,
+          "correct_order": 1,
+          "values": [],
+          "unit": null,
+          "index": 0,
+          "fixed_order": 1,
+          "last_order": false
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"inline\" class=\"LexicalTheme__image LexicalTheme__image--inline h-scroll\"><img src=\"https://images.nagwa.com/pictogram/926182057978.svg\" alt=\"\" width=\"156\" height=\"140\" style=\"aspect-ratio: 156/140;\" class=\"displayed-image\"></span><span style=\"white-space: pre-wrap;\"> </span><span data-node-type=\"image\" data-node-variation=\"inline\" class=\"LexicalTheme__image LexicalTheme__image--inline h-scroll\"><img src=\"https://images.nagwa.com/pictogram/405108018194.svg\" alt=\"\" width=\"158\" height=\"99\" style=\"aspect-ratio: 158/99;\" class=\"displayed-image\"></span></p>",
+          "group": 1,
+          "correct_order": 2,
+          "values": [],
+          "unit": null,
+          "index": 1,
+          "fixed_order": 2,
+          "last_order": false
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"inline\" class=\"LexicalTheme__image LexicalTheme__image--inline h-scroll\"><img src=\"https://images.nagwa.com/pictogram/139107649075.svg\" alt=\"\" width=\"151\" height=\"150\" style=\"aspect-ratio: 151/150;\" class=\"displayed-image\"></span><span style=\"white-space: pre-wrap;\"> </span><span data-node-type=\"image\" data-node-variation=\"inline\" class=\"LexicalTheme__image LexicalTheme__image--inline h-scroll\"><img src=\"https://images.nagwa.com/pictogram/269156271786.svg\" alt=\"\" width=\"174\" height=\"150\" style=\"aspect-ratio: 174/150;\" class=\"displayed-image\"></span></p>",
+          "group": 1,
+          "correct_order": 3,
+          "values": [],
+          "unit": null,
+          "index": 2,
+          "fixed_order": 3,
+          "last_order": false
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Calcium</span></p>",
+          "group": 2,
+          "correct_order": 1,
+          "values": [],
+          "unit": null,
+          "index": 0,
+          "fixed_order": 3,
+          "last_order": false
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Iron</span></p>",
+          "group": 2,
+          "correct_order": 2,
+          "values": [],
+          "unit": null,
+          "index": 1,
+          "fixed_order": 2,
+          "last_order": false
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">Vitamin C</span></p>",
+          "group": 2,
+          "correct_order": 3,
+          "values": [],
+          "unit": null,
+          "index": 2,
+          "fixed_order": 1,
+          "last_order": false
+        }
+      ]
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 874174157160,
+    "mapped_id": 874174157160,
+    "category": "lesson",
+    "language": "en",
+    "country": "eg",
+    "dialect": [
+      "american",
+      "british"
+    ],
+    "source_id": {
+      "value": 182136230818,
+      "page_number": null
+    },
+    "description": "",
+    "example_id": null,
+    "has_example": false,
+    "instances_count": 1,
+    "publication_date": "2025-09-24 10:03:05",
+    "parts_count": 1
+  }
+}

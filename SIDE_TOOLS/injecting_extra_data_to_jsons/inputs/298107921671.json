@@ -1,0 +1,48 @@
+{
+    "parts": [
+        {
+            "n": 1,
+            "type": "string",
+            "subtype": null,
+            "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">صحح الكلمة التي تحتها خط: عضلة القلب هي عضلة  </span><u><span class=\"LexicalTheme__textUnderline\" style=\"white-space: pre-wrap;\">إرادية</span></u><span style=\"white-space: pre-wrap;\">.</span></p>",
+            "choices": null,
+            "standalone": false,
+            "answer": [
+                "لا إرادية"
+            ],
+            "ai": {
+                "ai_template_id": 593158513739,
+                "guidelines": [
+                    {
+                        "student_answer": "لا إرادية",
+                        "mark": "1",
+                        "comment": "إجابة صحيحة!"
+                    }
+                ]
+            }
+        }
+    ],
+    "statement": null,
+    "instance_number": 1,
+    "metadata": {
+        "id": 468131945608,
+        "title": "EG6.1 - S05",
+        "category": "lesson",
+        "country": "eg",
+        "language": "ar",
+        "dialect": [
+            "modern_standard"
+        ],
+        "mapped_id": 298107921671,
+        "source_id": {
+            "value": 937145789737,
+            "page_number": null
+        },
+        "description": "صحح الكلمة التي تحتها خط: عضلة القلب هي عضلة  إرادية.",
+        "example_id": null,
+        "has_example": false,
+        "parts_count": 1,
+        "instances_count": 1,
+        "publication_date": ""
+    }
+}

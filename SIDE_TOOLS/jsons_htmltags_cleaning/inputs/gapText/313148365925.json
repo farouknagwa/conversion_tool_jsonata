@@ -1,0 +1,65 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "gapText",
+      "subtype": null,
+      "standalone": false,
+      "stem": "<p class=\"LexicalTheme__paragraph\">Complete the text with the correct words.<br>\nSuccess is never simple. Sometimes you face an <span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span> that feels too heavy to move. At other times, you may feel <span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span> when your first attempt does not work as planned. However, it is important to have the <span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span> to try again, even when others doubt you. If you continue to <span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span>, every small step brings you closer to success.</p>",
+      "choices": [],
+      "gap_text_keys": [
+        {
+          "value": "courage",
+          "correct_order": 3
+        },
+        {
+          "value": "updates"
+        },
+        {
+          "value": "obstacle",
+          "correct_order": 1
+        },
+        {
+          "value": "keep going",
+          "correct_order": 4
+        },
+        {
+          "value": "discouraged",
+          "correct_order": 2
+        }
+      ]
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 313148365925,
+    "mapped_id": 313148365925,
+    "category": "lesson",
+    "language": "en",
+    "country": "eg",
+    "dialect": [
+      "american",
+      "british"
+    ],
+    "source_id": {
+      "value": 182136230818,
+      "page_number": null
+    },
+    "description": "",
+    "example_id": null,
+    "has_example": false,
+    "instances_count": 1,
+    "publication_date": "2025-10-08 09:17:01",
+    "parts_count": 1
+  },
+  "answer": "",
+  "section_id": "764183915467",
+  "language": "en",
+  "subject_id": "123456789012",
+  "subject": "English",
+  "grade_id": "123456789012",
+  "grade": "8",
+  "country": "eg",
+  "question_id": "313148365925"
+}

@@ -1,0 +1,46 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "counting",
+      "subtype": null,
+      "stem": "<p><span style=\"white-space: pre-wrap;\">Add counters to show how many.</span><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"Screenshot 2025-08-25 at 08.20.17\" class=\"displayed-image\" height=\"150\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/158125159721.png\" style=\"aspect-ratio: 522/150;\" width=\"522\"/></span></p>",
+      "choices": [],
+      "standalone": false,
+      "answer": "3",
+      "grid_size": "2×5"
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 109182786151,
+    "title": "",
+    "category": "lesson",
+    "country": "eg",
+    "language": "en",
+    "dialect": [
+      "american"
+    ],
+    "mapped_id": 109182786151,
+    "source_id": {
+      "value": 762197039686,
+      "page_number": null
+    },
+    "description": "Add counters to show how many.",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": ""
+  },
+  "answer": "",
+  "section_id": "642187084358",
+  "language": "en",
+  "subject_id": "123456789012",
+  "subject": "Mathematics",
+  "grade_id": "123456789012",
+  "grade": "1",
+  "country": "eg",
+  "question_id": "109182786151"
+}

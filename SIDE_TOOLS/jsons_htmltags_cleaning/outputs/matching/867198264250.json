@@ -1,0 +1,111 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "matching",
+      "subtype": null,
+      "stem": "<p><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">Associe l’image à son nom.</span></p>",
+      "choices": [
+        {
+          "type": "distractor",
+          "html_content": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"928165016204\" class=\"displayed-image\" height=\"129.4091576251187\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/494160483494.jpg\" style=\"aspect-ratio: 220/129.4091576251187;\" width=\"220\"/></span></p>",
+          "values": [],
+          "unit": null,
+          "index": 0,
+          "fixed_order": 1,
+          "correct_order": 1,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"953190720868\" class=\"displayed-image\" height=\"129.4091576251187\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/893131730851.jpg\" style=\"aspect-ratio: 220/129.4091576251187;\" width=\"220\"/></span></p>",
+          "values": [],
+          "unit": null,
+          "index": 1,
+          "fixed_order": 2,
+          "correct_order": 2,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"136149230215 (1)\" class=\"displayed-image\" height=\"129.4091576251187\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/234174309483.jpg\" style=\"aspect-ratio: 220/129.4091576251187;\" width=\"220\"/></span></p>",
+          "values": [],
+          "unit": null,
+          "index": 2,
+          "fixed_order": 3,
+          "correct_order": 3,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">L’appareil photo</span></p>",
+          "values": [],
+          "unit": null,
+          "index": 0,
+          "fixed_order": 1,
+          "correct_order": 3,
+          "last_order": false,
+          "group": 2
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">L’ordinateur</span></p><p><br/></p>",
+          "values": [],
+          "unit": null,
+          "index": 1,
+          "fixed_order": 2,
+          "correct_order": 2,
+          "last_order": false,
+          "group": 2
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">La table</span></p><p><br/></p>",
+          "values": [],
+          "unit": null,
+          "index": 2,
+          "fixed_order": 3,
+          "correct_order": 1,
+          "last_order": false,
+          "group": 2
+        }
+      ],
+      "standalone": false
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 867198264250,
+    "title": "FR G11 T1 S11",
+    "category": "lesson",
+    "country": "eg",
+    "language": "fr",
+    "dialect": [
+      "standard"
+    ],
+    "mapped_id": 867198264250,
+    "source_id": {
+      "value": 185198317034,
+      "page_number": null
+    },
+    "description": "Associe l’image à son nom.",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": ""
+  },
+  "answer": "",
+  "section_id": "105195451710",
+  "language": "fr",
+  "subject_id": "123456789012",
+  "subject": "Français",
+  "grade_id": "123456789012",
+  "grade": "11",
+  "country": "eg",
+  "question_id": "867198264250"
+}

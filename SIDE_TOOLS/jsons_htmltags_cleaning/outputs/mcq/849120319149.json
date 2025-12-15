@@ -1,0 +1,82 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "mcq",
+      "subtype": null,
+      "standalone": false,
+      "stem": "<p><span style=\"white-space: pre-wrap;\">A box contains</span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field data-choice-index=\"-1\" data-field-type=\"undefined\" data-math-index=\"0\" data-part-index=\"undefined\" data-question-id=\"undefined\" default-mode=\"inline-math\" locale=\"en\" value=\"2,400\"></math-field></span><span style=\"white-space: pre-wrap;\">apples. Some are red, and</span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field data-choice-index=\"-1\" data-field-type=\"undefined\" data-math-index=\"1\" data-part-index=\"undefined\" data-question-id=\"undefined\" default-mode=\"inline-math\" locale=\"en\" value=\"1,025\"></math-field></span><span style=\"white-space: pre-wrap;\">are green.\nWhich equation shows the number of red apples</span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field data-choice-index=\"-1\" data-field-type=\"undefined\" data-math-index=\"2\" data-part-index=\"undefined\" data-question-id=\"undefined\" default-mode=\"inline-math\" locale=\"en\" value=\"a\"></math-field></span><span style=\"white-space: pre-wrap;\">?</span></p>",
+      "choices": [
+        {
+          "type": "key",
+          "html_content": "<p><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field data-choice-index=\"-1\" data-field-type=\"undefined\" data-math-index=\"0\" data-part-index=\"undefined\" data-question-id=\"undefined\" default-mode=\"inline-math\" locale=\"en\" value=\"a+1,025=2,400\"></math-field></span></p>",
+          "values": [],
+          "unit": null,
+          "index": 0,
+          "fixed_order": 1,
+          "last_order": false
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field data-choice-index=\"-1\" data-field-type=\"undefined\" data-math-index=\"0\" data-part-index=\"undefined\" data-question-id=\"undefined\" default-mode=\"inline-math\" locale=\"en\" value=\"2,400+a=1,025\"></math-field></span></p>",
+          "values": [],
+          "unit": null,
+          "index": 1,
+          "fixed_order": 2,
+          "last_order": false
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field data-choice-index=\"-1\" data-field-type=\"undefined\" data-math-index=\"0\" data-part-index=\"undefined\" data-question-id=\"undefined\" default-mode=\"inline-math\" locale=\"en\" value=\"a−1,025=2,400\"></math-field></span></p>",
+          "values": [],
+          "unit": null,
+          "index": 2,
+          "fixed_order": 3,
+          "last_order": false
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field data-choice-index=\"-1\" data-field-type=\"undefined\" data-math-index=\"0\" data-part-index=\"undefined\" data-question-id=\"undefined\" default-mode=\"inline-math\" locale=\"en\" value=\"1,025+2,400=a\"></math-field></span></p>",
+          "values": [],
+          "unit": null,
+          "index": 3,
+          "fixed_order": 4,
+          "last_order": false
+        }
+      ]
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 849120319149,
+    "mapped_id": 849120319149,
+    "category": "lesson",
+    "language": "en",
+    "country": "eg",
+    "dialect": [
+      "american",
+      "british"
+    ],
+    "source_id": {
+      "value": "182136230818",
+      "page_number": null
+    },
+    "description": "A box contains`2,400`apples. Some are red, and`1,025`are green.\nWhich equation shows the number of red apples`a`?",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2025-09-02T05:37:17.616Z",
+    "schema_version": "1.0.0"
+  },
+  "answer": "",
+  "section_id": "482142617197",
+  "language": "en",
+  "subject_id": "123456789012",
+  "subject": "Mathematics",
+  "grade_id": "123456789012",
+  "grade": "4",
+  "country": "eg",
+  "question_id": "849120319149"
+}

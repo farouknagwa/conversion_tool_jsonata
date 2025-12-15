@@ -1,0 +1,46 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "counting",
+      "subtype": null,
+      "stem": "<p><span style=\"white-space: pre-wrap;\">Draw dots to show the missing number.</span><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"Untitled-233 copy999\" class=\"displayed-image\" height=\"171.64352416992188\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/479134382129.svg\" style=\"aspect-ratio: 500/171.64352416992188;\" width=\"500\"/></span></p>",
+      "choices": [],
+      "standalone": false,
+      "answer": "2",
+      "grid_size": "1×5"
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 269194243192,
+    "title": "",
+    "category": "lesson",
+    "country": "eg",
+    "language": "en",
+    "dialect": [
+      "american"
+    ],
+    "mapped_id": 269194243192,
+    "source_id": {
+      "value": 945145262849,
+      "page_number": null
+    },
+    "description": "Draw dots to show the missing number.",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": ""
+  },
+  "answer": "",
+  "section_id": "953185826864",
+  "language": "en",
+  "subject_id": "123456789012",
+  "subject": "Mathematics",
+  "grade_id": "123456789012",
+  "grade": "1",
+  "country": "eg",
+  "question_id": "269194243192"
+}

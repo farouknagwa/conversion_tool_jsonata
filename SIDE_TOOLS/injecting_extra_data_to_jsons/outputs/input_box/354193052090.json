@@ -1,0 +1,51 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "input_box",
+      "subtype": null,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span style=\"white-space: pre-wrap;\">يوجَد في الحديقة ٥ أزهار. بعد ذلك، قطفت كايا زهرتَين منها.</span></p><p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: right;\"><span style=\"white-space: pre-wrap;\">كم زهرةً تبقَّت في الحديقة؟</span></p><p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/914154157573.svg\" alt=\"Question Image\" width=\"386\" height=\"300\" style=\"aspect-ratio: 386/300;\" class=\"displayed-image\"></span></p>",
+      "choices": [],
+      "standalone": false,
+      "answer": {
+        "value": "٣",
+        "constrains": {
+          "type": "integer"
+        },
+        "unit": "أزهار"
+      }
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 463105676530,
+    "title": "",
+    "category": "lesson",
+    "country": "eg",
+    "language": "ar",
+    "dialect": [
+      "modern_standard"
+    ],
+    "mapped_id": 354193052090,
+    "source_id": {
+      "value": 617180919760,
+      "page_number": null
+    },
+    "description": "يوجَد في الحديقة ٥ أزهار. بعد ذلك، قطفت كايا زهرتَين منها.كم زهرةً تبقَّت في الحديقة؟",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": ""
+  },
+  "answer": "",
+  "section_id": "469121250810",
+  "language": "ar",
+  "subject_id": "123456789012",
+  "subject": "الرياضيات",
+  "grade_id": "123456789012",
+  "grade": "2",
+  "country": "eg",
+  "question_id": "354193052090"
+}

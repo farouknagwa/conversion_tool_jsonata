@@ -1,0 +1,46 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "counting",
+      "subtype": null,
+      "stem": "<p><span style=\"white-space: pre-wrap;\">عُدَّ كرات التنس.</span></p><p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"Question Image\" class=\"displayed-image\" height=\"191\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/108105420210.svg\" style=\"aspect-ratio: 400/191;\" width=\"400\"/></span></p><p><span style=\"white-space: pre-wrap;\">أضف نقاطًا إلى إطار العشرة لتوضيح عدد </span><span style=\"white-space: pre-wrap;\">كرات التنس.</span></p>",
+      "choices": [],
+      "standalone": false,
+      "answer": "8",
+      "grid_size": "2×5"
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 672146973459,
+    "title": "",
+    "category": "lesson",
+    "country": "eg",
+    "language": "ar",
+    "dialect": [
+      "modern_standard"
+    ],
+    "mapped_id": 598128251750,
+    "source_id": {
+      "value": 927169194769,
+      "page_number": null
+    },
+    "description": "عُدَّ كرات التنس.أضف نقاطًا إلى إطار العشرة لتوضيح عدد كرات التنس.",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": ""
+  },
+  "answer": "",
+  "section_id": "970194294617",
+  "language": "ar",
+  "subject_id": "123456789012",
+  "subject": "الرياضيات",
+  "grade_id": "123456789012",
+  "grade": "1",
+  "country": "eg",
+  "question_id": "598128251750"
+}

@@ -1,0 +1,58 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "string",
+      "subtype": null,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Study the given table, then answer the following question.</span></p><div class=\"table-wrapper\" style=\"padding: 0px 5px;\"><table class=\"LexicalTheme__table\"><colgroup><col><col></colgroup><tbody><tr><th class=\"LexicalTheme__tableCell LexicalTheme__tableCellHeader\" style=\"width: 75px; background-color: rgb(242, 243, 245);\"><p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Substance</span></p></th><th class=\"LexicalTheme__tableCell LexicalTheme__tableCellHeader\" style=\"width: 75px; background-color: rgb(242, 243, 245);\"><p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Specific Heat (J/kg.°C)</span></p></th></tr><tr><td class=\"LexicalTheme__tableCell\" style=\"width: 75px;\"><p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Mercury</span></p></td><td class=\"LexicalTheme__tableCell\" style=\"width: 75px;\"><p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">140</span></p></td></tr><tr><td class=\"LexicalTheme__tableCell\" style=\"width: 75px;\"><p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Copper</span></p></td><td class=\"LexicalTheme__tableCell\" style=\"width: 75px;\"><p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">385</span></p></td></tr><tr><td class=\"LexicalTheme__tableCell\" style=\"width: 75px;\"><p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Aluminum</span></p></td><td class=\"LexicalTheme__tableCell\" style=\"width: 75px;\"><p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">900</span></p></td></tr><tr><td class=\"LexicalTheme__tableCell\" style=\"width: 75px;\"><p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Water</span></p></td><td class=\"LexicalTheme__tableCell\" style=\"width: 75px;\"><p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">4180</span></p></td></tr></tbody></table></div><p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">If equal masses of all four substances are left to cool from the same high temperature, which one will take the longest time to cool down?</span></p>",
+      "choices": null,
+      "standalone": false,
+      "answer": [
+        "Water."
+      ],
+      "ai": {
+        "ai_template_id": 593158513739,
+        "guidelines": [
+          {
+            "student_answer": "Water.",
+            "mark": "1",
+            "comment": "إجابة صحيحة!"
+          }
+        ]
+      }
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 364182152073,
+    "title": "",
+    "category": "lesson",
+    "country": "eg",
+    "language": "en",
+    "dialect": [
+      "american",
+      "british"
+    ],
+    "mapped_id": 364182152073,
+    "source_id": {
+      "value": 963163430437,
+      "page_number": null
+    },
+    "description": "Study the given table, then answer the following question.SubstanceSpecific Heat (J/kg.°C)Mercury140Copper385Aluminum900Water4180If equal masses of all four substances are left to cool from the same high temperature, which one will take the longest ti",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": ""
+  },
+  "answer": "",
+  "section_id": "635150649798",
+  "language": "en",
+  "subject_id": "123456789012",
+  "subject": "Science",
+  "grade_id": "123456789012",
+  "grade": "8",
+  "country": "eg",
+  "question_id": "364182152073"
+}

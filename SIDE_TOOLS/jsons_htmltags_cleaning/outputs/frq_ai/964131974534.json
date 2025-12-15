@@ -1,0 +1,49 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "frq_ai",
+      "subtype": null,
+      "standalone": false,
+      "stem": "<p><span style=\"white-space: pre-line;\">Mention an example of an object that has balanced forces acting on it.</span></p>",
+      "choices": [],
+      "answer": "<p><span style=\"white-space: pre-line;\">A book resting on a table.</span></p>",
+      "ai": {
+        "ai_template_id": 352108393701
+      }
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 964131974534,
+    "mapped_id": 964131974534,
+    "category": "lesson",
+    "language": "en",
+    "country": "eg",
+    "dialect": [
+      "american",
+      "british"
+    ],
+    "source_id": {
+      "value": "154106968213",
+      "page_number": null
+    },
+    "description": "Mention an example of an object that has balanced forces acting on it.",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2025-10-18T01:47:09.488Z",
+    "schema_version": "1.0.0"
+  },
+  "answer": "",
+  "section_id": "945152818506",
+  "language": "en",
+  "subject_id": "123456789012",
+  "subject": "Science",
+  "grade_id": "123456789012",
+  "grade": "4",
+  "country": "eg",
+  "question_id": "964131974534"
+}
