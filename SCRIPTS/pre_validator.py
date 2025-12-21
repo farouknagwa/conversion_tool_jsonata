@@ -1,5 +1,6 @@
 from typing import Dict, List, Any, Tuple
 import re
+from bs4 import BeautifulSoup
 
 from SCRIPTS.config import (
     VALID_PART_TYPES, VALID_DIRECTIONS,
@@ -11,7 +12,7 @@ from SCRIPTS.utils import (
     extract_country_code_mandatory_return, is_empty_or_none
 )
 
-def validate_json_structure(json_data: Dict[str, Any]) -> List[str]:
+def validate_json_structure(json_data: Dict[str, Any]) -> Tuple[List[str], List[str]]:
     """
     Main validation function that validates the entire JSON structure.
     Matches the validateJsonStructure function from questionValidation.ts
@@ -20,35 +21,40 @@ def validate_json_structure(json_data: Dict[str, Any]) -> List[str]:
         json_data: The parsed JSON data
         
     Returns:
-        List of error messages (empty if valid)
+        Tuple of (errors, warnings) - errors cause validation failure, warnings don't
     """
     errors = []
+    warnings = []
     
     # Validate top level structure
-    if not json_data.get('parts') or not isinstance(json_data['parts'], list):
+    if not json_data.get('parts', []) or not isinstance(json_data['parts'], list):
         errors.append("Missing or invalid 'parts' array")
-        return errors  # Stop validation if parts array is missing
+        return errors, warnings  # Stop validation if parts array is missing
     
-    if len(json_data['parts']) == 0:
+    if len(json_data.get('parts', [])) == 0:
         errors.append("'parts' array cannot be empty")
-        return errors
+        return errors, warnings
     
     # Check metadata
-    if not json_data.get('metadata') or not isinstance(json_data['metadata'], dict):
+    if not json_data.get('metadata', {}) or not isinstance(json_data['metadata'], dict):
         errors.append("Missing or invalid 'metadata' object")
     
-    # Validate statement for multipart questions
-    if len(json_data['parts']) > 1 and not json_data.get('statement'):
-        errors.append("Multipart questions must have a 'statement' field")
+    # Validate statement for multipart questions (WARNING only)
+    if len(json_data.get('parts', [])) > 1 and not json_data.get('statement'):
+        warnings.append("Multipart questions should have a 'statement' field")
     
     country_code = extract_country_code_mandatory_return(json_data)
     
     # Validate each part
-    for i, part in enumerate(json_data['parts']):
+    for i, part in enumerate(json_data.get('parts', [])):
         part_errors = _validate_part(part, i + 1, country_code)
         errors.extend(part_errors)
     
-    return errors
+    # Validate root answer for explanation
+    answer_errors = _validate_root_answer_for_explanation(json_data)
+    errors.extend(answer_errors)
+    
+    return errors, warnings
 
 
 def _validate_part(part: Dict[str, Any], part_number: int, country_code: str) -> List[str]:
@@ -115,7 +121,7 @@ def _validate_part(part: Dict[str, Any], part_number: int, country_code: str) ->
     return errors
 
 
-def _validate_choice(choice: Dict[str, Any], choice_index: int, part_number: int) -> List[str]:
+def _validate_choice(choice: Dict[str, Any], choice_index: int, part_number: int, part_type: str) -> List[str]:
     """
     Validate common choice properties.
     Matches the validateChoice function from questionValidation.ts
@@ -124,7 +130,7 @@ def _validate_choice(choice: Dict[str, Any], choice_index: int, part_number: int
         choice: Choice object to validate
         choice_index: Index of the choice
         part_number: Part number for error messages
-        
+        part_type: Type of the part (mcq, mrq, oq, opinion, matching, counting, puzzle, input_box)
     Returns:
         List of error messages
     """
@@ -140,53 +146,54 @@ def _validate_choice(choice: Dict[str, Any], choice_index: int, part_number: int
         # Unit can be null, just needs to exist as a key
         if field not in choice:
             errors.append(
-                f"Part {part_number}, Choice {choice_index + 1}: Missing required field '{field}'"
+                f"Part {part_number} ({part_type}), Choice {choice_index + 1}: Missing required field '{field}'"
             )
     
     # Validate choice type
-    if choice.get('type') not in VALID_CHOICE_TYPES:
+    if part_type in ["mcq", "mrq"] and choice.get('type') not in VALID_CHOICE_TYPES:
         errors.append(
-            f"Part {part_number}, Choice {choice_index + 1}: Invalid choice type '{choice.get('type')}'"
+            f"Part {part_number} ({part_type}), Choice {choice_index + 1}: Invalid choice type '{choice.get('type')}'"
         )
     
     # Validate html_content
     if not isinstance(choice.get('html_content'), str) or not choice.get('html_content', '').strip():
         errors.append(
-            f"Part {part_number}, Choice {choice_index + 1}: Invalid or empty 'html_content'"
+            f"Part {part_number} ({part_type}), Choice {choice_index + 1}: Invalid or empty 'html_content'"
         )
     
     # Validate values
     if not isinstance(choice.get('values'), list):
         errors.append(
-            f"Part {part_number}, Choice {choice_index + 1}: 'values' must be an array"
+            f"Part {part_number} ({part_type}), Choice {choice_index + 1}: 'values' must be an array"
         )
     
     # Validate unit
     unit = choice.get('unit')
     if unit is not None and not isinstance(unit, str):
         errors.append(
-            f"Part {part_number}, Choice {choice_index + 1}: 'unit' must be null or a string"
+            f"Part {part_number} ({part_type}), Choice {choice_index + 1}: 'unit' must be null or a string"
         )
     
     # Validate index
     index = choice.get('index')
     if not isinstance(index, int) or index < 0:
         errors.append(
-            f"Part {part_number}, Choice {choice_index + 1}: 'index' must be a non-negative number"
+            f"Part {part_number} ({part_type}), Choice {choice_index + 1}: 'index' must be a non-negative number"
         )
     
     # Validate fixed_order
     fixed_order = choice.get('fixed_order')
     if not isinstance(fixed_order, int) or fixed_order < 1:
         errors.append(
-            f"Part {part_number}, Choice {choice_index + 1}: 'fixed_order' must be a positive number"
+            f"Part {part_number} ({part_type}), Choice {choice_index + 1}: 'fixed_order' must be a positive number"
         )
     
     # Validate last_order
-    if not isinstance(choice.get('last_order'), bool):
-        errors.append(
-            f"Part {part_number}, Choice {choice_index + 1}: 'last_order' must be a boolean"
-        )
+    if not is_empty_or_none(choice.get('last_order')):
+        if not isinstance(choice.get('last_order'), bool):
+            errors.append(
+                f"Part {part_number} ({part_type}), Choice {choice_index + 1}: 'last_order' must be a boolean"
+            )
     
     return errors
 
@@ -216,7 +223,7 @@ def _validate_mcq(part: Dict[str, Any], part_number: int, country_code: str) -> 
     
     # Validate each choice
     for i, choice in enumerate(part['choices']):
-        errors.extend(_validate_choice(choice, i, part_number))
+        errors.extend(_validate_choice(choice, i, part_number, 'mcq'))
     
     return errors
 
@@ -237,7 +244,7 @@ def _validate_mrq(part: Dict[str, Any], part_number: int) -> List[str]:
     
     # Validate each choice
     for i, choice in enumerate(part['choices']):
-        errors.extend(_validate_choice(choice, i, part_number))
+        errors.extend(_validate_choice(choice, i, part_number, 'mrq'))
     
     return errors
 
@@ -311,7 +318,7 @@ def _validate_oq(part: Dict[str, Any], part_number: int) -> List[str]:
     
     # Validate each choice
     for i, choice in enumerate(part['choices']):
-        errors.extend(_validate_choice(choice, i, part_number))
+        errors.extend(_validate_choice(choice, i, part_number, 'oq'))
     
     return errors
 
@@ -423,7 +430,7 @@ def _validate_opinion(part: Dict[str, Any], part_number: int) -> List[str]:
     
     # Validate each choice
     for i, choice in enumerate(part['choices']):
-        errors.extend(_validate_choice(choice, i, part_number))
+        errors.extend(_validate_choice(choice, i, part_number, 'opinion'))
     
     return errors
 
@@ -455,7 +462,7 @@ def _validate_matching(part: Dict[str, Any], part_number: int) -> List[str]:
     
     # Validate each choice
     for i, choice in enumerate(part['choices']):
-        errors.extend(_validate_choice(choice, i, part_number))
+        errors.extend(_validate_choice(choice, i, part_number, 'matching'))
     
     return errors
 
@@ -634,13 +641,61 @@ def _validate_input_box(part: Dict[str, Any], part_number: int) -> List[str]:
     
     return errors
 
+def _validate_root_answer_for_explanation(json_data: Dict[str, Any]) -> List[str]:
+    """Validate root answer for explanation"""
+    errors = []
+    explanation = json_data.get('answer')
+    number_of_parts = len(json_data.get('parts', []))
+    
+    if not is_empty_or_none(explanation) and isinstance(explanation, str):
+        try:
+            # Parse HTML with BeautifulSoup
+            soup = BeautifulSoup(explanation, 'html.parser')            
+            if number_of_parts == 1: # For single part: must be only one <p> tag
+                direct_children = [tag for tag in soup.children if tag.name is not None] # Get soup direct children             
+                if len(direct_children) != 1:
+                    errors.append(
+                        f"Root 'answer' field for single-part question must contain exactly one <p> tag, "
+                        f"but found {len(direct_children)} top-level elements"
+                    )
+                elif direct_children[0].name != 'p':
+                    errors.append(
+                        f"Root 'answer' field for single-part question must contain a <p> tag, "
+                        f"but found <{direct_children[0].name}>"
+                    )            
+            elif number_of_parts > 1: # For multipart: must be one parent <div> with direct child <div>s equal to number_of_parts
+                # Get all direct children of the soup
+                direct_children = [tag for tag in soup.children if tag.name is not None] # Get soup direct children
+                if len(direct_children) != 1:
+                    errors.append(
+                        f"Root 'answer' field for multipart question must contain exactly one parent <div>, "
+                        f"but found {len(direct_children)} top-level elements"
+                    )
+                elif direct_children[0].name != 'div':
+                    errors.append(
+                        f"Root 'answer' field for multipart question must contain a parent <div>, "
+                        f"but found <{direct_children[0].name}>"
+                    )
+                else: # Check the direct children of the parent div
+                    parent_div = direct_children[0]
+                    child_divs = [tag for tag in parent_div.children if tag.name == 'div']                    
+                    if len(child_divs) != number_of_parts:
+                        errors.append(
+                            f"Root 'answer' field for multipart question must have {number_of_parts} "
+                            f"direct child <div>s (one per part), but found {len(child_divs)}"
+                        )        
+        except Exception as e:
+            errors.append(f"Error parsing root 'answer' field as HTML: {str(e)}")
+    
+    return errors
 
-def validate_pre_conversion(json_data: Dict[str, Any], filename: str) -> Tuple[bool, List[str]]:
+
+def validate_pre_conversion(json_data: Dict[str, Any], filename: str) -> Tuple[bool, List[str], List[str]]:
     """
     Main entry point for pre-conversion validation.
-    Returns: Tuple of (is_valid, list_of_errors)
+    Returns: Tuple of (is_valid, list_of_errors, list_of_warnings)
     """
-    errors = validate_json_structure(json_data)
+    errors, warnings = validate_json_structure(json_data)
     
     try:
         # Validate ID consistency
@@ -664,5 +719,5 @@ def validate_pre_conversion(json_data: Dict[str, Any], filename: str) -> Tuple[b
     except ImportError:
         pass  # Tolerate import errors during testing
     
-    return (len(errors) == 0, errors)
+    return (len(errors) == 0, errors, warnings)
 

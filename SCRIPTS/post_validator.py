@@ -123,13 +123,6 @@ def _validate_part(part: Dict[str, Any], part_number: int, total_parts: int) -> 
     if 'stem' in part and not isinstance(part['stem'], str):
         errors.append(f"Part {part_number}: 'stem' must be a string")
     
-    # Validate explanation logic
-    if 'explanation' in part:
-        if total_parts == 1:
-            # Single-part: explanation should be root answer (non-empty string)
-            if not isinstance(part['explanation'], str):
-                errors.append(f"Part {part_number}: 'explanation' must be a string")
-    
     # Validate type-specific fields
     part_type = part.get('type')
     

@@ -6,8 +6,7 @@ from SCRIPTS.utils import (
     ValidationError, ConversionError,
     validate_id_consistency, extract_parent_id,
     extract_language_code, extract_country_code,
-    get_source, is_empty_or_none, extract_part_explanation,
-    normalize_text
+    get_source, is_empty_or_none, extract_part_explanation
 )
 from SCRIPTS.config import (
     LANGUAGES, COUNTRIES
@@ -57,10 +56,8 @@ def convert_part(part: Dict[str, Any], part_index: int, language_code: str, json
     part_type = part.get('type')
 
     explanation = json_data.get('answer')
-    if not is_empty_or_none(explanation):
-        explanation = normalize_text(explanation)
-    if len(json_data.get('parts', [])) > 1 and not is_empty_or_none(explanation):
-        explanation = extract_part_explanation(explanation, part_index)
+    number_of_parts = len(json_data.get('parts', []))
+    explanation = extract_part_explanation(explanation, number_of_parts, part_index)
     
     # All types now use JSONata conversion (return complete structure)
     jsonata_map = {

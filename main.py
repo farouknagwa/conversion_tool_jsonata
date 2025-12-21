@@ -43,6 +43,7 @@ class ConversionStats:
         self.conversion_failed = 0
         self.post_validation_failed = 0
         self.errors = []  # List of error dictionaries for Excel report
+        self.warnings = []  # List of warning dictionaries for Excel report
         
     def add_error(self, filename: str, question_id: str, error_type: str, 
                   error_message: str, field: str = "", actual_value: str = "", 
@@ -56,6 +57,15 @@ class ConversionStats:
             "field": field,
             "actual_value": str(actual_value),
             "expected": expected,
+            "timestamp": format_timestamp()
+        })
+    
+    def add_warning(self, filename: str, question_id: str, warning_message: str):
+        """Add a warning to the warning log"""
+        self.warnings.append({
+            "filename": filename,
+            "question_id": question_id,
+            "warning_message": warning_message,
             "timestamp": format_timestamp()
         })
 
@@ -124,7 +134,11 @@ def process_file(filepath: Path, output_dir: Path, pre_validation_failed_dir: Pa
         question_id = str(json_data.get('question_id', 'unknown'))
         
         # Pre-conversion validation
-        is_valid, errors = validate_pre_conversion(json_data, filename)
+        is_valid, errors, warnings = validate_pre_conversion(json_data, filename)
+        
+        # Log warnings (even if validation passes)
+        for warning in warnings:
+            stats.add_warning(filename, question_id, warning)
         
         if not is_valid:
             stats.pre_validation_failed += 1
@@ -238,10 +252,10 @@ def process_file(filepath: Path, output_dir: Path, pre_validation_failed_dir: Pa
 
 def generate_excel_report(stats: ConversionStats, output_path: Path):
     """
-    Generate Excel report of all errors.
+    Generate Excel report of all errors and warnings.
     
     Args:
-        stats: Statistics with error list
+        stats: Statistics with error and warning lists
         output_path: Path to save the Excel file
     """
     if not HAS_OPENPYXL:
@@ -249,27 +263,29 @@ def generate_excel_report(stats: ConversionStats, output_path: Path):
         return
     
     wb = Workbook()
-    ws = wb.active
-    ws.title = "Conversion Errors"
     
-    # Write headers
+    # Errors sheet
+    ws_errors = wb.active
+    ws_errors.title = "Errors"
+    
+    # Write error headers
     headers = EXCEL_COLUMNS
     for col_idx, header in enumerate(headers, 1):
-        ws.cell(row=1, column=col_idx, value=header)
+        ws_errors.cell(row=1, column=col_idx, value=header)
     
     # Write errors
     for row_idx, error in enumerate(stats.errors, 2):
-        ws.cell(row=row_idx, column=1, value=error['filename'])
-        ws.cell(row=row_idx, column=2, value=error['question_id'])
-        ws.cell(row=row_idx, column=3, value=error['error_type'])
-        ws.cell(row=row_idx, column=4, value=error['error_message'])
-        ws.cell(row=row_idx, column=5, value=error['field'])
-        ws.cell(row=row_idx, column=6, value=error['actual_value'])
-        ws.cell(row=row_idx, column=7, value=error['expected'])
-        ws.cell(row=row_idx, column=8, value=error['timestamp'])
+        ws_errors.cell(row=row_idx, column=1, value=error['filename'])
+        ws_errors.cell(row=row_idx, column=2, value=error['question_id'])
+        ws_errors.cell(row=row_idx, column=3, value=error['error_type'])
+        ws_errors.cell(row=row_idx, column=4, value=error['error_message'])
+        ws_errors.cell(row=row_idx, column=5, value=error['field'])
+        ws_errors.cell(row=row_idx, column=6, value=error['actual_value'])
+        ws_errors.cell(row=row_idx, column=7, value=error['expected'])
+        ws_errors.cell(row=row_idx, column=8, value=error['timestamp'])
     
-    # Auto-adjust column widths
-    for column in ws.columns:
+    # Auto-adjust column widths for errors
+    for column in ws_errors.columns:
         max_length = 0
         column_letter = column[0].column_letter
         for cell in column:
@@ -279,10 +295,42 @@ def generate_excel_report(stats: ConversionStats, output_path: Path):
             except:
                 pass
         adjusted_width = min(max_length + 2, 50)
-        ws.column_dimensions[column_letter].width = adjusted_width
+        ws_errors.column_dimensions[column_letter].width = adjusted_width
+    
+    # Warnings sheet (if there are warnings)
+    if len(stats.warnings) > 0:
+        ws_warnings = wb.create_sheet(title="Warnings")
+        
+        # Write warning headers
+        warning_headers = ["Filename", "Question ID", "Warning Message", "Timestamp"]
+        for col_idx, header in enumerate(warning_headers, 1):
+            ws_warnings.cell(row=1, column=col_idx, value=header)
+        
+        # Write warnings
+        for row_idx, warning in enumerate(stats.warnings, 2):
+            ws_warnings.cell(row=row_idx, column=1, value=warning['filename'])
+            ws_warnings.cell(row=row_idx, column=2, value=warning['question_id'])
+            ws_warnings.cell(row=row_idx, column=3, value=warning['warning_message'])
+            ws_warnings.cell(row=row_idx, column=4, value=warning['timestamp'])
+        
+        # Auto-adjust column widths for warnings
+        for column in ws_warnings.columns:
+            max_length = 0
+            column_letter = column[0].column_letter
+            for cell in column:
+                try:
+                    if len(str(cell.value)) > max_length:
+                        max_length = len(str(cell.value))
+                except:
+                    pass
+            adjusted_width = min(max_length + 2, 50)
+            ws_warnings.column_dimensions[column_letter].width = adjusted_width
     
     wb.save(output_path)
-    print(f"\nExcel error report saved to: {output_path}")
+    print(f"\nExcel report saved to: {output_path}")
+    if len(stats.warnings) > 0:
+        print(f"  - {len(stats.errors)} errors in 'Errors' sheet")
+        print(f"  - {len(stats.warnings)} warnings in 'Warnings' sheet")
 
 
 def generate_text_log(stats: ConversionStats, output_path: Path):
@@ -307,6 +355,7 @@ def generate_text_log(stats: ConversionStats, output_path: Path):
         f.write(f"Conversion failed: {stats.conversion_failed}\n")
         f.write(f"Post-validation failed: {stats.post_validation_failed}\n")
         f.write(f"Total failed: {stats.total - stats.success}\n")
+        f.write(f"Total warnings: {len(stats.warnings)}\n")
         
         if stats.total > 0:
             success_rate = (stats.success / stats.total) * 100
@@ -329,6 +378,18 @@ def generate_text_log(stats: ConversionStats, output_path: Path):
                 f.write(f"Expected: {error['expected']}\n")
             f.write(f"Timestamp: {error['timestamp']}\n")
             f.write("-" * 80 + "\n\n")
+        
+        if len(stats.warnings) > 0:
+            f.write("\n" + "=" * 80 + "\n")
+            f.write("WARNINGS\n")
+            f.write("=" * 80 + "\n\n")
+            
+            for warning in stats.warnings:
+                f.write(f"File: {warning['filename']}\n")
+                f.write(f"Question ID: {warning['question_id']}\n")
+                f.write(f"Warning: {warning['warning_message']}\n")
+                f.write(f"Timestamp: {warning['timestamp']}\n")
+                f.write("-" * 80 + "\n\n")
     
     print(f"Text log saved to: {output_path}")
 
@@ -369,7 +430,7 @@ Examples:
     
     # Setup paths
     input_path = Path(args.input).resolve() if args.input else Path('INPUT').resolve()
-    output_dir = Path(args.output).resolve() if args.output else Path('OUTPUTS/CONVERTED').resolve()
+    output_dir = Path(args.output).resolve() / 'CONVERTED' if args.output else Path('OUTPUTS/CONVERTED').resolve()
     pre_validation_failed_dir = output_dir.parent / 'PRE_CONVERSION_VALIDATION_FAILED'
     failed_dir = output_dir.parent / 'CONVERSION_FAILED'
     post_validation_failed_dir = output_dir.parent / 'POST_CONVERSION_VALIDATION_FAILED'    
@@ -439,6 +500,7 @@ Examples:
     print(f"Conversion failed:          {stats.conversion_failed}")
     print(f"Post-validation failed:     {stats.post_validation_failed}")
     print(f"Total failed:               {stats.total - stats.success}")
+    print(f"Total warnings:             {len(stats.warnings)}")
     
     if stats.total > 0:
         success_rate = (stats.success / stats.total) * 100
@@ -447,7 +509,7 @@ Examples:
     print("=" * 80)
     
     # Generate reports
-    if not args.dry_run and len(stats.errors) > 0:
+    if not args.dry_run and (len(stats.errors) > 0 or len(stats.warnings) > 0):
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         
         # Excel report

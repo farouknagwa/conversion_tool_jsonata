@@ -1,0 +1,122 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>Which of the following sports received the most votes?</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "Swimming"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "Ice hockey"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "Basketball"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "Football"
+        }
+      ],
+      "subtype": null,
+      "standalone": false
+    },
+    {
+      "n": 2,
+      "stem": "<p>What is the percentage of girls who voted for football?</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{20\\%}\">\\displaystyle{20\\%}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{40\\%}\">\\displaystyle{40\\%}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{25\\%}\">\\displaystyle{25\\%}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{30\\%}\">\\displaystyle{30\\%}</math-field></span>"
+        }
+      ],
+      "subtype": null,
+      "standalone": false
+    }
+  ],
+  "statement": "<p>The graph shows the results of a survey about people&rsquo;s favorite sports.</p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"518140168725.01.svg\"/></div>",
+  "instance_number": 1,
+  "metadata": {
+    "id": 518140168725,
+    "title": "",
+    "country": "sa",
+    "mapped_id": 518140168725,
+    "source_id": {
+      "value": 197107685076,
+      "page_number": null
+    },
+    "description": "The graph shows the results of a survey about people’s favorite sports.<Figure> Which of the following sports received the most votes? What is the percentage of girls who voted for football?",
+    "has_example": null,
+    "parts_count": 2,
+    "instances_count": 1,
+    "publication_date": "2022-08-08T06:47:24"
+  },
+  "answer": "<div><div><p>To work out the number of votes received for any given sport, we must add together the number \n        of girls and the number of boys who voted for that sport.</p><p>The green bars represent the girls’ votes and the red bars represent the boys’ votes. We obtain the frequencies by reading across from the top of each bar to the corresponding number on the vertical axis.</p><p>Reviewing the answer options, we can immediately rule out basketball as having received the most votes\n         because the bars for basketball are significantly shorter than those for the other three options.</p><p>For football, there are 5 votes from girls and 8 votes from boys, giving a total number of <span class=\"merge\"><svg style=\"vertical-align:-2.0373599003736pt\" width=\"62pt\" height=\"12pt\" viewBox=\"-1 0 62 12\" xmlns=\"http://www.w3.org/2000/svg\"><g font-family=\"NagwaMath\" font-size=\"13.5\"><text y=\"9.963\">5</text><text y=\"9.963\" x=\"9.643\">+</text><text y=\"9.963\" x=\"22.313\">8</text><text y=\"9.963\" x=\"32.709\">=</text><text y=\"9.963\" x=\"46.132\">1</text><text y=\"9.963\" x=\"52.79\">3</text></g></svg>.</span></p><p>For ice hockey, there are 6 votes from girls and 9 votes from boys, giving a total number of <span class=\"merge\"><svg style=\"vertical-align:-2.0373599003736pt\" width=\"62pt\" height=\"12pt\" viewBox=\"-1 0 62 12\" xmlns=\"http://www.w3.org/2000/svg\"><g font-family=\"NagwaMath\" font-size=\"13.5\"><text y=\"9.963\">6</text><text y=\"9.963\" x=\"9.643\">+</text><text y=\"9.963\" x=\"22.313\">9</text><text y=\"9.963\" x=\"32.709\">=</text><text y=\"9.963\" x=\"46.132\">1</text><text y=\"9.963\" x=\"52.79\">5</text></g></svg>.</span></p><p>For swimming, there are 8 votes from girls and 8 votes from boys, giving a total number of <span class=\"merge\"><svg style=\"vertical-align:-2.0373599003736pt\" width=\"62pt\" height=\"12pt\" viewBox=\"-1 0 62 12\" xmlns=\"http://www.w3.org/2000/svg\"><g font-family=\"NagwaMath\" font-size=\"13.5\"><text y=\"9.963\">8</text><text y=\"9.963\" x=\"9.643\">+</text><text y=\"9.963\" x=\"22.313\">8</text><text y=\"9.963\" x=\"32.709\">=</text><text y=\"9.963\" x=\"46.132\">1</text><text y=\"9.963\" x=\"52.79\">6</text></g></svg>.</span></p><p>The largest of these numbers is 16, so we conclude that swimming received the most votes.</p></div><div><p>To work out the percentage of girls who voted for football, \n        we first need to work out the total number of girls who voted.</p><p>The green bars represent the girls’ votes. We obtain the frequencies by reading across from the top of each bar to the corresponding number on the vertical axis.</p><p>Working from left to right along the green bars, we see that 5 girls voted for baseball, 1 for basketball,\n         5 for football, 6 for ice hockey, and 8 for swimming. Therefore, the total number of girls who voted is\n         <svg width=\"171.115\" height=\"12.688\" viewBox=\"331.785 271.115 128.336 9.516\" class=\"displayed_equation\" xmlns=\"http://www.w3.org/2000/svg\"><g font-family=\"NagwaMath\" font-size=\"13.5\"><text y=\"280.099\" x=\"331.144\">5</text><text y=\"280.099\" x=\"340.787\">+</text><text y=\"280.099\" x=\"353.457\">1</text><text y=\"280.099\" x=\"363.1\">+</text><text y=\"280.099\" x=\"375.77\">5</text><text y=\"280.099\" x=\"385.426\">+</text><text y=\"280.099\" x=\"398.096\">6</text><text y=\"280.099\" x=\"407.739\">+</text><text y=\"280.099\" x=\"420.409\">8</text><text y=\"280.099\" x=\"430.805\">=</text><text y=\"280.099\" x=\"444.228\">2</text><text y=\"280.099\" x=\"450.885\">5</text><text y=\"280.099\" x=\"457.543\">.</text></g></svg></p><p>Out of these 25 girls, 5 voted for football. Expressing this proportion as a percentage, we get\n        <svg width=\"171.173\" height=\"77.47\" viewBox=\"332.176 262.617 128.38 58.102\" class=\"displayed_equation\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 0.00178125 0.00009375 L 13.314281 0.00009375\" transform=\"matrix(1,0,0,-1,332.174,276.629)\" fill=\"none\" stroke-width=\".915\" stroke=\"#000\" stroke-miterlimit=\"10\" /><path d=\"M -0.0004375 0.00009375 L 6.659719 0.00009375\" transform=\"matrix(1,0,0,-1,409.102,276.629)\" fill=\"none\" stroke-width=\".915\" stroke=\"#000\" stroke-miterlimit=\"10\" /><g font-family=\"NagwaMath\" font-size=\"13.5\"><text y=\"271.492\" x=\"335.503\">5</text><text y=\"288.707\" x=\"332.174\">2</text><text y=\"288.707\" x=\"338.832\">5</text><text y=\"280.099\" x=\"349.673\">×</text><text y=\"280.099\" x=\"361.468\">1</text><text y=\"280.099\" x=\"368.126\">0</text><text y=\"280.099\" x=\"374.783\">0</text><text y=\"280.099\" x=\"381.441\">%</text><text y=\"280.099\" x=\"394.487\">=</text><text y=\"271.492\" x=\"409.102\">1</text><text y=\"288.707\" x=\"409.102\">5</text><text y=\"280.099\" x=\"419.944\">×</text><text y=\"280.099\" x=\"431.739\">1</text><text y=\"280.099\" x=\"438.397\">0</text><text y=\"280.099\" x=\"445.054\">0</text><text y=\"280.099\" x=\"451.712\">%</text><text y=\"320.438\" x=\"394.487\">=</text><text y=\"320.438\" x=\"407.896\">2</text><text y=\"320.438\" x=\"414.554\">0</text><text y=\"320.438\" x=\"421.211\">%</text><text y=\"320.438\" x=\"430.518\">.</text></g></svg></p></div></div>",
+  "section_id": "529191583981",
+  "language": "en",
+  "subject_id": "210123759192",
+  "subject": "Mathematics",
+  "grade_id": "713134702407",
+  "grade": "12",
+  "country": "zz",
+  "question_id": "518140168725"
+}

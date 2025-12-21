@@ -3,6 +3,7 @@ import re
 from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, Optional, List
+from bs4 import BeautifulSoup
 
 from SCRIPTS.config import (
     LANGUAGES, COUNTRIES, DEFAULT_SOURCE
@@ -199,9 +200,50 @@ def get_source(json_data: Dict[str, Any]) -> str:
     return json_data.get('source', DEFAULT_SOURCE)
 
 
-def extract_part_explanation(explanation: Any, part_index: int) -> Optional[str]:
+def extract_part_explanation(explanation: Any, number_of_parts: int, part_index: int) -> Optional[str]:
+    """
+    Extract the explanation for a specific part from the root answer field.
+    
+    For single-part questions: returns the entire explanation
+    For multipart questions: extracts the corresponding child <div> based on part_index
+    
+    Args:
+        explanation: The root answer/explanation field (HTML string)
+        number_of_parts: Total number of parts in the question
+        part_index: The part number (1-based index)
+        
+    Returns:
+        The explanation for the specified part, or None if not available
+    """
     part_explanation = None
-    if isinstance(explanation, str):
-        part_explanation = f"<!--**Part {part_index} Explanation**-->{explanation}"
-    # TODO: Implement the proper logic to extract the part explanation from the explanation string based on the part index and the explanation string structure so that we may use regex, str.split, beautifulsoup, or any other way that is appropriate for the task, or even an AI model response that splits the explanation string.
+
+    if not is_empty_or_none(explanation):
+        explanation = normalize_text(explanation)
+
+        if isinstance(explanation, str):
+            if number_of_parts == 1:
+                # For single-part questions, return the entire explanation
+                part_explanation = explanation
+            else:
+                # For multipart questions, extract the specific child div
+                try:
+                    soup = BeautifulSoup(explanation, 'html.parser')
+                    # Get all direct children of the soup
+                    direct_children = [tag for tag in soup.children if tag.name is not None]
+                    
+                    if len(direct_children) == 1 and direct_children[0].name == 'div':
+                        # This is the parent div
+                        parent_div = direct_children[0]
+                        # Get all direct child divs
+                        child_divs = [tag for tag in parent_div.children if tag.name == 'div']
+                        
+                        # part_index is 1-based, so we need to subtract 1 for 0-based array indexing
+                        if 0 < part_index <= len(child_divs):
+                            # Get the specific child div and convert back to HTML string
+                            target_div = child_divs[part_index - 1]
+                            part_explanation = str(target_div)
+                except Exception:
+                    # If parsing fails, return None
+                    part_explanation = None
+                    
     return part_explanation
