@@ -37,7 +37,7 @@
           }
         ],
         "correct_answer": "<p><span style=\"color: inherit; white-space: pre-wrap;\">Use the following words to complete the sentence.</span></p><p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"297193239304\" class=\"displayed-image\" height=\"178.57142857142858\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/514198060457.svg\" style=\"aspect-ratio: 250/178.57142857142858;\" width=\"250\"/></span><span style=\"color: inherit; white-space: pre-wrap;\">Iron is found in </span> meat<span style=\"color: inherit; white-space: pre-wrap;\"> and </span> green<span style=\"color: inherit; white-space: pre-wrap;\"> vegetables. It helps our blood to carry oxygen. </span></p>",
-        "explanation": ""
+        "explanation": null
       }
     ]
   }

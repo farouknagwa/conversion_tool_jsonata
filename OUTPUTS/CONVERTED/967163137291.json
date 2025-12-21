@@ -34,7 +34,7 @@
           }
         ],
         "correct_answer": "<p><span style=\"white-space: pre-wrap;\">Complete the text with the correct words.</span></p><p><span style=\"white-space: pre-wrap;\">During our trip to the Everglades, we rode a</span> canoe<span style=\"white-space: pre-wrap;\"> through the</span> swamp<span style=\"white-space: pre-wrap;\">. We saw an</span> alligator<span style=\"white-space: pre-wrap;\"> resting on the shore and heard an owl in the trees.</span></p>",
-        "explanation": ""
+        "explanation": null
       }
     ]
   }

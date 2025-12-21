@@ -28,7 +28,7 @@
             "comment": "إجابة صحيحة!"
           }
         ],
-        "explanation": ""
+        "explanation": null
       },
       {
         "n": 2,
@@ -38,7 +38,7 @@
         "acceptable_answers": [
           "<p><span style=\"white-space: pre-wrap;\">البذور تُساعِد النباتات على التكاثر وإنتاج نباتات جديدة.</span></p>"
         ],
-        "explanation": ""
+        "explanation": null
       }
     ]
   }

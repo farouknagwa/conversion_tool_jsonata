@@ -34,7 +34,7 @@
             "value": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"d\" class=\"displayed-image\" height=\"135.74660633484163\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/585139369593.svg\" style=\"aspect-ratio: 200/135.74660633484163;\" width=\"200\"/></span></p>"
           }
         ],
-        "explanation": ""
+        "explanation": null
       }
     ]
   }

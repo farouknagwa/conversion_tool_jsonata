@@ -22,7 +22,7 @@
           "columns": 5
         },
         "correct_answer": 5,
-        "explanation": ""
+        "explanation": null
       },
       {
         "n": 2,
@@ -49,7 +49,7 @@
           "label": "ب",
           "value": "<p><span style=\"white-space: pre-wrap;\">٥</span></p>"
         },
-        "explanation": ""
+        "explanation": null
       }
     ]
   }

@@ -51,8 +51,9 @@ def validate_json_structure(json_data: Dict[str, Any]) -> Tuple[List[str], List[
         errors.extend(part_errors)
     
     # Validate root answer for explanation
-    answer_errors = _validate_root_answer_for_explanation(json_data)
+    answer_errors, answer_warnings = _validate_root_answer_for_explanation(json_data)
     errors.extend(answer_errors)
+    warnings.extend(answer_warnings)
     
     return errors, warnings
 
@@ -138,8 +139,7 @@ def _validate_choice(choice: Dict[str, Any], choice_index: int, part_number: int
     
     # Check required fields
     required_fields = [
-        "type", "html_content", "values", "unit", "index",
-        "fixed_order", "last_order"
+        "type", "html_content", "values", "unit", "index", "fixed_order"
     ]
     
     for field in required_fields:
@@ -644,22 +644,23 @@ def _validate_input_box(part: Dict[str, Any], part_number: int) -> List[str]:
 def _validate_root_answer_for_explanation(json_data: Dict[str, Any]) -> List[str]:
     """Validate root answer for explanation"""
     errors = []
+    warnings = []
     explanation = json_data.get('answer')
     number_of_parts = len(json_data.get('parts', []))
     
     if not is_empty_or_none(explanation) and isinstance(explanation, str):
         try:
             # Parse HTML with BeautifulSoup
-            soup = BeautifulSoup(explanation, 'html.parser')            
+            soup = BeautifulSoup(explanation, 'html.parser')
             if number_of_parts == 1: # For single part: must be only one <p> tag
                 direct_children = [tag for tag in soup.children if tag.name is not None] # Get soup direct children             
                 if len(direct_children) != 1:
-                    errors.append(
+                    warnings.append(
                         f"Root 'answer' field for single-part question must contain exactly one <p> tag, "
                         f"but found {len(direct_children)} top-level elements"
                     )
                 elif direct_children[0].name != 'p':
-                    errors.append(
+                    warnings.append(
                         f"Root 'answer' field for single-part question must contain a <p> tag, "
                         f"but found <{direct_children[0].name}>"
                     )            
@@ -687,7 +688,7 @@ def _validate_root_answer_for_explanation(json_data: Dict[str, Any]) -> List[str
         except Exception as e:
             errors.append(f"Error parsing root 'answer' field as HTML: {str(e)}")
     
-    return errors
+    return errors, warnings
 
 
 def validate_pre_conversion(json_data: Dict[str, Any], filename: str) -> Tuple[bool, List[str], List[str]]:

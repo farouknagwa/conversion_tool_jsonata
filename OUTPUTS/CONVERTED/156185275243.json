@@ -43,7 +43,7 @@
             "value": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"3\" class=\"displayed-image\" height=\"77\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/464156901454.svg\" style=\"aspect-ratio: 220/77;\" width=\"220\"/></span><span style=\"white-space: pre-wrap;\">Nuts</span></p><p><br/></p>"
           }
         ],
-        "explanation": ""
+        "explanation": null
       }
     ]
   }

@@ -29,7 +29,7 @@
           }
         ],
         "correct_answer": "<p><span style=\"white-space: pre-line;\">An apple falling from a tree is a </span> pulling<span style=\"white-space: pre-line;\"> force while kicking a ball is a </span> pushing<span style=\"white-space: pre-line;\"> force.</span></p>",
-        "explanation": ""
+        "explanation": null
       }
     ]
   }

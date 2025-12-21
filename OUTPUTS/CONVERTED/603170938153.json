@@ -39,7 +39,7 @@
           }
         ],
         "correct_answer": "<p><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">Complète le texte avec les mots corrects.</span></p><p><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">Allons faire des </span> achats <span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\"> au </span> rayon <span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\"> des produits </span> surgelés <span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">. Nous devons </span> acheter <span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\"> des glaces pour ce soir.</span></p><p><br/></p>",
-        "explanation": ""
+        "explanation": null
       }
     ]
   }

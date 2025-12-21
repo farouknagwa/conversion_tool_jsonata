@@ -42,7 +42,7 @@
           "label": "A",
           "value": "<p><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field data-choice-index=\"-1\" data-field-type=\"undefined\" data-math-index=\"0\" data-part-index=\"undefined\" data-question-id=\"undefined\" default-mode=\"inline-math\" locale=\"en\" value=\"a+1,025=2,400\"></math-field></span></p>"
         },
-        "explanation": ""
+        "explanation": null
       }
     ]
   }

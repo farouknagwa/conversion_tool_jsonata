@@ -43,7 +43,7 @@
             "value": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"230143750217\" class=\"displayed-image\" height=\"199.99999999999997\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/942153183645.svg\" style=\"aspect-ratio: 220/199.99999999999997;\" width=\"220\"/></span></p>"
           }
         ],
-        "explanation": ""
+        "explanation": null
       }
     ]
   }

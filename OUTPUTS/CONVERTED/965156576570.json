@@ -38,7 +38,7 @@
           "label": "ب",
           "value": "<p><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" lang=\"ar\" locale=\"ar\" read-only=\"true\" value=\"\\displaystyle{١٥-٣=\\textBlank}\">\\displaystyle{١٥-٣=\\textBlank}</math-field></span></p>"
         },
-        "explanation": ""
+        "explanation": null
       },
       {
         "n": 2,
@@ -66,7 +66,7 @@
             "must_have_exactly_ndp": null
           }
         },
-        "explanation": ""
+        "explanation": null
       }
     ]
   }

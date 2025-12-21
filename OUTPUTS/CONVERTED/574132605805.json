@@ -39,7 +39,7 @@
           "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"712132739438\" class=\"displayed-image\" height=\"120.9605157365371\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/695198137327.svg\" style=\"aspect-ratio: 50/120.9605157365371;\" width=\"50\"/></span></p>",
           "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"534126181920\" class=\"displayed-image\" height=\"163.35138836267694\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/868160781909.svg\" style=\"aspect-ratio: 110/163.35138836267694;\" width=\"110\"/></span></p>"
         ],
-        "explanation": ""
+        "explanation": null
       }
     ]
   }

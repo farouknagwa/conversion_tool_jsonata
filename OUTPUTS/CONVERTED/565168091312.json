@@ -43,7 +43,7 @@
           "label": "A",
           "value": "<p><span style=\"white-space: pre-wrap;\">Braces</span></p>"
         },
-        "explanation": ""
+        "explanation": null
       },
       {
         "n": 2,
@@ -75,7 +75,7 @@
           "label": "A",
           "value": "<p><span style=\"white-space: pre-wrap;\">Look after him</span></p>"
         },
-        "explanation": ""
+        "explanation": null
       },
       {
         "n": 3,
@@ -107,7 +107,7 @@
           "label": "B",
           "value": "<p><span style=\"white-space: pre-wrap;\">Being kind</span></p>"
         },
-        "explanation": ""
+        "explanation": null
       },
       {
         "n": 4,
@@ -117,7 +117,7 @@
         "acceptable_answers": [
           "<p><span style=\"white-space: pre-wrap;\">Because they care about him and want to help.</span></p>"
         ],
-        "explanation": ""
+        "explanation": null
       },
       {
         "n": 5,
@@ -127,7 +127,7 @@
         "acceptable_answers": [
           "<p><span style=\"white-space: pre-wrap;\">By being kind or trying to make them laugh.</span></p>"
         ],
-        "explanation": ""
+        "explanation": null
       },
       {
         "n": 6,
@@ -137,7 +137,7 @@
         "acceptable_answers": [
           "<p><span style=\"white-space: pre-wrap;\">A world where people treat each other equally.</span></p>"
         ],
-        "explanation": ""
+        "explanation": null
       }
     ]
   }

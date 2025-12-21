@@ -29,7 +29,7 @@
           }
         ],
         "correct_answer": "<p><span style=\"white-space: pre-wrap;\">إذا كانت الأعداد 3، 6، 12 </span> عوامل<span style=\"white-space: pre-wrap;\"> للعدد 36، فإن العدد </span><span style=\"white-space: pre-wrap;\">36 </span> مضاعِف<span style=\"white-space: pre-wrap;\"> لها.</span></p>",
-        "explanation": ""
+        "explanation": null
       }
     ]
   }

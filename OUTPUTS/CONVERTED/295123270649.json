@@ -38,7 +38,7 @@
           }
         ],
         "correct_answer": "<p><span style=\"white-space: pre-wrap;\">Complete the text with the correct words.</span></p><p><span style=\"white-space: pre-wrap;\">While paddling a canoe through the</span> swamp<span style=\"white-space: pre-wrap;\">, the</span> scientist<span style=\"white-space: pre-wrap;\"> saw an alligator and heard a soft</span> hoot<span style=\"white-space: pre-wrap;\"> from a nearby owl. It was a peaceful day in the Everglades.</span></p>",
-        "explanation": ""
+        "explanation": null
       }
     ]
   }

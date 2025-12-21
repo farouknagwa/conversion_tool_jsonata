@@ -26,7 +26,7 @@
             "value": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"\" class=\"displayed-image\" height=\"166.66666666666666\" src=\"https://images.nagwa.com/812162165724.jpg\" style=\"aspect-ratio: 250/166.66666666666666;\" width=\"250\"/></span><span style=\"white-space: pre-wrap;\">A cat</span></p>"
           }
         ],
-        "explanation": ""
+        "explanation": null
       }
     ]
   }

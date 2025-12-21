@@ -37,7 +37,7 @@
           }
         ],
         "correct_answer": "<p><span style=\"white-space: pre-wrap;\">Use the words to complete the sentence.\n</span> Horses<span style=\"white-space: pre-wrap;\"> and camels use their legs to </span> run<span style=\"white-space: pre-wrap;\">.</span></p>",
-        "explanation": ""
+        "explanation": null
       }
     ]
   }

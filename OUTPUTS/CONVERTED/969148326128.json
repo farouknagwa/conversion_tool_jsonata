@@ -43,7 +43,7 @@
           "label": "أ",
           "value": "<p><span style=\"white-space: pre-wrap;\">العَهْد</span></p>"
         },
-        "explanation": ""
+        "explanation": null
       },
       {
         "n": 2,
@@ -75,7 +75,7 @@
           "label": "ب",
           "value": "<p><span style=\"white-space: pre-wrap;\">الأحشاء</span></p>"
         },
-        "explanation": ""
+        "explanation": null
       },
       {
         "n": 3,
@@ -92,7 +92,7 @@
             "comment": "إجابة صحيحة!"
           }
         ],
-        "explanation": ""
+        "explanation": null
       },
       {
         "n": 4,
@@ -124,7 +124,7 @@
           "label": "أ",
           "value": "<p><span style=\"white-space: pre-wrap;\">الفخر العميق بالوطن وشدة حُبِّه والانتماء إليه.</span></p>"
         },
-        "explanation": ""
+        "explanation": null
       },
       {
         "n": 5,
@@ -134,7 +134,7 @@
         "acceptable_answers": [
           "<p><span style=\"white-space: pre-wrap;\">تشبيه للوطن بالجنة، يدلُّ على جمال الوطن وروعة طبيعته، وشدة حب الشاعر له وإعجابه بطبيعته الساحرة.</span></p>"
         ],
-        "explanation": ""
+        "explanation": null
       }
     ]
   }

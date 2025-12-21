@@ -37,7 +37,7 @@
           "label": "B",
           "value": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{ \\lt }\">\\displaystyle{ \\lt }</math-field></span>"
         },
-        "explanation": ""
+        "explanation": null
       }
     ]
   }

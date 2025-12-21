@@ -43,7 +43,7 @@
           "label": "B",
           "value": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{49{,}000 + 23{,}667}\">\\displaystyle{49{,}000 + 23{,}667}</math-field></span> and <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{200{,}822 - 72{,}667}\">\\displaystyle{200{,}822 - 72{,}667}</math-field></span>"
         },
-        "explanation": ""
+        "explanation": null
       },
       {
         "n": 2,
@@ -75,7 +75,7 @@
           "label": "C",
           "value": "<span class=\"no_margin merge\">128,155</span>"
         },
-        "explanation": ""
+        "explanation": null
       }
     ]
   }

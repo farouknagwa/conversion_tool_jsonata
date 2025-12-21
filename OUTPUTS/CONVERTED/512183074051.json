@@ -39,7 +39,7 @@
           }
         ],
         "correct_answer": "<p><span style=\"white-space: pre-wrap;\">Complete the text with the correct words.</span></p><p><span style=\"white-space: pre-wrap;\">My house is big. There is a</span> kitchen<span style=\"white-space: pre-wrap;\"> where we cook food. There are two</span> bedrooms<span style=\"white-space: pre-wrap;\"> where we sleep. The TV is</span> on<span style=\"white-space: pre-wrap;\"> the table. My bed is</span> next to<span style=\"white-space: pre-wrap;\"> the window.</span></p><p><br/></p>",
-        "explanation": ""
+        "explanation": null
       }
     ]
   }
