@@ -3,7 +3,11 @@ PURPOSE: Converts JSON question data from old structure to new structure using J
 
 FUNCTIONS:
 - extract_common_metadata(json_data, filename): Extracts and validates metadata fields (question_id, parent_id, language_code, language, country_code, country, subject, grade, section_id, source, number_of_parts)
-- convert_part(part, part_index, language_code, json_data): Converts single part using appropriate JSONata rule file based on part type; handles explanation extraction for multi-part questions
+- convert_part(part, part_index, language_code, json_data): Converts single part using appropriate JSONata rule file based on part type
+  * Extracts root answer field and divides it for multi-part questions
+  * Uses extract_part_explanation() to get part-specific explanation
+  * Single-part: entire answer → explanation
+  * Multipart: parent <div> child <div>s → each part gets corresponding child
 - build_final_json(metadata, converted_parts, original_json): Assembles final converted JSON with metadata, statement (for multi-part), and converted parts
 - convert_question(json_data, filename): Main entry point - orchestrates full conversion pipeline
 

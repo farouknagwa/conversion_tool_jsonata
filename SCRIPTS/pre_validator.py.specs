@@ -2,12 +2,20 @@ FILE: pre_validator.py
 PURPOSE: Validates input JSON structure before conversion (OLD structure validation)
 
 MAIN FUNCTION:
-- validate_pre_conversion(json_data, filename): Entry point returning (is_valid, errors_list)
+- validate_pre_conversion(json_data, filename): Entry point returning (is_valid, errors_list, warnings_list)
+  * Returns tuple of (bool, List[str], List[str])
+  * is_valid=True only if no errors (warnings don't affect validity)
 
 VALIDATION FUNCTIONS:
-- validate_json_structure(json_data): Validates entire JSON structure
+- validate_json_structure(json_data): Validates entire JSON structure, returns (errors, warnings)
 - _validate_part(part, part_number, country_code): Validates individual part
-- _validate_choice(choice, choice_index, part_number): Validates choice properties (type, html_content, values, unit, index, fixed_order, last_order)
+- _validate_choice(choice, choice_index, part_number, part_type): Validates choice properties
+  * Required fields: type, html_content, values, unit, index, fixed_order
+  * last_order: optional (only validated if present)
+  * type validation: only enforced for mcq/mrq
+- _validate_root_answer_for_explanation(json_data): Validates HTML structure of root answer field, returns (errors, warnings)
+  * Single-part: should have one <p> tag (warning if not)
+  * Multipart: must have parent <div> with N child <div>s (error if not)
 
 PART TYPE VALIDATORS:
 - _validate_mcq(part, part_number, country_code): MCQ validation - exactly 1 key choice, max 4 choices for Egypt
@@ -24,10 +32,20 @@ PART TYPE VALIDATORS:
 
 VALIDATIONS:
 - Top-level: parts array exists and non-empty, metadata object exists
-- Multi-part: statement field required
+- Multi-part: statement field RECOMMENDED (warning if missing, not error)
 - All parts: n (part number), type, stem, standalone fields required
 - Part number n must match position
 - ID consistency (metadata.mapped_id, question_id, filename must match)
 - Language code validity
 - Country code validity
+- Root answer field HTML structure validation (errors for multipart, warnings for single-part)
+
+WARNINGS vs ERRORS:
+- ERRORS: Block conversion, file moves to PRE_CONVERSION_VALIDATION_FAILED
+- WARNINGS: Logged but don't block conversion, appear in separate Excel "Warnings" sheet
+  * Multipart without statement field → WARNING
+  * Single-part answer with wrong HTML structure → WARNING
+
+DEPENDENCIES:
+- BeautifulSoup4: For HTML parsing in answer field validation
 

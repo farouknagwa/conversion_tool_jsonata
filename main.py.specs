@@ -2,11 +2,16 @@ FILE: main.py
 PURPOSE: Main orchestrator for JSON conversion tool with CLI interface
 
 FUNCTIONS:
-- ConversionStats: Tracks conversion statistics (total, success, failures by type, errors)
+- ConversionStats: Tracks conversion statistics (total, success, failures by type, errors, warnings)
+  * add_error(): Logs conversion/validation errors
+  * add_warning(): Logs non-blocking warnings
 - discover_json_files(input_path, filter_types): Recursively finds JSON files, optionally filters by question type
 - process_file(filepath, output_dir, ...): Processes single file through validation-conversion-validation pipeline
-- generate_excel_report(stats, output_path): Creates Excel report of all errors with columns (filename, question_id, error_type, etc.)
-- generate_text_log(stats, output_path): Creates text log with summary and detailed errors
+  * Collects warnings even when validation passes
+- generate_excel_report(stats, output_path): Creates Excel report with two sheets:
+  * "Errors" sheet: filename, question_id, error_type, error_message, field, actual_value, expected, timestamp
+  * "Warnings" sheet: filename, question_id, warning_message, timestamp
+- generate_text_log(stats, output_path): Creates text log with summary, errors, and warnings sections
 - main(): Entry point - parses CLI args, discovers files, processes batch, generates reports
 
 CLI ARGUMENTS:
@@ -26,9 +31,16 @@ OUTPUT DIRECTORIES:
 WORKFLOW:
 1. Parse arguments and setup paths
 2. Discover JSON files (with optional type filtering)
-3. For each file: pre-validate → convert → post-validate → save to appropriate folder
-4. Generate Excel and text reports with all errors
+3. For each file: pre-validate → collect warnings → convert → post-validate → save to appropriate folder
+4. Generate Excel (2 sheets: Errors + Warnings) and text reports
 5. Exit with status code (0 = all success, 1 = some failures)
 
-DEPENDENCIES: tqdm (progress bar), openpyxl (Excel reports), jsonata-python (via converter)
+WARNINGS SYSTEM:
+- Warnings are non-blocking issues that don't prevent conversion
+- Tracked separately from errors in stats.warnings list
+- Appear in separate "Warnings" sheet in Excel report
+- Appear in separate WARNINGS section in text log
+- Examples: multipart questions without statement field, single-part answer HTML structure
+
+DEPENDENCIES: tqdm (progress bar), openpyxl (Excel reports), jsonata-python (via converter), beautifulsoup4 (HTML parsing)
 

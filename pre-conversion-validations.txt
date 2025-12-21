@@ -9,7 +9,13 @@ METADATA & IDS:
 TOP-LEVEL STRUCTURE:
 - parts array must exist and be non-empty
 - metadata object must exist
-- statement field required for multi-part questions (parts.length > 1)
+- statement field RECOMMENDED for multi-part questions (WARNING if missing, not error)
+
+ROOT ANSWER FIELD (answer):
+- Single-part: SHOULD contain one <p> tag (WARNING if not)
+- Multipart: MUST contain parent <div> with N child <div>s where N = number of parts (ERROR if not)
+- Parsed with BeautifulSoup to validate HTML structure
+- Each child <div> corresponds to explanation for one part
 
 COMMON PART FIELDS:
 - n (part number) must match position in array
@@ -18,13 +24,13 @@ COMMON PART FIELDS:
 - standalone field must exist
 
 CHOICE VALIDATIONS (mcq, mrq, oq, opinion, matching):
-- type must be "key" or "distractor"
+- type must be "key" or "distractor" (only enforced for mcq/mrq)
 - html_content must be non-empty string
 - values must be array
 - unit must be null or string
 - index must be non-negative integer
 - fixed_order must be positive integer
-- last_order must be boolean
+- last_order is optional (only validated if present, must be boolean)
 
 MCQ SPECIFIC:
 - Must have exactly 1 key choice
@@ -73,4 +79,15 @@ INPUT_BOX SPECIFIC:
 - answer must be object with "value" (string)
 - answer.constrains must be object with "type" ("decimal" or "integer")
 - answer.unit optional (string or undefined)
+
+VALIDATION SEVERITY:
+ERRORS (block conversion):
+- Missing required fields
+- Invalid data types
+- Multipart answer field with wrong HTML structure
+- All type-specific validation failures
+
+WARNINGS (don't block conversion):
+- Multipart questions without statement field
+- Single-part answer field with wrong HTML structure (should be <p> tag)
 

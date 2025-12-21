@@ -13,17 +13,27 @@ CAPABILITIES:
 KEY FEATURES:
 - Pre-conversion validation ensures input quality (OLD structure)
 - Post-conversion validation ensures output correctness (NEW structure)
+- Warning system for non-blocking issues (e.g., missing statement in multipart)
 - Failed files automatically segregated by failure type
 - Supports filtering by question type
 - Dry-run mode for validation-only testing
 - CLI interface with verbose mode
+- BeautifulSoup-based HTML validation for answer fields
+- Part-specific explanation extraction for multipart questions
 
 OUTPUT CATEGORIES:
 ✓ CONVERTED/ - Successfully converted files
-✗ PRE_CONVERSION_VALIDATION_FAILED/ - Invalid input structure
+✗ PRE_CONVERSION_VALIDATION_FAILED/ - Invalid input structure (blocking errors only)
 ✗ CONVERSION_FAILED/ - Transformation errors
 ✗ POST_CONVERSION_VALIDATION_FAILED/ - Invalid output structure
-📊 LOGS_REPORTS/ - Detailed error tracking (.xlsx + .log)
+📊 LOGS_REPORTS/ - Detailed tracking (.xlsx with Errors + Warnings sheets, .log)
+⚠️ WARNINGS - Non-blocking issues logged separately (multipart without statement, etc.)
+
+VALIDATION SYSTEM:
+- ERRORS: Block conversion, file segregated to failure folder
+- WARNINGS: Logged but allow conversion to proceed
+  * Tracked in separate Excel "Warnings" sheet
+  * Examples: multipart without statement, single-part answer HTML issues
 
 TYPICAL USAGE:
 python3 -B main.py

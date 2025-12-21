@@ -19,11 +19,18 @@ EXTRACTION FUNCTIONS:
 - validate_id_consistency(json_data, filename): Validates metadata.mapped_id, question_id, and filename all match; raises ValidationError if mismatch or missing
 - extract_parent_id(json_data): Extracts metadata.id as parent_id; raises ValidationError if empty/invalid
 - detect_question_types(json_data): Returns list of part types from parts array
-- get_source(json_data): Returns source field or DEFAULT_SOURCE ("nagwa")
-- extract_part_explanation(explanation, part_index): Extracts explanation for specific part in multi-part questions (currently basic implementation with TODO for proper parsing)
+- get_source(json_data): Returns source field or DEFAULT_SOURCE ("human")
+- extract_part_explanation(explanation, number_of_parts, part_index): Extracts explanation for specific part
+  * Single-part (number_of_parts=1): Returns entire explanation as-is
+  * Multipart (number_of_parts>1): Parses HTML, extracts child <div> at part_index (1-based)
+  * Uses BeautifulSoup to parse parent <div> and return specific child <div> HTML
+  * Returns None if parsing fails or index out of range
 
 VALIDATION HELPERS:
 - Language codes validated against LANGUAGES dict from config
 - Country codes validated against COUNTRIES dict from config
 - Special rule: "eg" (Egypt) country code has highest priority
+
+DEPENDENCIES:
+- BeautifulSoup4: For HTML parsing in extract_part_explanation
 
