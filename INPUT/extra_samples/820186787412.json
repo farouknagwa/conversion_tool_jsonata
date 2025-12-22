@@ -80,7 +80,7 @@
       "british"
     ],
     "category": "exam",
-    "language": "ar",
+    "language": "en",
     "mapped_id": 820186787412,
     "source_id": {
       "value": 973103243124,
@@ -95,7 +95,7 @@
   },
   "answer": "<p>The two words that are closest in meaning are ‘dangerous’ from group one and ‘risky’ from group two. Both of these words describe something unsafe that is likely to cause harm.</p><p>Take note that ‘hazard’ is a noun, so it does not go well with ‘dangerous’, which is an adjective,\n        even though the two words are related.</p>",
   "section_id": "438106548523",
-  "language": "ar",
+  "language": "en",
   "subject_id": "943195121909",
   "subject": "Mathematics",
   "grade_id": "612152797413",

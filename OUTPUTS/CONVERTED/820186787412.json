@@ -1,8 +1,8 @@
 {
   "question_id": "820186787412",
   "parent_id": "820186787412",
-  "language_code": "ar",
-  "language": "Arabic",
+  "language_code": "en",
+  "language": "English",
   "country_code": "uk",
   "country": "United Kingdom",
   "subject": "Mathematics",
@@ -21,34 +21,34 @@
         "items": {
           "A": [
             {
-              "label": "أ",
+              "label": "A",
               "value": "<p dir=\"ltr\" style=\"text-align: left;\">painful</p>",
               "is_correct": false
             },
             {
-              "label": "ب",
+              "label": "B",
               "value": "<p dir=\"ltr\" style=\"text-align: left;\">dangerous</p>",
               "is_correct": true
             },
             {
-              "label": "ج",
+              "label": "C",
               "value": "<p dir=\"ltr\" style=\"text-align: left;\">scary </p>",
               "is_correct": false
             }
           ],
           "B": [
             {
-              "label": "س",
+              "label": "X",
               "value": "<p dir=\"ltr\" style=\"text-align: left;\">annoying</p>",
               "is_correct": false
             },
             {
-              "label": "ص",
+              "label": "Y",
               "value": "<p dir=\"ltr\" style=\"text-align: left;\">hazard</p>",
               "is_correct": false
             },
             {
-              "label": "ض",
+              "label": "Z",
               "value": "<p dir=\"ltr\" style=\"text-align: left;\">risky </p>",
               "is_correct": true
             }
