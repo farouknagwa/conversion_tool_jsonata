@@ -1,0 +1,105 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p dir=\"ltr\" style=\"text-align: left;\">Select the <b>two </b>words, <b>one </b>from each group, that complete the following sentence in the best way.</p><p dir=\"ltr\" style=\"text-align: left;\"><b>Sandwich </b>is to (cheese cake filling) as <b>safe </b>is to (valuables lock bank).</p>",
+      "type": "gmrq",
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "group": 1,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">filling</p>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "group": 2,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">bank</p>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "group": 1,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">cheese </p>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "group": 2,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">lock </p>"
+        },
+        {
+          "type": "key",
+          "unit": null,
+          "group": 2,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">valuables </p>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "group": 1,
+          "index": 5,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 6,
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">cake </p>"
+        }
+      ],
+      "subtype": null,
+      "standalone": false
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 435182745068,
+    "title": "Word Relationship",
+    "country": "uk",
+    "dialect": [
+      "british"
+    ],
+    "category": "exam",
+    "language": "en",
+    "mapped_id": 435182745068,
+    "source_id": {
+      "value": 424182093137,
+      "page_number": null
+    },
+    "example_id": null,
+    "description": "Select the two words, one from each group, that complete the following sentence in the best way.Sandwich is to (cheese cake filling) as safe is to (valuables lock bank).",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2023-05-30T05:42:35"
+  },
+  "answer": "<p>The two words that complete the sentence in the best way are ‘filling’ and ‘valuables’ as\n        we find a filling inside a sandwich, and we find valuables inside a safe.</p><p>You might find cheese in a sandwich, but this is a specific type of filling, and there is\n        no specific type of valuable given in the second group.</p>",
+  "section_id": "127145140169",
+  "language": "en",
+  "subject_id": "943195121909",
+  "subject": "Mathematics",
+  "grade_id": "612152797413",
+  "grade": "6",
+  "country": "zz",
+  "question_id": "435182745068"
+}

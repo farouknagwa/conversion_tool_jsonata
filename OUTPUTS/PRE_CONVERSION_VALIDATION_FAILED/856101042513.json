@@ -1,0 +1,157 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>What is the first missing partial quotient?</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [
+            {
+              "type": "integer",
+              "value": "3100",
+              "constrains": null
+            }
+          ],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "<span class=\"no_margin merge\">3,100</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "310"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<span class=\"no_margin merge\">3,500</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "350"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "<span class=\"no_margin merge\">11,300</span>"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    },
+    {
+      "n": 2,
+      "stem": "<p>What is the second missing partial quotient?</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [
+            {
+              "type": "integer",
+              "value": "310",
+              "constrains": null
+            }
+          ],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "310"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "350"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "300"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "<span class=\"no_margin merge\">3,100</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<span class=\"no_margin merge\">3,500</span>"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": "<p>Look at this partial quotient algorithm.</p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"856101042513.01.svg\"/></div>",
+  "instance_number": 1,
+  "metadata": {
+    "id": 856101042513,
+    "title": "",
+    "country": "eg",
+    "dialect": [
+      "american british"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "en",
+    "mapped_id": 856101042513,
+    "source_id": {
+      "value": 253187642141,
+      "page_number": null
+    },
+    "description": "Look at this partial quotient algorithm.<Figure> What is the first missing partial quotient? What is the second missing partial quotient?",
+    "has_example": false,
+    "parts_count": 2,
+    "instances_count": 2,
+    "publication_date": "2023-09-08T08:38:41"
+  },
+  "section_id": "123153518240",
+  "language": "en",
+  "subject_id": "954127413421",
+  "subject": "Mathematics",
+  "grade_id": "837170567976",
+  "grade": "5",
+  "country": "zz",
+  "question_id": "856101042513"
+}

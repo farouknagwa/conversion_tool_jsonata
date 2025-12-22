@@ -1,0 +1,96 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>Use the given model to find the product of <span class=\"merge\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{3.34 \\times 4}\">\\displaystyle{3.34 \\times 4}</math-field></span>.</span></p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"210179171341.01.svg\"/></div>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [
+            {
+              "type": "decimal",
+              "value": "13.36",
+              "constrains": null
+            }
+          ],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "13.36"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "7.34"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "13.26"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "12.36"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "12.26"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 210179171341,
+    "title": "",
+    "country": "eg",
+    "dialect": [
+      "american british"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "en",
+    "mapped_id": 210179171341,
+    "source_id": {
+      "value": 425138657980,
+      "page_number": null
+    },
+    "description": "Use the given model to find the product of 3.34 × 4.<Figure>",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 10,
+    "publication_date": "2022-09-27T13:15:59"
+  },
+  "section_id": "489179230658",
+  "language": "en",
+  "subject_id": "954127413421",
+  "subject": "Mathematics",
+  "grade_id": "837170567976",
+  "grade": "5",
+  "country": "zz",
+  "question_id": "210179171341"
+}

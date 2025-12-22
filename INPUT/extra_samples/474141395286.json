@@ -1,0 +1,94 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>حسبت إنجي <span class=\"merge\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{393\\div3}\">\\displaystyle{393\\div3}</math-field></span>، </span>ووجدت أن خوارج القسمة الجزئية 100 و30 و1.</p><p>دون القسمة، اكتب الإجابة عن <span class=\"merge\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{393\\div3}\">\\displaystyle{393\\div3}</math-field></span>.</span></p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [
+            {
+              "type": "integer",
+              "value": "131",
+              "constrains": null
+            }
+          ],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "131"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "69"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "130"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "31"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "101"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 964138459362,
+    "title": "",
+    "country": "eg",
+    "dialect": [
+      "modern_standard"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "ar",
+    "mapped_id": 474141395286,
+    "source_id": null,
+    "description": "حسبت إنجي ٣٩٣٣، ووجدت أن خوارج القسمة الجزئية ١٠٠ و٣٠ و١.دون القسمة، اكتب الإجابة عن ٣٩٣٣.",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 4,
+    "publication_date": "2019-11-24T09:10:00"
+  },
+  "section_id": "842143484068",
+  "language": "ar",
+  "subject_id": "313152609415",
+  "subject": "الرياضيات",
+  "grade_id": "616145068630",
+  "grade": "4",
+  "country": "zz",
+  "parent_id": "964138459362",
+  "question_id": "474141395286"
+}

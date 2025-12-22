@@ -112,6 +112,8 @@ def _validate_part(part: Dict[str, Any], part_number: int, country_code: str) ->
         errors.extend(_validate_opinion(part, part_number))
     elif part_type == "matching":
         errors.extend(_validate_matching(part, part_number))
+    elif part_type == "gmrq":
+        errors.extend(_validate_gmrq(part, part_number))
     elif part_type == "counting":
         errors.extend(_validate_counting(part, part_number))
     elif part_type == "puzzle":
@@ -150,7 +152,7 @@ def _validate_choice(choice: Dict[str, Any], choice_index: int, part_number: int
             )
     
     # Validate choice type
-    if part_type in ["mcq", "mrq"] and choice.get('type') not in VALID_CHOICE_TYPES:
+    if part_type in ["mcq", "mrq", "gmrq"] and choice.get('type') not in VALID_CHOICE_TYPES:
         errors.append(
             f"Part {part_number} ({part_type}), Choice {choice_index + 1}: Invalid choice type '{choice.get('type')}'"
         )
@@ -463,6 +465,55 @@ def _validate_matching(part: Dict[str, Any], part_number: int) -> List[str]:
     # Validate each choice
     for i, choice in enumerate(part['choices']):
         errors.extend(_validate_choice(choice, i, part_number, 'matching'))
+    
+    return errors
+
+
+def _validate_gmrq(part: Dict[str, Any], part_number: int) -> List[str]:
+    """Validate Grouped Multiple Response Question (GMRQ) part"""
+    errors = []
+    
+    # Validate choices array
+    if not isinstance(part.get('choices'), list) or len(part.get('choices', [])) == 0:
+        errors.append(
+            f"Part {part_number} (gmrq): 'choices' must be a non-empty array"
+        )
+        return errors
+    
+    # Check for groups
+    groups = set(c.get('group') for c in part['choices'] if c.get('group') is not None)
+    if len(groups) != 2:
+        errors.append(
+            f"Part {part_number} (gmrq): Must have exactly 2 groups, found {len(groups)}"
+        )
+    
+    # Check that each group has at least one key choice
+    group1_choices = [c for c in part['choices'] if c.get('group') == 1]
+    group2_choices = [c for c in part['choices'] if c.get('group') == 2]
+    
+    group1_keys = [c for c in group1_choices if c.get('type') == 'key']
+    group2_keys = [c for c in group2_choices if c.get('type') == 'key']
+    
+    if len(group1_keys) != 1:
+        errors.append(
+            f"Part {part_number} (gmrq): Group 1 must have exactly 1 key choice, found {len(group1_keys)}"
+        )
+    
+    if len(group2_keys) != 1:
+        errors.append(
+            f"Part {part_number} (gmrq): Group 2 must have exactly 1 key choice, found {len(group2_keys)}"
+        )
+    
+    # Validate each choice has required fields (including is_correct)
+    for i, choice in enumerate(part['choices']):
+        # Validate group field
+        if 'group' not in choice or choice.get('group') not in [1, 2]:
+            errors.append(
+                f"Part {part_number} (gmrq), Choice {i + 1}: 'group' must be 1 or 2"
+            )
+                
+        # Validate common choice properties
+        errors.extend(_validate_choice(choice, i, part_number, 'gmrq'))
     
     return errors
 

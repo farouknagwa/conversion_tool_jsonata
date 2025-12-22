@@ -1,0 +1,65 @@
+{
+  "question_id": "769136416504",
+  "parent_id": "769136416504",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "uk",
+  "country": "United Kingdom",
+  "subject": "Mathematics",
+  "subject_id": "943195121909",
+  "grade": "6",
+  "grade_id": "612152797413",
+  "number_of_parts": 1,
+  "section_id": "584103490985",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "gmrq",
+        "stem": "<p dir=\"ltr\" style=\"text-align: left;\">Find the <b>two</b> words, <b>one</b> from each group, that together make <b>one</b> correctly spelt word. You may <b>not</b> change the order of the letters. The word from the first group always comes before the word from the second group. </p><p dir=\"ltr\" style=\"text-align: left;\"></p>",
+        "items": {
+          "A": [
+            {
+              "label": "A",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">act</p>",
+              "is_correct": false
+            },
+            {
+              "label": "B",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">man</p>",
+              "is_correct": true
+            },
+            {
+              "label": "C",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">use</p>",
+              "is_correct": false
+            }
+          ],
+          "B": [
+            {
+              "label": "X",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">on</p>",
+              "is_correct": false
+            },
+            {
+              "label": "Y",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">and</p>",
+              "is_correct": false
+            },
+            {
+              "label": "Z",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">age</p>",
+              "is_correct": true
+            }
+          ],
+          "correct_answer": {
+            "A": "<p dir=\"ltr\" style=\"text-align: left;\">man</p>",
+            "B": "<p dir=\"ltr\" style=\"text-align: left;\">age</p>"
+          }
+        },
+        "explanation": "<p>The only two words that can be placed together to create a new, correct word are ‘man’ from the first group and ‘age’ from the second group. This creates the word ‘manage’.</p><p>Be aware that ‘use’ and ‘age’ do not create a correctly spelt word, since the correct spelling is ‘usage’.</p>"
+      }
+    ]
+  }
+}

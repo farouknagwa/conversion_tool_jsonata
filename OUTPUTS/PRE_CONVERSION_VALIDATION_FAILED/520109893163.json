@@ -1,0 +1,82 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>أوجد جميع قيم <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" dir=\"rtl\" lang=\"ar\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\seen}\">\\displaystyle{\\seen}</math-field></span> في <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" dir=\"rtl\" lang=\"ar\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\mathbb{\\haht}}\">\\displaystyle{\\mathbb{\\haht}}</math-field></span> التي تحقق المعادلة <span class=\"merge\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" dir=\"rtl\" lang=\"ar\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\seen^{\\seen+٦}=١٠^{\\seen+٦}}\">\\displaystyle{\\seen^{\\seen+٦}=١٠^{\\seen+٦}}</math-field></span>.</span></p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" dir=\"rtl\" lang=\"ar\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\seen = \\pm ١٠}\">\\displaystyle{\\seen = \\pm ١٠}</math-field></span> أو <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" dir=\"rtl\" lang=\"ar\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\seen = -٦}\">\\displaystyle{\\seen = -٦}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" dir=\"rtl\" lang=\"ar\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\seen = ١٠}\">\\displaystyle{\\seen = ١٠}</math-field></span> أو <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" dir=\"rtl\" lang=\"ar\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\seen = -٦}\">\\displaystyle{\\seen = -٦}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" dir=\"rtl\" lang=\"ar\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\seen = ١٠}\">\\displaystyle{\\seen = ١٠}</math-field></span> أو <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" dir=\"rtl\" lang=\"ar\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\seen = ٦}\">\\displaystyle{\\seen = ٦}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" dir=\"rtl\" lang=\"ar\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\seen = \\pm ١٠}\">\\displaystyle{\\seen = \\pm ١٠}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" dir=\"rtl\" lang=\"ar\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\seen = -٦}\">\\displaystyle{\\seen = -٦}</math-field></span>"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 986163747490,
+    "title": "",
+    "country": "eg",
+    "mapped_id": 520109893163,
+    "source_id": null,
+    "description": "أوجد جميع قيم ﺱ في ﺡ التي تحقق المعادلة ﺱ^ﺱ+٦=١٠^ﺱ+٦.",
+    "has_example": null,
+    "parts_count": 1,
+    "instances_count": 10,
+    "publication_date": "2024-07-09T11:07:42"
+  },
+  "section_id": "683150303924",
+  "language": "ar",
+  "subject_id": "723101594842",
+  "subject": "الرياضيات",
+  "grade_id": "932125747187",
+  "grade": "11",
+  "country": "zz",
+  "parent_id": "986163747490",
+  "question_id": "520109893163"
+}

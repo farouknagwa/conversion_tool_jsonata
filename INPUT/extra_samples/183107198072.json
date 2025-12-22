@@ -1,0 +1,96 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>Write the number <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{1\\frac{9}{20}}\">\\displaystyle{1\\frac{9}{20}}</math-field></span> in decimal form.</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [
+            {
+              "type": "decimal",
+              "value": "1.45",
+              "constrains": null
+            }
+          ],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "1.45"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "45.1"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "0.45"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "1.36"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "0.36"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 183107198072,
+    "title": "",
+    "country": "eg",
+    "dialect": [
+      "american"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "en",
+    "mapped_id": 183107198072,
+    "source_id": {
+      "value": 952105301938,
+      "page_number": null
+    },
+    "description": "Write the number 19/20 in decimal form.",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 10,
+    "publication_date": "2020-02-17T13:36:40"
+  },
+  "section_id": "274107146593",
+  "language": "en",
+  "subject_id": "105108757595",
+  "subject": "Mathematics",
+  "grade_id": "616145068630",
+  "grade": "4",
+  "country": "zz",
+  "question_id": "183107198072"
+}

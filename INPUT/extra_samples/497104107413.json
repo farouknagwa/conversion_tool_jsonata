@@ -1,0 +1,139 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>This model represents a division.</p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"497104107413.01.svg\"/></div><p>What is the division?</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\frac{1}{4} \\div 2}\">\\displaystyle{\\frac{1}{4} \\div 2}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\frac{1}{4} \\div 8}\">\\displaystyle{\\frac{1}{4} \\div 8}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\frac{1}{8} \\div 2}\">\\displaystyle{\\frac{1}{8} \\div 2}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\frac{1}{4} \\div 4}\">\\displaystyle{\\frac{1}{4} \\div 4}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\frac{1}{2} \\div 2}\">\\displaystyle{\\frac{1}{2} \\div 2}</math-field></span>"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    },
+    {
+      "n": 2,
+      "stem": "<p>What is the answer to the division?</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\frac{1}{8}}\">\\displaystyle{\\frac{1}{8}}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\frac{1}{4}}\">\\displaystyle{\\frac{1}{4}}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\frac{1}{2}}\">\\displaystyle{\\frac{1}{2}}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\frac{1}{3}}\">\\displaystyle{\\frac{1}{3}}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\frac{1}{6}}\">\\displaystyle{\\frac{1}{6}}</math-field></span>"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 497104107413,
+    "title": "",
+    "country": "sa",
+    "mapped_id": 497104107413,
+    "source_id": {
+      "value": 130183673938,
+      "page_number": null
+    },
+    "description": "This model represents a division.<Figure>What is the division? What is the answer to the division?",
+    "has_example": null,
+    "parts_count": 2,
+    "instances_count": 10,
+    "publication_date": "2023-03-07T09:58:25"
+  },
+  "section_id": "313169304857",
+  "language": "en",
+  "subject_id": "673181575120",
+  "subject": "Mathematics",
+  "grade_id": "920193465614",
+  "grade": "6",
+  "country": "eg",
+  "question_id": "497104107413"
+}

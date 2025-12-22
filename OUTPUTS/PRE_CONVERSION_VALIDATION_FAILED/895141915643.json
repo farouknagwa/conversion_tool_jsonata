@@ -1,0 +1,82 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>بسِّط الكسر <span class=\"merge\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" dir=\"rtl\" lang=\"ar\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{{\\frac{٢\\seen^٥ + ٧\\seen^٣ - \\seen}{\\seen}}}\">\\displaystyle{{\\frac{٢\\seen^٥ + ٧\\seen^٣ - \\seen}{\\seen}}}</math-field></span>.</span></p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" dir=\"rtl\" lang=\"ar\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{٢\\seen^٤ + ٧\\seen^٢ - ١}\">\\displaystyle{٢\\seen^٤ + ٧\\seen^٢ - ١}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" dir=\"rtl\" lang=\"ar\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{٢\\seen^٤ - ٧\\seen^٢ - ١}\">\\displaystyle{٢\\seen^٤ - ٧\\seen^٢ - ١}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" dir=\"rtl\" lang=\"ar\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{٢\\seen^٤ - ٧\\seen^٢ + ١}\">\\displaystyle{٢\\seen^٤ - ٧\\seen^٢ + ١}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" dir=\"rtl\" lang=\"ar\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{٢\\seen^٤ + ٧\\seen^٢ + ١}\">\\displaystyle{٢\\seen^٤ + ٧\\seen^٢ + ١}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" dir=\"rtl\" lang=\"ar\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{-٢\\seen^٤ + ٧\\seen^٢ - ١}\">\\displaystyle{-٢\\seen^٤ + ٧\\seen^٢ - ١}</math-field></span>"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 258168495019,
+    "title": "",
+    "country": "eg",
+    "mapped_id": 895141915643,
+    "source_id": null,
+    "description": "بسِّط الكسر ٢ﺱ^٥ + ٧ﺱ^٣ - ﺱ/ﺱ.",
+    "has_example": null,
+    "parts_count": 1,
+    "instances_count": 10,
+    "publication_date": "2024-07-09T11:10:26"
+  },
+  "section_id": "437162603484",
+  "language": "ar",
+  "subject_id": "646195084349",
+  "subject": "الرياضيات",
+  "grade_id": "425176561296",
+  "grade": "8",
+  "country": "zz",
+  "parent_id": "258168495019",
+  "question_id": "895141915643"
+}

@@ -1,0 +1,94 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>أوجِد قيمة <span class=\"merge\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" dir=\"rtl\" lang=\"ar\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{٢ \\times ١٫٣+١٫٥}\">\\displaystyle{٢ \\times ١٫٣+١٫٥}</math-field></span>، </span>مع مراعاة ترتيب العمليات الحسابية.</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [
+            {
+              "type": "decimal",
+              "value": "4.1",
+              "constrains": null
+            }
+          ],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "٤٫١"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "٥٫٦"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "٣٫٨"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "٣٫٥٦"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "٤٫١٦"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 716178274794,
+    "title": "استخدام ترتيب العمليات لإيجاد قيم التعبيرات العددية التي تتضمن الأعداد العشرية",
+    "country": "eg",
+    "dialect": [
+      "modern_standard"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "ar",
+    "mapped_id": 465138235012,
+    "source_id": null,
+    "description": "أوجِد قيمة ٢ × ١٫٣+١٫٥، مع مراعاة ترتيب العمليات الحسابية.",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 10,
+    "publication_date": "2017-08-29T13:51:30"
+  },
+  "section_id": "780106127303",
+  "language": "ar",
+  "subject_id": "195153863763",
+  "subject": "الرياضيات",
+  "grade_id": "837170567976",
+  "grade": "5",
+  "country": "zz",
+  "parent_id": "716178274794",
+  "question_id": "465138235012"
+}

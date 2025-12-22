@@ -1,0 +1,105 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p dir=\"ltr\" style=\"text-align: left;\">Find the <b>two</b> words, <b>one</b> from each group, that together make <b>one</b> correctly spelt word. You may <b>not</b> change the order of the letters. The word from the first group always comes before the word from the second group. </p><p dir=\"ltr\" style=\"text-align: left;\"></p>",
+      "type": "gmrq",
+      "choices": [
+        {
+          "type": "distractor",
+          "unit": null,
+          "group": 1,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">main</p>"
+        },
+        {
+          "type": "key",
+          "unit": null,
+          "group": 2,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">time</p>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "group": 1,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">key</p>"
+        },
+        {
+          "type": "key",
+          "unit": null,
+          "group": 1,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">life</p>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "group": 2,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">per</p>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "group": 2,
+          "index": 5,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 6,
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">stop</p>"
+        }
+      ],
+      "subtype": null,
+      "standalone": false
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 532167156379,
+    "title": "Word Creation",
+    "country": "uk",
+    "dialect": [
+      "british"
+    ],
+    "category": "exam",
+    "language": "en",
+    "mapped_id": 532167156379,
+    "source_id": {
+      "value": 803172646718,
+      "page_number": null
+    },
+    "example_id": null,
+    "description": "Find the two words, one from each group, that together make one correctly spelt word. You may not change the order of the letters. The word from the first group always comes before the word from the second group.",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2023-05-30T05:36:55"
+  },
+  "answer": "<p>The only two words that can be placed together to create a new, correct word are ‘life’ and ‘time’ to create ‘lifetime’.</p><p>Note that ‘keeper’ is spelled with double <i>e</i> and ‘meantime’ would require an <i>e</i> and an <i>a</i> instead of an <i>a</i> and an <i>i</i>.</p>",
+  "section_id": "584103490985",
+  "language": "en",
+  "subject_id": "943195121909",
+  "subject": "Mathematics",
+  "grade_id": "612152797413",
+  "grade": "6",
+  "country": "zz",
+  "question_id": "532167156379"
+}

@@ -1,0 +1,104 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>Choose the equation represented by the balance scale model.</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{27 + 11 = m}\">\\displaystyle{27 + 11 = m}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{27 - 11 = m}\">\\displaystyle{27 - 11 = m}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{27 + m = 11}\">\\displaystyle{27 + m = 11}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{11 - m = 27}\">\\displaystyle{11 - m = 27}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{11 + m = 27}\">\\displaystyle{11 + m = 27}</math-field></span>"
+        }
+      ],
+      "subtype": null,
+      "standalone": false
+    },
+    {
+      "n": 2,
+      "stem": "<p> The value of <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{m}\">\\displaystyle{m}</math-field></span> is <span class=\"merge\"><span data-node-type=\"blank-line\" data-node-variation=\"space\">&nbsp;</span>.</span></p>",
+      "type": "input_box",
+      "answer": {
+        "value": "38",
+        "constrains": {
+          "type": "integer"
+        }
+      },
+      "choices": [],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": "<p>Consider the figure.</p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"907134904707.01.svg\"/></div>",
+  "instance_number": 1,
+  "metadata": {
+    "id": 907134904707,
+    "title": "",
+    "country": "eg",
+    "dialect": [
+      "american british"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "en",
+    "mapped_id": 907134904707,
+    "source_id": {
+      "value": 425138657980,
+      "page_number": null
+    },
+    "description": "Consider the figure.<Figure> Choose the equation represented by the balance scale model. The value of m is _.",
+    "has_example": false,
+    "parts_count": 2,
+    "instances_count": 10,
+    "publication_date": "2022-09-07T14:32:29"
+  },
+  "section_id": "785104086567",
+  "language": "en",
+  "subject_id": "954127413421",
+  "subject": "Mathematics",
+  "grade_id": "837170567976",
+  "grade": "5",
+  "country": "zz",
+  "question_id": "907134904707"
+}

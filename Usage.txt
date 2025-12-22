@@ -31,7 +31,7 @@ WARNINGS vs ERRORS:
   * Visible in console summary as "Total warnings: N"
 
 SUPPORTED QUESTION TYPES:
-mcq, mrq, frq, frq_ai, oq, gapText, string, opinion, matching, counting, puzzle, input_box
+mcq, mrq, gmrq, frq, frq_ai, oq, gapText, string, opinion, matching, counting, puzzle, input_box
 
 CONVERSION RULES:
 JSONata transformation rules located in JSONATA_RULES/ folder (one .jsonata file per type)

@@ -1,0 +1,96 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>Rania is buying an ice cream cone and is able to pick two scoops from four flavors: chocolate, banana, strawberry, and vanilla. How many different ways can she pick two scoops from the four flavors?</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [
+            {
+              "type": "integer",
+              "value": "10",
+              "constrains": null
+            }
+          ],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "10"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "6"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "12"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "16"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "8"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 639171623910,
+    "title": "",
+    "country": "eg",
+    "dialect": [
+      "american"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "en",
+    "mapped_id": 639171623910,
+    "source_id": {
+      "value": 896102040673,
+      "page_number": null
+    },
+    "description": "Rania is buying an ice cream cone and is able to pick two scoops from four flavors: chocolate, banana, strawberry, and vanilla. How many different ways can she pick two scoops from the four flavors?",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2019-10-02T10:14:53"
+  },
+  "section_id": "839171802787",
+  "language": "en",
+  "subject_id": "210123759192",
+  "subject": "Mathematics",
+  "grade_id": "713134702407",
+  "grade": "12",
+  "country": "zz",
+  "question_id": "639171623910"
+}

@@ -1,0 +1,104 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>Fill in the blank: The number of chair legs is <span data-node-type=\"blank-line\" data-node-variation=\"space\">&nbsp;</span> times the number of chairs.</p>",
+      "type": "input_box",
+      "answer": {
+        "value": "4",
+        "constrains": {
+          "type": "integer"
+        }
+      },
+      "choices": [],
+      "subtype": null,
+      "standalone": true
+    },
+    {
+      "n": 2,
+      "stem": "<p>If the number of chairs is represented by <span class=\"merge\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{b}\">\\displaystyle{b}</math-field></span>, </span>write the symbolic expression for how many chair legs <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{b}\">\\displaystyle{b}</math-field></span> chairs would have.</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{4b}\">\\displaystyle{4b}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\frac{4}{b}}\">\\displaystyle{\\frac{4}{b}}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{4 + b}\">\\displaystyle{4 + b}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{b - 4}\">\\displaystyle{b - 4}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{4 - b}\">\\displaystyle{4 - b}</math-field></span>"
+        }
+      ],
+      "subtype": null,
+      "standalone": false
+    }
+  ],
+  "statement": "<p>Look at the table.</p><div class=\"table-wrapper\"><table><tr><th>Number of Chairs</th><td>1</td><td>2</td><td>3</td><td><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\cdots}\">\\displaystyle{\\cdots}</math-field></span></td><td>10</td><td>100</td><td><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{b}\">\\displaystyle{b}</math-field></span></td></tr><tr><th>Number of Chair Legs</th><td><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{1\\times 4}\">\\displaystyle{1\\times 4}</math-field></span></td><td><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{2 \\times 4}\">\\displaystyle{2 \\times 4}</math-field></span></td><td><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{3 \\times 4}\">\\displaystyle{3 \\times 4}</math-field></span></td><td><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\cdots}\">\\displaystyle{\\cdots}</math-field></span></td><td><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{10 \\times 4}\">\\displaystyle{10 \\times 4}</math-field></span></td><td><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{100 \\times 4}\">\\displaystyle{100 \\times 4}</math-field></span></td><td></td></tr></table></div>",
+  "instance_number": 1,
+  "metadata": {
+    "id": 780196718620,
+    "title": "",
+    "country": "eg",
+    "dialect": [
+      "american british"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "en",
+    "mapped_id": 780196718620,
+    "source_id": {
+      "value": 793105710231,
+      "page_number": null
+    },
+    "description": "Look at the table.<Table> Fill in the blank: The number of chair legs is _ times the number of chairs. If the number of chairs is represented by b, write the symbolic expression for how many chair legs b chairs would have.",
+    "has_example": false,
+    "parts_count": 2,
+    "instances_count": 1,
+    "publication_date": "2022-05-30T10:56:29"
+  },
+  "section_id": "136136931453",
+  "language": "en",
+  "subject_id": "105108757595",
+  "subject": "Mathematics",
+  "grade_id": "616145068630",
+  "grade": "4",
+  "country": "zz",
+  "question_id": "780196718620"
+}

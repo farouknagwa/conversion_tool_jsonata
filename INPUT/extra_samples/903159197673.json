@@ -1,0 +1,105 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p dir=\"ltr\" style=\"text-align: left;\">Select the <b>two </b>words, <b>one </b>from each group, that complete the following sentence in the best way.</p><p dir=\"ltr\" style=\"text-align: left;\"><b>Dog </b>is to (pet cute barking) as <b>bird </b>is to (egg feathery chirping).</p>",
+      "type": "gmrq",
+      "choices": [
+        {
+          "type": "distractor",
+          "unit": null,
+          "group": 2,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">feathery </p>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "group": 1,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">cute </p>"
+        },
+        {
+          "type": "key",
+          "unit": null,
+          "group": 1,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">barking</p>"
+        },
+        {
+          "type": "key",
+          "unit": null,
+          "group": 2,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">chirping</p>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "group": 2,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">egg </p>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "group": 1,
+          "index": 5,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 6,
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">pet </p>"
+        }
+      ],
+      "subtype": null,
+      "standalone": false
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 903159197673,
+    "title": "Word Relationship",
+    "country": "uk",
+    "dialect": [
+      "british"
+    ],
+    "category": "exam",
+    "language": "en",
+    "mapped_id": 903159197673,
+    "source_id": {
+      "value": 424182093137,
+      "page_number": null
+    },
+    "example_id": null,
+    "description": "Select the two words, one from each group, that complete the following sentence in the best way.Dog is to (pet cute barking) as bird is to (egg feathery chirping).",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2023-05-30T05:42:36"
+  },
+  "answer": "<p>For the first group, we can relate ‘dog’ to ‘barking’ very closely as one of the sounds\n        that most dogs make is referred to as barking. If we take this relationship and expand it to\n        the second group, the sentence is best completed by ‘as bird is to chirping’. This is\n        because the sound that many birds make is referred to as chirping.</p>",
+  "section_id": "127145140169",
+  "language": "en",
+  "subject_id": "943195121909",
+  "subject": "Mathematics",
+  "grade_id": "612152797413",
+  "grade": "6",
+  "country": "zz",
+  "question_id": "903159197673"
+}

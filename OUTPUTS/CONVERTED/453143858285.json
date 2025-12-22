@@ -1,0 +1,65 @@
+{
+  "question_id": "453143858285",
+  "parent_id": "453143858285",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "uk",
+  "country": "United Kingdom",
+  "subject": "Mathematics",
+  "subject_id": "943195121909",
+  "grade": "6",
+  "grade_id": "612152797413",
+  "number_of_parts": 1,
+  "section_id": "438106548523",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "gmrq",
+        "stem": "<p dir=\"ltr\" style=\"text-align: left;\">Find the <b>two </b>words, <b>one </b>from each group, that are <b>closest in meaning</b>.</p>",
+        "items": {
+          "A": [
+            {
+              "label": "A",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">sleepy</p>",
+              "is_correct": true
+            },
+            {
+              "label": "B",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">absent</p>",
+              "is_correct": false
+            },
+            {
+              "label": "C",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">joyful</p>",
+              "is_correct": false
+            }
+          ],
+          "B": [
+            {
+              "label": "X",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">angry</p>",
+              "is_correct": false
+            },
+            {
+              "label": "Y",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">tired</p>",
+              "is_correct": true
+            },
+            {
+              "label": "Z",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">present</p>",
+              "is_correct": false
+            }
+          ],
+          "correct_answer": {
+            "A": "<p dir=\"ltr\" style=\"text-align: left;\">sleepy</p>",
+            "B": "<p dir=\"ltr\" style=\"text-align: left;\">tired</p>"
+          }
+        },
+        "explanation": "<p>The two words that are closest in meaning are ‘sleepy’ and ‘tired’. Both these words are used to describe someone feeling drowsy, having low energy, or suffering from a lack of sleep. ‘Absent’ and ‘present’ are opposite in meaning, while ‘joyful’ and ‘angry’ are also used to refer to very different emotions.</p>"
+      }
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "question_id": "764137352626",
+  "parent_id": "764137352626",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "uk",
+  "country": "United Kingdom",
+  "subject": "Mathematics",
+  "subject_id": "943195121909",
+  "grade": "6",
+  "grade_id": "612152797413",
+  "number_of_parts": 1,
+  "section_id": "127145140169",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "gmrq",
+        "stem": "<p dir=\"ltr\" style=\"text-align: left;\">Select the <b>two </b>words, <b>one </b>from each group, that complete the following sentence in the best way.</p><p dir=\"ltr\" style=\"text-align: left;\"><b>January </b>is to (sadness month rain) as <b>Sunday </b>is to (day happiness sunshine).</p>",
+        "items": {
+          "A": [
+            {
+              "label": "A",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">rain</p>",
+              "is_correct": false
+            },
+            {
+              "label": "B",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">month </p>",
+              "is_correct": true
+            },
+            {
+              "label": "C",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">sadness </p>",
+              "is_correct": false
+            }
+          ],
+          "B": [
+            {
+              "label": "X",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">day </p>",
+              "is_correct": true
+            },
+            {
+              "label": "Y",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">sunshine</p>",
+              "is_correct": false
+            },
+            {
+              "label": "Z",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">happiness </p>",
+              "is_correct": false
+            }
+          ],
+          "correct_answer": {
+            "A": "<p dir=\"ltr\" style=\"text-align: left;\">month </p>",
+            "B": "<p dir=\"ltr\" style=\"text-align: left;\">day </p>"
+          }
+        },
+        "explanation": "<p>For the first group, we can relate ‘January’ to ‘month’ very closely as January is one of <span class=\"merge no_margin\">12 months</span> of the year. If we take this relationship and expand it to the second group, the sentence is best completed by ‘as Sunday is to day’. This is because Sunday is one of the <span class=\"merge no_margin\">7 days</span> of the week.</p>"
+      }
+    ]
+  }
+}

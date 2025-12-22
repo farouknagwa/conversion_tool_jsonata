@@ -1,0 +1,65 @@
+{
+  "question_id": "472196348972",
+  "parent_id": "472196348972",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "uk",
+  "country": "United Kingdom",
+  "subject": "Mathematics",
+  "subject_id": "943195121909",
+  "grade": "6",
+  "grade_id": "612152797413",
+  "number_of_parts": 1,
+  "section_id": "438106548523",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "gmrq",
+        "stem": "<p dir=\"ltr\" style=\"text-align: left;\">Find the <b>two </b>words, <b>one </b>from each group, that are <b>closest in meaning</b>.</p>",
+        "items": {
+          "A": [
+            {
+              "label": "A",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">sweet</p>",
+              "is_correct": true
+            },
+            {
+              "label": "B",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">foolish</p>",
+              "is_correct": false
+            },
+            {
+              "label": "C",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">sour</p>",
+              "is_correct": false
+            }
+          ],
+          "B": [
+            {
+              "label": "X",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">spicy</p>",
+              "is_correct": false
+            },
+            {
+              "label": "Y",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">messy</p>",
+              "is_correct": false
+            },
+            {
+              "label": "Z",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">sugary</p>",
+              "is_correct": true
+            }
+          ],
+          "correct_answer": {
+            "A": "<p dir=\"ltr\" style=\"text-align: left;\">sweet</p>",
+            "B": "<p dir=\"ltr\" style=\"text-align: left;\">sugary</p>"
+          }
+        },
+        "explanation": "<p>The two words that are closest in meaning are ‘sweet’ and ‘sugary’. Both these words are used to describe substances that contain a large amount of sugar to taste sweet. Note that even though ‘sweet’, ‘sour’, and ‘spicy’ all describe the way that food can taste, they all describe very different tastes and are therefore not close in meaning. ‘Foolish’ is not similar in meaning to any word from the second group and ‘messy’ is not similar in meaning to any word from the first group.</p>"
+      }
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "question_id": "497129602674",
+  "parent_id": "497129602674",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "uk",
+  "country": "United Kingdom",
+  "subject": "Mathematics",
+  "subject_id": "943195121909",
+  "grade": "6",
+  "grade_id": "612152797413",
+  "number_of_parts": 1,
+  "section_id": "127145140169",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "gmrq",
+        "stem": "<p dir=\"ltr\" style=\"text-align: left;\">Select the <b>two </b>words, <b>one </b>from each group, that complete the following sentence in the best way.</p><p dir=\"ltr\" style=\"text-align: left;\"><b>Ocean </b>is to (whale current salt) as <b>forest </b>is to (tree nature squirrel).</p>",
+        "items": {
+          "A": [
+            {
+              "label": "A",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">current </p>",
+              "is_correct": false
+            },
+            {
+              "label": "B",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">salt</p>",
+              "is_correct": false
+            },
+            {
+              "label": "C",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">whale </p>",
+              "is_correct": true
+            }
+          ],
+          "B": [
+            {
+              "label": "X",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">nature </p>",
+              "is_correct": false
+            },
+            {
+              "label": "Y",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">tree </p>",
+              "is_correct": false
+            },
+            {
+              "label": "Z",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">squirrel</p>",
+              "is_correct": true
+            }
+          ],
+          "correct_answer": {
+            "A": "<p dir=\"ltr\" style=\"text-align: left;\">whale </p>",
+            "B": "<p dir=\"ltr\" style=\"text-align: left;\">squirrel</p>"
+          }
+        },
+        "explanation": "<p>The two words that complete the sentence in the best way are ‘whale’ and ‘squirrel’, as whales live in oceans and squirrels live in forests.</p>"
+      }
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p> Adam solved the division problem <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{822 \\div 6}\">\\displaystyle{822 \\div 6}</math-field></span> by using long division as follows:</p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"476192695183.01.svg\"/></div><p>The boxes represent digits of the quotient.</p><p>Fill in the blanks: The left box represents the digit <span class=\"merge\"><span data-node-type=\"blank-line\" data-node-variation=\"space\">&nbsp;</span>, </span>and the right box represents the digit <span class=\"merge\"><span data-node-type=\"blank-line\" data-node-variation=\"space\">&nbsp;</span>.</span></p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "3, 7"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "7, 3"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "3, 4"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "4, 3"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "4, 7"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 476192695183,
+    "title": "",
+    "country": "eg",
+    "mapped_id": 476192695183,
+    "source_id": {
+      "value": 343172873720,
+      "page_number": null
+    },
+    "example_id": null,
+    "description": "Adam solved the division problem 822  6 by using long division as follows:<Figure>The boxes represent digits of the quotient.Fill in the blanks: The left box represents the digit _, and the right box represents the digit _.",
+    "has_example": null,
+    "parts_count": 1,
+    "instances_count": 10,
+    "publication_date": "2021-11-09T10:14:13"
+  },
+  "section_id": "576137348129",
+  "language": "en",
+  "subject_id": "152178053494",
+  "subject": "Mathematics",
+  "grade_id": "302134381873",
+  "grade": "3",
+  "country": "zz",
+  "question_id": "476192695183"
+}

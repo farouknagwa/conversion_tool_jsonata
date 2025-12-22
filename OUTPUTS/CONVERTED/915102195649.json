@@ -1,0 +1,88 @@
+{
+  "question_id": "915102195649",
+  "parent_id": "915102195649",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "uk",
+  "country": "United Kingdom",
+  "subject": "Mathematics",
+  "subject_id": "795130348202",
+  "grade": "10",
+  "grade_id": "874163647204",
+  "number_of_parts": 2,
+  "section_id": "593142161548",
+  "source": "human",
+  "content": {
+    "statement": null,
+    "parts": [
+      {
+        "n": 1,
+        "type": "mcq",
+        "stem": "<p dir=\"ltr\" style=\"text-align: left;\">test</p>",
+        "choices": [
+          {
+            "label": "A",
+            "value": "<p dir=\"ltr\" style=\"text-align: left;\">1</p>",
+            "is_correct": true
+          },
+          {
+            "label": "B",
+            "value": "<p dir=\"ltr\" style=\"text-align: left;\">4</p>",
+            "is_correct": false
+          }
+        ],
+        "correct_answer": {
+          "label": "A",
+          "value": "<p dir=\"ltr\" style=\"text-align: left;\">1</p>"
+        },
+        "explanation": null
+      },
+      {
+        "n": 2,
+        "type": "gmrq",
+        "stem": "<p dir=\"ltr\" style=\"text-align: left;\">بيسس لسبلب</p>",
+        "items": {
+          "A": [
+            {
+              "label": "A",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">30</p>",
+              "is_correct": false
+            },
+            {
+              "label": "B",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">20</p>",
+              "is_correct": false
+            },
+            {
+              "label": "C",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">10</p>",
+              "is_correct": true
+            }
+          ],
+          "B": [
+            {
+              "label": "X",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">60</p>",
+              "is_correct": false
+            },
+            {
+              "label": "Y",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">40</p>",
+              "is_correct": false
+            },
+            {
+              "label": "Z",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">50</p>",
+              "is_correct": true
+            }
+          ],
+          "correct_answer": {
+            "A": "<p dir=\"ltr\" style=\"text-align: left;\">10</p>",
+            "B": "<p dir=\"ltr\" style=\"text-align: left;\">50</p>"
+          }
+        },
+        "explanation": null
+      }
+    ]
+  }
+}

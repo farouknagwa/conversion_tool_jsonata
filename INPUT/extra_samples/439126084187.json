@@ -1,0 +1,105 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p dir=\"ltr\" style=\"text-align: left;\">Select the <b>two </b>words, <b>one </b>from each group, that complete the following sentence in the best way.</p><p dir=\"ltr\" style=\"text-align: left;\"><b>Cupcake </b>is to (icing decoration baking) as <b>book </b>is to (library writing knowledge).</p>",
+      "type": "gmrq",
+      "choices": [
+        {
+          "type": "distractor",
+          "unit": null,
+          "group": 2,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">library&emsp;</p>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "group": 1,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">decoration&emsp;</p>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "group": 2,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">knowledge</p>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "group": 1,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">icing&emsp;</p>"
+        },
+        {
+          "type": "key",
+          "unit": null,
+          "group": 1,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">baking</p>"
+        },
+        {
+          "type": "key",
+          "unit": null,
+          "group": 2,
+          "index": 5,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 6,
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">writing&emsp;</p>"
+        }
+      ],
+      "subtype": null,
+      "standalone": false
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 439126084187,
+    "title": "Word Relationship",
+    "country": "uk",
+    "dialect": [
+      "british"
+    ],
+    "category": "exam",
+    "language": "en",
+    "mapped_id": 439126084187,
+    "source_id": {
+      "value": 424182093137,
+      "page_number": null
+    },
+    "example_id": null,
+    "description": "Select the two words, one from each group, that complete the following sentence in the best way.Cupcake is to (icing decoration baking) as book is to (library writing knowledge).",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2023-05-30T05:42:35"
+  },
+  "answer": "<p>For the first group, we can relate ‘cupcake’ to ‘baking’ very closely as \n        cupcakes generally have to be baked in the process of becoming a cupcake. ‘Cupcake’ can also be closely linked to ‘icing’ and ‘decoration’ but the \n        relationship between these words and ‘cupcake’ is not seen in the\n        second group. If we expand the relationship between ‘cupcake’ and \n        ‘baking’ to the second group, the sentence is best completed by \n        ‘as book is to writing’. This is because writing is what is done\n        to make a book, just as baking is what is done to make a cupcake.</p>",
+  "section_id": "127145140169",
+  "language": "en",
+  "subject_id": "943195121909",
+  "subject": "Mathematics",
+  "grade_id": "612152797413",
+  "grade": "6",
+  "country": "zz",
+  "question_id": "439126084187"
+}

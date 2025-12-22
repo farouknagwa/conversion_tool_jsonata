@@ -1,0 +1,65 @@
+{
+  "question_id": "768156204930",
+  "parent_id": "768156204930",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "uk",
+  "country": "United Kingdom",
+  "subject": "Mathematics",
+  "subject_id": "943195121909",
+  "grade": "6",
+  "grade_id": "612152797413",
+  "number_of_parts": 1,
+  "section_id": "127145140169",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "gmrq",
+        "stem": "<p dir=\"ltr\" style=\"text-align: left;\">Select the <b>two </b>words, <b>one </b>from each group, that complete the following sentence in the best way.</p><p dir=\"ltr\" style=\"text-align: left;\"></p><p dir=\"ltr\" style=\"text-align: left;\"><b>Time </b>is to (clock duration date) as <b>temperature </b>is to (celsius cold thermometer).</p><p dir=\"ltr\" style=\"text-align: left;\"></p>",
+        "items": {
+          "A": [
+            {
+              "label": "A",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">date</p>",
+              "is_correct": false
+            },
+            {
+              "label": "B",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">duration   </p>",
+              "is_correct": false
+            },
+            {
+              "label": "C",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">clock     </p>",
+              "is_correct": true
+            }
+          ],
+          "B": [
+            {
+              "label": "X",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">celsius     </p>",
+              "is_correct": false
+            },
+            {
+              "label": "Y",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">cold    </p>",
+              "is_correct": false
+            },
+            {
+              "label": "Z",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">thermometer</p>",
+              "is_correct": true
+            }
+          ],
+          "correct_answer": {
+            "A": "<p dir=\"ltr\" style=\"text-align: left;\">clock     </p>",
+            "B": "<p dir=\"ltr\" style=\"text-align: left;\">thermometer</p>"
+          }
+        },
+        "explanation": "<p>The two words that complete the sentence in the best way are ‘clock’ and ‘thermometer’, as a clock is used to indicate the time and a thermometer is used to indicate the temperature.</p>"
+      }
+    ]
+  }
+}

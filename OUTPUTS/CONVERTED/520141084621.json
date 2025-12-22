@@ -1,0 +1,65 @@
+{
+  "question_id": "520141084621",
+  "parent_id": "520141084621",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "uk",
+  "country": "United Kingdom",
+  "subject": "Mathematics",
+  "subject_id": "943195121909",
+  "grade": "6",
+  "grade_id": "612152797413",
+  "number_of_parts": 1,
+  "section_id": "584103490985",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "gmrq",
+        "stem": "<p dir=\"ltr\" style=\"text-align: left;\">Find the <b>two</b> words, <b>one</b> from each group, that together make <b>one</b> correctly spelt word. You may <b>not</b> change the order of the letters. The word from the first group always comes before the word from the second group. </p>",
+        "items": {
+          "A": [
+            {
+              "label": "A",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">on</p>",
+              "is_correct": true
+            },
+            {
+              "label": "B",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">rag</p>",
+              "is_correct": false
+            },
+            {
+              "label": "C",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">for</p>",
+              "is_correct": false
+            }
+          ],
+          "B": [
+            {
+              "label": "X",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">it</p>",
+              "is_correct": false
+            },
+            {
+              "label": "Y",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">ion</p>",
+              "is_correct": true
+            },
+            {
+              "label": "Z",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">arm</p>",
+              "is_correct": false
+            }
+          ],
+          "correct_answer": {
+            "A": "<p dir=\"ltr\" style=\"text-align: left;\">on</p>",
+            "B": "<p dir=\"ltr\" style=\"text-align: left;\">ion</p>"
+          }
+        },
+        "explanation": "<p>The only two words that can be placed together to create a new, correct word are ‘on’ from the first group and ‘ion’ from the second group. This creates the word ‘onion’.</p><p>Note that ‘forearm’ requires an <i>e</i>, so ‘for’ and ‘arm’ do not form one correctly spelt word.</p>"
+      }
+    ]
+  }
+}

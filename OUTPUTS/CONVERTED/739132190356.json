@@ -1,0 +1,65 @@
+{
+  "question_id": "739132190356",
+  "parent_id": "739132190356",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "uk",
+  "country": "United Kingdom",
+  "subject": "Mathematics",
+  "subject_id": "943195121909",
+  "grade": "6",
+  "grade_id": "612152797413",
+  "number_of_parts": 1,
+  "section_id": "584103490985",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "gmrq",
+        "stem": "<p dir=\"ltr\" style=\"text-align: left;\">Select the <b>two </b>words, <b>one </b>from each group, that together make <b>one </b>correctly spelt word. You may <b>not </b>change the order of the letters. The word from the first group always comes before the word from the second group.</p>",
+        "items": {
+          "A": [
+            {
+              "label": "A",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">rebel </p>",
+              "is_correct": true
+            },
+            {
+              "label": "B",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">rain</p>",
+              "is_correct": false
+            },
+            {
+              "label": "C",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">end</p>",
+              "is_correct": false
+            }
+          ],
+          "B": [
+            {
+              "label": "X",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">deer </p>",
+              "is_correct": false
+            },
+            {
+              "label": "Y",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">lion</p>",
+              "is_correct": true
+            },
+            {
+              "label": "Z",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">horse</p>",
+              "is_correct": false
+            }
+          ],
+          "correct_answer": {
+            "A": "<p dir=\"ltr\" style=\"text-align: left;\">rebel </p>",
+            "B": "<p dir=\"ltr\" style=\"text-align: left;\">lion</p>"
+          }
+        },
+        "explanation": "<p>The only two words that can be placed together to create a new, correct word are ‘rebel’ from the first group and ‘lion’ from the second group. This creates the word ‘rebellion’.</p><p>Note that ‘reindeer’ is spelled with <i>ei</i>, ‘endorse’ does not include an <i>h</i>, and ‘endear’ only has one <i>d</i> and is spelled with <i>ea</i>.</p>"
+      }
+    ]
+  }
+}

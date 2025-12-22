@@ -1,0 +1,75 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>Put the images in the order in which they appear in the story.</p>",
+      "type": "oq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "item",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "<div class=\"displayed-figure\"><figure><img alt=\"Tama and the Hau Mākato_2\" height=\"160\" src=\"582185202494.04.png\" style=\"aspect-ratio: 160/160;\" width=\"160\"/></figure></div>"
+        },
+        {
+          "type": "item",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<div class=\"displayed-figure\"><figure><img alt=\"Tama and the Hau Mākato_3\" height=\"160\" src=\"582185202494.03.png\" style=\"aspect-ratio: 160/160;\" width=\"160\"/></figure></div>"
+        },
+        {
+          "type": "item",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "<div class=\"displayed-figure\"><figure><img alt=\"Tama and the Hau Mākato_4\" height=\"160\" src=\"582185202494.02.png\" style=\"aspect-ratio: 160/160;\" width=\"160\"/></figure></div>"
+        },
+        {
+          "type": "item",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<div class=\"displayed-figure\"><figure><img alt=\"Tama and the Hau Mākato_5\" height=\"160\" src=\"582185202494.01.png\" style=\"aspect-ratio: 160/160;\" width=\"160\"/></figure></div>"
+        }
+      ],
+      "subtype": null,
+      "standalone": false,
+      "direction": "Horizontal"
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 582185202494,
+    "title": "",
+    "mapped_id": 582185202494,
+    "source_id": {
+      "value": 470153910730,
+      "page_number": null
+    },
+    "description": "",
+    "has_example": null,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2024-04-18T08:56:42"
+  },
+  "section_id": "259173058656",
+  "language": "en",
+  "subject_id": "512190196069",
+  "subject": "Reading",
+  "grade_id": "616145068630",
+  "grade": "4",
+  "country": "zz",
+  "question_id": "582185202494"
+}

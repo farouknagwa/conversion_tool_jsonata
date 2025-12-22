@@ -1,0 +1,96 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>What is the value of the underlined digit in <span class=\"merge\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{3.\\underline{1}}\">\\displaystyle{3.\\underline{1}}</math-field></span>?</span></p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [
+            {
+              "type": "decimal",
+              "value": "0.1",
+              "constrains": null
+            }
+          ],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "0.1"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "1"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "3"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "0.3"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "0.01"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 423121021341,
+    "title": "",
+    "country": "eg",
+    "dialect": [
+      "american british"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "en",
+    "mapped_id": 423121021341,
+    "source_id": {
+      "value": 538149205603,
+      "page_number": null
+    },
+    "description": "What is the value of the underlined digit in 3.1?",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 10,
+    "publication_date": "2021-08-24T13:47:50"
+  },
+  "section_id": "524154856121",
+  "language": "en",
+  "subject_id": "152178053494",
+  "subject": "Mathematics",
+  "grade_id": "302134381873",
+  "grade": "3",
+  "country": "zz",
+  "question_id": "423121021341"
+}

@@ -1,0 +1,85 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>Which of the following inequalities does the number line describe its solution set?</p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"925143870103.01.svg\"/></div>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{ 8x+16\\leq 16x }\">\\displaystyle{ 8x+16\\leq 16x }</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{ 8x+16 \\lt 16x }\">\\displaystyle{ 8x+16 \\lt 16x }</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{ 8x-16\\leq 16x }\">\\displaystyle{ 8x-16\\leq 16x }</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{ 8x-16 \\lt 16x }\">\\displaystyle{ 8x-16 \\lt 16x }</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{ -8x+16\\leq 16x }\">\\displaystyle{ -8x+16\\leq 16x }</math-field></span>"
+        }
+      ],
+      "subtype": null,
+      "standalone": false
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 925143870103,
+    "title": "Identifying the Linear Inequality Represented on a Given Number Line",
+    "country": "eg",
+    "mapped_id": 925143870103,
+    "source_id": {
+      "value": 510159583735,
+      "page_number": null
+    },
+    "example_id": null,
+    "description": "Which of the following inequalities does the number line describe its solution set?<Figure>",
+    "has_example": null,
+    "parts_count": 1,
+    "instances_count": 10,
+    "publication_date": "2023-05-02T13:05:33"
+  },
+  "section_id": "185167472768",
+  "language": "en",
+  "subject_id": "210123759192",
+  "subject": "Mathematics",
+  "grade_id": "713134702407",
+  "grade": "12",
+  "country": "zz",
+  "question_id": "925143870103"
+}

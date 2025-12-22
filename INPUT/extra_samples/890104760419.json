@@ -1,0 +1,94 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>كم ربعًا من الساعة في <span class=\"merge no_margin\">٥ ساعات</span>؟</p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"890104760419.01.svg\"/></div>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [
+            {
+              "type": "integer",
+              "value": "20",
+              "constrains": null
+            }
+          ],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "٢٠"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "١٠"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" dir=\"rtl\" lang=\"ar\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\frac{٥}{٤}}\">\\displaystyle{\\frac{٥}{٤}}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "٢٥"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" dir=\"rtl\" lang=\"ar\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\frac{٥}{٢}}\">\\displaystyle{\\frac{٥}{٢}}</math-field></span>"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 472124698648,
+    "title": "تفسير وحساب القسمة كعملية طرح مُتكرِّر لعدد صحيح على كسر",
+    "country": null,
+    "dialect": [
+      "modern_standard"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "ar",
+    "mapped_id": 890104760419,
+    "source_id": null,
+    "description": "كم ربعًا من الساعة في ٥ ساعات؟<شكل>",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2018-05-22T13:46:37"
+  },
+  "section_id": "163172724265",
+  "language": "ar",
+  "subject_id": "616153467023",
+  "subject": "الرياضيات",
+  "grade_id": "920193465614",
+  "grade": "6",
+  "country": "eg",
+  "parent_id": "472124698648",
+  "question_id": "890104760419"
+}

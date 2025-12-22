@@ -1,0 +1,96 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>The perfect score of an exam is 10 grades, where its consists of <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{x}\">\\displaystyle{x}</math-field></span> questions for 2 grades each and one question for 4 grades. Use the equation <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{2x + 4 = 10}\">\\displaystyle{2x + 4 = 10}</math-field></span> to find the number of questions for 2 grades each.</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [
+            {
+              "type": "integer",
+              "value": "3",
+              "constrains": null
+            }
+          ],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "3"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "4"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "5"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "2"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "1"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 583103535692,
+    "title": "",
+    "country": "eg",
+    "dialect": [
+      "american"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "en",
+    "mapped_id": 583103535692,
+    "source_id": {
+      "value": 218134709835,
+      "page_number": null
+    },
+    "description": "The perfect score of an exam is 10 grades, where its consists of x questions for 2 grades each and one question for 4 grades. Use the equation 2x + 4 = 10 to find the number of questions for 2 grades each.",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 10,
+    "publication_date": "2021-10-27T15:12:15"
+  },
+  "section_id": "625101368391",
+  "language": "en",
+  "subject_id": "954127413421",
+  "subject": "Mathematics",
+  "grade_id": "837170567976",
+  "grade": "5",
+  "country": "zz",
+  "question_id": "583103535692"
+}

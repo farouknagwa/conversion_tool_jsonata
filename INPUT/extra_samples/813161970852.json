@@ -1,0 +1,105 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p dir=\"ltr\" style=\"text-align: left;\">Select the <b>two </b>words, <b>one </b>from each group, that complete the following sentence in the best way.</p><p dir=\"ltr\" style=\"text-align: left;\"><b>Red </b>is to (panda love stop) as <b>green </b>is to (broccoli go environment).</p>",
+      "type": "gmrq",
+      "choices": [
+        {
+          "type": "distractor",
+          "unit": null,
+          "group": 2,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">broccoli&emsp;</p>"
+        },
+        {
+          "type": "key",
+          "unit": null,
+          "group": 2,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">go&emsp;</p>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "group": 1,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">love&emsp;</p>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "group": 1,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">panda&emsp;</p>"
+        },
+        {
+          "type": "key",
+          "unit": null,
+          "group": 1,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">stop</p>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "group": 2,
+          "index": 5,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 6,
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">environment</p>"
+        }
+      ],
+      "subtype": null,
+      "standalone": false
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 813161970852,
+    "title": "Word Relationship",
+    "country": "uk",
+    "dialect": [
+      "british"
+    ],
+    "category": "exam",
+    "language": "en",
+    "mapped_id": 813161970852,
+    "source_id": {
+      "value": 424182093137,
+      "page_number": null
+    },
+    "example_id": null,
+    "description": "Select the two words, one from each group, that complete the following sentence in the best way.Red is to (panda love stop) as green is to (broccoli go environment).",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2023-05-30T05:40:40"
+  },
+  "answer": "<p>The two words that complete the sentence in the best way are ‘stop’ and ‘go’, as red is\n        often associated with ‘stop’ and green is often associated with ‘go’. For example, red\n        traffic lights tell cars to stop, and green traffic lights tell cars to go.</p>",
+  "section_id": "127145140169",
+  "language": "en",
+  "subject_id": "943195121909",
+  "subject": "Mathematics",
+  "grade_id": "612152797413",
+  "grade": "6",
+  "country": "zz",
+  "question_id": "813161970852"
+}

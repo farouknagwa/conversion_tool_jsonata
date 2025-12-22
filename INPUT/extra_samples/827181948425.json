@@ -1,0 +1,102 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>أيُّ مسائل القسمة الآتية هي التي حلها؟</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{675 \\div 5}\">\\displaystyle{675 \\div 5}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{135 \\div 5}\">\\displaystyle{135 \\div 5}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{675 \\div 135}\">\\displaystyle{675 \\div 135}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{25 \\div 5}\">\\displaystyle{25 \\div 5}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{675 \\div 25}\">\\displaystyle{675 \\div 25}</math-field></span>"
+        }
+      ],
+      "subtype": null,
+      "standalone": false
+    },
+    {
+      "n": 2,
+      "stem": "<p>ما الناتج الذي حصل عليه؟</p>",
+      "type": "input_box",
+      "answer": {
+        "value": "135",
+        "constrains": {
+          "type": "integer"
+        }
+      },
+      "choices": [],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": "<p>حل أمير مسألة قسمة باستخدام القسمة المطولة كما هو موضَّح:</p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"827181948425.01.svg\"/></div>",
+  "instance_number": 1,
+  "metadata": {
+    "id": 507131617597,
+    "title": "",
+    "country": "eg",
+    "dialect": [
+      "modern_standard"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "ar",
+    "mapped_id": 827181948425,
+    "source_id": null,
+    "description": "حل أمير مسألة قسمة باستخدام القسمة المطولة كما هو موضَّح:<شكل> أيُّ مسائل القسمة الآتية هي التي حلها؟ ما الناتج الذي حصل عليه؟",
+    "has_example": false,
+    "parts_count": 2,
+    "instances_count": 10,
+    "publication_date": "2023-03-22T11:39:48"
+  },
+  "section_id": "576130354013",
+  "language": "ar",
+  "subject_id": "129160127476",
+  "subject": "الرياضيات",
+  "grade_id": "302134381873",
+  "grade": "3",
+  "country": "zz",
+  "parent_id": "507131617597",
+  "question_id": "827181948425"
+}

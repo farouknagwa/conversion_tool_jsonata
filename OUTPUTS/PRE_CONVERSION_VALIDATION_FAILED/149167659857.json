@@ -1,0 +1,96 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p> Samar has <span class=\"merge no_margin\">5.67 kg</span> of dough, and she is making batches of cookies. If each batch needs <span class=\"merge no_margin\">0.54 kg</span> of dough, then how many batches can she make?</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": "batches",
+          "index": 0,
+          "values": [
+            {
+              "type": "decimal",
+              "value": "10.5",
+              "constrains": null
+            }
+          ],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "10.5 batches"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "1.05 batches"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "105 batches"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "50.1 batches"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "<span class=\"no_margin merge\">1&lrm; &lrm;050</span> batches"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 149167659857,
+    "title": "",
+    "country": "eg",
+    "dialect": [
+      "american"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "en",
+    "mapped_id": 149167659857,
+    "source_id": {
+      "value": 287178163493,
+      "page_number": null
+    },
+    "description": "Samar has 5.67 kg of dough, and she is making batches of cookies. If each batch needs 0.54 kg of dough, then how many batches can she make?",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 10,
+    "publication_date": "2022-11-06T13:05:54"
+  },
+  "section_id": "285172140853",
+  "language": "en",
+  "subject_id": "954127413421",
+  "subject": "Mathematics",
+  "grade_id": "837170567976",
+  "grade": "5",
+  "country": "zz",
+  "question_id": "149167659857"
+}

@@ -1,0 +1,65 @@
+{
+  "question_id": "526108590372",
+  "parent_id": "526108590372",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "uk",
+  "country": "United Kingdom",
+  "subject": "Mathematics",
+  "subject_id": "943195121909",
+  "grade": "6",
+  "grade_id": "612152797413",
+  "number_of_parts": 1,
+  "section_id": "127145140169",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "gmrq",
+        "stem": "<p dir=\"ltr\" style=\"text-align: left;\">Select the <b>two </b>words, <b>one</b> from each group, that complete the following sentence in the best way.</p><p dir=\"ltr\" style=\"text-align: left;\"></p><p dir=\"ltr\" style=\"text-align: left;\"><b>Train</b> is to (station prepare track) as <b>car</b> is to (road motor drive).</p>",
+        "items": {
+          "A": [
+            {
+              "label": "A",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">track</p>",
+              "is_correct": true
+            },
+            {
+              "label": "B",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">station     </p>",
+              "is_correct": false
+            },
+            {
+              "label": "C",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">prepare   </p>",
+              "is_correct": false
+            }
+          ],
+          "B": [
+            {
+              "label": "X",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">drive</p>",
+              "is_correct": false
+            },
+            {
+              "label": "Y",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">motor   </p>",
+              "is_correct": false
+            },
+            {
+              "label": "Z",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">road     </p>",
+              "is_correct": true
+            }
+          ],
+          "correct_answer": {
+            "A": "<p dir=\"ltr\" style=\"text-align: left;\">track</p>",
+            "B": "<p dir=\"ltr\" style=\"text-align: left;\">road     </p>"
+          }
+        },
+        "explanation": "<p>The two words that complete the sentence in the best way are ‘track’ and ‘road’, as a train travels on tracks and a car travels on roads.</p>"
+      }
+    ]
+  }
+}

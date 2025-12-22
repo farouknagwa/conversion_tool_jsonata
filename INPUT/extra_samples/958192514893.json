@@ -1,0 +1,50 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p> Omar is buying potatoes. They cost &pound;3.20 per <span class=\"merge\"><span>kilogram</span>. </span>He buys <span class=\"merge\"><span class=\"merge no_margin\">4.7 kg</span>. </span>Use the column method to calculate how much Omar&rsquo;s potatoes cost.</p>",
+      "type": "input_box",
+      "answer": {
+        "unit": "£",
+        "value": "15.04",
+        "constrains": {
+          "type": "currencyValue"
+        }
+      },
+      "choices": [],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 958192514893,
+    "title": "",
+    "country": "sa",
+    "dialect": [
+      "american british"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "en",
+    "mapped_id": 958192514893,
+    "source_id": {
+      "value": 459158691360,
+      "page_number": null
+    },
+    "description": "Omar is buying potatoes. They cost £3.20 per kilogram. He buys 4.7 kg. Use the column method to calculate how much Omar’s potatoes cost.",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 10,
+    "publication_date": "2023-03-06T14:02:39"
+  },
+  "section_id": "186101518538",
+  "language": "en",
+  "subject_id": "943195121909",
+  "subject": "Mathematics",
+  "grade_id": "612152797413",
+  "grade": "6",
+  "country": "zz",
+  "question_id": "958192514893"
+}

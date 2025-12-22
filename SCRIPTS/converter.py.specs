@@ -2,7 +2,7 @@ FILE: converter.py
 PURPOSE: Converts JSON question data from old structure to new structure using JSONata transformation rules
 
 FUNCTIONS:
-- extract_common_metadata(json_data, filename): Extracts and validates metadata fields (question_id, parent_id, language_code, language, country_code, country, subject, grade, section_id, source, number_of_parts)
+- extract_common_metadata(json_data, filename): Extracts and validates metadata fields (question_id, parent_id, language_code, language, country_code, country, subject, subject_id, grade, grade_id, section_id, source, number_of_parts)
 - convert_part(part, part_index, language_code, json_data): Converts single part using appropriate JSONata rule file based on part type
   * Extracts root answer field and divides it for multi-part questions
   * Uses extract_part_explanation() to get part-specific explanation
@@ -16,6 +16,7 @@ Part type → JSONata rule file:
 - matching → matching.jsonata
 - mcq → mcq.jsonata
 - mrq → mrq.jsonata
+- gmrq → gmrq.jsonata
 - opinion → opinion.jsonata
 - counting → counting.jsonata
 - oq → ordering.jsonata

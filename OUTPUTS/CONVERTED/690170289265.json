@@ -1,0 +1,65 @@
+{
+  "question_id": "690170289265",
+  "parent_id": "690170289265",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "uk",
+  "country": "United Kingdom",
+  "subject": "Mathematics",
+  "subject_id": "943195121909",
+  "grade": "6",
+  "grade_id": "612152797413",
+  "number_of_parts": 1,
+  "section_id": "584103490985",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "gmrq",
+        "stem": "<p dir=\"ltr\" style=\"text-align: left;\">Find the <b>two</b> words, <b>one</b> from each group, that together make <b>one</b> correctly spelt word. You may <b>not</b> change the order of the letters. The word from the first group always comes before the word from the second group. </p><p dir=\"ltr\" style=\"text-align: left;\"></p>",
+        "items": {
+          "A": [
+            {
+              "label": "A",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\"> suffer</p>",
+              "is_correct": false
+            },
+            {
+              "label": "B",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\"> bright</p>",
+              "is_correct": false
+            },
+            {
+              "label": "C",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">kind</p>",
+              "is_correct": true
+            }
+          ],
+          "B": [
+            {
+              "label": "X",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">heart</p>",
+              "is_correct": false
+            },
+            {
+              "label": "Y",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">test</p>",
+              "is_correct": false
+            },
+            {
+              "label": "Z",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\"> red</p>",
+              "is_correct": true
+            }
+          ],
+          "correct_answer": {
+            "A": "<p dir=\"ltr\" style=\"text-align: left;\">kind</p>",
+            "B": "<p dir=\"ltr\" style=\"text-align: left;\"> red</p>"
+          }
+        },
+        "explanation": "<p>The only two words that can be placed together to create a new, correct word are ‘kind’ from the first group and ‘red’ from the second group. This creates the word ‘kindred’.</p><p>Note that ‘brightest’ only contains one <i>t</i> in the middle, so ‘bright’ and ‘test’ do not create a correctly spelt word. Similarly, ‘suffered’ only contains the letter <i>r</i> once, so ‘suffer’ and ‘red’ do not create a correctly spelt word.</p>"
+      }
+    ]
+  }
+}

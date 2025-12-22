@@ -1,0 +1,65 @@
+{
+  "question_id": "897174249081",
+  "parent_id": "897174249081",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "uk",
+  "country": "United Kingdom",
+  "subject": "Mathematics",
+  "subject_id": "943195121909",
+  "grade": "6",
+  "grade_id": "612152797413",
+  "number_of_parts": 1,
+  "section_id": "512165672707",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "gmrq",
+        "stem": "<p dir=\"ltr\" style=\"text-align: left;\">Find the <b>two</b> words, <b>one</b> from each group, that are the <b>most opposite in meaning</b>.</p><p dir=\"ltr\" style=\"text-align: left;\"></p>",
+        "items": {
+          "A": [
+            {
+              "label": "A",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">strong</p>",
+              "is_correct": false
+            },
+            {
+              "label": "B",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">delicate</p>",
+              "is_correct": true
+            },
+            {
+              "label": "C",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">paper</p>",
+              "is_correct": false
+            }
+          ],
+          "B": [
+            {
+              "label": "X",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">intimidating</p>",
+              "is_correct": false
+            },
+            {
+              "label": "Y",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">robust</p>",
+              "is_correct": true
+            },
+            {
+              "label": "Z",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">steel</p>",
+              "is_correct": false
+            }
+          ],
+          "correct_answer": {
+            "A": "<p dir=\"ltr\" style=\"text-align: left;\">delicate</p>",
+            "B": "<p dir=\"ltr\" style=\"text-align: left;\">robust</p>"
+          }
+        },
+        "explanation": "<p>The two words that are most opposite in meaning are ‘delicate’ from group one and ‘robust’ from group two.</p>"
+      }
+    ]
+  }
+}

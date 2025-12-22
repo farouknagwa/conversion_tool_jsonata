@@ -1,0 +1,94 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>الدرجة النهائية في اختبار ما هي 10 درجات؛ حيث يتكوَّن الاختبار من عدد <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{x}\">\\displaystyle{x}</math-field></span> من الأسئلة ذات الدرجتين لكل سؤال، وسؤال واحد ذي 4 درجات. استخدم المعادلة <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{2x + 4 = 10}\">\\displaystyle{2x + 4 = 10}</math-field></span> لإيجاد عدد الأسئلة ذات الدرجتين.</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [
+            {
+              "type": "integer",
+              "value": "3",
+              "constrains": null
+            }
+          ],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "3"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "4"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "5"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "2"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "1"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 583103535692,
+    "title": "",
+    "country": "eg",
+    "dialect": [
+      "modern_standard"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "ar",
+    "mapped_id": 716180279063,
+    "source_id": null,
+    "description": "الدرجة النهائية في اختبار ما هي ١٠ درجات؛ حيث يتكوَّن الاختبار من عدد x من الأسئلة ذات الدرجتين لكل سؤال، وسؤال واحد ذي ٤ درجات. استخدم المعادلة ٢x + ٤ = ١٠ لإيجاد عدد الأسئلة ذات الدرجتين.",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 10,
+    "publication_date": "2023-05-08T08:14:53"
+  },
+  "section_id": "625101270875",
+  "language": "ar",
+  "subject_id": "195153863763",
+  "subject": "الرياضيات",
+  "grade_id": "837170567976",
+  "grade": "5",
+  "country": "zz",
+  "parent_id": "583103535692",
+  "question_id": "716180279063"
+}

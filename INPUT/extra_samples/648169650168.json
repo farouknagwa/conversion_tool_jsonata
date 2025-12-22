@@ -1,0 +1,410 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p dir=\"ltr\" style=\"text-align: left;\">match 1 choice with one Choice</p>",
+      "type": "gmrq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "distractor",
+          "unit": null,
+          "group": 1,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">3</p>",
+          "correct_order": 3
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "group": 1,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">5</p>",
+          "correct_order": 2
+        },
+        {
+          "type": "key",
+          "unit": null,
+          "group": 1,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">KG1</p>",
+          "correct_order": 1
+        },
+        {
+          "type": "key",
+          "unit": null,
+          "group": 2,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">KG2</p>",
+          "correct_order": 3
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "group": 2,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">1</p>",
+          "correct_order": 1
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "group": 2,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">2</p>",
+          "correct_order": 2
+        }
+      ],
+      "subtype": null,
+      "grid_size": null,
+      "puzzleRows": null,
+      "standalone": false,
+      "puzzleImage": null,
+      "gap_text_keys": null,
+      "puzzleColumns": null,
+      "puzzleImageWidth": null,
+      "puzzleImageHeight": null,
+      "puzzleImageSplited": null
+    },
+    {
+      "n": 2,
+      "stem": "<p dir=\"ltr\" style=\"text-align: left;\">all choices are right</p>",
+      "type": "opinion",
+      "answer": null,
+      "choices": [
+        {
+          "type": "distractor",
+          "unit": null,
+          "group": 1,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">yes</p>",
+          "correct_order": 1
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "group": 1,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">sure</p>",
+          "correct_order": 2
+        }
+      ],
+      "subtype": null,
+      "grid_size": null,
+      "puzzleRows": null,
+      "standalone": false,
+      "puzzleImage": null,
+      "gap_text_keys": null,
+      "puzzleColumns": null,
+      "puzzleImageWidth": null,
+      "puzzleImageHeight": null,
+      "puzzleImageSplited": null
+    },
+    {
+      "n": 3,
+      "stem": "<p dir=\"ltr\" style=\"text-align: left;\">The choice1 from group1 with choice 1 from group2, and when it is online the group2 choices will be shuffled </p>",
+      "type": "matching",
+      "answer": null,
+      "choices": [
+        {
+          "type": "distractor",
+          "unit": null,
+          "group": 1,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">key1</p>",
+          "correct_order": 1
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "group": 1,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">key2</p>",
+          "correct_order": 2
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "group": 2,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">key2-1</p>",
+          "correct_order": 2
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "group": 2,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\">key1-2</p>",
+          "correct_order": 1
+        }
+      ],
+      "subtype": null,
+      "grid_size": null,
+      "puzzleRows": null,
+      "standalone": false,
+      "puzzleImage": null,
+      "gap_text_keys": null,
+      "puzzleColumns": null,
+      "puzzleImageWidth": null,
+      "puzzleImageHeight": null,
+      "puzzleImageSplited": null
+    },
+    {
+      "n": 4,
+      "stem": "<p dir=\"ltr\" style=\"text-align: left;\">The stem will require from the student to count some figures, then will click on the grid with the number of figures in any order</p><p dir=\"ltr\" style=\"text-align: left;\"></p><p dir=\"ltr\" style=\"text-align: left;\"></p>",
+      "type": "counting",
+      "answer": "2",
+      "choices": [],
+      "subtype": null,
+      "grid_size": "1×5",
+      "puzzleRows": null,
+      "standalone": false,
+      "puzzleImage": null,
+      "gap_text_keys": null,
+      "puzzleColumns": null,
+      "puzzleImageWidth": null,
+      "puzzleImageHeight": null,
+      "puzzleImageSplited": null
+    },
+    {
+      "n": 5,
+      "stem": "<p dir=\"ltr\" style=\"text-align: left;\">Question with blanks to be filled with the words written below in the same order of </p>",
+      "type": "gapText",
+      "answer": null,
+      "choices": [],
+      "subtype": null,
+      "grid_size": null,
+      "puzzleRows": null,
+      "standalone": false,
+      "puzzleImage": null,
+      "gap_text_keys": [
+        {
+          "value": "blank3",
+          "correct_order": 3
+        },
+        {
+          "value": "blank2",
+          "correct_order": 2
+        },
+        {
+          "value": "blank4",
+          "correct_order": 4
+        },
+        {
+          "value": "blank1",
+          "correct_order": 1
+        }
+      ],
+      "puzzleColumns": null,
+      "puzzleImageWidth": null,
+      "puzzleImageHeight": null,
+      "puzzleImageSplited": null
+    },
+    {
+      "n": 6,
+      "stem": "<p dir=\"ltr\" style=\"text-align: left;\">An image will be a puzzle according to the data below</p>",
+      "type": "puzzle",
+      "answer": null,
+      "choices": [],
+      "subtype": null,
+      "grid_size": null,
+      "puzzleRows": "5",
+      "standalone": false,
+      "puzzleImage": "648169650168.01.jpg",
+      "gap_text_keys": null,
+      "puzzleColumns": "4",
+      "puzzleImageWidth": "200",
+      "puzzleImageHeight": "250",
+      "puzzleImageSplited": [
+        {
+          "src": "648169650168.20.png",
+          "index": 0,
+          "fixed_order": 0,
+          "correct_order": 13
+        },
+        {
+          "src": "648169650168.09.png",
+          "index": 1,
+          "fixed_order": 1,
+          "correct_order": 6
+        },
+        {
+          "src": "648169650168.19.png",
+          "index": 2,
+          "fixed_order": 2,
+          "correct_order": 3
+        },
+        {
+          "src": "648169650168.18.png",
+          "index": 3,
+          "fixed_order": 3,
+          "correct_order": 17
+        },
+        {
+          "src": "648169650168.17.png",
+          "index": 4,
+          "fixed_order": 4,
+          "correct_order": 18
+        },
+        {
+          "src": "648169650168.16.png",
+          "index": 5,
+          "fixed_order": 5,
+          "correct_order": 16
+        },
+        {
+          "src": "648169650168.15.png",
+          "index": 6,
+          "fixed_order": 6,
+          "correct_order": 12
+        },
+        {
+          "src": "648169650168.14.png",
+          "index": 7,
+          "fixed_order": 7,
+          "correct_order": 2
+        },
+        {
+          "src": "648169650168.13.png",
+          "index": 8,
+          "fixed_order": 8,
+          "correct_order": 8
+        },
+        {
+          "src": "648169650168.12.png",
+          "index": 9,
+          "fixed_order": 9,
+          "correct_order": 7
+        },
+        {
+          "src": "648169650168.08.png",
+          "index": 10,
+          "fixed_order": 10,
+          "correct_order": 15
+        },
+        {
+          "src": "648169650168.07.png",
+          "index": 11,
+          "fixed_order": 11,
+          "correct_order": 10
+        },
+        {
+          "src": "648169650168.06.png",
+          "index": 12,
+          "fixed_order": 12,
+          "correct_order": 4
+        },
+        {
+          "src": "648169650168.05.png",
+          "index": 13,
+          "fixed_order": 13,
+          "correct_order": 11
+        },
+        {
+          "src": "648169650168.04.png",
+          "index": 14,
+          "fixed_order": 14,
+          "correct_order": 5
+        },
+        {
+          "src": "648169650168.03.png",
+          "index": 15,
+          "fixed_order": 15,
+          "correct_order": 19
+        },
+        {
+          "src": "648169650168.02.png",
+          "index": 16,
+          "fixed_order": 16,
+          "correct_order": 9
+        },
+        {
+          "src": "648169650168.01.png",
+          "index": 17,
+          "fixed_order": 17,
+          "correct_order": 0
+        },
+        {
+          "src": "648169650168.11.png",
+          "index": 18,
+          "fixed_order": 18,
+          "correct_order": 1
+        },
+        {
+          "src": "648169650168.10.png",
+          "index": 19,
+          "fixed_order": 19,
+          "correct_order": 14
+        }
+      ]
+    }
+  ],
+  "statement": "<p dir=\"ltr\" style=\"text-align: left;\">Question with all quistion types</p>",
+  "instance_number": 1,
+  "metadata": {
+    "id": 648169650168,
+    "title": "TestQuestion",
+    "country": "eg",
+    "dialect": [
+      "american"
+    ],
+    "category": "lesson",
+    "language": "en",
+    "mapped_id": 648169650168,
+    "source_id": {
+      "value": 746191310389,
+      "page_number": null
+    },
+    "example_id": null,
+    "description": "Question with all quistion types match 1 choice with one Choice all choices are right The choice1 from group1 with choice 1 from group2, and when it is online the group2 choices will be shuffled  The stem will require from the student to count some fi",
+    "has_example": false,
+    "parts_count": 6,
+    "instances_count": 1,
+    "publication_date": "2024-07-04T11:32:32"
+  },
+  "section_id": "478101538014",
+  "language": "en",
+  "subject_id": "490141217359",
+  "subject": "Mathematics",
+  "grade_id": "747181064157",
+  "grade": "7",
+  "country": "zz",
+  "question_id": "648169650168"
+}

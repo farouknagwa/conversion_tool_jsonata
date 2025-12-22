@@ -1,0 +1,65 @@
+{
+  "question_id": "365134797984",
+  "parent_id": "365134797984",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "uk",
+  "country": "United Kingdom",
+  "subject": "Mathematics",
+  "subject_id": "943195121909",
+  "grade": "6",
+  "grade_id": "612152797413",
+  "number_of_parts": 1,
+  "section_id": "512165672707",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "gmrq",
+        "stem": "<p dir=\"ltr\" style=\"text-align: left;\">Find the <b>two</b> words, <b>one</b> from each group, that are the <b>most opposite in meaning</b>.</p>",
+        "items": {
+          "A": [
+            {
+              "label": "A",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">spicy</p>",
+              "is_correct": false
+            },
+            {
+              "label": "B",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">red</p>",
+              "is_correct": false
+            },
+            {
+              "label": "C",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">passionate</p>",
+              "is_correct": true
+            }
+          ],
+          "B": [
+            {
+              "label": "X",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">freezing</p>",
+              "is_correct": false
+            },
+            {
+              "label": "Y",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">cold</p>",
+              "is_correct": true
+            },
+            {
+              "label": "Z",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">grey</p>",
+              "is_correct": false
+            }
+          ],
+          "correct_answer": {
+            "A": "<p dir=\"ltr\" style=\"text-align: left;\">passionate</p>",
+            "B": "<p dir=\"ltr\" style=\"text-align: left;\">cold</p>"
+          }
+        },
+        "explanation": "<p>The two words that are most opposite in meaning are ‘passionate’, meaning ‘having intense feelings’, from group one and ‘cold’, in the sense of ‘lacking feelings or enthusiasm’, from group two.</p><p>Note that the word ‘spicy’ can mean ‘hot’, but only in the sense of ‘having spices in food’. A closer opposite than ‘cold’ would be ‘bland’.</p>"
+      }
+    ]
+  }
+}

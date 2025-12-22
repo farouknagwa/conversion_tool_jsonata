@@ -1,0 +1,210 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>Quel <span class=\"merge no_margin\">jour</span> les estimations sont-elles &agrave; la fois exactes et pr&eacute;cises<span style=\"white - space:nowrap\"> </span>?</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": ""
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "Deuxi&egrave;me jour"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "Troisi&egrave;me jour"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "Quatri&egrave;me jour"
+        }
+      ],
+      "subtype": null,
+      "standalone": false
+    },
+    {
+      "n": 2,
+      "stem": "<p>Quel <span class=\"merge no_margin\">jour</span> les estimations sont-elles exactes mais non pr&eacute;cises<span style=\"white - space:nowrap\"> </span>?</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "Troisi&egrave;me jour"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "Premier jour"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "Deuxi&egrave;me jour"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "Quatri&egrave;me jour"
+        }
+      ],
+      "subtype": null,
+      "standalone": false
+    },
+    {
+      "n": 3,
+      "stem": "<p>Quel <span class=\"merge no_margin\">jour</span> les estimations sont-elles pr&eacute;cises mais non exactes<span style=\"white - space:nowrap\"> </span>?</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "Deuxi&egrave;me jour"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "Premier jour"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "Troisi&egrave;me jour"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "Quatri&egrave;me jour"
+        }
+      ],
+      "subtype": null,
+      "standalone": false
+    },
+    {
+      "n": 4,
+      "stem": "<p>Quel <span class=\"merge no_margin\">jour</span> les estimations ne sont ni pr&eacute;cises ni exactes<span style=\"white - space:nowrap\"> </span>?</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "Quatri&egrave;me jour"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "Premier jour"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "Troisi&egrave;me jour"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "Deuxi&egrave;me jour"
+        }
+      ],
+      "subtype": null,
+      "standalone": false
+    }
+  ],
+  "statement": "<p>Un pot contient exactement 50 billes. Il y a un concours pour d&eacute;terminer le nombre de billes. Le concours dure <span class=\"merge\"><span class=\"merge no_margin\">quatre jours</span>. </span>Chaque <span class=\"merge\"><span class=\"merge no_margin\">jour</span>, </span>25 personnes estiment le nombre de billes. Les r&eacute;sultats pour chaque <span class=\"merge no_margin\">jour</span> sont illustr&eacute;s ci-dessous.</p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"787153064047.02.svg\"/></div><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"787153064047.03.svg\"/></div><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"787153064047.01.svg\"/></div><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"787153064047.04.svg\"/></div>",
+  "instance_number": 1,
+  "metadata": {
+    "id": 807168961795,
+    "title": "",
+    "mapped_id": 787153064047,
+    "source_id": null,
+    "description": "Un pot contient exactement 50 billes. Il y a un concours pour déterminer le nombre de billes. Le concours dure quatre jours. Chaque jour, 25 personnes estiment le nombre de billes. Les résultats pour chaque jour sont illustrés ci-dessous.<Figure><Figure><Figure><Figure> Quel jour les estimations sont-elles à la fois exactes et précises ? Quel jour les estimations sont-elles exactes mais non précises ? Quel jour les estimations sont-elles précises mais non exactes ? Quel jour les estimations ne sont ni précises ni exactes ?",
+    "has_example": null,
+    "parts_count": 4,
+    "instances_count": 1,
+    "publication_date": "2021-03-02T15:25:25"
+  },
+  "section_id": "598126319401",
+  "language": "fr",
+  "subject_id": "272169713643",
+  "subject": "Physics",
+  "grade_id": "642131974929",
+  "grade": "9",
+  "country": "zz",
+  "parent_id": "807168961795",
+  "question_id": "787153064047"
+}

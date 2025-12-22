@@ -1,0 +1,250 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>Desenhando um gráfico de caixa e bigode usando as informações que Rodrigo calculou a partir do conjunto de dados. </p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "<div class=\"h-scroll\"><img class=\"displayed-image\" src=\"439126527432.03.svg\" /></div>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<div class=\"h-scroll\"><img class=\"displayed-image\" src=\"439126527432.04.svg\" /></div>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "<div class=\"h-scroll\"><img class=\"displayed-image\" src=\"439126527432.02.svg\" /></div>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<div class=\"h-scroll\"><img class=\"displayed-image\" src=\"439126527432.01.svg\" /></div>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": ""
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    },
+    {
+      "n": 2,
+      "stem": "<p>Qual é a faixa etária geral dos nadadores de Sábado de manhã?</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": "<span class=\"merge no_margin\">anos</span>",
+          "index": 0,
+          "values": [
+            {
+              "type": "integer",
+              "value": "24",
+              "constrains": null
+            }
+          ],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "<span class=\"merge no_margin\">24 anos</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<span class=\"merge no_margin\">31 anos</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<span class=\"merge no_margin\">35 anos</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "<span class=\"merge no_margin\">12 anos</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "<span class=\"merge no_margin\">22 anos</span>"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    },
+    {
+      "n": 3,
+      "stem": "<p>Qual porcentagem de nadadores de Sábado de manhã tinham entre 7 e <span class=\"merge no_margin\">22 anos</span> de idade?</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "<svg style=\"vertical-align:-2.0373599003736pt\" xmlns=\"http://www.w3.org/2000/svg\" width=\"25pt\" height=\"12pt\" viewBox=\"-1 0 25 12\"><g font-family=\"NagwaMath\" font-size=\"13.5\"><text y=\"9.963\">7</text><text y=\"9.963\" x=\"6.658\">5</text><text y=\"9.963\" x=\"13.315\">%</text></g></svg>‎"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<svg style=\"vertical-align:-2.0373599003736pt\" xmlns=\"http://www.w3.org/2000/svg\" width=\"25pt\" height=\"12pt\" viewBox=\"-1 0 25 12\"><g font-family=\"NagwaMath\" font-size=\"13.5\"><text y=\"9.963\">5</text><text y=\"9.963\" x=\"6.658\">0</text><text y=\"9.963\" x=\"13.315\">%</text></g></svg>‎"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "<svg style=\"vertical-align:-2.0373599003736pt\" xmlns=\"http://www.w3.org/2000/svg\" width=\"25pt\" height=\"12pt\" viewBox=\"-1 0 25 12\"><g font-family=\"NagwaMath\" font-size=\"13.5\"><text y=\"9.963\">2</text><text y=\"9.963\" x=\"6.658\">5</text><text y=\"9.963\" x=\"13.315\">%</text></g></svg>‎"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<svg style=\"vertical-align:-2.0373599003736pt\" xmlns=\"http://www.w3.org/2000/svg\" width=\"25pt\" height=\"12pt\" viewBox=\"-1 0 25 12\"><g font-family=\"NagwaMath\" font-size=\"13.5\"><text y=\"9.963\">6</text><text y=\"9.963\" x=\"6.658\">0</text><text y=\"9.963\" x=\"13.315\">%</text></g></svg>‎"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "<svg style=\"vertical-align:-2.0373599003736pt\" xmlns=\"http://www.w3.org/2000/svg\" width=\"25pt\" height=\"12pt\" viewBox=\"-1 0 25 12\"><g font-family=\"NagwaMath\" font-size=\"13.5\"><text y=\"9.963\">6</text><text y=\"9.963\" x=\"6.658\">2</text><text y=\"9.963\" x=\"13.315\">%</text></g></svg>‎"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    },
+    {
+      "n": 4,
+      "stem": "<p>Calcule e interprete a porcentagem de nadadores de Sábado de manhã cobertos pela caixa. </p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "<svg style=\"vertical-align:-2.0373599003736pt\" xmlns=\"http://www.w3.org/2000/svg\" width=\"25pt\" height=\"12pt\" viewBox=\"-1 0 25 12\"><g font-family=\"NagwaMath\" font-size=\"13.5\"><text y=\"9.963\">5</text><text y=\"9.963\" x=\"6.658\">0</text><text y=\"9.963\" x=\"13.315\">%</text></g></svg> dos nadadores de Sábado de manhã tinham entre 10 e <span class=\"merge no_margin\">22 anos</span> de idade."
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "<svg style=\"vertical-align:-2.0373599003736pt\" xmlns=\"http://www.w3.org/2000/svg\" width=\"25pt\" height=\"12pt\" viewBox=\"-1 0 25 12\"><g font-family=\"NagwaMath\" font-size=\"13.5\"><text y=\"9.963\">7</text><text y=\"9.963\" x=\"6.658\">5</text><text y=\"9.963\" x=\"13.315\">%</text></g></svg> dos nadadores de Sábado de manhã tinham entre 10 e <span class=\"merge no_margin\">22 anos</span> de idade."
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<svg style=\"vertical-align:-2.0373599003736pt\" xmlns=\"http://www.w3.org/2000/svg\" width=\"25pt\" height=\"12pt\" viewBox=\"-1 0 25 12\"><g font-family=\"NagwaMath\" font-size=\"13.5\"><text y=\"9.963\">2</text><text y=\"9.963\" x=\"6.658\">5</text><text y=\"9.963\" x=\"13.315\">%</text></g></svg> dos nadadores de Sábado de manhã tinham entre 10 e <span class=\"merge no_margin\">22 anos</span> de idade."
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<svg style=\"vertical-align:-2.0373599003736pt\" xmlns=\"http://www.w3.org/2000/svg\" width=\"25pt\" height=\"12pt\" viewBox=\"-1 0 25 12\"><g font-family=\"NagwaMath\" font-size=\"13.5\"><text y=\"9.963\">6</text><text y=\"9.963\" x=\"6.658\">0</text><text y=\"9.963\" x=\"13.315\">%</text></g></svg> dos nadadores de Sábado de manhã tinham entre 10 e <span class=\"merge no_margin\">22 anos</span> de idade."
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": "<p>Rodrigo calculou as seguintes informações a partir de um conjunto de dados sobre a idade dos nadadores em um Sábado de manhã em uma piscina: </p><ul style=\"list-style-type:none\"><li>Valor mais baixo: 7</li><li>Quartil inferior: 10</li><li>Mediana: 15</li><li>Quartil superior: 22</li><li>Valor mais alto: 31</li></ul>",
+  "instance_number": 1,
+  "metadata": {
+    "id": 240129689742,
+    "title": "",
+    "country": null,
+    "dialect": [
+      "brazilian"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "pt",
+    "mapped_id": 439126527432,
+    "source_id": null,
+    "description": "Rodrigo calculou as seguintes informações a partir de um conjunto de dados sobre a idade dos nadadores em um Sábado de manhã em uma piscina: Valor mais baixo: 7Quartil inferior: 10Mediana: 15Quartil superior: 22Valor mais alto: 31 Desenhando um gráfico de caixa e bigode usando as informações que Rodrigo calculou a partir do conjunto de dados. Qual é a faixa etária geral dos nadadores de Sábado de manhã? Qual porcentagem de nadadores de Sábado de manhã tinham entre 7 e 22 anos de idade? Calcule e interprete a porcentagem de nadadores de Sábado de manhã cobertos pela caixa.",
+    "has_example": false,
+    "parts_count": 4,
+    "instances_count": 1,
+    "publication_date": "2019-10-04T08:55:15"
+  },
+  "section_id": "906184201087",
+  "language": "pt",
+  "subject_id": "507192767485",
+  "subject": "Mathematics",
+  "grade_id": "612152797413",
+  "grade": "6",
+  "country": "zz",
+  "parent_id": "240129689742",
+  "question_id": "439126527432"
+}

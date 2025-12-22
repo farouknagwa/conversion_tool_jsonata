@@ -1,0 +1,65 @@
+{
+  "question_id": "820186787412",
+  "parent_id": "820186787412",
+  "language_code": "ar",
+  "language": "Arabic",
+  "country_code": "uk",
+  "country": "United Kingdom",
+  "subject": "Mathematics",
+  "subject_id": "943195121909",
+  "grade": "6",
+  "grade_id": "612152797413",
+  "number_of_parts": 1,
+  "section_id": "438106548523",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "gmrq",
+        "stem": "<p dir=\"ltr\" style=\"text-align: left;\">Find the <b>two</b> words, <b>one</b> from each group, that are <b>closest in meaning</b>.</p>",
+        "items": {
+          "A": [
+            {
+              "label": "أ",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">painful</p>",
+              "is_correct": false
+            },
+            {
+              "label": "ب",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">dangerous</p>",
+              "is_correct": true
+            },
+            {
+              "label": "ج",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">scary </p>",
+              "is_correct": false
+            }
+          ],
+          "B": [
+            {
+              "label": "س",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">annoying</p>",
+              "is_correct": false
+            },
+            {
+              "label": "ص",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">hazard</p>",
+              "is_correct": false
+            },
+            {
+              "label": "ض",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">risky </p>",
+              "is_correct": true
+            }
+          ],
+          "correct_answer": {
+            "A": "<p dir=\"ltr\" style=\"text-align: left;\">dangerous</p>",
+            "B": "<p dir=\"ltr\" style=\"text-align: left;\">risky </p>"
+          }
+        },
+        "explanation": "<p>The two words that are closest in meaning are ‘dangerous’ from group one and ‘risky’ from group two. Both of these words describe something unsafe that is likely to cause harm.</p><p>Take note that ‘hazard’ is a noun, so it does not go well with ‘dangerous’, which is an adjective, even though the two words are related.</p>"
+      }
+    ]
+  }
+}

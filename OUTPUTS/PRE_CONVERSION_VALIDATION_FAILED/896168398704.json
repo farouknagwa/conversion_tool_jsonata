@@ -1,0 +1,85 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p> Nada draws this model to show that <span class=\"merge\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{5b + 6 = 30}\">\\displaystyle{5b + 6 = 30}</math-field></span>.</span></p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"896168398704.01.svg\"/></div><p>Which of the following can Nada do to keep the equation balanced?</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "Subtract 6 from both sides of the equation"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "Add 6 to the right-hand side of the equation"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "Subtract 6 from the left-hand side of the equation"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "Divide 30 by 5"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "Divide 30 by 6"
+        }
+      ],
+      "subtype": null,
+      "standalone": false
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 896168398704,
+    "title": "",
+    "country": "eg",
+    "mapped_id": 896168398704,
+    "source_id": {
+      "value": 287178163493,
+      "page_number": null
+    },
+    "example_id": null,
+    "description": "Nada draws this model to show that 5b + 6 = 30.<Figure>Which of the following can Nada do to keep the equation balanced?",
+    "has_example": null,
+    "parts_count": 1,
+    "instances_count": 10,
+    "publication_date": "2022-07-19T07:50:50"
+  },
+  "section_id": "625101368391",
+  "language": "en",
+  "subject_id": "954127413421",
+  "subject": "Mathematics",
+  "grade_id": "837170567976",
+  "grade": "5",
+  "country": "zz",
+  "question_id": "896168398704"
+}

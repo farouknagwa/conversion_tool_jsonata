@@ -1,0 +1,65 @@
+{
+  "question_id": "813130659158",
+  "parent_id": "813130659158",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "uk",
+  "country": "United Kingdom",
+  "subject": "Mathematics",
+  "subject_id": "943195121909",
+  "grade": "6",
+  "grade_id": "612152797413",
+  "number_of_parts": 1,
+  "section_id": "438106548523",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "gmrq",
+        "stem": "<p dir=\"ltr\" style=\"text-align: left;\">Find the <b>two </b>words, <b>one </b>from each group, that are <b>closest in meaning</b>.</p>",
+        "items": {
+          "A": [
+            {
+              "label": "A",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">satisfaction</p>",
+              "is_correct": false
+            },
+            {
+              "label": "B",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">rude</p>",
+              "is_correct": true
+            },
+            {
+              "label": "C",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">praise</p>",
+              "is_correct": false
+            }
+          ],
+          "B": [
+            {
+              "label": "X",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">respectful</p>",
+              "is_correct": false
+            },
+            {
+              "label": "Y",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">regret</p>",
+              "is_correct": false
+            },
+            {
+              "label": "Z",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">impolite</p>",
+              "is_correct": true
+            }
+          ],
+          "correct_answer": {
+            "A": "<p dir=\"ltr\" style=\"text-align: left;\">rude</p>",
+            "B": "<p dir=\"ltr\" style=\"text-align: left;\">impolite</p>"
+          }
+        },
+        "explanation": "<p>The two words that are closest in meaning are ‘rude’ and ‘impolite’. Both these words are used to describe someone being disrespectful and/or ill-mannered. Being ‘rude’ and being ‘respectful’ are opposite in meaning. ‘Praise’ is not similar in meaning to any word from the second group and neither is ‘satisfaction’. Similarly, ‘regret’ is not similar in meaning to any word from the first group.</p>"
+      }
+    ]
+  }
+}

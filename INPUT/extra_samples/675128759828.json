@@ -1,0 +1,86 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>Maya swims in a club.</p><p>In <span class=\"merge\"><span class=\"merge no_margin\">3 weeks</span>, </span>she swims <span class=\"merge\"><span class=\"merge no_margin\">24 km</span>. </span></p><p>What distance does Maya swim in <span class=\"merge\"><span class=\"merge no_margin\">5 weeks</span>?</span></p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "<span class=\"merge no_margin\">40 km</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<span class=\"merge no_margin\">8 km</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "<span class=\"merge no_margin\">72 km</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<span class=\"merge no_margin\">120 km</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "<span class=\"merge no_margin\">50 km</span>"
+        }
+      ],
+      "subtype": null,
+      "standalone": false
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 675128759828,
+    "title": "",
+    "country": "eg",
+    "mapped_id": 675128759828,
+    "source_id": {
+      "value": 907139471258,
+      "page_number": null
+    },
+    "example_id": null,
+    "description": "Maya swims in a club.In 3 weeks, she swims 24 km. What distance does Maya swim in 5 weeks?",
+    "has_example": null,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2023-03-07T08:45:25"
+  },
+  "answer": "<p>In <span class=\"merge\"><span class=\"merge no_margin\">1 week</span>, </span>Maya swims\n      \n      <svg width=\"110.016\" height=\"13.271\" viewBox=\"354.558 270.318 82.512 9.953\" class=\"displayed_equation\" xmlns=\"http://www.w3.org/2000/svg\"><g font-family=\"NagwaMath\" font-size=\"13.5\"><text y=\"280.099\" x=\"354.199\">2</text><text y=\"280.099\" x=\"360.857\">4</text><text y=\"280.099\" x=\"370.5\">÷</text><text y=\"280.099\" x=\"382.107\">3</text><text y=\"280.099\" x=\"392.503\">=</text><text y=\"280.099\" x=\"405.926\">8</text><text y=\"280.099\" x=\"434.492\">.</text></g><g font-family=\"STIX2\" font-size=\"13.5\"><text y=\"280.099\" x=\"415.744\">k</text><text y=\"280.099\" x=\"423.034\">m</text></g></svg></p><p>Hence, in <span class=\"merge\"><span class=\"merge no_margin\">5 weeks</span>, \n        </span>she swims\n        \n        <svg width=\"109.893\" height=\"13.604\" viewBox=\"354.746 270.318 82.419 10.203\" class=\"displayed_equation\" xmlns=\"http://www.w3.org/2000/svg\"><g font-family=\"NagwaMath\" font-size=\"13.5\"><text y=\"280.099\" x=\"354.105\">5</text><text y=\"280.099\" x=\"363.748\">×</text><text y=\"280.099\" x=\"375.544\">8</text><text y=\"280.099\" x=\"385.94\">=</text><text y=\"280.099\" x=\"399.363\">4</text><text y=\"280.099\" x=\"406.02\">0</text><text y=\"280.099\" x=\"434.587\">.</text></g><g font-family=\"STIX2\" font-size=\"13.5\"><text y=\"280.099\" x=\"415.838\">k</text><text y=\"280.099\" x=\"423.128\">m</text></g></svg></p><p>The correct answer is <span class=\"merge\"><span class=\"merge no_margin\">40 km</span>.</span></p>",
+  "section_id": "204105925427",
+  "language": "en",
+  "subject_id": "943195121909",
+  "subject": "Mathematics",
+  "grade_id": "612152797413",
+  "grade": "6",
+  "country": "zz",
+  "question_id": "675128759828"
+}

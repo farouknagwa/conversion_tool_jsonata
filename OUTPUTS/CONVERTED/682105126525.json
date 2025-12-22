@@ -1,0 +1,65 @@
+{
+  "question_id": "682105126525",
+  "parent_id": "682105126525",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "uk",
+  "country": "United Kingdom",
+  "subject": "Mathematics",
+  "subject_id": "943195121909",
+  "grade": "6",
+  "grade_id": "612152797413",
+  "number_of_parts": 1,
+  "section_id": "127145140169",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "gmrq",
+        "stem": "<p dir=\"ltr\" style=\"text-align: left;\">Select the <b>two </b>words, <b>one </b>from each group, that complete the following sentence in the best way.</p><p dir=\"ltr\" style=\"text-align: left;\"><b>Aeroplane </b>is to (flying wings freedom) as <b>submarine </b>is to (diving water exploration).</p>",
+        "items": {
+          "A": [
+            {
+              "label": "A",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">wings </p>",
+              "is_correct": false
+            },
+            {
+              "label": "B",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">freedom</p>",
+              "is_correct": false
+            },
+            {
+              "label": "C",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">flying </p>",
+              "is_correct": true
+            }
+          ],
+          "B": [
+            {
+              "label": "X",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">exploration</p>",
+              "is_correct": false
+            },
+            {
+              "label": "Y",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">diving </p>",
+              "is_correct": true
+            },
+            {
+              "label": "Z",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">water </p>",
+              "is_correct": false
+            }
+          ],
+          "correct_answer": {
+            "A": "<p dir=\"ltr\" style=\"text-align: left;\">flying </p>",
+            "B": "<p dir=\"ltr\" style=\"text-align: left;\">diving </p>"
+          }
+        },
+        "explanation": "<p>For the first group, we can relate ‘aeroplane’ to ‘wings’ very closely as an aeroplane’s wings are an essential part of the machine. We can also relate ‘aeroplane’ to ‘flying’ very closely as an aeroplane is a man-made machine that allows people to fly from one place to another. If we take these two relationships and expand them to the second group, the sentence is best completed by ‘as submarine is to diving’. This is because none of the three words of the second group describe an essential part of a submarine, but a submarine is a man-made machine that allows people to dive for a long time.</p><p>So, the two words we need are ‘flying’ and ‘diving’.</p>"
+      }
+    ]
+  }
+}

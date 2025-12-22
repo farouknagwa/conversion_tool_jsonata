@@ -103,8 +103,13 @@ def extract_country_code(json_data: Dict[str, Any]) -> str:
         # Rule 1: If 'eg' was found anywhere (top level or metadata), it wins.
         if "eg" in valid_found_codes:
             return "eg"
-        
-        # Rule 2: Otherwise, return the first one found (preserves Top Level priority)
+
+        # Rule 2: If we have exactly 2 codes with exactly one 'zz', prefer the other valid country code
+        if len(valid_found_codes) == 2 and valid_found_codes.count("zz") == 1:
+            valid_found_codes.remove("zz")
+            return valid_found_codes[0]
+
+        # Rule 3: Otherwise, return the first one found (preserves Top Level priority)
         return valid_found_codes[0]
 
     # 4. Error Handling (No valid codes found)

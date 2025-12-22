@@ -1,0 +1,65 @@
+{
+  "question_id": "506132062586",
+  "parent_id": "506132062586",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "uk",
+  "country": "United Kingdom",
+  "subject": "Mathematics",
+  "subject_id": "943195121909",
+  "grade": "6",
+  "grade_id": "612152797413",
+  "number_of_parts": 1,
+  "section_id": "438106548523",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "gmrq",
+        "stem": "<p dir=\"ltr\" style=\"text-align: left;\">Find the <b>two </b>words, <b>one </b>from each group, that are <b>closest in meaning</b>.</p>",
+        "items": {
+          "A": [
+            {
+              "label": "A",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">good</p>",
+              "is_correct": false
+            },
+            {
+              "label": "B",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">wealth</p>",
+              "is_correct": true
+            },
+            {
+              "label": "C",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">pardon</p>",
+              "is_correct": false
+            }
+          ],
+          "B": [
+            {
+              "label": "X",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">unacceptable</p>",
+              "is_correct": false
+            },
+            {
+              "label": "Y",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">fortune</p>",
+              "is_correct": true
+            },
+            {
+              "label": "Z",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">bad</p>",
+              "is_correct": false
+            }
+          ],
+          "correct_answer": {
+            "A": "<p dir=\"ltr\" style=\"text-align: left;\">wealth</p>",
+            "B": "<p dir=\"ltr\" style=\"text-align: left;\">fortune</p>"
+          }
+        },
+        "explanation": "<p>The two words that are closest in meaning are ‘wealth’ and ‘fortune’. Both these words are used to describe a large amount of money and valuables. The words ‘good’ and ‘bad’ are opposite in meaning. ‘Pardon’ is not similar in meaning to any word from the second group and ‘unacceptable’ is not similar in meaning to any word from the first group.</p>"
+      }
+    ]
+  }
+}

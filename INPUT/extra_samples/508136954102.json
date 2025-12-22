@@ -1,0 +1,65 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>A factory determines that the cost, in dollars, of the factory&rsquo;s monthly operation of making <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{x}\">\\displaystyle{x}</math-field></span> smartphones is given by <span class=\"merge\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{100{,}000+100x-0.01x^2}\">\\displaystyle{100{,}000+100x-0.01x^2}</math-field></span>, </span>where <span class=\"merge\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{0\\leq x \\leq 4{,}000}\">\\displaystyle{0\\leq x \\leq 4{,}000}</math-field></span>. </span>The rate of change in the average cost per smartphone when the factory manufactures 100 smartphones = <span class=\"merge\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{\\$\\textBlank /{\\textrm{smartphone}}^2}\">\\displaystyle{\\$\\textBlank /{\\textrm{smartphone}}^2}</math-field></span>. </span>Round your answer to the nearest dollar.</p>",
+      "type": "input_box",
+      "answer": {
+        "unit": "$",
+        "value": "-10",
+        "constrains": {
+          "type": "currencyValue"
+        }
+      },
+      "choices": [],
+      "subtype": null,
+      "standalone": true
+    },
+    {
+      "n": 2,
+      "stem": "<p>A team determines that if the factory manufactures <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{x}\">\\displaystyle{x}</math-field></span> smartphones per month, the recommended retail price per smartphone, in dollars, is <span class=\"merge\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{600-0.1x}\">\\displaystyle{600-0.1x}</math-field></span>, </span>where <span class=\"merge\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{0\\leq x \\leq 4{,}000}\">\\displaystyle{0\\leq x \\leq 4{,}000}</math-field></span>.</span></p><p>Assuming that all manufactured smartphones are sold at the recommended price, the rate of change in the monthly profit when 100 smartphones are manufactured = <span class=\"merge\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{\\$\\textBlank /\\textrm{smartphone}}\">\\displaystyle{\\$\\textBlank /\\textrm{smartphone}}</math-field></span>. </span>Round your answer to the nearest dollar.</p>",
+      "type": "input_box",
+      "answer": {
+        "unit": "$",
+        "value": "482",
+        "constrains": {
+          "type": "currencyValue"
+        }
+      },
+      "choices": [],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 508136954102,
+    "title": "",
+    "country": null,
+    "dialect": [
+      "american british"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "en",
+    "mapped_id": 508136954102,
+    "source_id": {
+      "value": 660341756260,
+      "page_number": null
+    },
+    "description": "A factory determines that the cost, in dollars, of the factory’s monthly operation of making x smartphones is given by 100,000+100x-0.01x^2, where 0≤ x ≤ 4,000. The rate of change in the average cost per smartphone when the factory manufactures 100 smartphones = _/smartphone^2. Round your answer to the nearest dollar. A team determines that if the factory manufactures x smartphones per month, the recommended retail price per smartphone, in dollars, is 600-0.1x, where 0≤ x ≤ 4,000.Assuming that all manufactured smartphones are sold at the recommended price, the rate of change in the monthly profit when 100 smartphones are manufactured = _/smartphone. Round your answer to the nearest dollar.",
+    "has_example": false,
+    "parts_count": 2,
+    "instances_count": 10,
+    "publication_date": "2021-06-28T15:35:47"
+  },
+  "section_id": "813151038724",
+  "language": "en",
+  "subject_id": "210123759192",
+  "subject": "Mathematics",
+  "grade_id": "713134702407",
+  "grade": "12",
+  "country": "zz",
+  "question_id": "508136954102"
+}

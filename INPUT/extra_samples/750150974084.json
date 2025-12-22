@@ -1,0 +1,76 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>Order the steps needed to measure the mass of a solid object using a two-arm balance scale.</p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"750150974084.01.svg\"/></div>",
+      "type": "oq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "item",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "Put the clean balance scale horizontally on a stable surface."
+        },
+        {
+          "type": "item",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "Put the object to be measured on one of the two arms of the balance."
+        },
+        {
+          "type": "item",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "Put standard masses on the other arm until the two arms balance."
+        },
+        {
+          "type": "item",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "Add the numbers written on the standard masses together to give you the mass of the object."
+        }
+      ],
+      "subtype": null,
+      "standalone": false,
+      "direction": "Vertical"
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 750150974084,
+    "title": "",
+    "mapped_id": 750150974084,
+    "source_id": {
+      "value": 378198342063,
+      "page_number": null
+    },
+    "description": "",
+    "has_example": null,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2021-08-29T14:25:38",
+    "question_country": []
+  },
+  "section_id": "590139532386",
+  "language": "en",
+  "subject_id": "828197025630",
+  "subject": "Science",
+  "grade_id": "612152797413",
+  "grade": "6",
+  "country": "zz",
+  "question_id": "750150974084"
+}

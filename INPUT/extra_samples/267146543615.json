@@ -1,0 +1,85 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>Using the following tape diagram, calculate <span class=\"merge\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\frac{10}{4} - \\frac{1}{4}}\">\\displaystyle{\\frac{10}{4} - \\frac{1}{4}}</math-field></span>.</span></p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"267146543615.01.svg\"/></div>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\frac{9}{4}}\">\\displaystyle{\\frac{9}{4}}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\frac{7}{4}}\">\\displaystyle{\\frac{7}{4}}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\frac{1}{4}}\">\\displaystyle{\\frac{1}{4}}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\frac{3}{4}}\">\\displaystyle{\\frac{3}{4}}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\frac{5}{4}}\">\\displaystyle{\\frac{5}{4}}</math-field></span>"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 267146543615,
+    "title": "",
+    "country": "eg",
+    "mapped_id": 267146543615,
+    "source_id": {
+      "value": 360528767742,
+      "page_number": null
+    },
+    "example_id": null,
+    "description": "Using the following tape diagram, calculate 10/4 - 1/4.<Figure>",
+    "has_example": null,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2020-01-09T06:47:14"
+  },
+  "section_id": "162123657483",
+  "language": "en",
+  "subject_id": "195157918418",
+  "subject": "Mathematics",
+  "grade_id": "108127568584",
+  "grade": "2",
+  "country": "zz",
+  "question_id": "267146543615"
+}

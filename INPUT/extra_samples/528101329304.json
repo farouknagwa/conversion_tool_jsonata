@@ -1,0 +1,96 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>The diameter of a monster truck&rsquo;s tire is <span class=\"merge\"><span class=\"merge no_margin\">167.64 cm</span>. </span>How many full turns will the tire have to make to travel a distance of <span class=\"merge\"><span class=\"merge no_margin\">23.8 m</span>? </span>Use 3.14 to approximate.</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [
+            {
+              "type": "integer",
+              "value": "5",
+              "constrains": null
+            }
+          ],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "5"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "6"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "4"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "22"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "21"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 528101329304,
+    "title": "",
+    "country": "eg",
+    "dialect": [
+      "american"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "en",
+    "mapped_id": 528101329304,
+    "source_id": {
+      "value": 287178163493,
+      "page_number": null
+    },
+    "description": "The diameter of a monster truck’s tire is 167.64 cm. How many full turns will the tire have to make to travel a distance of 23.8 m? Use 3.14 to approximate.",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 10,
+    "publication_date": "2022-09-27T13:39:54"
+  },
+  "section_id": "753197835431",
+  "language": "en",
+  "subject_id": "954127413421",
+  "subject": "Mathematics",
+  "grade_id": "837170567976",
+  "grade": "5",
+  "country": "zz",
+  "question_id": "528101329304"
+}

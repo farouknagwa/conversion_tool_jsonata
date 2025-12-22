@@ -1,0 +1,94 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>احسب <span class=\"merge\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" dir=\"rtl\" lang=\"ar\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\left(٨٫٣٠٢ \\times ٠٠٠\\,١\\right) + ٥٫٥٥٨}\">\\displaystyle{\\left(٨٫٣٠٢ \\times ٠٠٠\\,١\\right) + ٥٫٥٥٨}</math-field></span>. </span></p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [
+            {
+              "type": "decimal",
+              "value": "8307.558",
+              "constrains": null
+            }
+          ],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<span class=\"no_margin merge\">٨&lrm; &lrm;٣٠٧٫٥٥٨</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "<span class=\"no_margin merge\">٨&lrm; &lrm;٣٤٨٫١٤٣</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "٨٣٥٫٧٥٨"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "٨٨٫٥٧٨"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "٨٧٦٫٣٤٣"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 938136282429,
+    "title": "",
+    "country": "eg",
+    "dialect": [
+      "modern_standard"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "ar",
+    "mapped_id": 670143569517,
+    "source_id": null,
+    "description": "احسب (٨٫٣٠٢ × ١٠٠‎ ‎٠) + ٥٫٥٥٨.",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 10,
+    "publication_date": "2016-01-31T13:02:25"
+  },
+  "section_id": "780106127303",
+  "language": "ar",
+  "subject_id": "195153863763",
+  "subject": "الرياضيات",
+  "grade_id": "837170567976",
+  "grade": "5",
+  "country": "zz",
+  "parent_id": "938136282429",
+  "question_id": "670143569517"
+}

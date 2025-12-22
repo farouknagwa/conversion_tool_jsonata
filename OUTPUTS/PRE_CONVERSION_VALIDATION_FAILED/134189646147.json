@@ -1,0 +1,82 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>جمعت رانيا وكريم بعض عينات التربة بأنواعها الرملية والسلتية والطينية. أرادَا اختبار كلِّ نوع من حيث درجة امتصاصه للماء.<div class=\"h-scroll\"><img class=\"displayed-image\" src=\"134189646147.01.svg\"/></div></p><p>رتِّب خطوات إجراء الاختبار ترتيبًا صحيحًا.</p>",
+      "type": "oq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "item",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "أحضر ثلاثة أنابيب زجاجية متشابهة مفتوحة الطرفين."
+        },
+        {
+          "type": "item",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "غطِّ بإحكام طرفًا واحدًا من كلِّ أنبوب بقطعة قماش."
+        },
+        {
+          "type": "item",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "أضف كمية متساوية من كلِّ نوع من أنواع التربة إلى كلِّ أنبوب على حدة."
+        },
+        {
+          "type": "item",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "اغمر الأطراف المُغطَّاة من الأنابيب الثلاثة في حوض من الماء، وضعها على نفس العمق."
+        },
+        {
+          "type": "item",
+          "unit": null,
+          "index": 5,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "لاحظ ارتفاع الماء في كلِّ أنبوب من الأنابيب الثلاثة."
+        }
+      ],
+      "subtype": null,
+      "standalone": false,
+      "direction": "Vertical"
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 786142590302,
+    "title": "",
+    "mapped_id": 134189646147,
+    "source_id": null,
+    "description": "",
+    "has_example": null,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2024-11-20T06:48:36"
+  },
+  "section_id": "729168686920",
+  "language": "ar",
+  "subject_id": "862194150479",
+  "subject": "العلوم",
+  "grade_id": "837170567976",
+  "grade": "5",
+  "country": "zz",
+  "parent_id": "786142590302",
+  "question_id": "134189646147"
+}

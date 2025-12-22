@@ -4,7 +4,7 @@ PURPOSE:
 Automated tool to convert educational question JSON files from legacy structure to new standardized structure, with comprehensive validation and error reporting.
 
 CAPABILITIES:
-- Converts 11 question types: MCQ, MRQ, FRQ_AI, Ordering, Gap-Text, String, Opinion, Matching, Counting, Puzzle, Input-Box
+- Converts 12 question types: MCQ, MRQ, GMRQ, FRQ_AI, Ordering, Gap-Text, String, Opinion, Matching, Counting, Puzzle, Input-Box
 - Uses JSONata transformation rules for type-specific conversions
 - Three-stage pipeline: Pre-validation → Conversion → Post-validation
 - Batch processing with progress tracking and error recovery

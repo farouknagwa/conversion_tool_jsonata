@@ -1,0 +1,96 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>Use the diagram to find <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\frac{12}{13} \\div \\frac{3}{13}}\">\\displaystyle{\\frac{12}{13} \\div \\frac{3}{13}}</math-field></span> (i.e., how many <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\frac{3}{13}}\">\\displaystyle{\\frac{3}{13}}</math-field></span> are in <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\frac{12}{13}}\">\\displaystyle{\\frac{12}{13}}</math-field></span>).</p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"273159495902.01.svg\"/></div>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [
+            {
+              "type": "integer",
+              "value": "4",
+              "constrains": null
+            }
+          ],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "4"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "15"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "36"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "9"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "2"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 273159495902,
+    "title": "Interpreting Measurement Division of a Fraction by a Fraction of Same Denominator",
+    "country": null,
+    "dialect": [
+      "american british"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "en",
+    "mapped_id": 273159495902,
+    "source_id": {
+      "value": 810178027057,
+      "page_number": null
+    },
+    "description": "Use the diagram to find 12/133/13 (i.e., how many 3/13 are in 12/13).<Figure>",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2018-02-12T13:06:42"
+  },
+  "section_id": "859175641760",
+  "language": "en",
+  "subject_id": "673181575120",
+  "subject": "Mathematics",
+  "grade_id": "920193465614",
+  "grade": "6",
+  "country": "eg",
+  "question_id": "273159495902"
+}

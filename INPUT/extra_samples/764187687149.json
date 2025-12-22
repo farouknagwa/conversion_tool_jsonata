@@ -1,0 +1,122 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>تزعم داليا أنه بما أن <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" dir=\"rtl\" lang=\"ar\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\frac{٢}{٩}}\">\\displaystyle{\\frac{٢}{٩}}</math-field></span> في الكتلة الكلية للصناديق يساوي <span class=\"merge\"><span class=\"merge no_margin\">١٤ كجم</span>، </span>فإن الكتلة الكلية للصناديق تساوي بالضبط ناتج <span class=\"merge\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" dir=\"rtl\" lang=\"ar\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{١٤ \\div \\frac{٢}{٩}}\">\\displaystyle{١٤ \\div \\frac{٢}{٩}}</math-field></span>. </span>هل هي على صواب؟</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "نعم"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "لا"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    },
+    {
+      "n": 2,
+      "stem": "<p>ساعِد شادي في إيجاد الكتلة الكلية للصناديق.</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": "<span>كجم</span>",
+          "index": 0,
+          "values": [
+            {
+              "type": "integer",
+              "value": "63",
+              "constrains": null
+            }
+          ],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<span class=\"merge no_margin\">٦٣ كجم</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "<span class=\"merge no_margin\">٥٦ كجم</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "<span class=\"merge no_margin\">٧٠ كجم</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "<span class=\"merge no_margin\">٧٢ كجم</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<span class=\"merge no_margin\">١٢٦ كجم</span>"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": "<p>لدى شادي ٩ صناديق متساوية الكتلة. يريد إيجاد كتلتها الكلية. قاس كتلة ٢ منها، ووجد أنها تزن <span class=\"merge\"><span class=\"merge no_margin\">١٤ كجم</span>.</span></p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"764187687149.01.svg\"/></div>",
+  "instance_number": 1,
+  "metadata": {
+    "id": 575170658385,
+    "title": "",
+    "country": null,
+    "dialect": [
+      "modern_standard"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "ar",
+    "mapped_id": 764187687149,
+    "source_id": null,
+    "description": "لدى شادي ٩ صناديق متساوية الكتلة. يريد إيجاد كتلتها الكلية. قاس كتلة ٢ منها، ووجد أنها تزن ١٤ كجم.<شكل> تزعم داليا أنه بما أن ٢/٩ في الكتلة الكلية للصناديق يساوي ١٤ كجم، فإن الكتلة الكلية للصناديق تساوي بالضبط ناتج ١٤ ٢/٩. هل هي على صواب؟ ساعِد شادي في إيجاد الكتلة الكلية للصناديق.",
+    "has_example": false,
+    "parts_count": 2,
+    "instances_count": 10,
+    "publication_date": "2022-06-01T11:41:19"
+  },
+  "section_id": "395170432101",
+  "language": "ar",
+  "subject_id": "616153467023",
+  "subject": "الرياضيات",
+  "grade_id": "920193465614",
+  "grade": "6",
+  "country": "eg",
+  "parent_id": "575170658385",
+  "question_id": "764187687149"
+}

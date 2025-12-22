@@ -1,0 +1,96 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>Find the result of the following addition: <svg width=\"61.634\" height=\"101.13\" viewBox=\"374.228 266.168 46.226 75.847\" class=\"displayed_equation\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M -0.00115625 0.00159375 L 35.237125 0.00159375\" transform=\"matrix(1,0,0,-1,385.216,341.818)\" fill=\"none\" stroke-width=\".398\" stroke=\"#000\" stroke-miterlimit=\"10\" /><g font-family=\"NagwaMath\" font-size=\"13.5\"><text y=\"275.043\" x=\"387.209\">1</text><text y=\"275.043\" x=\"393.867\">.</text><text y=\"275.043\" x=\"401.156\">7</text><text y=\"295.218\" x=\"373.54\">+</text><text y=\"295.218\" x=\"387.205\">2</text><text y=\"295.218\" x=\"393.862\">.</text><text y=\"295.218\" x=\"401.152\">1</text><text y=\"295.218\" x=\"411.791\">6</text><text y=\"315.392\" x=\"373.54\">+</text><text y=\"315.392\" x=\"387.205\">3</text><text y=\"315.392\" x=\"393.862\">.</text><text y=\"315.392\" x=\"401.152\">8</text><text y=\"315.392\" x=\"411.791\">7</text><text y=\"335.566\" x=\"373.54\">+</text><text y=\"335.566\" x=\"387.205\">1</text><text y=\"335.566\" x=\"393.862\">.</text><text y=\"335.566\" x=\"401.152\">1</text><text y=\"335.566\" x=\"411.791\">8</text></g></svg></p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [
+            {
+              "type": "decimal",
+              "value": "8.91",
+              "constrains": null
+            }
+          ],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "8.91"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "8.28"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "8.98"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "8.8"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "8.79"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 534109250340,
+    "title": "",
+    "country": "eg",
+    "dialect": [
+      "american british"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "en",
+    "mapped_id": 534109250340,
+    "source_id": {
+      "value": 952105301938,
+      "page_number": null
+    },
+    "description": "Find the result of the following addition:  &amp;1.&amp;7&amp; +&amp;2.&amp;1&amp;6 +&amp;3.&amp;8&amp;7 +&amp;1.&amp;1&amp;8 2-4",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 10,
+    "publication_date": "2020-12-31T05:43:23"
+  },
+  "section_id": "106123436451",
+  "language": "en",
+  "subject_id": "954127413421",
+  "subject": "Mathematics",
+  "grade_id": "837170567976",
+  "grade": "5",
+  "country": "zz",
+  "question_id": "534109250340"
+}

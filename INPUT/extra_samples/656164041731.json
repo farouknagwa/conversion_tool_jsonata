@@ -1,0 +1,50 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>If the price of 13 similar copybooks is 110.50 LE, find the price of each copybook.</p>",
+      "type": "input_box",
+      "answer": {
+        "value": "8.50",
+        "constrains": {
+          "type": "currencyValue"
+        },
+        "unit": "LE"
+      },
+      "choices": [],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 656164041731,
+    "title": "",
+    "country": "eg",
+    "dialect": [
+      "american british"
+    ],
+    "automark": true,
+    "category": "exam",
+    "language": "en",
+    "mapped_id": 656164041731,
+    "source_id": {
+      "value": 538149205603,
+      "page_number": null
+    },
+    "description": "If the price of 13 similar copybooks is 110.50 LE, find the price of each copybook.",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2024-04-15T13:42:52"
+  },
+  "section_id": "872195757082",
+  "language": "en",
+  "subject_id": "943195121909",
+  "subject": "Mathematics",
+  "grade_id": "612152797413",
+  "grade": "6",
+  "country": "zz",
+  "question_id": "656164041731"
+}

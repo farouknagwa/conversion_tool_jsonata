@@ -1,0 +1,86 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>The graph shows the donations of five people to an orphanage. What was the highest donation? </p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"710184816712.01.svg\"/></div>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "650 pounds"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "450 pounds"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "300 pounds"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "400 pounds"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "700 pounds"
+        }
+      ],
+      "subtype": null,
+      "standalone": false
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 710184816712,
+    "title": "Using a Bar Graph to Compare Data",
+    "country": "eg",
+    "mapped_id": 710184816712,
+    "source_id": {
+      "value": 736183494052,
+      "page_number": null
+    },
+    "example_id": 830130871875,
+    "description": "The graph shows the donations of five people to an orphanage. What was the highest donation? <Figure>",
+    "has_example": true,
+    "parts_count": 1,
+    "instances_count": 10,
+    "publication_date": "2016-06-07T12:08:32"
+  },
+  "answer": "\n      <p>\nFirst, find the person who made the greatest donation. Look for\nthe tallest bar in the graph.</p>\n      <p>The bar for Olivia is the tallest, so Olivia made the greatest\ndonation.</p>\n      <p>Then, find how much Olivia donated. Look along the vertical axis to\nfind the amount of the donation.</p>\n      <p>The bar for Olivia goes up to halfway between 600 pounds and 700\npounds. So, the value of the greatest donation is 650 pounds.\n</p>\n    ",
+  "section_id": "958124759579",
+  "language": "en",
+  "subject_id": "152178053494",
+  "subject": "Mathematics",
+  "grade_id": "302134381873",
+  "grade": "3",
+  "country": "zz",
+  "question_id": "710184816712"
+}

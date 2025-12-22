@@ -1,0 +1,65 @@
+{
+  "question_id": "454191459498",
+  "parent_id": "454191459498",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "uk",
+  "country": "United Kingdom",
+  "subject": "Mathematics",
+  "subject_id": "943195121909",
+  "grade": "6",
+  "grade_id": "612152797413",
+  "number_of_parts": 1,
+  "section_id": "584103490985",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "gmrq",
+        "stem": "<p dir=\"ltr\" style=\"text-align: left;\">Find the <b>two </b>words, <b>one </b>from each group, that together make <b>one </b>correctly spelt word. You may <b>not </b>change the order of the letters. The word from the first group always comes before the word from the second group.</p>",
+        "items": {
+          "A": [
+            {
+              "label": "A",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">go</p>",
+              "is_correct": true
+            },
+            {
+              "label": "B",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">be</p>",
+              "is_correct": false
+            },
+            {
+              "label": "C",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">am</p>",
+              "is_correct": false
+            }
+          ],
+          "B": [
+            {
+              "label": "X",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">mend</p>",
+              "is_correct": false
+            },
+            {
+              "label": "Y",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">sling</p>",
+              "is_correct": true
+            },
+            {
+              "label": "Z",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">where</p>",
+              "is_correct": false
+            }
+          ],
+          "correct_answer": {
+            "A": "<p dir=\"ltr\" style=\"text-align: left;\">go</p>",
+            "B": "<p dir=\"ltr\" style=\"text-align: left;\">sling</p>"
+          }
+        },
+        "explanation": "<p>The only two words that can be placed together to create a new, correct word are ‘go’ from the first group and ‘sling’ from the second group. This creates the word ‘gosling’.</p><p>The word ‘bewhere’ created from ‘be’ and ‘where’ may seem to be a correct word, but the correct spelling is ‘beware’. Similarly, the word ‘ammend’ created from ‘am’ and ‘mend’ may also seem like a correct word, but the correct spelling is ‘amend’.</p>"
+      }
+    ]
+  }
+}

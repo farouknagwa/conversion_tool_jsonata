@@ -1,0 +1,63 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>Una fábrica ha calculado que el coste, en dólares, de la operatividad mensual de la fábrica de producir <svg style=\"vertical-align:-1.0373599003736pt\" width=\"10pt\" height=\"8pt\" viewBox=\"-1 3 10 8\" xmlns=\"http://www.w3.org/2000/svg\"><g font-family=\"NagwaMath\" font-size=\"13.5\"><text y=\"9.963\">𝑥</text></g></svg> teléfonos inteligentes viene dada por <span class=\"merge\"><svg style=\"vertical-align:-1.82982151891345pt\" width=\"141pt\" height=\"14pt\" viewBox=\"-1 -1 141 14\" xmlns=\"http://www.w3.org/2000/svg\"><g font-family=\"NagwaMath\" font-size=\"13.5\"><text y=\"11.171\">1</text><text y=\"11.171\" x=\"6.658\">0</text><text y=\"11.171\" x=\"13.315\">0</text><text y=\"11.171\" x=\"22.205\">0</text><text y=\"11.171\" x=\"28.863\">0</text><text y=\"11.171\" x=\"35.52\">0</text><text y=\"11.171\" x=\"45.164\">+</text><text y=\"11.171\" x=\"57.847\">1</text><text y=\"11.171\" x=\"64.504\">0</text><text y=\"11.171\" x=\"71.162\">0</text><text y=\"11.171\" x=\"77.819\">𝑥</text><text y=\"11.171\" x=\"88.727\">−</text><text y=\"11.171\" x=\"101.396\">0</text><text y=\"11.171\" x=\"108.054\">.</text><text y=\"11.171\" x=\"111.362\">0</text><text y=\"11.171\" x=\"118.02\">1</text><text y=\"11.171\" x=\"124.677\">𝑥</text></g><g font-family=\"NagwaMath\" font-size=\"9.467\"><text y=\"6.329\" x=\"132.606\"></text></g></svg>, </span>donde <span class=\"merge\"><svg style=\"vertical-align:-3.0373599003736pt\" width=\"80pt\" height=\"13pt\" viewBox=\"-1 0 80 13\" xmlns=\"http://www.w3.org/2000/svg\"><g font-family=\"NagwaMath\" font-size=\"13.5\"><text y=\"9.963\">0</text><text y=\"9.963\" x=\"10.383\">≤</text><text y=\"9.963\" x=\"23.55\">𝑥</text><text y=\"9.963\" x=\"35.211\">≤</text><text y=\"9.963\" x=\"48.378\">4</text><text y=\"9.963\" x=\"57.268\">0</text><text y=\"9.963\" x=\"63.926\">0</text><text y=\"9.963\" x=\"70.583\">0</text></g></svg>. </span>La tasa de variación en el coste promedio por teléfono inteligente cuando la fábrica produce 100 teléfonos inteligentes = <span class=\"merge\"><svg style=\"vertical-align:-4.17539634087017pt\" width=\"175pt\" height=\"18pt\" viewBox=\"-1 -1 175 18\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M -0.0005625 -0.001125 L 40.347094 -0.001125\" transform=\"matrix(1 0 0 -1 8.899 12.327)\" fill=\"none\" stroke-width=\".996\" stroke=\"#000\" stroke-miterlimit=\"10\" /><g font-family=\"NagwaMath\" font-size=\"13.5\"><text y=\"12.825\">$</text><text y=\"12.825\" x=\"51.489\">/</text></g><g font-family=\"STIX2\" font-size=\"13.5\"><text y=\"12.825\" x=\"56.694\">t</text><text y=\"12.825\" x=\"60.863\">e</text><text y=\"12.825\" x=\"67.104\">l</text><text y=\"12.825\" x=\"70.91\">é</text><text y=\"12.825\" x=\"77.151\">f</text><text y=\"12.825\" x=\"81.28\">o</text><text y=\"12.825\" x=\"88.193\">n</text><text y=\"12.825\" x=\"95.94\">o</text><text y=\"12.825\" x=\"106.014\">i</text><text y=\"12.825\" x=\"109.847\">n</text><text y=\"12.825\" x=\"117.594\">t</text><text y=\"12.825\" x=\"121.763\">e</text><text y=\"12.825\" x=\"128.004\">l</text><text y=\"12.825\" x=\"131.81\">i</text><text y=\"12.825\" x=\"135.643\">g</text><text y=\"12.825\" x=\"142.22\">e</text><text y=\"12.825\" x=\"148.46\">n</text><text y=\"12.825\" x=\"156.207\">t</text><text y=\"12.825\" x=\"160.377\">e</text></g><g font-family=\"NagwaMath\" font-size=\"9.467\"><text y=\"6.329\" x=\"166.618\"></text></g></svg>. </span>Redondea la respuesta al dólar más cercano.</p>",
+      "type": "input_box",
+      "answer": {
+        "unit": "$",
+        "value": "-10",
+        "constrains": {
+          "type": "currencyValue"
+        }
+      },
+      "choices": [],
+      "subtype": null,
+      "standalone": true
+    },
+    {
+      "n": 2,
+      "stem": "<p>Un equipo ha hallado que, si la fábrica produce <svg style=\"vertical-align:-1.0373599003736pt\" width=\"10pt\" height=\"8pt\" viewBox=\"-1 3 10 8\" xmlns=\"http://www.w3.org/2000/svg\"><g font-family=\"NagwaMath\" font-size=\"13.5\"><text y=\"9.963\">𝑥</text></g></svg> teléfonos inteligentes al mes, el precio de venta recomendado por teléfono inteligente, en dólares, es <span class=\"merge\"><svg style=\"vertical-align:-2.0373599003736pt\" width=\"62pt\" height=\"12pt\" viewBox=\"-1 0 62 12\" xmlns=\"http://www.w3.org/2000/svg\"><g font-family=\"NagwaMath\" font-size=\"13.5\"><text y=\"9.963\">6</text><text y=\"9.963\" x=\"6.658\">0</text><text y=\"9.963\" x=\"13.315\">0</text><text y=\"9.963\" x=\"22.958\">−</text><text y=\"9.963\" x=\"35.628\">0</text><text y=\"9.963\" x=\"42.285\">.</text><text y=\"9.963\" x=\"45.594\">1</text><text y=\"9.963\" x=\"52.252\">𝑥</text></g></svg>, </span>donde <span class=\"merge\"><svg style=\"vertical-align:-3.0373599003736pt\" width=\"80pt\" height=\"13pt\" viewBox=\"-1 0 80 13\" xmlns=\"http://www.w3.org/2000/svg\"><g font-family=\"NagwaMath\" font-size=\"13.5\"><text y=\"9.963\">0</text><text y=\"9.963\" x=\"10.383\">≤</text><text y=\"9.963\" x=\"23.55\">𝑥</text><text y=\"9.963\" x=\"35.211\">≤</text><text y=\"9.963\" x=\"48.378\">4</text><text y=\"9.963\" x=\"57.268\">0</text><text y=\"9.963\" x=\"63.926\">0</text><text y=\"9.963\" x=\"70.583\">0</text></g></svg>.</span></p><p>Suponiendo que todos los teléfonos inteligentes fabricados se venden al precio recomendado, la tasa de variación en la ganancia mensual cuando se fabrican 100 teléfonos inteligentes = <span class=\"merge\"><svg style=\"vertical-align:-5.0373599003736pt\" width=\"169pt\" height=\"16pt\" viewBox=\"-1 -1 169 16\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M -0.0005625 0.00015625 L 40.347094 0.00015625\" transform=\"matrix(1 0 0 -1 8.899 9.465)\" fill=\"none\" stroke-width=\".996\" stroke=\"#000\" stroke-miterlimit=\"10\" /><g font-family=\"NagwaMath\" font-size=\"13.5\"><text y=\"9.963\">$</text><text y=\"9.963\" x=\"51.489\">/</text></g><g font-family=\"STIX2\" font-size=\"13.5\"><text y=\"9.963\" x=\"56.694\">t</text><text y=\"9.963\" x=\"60.931\">e</text><text y=\"9.963\" x=\"67.171\">l</text><text y=\"9.963\" x=\"70.977\">é</text><text y=\"9.963\" x=\"77.218\">f</text><text y=\"9.963\" x=\"81.347\">o</text><text y=\"9.963\" x=\"88.26\">n</text><text y=\"9.963\" x=\"96.007\">o</text><text y=\"9.963\" x=\"106.081\">i</text><text y=\"9.963\" x=\"109.914\">n</text><text y=\"9.963\" x=\"117.661\">t</text><text y=\"9.963\" x=\"121.897\">e</text><text y=\"9.963\" x=\"128.138\">l</text><text y=\"9.963\" x=\"131.944\">i</text><text y=\"9.963\" x=\"135.777\">g</text><text y=\"9.963\" x=\"142.287\">e</text><text y=\"9.963\" x=\"148.528\">n</text><text y=\"9.963\" x=\"156.275\">t</text><text y=\"9.963\" x=\"160.511\">e</text></g></svg>. </span>Redondea la respuesta al dólar más cercano. </p>",
+      "type": "input_box",
+      "answer": {
+        "unit": "$",
+        "value": "482",
+        "constrains": {
+          "type": "currencyValue"
+        }
+      },
+      "choices": [],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 508136954102,
+    "title": "",
+    "country": null,
+    "dialect": [
+      "european latin_american"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "es",
+    "mapped_id": 414186728427,
+    "source_id": null,
+    "description": "Una fábrica ha calculado que el coste, en dólares, de la operatividad mensual de la fábrica de producir x teléfonos inteligentes viene dada por 100 000+100x-0.01x^2, donde 0≤ x ≤ 4 000. La tasa de variación en el coste promedio por teléfono inteligente cuando la fábrica produce 100 teléfonos inteligentes = _/teléfono inteligente^2. Redondea la respuesta al dólar más cercano. Un equipo ha hallado que, si la fábrica produce x teléfonos inteligentes al mes, el precio de venta recomendado por teléfono inteligente, en dólares, es 600-0.1x, donde 0≤ x ≤ 4 000.Suponiendo que todos los teléfonos inteligentes fabricados se venden al precio recomendado, la tasa de variación en la ganancia mensual cuando se fabrican 100 teléfonos inteligentes = _/teléfono inteligente. Redondea la respuesta al dólar más cercano.",
+    "has_example": false,
+    "parts_count": 2,
+    "instances_count": 10,
+    "publication_date": "2022-02-21T14:18:31"
+  },
+  "section_id": "813153528102",
+  "language": "es",
+  "subject_id": "376127419784",
+  "subject": "Mathematics",
+  "grade_id": "713134702407",
+  "grade": "12",
+  "country": "zz",
+  "parent_id": "508136954102",
+  "question_id": "414186728427"
+}

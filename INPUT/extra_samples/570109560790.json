@@ -1,0 +1,81 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>Qual das seguintes galáxias tem a barra central menos proeminente?</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "<div class=\"displayed-figure\"><figure><img alt=\"Galáxia espiral - Messier 81\" height=\"160\" src=\"570109560790.04.jpg\" style=\"aspect-ratio: 238/160;\" width=\"238\"/></figure></div>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<div class=\"displayed-figure\"><figure><img alt=\"Galáxia espiral - Messier 77\" height=\"160\" src=\"570109560790.02.jpg\" style=\"aspect-ratio: 203/160;\" width=\"203\"/></figure></div>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<div class=\"displayed-figure\"><figure><img alt=\"Galáxia espiral barrada - UGC 12158\" height=\"160\" src=\"570109560790.01.jpg\" style=\"aspect-ratio: 186/160;\" width=\"186\"/></figure></div>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "<div class=\"displayed-figure\"><figure><img alt=\"Galáxia espiral barrada - NGC 1300\" height=\"160\" src=\"570109560790.03.jpg\" style=\"aspect-ratio: 280/160;\" width=\"280\"/></figure></div>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": ""
+        }
+      ],
+      "subtype": null,
+      "standalone": false
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 349179648429,
+    "title": "",
+    "mapped_id": 570109560790,
+    "source_id": null,
+    "description": "Qual das seguintes galáxias tem a barra central menos proeminente?",
+    "has_example": null,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2020-10-15T17:49:11"
+  },
+  "section_id": "769180410214",
+  "language": "pt",
+  "subject_id": "302141958158",
+  "subject": "Physics",
+  "grade_id": "932125747187",
+  "grade": "11",
+  "country": "zz",
+  "parent_id": "349179648429",
+  "question_id": "570109560790"
+}

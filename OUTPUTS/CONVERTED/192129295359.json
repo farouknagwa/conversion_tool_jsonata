@@ -1,0 +1,65 @@
+{
+  "question_id": "192129295359",
+  "parent_id": "192129295359",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "uk",
+  "country": "United Kingdom",
+  "subject": "Mathematics",
+  "subject_id": "943195121909",
+  "grade": "6",
+  "grade_id": "612152797413",
+  "number_of_parts": 1,
+  "section_id": "127145140169",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "gmrq",
+        "stem": "<p dir=\"ltr\" style=\"text-align: left;\">Select the <b>two </b>words, <b>one </b>from each group, that complete the following sentence in the best way.</p><p dir=\"ltr\" style=\"text-align: left;\"><b>Boulder </b>is to (rock heavy landslide) as <b>feather </b>is to (light pillow quill).</p>",
+        "items": {
+          "A": [
+            {
+              "label": "A",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">rock&emsp;</p>",
+              "is_correct": false
+            },
+            {
+              "label": "B",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">heavy&emsp;</p>",
+              "is_correct": true
+            },
+            {
+              "label": "C",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">landslide</p>",
+              "is_correct": false
+            }
+          ],
+          "B": [
+            {
+              "label": "X",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">quill</p>",
+              "is_correct": false
+            },
+            {
+              "label": "Y",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">light&emsp;</p>",
+              "is_correct": true
+            },
+            {
+              "label": "Z",
+              "value": "<p dir=\"ltr\" style=\"text-align: left;\">pillow&emsp;</p>",
+              "is_correct": false
+            }
+          ],
+          "correct_answer": {
+            "A": "<p dir=\"ltr\" style=\"text-align: left;\">heavy&emsp;</p>",
+            "B": "<p dir=\"ltr\" style=\"text-align: left;\">light&emsp;</p>"
+          }
+        },
+        "explanation": "<p>For the first group, we can relate ‘boulder’ to ‘heavy’ very closely as ‘heavy’ describes the weight that boulders generally have. ‘Boulder’ also closely links to ‘rock’ and ‘landslide’, but this connection is not seen in the second group. If we take the relationship between ‘boulder’ and ‘heavy’ and expand it to the second group, the sentence is best completed by ‘as feather is to light’. This is because feathers are generally light, so ‘light’ describes the weight of a feather.</p>"
+      }
+    ]
+  }
+}

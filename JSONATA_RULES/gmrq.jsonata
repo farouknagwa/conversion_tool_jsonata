@@ -1,0 +1,65 @@
+(
+  /* Separate choices by group and sort by index for display order */
+  $group1ByIndex := part.choices[group=1]^(index);
+  $group2ByIndex := part.choices[group=2]^(index);
+
+
+  /* Determine label set based on language */
+  $labels1 := languageCode = 'ar' ? ['أ', 'ب', 'ج', 'د', 'ه', 'و', 'ز', 'ح', 'ط', 'ي'] : 
+                                    ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'];
+
+  /* Determine label set based on language */
+  $labels2 := languageCode = 'ar' ? ['س', 'ص', 'ض', 'ط', 'ظ', 'ع', 'غ', 'ف', 'ق', 'ك'] : 
+                                    ['X', 'Y', 'Z', 'AA', 'AB', 'AC', 'AD', 'AE', 'AF', 'AG'];
+
+  /* Build items A with labels based on index order */
+  $itemsA := $map($group1ByIndex, function($item, $idx) {
+    {
+      "label": $labels1[$idx],
+      "value": $item.html_content,
+      "is_correct": $item.type = 'key'
+    }
+  });
+  
+  /* Build items B with labels based on index order */
+  $itemsB := $map($group2ByIndex, function($item, $idx) {
+    (
+      {
+        "label": $labels2[$idx],
+        "value": $item.html_content,
+        "is_correct": $item.type = 'key'
+      }
+    )
+  });
+  
+
+  /* Extract correct answer (the one with type='key') */
+  $group1keyChoiceIndex := $map($group1ByIndex, function($choice, $idx) {
+    $choice.type = 'key' ? $idx : null
+  })[$!=null][0];
+
+  $group2keyChoiceIndex := $map($group2ByIndex, function($choice, $idx) {
+    $choice.type = 'key' ? $idx : null
+  })[$!=null][0];
+  
+  
+  $correctAnswers := {
+    "A": $group1ByIndex[$group1keyChoiceIndex].html_content,
+    "B": $group2ByIndex[$group2keyChoiceIndex].html_content
+  };
+
+  
+  /* Return the complete part structure */
+  {
+    "n": part.n,
+    "type": "gmrq",
+    "stem": part.stem,
+    "items": {
+      "A": $itemsA,
+      "B": $itemsB,
+      "correct_answer": $correctAnswers
+    },
+    "explanation": explanation
+  }
+)
+

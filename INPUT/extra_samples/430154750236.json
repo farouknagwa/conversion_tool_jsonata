@@ -1,0 +1,86 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>Find the number that continues the series in the most sensible way. <span class=\"LexicalTheme__math\" data-node-type=\"math\" data-node-variation=\"block\"><math-field default-mode=\"math\" read-only=\"\" value=\"\\begin{align}13 \\quad 16 \\quad 21 \\quad 28 \\quad 37 \\quad 48 \\quad [?] \\end{align}\">\\begin{align}13 \\quad 16 \\quad 21 \\quad 28 \\quad 37 \\quad 48 \\quad [?] \\end{align}</math-field></span></p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "61"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "55"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "57"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "59"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "63"
+        }
+      ],
+      "subtype": null,
+      "standalone": false
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 430154750236,
+    "title": "",
+    "country": "eg",
+    "mapped_id": 430154750236,
+    "source_id": {
+      "value": 907139471258,
+      "page_number": null
+    },
+    "example_id": null,
+    "description": "Find the number that continues the series in the most sensible way. 13    16    21    28    37    48    [?]",
+    "has_example": null,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2023-03-23T08:35:52"
+  },
+  "answer": "<p>In this sequence, 3 is added to the first number, 5 is added to the second number,\n        7 is added to the third number, 9 is added to the fourth number, and 11 is added to \n        the fifth number. So, the number being added increases by 2 each time:  \n        <svg width=\"99.892\" height=\"207.955\" viewBox=\"358.572 271.115 74.919 155.967\" class=\"displayed_equation\" xmlns=\"http://www.w3.org/2000/svg\"><g font-family=\"NagwaMath\" font-size=\"13.5\"><text y=\"280.099\" x=\"364.589\">1</text><text y=\"280.099\" x=\"371.247\">3</text><text y=\"280.099\" x=\"380.89\">+</text><text y=\"280.099\" x=\"393.559\">3</text><text y=\"280.099\" x=\"403.956\">=</text><text y=\"280.099\" x=\"417.379\">1</text><text y=\"280.099\" x=\"424.036\">6</text><text y=\"280.099\" x=\"430.694\">,</text><text y=\"316.712\" x=\"364.589\">1</text><text y=\"316.712\" x=\"371.247\">6</text><text y=\"316.712\" x=\"380.89\">+</text><text y=\"316.712\" x=\"393.559\">5</text><text y=\"316.712\" x=\"403.956\">=</text><text y=\"316.712\" x=\"417.379\">2</text><text y=\"316.712\" x=\"424.036\">1</text><text y=\"316.712\" x=\"430.694\">,</text><text y=\"353.325\" x=\"364.589\">2</text><text y=\"353.325\" x=\"371.247\">1</text><text y=\"353.325\" x=\"380.89\">+</text><text y=\"353.325\" x=\"393.559\">7</text><text y=\"353.325\" x=\"403.956\">=</text><text y=\"353.325\" x=\"417.379\">2</text><text y=\"353.325\" x=\"424.036\">8</text><text y=\"353.325\" x=\"430.694\">,</text><text y=\"389.937\" x=\"364.589\">2</text><text y=\"389.937\" x=\"371.247\">8</text><text y=\"389.937\" x=\"380.89\">+</text><text y=\"389.937\" x=\"393.559\">9</text><text y=\"389.937\" x=\"403.956\">=</text><text y=\"389.937\" x=\"417.379\">3</text><text y=\"389.937\" x=\"424.036\">7</text><text y=\"389.937\" x=\"430.694\">,</text><text y=\"426.55\" x=\"357.931\">3</text><text y=\"426.55\" x=\"364.589\">7</text><text y=\"426.55\" x=\"374.232\">+</text><text y=\"426.55\" x=\"386.901\">1</text><text y=\"426.55\" x=\"393.559\">1</text><text y=\"426.55\" x=\"403.955\">=</text><text y=\"426.55\" x=\"417.378\">4</text><text y=\"426.55\" x=\"424.036\">8</text><text y=\"426.55\" x=\"430.693\">.</text></g></svg></p><p>Therefore, the next number in the sequence will be formed by adding 13 to the sixth number:\n        <svg width=\"100.412\" height=\"12.688\" viewBox=\"357.996 271.115 75.309 9.516\" class=\"displayed_equation\" xmlns=\"http://www.w3.org/2000/svg\"><g font-family=\"NagwaMath\" font-size=\"13.5\"><text y=\"280.099\" x=\"357.965\">4</text><text y=\"280.099\" x=\"364.623\">8</text><text y=\"280.099\" x=\"374.266\">+</text><text y=\"280.099\" x=\"386.935\">1</text><text y=\"280.099\" x=\"393.593\">3</text><text y=\"280.099\" x=\"403.989\">=</text><text y=\"280.099\" x=\"417.412\">6</text><text y=\"280.099\" x=\"424.07\">1</text><text y=\"280.099\" x=\"430.727\">.</text></g></svg></p>",
+  "section_id": "204168050381",
+  "language": "en",
+  "subject_id": "943195121909",
+  "subject": "Mathematics",
+  "grade_id": "612152797413",
+  "grade": "6",
+  "country": "zz",
+  "question_id": "430154750236"
+}

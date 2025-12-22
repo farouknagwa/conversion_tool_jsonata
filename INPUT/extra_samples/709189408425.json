@@ -1,0 +1,96 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p> Adam&rsquo;s toolbox measures 16 by 20 by <span class=\"merge\"><span class=\"merge no_margin\">3 centimetres</span>. </span>Given that every side of the toolbox is a rectangle, calculate its surface area. </p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": "<span>cm<sup>2</sup></span>",
+          "index": 0,
+          "values": [
+            {
+              "type": "integer",
+              "value": "856",
+              "constrains": null
+            }
+          ],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<span class=\"merge no_margin\">856 cm<sup>2</sup></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "<span class=\"merge no_margin\">760 cm<sup>2</sup></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "<span class=\"merge no_margin\">216 cm<sup>2</sup></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<span class=\"merge no_margin\">736 cm<sup>2</sup></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "<span class=\"merge no_margin\">536 cm<sup>2</sup></span>"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 709189408425,
+    "title": "",
+    "country": "eg",
+    "dialect": [
+      "american british"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "en",
+    "mapped_id": 709189408425,
+    "source_id": {
+      "value": 765174213856,
+      "page_number": null
+    },
+    "description": "Adam’s toolbox measures 16 by 20 by 3 centimetres. Given that every side of the toolbox is a rectangle, calculate its surface area.",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 10,
+    "publication_date": "2017-04-27T05:38:29"
+  },
+  "section_id": "982156954817",
+  "language": "en",
+  "subject_id": "210123759192",
+  "subject": "Mathematics",
+  "grade_id": "713134702407",
+  "grade": "12",
+  "country": "zz",
+  "question_id": "709189408425"
+}

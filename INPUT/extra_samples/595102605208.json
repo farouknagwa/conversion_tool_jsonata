@@ -1,0 +1,96 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>Benjamin participates in a marathon. He runs <span class=\"merge\"><span class=\"merge no_margin\">16 kilometers</span>, </span>which represents <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\frac{4}{7}}\">\\displaystyle{\\frac{4}{7}}</math-field></span> of the total distance of the marathon. What is the marathon&rsquo;s total distance?</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": "<span class=\"merge no_margin\">kilometers</span>",
+          "index": 0,
+          "values": [
+            {
+              "type": "integer",
+              "value": "28",
+              "constrains": null
+            }
+          ],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "<span class=\"merge no_margin\">28 kilometers</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<span class=\"merge no_margin\">4 kilometers</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "<span class=\"merge no_margin\">32 kilometers</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "<span class=\"merge no_margin\">24 kilometers</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<span class=\"merge no_margin\">16 kilometers</span>"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 595102605208,
+    "title": "",
+    "country": null,
+    "dialect": [
+      "american"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "en",
+    "mapped_id": 595102605208,
+    "source_id": {
+      "value": 952105301938,
+      "page_number": null
+    },
+    "description": "Benjamin participates in a marathon. He runs 16 kilometers, which represents 4/7 of the total distance of the marathon. What is the marathon’s total distance?",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 10,
+    "publication_date": "2020-03-30T13:38:34"
+  },
+  "section_id": "395174845831",
+  "language": "en",
+  "subject_id": "673181575120",
+  "subject": "Mathematics",
+  "grade_id": "920193465614",
+  "grade": "6",
+  "country": "eg",
+  "question_id": "595102605208"
+}

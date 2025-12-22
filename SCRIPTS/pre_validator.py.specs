@@ -20,6 +20,7 @@ VALIDATION FUNCTIONS:
 PART TYPE VALIDATORS:
 - _validate_mcq(part, part_number, country_code): MCQ validation - exactly 1 key choice, max 4 choices for Egypt
 - _validate_mrq(part, part_number): MRQ validation - at least 2 key choices
+- _validate_gmrq(part, part_number): GMRQ validation - exactly 2 groups, exactly 1 key choice per group, is_correct field required
 - _validate_frq_ai(part, part_number): FRQ AI validation - validates answer field, ai object, ai_template_id (12 digits)
 - _validate_oq(part, part_number): Ordering validation - all distractors, direction field required
 - _validate_gap_text(part, part_number): Gap text validation - gap_text_keys array, stem must have gaps, correct_order validation

@@ -22,10 +22,16 @@ def extract_common_metadata(json_data: Dict[str, Any], filename: str) -> Dict[st
     country = COUNTRIES.get(country_code)
     subject = json_data.get('subject')
     if is_empty_or_none(subject):
-        raise ValidationError("Missing required field 'subject'", "subject", subject, "Non-empty string")    
+        raise ValidationError("Missing required field 'subject'", "subject", subject, "Non-empty string")
+    subject_id = json_data.get('subject_id')
+    if is_empty_or_none(subject_id):
+        raise ValidationError("Missing required field 'subject_id'", "subject_id", subject_id, "Non-empty string")        
     grade = str(json_data.get('grade', ''))
     if is_empty_or_none(grade):
-        raise ValidationError("Missing required field 'grade'", "grade", grade, "Non-empty string")    
+        raise ValidationError("Missing required field 'grade'", "grade", grade, "Non-empty string")        
+    grade_id = str(json_data.get('grade_id', ''))
+    if is_empty_or_none(grade_id):
+        raise ValidationError("Missing required field 'grade_id'", "grade_id", grade_id, "Non-empty string")        
     section_id = str(json_data.get('section_id', ''))
     if is_empty_or_none(section_id):
         raise ValidationError("Missing required field 'section_id'", "section_id", section_id, "Non-empty string")    
@@ -40,7 +46,9 @@ def extract_common_metadata(json_data: Dict[str, Any], filename: str) -> Dict[st
         "country_code": country_code,
         "country": country,
         "subject": subject,
+        "subject_id": subject_id,
         "grade": grade,
+        "grade_id": grade_id,
         "number_of_parts": number_of_parts,
         "section_id": section_id,
         "source": source
@@ -72,7 +80,8 @@ def convert_part(part: Dict[str, Any], part_index: int, language_code: str, json
         'frq_ai': 'frq',
         'gapText': 'gap',
         'input_box': 'input',
-        'puzzle': 'puzzle'
+        'puzzle': 'puzzle',
+        'gmrq': 'gmrq'
     }
     
     if part_type not in jsonata_map:
@@ -127,7 +136,9 @@ def build_final_json(metadata: Dict[str, Any], converted_parts: List[Dict[str, A
         "country_code": metadata['country_code'],
         "country": metadata['country'],
         "subject": metadata['subject'],
+        "subject_id": metadata['subject_id'],
         "grade": metadata['grade'],
+        "grade_id": metadata['grade_id'],
         "number_of_parts": metadata['number_of_parts'],
         "section_id": metadata['section_id'],
         "source": metadata['source'],

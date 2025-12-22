@@ -1,0 +1,140 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>Starting with the roughest, use her results to put the sandpapers in order of roughness. </p>",
+      "type": "oq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "item",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "A"
+        },
+        {
+          "type": "item",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "D"
+        },
+        {
+          "type": "item",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "B"
+        },
+        {
+          "type": "item",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "C"
+        },
+        {
+          "type": "item",
+          "unit": null,
+          "index": 5,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "E"
+        }
+      ],
+      "subtype": null,
+      "standalone": false
+    },
+    {
+      "n": 2,
+      "stem": "<p>Which sandpaper has the least friction?</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "E"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "D"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "B"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "C"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "A"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": "<p> Sarah has 5 different sandpapers. Each one has a different roughness. She wants to compare them to each other to find out which is the roughest and which is the smoothest.</p><div class=\"h-scroll\"><img alt=\"783139298598\" class=\"displayed-image\" height=\"320\" src=\"396190756032.01.png\" style=\"aspect-ratio: 512.9538284613113/320;\" width=\"512.9538284613113\"/></div><p>She drags the same smooth box along each sandpaper and records the amount of friction for each sandpaper. She carefully drags the box with the same force each time. </p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"396190756032.02.svg\"/></div><p>Below is a table of her results.</p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"396190756032.01.svg\"/></div>",
+  "instance_number": 1,
+  "metadata": {
+    "id": 396190756032,
+    "title": "",
+    "country": "eg",
+    "mapped_id": 396190756032,
+    "source_id": {
+      "value": 590191937586,
+      "page_number": null
+    },
+    "example_id": null,
+    "description": "Sarah has 5 different sandpapers. Each one has a different roughness. She wants to compare them to each other to find out which is the roughest and which is the smoothest.<Figure>She drags the same smooth box along each sandpaper and records the amount of friction for each sandpaper. She carefully drags the box with the same force each time. <Figure>Below is a table of her results.<Figure> Which sandpaper has the least friction?",
+    "has_example": null,
+    "parts_count": 2,
+    "instances_count": 1,
+    "publication_date": "2022-07-29T11:03:55"
+  },
+  "section_id": "720186304682",
+  "language": "en",
+  "subject_id": "250135489649",
+  "subject": "Science",
+  "grade_id": "837170567976",
+  "grade": "5",
+  "country": "zz",
+  "question_id": "396190756032"
+}

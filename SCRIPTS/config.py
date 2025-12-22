@@ -29,7 +29,7 @@ COUNTRIES = {
     "uk": "United Kingdom",
     "sa": "Saudi Arabia",
     "in": "India",
-    "zz": "Unrecognized"
+    "zz": "ZZ"
 }
 
 # Valid question part types

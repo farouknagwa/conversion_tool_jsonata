@@ -1,0 +1,90 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "mcq",
+      "subtype": null,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">املأ الفراغ: </span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" defaultmode=\"inline-math\" read-only=\"\" value=\"\\displaystyle{\\frac{3}{4} \\div5 = \\textBlank}\">\\displaystyle{\\frac{3}{4} \\div5 = \\textBlank}</math-field></span><span style=\"white-space: pre-wrap;\">.</span></p>",
+      "choices": [
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" defaultmode=\"inline-math\" read-only=\"\" value=\"\\displaystyle{\\frac{2}{20}}\">\\displaystyle{\\frac{2}{20}}</math-field></span></p>",
+          "values": [],
+          "unit": null,
+          "index": 0,
+          "fixed_order": 1,
+          "correct_order": 3,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" defaultmode=\"inline-math\" read-only=\"\" value=\"\\displaystyle{\\frac{15}{4}}\">\\displaystyle{\\frac{15}{4}}</math-field></span></p>",
+          "values": [],
+          "unit": null,
+          "index": 1,
+          "fixed_order": 2,
+          "correct_order": 1,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" defaultmode=\"inline-math\" read-only=\"\" value=\"\\displaystyle{\\frac{23}{4}}\">\\displaystyle{\\frac{23}{4}}</math-field></span></p>",
+          "values": [],
+          "unit": null,
+          "index": 2,
+          "fixed_order": 3,
+          "correct_order": 4,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "key",
+          "html_content": "<p class=\"LexicalTheme__paragraph\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" defaultmode=\"inline-math\" read-only=\"\" value=\"\\displaystyle{\\frac{3}{20}}\">\\displaystyle{\\frac{3}{20}}</math-field></span></p>",
+          "values": [],
+          "unit": null,
+          "index": 3,
+          "fixed_order": 4,
+          "correct_order": 2,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" defaultmode=\"inline-math\" read-only=\"\" value=\"\\displaystyle{\\frac{4}{15}}\">\\displaystyle{\\frac{4}{15}}</math-field></span></p>",
+          "values": [],
+          "unit": null,
+          "index": 4,
+          "fixed_order": 5,
+          "correct_order": 5,
+          "last_order": false,
+          "group": 1
+        }
+      ],
+      "standalone": false
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 163121354096,
+    "title": "",
+    "mapped_id": 595195962176,
+    "source_id": null,
+    "description": "املأ الفراغ: ٣/٤ ٥ = _ .",
+    "has_example": null,
+    "parts_count": 1,
+    "instances_count": 10,
+    "publication_date": "2022-06-01T06:35:12"
+  },
+  "section_id": "918175264987",
+  "language": "ar",
+  "subject_id": "616153467023",
+  "subject": "الرياضيات",
+  "grade_id": "920193465614",
+  "grade": "6",
+  "country": "eg",
+  "parent_id": "163121354096",
+  "question_id": "595195962176"
+}

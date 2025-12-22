@@ -1,0 +1,94 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>حل فادي مسألة القسمة <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{372 \\div 4}\">\\displaystyle{372 \\div 4}</math-field></span> باستخدام القسمة المطولة. وفيما يأتي ما فعله:</p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"253154580329.01.svg\"/></div><p>يمثِّل المربع رقمًا في خارج القسمة. ما الرقم الذي يُمثِّله المربع؟</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [
+            {
+              "type": "integer",
+              "value": "3",
+              "constrains": null
+            }
+          ],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "3"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "1"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "9"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "2"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "4"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 853101021237,
+    "title": "",
+    "country": "eg",
+    "dialect": [
+      "modern_standard"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "ar",
+    "mapped_id": 253154580329,
+    "source_id": null,
+    "description": "حل فادي مسألة القسمة ٣٧٢  ٤ باستخدام القسمة المطولة. وفيما يأتي ما فعله:<شكل>يمثِّل المربع رقمًا في خارج القسمة. ما الرقم الذي يُمثِّله المربع؟",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 10,
+    "publication_date": "2022-08-23T08:07:09"
+  },
+  "section_id": "576130354013",
+  "language": "ar",
+  "subject_id": "129160127476",
+  "subject": "الرياضيات",
+  "grade_id": "302134381873",
+  "grade": "3",
+  "country": "zz",
+  "parent_id": "853101021237",
+  "question_id": "253154580329"
+}

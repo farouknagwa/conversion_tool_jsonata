@@ -19,7 +19,7 @@ ROOT ANSWER FIELD (answer):
 
 COMMON PART FIELDS:
 - n (part number) must match position in array
-- type must be valid (mcq, mrq, frq, frq_ai, oq, gapText, string, opinion, matching, counting, puzzle, input_box)
+- type must be valid (mcq, mrq, gmrq, frq, frq_ai, oq, gapText, string, opinion, matching, counting, puzzle, input_box)
 - stem must be non-empty string
 - standalone field must exist
 
@@ -38,6 +38,13 @@ MCQ SPECIFIC:
 
 MRQ SPECIFIC:
 - Must have at least 2 key choices
+
+GMRQ (GROUPED MULTIPLE RESPONSE) SPECIFIC:
+- Must have exactly 2 groups (group=1 and group=2)
+- Each group must have exactly 1 key choice
+- Each choice must have 'group' field (1 or 2)
+- Each choice must have 'is_correct' field (boolean)
+- All standard choice validations apply
 
 FRQ_AI SPECIFIC:
 - answer field required (non-empty string)

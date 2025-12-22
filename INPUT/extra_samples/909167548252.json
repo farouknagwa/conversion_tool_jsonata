@@ -1,0 +1,124 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>What is the total number of pens sold on Monday, Thursday, and Friday?</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": "pens",
+          "index": 0,
+          "values": [
+            {
+              "type": "integer",
+              "value": "21",
+              "constrains": null
+            }
+          ],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "21 pens"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "69 pens"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "42 pens"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "31 pens"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "30 pens"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    },
+    {
+      "n": 2,
+      "stem": "<p>Does Thursday have the least number of sold pens?</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "No"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "Yes"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": "<p>This table shows the pens sold in a stationary store within a <span class=\"merge\"><span>week</span>.</span></p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"909167548252.01.svg\"/></div>",
+  "instance_number": 1,
+  "metadata": {
+    "id": 909167548252,
+    "title": "",
+    "country": "eg",
+    "dialect": [
+      "american"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "en",
+    "mapped_id": 909167548252,
+    "source_id": {
+      "value": 425138657980,
+      "page_number": null
+    },
+    "description": "This table shows the pens sold in a stationary store within a week.<Figure> What is the total number of pens sold on Monday, Thursday, and Friday? Does Thursday have the least number of sold pens?",
+    "has_example": false,
+    "parts_count": 2,
+    "instances_count": 10,
+    "publication_date": "2022-11-09T15:40:30"
+  },
+  "section_id": "940146454751",
+  "language": "en",
+  "subject_id": "195157918418",
+  "subject": "Mathematics",
+  "grade_id": "108127568584",
+  "grade": "2",
+  "country": "zz",
+  "question_id": "909167548252"
+}

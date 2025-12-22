@@ -1,0 +1,94 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p dir=\"ltr\" style=\"text-align: left;\">If <math-field default-mode=\"inline-math\" value=\"A=\\begin{bmatrix}5 & 2 \\\\ 6 & 4\\end{bmatrix}\" dir=\"ltr\" lang=\"en\" style=\"display: inline-block\" read-only=\"true\"></math-field> and <math-field default-mode=\"inline-math\" value=\"B=\\begin{bmatrix}3 & 6 \\\\ 2 & 1\\end{bmatrix}^t\" dir=\"ltr\" lang=\"en\" style=\"display: inline-block\" read-only=\"true\"></math-field>, find <math-field default-mode=\"inline-math\" value=\"A-B.\" dir=\"ltr\" lang=\"en\" style=\"display: inline-block\" read-only=\"true\"></math-field></p>",
+      "type": "mcq",
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "group": 1,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\"><math-field default-mode=\"inline-math\" value=\"\\begin{bmatrix}2 & 0 \\\\ 0 & 3\\end{bmatrix}\" dir=\"ltr\" lang=\"en\" style=\"display: inline-block\" read-only=\"true\"></math-field></p>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "group": 1,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\"><math-field default-mode=\"inline-math\" value=\"\\begin{bmatrix}2 & 12 \\\\ 4 & 3\\end{bmatrix}\" dir=\"ltr\" lang=\"en\" style=\"display: inline-block\" read-only=\"true\"></math-field></p>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "group": 1,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\"><math-field default-mode=\"inline-math\" value=\"\\begin{bmatrix}2 & 4 \\\\ 12 & 3\\end{bmatrix}\" dir=\"ltr\" lang=\"en\" style=\"display: inline-block\" read-only=\"true\"></math-field></p>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "group": 1,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\"><math-field default-mode=\"inline-math\" value=\"\\begin{bmatrix}-2 & 0 \\\\ 0 & -3\\end{bmatrix}\" dir=\"ltr\" lang=\"en\" style=\"display: inline-block\" read-only=\"true\"></math-field></p>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "group": 1,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "<p dir=\"ltr\" style=\"text-align: left;\"><math-field default-mode=\"inline-math\" value=\"\\begin{bmatrix}3 & 0 \\\\ 0 & 2\\end{bmatrix}\" dir=\"ltr\" lang=\"en\" style=\"display: inline-block\" read-only=\"true\"></math-field></p>"
+        }
+      ],
+      "subtype": null,
+      "standalone": false
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 582120527371,
+    "title": "",
+    "country": "eg",
+    "dialect": [
+      "american"
+    ],
+    "category": "lesson",
+    "language": "en",
+    "mapped_id": 582120527371,
+    "source_id": {
+      "value": 964126973921,
+      "page_number": null
+    },
+    "example_id": null,
+    "description": "If  and , find",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2023-11-30T08:16:11"
+  },
+  "section_id": "895156031372",
+  "language": "en",
+  "subject_id": "208187426919",
+  "subject": "Mathematics",
+  "grade_id": "642131974929",
+  "grade": "9",
+  "country": "zz",
+  "question_id": "582120527371"
+}

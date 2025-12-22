@@ -1,0 +1,124 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p> Chloe claims that since <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\frac{2}{9}}\">\\displaystyle{\\frac{2}{9}}</math-field></span> times the total mass of the boxes equals <span class=\"merge\"><span class=\"merge no_margin\">14 kg</span>, </span>then the total mass of the boxes is exactly the result of <span class=\"merge\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{14 \\div \\frac{2}{9}}\">\\displaystyle{14 \\div \\frac{2}{9}}</math-field></span>. </span>Is she correct?</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "Yes"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "No"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    },
+    {
+      "n": 2,
+      "stem": "<p>Help Jackson to find the total mass of the boxes.</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": "<span>kg</span>",
+          "index": 0,
+          "values": [
+            {
+              "type": "integer",
+              "value": "63",
+              "constrains": null
+            }
+          ],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<span class=\"merge no_margin\">63 kg</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "<span class=\"merge no_margin\">56 kg</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "<span class=\"merge no_margin\">70 kg</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "<span class=\"merge no_margin\">72 kg</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<span class=\"merge no_margin\">126 kg</span>"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": "<p> Jackson has 9 boxes of equal masses. He wants to find their total mass. He measures the mass of 2 of them and finds that they weigh <span class=\"merge no_margin\">14 kg</span> altogether.</p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"575170658385.01.svg\"/></div>",
+  "instance_number": 1,
+  "metadata": {
+    "id": 575170658385,
+    "title": "",
+    "country": null,
+    "dialect": [
+      "american"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "en",
+    "mapped_id": 575170658385,
+    "source_id": {
+      "value": 952105301938,
+      "page_number": null
+    },
+    "description": "Jackson has 9 boxes of equal masses. He wants to find their total mass. He measures the mass of 2 of them and finds that they weigh 14 kg altogether.<Figure> Chloe claims that since 2/9 times the total mass of the boxes equals 14 kg, then the total mass of the boxes is exactly the result of 14 2/9. Is she correct? Help Jackson to find the total mass of the boxes.",
+    "has_example": false,
+    "parts_count": 2,
+    "instances_count": 10,
+    "publication_date": "2020-04-28T14:39:10"
+  },
+  "section_id": "395174845831",
+  "language": "en",
+  "subject_id": "673181575120",
+  "subject": "Mathematics",
+  "grade_id": "920193465614",
+  "grade": "6",
+  "country": "eg",
+  "question_id": "575170658385"
+}

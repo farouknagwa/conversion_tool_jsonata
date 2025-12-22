@@ -1,0 +1,94 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>لدى السيد شادي حديقة مستطيلة الشكل تبلغ مساحتها <span class=\"merge no_margin\" dir=\"rtl\">142 م<sup>2</sup></span> من العشب.</p><p>وقد قرَّر أن يخصص فناءً مربعًا على العشب، كما هو موضَّح في الشكل بحيث يغطِّي جزءًا من العشب.</p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"473192681729.01.svg\"/></div><p>ما مساحة العشب المتبقي في حديقة السيد شادي؟</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": "<span dir=\"rtl\">م<sup>2</sup></span>",
+          "index": 0,
+          "values": [
+            {
+              "type": "integer",
+              "value": "110",
+              "constrains": null
+            }
+          ],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "<span class=\"merge no_margin\" dir=\"rtl\">110 م<sup>2</sup></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "<span class=\"merge no_margin\" dir=\"rtl\">78 م<sup>2</sup></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<span class=\"merge no_margin\" dir=\"rtl\">64 م<sup>2</sup></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "<span class=\"merge no_margin\" dir=\"rtl\">174 م<sup>2</sup></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<span class=\"merge no_margin\" dir=\"rtl\">32 م<sup>2</sup></span>"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 238121579584,
+    "title": "",
+    "country": "eg",
+    "dialect": [
+      "modern_standard"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "ar",
+    "mapped_id": 473192681729,
+    "source_id": null,
+    "description": "لدى السيد شادي حديقة مستطيلة الشكل تبلغ مساحتها ١٤٢ م٢ من العشب.وقد قرَّر أن يخصص فناءً مربعًا على العشب، كما هو موضَّح في الشكل بحيث يغطِّي جزءًا من العشب.<شكل>ما مساحة العشب المتبقي في حديقة السيد شادي؟",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 6,
+    "publication_date": "2023-01-22T09:39:09"
+  },
+  "section_id": "427126293262",
+  "language": "ar",
+  "subject_id": "196192747520",
+  "subject": "الرياضيات",
+  "grade_id": "612152797413",
+  "grade": "6",
+  "country": "zz",
+  "parent_id": "238121579584",
+  "question_id": "473192681729"
+}

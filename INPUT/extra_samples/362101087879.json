@@ -1,0 +1,82 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>اختر العملية الحسابية التي تُمثِّل مساحة المربع <span class=\"merge\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{ABCD}\">\\displaystyle{ABCD}</math-field></span>.</span></p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"362101087879.01.svg\"/></div>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{0.5 \\times 10 \\times 10}\">\\displaystyle{0.5 \\times 10 \\times 10}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{10 \\times 10}\">\\displaystyle{10 \\times 10}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{2 \\times 10 \\times 10}\">\\displaystyle{2 \\times 10 \\times 10}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{x \\times 4}\">\\displaystyle{x \\times 4}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{0.5 \\times x \\times 10}\">\\displaystyle{0.5 \\times x \\times 10}</math-field></span>"
+        }
+      ],
+      "subtype": null,
+      "standalone": false
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 130150492839,
+    "title": "",
+    "country": "eg",
+    "mapped_id": 362101087879,
+    "source_id": null,
+    "description": "اختر العملية الحسابية التي تُمثِّل مساحة المربع ABCD.<شكل>",
+    "has_example": null,
+    "parts_count": 1,
+    "instances_count": 10,
+    "publication_date": "2023-01-22T09:49:20"
+  },
+  "section_id": "427126293262",
+  "language": "ar",
+  "subject_id": "196192747520",
+  "subject": "الرياضيات",
+  "grade_id": "612152797413",
+  "grade": "6",
+  "country": "zz",
+  "parent_id": "130150492839",
+  "question_id": "362101087879"
+}

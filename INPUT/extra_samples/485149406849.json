@@ -1,0 +1,63 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>El Sr. Mart&iacute;nez tiene <span class=\"no_margin merge\">2&lrm; &lrm;415</span> libras. Sabiendo que quiere repartir esta cantidad de dinero a partes iguales entre sus <span class=\"no_margin merge\">4</span> hijos, calcula cu&aacute;nto dinero recibir&aacute; cada hijo.</p>",
+      "type": "input_box",
+      "answer": {
+        "value": "603",
+        "unit": "libras",
+        "constrains": {
+          "type": "currencyValue"
+        }
+      },
+      "choices": [],
+      "subtype": null,
+      "standalone": true
+    },
+    {
+      "n": 2,
+      "stem": "<p>&iquest;Cu&aacute;nto dinero le sobr&oacute; al Sr. Mart&iacute;nez?</p>",
+      "type": "input_box",
+      "answer": {
+        "value": "3",
+        "unit": "libras",
+        "constrains": {
+          "type": "currencyValue"
+        }
+      },
+      "choices": [],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 649163082146,
+    "title": "",
+    "country": null,
+    "dialect": [
+      "european latin_american"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "es",
+    "mapped_id": 485149406849,
+    "source_id": null,
+    "description": "El Sr. Martínez tiene 2‎ ‎415 libras. Sabiendo que quiere repartir esta cantidad de dinero a partes iguales entre sus 4 hijos, calcula cuánto dinero recibirá cada hijo. ¿Cuánto dinero le sobró al Sr. Martínez?",
+    "has_example": false,
+    "parts_count": 2,
+    "instances_count": 10,
+    "publication_date": "2022-04-11T07:03:51"
+  },
+  "section_id": "832193285857",
+  "language": "es",
+  "subject_id": "623102632528",
+  "subject": "Mathematics",
+  "grade_id": "837170567976",
+  "grade": "5",
+  "country": "zz",
+  "parent_id": "649163082146",
+  "question_id": "485149406849"
+}

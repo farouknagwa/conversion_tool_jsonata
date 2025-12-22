@@ -1,0 +1,94 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>استخدم الرسم لإيجاد <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" dir=\"rtl\" lang=\"ar\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\frac{٤}{٥} \\div\\frac{١}{٥}}\">\\displaystyle{\\frac{٤}{٥} \\div\\frac{١}{٥}}</math-field></span> (أي كم <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" dir=\"rtl\" lang=\"ar\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\frac{١}{٥}}\">\\displaystyle{\\frac{١}{٥}}</math-field></span> في <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" dir=\"rtl\" lang=\"ar\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\frac{٤}{٥}}\">\\displaystyle{\\frac{٤}{٥}}</math-field></span>).</p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"498174276238.01.svg\"/></div>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [
+            {
+              "type": "integer",
+              "value": "4",
+              "constrains": null
+            }
+          ],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "٤"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "٥"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "٣"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "٢٠"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "١٠"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 826134596581,
+    "title": "تفسير عملية القسمة كعملية طرح متكرر لكسر على كسر آخر له نفس المقام",
+    "country": null,
+    "dialect": [
+      "modern_standard"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "ar",
+    "mapped_id": 498174276238,
+    "source_id": null,
+    "description": "استخدم الرسم لإيجاد ٤/٥١/٥ (أي كم ١/٥ في ٤/٥).<شكل>",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2018-05-27T08:48:35"
+  },
+  "section_id": "859175248916",
+  "language": "ar",
+  "subject_id": "616153467023",
+  "subject": "الرياضيات",
+  "grade_id": "920193465614",
+  "grade": "6",
+  "country": "eg",
+  "parent_id": "826134596581",
+  "question_id": "498174276238"
+}

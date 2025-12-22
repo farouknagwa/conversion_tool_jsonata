@@ -1,0 +1,252 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>Draw a box-and-whisker plot using the information Hassan has calculated from the data set.</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "<div class=\"h-scroll\"><img class=\"displayed-image\" src=\"629196373096.02.svg\"/></div>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<div class=\"h-scroll\"><img class=\"displayed-image\" src=\"629196373096.03.svg\"/></div>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "<div class=\"h-scroll\"><img class=\"displayed-image\" src=\"629196373096.04.svg\"/></div>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<div class=\"h-scroll\"><img class=\"displayed-image\" src=\"629196373096.01.svg\"/></div>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": ""
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    },
+    {
+      "n": 2,
+      "stem": "<p>What is the overall age range of the Saturday morning swimmers?</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": "<span>years</span>",
+          "index": 0,
+          "values": [
+            {
+              "type": "integer",
+              "value": "24",
+              "constrains": null
+            }
+          ],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "<span class=\"merge no_margin\">24 years</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<span class=\"merge no_margin\">31 years</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<span class=\"merge no_margin\">35 years</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "<span class=\"merge no_margin\">12 years</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "<span class=\"merge no_margin\">22 years</span>"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    },
+    {
+      "n": 3,
+      "stem": "<p>What percentage of Saturday morning swimmers were between 7 and <span class=\"merge no_margin\">22 years</span> old?</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{75\\%}\">\\displaystyle{75\\%}</math-field></span>&lrm;"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{50\\%}\">\\displaystyle{50\\%}</math-field></span>&lrm;"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{25\\%}\">\\displaystyle{25\\%}</math-field></span>&lrm;"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{60\\%}\">\\displaystyle{60\\%}</math-field></span>&lrm;"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{62\\%}\">\\displaystyle{62\\%}</math-field></span>&lrm;"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    },
+    {
+      "n": 4,
+      "stem": "<p>Calculate and interpret the percentage of Saturday morning swimmers covered by the box.</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{50\\%}\">\\displaystyle{50\\%}</math-field></span>&lrm; of the Saturday morning swimmers were between 10 and <span class=\"merge no_margin\">22 years</span> old."
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{75\\%}\">\\displaystyle{75\\%}</math-field></span>&lrm; of the Saturday morning swimmers were between 10 and <span class=\"merge no_margin\">22 years</span> old."
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{25\\%}\">\\displaystyle{25\\%}</math-field></span>&lrm; of the Saturday morning swimmers were between 10 and <span class=\"merge no_margin\">22 years</span> old."
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{60\\%}\">\\displaystyle{60\\%}</math-field></span>&lrm; of the Saturday morning swimmers were between 10 and <span class=\"merge no_margin\">22 years</span> old."
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": "<p>Hassan has calculated the following information from a data set about the ages of swimmers on a Saturday morning in a swimming pool:</p><ul class=\"list\"><li>Lowest value: 7</li><li>Lower quartile: 10</li><li>Median: 15</li><li>Upper quartile: 22</li><li>Highest value: 31</li></ul>",
+  "instance_number": 1,
+  "metadata": {
+    "id": 629196373096,
+    "title": "",
+    "country": "sa",
+    "dialect": [
+      "american"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "en",
+    "mapped_id": 629196373096,
+    "source_id": {
+      "value": 175167612709,
+      "page_number": null
+    },
+    "description": "Hassan has calculated the following information from a data set about the ages of swimmers on a Saturday morning in a swimming pool:Lowest value: 7Lower quartile: 10Median: 15Upper quartile: 22Highest value: 31 Draw a box-and-whisker plot using the information Hassan has calculated from the data set. What is the overall age range of the Saturday morning swimmers? What percentage of Saturday morning swimmers were between 7 and 22 years old? Calculate and interpret the percentage of Saturday morning swimmers covered by the box.",
+    "has_example": false,
+    "parts_count": 4,
+    "instances_count": 1,
+    "publication_date": "2023-01-18T11:13:37"
+  },
+  "section_id": "383182198494",
+  "language": "en",
+  "subject_id": "615192963968",
+  "subject": "Mathematics",
+  "grade_id": "425176561296",
+  "grade": "8",
+  "country": "zz",
+  "question_id": "629196373096"
+}

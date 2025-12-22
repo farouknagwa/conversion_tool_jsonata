@@ -1,0 +1,149 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>ما العدد الذي يُكمِل الجدول؟</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [
+            {
+              "type": "decimal",
+              "value": "3.14",
+              "constrains": null
+            }
+          ],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "3.14"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "0.32"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "3.41"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "0.23"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "31.4"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    },
+    {
+      "n": 2,
+      "stem": "<p>ماذا تلاحظ بالنسبة لهذه القياسات؟</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "مهما كانت أبعاد الدائرة، فإن نتيجة قسمة المحيط على القطر، لأقرب جزء من مائة، هي 3.14."
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "جميع الدوائر متساوية في الحجم."
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "مهما كانت أبعاد الدائرة، فإن نتيجة قسمة طول القطر على المحيط، لأقرب جزء من مائة، هي 3.14."
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "ناتج ضرب طول قطر الدائرة في محيطها، لأقرب جزء من مائة، يساوي 3.14."
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "محيط جميع الدوائر، لأقرب جزء من مائة، يساوي 3.14."
+        }
+      ],
+      "subtype": null,
+      "standalone": false
+    }
+  ],
+  "statement": "<p>يدرس كلٌّ من دينا وعادل العلاقة بين محيط بعض الدوائر وقطرها. وقرَّبا إجاباتهما لأقرب جزء من مائة.</p><div class=\"table-wrapper\"><table><tr><th>طول القطر (<span dir=\"rtl\">سم</span>)</th><th>المحيط (<span dir=\"rtl\">سم</span>)</th><th>المحيط<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\div}\">\\displaystyle{\\div}</math-field></span> طول القطر</th></tr><tr><td>34</td><td>106.76</td><td><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\cdots}\">\\displaystyle{\\cdots}</math-field></span></td></tr></table></div>",
+  "instance_number": 1,
+  "metadata": {
+    "id": 807104697541,
+    "title": "",
+    "country": "eg",
+    "dialect": [
+      "modern_standard"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "ar",
+    "mapped_id": 304175659275,
+    "source_id": null,
+    "description": "يدرس كلٌّ من دينا وعادل العلاقة بين محيط بعض الدوائر وقطرها. وقرَّبا إجاباتهما لأقرب جزء من مائة.<جدول> ما العدد الذي يُكمِل الجدول؟ ماذا تلاحظ بالنسبة لهذه القياسات؟",
+    "has_example": false,
+    "parts_count": 2,
+    "instances_count": 1,
+    "publication_date": "2023-09-13T12:29:43"
+  },
+  "section_id": "753197287306",
+  "language": "ar",
+  "subject_id": "195153863763",
+  "subject": "الرياضيات",
+  "grade_id": "837170567976",
+  "grade": "5",
+  "country": "zz",
+  "parent_id": "807104697541",
+  "question_id": "304175659275"
+}
