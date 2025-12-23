@@ -23,13 +23,11 @@
         "acceptable_answers": [
           "البذور."
         ],
-        "guidelines": [
-          {
-            "student_answer": "البذور.",
-            "mark": "1",
-            "comment": "إجابة صحيحة!"
-          }
-        ],
+        "guidelines": {
+          "student_answer": "البذور.",
+          "mark": 1,
+          "comment": "إجابة صحيحة!"
+        },
         "explanation": null
       },
       {

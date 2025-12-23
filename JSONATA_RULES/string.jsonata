@@ -4,8 +4,11 @@
   /* Handle answer as array */
   $acceptableAnswers := $type(part.answer) = "array" ? part.answer : [part.answer];
   
-  /* Extract guidelines if present */
-  $guidelines := part.ai.guidelines;
+  /* Extract guidelines if present and convert mark to number */
+  $guidelinesRaw := part.ai.guidelines;
+  $guidelines := $guidelinesRaw ? $map($guidelinesRaw, function($item) {
+    $merge([$item, {"mark": $number($item.mark)}])
+  }) : null;
   
   /* Build base without explanation */
   $base := {

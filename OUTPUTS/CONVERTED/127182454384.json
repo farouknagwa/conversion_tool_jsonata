@@ -22,13 +22,11 @@
         "acceptable_answers": [
           "Ten thousands"
         ],
-        "guidelines": [
-          {
-            "student_answer": "Ten thousands",
-            "mark": "1",
-            "comment": "إجابة صحيحة!"
-          }
-        ],
+        "guidelines": {
+          "student_answer": "Ten thousands",
+          "mark": 1,
+          "comment": "إجابة صحيحة!"
+        },
         "explanation": null
       }
     ]

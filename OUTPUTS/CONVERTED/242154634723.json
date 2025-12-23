@@ -22,13 +22,11 @@
         "acceptable_answers": [
           "less than"
         ],
-        "guidelines": [
-          {
-            "student_answer": "less than",
-            "mark": "1",
-            "comment": "إجابة صحيحة!"
-          }
-        ],
+        "guidelines": {
+          "student_answer": "less than",
+          "mark": 1,
+          "comment": "إجابة صحيحة!"
+        },
         "explanation": null
       }
     ]

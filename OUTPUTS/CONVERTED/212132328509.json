@@ -22,13 +22,11 @@
         "acceptable_answers": [
           "اللحاء"
         ],
-        "guidelines": [
-          {
-            "student_answer": "اللحاء",
-            "mark": "1",
-            "comment": "إجابة صحيحة!"
-          }
-        ],
+        "guidelines": {
+          "student_answer": "اللحاء",
+          "mark": 1,
+          "comment": "إجابة صحيحة!"
+        },
         "explanation": null
       }
     ]

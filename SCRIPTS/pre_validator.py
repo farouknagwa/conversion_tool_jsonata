@@ -409,6 +409,59 @@ def _validate_string(part: Dict[str, Any], part_number: int) -> List[str]:
                     f"Part {part_number} (string): 'ai_template_id' is not a valid string ai template id."
                 )
     
+    # Validate guidelines if present
+    if part.get('ai', {}).get('guidelines') is not None:
+        guidelines = part['ai']['guidelines']
+        if not isinstance(guidelines, list):
+            errors.append(
+                f"Part {part_number} (string): 'guidelines' must be an array"
+            )
+        else:
+            # Validate each guideline item
+            for i, guideline in enumerate(guidelines):
+                if not isinstance(guideline, dict):
+                    errors.append(
+                        f"Part {part_number} (string): guidelines[{i}] must be an object"
+                    )
+                    continue
+                
+                # Check required fields
+                if 'student_answer' not in guideline:
+                    errors.append(
+                        f"Part {part_number} (string): guidelines[{i}] missing required field 'student_answer'"
+                    )
+                elif not isinstance(guideline.get('student_answer'), str):
+                    errors.append(
+                        f"Part {part_number} (string): guidelines[{i}].'student_answer' must be a string"
+                    )
+                
+                if 'mark' not in guideline:
+                    errors.append(
+                        f"Part {part_number} (string): guidelines[{i}] missing required field 'mark'"
+                    )
+                else:
+                    mark = guideline.get('mark')
+                    # Mark must be 1, 0, "1", or "0"
+                    if isinstance(mark, (int, str)):
+                        mark_str = str(mark)
+                        if mark_str not in ['0', '1']:
+                            errors.append(
+                                f"Part {part_number} (string): guidelines[{i}].'mark' must be 1, 0, '1', or '0', found: {repr(mark)}"
+                            )
+                    else:
+                        errors.append(
+                            f"Part {part_number} (string): guidelines[{i}].'mark' must be a string or integer, found: {type(mark).__name__}"
+                        )
+                
+                if 'comment' not in guideline:
+                    errors.append(
+                        f"Part {part_number} (string): guidelines[{i}] missing required field 'comment'"
+                    )
+                elif not isinstance(guideline.get('comment'), str):
+                    errors.append(
+                        f"Part {part_number} (string): guidelines[{i}].'comment' must be a string"
+                    )
+    
     return errors
 
 

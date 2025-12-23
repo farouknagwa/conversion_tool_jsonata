@@ -87,13 +87,11 @@
         "acceptable_answers": [
           "تضاد"
         ],
-        "guidelines": [
-          {
-            "student_answer": "تضاد",
-            "mark": "1",
-            "comment": "إجابة صحيحة!"
-          }
-        ],
+        "guidelines": {
+          "student_answer": "تضاد",
+          "mark": 1,
+          "comment": "إجابة صحيحة!"
+        },
         "explanation": null
       },
       {

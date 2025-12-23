@@ -63,6 +63,10 @@ GAP_TEXT SPECIFIC:
 STRING SPECIFIC:
 - answer must be array of strings
 - If AI enabled: ai_template_id must be valid
+- If guidelines present: must be array of objects, each with:
+  * student_answer: string (required)
+  * mark: integer or string, must be 1, 0, "1", or "0" only (required)
+  * comment: string (required)
 
 OPINION SPECIFIC:
 - All choices must be type "distractor"

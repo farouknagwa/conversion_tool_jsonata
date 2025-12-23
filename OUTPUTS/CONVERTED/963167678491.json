@@ -22,13 +22,11 @@
         "acceptable_answers": [
           "magnetic field"
         ],
-        "guidelines": [
-          {
-            "student_answer": "magnetic field",
-            "mark": "1",
-            "comment": "إجابة صحيحة!"
-          }
-        ],
+        "guidelines": {
+          "student_answer": "magnetic field",
+          "mark": 1,
+          "comment": "إجابة صحيحة!"
+        },
         "explanation": null
       }
     ]

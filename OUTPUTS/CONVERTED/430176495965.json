@@ -22,13 +22,11 @@
         "acceptable_answers": [
           "Temperature"
         ],
-        "guidelines": [
-          {
-            "student_answer": "Temperature",
-            "mark": "1",
-            "comment": "إجابة صحيحة"
-          }
-        ],
+        "guidelines": {
+          "student_answer": "Temperature",
+          "mark": 1,
+          "comment": "إجابة صحيحة"
+        },
         "explanation": null
       }
     ]

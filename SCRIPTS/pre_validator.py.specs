@@ -24,7 +24,7 @@ PART TYPE VALIDATORS:
 - _validate_frq_ai(part, part_number): FRQ AI validation - validates answer field, ai object, ai_template_id (12 digits)
 - _validate_oq(part, part_number): Ordering validation - all distractors, direction field required
 - _validate_gap_text(part, part_number): Gap text validation - gap_text_keys array, stem must have gaps, correct_order validation
-- _validate_string(part, part_number): String validation - answer array of strings, optional AI template ID
+- _validate_string(part, part_number): String validation - answer array of strings, optional AI template ID, guidelines validation (if present: array of objects with student_answer, mark [1/0/"1"/"0"], comment)
 - _validate_opinion(part, part_number): Opinion validation - all distractors
 - _validate_matching(part, part_number): Matching validation - exactly 2 groups, all distractors
 - _validate_counting(part, part_number): Counting validation - answer as string number, grid_size format (rows×columns)

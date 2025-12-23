@@ -22,13 +22,11 @@
         "acceptable_answers": [
           "galvanometer"
         ],
-        "guidelines": [
-          {
-            "student_answer": "galvanometer",
-            "mark": "1",
-            "comment": "إجابة صحيحة!"
-          }
-        ],
+        "guidelines": {
+          "student_answer": "galvanometer",
+          "mark": 1,
+          "comment": "إجابة صحيحة!"
+        },
         "explanation": null
       }
     ]

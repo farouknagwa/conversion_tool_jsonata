@@ -22,13 +22,11 @@
         "acceptable_answers": [
           "independent variable"
         ],
-        "guidelines": [
-          {
-            "student_answer": "independent variable",
-            "mark": "1",
-            "comment": "إجابة صحيحة!"
-          }
-        ],
+        "guidelines": {
+          "student_answer": "independent variable",
+          "mark": 1,
+          "comment": "إجابة صحيحة!"
+        },
         "explanation": null
       }
     ]

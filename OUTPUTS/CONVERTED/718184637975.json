@@ -22,13 +22,11 @@
         "acceptable_answers": [
           "الطاقة"
         ],
-        "guidelines": [
-          {
-            "student_answer": "الطاقة",
-            "mark": "1",
-            "comment": "إجابة صحيحة!"
-          }
-        ],
+        "guidelines": {
+          "student_answer": "الطاقة",
+          "mark": 1,
+          "comment": "إجابة صحيحة!"
+        },
         "explanation": null
       }
     ]

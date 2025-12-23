@@ -22,13 +22,11 @@
         "acceptable_answers": [
           "dependent variable"
         ],
-        "guidelines": [
-          {
-            "student_answer": "dependent variable",
-            "mark": "1",
-            "comment": "إجابة صحيحة!"
-          }
-        ],
+        "guidelines": {
+          "student_answer": "dependent variable",
+          "mark": 1,
+          "comment": "إجابة صحيحة!"
+        },
         "explanation": null
       }
     ]

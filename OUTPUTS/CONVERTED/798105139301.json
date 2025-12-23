@@ -22,13 +22,11 @@
         "acceptable_answers": [
           "relaxes"
         ],
-        "guidelines": [
-          {
-            "student_answer": "relaxes",
-            "mark": "1",
-            "comment": "إجابة صحيحة!"
-          }
-        ],
+        "guidelines": {
+          "student_answer": "relaxes",
+          "mark": 1,
+          "comment": "إجابة صحيحة!"
+        },
         "explanation": null
       }
     ]
