@@ -1,0 +1,63 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>لدى السيد كريم <span class=\"no_margin merge\">٢&lrm; &lrm;٤١٥</span> جنيهًا إسترلينيًّا. إذا أراد تقسيم هذا المبلغ بالتساوي بين <span class=\"no_margin merge\">٤</span> من أبنائه، أوجد مقدار ما سيحصل عليه كل ابن.</p>",
+      "type": "input_box",
+      "answer": {
+        "value": "603",
+        "unit": "جنيه إسترليني",
+        "constrains": {
+          "type": "currencyValue"
+        }
+      },
+      "choices": [],
+      "subtype": null,
+      "standalone": true
+    },
+    {
+      "n": 2,
+      "stem": "<p>كم يبلغ المبلغ المتبقي مع السيد كريم؟</p>",
+      "type": "input_box",
+      "answer": {
+        "value": "3",
+        "unit": "جنيه إسترليني",
+        "constrains": {
+          "type": "currencyValue"
+        }
+      },
+      "choices": [],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 649163082146,
+    "title": "",
+    "country": null,
+    "dialect": [
+      "modern_standard"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "ar",
+    "mapped_id": 453180583698,
+    "source_id": null,
+    "description": "لدى السيد كريم ٢‎ ‎٤١٥ جنيهًا إسترلينيًّا. إذا أراد تقسيم هذا المبلغ بالتساوي بين ٤ من أبنائه، أوجد مقدار ما سيحصل عليه كل ابن. كم يبلغ المبلغ المتبقي مع السيد كريم؟",
+    "has_example": false,
+    "parts_count": 2,
+    "instances_count": 10,
+    "publication_date": "2022-06-02T13:28:55"
+  },
+  "section_id": "832187891585",
+  "language": "ar",
+  "subject_id": "195153863763",
+  "subject": "الرياضيات",
+  "grade_id": "837170567976",
+  "grade": "5",
+  "country": "zz",
+  "parent_id": "649163082146",
+  "question_id": "453180583698"
+}

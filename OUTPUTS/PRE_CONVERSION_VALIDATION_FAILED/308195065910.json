@@ -1,0 +1,94 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>في العام الماضي، شرع أحد المجتمعات في مبادرة لاستضافة الحيوانات الضالة. طبَّق المجتمع هذه المبادرة بالانقسام إلى مجموعتين. يوضِّح التمثيل البياني بالأعمدة المُعطَى عدد الحيوانات الضالة التي جرى إنقاذها بواسطة هذا المجتمع على مدار أسبوع. أوجد عدد الحيوانات الضالة التي جرى إنقاذها في يوم الثلاثاء أكثر من يوم الأربعاء. </p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"308195065910.01.svg\"/></div>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": "حيوان ضال",
+          "index": 0,
+          "values": [
+            {
+              "type": "integer",
+              "value": "11",
+              "constrains": null
+            }
+          ],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "11 حيوانًا ضالًّا"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "131 حيوانًا ضالًّا"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "8 حيوانات ضالة"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "71 حيوانًا ضالًّا"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "60 حيوانًا ضالًّا"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 605169508165,
+    "title": "",
+    "country": "eg",
+    "dialect": [
+      "modern_standard"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "ar",
+    "mapped_id": 308195065910,
+    "source_id": null,
+    "description": "في العام الماضي، شرع أحد المجتمعات في مبادرة لاستضافة الحيوانات الضالة. طبَّق المجتمع هذه المبادرة بالانقسام إلى مجموعتين. يوضِّح التمثيل البياني بالأعمدة المُعطَى عدد الحيوانات الضالة التي جرى إنقاذها بواسطة هذا المجتمع على مدار أسبوع. أوجد عدد الحيوانات الضالة التي جرى إنقاذها في يوم الثلاثاء أكثر من يوم الأربعاء. <شكل>",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 10,
+    "publication_date": "2023-01-05T13:50:49"
+  },
+  "section_id": "479108182946",
+  "language": "ar",
+  "subject_id": "313152609415",
+  "subject": "الرياضيات",
+  "grade_id": "616145068630",
+  "grade": "4",
+  "country": "zz",
+  "parent_id": "605169508165",
+  "question_id": "308195065910"
+}

@@ -1,0 +1,72 @@
+{
+  "question_id": "867198264250",
+  "parent_id": "867198264250",
+  "language_code": "fr",
+  "language": "French",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Français",
+  "subject_id": "123456789012",
+  "grade": "11",
+  "grade_id": "123456789012",
+  "number_of_parts": 1,
+  "section_id": "105195451710",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "matching",
+        "stem": "<p><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">Associe l’image à son nom.</span></p>",
+        "items": {
+          "A": [
+            {
+              "value": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"928165016204\" class=\"displayed-image\" height=\"129.4091576251187\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/494160483494.jpg\" style=\"aspect-ratio: 220/129.4091576251187;\" width=\"220\"/></span></p>",
+              "label": "A1"
+            },
+            {
+              "value": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"953190720868\" class=\"displayed-image\" height=\"129.4091576251187\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/893131730851.jpg\" style=\"aspect-ratio: 220/129.4091576251187;\" width=\"220\"/></span></p>",
+              "label": "A2"
+            },
+            {
+              "value": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"136149230215 (1)\" class=\"displayed-image\" height=\"129.4091576251187\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/234174309483.jpg\" style=\"aspect-ratio: 220/129.4091576251187;\" width=\"220\"/></span></p>",
+              "label": "A3"
+            }
+          ],
+          "B": [
+            {
+              "value": "<p><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">L’appareil photo</span></p>",
+              "label": "B1",
+              "matches": "A3"
+            },
+            {
+              "value": "<p><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">L’ordinateur</span></p><p><br/></p>",
+              "label": "B2",
+              "matches": "A2"
+            },
+            {
+              "value": "<p><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">La table</span></p><p><br/></p>",
+              "label": "B3",
+              "matches": "A1"
+            }
+          ],
+          "correct_answer": [
+            {
+              "A": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"928165016204\" class=\"displayed-image\" height=\"129.4091576251187\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/494160483494.jpg\" style=\"aspect-ratio: 220/129.4091576251187;\" width=\"220\"/></span></p>",
+              "B": "<p><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">La table</span></p><p><br/></p>"
+            },
+            {
+              "A": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"953190720868\" class=\"displayed-image\" height=\"129.4091576251187\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/893131730851.jpg\" style=\"aspect-ratio: 220/129.4091576251187;\" width=\"220\"/></span></p>",
+              "B": "<p><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">L’ordinateur</span></p><p><br/></p>"
+            },
+            {
+              "A": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"136149230215 (1)\" class=\"displayed-image\" height=\"129.4091576251187\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/234174309483.jpg\" style=\"aspect-ratio: 220/129.4091576251187;\" width=\"220\"/></span></p>",
+              "B": "<p><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">L’appareil photo</span></p>"
+            }
+          ]
+        },
+        "explanation": null
+      }
+    ]
+  }
+}

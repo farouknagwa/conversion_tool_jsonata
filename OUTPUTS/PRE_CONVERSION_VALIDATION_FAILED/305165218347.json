@@ -1,0 +1,133 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>Liam wants to split the wholes into groups of two-thirds. Which of the following models will he get?</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<div class=\"h-scroll\"><img class=\"displayed-image\" src=\"305165218347.03.svg\"/></div>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<div class=\"h-scroll\"><img class=\"displayed-image\" src=\"305165218347.02.svg\"/></div>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "<div class=\"h-scroll\"><img class=\"displayed-image\" src=\"305165218347.01.svg\"/></div>"
+        }
+      ],
+      "subtype": null,
+      "standalone": false
+    },
+    {
+      "n": 2,
+      "stem": "<p>Help Liam find the final result of <span class=\"merge\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{6 \\div \\frac{2}{3}}\">\\displaystyle{6 \\div \\frac{2}{3}}</math-field></span>.</span></p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [
+            {
+              "type": "integer",
+              "value": "9",
+              "constrains": null
+            }
+          ],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "9"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "6"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "4"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "3"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "18"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": "<p>Liam wants to find the result of <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{6 \\div \\frac{2}{3}}\">\\displaystyle{6 \\div \\frac{2}{3}}</math-field></span> by drawing 6 wholes and dividing each into 3 parts.</p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"305165218347.04.svg\"/></div>",
+  "instance_number": 1,
+  "metadata": {
+    "id": 305165218347,
+    "title": "",
+    "country": null,
+    "dialect": [
+      "american british"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "en",
+    "mapped_id": 305165218347,
+    "source_id": {
+      "value": 952105301938,
+      "page_number": null
+    },
+    "description": "Liam wants to find the result of 6 2/3 by drawing 6 wholes and dividing each into 3 parts.<Figure> Liam wants to split the wholes into groups of two-thirds. Which of the following models will he get? Help Liam find the final result of 6 2/3.",
+    "has_example": false,
+    "parts_count": 2,
+    "instances_count": 6,
+    "publication_date": "2021-01-13T14:31:42"
+  },
+  "section_id": "395174845831",
+  "language": "en",
+  "subject_id": "673181575120",
+  "subject": "Mathematics",
+  "grade_id": "920193465614",
+  "grade": "6",
+  "country": "eg",
+  "question_id": "305165218347"
+}

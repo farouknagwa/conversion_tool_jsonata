@@ -1,0 +1,50 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>The table below shows the number of different types of rooms in three hotels owned by a company.</p><div class=\"table-wrapper\"><table><tbody><tr><th>Hotel</th><th>Single Room</th><th>Double Room</th><th>Suite</th></tr><tr><th>First hotel</th><td> 45 </td><td> 74 </td><td> 15 </td></tr><tr><th>Second hotel</th><td> 48 </td><td> 74 </td><td> 19 </td></tr><tr><th>Third hotel</th><td> 49 </td><td> 94 </td><td> 10 </td></tr></tbody></table></div><p>All three hotels charge an equal amount for a room of the same size. When all the rooms are booked, the company&rsquo;s daily incomes from the first, second, and third hotels are <span class=\"no_margin merge\">50,120</span> LE, <span class=\"no_margin merge\">53,560</span> LE, and <span class=\"no_margin merge\">55,660</span> LE respectively. Find the daily income from a suite.</p>",
+      "type": "input_box",
+      "answer": {
+        "value": "740",
+        "unit": "LE",
+        "constrains": {
+          "type": "currencyValue"
+        }
+      },
+      "choices": [],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 695173510424,
+    "title": "",
+    "country": "us",
+    "dialect": [
+      "american british"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "en",
+    "mapped_id": 695173510424,
+    "source_id": {
+      "value": 952105301938,
+      "page_number": null
+    },
+    "description": "The table below shows the number of different types of rooms in three hotels owned by a company.<Table>All three hotels charge an equal amount for a room of the same size. When all the rooms are booked, the company’s daily incomes from the first, second, and third hotels are 50,120 LE, 53,560 LE, and 55,660 LE respectively. Find the daily income from a suite.",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 10,
+    "publication_date": "2023-07-30T09:16:17"
+  },
+  "section_id": "565127267039",
+  "language": "en",
+  "subject_id": "210123759192",
+  "subject": "Mathematics",
+  "grade_id": "713134702407",
+  "grade": "12",
+  "country": "zz",
+  "question_id": "695173510424"
+}

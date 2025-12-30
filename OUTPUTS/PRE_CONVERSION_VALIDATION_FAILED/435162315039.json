@@ -1,0 +1,73 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>تدرس مريم كيف تؤثر ملامسة السطح على الاحتكاك. فتقوم بفرك كل زوج من أزواج المواد الآتية معًا.</p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"435162315039.05.svg\"/></div><p>رتِّب هذه الأزواج من المواد حسب مقدار الاحتكاك الذي تنتجه من الأقل إلى الأكبر.</p>",
+      "type": "oq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "item",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "<div class=\"h-scroll\"><img class=\"displayed-image\" src=\"435162315039.04.svg\"/></div>"
+        },
+        {
+          "type": "item",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<div class=\"h-scroll\"><img class=\"displayed-image\" src=\"435162315039.03.svg\"/></div>"
+        },
+        {
+          "type": "item",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<div class=\"h-scroll\"><img class=\"displayed-image\" src=\"435162315039.02.svg\"/></div>"
+        },
+        {
+          "type": "item",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "<div class=\"h-scroll\"><img class=\"displayed-image\" src=\"435162315039.01.svg\"/></div>"
+        }
+      ],
+      "subtype": null,
+      "standalone": false,
+      "direction": "Horizontal"
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 315105240964,
+    "title": "",
+    "mapped_id": 435162315039,
+    "source_id": null,
+    "description": "",
+    "has_example": null,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2021-08-10T08:58:28"
+  },
+  "section_id": "720185130415",
+  "language": "ar",
+  "subject_id": "862194150479",
+  "subject": "العلوم",
+  "grade_id": "837170567976",
+  "grade": "5",
+  "country": "zz",
+  "parent_id": "315105240964",
+  "question_id": "435162315039"
+}

@@ -1,0 +1,74 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>Put the words into the correct order to fill in the blanks: A <span data-node-type=\"blank-line\" data-node-variation=\"space\">&nbsp;</span> thermometer has a temperature range of 0 to <span data-node-type=\"blank-line\" data-node-variation=\"space\">&nbsp;</span><span class=\"merge\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{{^\\circ{\\textrm{C}}}}\">\\displaystyle{{^\\circ{\\textrm{C}}}}</math-field></span>, </span>whereas a <span data-node-type=\"blank-line\" data-node-variation=\"space\">&nbsp;</span> thermometer has a temperature range of <span data-node-type=\"blank-line\" data-node-variation=\"space\">&nbsp;</span> to <span class=\"merge\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{42{^\\circ{\\textrm{C}}}}\">\\displaystyle{42{^\\circ{\\textrm{C}}}}</math-field></span>.</span></p>",
+      "type": "oq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "item",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "Celsius"
+        },
+        {
+          "type": "item",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "100"
+        },
+        {
+          "type": "item",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "medical"
+        },
+        {
+          "type": "item",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "35"
+        }
+      ],
+      "subtype": null,
+      "standalone": false
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 972196567490,
+    "title": "",
+    "mapped_id": 972196567490,
+    "source_id": {
+      "value": 590191937586,
+      "page_number": null
+    },
+    "description": "",
+    "has_example": null,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2021-04-07T16:01:54"
+  },
+  "section_id": "823143685683",
+  "language": "en",
+  "subject_id": "828197025630",
+  "subject": "Science",
+  "grade_id": "612152797413",
+  "grade": "6",
+  "country": "zz",
+  "question_id": "972196567490"
+}

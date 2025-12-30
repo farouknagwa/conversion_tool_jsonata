@@ -1,0 +1,139 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span dir=\"auto\" style=\"white-space: pre-wrap;\">Text Blank Question </span><span node-type=\"blank-line\" node-variation=\"space\"></span></p><p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span dir=\"auto\" style=\"white-space: pre-wrap;\">Line Break Question </span></p><p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span dir=\"auto\" style=\"white-space: pre-wrap;\">Another line break</span></p><p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><figure class=\"LexicalTheme__image\" style=\"display: flex; align-items: center; justify-content: center;\"><img src=\"794159215012.01.svg\" alt=\"358107086826_04\" width=\"85\" height=\"150\" style=\"aspect-ratio: 85/150;\"></figure></p>",
+      "type": "mrq",
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "group": 1,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span dir=\"auto\" style=\"white-space: pre-wrap;\">key2</span></p>",
+          "correct_order": 2
+        },
+        {
+          "type": "key",
+          "unit": null,
+          "group": 1,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span dir=\"auto\" style=\"white-space: pre-wrap;\">key1</span></p>",
+          "correct_order": 1
+        }
+      ],
+      "subtype": null,
+      "standalone": false
+    },
+    {
+      "n": 2,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span dir=\"auto\" style=\"white-space: pre-wrap;\">OQ question-Horizontal</span></p>",
+      "type": "oq",
+      "choices": [
+        {
+          "type": "distractor",
+          "unit": null,
+          "group": 1,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span dir=\"auto\" style=\"white-space: pre-wrap;\">Purble</span></p>",
+          "correct_order": 2
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "group": 1,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span dir=\"auto\" style=\"white-space: pre-wrap;\">Panda</span></p>",
+          "correct_order": 3
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "group": 1,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span dir=\"auto\" style=\"white-space: pre-wrap;\">Penguin</span></p>",
+          "correct_order": 1
+        }
+      ],
+      "subtype": null,
+      "direction": "horizontal",
+      "standalone": false
+    },
+    {
+      "n": 3,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span dir=\"auto\" style=\"white-space: pre-wrap;\">Select from below:</span></p><p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span dir=\"auto\" style=\"white-space: pre-wrap;\">Cat eat </span><span node-type=\"blank-line\" node-variation=\"gap\"></span></p><p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span dir=\"auto\" style=\"white-space: pre-wrap;\"> </span><span node-type=\"blank-line\" node-variation=\"gap\"></span><span dir=\"auto\" style=\"white-space: pre-wrap;\"> Eaten by the Monkey</span></p><p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span dir=\"auto\" style=\"white-space: pre-wrap;\">The lion eats </span><span node-type=\"blank-line\" node-variation=\"gap\"></span><span dir=\"auto\" style=\"white-space: pre-wrap;\"> and </span><span node-type=\"blank-line\" node-variation=\"gap\"></span></p><p class=\"LexicalTheme__paragraph\"><br></p>",
+      "type": "gapText",
+      "choices": [],
+      "subtype": null,
+      "standalone": false,
+      "gap_text_keys": [
+        {
+          "value": "distractor",
+          "correct_order": 5
+        },
+        {
+          "value": "fish",
+          "correct_order": 1
+        },
+        {
+          "value": "banana",
+          "correct_order": 2
+        },
+        {
+          "value": "girrafe",
+          "correct_order": 4
+        },
+        {
+          "value": "horses",
+          "correct_order": 3
+        }
+      ]
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 794159215012,
+    "title": "Test Session",
+    "country": "eg",
+    "dialect": [
+      "american"
+    ],
+    "category": "lesson",
+    "language": "en",
+    "mapped_id": 794159215012,
+    "source_id": {
+      "value": 328158489094,
+      "page_number": null
+    },
+    "example_id": null,
+    "description": "Text Blank Question Line Break Question Another line break OQ question-Horizontal Select from below:Cat eat   Eaten by the MonkeyThe lion eats  and",
+    "has_example": false,
+    "parts_count": 3,
+    "instances_count": 1,
+    "publication_date": "2024-08-07T08:44:14"
+  },
+  "section_id": "157128795252",
+  "language": "en",
+  "subject_id": "105108757595",
+  "subject": "Mathematics",
+  "grade_id": "616145068630",
+  "grade": "4",
+  "country": "zz",
+  "question_id": "794159215012"
+}

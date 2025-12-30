@@ -1,0 +1,94 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>أوجد حاصل الضرب.<svg width=\"59.625\" height=\"47.437\" viewBox=\"373.641 266.09 44.719 35.578\" direction=\"ltr\" class=\"displayed_equation\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 0.001625 0.00025 L 44.720375 0.00025\" transform=\"matrix(1,0,0,-1,373.639,301.469)\" fill=\"none\" stroke-width=\".398\" stroke=\"#000\" stroke-miterlimit=\"10\" /><g font-family=\"NagwaMath\" font-size=\"13.5\"><text y=\"275.043\" x=\"388.426\">2</text><text y=\"275.043\" x=\"399.065\">1</text><text y=\"275.043\" x=\"409.703\">3</text><text y=\"295.218\" x=\"375.631\">×</text><text y=\"295.218\" x=\"409.699\">2</text></g></svg></p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [
+            {
+              "type": "integer",
+              "value": "426",
+              "constrains": null
+            }
+          ],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "426"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "425"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "435"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "624"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "423"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 246174304350,
+    "title": "",
+    "country": "eg",
+    "dialect": [
+      "modern_standard"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "ar",
+    "mapped_id": 785130757130,
+    "source_id": null,
+    "description": "أوجد حاصل الضرب. &amp;٢ &amp;١&amp;٣ ×&amp; &amp;&amp;٢",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2019-11-20T13:46:23"
+  },
+  "section_id": "175154805728",
+  "language": "ar",
+  "subject_id": "313152609415",
+  "subject": "الرياضيات",
+  "grade_id": "616145068630",
+  "grade": "4",
+  "country": "zz",
+  "parent_id": "246174304350",
+  "question_id": "785130757130"
+}

@@ -1,0 +1,85 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>If <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{X = \\left \\{1, 3, 4, 5\\right \\}}\">\\displaystyle{X = \\left \\{1, 3, 4, 5\\right \\}}</math-field></span> and <span class=\"merge\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{U = X \\cup Y = \\left \\{1, 3, 4, 5, 7, 8\\right \\}}\">\\displaystyle{U = X \\cup Y = \\left \\{1, 3, 4, 5, 7, 8\\right \\}}</math-field></span>, </span>where <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{U}\">\\displaystyle{U}</math-field></span> is the universal set, which of the following cannot be correct?</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{Y = \\left \\{1, 3, 4, 5, 7\\right \\}}\">\\displaystyle{Y = \\left \\{1, 3, 4, 5, 7\\right \\}}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{Y = \\left \\{1, 3, 4, 7, 8\\right \\}}\">\\displaystyle{Y = \\left \\{1, 3, 4, 7, 8\\right \\}}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{Y = \\left \\{1, 4, 5, 7, 8\\right \\}}\">\\displaystyle{Y = \\left \\{1, 4, 5, 7, 8\\right \\}}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{Y = \\left \\{3, 4, 5, 7, 8\\right \\}}\">\\displaystyle{Y = \\left \\{3, 4, 5, 7, 8\\right \\}}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{Y = \\left \\{1, 3, 4, 5, 7, 8\\right \\}}\">\\displaystyle{Y = \\left \\{1, 3, 4, 5, 7, 8\\right \\}}</math-field></span>"
+        }
+      ],
+      "subtype": null,
+      "standalone": false
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 347104326901,
+    "title": "",
+    "country": "eg",
+    "mapped_id": 347104326901,
+    "source_id": {
+      "value": 425138657980,
+      "page_number": null
+    },
+    "example_id": null,
+    "description": "If X = {1, 3, 4, 5} and U = X ∪ Y = {1, 3, 4, 5, 7, 8}, where U is the universal set, which of the following cannot be correct?",
+    "has_example": null,
+    "parts_count": 1,
+    "instances_count": 10,
+    "publication_date": "2022-11-02T16:25:38"
+  },
+  "section_id": "569121842530",
+  "language": "en",
+  "subject_id": "490141217359",
+  "subject": "Mathematics",
+  "grade_id": "747181064157",
+  "grade": "7",
+  "country": "zz",
+  "question_id": "347104326901"
+}

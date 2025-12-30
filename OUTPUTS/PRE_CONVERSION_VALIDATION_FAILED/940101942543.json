@@ -1,0 +1,65 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>Here is a table describing producers, consumers, and decomposers. </p><div class=\"table-wrapper\"><table><tbody><tr><th>1</th><th>2</th><th>3</th></tr><tr><td>Organisms that make their own food by the process of photosynthesis</td><td>Organisms that get energy in the form of food by eating plants and other animals</td><td>Organisms that break down dead plants and animals to get energy</td></tr><tr><td>Some examples are plants, algae, and some bacteria</td><td>Some examples are animals like rabbits, deer, and lions</td><td>Some examples are bacteria and fungi</td></tr></tbody></table></div><p>Put the table headings in order to match the descriptions. </p>",
+      "type": "oq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "item",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "Producers"
+        },
+        {
+          "type": "item",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "Consumers"
+        },
+        {
+          "type": "item",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "Decomposers"
+        }
+      ],
+      "subtype": null,
+      "standalone": false
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 940101942543,
+    "title": "",
+    "mapped_id": 940101942543,
+    "source_id": {
+      "value": 590191937586,
+      "page_number": null
+    },
+    "description": "",
+    "has_example": null,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2021-07-08T18:25:46"
+  },
+  "section_id": "812106275254",
+  "language": "en",
+  "subject_id": "250135489649",
+  "subject": "Science",
+  "grade_id": "837170567976",
+  "grade": "5",
+  "country": "zz",
+  "question_id": "940101942543"
+}

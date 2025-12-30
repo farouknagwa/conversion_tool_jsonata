@@ -1,0 +1,122 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>ما العدد الكلي للأقلام المبيعة في أيام الإثنين والخميس والجمعة؟</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": "pens",
+          "index": 0,
+          "values": [
+            {
+              "type": "integer",
+              "value": "21",
+              "constrains": null
+            }
+          ],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "21 قلمًا"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "69 قلمًا"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "42 قلمًا"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "31 قلمًا"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "30 قلمًا"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    },
+    {
+      "n": 2,
+      "stem": "<p>هل عدد الأقلام المبيعة يوم الخميس هو الأقل؟</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "لا"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "نعم"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": "<p>يوضِّح الجدول الآتي عدد الأقلام التي بيعت في متجر للأدوات المكتبية خلال <span dir=\"rtl\">أسبوع</span> واحد. </p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"918152348216.01.svg\"/></div>",
+  "instance_number": 1,
+  "metadata": {
+    "id": 909167548252,
+    "title": "",
+    "country": "eg",
+    "dialect": [
+      "modern_standard"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "ar",
+    "mapped_id": 918152348216,
+    "source_id": null,
+    "description": "يوضِّح الجدول الآتي عدد الأقلام التي بيعت في متجر للأدوات المكتبية خلال أسبوع واحد. <شكل> ما العدد الكلي للأقلام المبيعة في أيام الإثنين والخميس والجمعة؟ هل عدد الأقلام المبيعة يوم الخميس هو الأقل؟",
+    "has_example": false,
+    "parts_count": 2,
+    "instances_count": 10,
+    "publication_date": "2023-01-02T06:52:14"
+  },
+  "section_id": "940145807494",
+  "language": "ar",
+  "subject_id": "206164707946",
+  "subject": "الرياضيات",
+  "grade_id": "108127568584",
+  "grade": "2",
+  "country": "zz",
+  "parent_id": "909167548252",
+  "question_id": "918152348216"
+}

@@ -1,0 +1,111 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>If the equation <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{s = 5x}\">\\displaystyle{s = 5x}</math-field></span> is used to calculate the total amount of money a store makes from selling a certain product, where the variable <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{x}\">\\displaystyle{x}</math-field></span> represents the number of items sold of that product and the variable <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{s}\">\\displaystyle{s}</math-field></span> represents the total amount of money the store makes, how much money, in dollars, does that store make when selling 9 products?</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": "dollars",
+          "index": 0,
+          "values": [
+            {
+              "type": "currencyValue",
+              "value": "45",
+              "constrains": {
+                "sign": null,
+                "normalizeSign": null,
+                "allowLeadingZeros": null,
+                "allowTrailingZeros": null,
+                "removeLeadingZerosFromNormalizedForm": null,
+                "removeTrailingZerosFromNormalizedForm": null,
+                "removeTrailingDecimalPointFromNormalizedForm": null,
+                "addSingleLeadingZeroToNormalizedForm": null,
+                "mustHaveAtLeastNDP": null,
+                "mustHaveNoMoreThanNDP": null,
+                "mustHaveExactlyNDP": null,
+                "mustHaveExactlyNSF": null,
+                "mustHaveAtLeastNSF": null,
+                "mustHaveNoMoreThanNSF": null
+              }
+            }
+          ],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "45 dollars"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "14 dollars"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "9 dollars"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "56 dollars"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "65 dollars"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 542132829291,
+    "title": "",
+    "country": "eg",
+    "dialect": [
+      "american"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "en",
+    "mapped_id": 542132829291,
+    "source_id": {
+      "value": 218134709835,
+      "page_number": null
+    },
+    "description": "If the equation s = 5x is used to calculate the total amount of money a store makes from selling a certain product, where the variable x represents the number of items sold of that product and the variable s represents the total amount of money the store makes, how much money, in dollars, does that store make when selling 9 products?",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 10,
+    "publication_date": "2021-09-24T13:45:25"
+  },
+  "section_id": "368102473187",
+  "language": "en",
+  "subject_id": "943195121909",
+  "subject": "Mathematics",
+  "grade_id": "612152797413",
+  "grade": "6",
+  "country": "zz",
+  "question_id": "542132829291"
+}

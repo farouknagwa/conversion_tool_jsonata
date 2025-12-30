@@ -1,0 +1,96 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>Milos bought 4 bottles of soda for a family gathering. After the gathering had been going for <span class=\"merge\"><span class=\"merge no_margin\">1 hour</span>, </span>the cola bottle was <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\frac{1}{6}}\">\\displaystyle{\\frac{1}{6}}</math-field></span> full, the lemon-lime bottle was <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\frac{1}{2}}\">\\displaystyle{\\frac{1}{2}}</math-field></span> full, the cream soda bottle was full, and the cherry soda bottle was <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\frac{1}{3}}\">\\displaystyle{\\frac{1}{3}}</math-field></span> full. If the soda was served in <span class=\"merge no_margin\">cups</span> and each cup was <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\frac{1}{6}}\">\\displaystyle{\\frac{1}{6}}</math-field></span> of a bottle, how many more <span class=\"merge no_margin\">cups</span> can be poured?</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": "<span class=\"merge no_margin\">cups</span>",
+          "index": 0,
+          "values": [
+            {
+              "type": "integer",
+              "value": "12",
+              "constrains": null
+            }
+          ],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "<span class=\"merge no_margin\">12 cups</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<span class=\"merge no_margin\">6 cups</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<span class=\"merge no_margin\">11 cups</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "<span class=\"merge no_margin\">9 cups</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "<span class=\"merge no_margin\">10 cups</span>"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 127149047302,
+    "title": "Solving Word Problems by Adding and Dividing Fractions",
+    "country": null,
+    "dialect": [
+      "american"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "en",
+    "mapped_id": 127149047302,
+    "source_id": {
+      "value": 573126491845,
+      "page_number": null
+    },
+    "description": "Milos bought 4 bottles of soda for a family gathering. After the gathering had been going for 1 hour, the cola bottle was 1/6 full, the lemon-lime bottle was 1/2 full, the cream soda bottle was full, and the cherry soda bottle was 1/3 full. If the soda was served in cups and each cup was 1/6 of a bottle, how many more cups can be poured?",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 8,
+    "publication_date": "2017-07-07T08:54:11"
+  },
+  "section_id": "163172818035",
+  "language": "en",
+  "subject_id": "673181575120",
+  "subject": "Mathematics",
+  "grade_id": "920193465614",
+  "grade": "6",
+  "country": "eg",
+  "question_id": "127149047302"
+}

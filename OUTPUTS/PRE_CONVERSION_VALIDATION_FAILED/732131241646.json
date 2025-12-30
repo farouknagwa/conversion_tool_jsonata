@@ -1,0 +1,66 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p> Emma mixes sand, salt, iron ball bearings, and water.</p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"732131241646.01.svg\"/></div><p>She wants to separate them in the following order:</p><ol type=\"1\"><li>The iron ball bearings</li><li>The sand</li><li>The salt</li></ol><p>Put the methods in the correct order to separate Emma&rsquo;s mixture as she wants.</p>",
+      "type": "oq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "item",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "Magnetic attraction"
+        },
+        {
+          "type": "item",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "Filtration"
+        },
+        {
+          "type": "item",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "Evaporation"
+        }
+      ],
+      "subtype": null,
+      "standalone": false,
+      "direction": "Vertical"
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 732131241646,
+    "title": "",
+    "mapped_id": 732131241646,
+    "source_id": {
+      "value": 590191937586,
+      "page_number": null
+    },
+    "description": "",
+    "has_example": null,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2021-06-25T04:17:42"
+  },
+  "section_id": "572168752385",
+  "language": "en",
+  "subject_id": "250135489649",
+  "subject": "Science",
+  "grade_id": "837170567976",
+  "grade": "5",
+  "country": "zz",
+  "question_id": "732131241646"
+}

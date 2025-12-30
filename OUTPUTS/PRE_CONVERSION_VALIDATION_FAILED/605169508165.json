@@ -1,0 +1,96 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>Last year, a community began an initiative to shelter stray animals. The community applied this initiative by dividing itself into two groups. The given bar graph shows the number of stray animals rescued by the community over a week. Determine how many more stray animals were rescued on Tuesday than on Wednesday. </p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"605169508165.01.svg\"/></div>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": "stray animals",
+          "index": 0,
+          "values": [
+            {
+              "type": "integer",
+              "value": "11",
+              "constrains": null
+            }
+          ],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "11 stray animals"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "131 stray animals"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "8 stray animals"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "71 stray animals"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "60 stray animals"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 605169508165,
+    "title": "Reading Data from a Double Bar Graph Involving Subtraction",
+    "country": "eg",
+    "dialect": [
+      "american british"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "en",
+    "mapped_id": 605169508165,
+    "source_id": {
+      "value": 897132872183,
+      "page_number": null
+    },
+    "description": "Last year, a community began an initiative to shelter stray animals. The community applied this initiative by dividing itself into two groups. The given bar graph shows the number of stray animals rescued by the community over a week. Determine how many more stray animals were rescued on Tuesday than on Wednesday. <Figure>",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 10,
+    "publication_date": "2017-09-22T08:23:14"
+  },
+  "section_id": "479124762793",
+  "language": "en",
+  "subject_id": "105108757595",
+  "subject": "Mathematics",
+  "grade_id": "616145068630",
+  "grade": "4",
+  "country": "zz",
+  "question_id": "605169508165"
+}

@@ -1,0 +1,75 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>Put the pictures in order to show the process of dissolving. </p>",
+      "type": "oq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "item",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<div class=\"h-scroll\"><img class=\"displayed-image\" src=\"945194373202.04.svg\"/></div>"
+        },
+        {
+          "type": "item",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "<div class=\"h-scroll\"><img class=\"displayed-image\" src=\"945194373202.02.svg\"/></div>"
+        },
+        {
+          "type": "item",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<div class=\"h-scroll\"><img class=\"displayed-image\" src=\"945194373202.03.svg\"/></div>"
+        },
+        {
+          "type": "item",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "<div class=\"h-scroll\"><img class=\"displayed-image\" src=\"945194373202.01.svg\"/></div>"
+        }
+      ],
+      "subtype": null,
+      "standalone": false,
+      "direction": "Horizontal"
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 945194373202,
+    "title": "",
+    "mapped_id": 945194373202,
+    "source_id": {
+      "value": 590191937586,
+      "page_number": null
+    },
+    "description": "",
+    "has_example": null,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2021-06-29T22:57:02"
+  },
+  "section_id": "784142381348",
+  "language": "en",
+  "subject_id": "250135489649",
+  "subject": "Science",
+  "grade_id": "837170567976",
+  "grade": "5",
+  "country": "zz",
+  "question_id": "945194373202"
+}

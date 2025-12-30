@@ -1,0 +1,65 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>مزجت رانيا بين الرمل، والملح، والكرات الحديدية، والماء.</p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"106136720826.01.svg\"/></div><p>أرادتْ فصلها بالترتيب الآتي:</p><ol class=\"arabic-numbers\"><li>الكرات الحديدية</li><li>الرمل</li><li>الملح</li></ol><p>رتب طرق الفصل بالترتيب الصحيح حسب ما تريده رانيا.</p>",
+      "type": "oq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "item",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "الجذب المغناطيسي"
+        },
+        {
+          "type": "item",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "الترشيح"
+        },
+        {
+          "type": "item",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "التبخُّر"
+        }
+      ],
+      "subtype": null,
+      "standalone": false,
+      "direction": "Vertical"
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 732131241646,
+    "title": "",
+    "mapped_id": 106136720826,
+    "source_id": null,
+    "description": "",
+    "has_example": null,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2021-08-31T08:20:32",
+    "question_country": []
+  },
+  "section_id": "572167915416",
+  "language": "ar",
+  "subject_id": "862194150479",
+  "subject": "العلوم",
+  "grade_id": "837170567976",
+  "grade": "5",
+  "country": "zz",
+  "parent_id": "732131241646",
+  "question_id": "106136720826"
+}

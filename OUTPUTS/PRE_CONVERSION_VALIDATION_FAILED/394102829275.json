@@ -1,0 +1,250 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>ارسم مُخطَّط الصندوق وطرفَيْهِ باستخدام المعلومات التي حسبها علي من مجموعة البيانات.</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "<div class=\"h-scroll\"><img class=\"displayed-image\" src=\"394102829275.04.svg\"/></div>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<div class=\"h-scroll\"><img class=\"displayed-image\" src=\"394102829275.03.svg\"/></div>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "<div class=\"h-scroll\"><img class=\"displayed-image\" src=\"394102829275.02.svg\"/></div>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<div class=\"h-scroll\"><img class=\"displayed-image\" src=\"394102829275.01.svg\"/></div>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": ""
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    },
+    {
+      "n": 2,
+      "stem": "<p>ما المدى الكلي لأعمار السَّبَّاحين المُتردِّدين على حمام السباحة يوم السبت صباحًا؟</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": "<span>سنة</span>",
+          "index": 0,
+          "values": [
+            {
+              "type": "integer",
+              "value": "24",
+              "constrains": null
+            }
+          ],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "<span class=\"merge no_margin\">٢٤ سنة</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<span class=\"merge no_margin\">٣١ سنة</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<span class=\"merge no_margin\">٣٥ سنة</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "<span class=\"merge no_margin\">١٢ سنة</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "<span class=\"merge no_margin\">٢٢ سنة</span>"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    },
+    {
+      "n": 3,
+      "stem": "<p>ما النسبة المئوية للسَّبَّاحين المُتردِّدين على حمام السباحة يوم السبت صباحًا، الذين تتراوح أعمارهم بين ٧ و<span class=\"merge no_margin\">٢٢ سنة</span>؟</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" dir=\"rtl\" lang=\"ar\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{٧٥٪ }\">\\displaystyle{٧٥٪ }</math-field></span>&lrm;"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" dir=\"rtl\" lang=\"ar\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{٥٠٪ }\">\\displaystyle{٥٠٪ }</math-field></span>&lrm;"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" dir=\"rtl\" lang=\"ar\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{٢٥٪ }\">\\displaystyle{٢٥٪ }</math-field></span>&lrm;"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" dir=\"rtl\" lang=\"ar\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{٦٠٪ }\">\\displaystyle{٦٠٪ }</math-field></span>&lrm;"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" dir=\"rtl\" lang=\"ar\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{٦٢٪ }\">\\displaystyle{٦٢٪ }</math-field></span>&lrm;"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    },
+    {
+      "n": 4,
+      "stem": "<p>احسب وفسِّر النسبة المئوية للسَّبَّاحين المُتردِّدين على حمام السباحة يوم السبت صباحًا، الذين يقعون داخل الصندوق.</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" dir=\"rtl\" lang=\"ar\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{٥٠٪ }\">\\displaystyle{٥٠٪ }</math-field></span> من السباحين المترددين على حمام السباحة يوم السبت صباحًا تتراوح أعمارهم بين ١٠ و<span class=\"merge\"><span class=\"merge no_margin\">٢٢ سنة</span>.</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" dir=\"rtl\" lang=\"ar\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{٧٥٪ }\">\\displaystyle{٧٥٪ }</math-field></span> من السباحين المترددين على حمام السباحة يوم السبت صباحًا تتراوح أعمارهم بين ١٠ و<span class=\"merge\"><span class=\"merge no_margin\">٢٢ سنة</span>.</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" dir=\"rtl\" lang=\"ar\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{٢٥٪ }\">\\displaystyle{٢٥٪ }</math-field></span> من السباحين المترددين على حمام السباحة يوم السبت صباحًا تتراوح أعمارهم بين ١٠ و<span class=\"merge\"><span class=\"merge no_margin\">٢٢ سنة</span>.</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" dir=\"rtl\" lang=\"ar\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{٦٠٪ }\">\\displaystyle{٦٠٪ }</math-field></span> من السباحين المترددين على حمام السباحة يوم السبت صباحًا تتراوح أعمارهم بين ١٠ و<span class=\"merge\"><span class=\"merge no_margin\">٢٢ سنة</span>.</span>"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": "<p>حسب علي المعلومات الآتية من مجموعة بيانات عن أعمار السَّبَّاحين الذين يتردَّدون على حمام السباحة يوم السبت صباحًا: </p><ul class=\"list\"><li>أقل قيمة: ٧</li><li>الربيع الأدنى: ١٠</li><li>الوسيط: ١٥</li><li>الربيع الأعلى: ٢٢</li><li>أعلى قيمة: ٣١</li></ul>",
+  "instance_number": 1,
+  "metadata": {
+    "id": 629196373096,
+    "title": "",
+    "country": "sa",
+    "dialect": [
+      "modern_standard"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "ar",
+    "mapped_id": 394102829275,
+    "source_id": null,
+    "description": "حسب علي المعلومات الآتية من مجموعة بيانات عن أعمار السَّبَّاحين الذين يتردَّدون على حمام السباحة يوم السبت صباحًا: أقل قيمة: ٧الربيع الأدنى: ١٠الوسيط: ١٥الربيع الأعلى: ٢٢أعلى قيمة: ٣١ ارسم مُخطَّط الصندوق وطرفَيْهِ باستخدام المعلومات التي حسبها علي من مجموعة البيانات. ما المدى الكلي لأعمار السَّبَّاحين المُتردِّدين على حمام السباحة يوم السبت صباحًا؟ ما النسبة المئوية للسَّبَّاحين المُتردِّدين على حمام السباحة يوم السبت صباحًا، الذين تتراوح أعمارهم بين ٧ و٢٢ سنة؟ احسب وفسِّر النسبة المئوية للسَّبَّاحين المُتردِّدين على حمام السباحة يوم السبت صباحًا، الذين يقعون داخل الصندوق.",
+    "has_example": false,
+    "parts_count": 4,
+    "instances_count": 1,
+    "publication_date": "2023-01-18T14:24:54"
+  },
+  "section_id": "383178436915",
+  "language": "ar",
+  "subject_id": "646195084349",
+  "subject": "الرياضيات",
+  "grade_id": "425176561296",
+  "grade": "8",
+  "country": "zz",
+  "parent_id": "629196373096",
+  "question_id": "394102829275"
+}

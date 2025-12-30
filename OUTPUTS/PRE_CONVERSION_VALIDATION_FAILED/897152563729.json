@@ -1,0 +1,109 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>إذا كانت المعادلة <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{s = 5x}\">\\displaystyle{s = 5x}</math-field></span> تُستخدم لحساب المبلغ الكلي للمال الذي يجنيه أحد المتاجر من بيع منتج معين، حيث المتغير <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{x}\">\\displaystyle{x}</math-field></span> يمثِّل عدد العناصر المبيعة من هذا المنتج، والمتغير <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{s}\">\\displaystyle{s}</math-field></span> يمثِّل المبلغ الكلي للمال الذي يجنيه المتجر، فما المبلغ الذي يجنيه المتجر بالدولار إذا باع 9 منتجات؟</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": "<span dir=\"rtl\">دولار أمريكي</span>",
+          "index": 0,
+          "values": [
+            {
+              "type": "currencyValue",
+              "value": "45",
+              "constrains": {
+                "sign": null,
+                "normalizeSign": null,
+                "allowLeadingZeros": null,
+                "allowTrailingZeros": null,
+                "removeLeadingZerosFromNormalizedForm": null,
+                "removeTrailingZerosFromNormalizedForm": null,
+                "removeTrailingDecimalPointFromNormalizedForm": null,
+                "addSingleLeadingZeroToNormalizedForm": null,
+                "mustHaveAtLeastNDP": null,
+                "mustHaveNoMoreThanNDP": null,
+                "mustHaveExactlyNDP": null,
+                "mustHaveExactlyNSF": null,
+                "mustHaveAtLeastNSF": null,
+                "mustHaveNoMoreThanNSF": null
+              }
+            }
+          ],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "<span dir=\"rtl\">45 دولارًا أمريكيًّا</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "<span dir=\"rtl\">14 دولارًا أمريكيًّا</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<span dir=\"rtl\">9 دولارات أمريكية</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<span dir=\"rtl\">56 دولارًا أمريكيًّا</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "<span dir=\"rtl\">65 دولارًا أمريكيًّا</span>"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 542132829291,
+    "title": "",
+    "country": "eg",
+    "dialect": [
+      "modern_standard"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "ar",
+    "mapped_id": 897152563729,
+    "source_id": null,
+    "description": "إذا كانت المعادلة s = ٥x تُستخدم لحساب المبلغ الكلي للمال الذي يجنيه أحد المتاجر من بيع منتج معين، حيث المتغير x يمثِّل عدد العناصر المبيعة من هذا المنتج، والمتغير s يمثِّل المبلغ الكلي للمال الذي يجنيه المتجر، فما المبلغ الذي يجنيه المتجر بالدولار إذا باع ٩ منتجات؟",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 10,
+    "publication_date": "2023-03-06T09:37:07"
+  },
+  "section_id": "367198628659",
+  "language": "ar",
+  "subject_id": "196192747520",
+  "subject": "الرياضيات",
+  "grade_id": "612152797413",
+  "grade": "6",
+  "country": "zz",
+  "parent_id": "542132829291",
+  "question_id": "897152563729"
+}

@@ -1,0 +1,49 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>اشترى فيصل بطاطس. كان ثمنها ٣٫٢٠ جنيهات إسترلينية لكلِّ <span class=\"merge\"><span>كيلوجرام</span>. </span>اشترى <span class=\"merge\"><span class=\"merge no_margin\">٤٫٧ كجم</span>. </span>استخدِم الطريقة الرأسية لحساب ثمن البطاطس التي اشتراها فيصل.</p>",
+      "type": "input_box",
+      "answer": {
+        "value": "15.04",
+        "unit": "جنيه إسترليني",
+        "constrains": {
+          "type": "currencyValue"
+        }
+      },
+      "choices": [],
+      "subtype": null,
+      "standalone": true,
+      "direction": null
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 958192514893,
+    "title": "",
+    "country": "sa",
+    "dialect": [
+      "modern_standard"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "ar",
+    "mapped_id": 349128043079,
+    "source_id": null,
+    "description": "اشترى فيصل بطاطس. كان ثمنها ٣٫٢٠ جنيهات إسترلينية لكلِّ كيلوجرام. اشترى ٤٫٧ كجم. استخدِم الطريقة الرأسية لحساب ثمن البطاطس التي اشتراها فيصل.",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 10,
+    "publication_date": "2023-03-06T14:19:28"
+  },
+  "section_id": "185190327349",
+  "language": "ar",
+  "subject_id": "196192747520",
+  "subject": "الرياضيات",
+  "grade_id": "612152797413",
+  "grade": "6",
+  "country": "zz",
+  "parent_id": "958192514893",
+  "question_id": "349128043079"
+}

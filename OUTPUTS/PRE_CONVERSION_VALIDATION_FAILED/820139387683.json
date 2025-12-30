@@ -1,0 +1,83 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>جمعية خيرية لديها 3 أنواع من اللُّعَب للتبرُّع بها. يُرِيد العاملون بالجمعية تقديم نفس عدد اللُّعَب لكلِّ دار من 391 دارًا من دور الأطفال. باستخدام القسمة المُطوَّلة، احسب عدد اللُّعَب التي تحصل عليها كلُّ دار من دور الأطفال، وعدد اللُّعَب المتبقية.</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "130 لُعبة ، وعدد اللُّعَب المتبقية 1"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "131 لُعبة ، وعدد اللُّعَب المتبقية 1"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "129 لُعبة ، وعدد اللُّعَب المتبقية 4"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "131 لُعبة ، وعدد اللُّعَب المتبقية 0"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "130 لُعبة ، وعدد اللُّعَب المتبقية 0"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 682181694643,
+    "title": "",
+    "country": "eg",
+    "mapped_id": 820139387683,
+    "source_id": null,
+    "example_id": null,
+    "description": "جمعية خيرية لديها ٣ أنواع من اللُّعَب للتبرُّع بها. يُرِيد العاملون بالجمعية تقديم نفس عدد اللُّعَب لكلِّ دار من ٣٩١ دارًا من دور الأطفال. باستخدام القسمة المُطوَّلة، احسب عدد اللُّعَب التي تحصل عليها كلُّ دار من دور الأطفال، وعدد اللُّعَب المتبقية.",
+    "has_example": null,
+    "parts_count": 1,
+    "instances_count": 5,
+    "publication_date": "2019-11-05T11:20:15"
+  },
+  "section_id": "409127289075",
+  "language": "ar",
+  "subject_id": "313152609415",
+  "subject": "الرياضيات",
+  "grade_id": "616145068630",
+  "grade": "4",
+  "country": "zz",
+  "parent_id": "682181694643",
+  "question_id": "820139387683"
+}

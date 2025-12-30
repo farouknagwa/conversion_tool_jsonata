@@ -1,0 +1,151 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>Which number completes the table?</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [
+            {
+              "type": "decimal",
+              "value": "3.14",
+              "constrains": null
+            }
+          ],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "3.14"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "0.32"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "3.41"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "0.23"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "31.4"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    },
+    {
+      "n": 2,
+      "stem": "<p>What do you notice about these measurements?</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "Whatever the dimensions of a circle, the result of dividing the circumference by the diameter, rounded to 2 decimal places, is 3.14."
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "All the circles are the same size."
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "Whatever the dimensions of a circle, the result of dividing the diameter by the circumference, rounded to 2 decimal places, is 3.14."
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "The product of the diameter and the circumference of any circle, rounded to 2 decimal places, is 3.14."
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "The circumference of all circles, rounded to 2 decimal places, is 3.14."
+        }
+      ],
+      "subtype": null,
+      "standalone": false
+    }
+  ],
+  "statement": "<p> Engy and Nabil are investigating the relationship between the circumference and diameter of some circles. They round their answers to 2 decimal places.</p><div class=\"table-wrapper\"><table><tr><th>Diameter (<span>cm</span>)</th><th>Circumference (<span>cm</span>)</th><th>Circumference <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\div}\">\\displaystyle{\\div}</math-field></span> Diameter</th></tr><tr><td>34</td><td>106.76</td><td><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\cdots}\">\\displaystyle{\\cdots}</math-field></span></td></tr></table></div>",
+  "instance_number": 1,
+  "metadata": {
+    "id": 807104697541,
+    "title": "",
+    "country": "eg",
+    "dialect": [
+      "american british"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "en",
+    "mapped_id": 807104697541,
+    "source_id": {
+      "value": 287178163493,
+      "page_number": null
+    },
+    "description": "Engy and Nabil are investigating the relationship between the circumference and diameter of some circles. They round their answers to 2 decimal places.<Table> Which number completes the table? What do you notice about these measurements?",
+    "has_example": false,
+    "parts_count": 2,
+    "instances_count": 1,
+    "publication_date": "2022-08-10T10:46:37"
+  },
+  "section_id": "753197835431",
+  "language": "en",
+  "subject_id": "954127413421",
+  "subject": "Mathematics",
+  "grade_id": "837170567976",
+  "grade": "5",
+  "country": "zz",
+  "question_id": "807104697541"
+}

@@ -1,0 +1,137 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>ما القياس الذي يمكن الحصول عليه عند ضرب طول قطر الدائرة في باي؟</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "محيط الدائرة"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "طول نصف قطر الدائرة"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "طول قطر الدائرة الذي يساوي ضعف حجم هذه الدائرة"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "مساحة الدائرة"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "محيط الدائرة الذي يساوي ضعف حجم هذه الدائرة"
+        }
+      ],
+      "subtype": null,
+      "standalone": false
+    },
+    {
+      "n": 2,
+      "stem": "<p>يعتقد آدم أنه توجد طريقة أخرى لحساب هذا القياس. أيُّ الصيغ الآتية تُعطي نفس ناتج باي <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\times}\">\\displaystyle{\\times}</math-field></span> طول القطر <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\left( \\pi d \\right)}\">\\displaystyle{\\left( \\pi d \\right)}</math-field></span>؟</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "2 <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\times}\">\\displaystyle{\\times}</math-field></span> باي <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\times}\">\\displaystyle{\\times}</math-field></span> طول نصف القطر<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\left( 2 \\pi r \\right)}\">\\displaystyle{\\left( 2 \\pi r \\right)}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "2 <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\times}\">\\displaystyle{\\times}</math-field></span> باي <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\left( 2 \\pi \\right)}\">\\displaystyle{\\left( 2 \\pi \\right)}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "باي <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\times}\">\\displaystyle{\\times}</math-field></span> طول نصف القطر<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\left( \\pi r \\right)}\">\\displaystyle{\\left( \\pi r \\right)}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "طول القطر <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\times}\">\\displaystyle{\\times}</math-field></span> طول نصف القطر<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\left( d r \\right)}\">\\displaystyle{\\left( d r \\right)}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "2 <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\times}\">\\displaystyle{\\times}</math-field></span> طول نصف القطر <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\left( 2 r \\right)}\">\\displaystyle{\\left( 2 r \\right)}</math-field></span>"
+        }
+      ],
+      "subtype": null,
+      "standalone": false
+    }
+  ],
+  "statement": "<p>سكب آدم مشروبه على كتابه المدرسي، وتلطخت بعض الكلمات.</p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"413126361810.01.svg\"/></div>",
+  "instance_number": 1,
+  "metadata": {
+    "id": 943195316029,
+    "title": "",
+    "country": "eg",
+    "mapped_id": 413126361810,
+    "source_id": null,
+    "description": "سكب آدم مشروبه على كتابه المدرسي، وتلطخت بعض الكلمات.<شكل> ما القياس الذي يمكن الحصول عليه عند ضرب طول قطر الدائرة في باي؟ يعتقد آدم أنه توجد طريقة أخرى لحساب هذا القياس. أيُّ الصيغ الآتية تُعطي نفس ناتج باي × طول القطر ( π d )؟",
+    "has_example": null,
+    "parts_count": 2,
+    "instances_count": 1,
+    "publication_date": "2023-01-16T07:04:01"
+  },
+  "section_id": "753197287306",
+  "language": "ar",
+  "subject_id": "195153863763",
+  "subject": "الرياضيات",
+  "grade_id": "837170567976",
+  "grade": "5",
+  "country": "zz",
+  "parent_id": "943195316029",
+  "question_id": "413126361810"
+}

@@ -1,0 +1,48 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>إذا كان سعر 13 دفترًا متماثلًا <span class=\"merge\"><span dir=\"rtl\">110.50 جنيهات مصرية</span>، </span>فأوجد سعر كل دفتر.</p>",
+      "type": "input_box",
+      "answer": {
+        "value": "8.50",
+        "constrains": {
+          "type": "currencyValue"
+        },
+        "unit": "<span dir=\"rtl\">جنيه مصري</span>"
+      },
+      "choices": [],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 656164041731,
+    "title": "",
+    "country": "eg",
+    "dialect": [
+      "modern_standard"
+    ],
+    "automark": true,
+    "category": "exam",
+    "language": "ar",
+    "mapped_id": 386134185064,
+    "source_id": null,
+    "description": "إذا كان سعر ١٣ دفترًا متماثلًا ١١٠.٥٠ جنيهات مصرية، فأوجد سعر كل دفتر.",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2024-04-22T12:53:22"
+  },
+  "section_id": "872194012716",
+  "language": "ar",
+  "subject_id": "196192747520",
+  "subject": "الرياضيات",
+  "grade_id": "612152797413",
+  "grade": "6",
+  "country": "zz",
+  "parent_id": "656164041731",
+  "question_id": "386134185064"
+}

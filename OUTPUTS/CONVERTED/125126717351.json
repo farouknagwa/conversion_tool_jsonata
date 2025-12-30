@@ -1,0 +1,61 @@
+{
+  "question_id": "125126717351",
+  "parent_id": "125126717351",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Connect Plus",
+  "subject_id": "123456789012",
+  "grade": "3",
+  "grade_id": "123456789012",
+  "number_of_parts": 1,
+  "section_id": "153185464182",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "mrq",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">Which three effects does sugar have on the body?</span></p>",
+        "choices": [
+          {
+            "label": "A",
+            "value": "<p><span style=\"white-space: pre-wrap;\">Damage your teeth</span></p>",
+            "is_correct": true
+          },
+          {
+            "label": "B",
+            "value": "<p><span style=\"white-space: pre-wrap;\">Help your hair</span></p>",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "value": "<p><span style=\"white-space: pre-wrap;\">Make you anxious</span></p>",
+            "is_correct": true
+          },
+          {
+            "label": "D",
+            "value": "<p><span style=\"white-space: pre-wrap;\">Affect your heart</span></p>",
+            "is_correct": true
+          }
+        ],
+        "correct_answer": [
+          {
+            "label": "A",
+            "value": "<p><span style=\"white-space: pre-wrap;\">Damage your teeth</span></p>"
+          },
+          {
+            "label": "C",
+            "value": "<p><span style=\"white-space: pre-wrap;\">Make you anxious</span></p>"
+          },
+          {
+            "label": "D",
+            "value": "<p><span style=\"white-space: pre-wrap;\">Affect your heart</span></p>"
+          }
+        ],
+        "explanation": null
+      }
+    ]
+  }
+}

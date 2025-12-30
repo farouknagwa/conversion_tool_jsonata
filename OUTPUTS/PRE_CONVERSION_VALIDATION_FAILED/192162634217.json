@@ -1,0 +1,96 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p> Amer and Bassem are making pizzas. Amer&rsquo;s pizza has a diameter of <span class=\"merge\"><span class=\"merge no_margin\">15 cm</span>, </span>and Bassem&rsquo;s pizza has a diameter of <span class=\"merge\"><span class=\"merge no_margin\">12 cm</span>. </span>What is the difference in the circumferences of the pizzas? Use 3.14 as an approximation of pi and round your final answer to the nearest tenth.</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": "<span>cm</span>",
+          "index": 0,
+          "values": [
+            {
+              "type": "decimal",
+              "value": "9.4",
+              "constrains": null
+            }
+          ],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "<span class=\"merge no_margin\">9.4 cm</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<span class=\"merge no_margin\">18.8 cm</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "<span class=\"merge no_margin\">84.8 cm</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<span class=\"merge no_margin\">10.2 cm</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "<span class=\"merge no_margin\">4.7 cm</span>"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 192162634217,
+    "title": "",
+    "country": "eg",
+    "dialect": [
+      "american british"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "en",
+    "mapped_id": 192162634217,
+    "source_id": {
+      "value": 287178163493,
+      "page_number": null
+    },
+    "description": "Amer and Bassem are making pizzas. Amer’s pizza has a diameter of 15 cm, and Bassem’s pizza has a diameter of 12 cm. What is the difference in the circumferences of the pizzas? Use 3.14 as an approximation of pi and round your final answer to the nearest tenth.",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 10,
+    "publication_date": "2022-10-04T13:43:11"
+  },
+  "section_id": "753197835431",
+  "language": "en",
+  "subject_id": "954127413421",
+  "subject": "Mathematics",
+  "grade_id": "837170567976",
+  "grade": "5",
+  "country": "zz",
+  "question_id": "192162634217"
+}

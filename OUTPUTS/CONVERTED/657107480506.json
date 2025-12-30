@@ -51,9 +51,9 @@
           "unit": null,
           "constraints": {
             "type": "integer",
-            "number_format": {
-              "format": "arabic",
-              "must_have_thousand_sep": true
+            "answer_format": {
+              "number_format": "arabic",
+              "contains_thousand_separator": true
             },
             "allow_leading_zeros": false,
             "allow_trailing_zeros": false,

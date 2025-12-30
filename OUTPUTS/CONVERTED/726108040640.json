@@ -1,0 +1,54 @@
+{
+  "question_id": "726108040640",
+  "parent_id": "726108040640",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Connect Plus",
+  "subject_id": "123456789012",
+  "grade": "4",
+  "grade_id": "123456789012",
+  "number_of_parts": 1,
+  "section_id": "534168968491",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "ordering",
+        "stem": "<p><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">Put the letters in the correct order to form a word.</span></p>",
+        "direction": "horizontal",
+        "items": [
+          {
+            "value": "<p><span style=\"white-space: pre-wrap;\">e</span></p>",
+            "display_order": 1,
+            "correct_order": 4
+          },
+          {
+            "value": "<p><span style=\"white-space: pre-wrap;\">Cu</span></p>",
+            "display_order": 2,
+            "correct_order": 1
+          },
+          {
+            "value": "<p><span style=\"white-space: pre-wrap;\">ur</span></p>",
+            "display_order": 3,
+            "correct_order": 3
+          },
+          {
+            "value": "<p><span style=\"white-space: pre-wrap;\">lt</span></p>",
+            "display_order": 4,
+            "correct_order": 2
+          }
+        ],
+        "correct_answer": [
+          "<p><span style=\"white-space: pre-wrap;\">Cu</span></p>",
+          "<p><span style=\"white-space: pre-wrap;\">lt</span></p>",
+          "<p><span style=\"white-space: pre-wrap;\">ur</span></p>",
+          "<p><span style=\"white-space: pre-wrap;\">e</span></p>"
+        ],
+        "explanation": null
+      }
+    ]
+  }
+}

@@ -23,9 +23,9 @@
           "unit": null,
           "constraints": {
             "type": "decimal",
-            "number_format": {
-              "format": "arabic",
-              "must_have_thousand_sep": false
+            "answer_format": {
+              "number_format": "arabic",
+              "contains_thousand_separator": false
             },
             "allow_leading_zeros": false,
             "allow_trailing_zeros": false,

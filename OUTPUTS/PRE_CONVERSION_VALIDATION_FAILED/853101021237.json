@@ -1,0 +1,96 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p> Nader solved the division problem <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{372 \\div 4}\">\\displaystyle{372 \\div 4}</math-field></span> by using long division. His work is shown below:</p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"853101021237.01.svg\"/></div><p>The box represents a digit of the quotient. What digit does the box represent?</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [
+            {
+              "type": "integer",
+              "value": "3",
+              "constrains": null
+            }
+          ],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "3"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "1"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "9"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "2"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "4"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 853101021237,
+    "title": "",
+    "country": "eg",
+    "dialect": [
+      "american british"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "en",
+    "mapped_id": 853101021237,
+    "source_id": {
+      "value": 343172873720,
+      "page_number": null
+    },
+    "description": "Nader solved the division problem 372  4 by using long division. His work is shown below:<Figure>The box represents a digit of the quotient. What digit does the box represent?",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 10,
+    "publication_date": "2021-11-15T09:37:54"
+  },
+  "section_id": "576137348129",
+  "language": "en",
+  "subject_id": "152178053494",
+  "subject": "Mathematics",
+  "grade_id": "302134381873",
+  "grade": "3",
+  "country": "zz",
+  "question_id": "853101021237"
+}

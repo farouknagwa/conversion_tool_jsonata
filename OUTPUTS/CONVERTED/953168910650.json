@@ -1,0 +1,35 @@
+{
+  "question_id": "953168910650",
+  "parent_id": "953168910650",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Discover",
+  "subject_id": "123456789012",
+  "grade": "2",
+  "grade_id": "123456789012",
+  "number_of_parts": 1,
+  "section_id": "610143504320",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "opinion",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">In your opinion, why does the forest have many trees while the desert does not?</span><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"106185347910 (1)\" class=\"displayed-image\" height=\"197.0745044429255\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/417183142383.jpg\" style=\"aspect-ratio: 530/197.0745044429255;\" width=\"530\"/></span></p>",
+        "choices": [
+          {
+            "label": "A",
+            "value": "<p><span style=\"white-space: pre-wrap;\">Because the forest is rainy</span></p>"
+          },
+          {
+            "label": "B",
+            "value": "<p><span style=\"white-space: pre-wrap;\">Because the forest is dry</span></p>"
+          }
+        ],
+        "explanation": null
+      }
+    ]
+  }
+}

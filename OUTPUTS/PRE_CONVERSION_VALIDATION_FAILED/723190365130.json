@@ -1,0 +1,67 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>Put the types of skeletons in the correct order. <div class=\"h-scroll\"><img class=\"displayed-image\" src=\"723190365130.01.svg\"/></div></p>",
+      "type": "oq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "item",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "External skeleton"
+        },
+        {
+          "type": "item",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "Internal skeleton"
+        },
+        {
+          "type": "item",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "No skeleton"
+        }
+      ],
+      "subtype": null,
+      "standalone": false,
+      "direction": "Vertical"
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 723190365130,
+    "title": "",
+    "mapped_id": 723190365130,
+    "source_id": {
+      "value": 427186245053,
+      "page_number": null
+    },
+    "description": "",
+    "has_example": null,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2021-09-15T07:33:12",
+    "question_country": []
+  },
+  "section_id": "652146047295",
+  "language": "en",
+  "subject_id": "736170238984",
+  "subject": "Science",
+  "grade_id": "302134381873",
+  "grade": "3",
+  "country": "zz",
+  "question_id": "723190365130"
+}

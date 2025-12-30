@@ -23,9 +23,9 @@
           "unit": null,
           "constraints": {
             "type": "decimal",
-            "number_format": {
-              "format": "hindi",
-              "must_have_thousand_sep": false
+            "answer_format": {
+              "number_format": "hindi",
+              "contains_thousand_separator": false
             },
             "allow_leading_zeros": false,
             "allow_trailing_zeros": false,

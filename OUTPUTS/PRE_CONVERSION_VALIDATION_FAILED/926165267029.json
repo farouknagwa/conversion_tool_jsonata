@@ -1,0 +1,76 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>Emma has written the steps for the combustion of magnesium on colored notes, but she has got them mixed up. <div class=\"h-scroll\"><img class=\"displayed-image\" src=\"926165267029.01.svg\"/></div></p><p>What order should the notes go in? </p>",
+      "type": "oq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "item",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "Red"
+        },
+        {
+          "type": "item",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "Yellow"
+        },
+        {
+          "type": "item",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "Green"
+        },
+        {
+          "type": "item",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "Blue"
+        }
+      ],
+      "subtype": null,
+      "standalone": false,
+      "direction": "Horizontal"
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 926165267029,
+    "title": "",
+    "mapped_id": 926165267029,
+    "source_id": {
+      "value": 942108364152,
+      "page_number": null
+    },
+    "description": "",
+    "has_example": null,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2021-09-30T08:28:56",
+    "question_country": []
+  },
+  "section_id": "260123795607",
+  "language": "en",
+  "subject_id": "828197025630",
+  "subject": "Science",
+  "grade_id": "612152797413",
+  "grade": "6",
+  "country": "zz",
+  "question_id": "926165267029"
+}

@@ -1,0 +1,65 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>Mr. Thomas has <span class=\"no_margin merge\">2,415</span> pounds. If he wants to split this amount of money equally between his <span class=\"no_margin merge\">4</span> sons, find how much each son will get.</p>",
+      "type": "input_box",
+      "answer": {
+        "unit": "pounds",
+        "value": "603",
+        "constrains": {
+          "type": "currencyValue"
+        }
+      },
+      "choices": [],
+      "subtype": null,
+      "standalone": true
+    },
+    {
+      "n": 2,
+      "stem": "<p>How much money is left with Mr. Thomas?</p>",
+      "type": "input_box",
+      "answer": {
+        "unit": "pounds",
+        "value": "3",
+        "constrains": {
+          "type": "currencyValue"
+        }
+      },
+      "choices": [],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 649163082146,
+    "title": "",
+    "country": null,
+    "dialect": [
+      "american british"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "en",
+    "mapped_id": 649163082146,
+    "source_id": {
+      "value": 253187642141,
+      "page_number": null
+    },
+    "description": "Mr. Thomas has 2,415 pounds. If he wants to split this amount of money equally between his 4 sons, find how much each son will get. How much money is left with Mr. Thomas?",
+    "has_example": false,
+    "parts_count": 2,
+    "instances_count": 10,
+    "publication_date": "2020-12-20T12:16:56"
+  },
+  "section_id": "832189647894",
+  "language": "en",
+  "subject_id": "954127413421",
+  "subject": "Mathematics",
+  "grade_id": "837170567976",
+  "grade": "5",
+  "country": "zz",
+  "question_id": "649163082146"
+}

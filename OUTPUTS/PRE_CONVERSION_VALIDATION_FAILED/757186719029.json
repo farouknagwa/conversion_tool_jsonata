@@ -1,0 +1,111 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>\n        Fady wants to find out the total amount of cash needed for the receipt. complete the column addition to help Fady.</p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"757186719029.01.svg\" /></div><p><svg width=\"65.208\" height=\"101.234\" viewBox=\"371.547 266.09 48.906 75.926\" class=\"displayed_equation\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M -0.000125 0.00159375 L 48.906125 0.00159375\" transform=\"matrix(1,0,0,-1,371.547,341.818)\" fill=\"none\" stroke-width=\".398\" stroke=\"#000\" stroke-miterlimit=\"10\" /><g font-family=\"NagwaMath\" font-size=\"13.5\"><text y=\"275.043\" x=\"387.209\">1</text><text y=\"275.043\" x=\"397.848\">.</text><text y=\"275.043\" x=\"401.156\">2</text><text y=\"275.043\" x=\"411.795\">4</text><text y=\"295.218\" x=\"373.54\">+</text><text y=\"295.218\" x=\"387.205\">1</text><text y=\"295.218\" x=\"397.843\">.</text><text y=\"295.218\" x=\"401.152\">6</text><text y=\"295.218\" x=\"411.791\">3</text><text y=\"315.392\" x=\"373.54\">+</text><text y=\"315.392\" x=\"387.205\">1</text><text y=\"315.392\" x=\"397.843\">.</text><text y=\"315.392\" x=\"401.152\">0</text><text y=\"315.392\" x=\"411.791\">7</text><text y=\"335.566\" x=\"373.54\">+</text><text y=\"335.566\" x=\"387.205\">4</text><text y=\"335.566\" x=\"397.843\">.</text><text y=\"335.566\" x=\"401.152\">1</text><text y=\"335.566\" x=\"411.791\">0</text></g></svg></p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": "$",
+          "index": 0,
+          "values": [
+            {
+              "type": "currencyValue",
+              "value": "8.08",
+              "constrains": {
+                "sign": null,
+                "normalizeSign": null,
+                "allowLeadingZeros": null,
+                "allowTrailingZeros": null,
+                "mustHaveAtLeastNDP": null,
+                "mustHaveAtLeastNSF": null,
+                "mustHaveExactlyNDP": null,
+                "mustHaveExactlyNSF": null,
+                "mustHaveNoMoreThanNDP": null,
+                "mustHaveNoMoreThanNSF": null,
+                "addSingleLeadingZeroToNormalizedForm": null,
+                "removeLeadingZerosFromNormalizedForm": null,
+                "removeTrailingZerosFromNormalizedForm": null,
+                "removeTrailingDecimalPointFromNormalizedForm": null
+              }
+            }
+          ],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "$\n        8.08"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "$\n        8.78"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "$\n        7.95"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "$\n        7.04"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "$\n        6.95"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 757186719029,
+    "title": "",
+    "country": "eg",
+    "dialect": [
+      "american british"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "en",
+    "mapped_id": 757186719029,
+    "source_id": {
+      "value": 952105301938,
+      "page_number": null
+    },
+    "description": "Fady wants to find out the total amount of cash needed for the receipt. complete the column addition to help Fady.<Figure>  &amp;1&amp;.2&amp;4 +&amp;1&amp;.6&amp;3 +&amp;1&amp;.0&amp;7 +&amp;4&amp;.1&amp;0",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 10,
+    "publication_date": "2020-12-17T14:48:27"
+  },
+  "section_id": "106123436451",
+  "language": "en",
+  "subject_id": "954127413421",
+  "subject": "Mathematics",
+  "grade_id": "837170567976",
+  "grade": "5",
+  "country": "zz",
+  "question_id": "757186719029"
+}

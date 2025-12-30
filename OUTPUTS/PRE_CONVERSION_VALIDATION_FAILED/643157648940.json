@@ -1,0 +1,136 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p> استخدم الرسم لإيجاد كمية الحليب في كل كوب. </p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "<span class=\"merge no_margin\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" dir=\"rtl\" lang=\"ar\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\frac{١}{٦}}\">\\displaystyle{\\frac{١}{٦}}</math-field></span> ل</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": "",
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<span class=\"merge no_margin\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" dir=\"rtl\" lang=\"ar\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\frac{٣}{٢}}\">\\displaystyle{\\frac{٣}{٢}}</math-field></span> ل</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": "",
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<span class=\"merge no_margin\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" dir=\"rtl\" lang=\"ar\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\frac{٢}{٣}}\">\\displaystyle{\\frac{٢}{٣}}</math-field></span> ل</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": "",
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "<span class=\"merge no_margin\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" dir=\"rtl\" lang=\"ar\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\frac{١}{٢}}\">\\displaystyle{\\frac{١}{٢}}</math-field></span> ل</span>"
+        },
+        {
+          "type": "distractor",
+          "unit": "",
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "<span class=\"merge no_margin\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" dir=\"rtl\" lang=\"ar\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\frac{١}{٣}}\">\\displaystyle{\\frac{١}{٣}}</math-field></span> ل</span>"
+        }
+      ],
+      "subtype": null,
+      "standalone": false
+    },
+    {
+      "n": 2,
+      "stem": "<p> أيٌّ من الجمل العددية التالية يمثِّل هذا الموقف؟</p>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" dir=\"rtl\" lang=\"ar\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\frac{١}{٢} \\div ٣ =\\frac{٣}{٦} \\div ٣ =\\frac{١}{٦}}\">\\displaystyle{\\frac{١}{٢} \\div ٣ =\\frac{٣}{٦} \\div ٣ =\\frac{١}{٦}}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": "",
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" dir=\"rtl\" lang=\"ar\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\frac{١}{٢} \\times ٣ =\\frac{٣}{٢}}\">\\displaystyle{\\frac{١}{٢} \\times ٣ =\\frac{٣}{٢}}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": "",
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" dir=\"rtl\" lang=\"ar\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\frac{١}{٣} \\times ٢ =\\frac{٢}{٣}}\">\\displaystyle{\\frac{١}{٣} \\times ٢ =\\frac{٢}{٣}}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": "",
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" dir=\"rtl\" lang=\"ar\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{\\frac{١}{٣} \\div ٢ =\\frac{٢}{٦} \\div ٢ =\\frac{١}{٦}}\">\\displaystyle{\\frac{١}{٣} \\div ٢ =\\frac{٢}{٦} \\div ٢ =\\frac{١}{٦}}</math-field></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": "",
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" dir=\"rtl\" lang=\"ar\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{١ \\div ٣=\\frac{١}{٣}}\">\\displaystyle{١ \\div ٣=\\frac{١}{٣}}</math-field></span>"
+        }
+      ],
+      "subtype": null,
+      "standalone": false
+    }
+  ],
+  "statement": "<p> سُكب نصف لتر من الحليب في ثلاثة أكواب بصورة متساوية.</p><div class=\"h-scroll\"><svg class=\"displayed_equation\" height=\"172.93pt\" version=\"1.1\" viewbox=\"0 0 123.89 172.93\" width=\"123.89pt\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><g id=\"svg643157648940tikz_00001surface1\"><path d=\"M 12.898438 110.984375 L 61.945313 110.984375 L 61.945313 12.890625 L 12.898438 12.890625 Z M 12.898438 110.984375 \" style=\" stroke:none;fill-rule:nonzero;fill:rgb(99.609375%,85.9375%,70.506287%);fill-opacity:1;\"></path><path d=\"M 12.898438 160.03125 L 61.945313 160.03125 L 61.945313 110.984375 L 12.898438 110.984375 Z M 12.898438 160.03125 \" style=\" stroke:none;fill-rule:nonzero;fill:rgb(97.65625%,62.304688%,20.384216%);fill-opacity:1;\"></path><path d=\"M 128.984375 128.9875 L 1109.921875 128.9875 L 1109.921875 1600.39375 L 128.984375 1600.39375 Z M 128.984375 128.9875 \" style=\"fill:none;stroke-width:7.9701;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;\" transform=\"matrix(0.1,0,0,-0.1,0,172.93)\"></path><path d=\"M 619.453125 128.9875 L 619.453125 1600.39375 \" style=\"fill:none;stroke-width:7.9701;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;\" transform=\"matrix(0.1,0,0,-0.1,0,172.93)\"></path><path d=\"M 128.984375 619.45625 L 1109.921875 619.45625 \" style=\"fill:none;stroke-width:7.9701;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;\" transform=\"matrix(0.1,0,0,-0.1,0,172.93)\"></path><path d=\"M 128.984375 1109.925 L 1109.921875 1109.925 \" style=\"fill:none;stroke-width:7.9701;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;\" transform=\"matrix(0.1,0,0,-0.1,0,172.93)\"></path></g></svg></div>",
+  "instance_number": 1,
+  "metadata": {
+    "id": 739151281942,
+    "title": "شرح عملية قسمة كسر على عدد صحيح وحسابُها ",
+    "mapped_id": 643157648940,
+    "source_id": null,
+    "description": "سُكب نصف لتر من الحليب في ثلاثة أكواب بصورة متساوية.<شكل> استخدم الرسم لإيجاد كمية الحليب في كل كوب. أيٌّ من الجمل العددية التالية يمثِّل هذا الموقف؟",
+    "has_example": null,
+    "parts_count": 2,
+    "instances_count": 1,
+    "publication_date": "2018-03-19T11:23:15"
+  },
+  "section_id": "712193954343",
+  "language": "ar",
+  "subject_id": "616153467023",
+  "subject": "الرياضيات",
+  "grade_id": "920193465614",
+  "grade": "6",
+  "country": "eg",
+  "parent_id": "739151281942",
+  "question_id": "643157648940"
+}
