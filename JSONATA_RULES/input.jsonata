@@ -71,9 +71,9 @@
   /* Build full constraints object with defaults */
   $constraints := {
     "type": $actualType,
-    "number_format": {
-      "format": $numberFormat,
-      "must_have_thousand_sep": $hasThousandSep
+    "answer_format": {
+      "number_format": $numberFormat,
+      "contains_thousand_separator": $hasThousandSep
     },
     "allow_leading_zeros": $exists(part.answer.constrains.allow_leading_zeros) ? part.answer.constrains.allow_leading_zeros : false,
     "allow_trailing_zeros": $exists(part.answer.constrains.allow_trailing_zeros) ? part.answer.constrains.allow_trailing_zeros : false,
