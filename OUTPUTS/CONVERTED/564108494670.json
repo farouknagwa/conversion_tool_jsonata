@@ -1,0 +1,55 @@
+{
+  "question_id": "564108494670",
+  "parent_id": "794101204318",
+  "language_code": "ar",
+  "language": "Arabic",
+  "country_code": "zz",
+  "country": "ZZ",
+  "subject": "العلوم",
+  "subject_id": "125142764527",
+  "grade": "4",
+  "grade_id": "616145068630",
+  "number_of_parts": 1,
+  "section_id": "708181284654",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "ordering",
+        "stem": "<p>رتِّب أعضاء الجهاز الهضمي طبقًا لحركة الطعام.</p>",
+        "direction": "vertical",
+        "items": [
+          {
+            "value": "المعِدة",
+            "display_order": 1
+          },
+          {
+            "value": "الأمعاء الدقيقة",
+            "display_order": 2
+          },
+          {
+            "value": "الفم",
+            "display_order": 3
+          },
+          {
+            "value": "المرِّيء",
+            "display_order": 4
+          },
+          {
+            "value": "الأمعاء الغليظة",
+            "display_order": 5
+          }
+        ],
+        "correct_answer": [
+          "الفم",
+          "المرِّيء",
+          "المعِدة",
+          "الأمعاء الدقيقة",
+          "الأمعاء الغليظة"
+        ],
+        "explanation": null
+      }
+    ]
+  }
+}

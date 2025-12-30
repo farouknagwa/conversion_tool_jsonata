@@ -1,0 +1,55 @@
+{
+  "question_id": "503125067058",
+  "parent_id": "890190847973",
+  "language_code": "ar",
+  "language": "Arabic",
+  "country_code": "zz",
+  "country": "ZZ",
+  "subject": "العلوم",
+  "subject_id": "302182486849",
+  "grade": "6",
+  "grade_id": "612152797413",
+  "number_of_parts": 1,
+  "section_id": "484169152060",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "ordering",
+        "stem": "<p>يوضِّح الشكل الآتي خلية عصبية. </p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"503125067058.01.svg\"/></div><p>طابق بين أجزاء الخلية العصبية وأسمائها عن طريق ترتيبها ترتيبًا صحيحًا. </p>",
+        "direction": "vertical",
+        "items": [
+          {
+            "value": "المحور العصبي",
+            "display_order": 1
+          },
+          {
+            "value": "غلاف الميالين",
+            "display_order": 2
+          },
+          {
+            "value": "زوائد شُجيرية",
+            "display_order": 3
+          },
+          {
+            "value": "النهايات المحورية",
+            "display_order": 4
+          },
+          {
+            "value": "جسم الخلية",
+            "display_order": 5
+          }
+        ],
+        "correct_answer": [
+          "جسم الخلية",
+          "زوائد شُجيرية",
+          "غلاف الميالين",
+          "المحور العصبي",
+          "النهايات المحورية"
+        ],
+        "explanation": null
+      }
+    ]
+  }
+}

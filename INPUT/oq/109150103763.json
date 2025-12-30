@@ -40,7 +40,7 @@
           "group": 1
         },
         {
-          "type": "distractor",
+          "type": "item",
           "html_content": "<p><span style=\"white-space: pre-wrap;\">er</span></p>",
           "values": [],
           "unit": null,
@@ -52,7 +52,7 @@
         }
       ],
       "standalone": false,
-      "direction": "horizontal"
+      "direction": "Horizontal"
     }
   ],
   "statement": null,

@@ -1,0 +1,50 @@
+{
+  "question_id": "945194373202",
+  "parent_id": "945194373202",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "zz",
+  "country": "ZZ",
+  "subject": "Science",
+  "subject_id": "250135489649",
+  "grade": "5",
+  "grade_id": "837170567976",
+  "number_of_parts": 1,
+  "section_id": "784142381348",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "ordering",
+        "stem": "<p>Put the pictures in order to show the process of dissolving. </p>",
+        "direction": "horizontal",
+        "items": [
+          {
+            "value": "<div class=\"h-scroll\"><img class=\"displayed-image\" src=\"945194373202.04.svg\"/></div>",
+            "display_order": 1
+          },
+          {
+            "value": "<div class=\"h-scroll\"><img class=\"displayed-image\" src=\"945194373202.03.svg\"/></div>",
+            "display_order": 2
+          },
+          {
+            "value": "<div class=\"h-scroll\"><img class=\"displayed-image\" src=\"945194373202.01.svg\"/></div>",
+            "display_order": 3
+          },
+          {
+            "value": "<div class=\"h-scroll\"><img class=\"displayed-image\" src=\"945194373202.02.svg\"/></div>",
+            "display_order": 4
+          }
+        ],
+        "correct_answer": [
+          "<div class=\"h-scroll\"><img class=\"displayed-image\" src=\"945194373202.04.svg\"/></div>",
+          "<div class=\"h-scroll\"><img class=\"displayed-image\" src=\"945194373202.02.svg\"/></div>",
+          "<div class=\"h-scroll\"><img class=\"displayed-image\" src=\"945194373202.03.svg\"/></div>",
+          "<div class=\"h-scroll\"><img class=\"displayed-image\" src=\"945194373202.01.svg\"/></div>"
+        ],
+        "explanation": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "question_id": "245187245693",
+  "parent_id": "816120326163",
+  "language_code": "ar",
+  "language": "Arabic",
+  "country_code": "zz",
+  "country": "ZZ",
+  "subject": "العلوم",
+  "subject_id": "862194150479",
+  "grade": "5",
+  "grade_id": "837170567976",
+  "number_of_parts": 1,
+  "section_id": "626108412473",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "ordering",
+        "stem": "<p> يُحضِّر شادي أدوات التجربة الموضَّحة في الشكل الآتي لاختبار التوصيلية الحرارية لبعض القضبان المعدنية. قاس الزمن المُستغرَق في انصهار الشمع على القضيب الأول. كرَّر شادي بعد ذلك التجربة مع القضبان الأربعة الأخرى المصنوعة من معادن مختلفة. تأكَّد من صحة الاختبار ودقته.<div class=\"h-scroll\"><img class=\"displayed-image\" src=\"245187245693.02.svg\"/></div></p><p>فيما يأتي تمثيل بياني للنتائج التي توصَّل إليها. <div class=\"h-scroll\"><img class=\"displayed-image\" src=\"245187245693.01.svg\"/></div></p><p>رتِّب القضبان المعدنية طبقًا للتوصيلية الحرارية، بَدْءًا بالقضيب الأكثر توصيلًا للحرارة.</p>",
+        "direction": "vertical",
+        "items": [
+          {
+            "value": "ج",
+            "display_order": 1
+          },
+          {
+            "value": "ب",
+            "display_order": 2
+          },
+          {
+            "value": "أ",
+            "display_order": 3
+          },
+          {
+            "value": "د",
+            "display_order": 4
+          },
+          {
+            "value": "هـ",
+            "display_order": 5
+          }
+        ],
+        "correct_answer": [
+          "ب",
+          "أ",
+          "هـ",
+          "ج",
+          "د"
+        ],
+        "explanation": null
+      }
+    ]
+  }
+}

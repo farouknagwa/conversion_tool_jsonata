@@ -1,0 +1,55 @@
+{
+  "question_id": "383176728187",
+  "parent_id": "383176728187",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "zz",
+  "country": "ZZ",
+  "subject": "Science",
+  "subject_id": "250135489649",
+  "grade": "5",
+  "grade_id": "837170567976",
+  "number_of_parts": 1,
+  "section_id": "896186459854",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "ordering",
+        "stem": "<p>David is comparing how quickly different solutes dissolve in water. He has two different solutes he wants to test: sodium chloride and sodium carbonate. He measures out <span class=\"merge no_margin\">80 mL</span> of room temperature water into two beakers.</p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"383176728187.01.svg\"/></div><p>Put the steps that follow into the correct order.</p>",
+        "direction": "vertical",
+        "items": [
+          {
+            "value": "Measure the time taken for the solutes to dissolve.",
+            "display_order": 1
+          },
+          {
+            "value": "Measure out <span class=\"merge no_margin\">5 g</span> of each solute.",
+            "display_order": 2
+          },
+          {
+            "value": "Pour the second solute into beaker 2.",
+            "display_order": 3
+          },
+          {
+            "value": "Stir both beakers at the same rate.",
+            "display_order": 4
+          },
+          {
+            "value": "Pour the first solute into beaker 1.",
+            "display_order": 5
+          }
+        ],
+        "correct_answer": [
+          "Measure out <span class=\"merge no_margin\">5 g</span> of each solute.",
+          "Pour the first solute into beaker 1.",
+          "Pour the second solute into beaker 2.",
+          "Stir both beakers at the same rate.",
+          "Measure the time taken for the solutes to dissolve."
+        ],
+        "explanation": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "question_id": "926165267029",
+  "parent_id": "926165267029",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "zz",
+  "country": "ZZ",
+  "subject": "Science",
+  "subject_id": "828197025630",
+  "grade": "6",
+  "grade_id": "612152797413",
+  "number_of_parts": 1,
+  "section_id": "260123795607",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "ordering",
+        "stem": "<p>Emma has written the steps for the combustion of magnesium on colored notes, but she has got them mixed up. <div class=\"h-scroll\"><img class=\"displayed-image\" src=\"926165267029.01.svg\"/></div></p><p>What order should the notes go in? </p>",
+        "direction": "horizontal",
+        "items": [
+          {
+            "value": "Yellow",
+            "display_order": 1
+          },
+          {
+            "value": "Blue",
+            "display_order": 2
+          },
+          {
+            "value": "Green",
+            "display_order": 3
+          },
+          {
+            "value": "Red",
+            "display_order": 4
+          }
+        ],
+        "correct_answer": [
+          "Red",
+          "Yellow",
+          "Green",
+          "Blue"
+        ],
+        "explanation": null
+      }
+    ]
+  }
+}

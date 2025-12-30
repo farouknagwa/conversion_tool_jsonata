@@ -1,0 +1,45 @@
+{
+  "question_id": "925178109196",
+  "parent_id": "925178109196",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "zz",
+  "country": "ZZ",
+  "subject": "Science",
+  "subject_id": "250135489649",
+  "grade": "5",
+  "grade_id": "837170567976",
+  "number_of_parts": 1,
+  "section_id": "456143458435",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "ordering",
+        "stem": "<p>Amelia and Madison put equal amounts of sand soil, silt soil, and clay soil into three equal-sized measuring cylinders so that each measuring cylinder had only one type of soil. They then added an equal amount of water to each, shook them well, and allowed them to settle. Here are their results. </p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"925178109196.01.svg\"/></div><p>Put the soils in order of fertility, starting with the most fertile.</p>",
+        "direction": "vertical",
+        "items": [
+          {
+            "value": "Silt soil",
+            "display_order": 1
+          },
+          {
+            "value": "Sand soil",
+            "display_order": 2
+          },
+          {
+            "value": "Clay soil",
+            "display_order": 3
+          }
+        ],
+        "correct_answer": [
+          "Silt soil",
+          "Clay soil",
+          "Sand soil"
+        ],
+        "explanation": null
+      }
+    ]
+  }
+}

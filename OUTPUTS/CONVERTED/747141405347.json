@@ -1,0 +1,55 @@
+{
+  "question_id": "747141405347",
+  "parent_id": "747141405347",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "zz",
+  "country": "ZZ",
+  "subject": "Science",
+  "subject_id": "828197025630",
+  "grade": "6",
+  "grade_id": "612152797413",
+  "number_of_parts": 1,
+  "section_id": "743159373656",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "ordering",
+        "stem": "<p>Starting with the smallest level, put the levels of organization within an organism into the correct order. </p>",
+        "direction": "vertical",
+        "items": [
+          {
+            "value": "Tissues",
+            "display_order": 1
+          },
+          {
+            "value": "Cells",
+            "display_order": 2
+          },
+          {
+            "value": "Organism",
+            "display_order": 3
+          },
+          {
+            "value": "Organ systems",
+            "display_order": 4
+          },
+          {
+            "value": "Organs",
+            "display_order": 5
+          }
+        ],
+        "correct_answer": [
+          "Cells",
+          "Tissues",
+          "Organs",
+          "Organ systems",
+          "Organism"
+        ],
+        "explanation": null
+      }
+    ]
+  }
+}

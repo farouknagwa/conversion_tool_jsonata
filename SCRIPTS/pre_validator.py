@@ -304,16 +304,9 @@ def _validate_oq(part: Dict[str, Any], part_number: int) -> List[str]:
     if not isinstance(part.get('choices'), list) or len(part.get('choices', [])) == 0:
         errors.append(f"Part {part_number} (oq): 'choices' must be a non-empty array")
         return errors
-    
-    # All choices must be distractor type
-    non_distractor = [c for c in part['choices'] if c.get('type') != 'distractor']
-    if non_distractor:
-        errors.append(
-            f"Part {part_number} (oq): All choices must have type 'distractor'"
-        )
-    
+        
     # Validate direction field
-    if not part.get('direction') or part.get('direction') not in VALID_DIRECTIONS:
+    if is_empty_or_none(part.get('direction')) or part.get('direction', '').lower() not in VALID_DIRECTIONS:
         errors.append(
             f"Part {part_number} (oq): 'direction' must be 'vertical' or 'horizontal'"
         )
@@ -468,21 +461,14 @@ def _validate_string(part: Dict[str, Any], part_number: int) -> List[str]:
 def _validate_opinion(part: Dict[str, Any], part_number: int) -> List[str]:
     """Validate Opinion part"""
     errors = []
-    
+
     # Validate choices array
     if not isinstance(part.get('choices'), list) or len(part.get('choices', [])) == 0:
         errors.append(
             f"Part {part_number} (opinion): 'choices' must be a non-empty array"
         )
         return errors
-    
-    # All choices must be distractor type
-    non_distractor = [c for c in part['choices'] if c.get('type') != 'distractor']
-    if non_distractor:
-        errors.append(
-            f"Part {part_number} (opinion): All choices must have type 'distractor'"
-        )
-    
+        
     # Validate each choice
     for i, choice in enumerate(part['choices']):
         errors.extend(_validate_choice(choice, i, part_number, 'opinion'))
@@ -507,14 +493,7 @@ def _validate_matching(part: Dict[str, Any], part_number: int) -> List[str]:
         errors.append(
             f"Part {part_number} (matching): Must have exactly 2 groups, found {len(groups)}"
         )
-    
-    # All choices must be distractor type
-    non_distractor = [c for c in part['choices'] if c.get('type') != 'distractor']
-    if non_distractor:
-        errors.append(
-            f"Part {part_number} (matching): All choices must have type 'distractor'"
-        )
-    
+        
     # Validate each choice
     for i, choice in enumerate(part['choices']):
         errors.extend(_validate_choice(choice, i, part_number, 'matching'))

@@ -1,0 +1,45 @@
+{
+  "question_id": "254135305186",
+  "parent_id": "254135305186",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "zz",
+  "country": "ZZ",
+  "subject": "Science",
+  "subject_id": "407174923510",
+  "grade": "4",
+  "grade_id": "616145068630",
+  "number_of_parts": 1,
+  "section_id": "579194804685",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "ordering",
+        "stem": "<p>Here is a diagram of three celestial bodies. </p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"254135305186.01.svg\"/></div><p>Put the names in order to label the celestial bodies in the diagram. </p>",
+        "direction": "vertical",
+        "items": [
+          {
+            "value": "Moon",
+            "display_order": 1
+          },
+          {
+            "value": "Planet",
+            "display_order": 2
+          },
+          {
+            "value": "Star",
+            "display_order": 3
+          }
+        ],
+        "correct_answer": [
+          "Star",
+          "Planet",
+          "Moon"
+        ],
+        "explanation": null
+      }
+    ]
+  }
+}

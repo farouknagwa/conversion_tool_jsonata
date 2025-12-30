@@ -1,0 +1,50 @@
+{
+  "question_id": "902165608417",
+  "parent_id": "902165608417",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "zz",
+  "country": "ZZ",
+  "subject": "Science",
+  "subject_id": "250135489649",
+  "grade": "5",
+  "grade_id": "837170567976",
+  "number_of_parts": 1,
+  "section_id": "169140295968",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "ordering",
+        "stem": "<p>Order the steps that describe the role of scavengers in environmental balance.</p>",
+        "direction": "vertical",
+        "items": [
+          {
+            "value": "Scavengers such as bacteria decay the dead bodies.",
+            "display_order": 1
+          },
+          {
+            "value": "Living organisms eventually die.",
+            "display_order": 2
+          },
+          {
+            "value": "Chemical elements from the decayed bodies go back to the environment.",
+            "display_order": 3
+          },
+          {
+            "value": "Elements are recycled as they are used by other organisms.",
+            "display_order": 4
+          }
+        ],
+        "correct_answer": [
+          "Living organisms eventually die.",
+          "Scavengers such as bacteria decay the dead bodies.",
+          "Chemical elements from the decayed bodies go back to the environment.",
+          "Elements are recycled as they are used by other organisms."
+        ],
+        "explanation": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "question_id": "707130120901",
+  "parent_id": "707130120901",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "zz",
+  "country": "ZZ",
+  "subject": "Science",
+  "subject_id": "828197025630",
+  "grade": "6",
+  "grade_id": "612152797413",
+  "number_of_parts": 1,
+  "section_id": "854170412517",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "ordering",
+        "stem": "<p>Matthew feels unwell. He goes to the school nurse. The school nurse needs to take Matthew&rsquo;s temperature. She starts by cleaning the thermometer with tissue and ethyl alcohol.</p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"707130120901.01.svg\"/></div><p>Put the rest of the steps into the correct order.</p>",
+        "direction": "vertical",
+        "items": [
+          {
+            "value": "Take the thermometer out of the mouth and observe the reading.",
+            "display_order": 1
+          },
+          {
+            "value": "Put the thermometer under the tongue for <span class=\"merge\"><span class=\"merge no_margin\">1 minute</span>.</span>",
+            "display_order": 2
+          },
+          {
+            "value": "Shake the thermometer.",
+            "display_order": 3
+          },
+          {
+            "value": "Sterilize the thermometer.",
+            "display_order": 4
+          },
+          {
+            "value": "Dry the thermometer.",
+            "display_order": 5
+          }
+        ],
+        "correct_answer": [
+          "Dry the thermometer.",
+          "Shake the thermometer.",
+          "Put the thermometer under the tongue for <span class=\"merge\"><span class=\"merge no_margin\">1 minute</span>.</span>",
+          "Take the thermometer out of the mouth and observe the reading.",
+          "Sterilize the thermometer."
+        ],
+        "explanation": null
+      }
+    ]
+  }
+}

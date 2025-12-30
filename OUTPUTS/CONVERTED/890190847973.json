@@ -1,0 +1,55 @@
+{
+  "question_id": "890190847973",
+  "parent_id": "890190847973",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "zz",
+  "country": "ZZ",
+  "subject": "Science",
+  "subject_id": "828197025630",
+  "grade": "6",
+  "grade_id": "612152797413",
+  "number_of_parts": 1,
+  "section_id": "484179043501",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "ordering",
+        "stem": "<p>Here is a neuron.</p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"890190847973.01.svg\"/></div><p>Match the parts of the neuron to the labels by putting them in the correct order.</p>",
+        "direction": "vertical",
+        "items": [
+          {
+            "value": "Axon",
+            "display_order": 1
+          },
+          {
+            "value": "Myelin sheath",
+            "display_order": 2
+          },
+          {
+            "value": "Dendrites",
+            "display_order": 3
+          },
+          {
+            "value": "Axon terminals",
+            "display_order": 4
+          },
+          {
+            "value": "Cell body",
+            "display_order": 5
+          }
+        ],
+        "correct_answer": [
+          "Cell body",
+          "Dendrites",
+          "Myelin sheath",
+          "Axon",
+          "Axon terminals"
+        ],
+        "explanation": null
+      }
+    ]
+  }
+}

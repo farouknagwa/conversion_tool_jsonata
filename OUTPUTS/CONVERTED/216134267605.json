@@ -1,0 +1,50 @@
+{
+  "question_id": "216134267605",
+  "parent_id": "216134267605",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "zz",
+  "country": "ZZ",
+  "subject": "Science",
+  "subject_id": "407174923510",
+  "grade": "4",
+  "grade_id": "616145068630",
+  "number_of_parts": 1,
+  "section_id": "827159814613",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "ordering",
+        "stem": "<p>This violin produces a lovely sound.<div class=\"h-scroll\"><img class=\"displayed-image\" src=\"216134267605.01.svg\"/></div></p><p>Put the steps of sound production and hearing in order.</p>",
+        "direction": "vertical",
+        "items": [
+          {
+            "value": "Sound is produced due to vibration.",
+            "display_order": 1
+          },
+          {
+            "value": "The string vibrates.",
+            "display_order": 2
+          },
+          {
+            "value": "Sound reaches the ears to be heard.",
+            "display_order": 3
+          },
+          {
+            "value": "The person plucks the string of the violin.",
+            "display_order": 4
+          }
+        ],
+        "correct_answer": [
+          "The person plucks the string of the violin.",
+          "The string vibrates.",
+          "Sound is produced due to vibration.",
+          "Sound reaches the ears to be heard."
+        ],
+        "explanation": null
+      }
+    ]
+  }
+}

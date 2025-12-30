@@ -1,0 +1,50 @@
+{
+  "question_id": "598135134987",
+  "parent_id": "598135134987",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "zz",
+  "country": "ZZ",
+  "subject": "Reading",
+  "subject_id": "512190196069",
+  "grade": "4",
+  "grade_id": "616145068630",
+  "number_of_parts": 1,
+  "section_id": "259173058656",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "ordering",
+        "stem": "<p>Put the images in the order in which they appear in the story.</p>",
+        "direction": "horizontal",
+        "items": [
+          {
+            "value": "<div class=\"displayed-figure\"><figure><img alt=\"Zoey and the Snowstorm_3\" height=\"160\" src=\"598135134987.02.jpg\" style=\"aspect-ratio: 160/160;\" width=\"160\"/></figure></div>",
+            "display_order": 1
+          },
+          {
+            "value": "<div class=\"displayed-figure\"><figure><img alt=\"Zoey and the Snowstorm_2\" height=\"160\" src=\"598135134987.04.jpg\" style=\"aspect-ratio: 160/160;\" width=\"160\"/></figure></div>",
+            "display_order": 2
+          },
+          {
+            "value": "<div class=\"displayed-figure\"><figure><img alt=\"Zoey and the Snowstorm_5\" height=\"160\" src=\"598135134987.01.jpg\" style=\"aspect-ratio: 160/160;\" width=\"160\"/></figure></div>",
+            "display_order": 3
+          },
+          {
+            "value": "<div class=\"displayed-figure\"><figure><img alt=\"Zoey and the Snowstorm_4\" height=\"160\" src=\"598135134987.03.jpg\" style=\"aspect-ratio: 160/160;\" width=\"160\"/></figure></div>",
+            "display_order": 4
+          }
+        ],
+        "correct_answer": [
+          "<div class=\"displayed-figure\"><figure><img alt=\"Zoey and the Snowstorm_2\" height=\"160\" src=\"598135134987.04.jpg\" style=\"aspect-ratio: 160/160;\" width=\"160\"/></figure></div>",
+          "<div class=\"displayed-figure\"><figure><img alt=\"Zoey and the Snowstorm_3\" height=\"160\" src=\"598135134987.02.jpg\" style=\"aspect-ratio: 160/160;\" width=\"160\"/></figure></div>",
+          "<div class=\"displayed-figure\"><figure><img alt=\"Zoey and the Snowstorm_4\" height=\"160\" src=\"598135134987.03.jpg\" style=\"aspect-ratio: 160/160;\" width=\"160\"/></figure></div>",
+          "<div class=\"displayed-figure\"><figure><img alt=\"Zoey and the Snowstorm_5\" height=\"160\" src=\"598135134987.01.jpg\" style=\"aspect-ratio: 160/160;\" width=\"160\"/></figure></div>"
+        ],
+        "explanation": null
+      }
+    ]
+  }
+}
