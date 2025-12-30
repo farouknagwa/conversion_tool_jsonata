@@ -1,0 +1,49 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>Find <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{572 \\times 98}\">\\displaystyle{572 \\times 98}</math-field></span> using area models.</p>",
+      "type": "input_box",
+      "answer": {
+        "value": "56,056",
+        "constrains": {
+          "type": "integer"
+        }
+      },
+      "choices": [],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 162126749549,
+    "title": "",
+    "country": "eg",
+    "dialect": [
+      "american british"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "en",
+    "mapped_id": 162126749549,
+    "source_id": {
+      "value": 590164090234,
+      "page_number": null
+    },
+    "description": "Find 572 × 98 using area models.",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2023-07-11T09:18:58"
+  },
+  "section_id": "416192120895",
+  "language": "en",
+  "subject_id": "872198392582",
+  "subject": "Mathematics",
+  "grade_id": "675125694625",
+  "grade": "5",
+  "country": "eg",
+  "question_id": "162126749549"
+}

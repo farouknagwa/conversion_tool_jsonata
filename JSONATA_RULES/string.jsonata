@@ -20,7 +20,7 @@
   };
   
   /* Add guidelines first (if any), then explanation last */
-  $withGuidelines := $guidelines ? $merge([$base, {"guidelines": $guidelines}]) : $base;
+  $withGuidelines := $guidelines ? $merge([$base, {"guidelines": [$guidelines]}]) : $base;
   
   $merge([$withGuidelines, {"explanation": explanation}])
 )

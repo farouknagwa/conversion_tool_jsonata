@@ -4,7 +4,7 @@
       "n": 1,
       "type": "gapText",
       "subtype": null,
-      "stem": "<p><span style=\"white-space: pre-wrap;\">إذا كانت الأعداد 3، 6، 12 </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span><span style=\"white-space: pre-wrap;\"> للعدد 36، فإن العدد </span><span style=\"white-space: pre-wrap;\">36 </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span><span style=\"white-space: pre-wrap;\"> لها.</span></p>",
+      "stem": "<p dir=\"rtl\"><span style=\"white-space: pre-wrap;\">إذا كانت الأعداد 3، 6، 12 </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span><span style=\"white-space: pre-wrap;\"> للعدد 36، فإن العدد </span><span style=\"white-space: pre-wrap;\">36 </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span><span style=\"white-space: pre-wrap;\"> لها.</span></p>",
       "choices": [],
       "standalone": false,
       "gap_text_keys": [
@@ -35,7 +35,7 @@
       "value": 617180919760,
       "page_number": null
     },
-    "description": "إذا كانت الأعداد 3، 6، 12   للعدد 36، فإن العدد 36   لها.",
+    "description": "إذا كانت الأعداد 3، 6، 12 للعدد 36، فإن العدد 36 لها.",
     "example_id": null,
     "has_example": false,
     "parts_count": 1,

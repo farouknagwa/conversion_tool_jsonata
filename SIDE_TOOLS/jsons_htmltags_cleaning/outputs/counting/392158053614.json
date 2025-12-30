@@ -4,7 +4,7 @@
       "n": 1,
       "type": "counting",
       "subtype": null,
-      "stem": "<p>وضِّح هذا العدد باستخدام قِطَع العدِّ في إطار الخمسة.</p><p></p><p></p><div class=\"h-scroll\" dir=\"rtl\" style=\"text-align: center;\"><img alt=\"صورة السؤال\" class=\"displayed-image\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/872106591732.svg\" style=\"width: 58.3302px;height: 120px;\"/></div><div class=\"audio-wrapper\" dir=\"\" style=\"text-align: ;\"><audio class=\"audio-player\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/813154820852.mp3\"></audio></div>",
+      "stem": "<p dir=\"rtl\">وضِّح هذا العدد باستخدام قِطَع العدِّ في إطار الخمسة.</p><p dir=\"rtl\"></p><p dir=\"rtl\"></p><div class=\"h-scroll\" dir=\"rtl\" style=\"text-align: center;\"><img alt=\"صورة السؤال\" class=\"displayed-image\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/872106591732.svg\" style=\"width: 58.3302px;height: 120px;\"/></div><div class=\"audio-wrapper\" dir=\"\" style=\"text-align: ;\"><audio class=\"audio-player\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/813154820852.mp3\"></audio></div>",
       "answer": "٣",
       "grid_size": "1×5",
       "gap_text_keys": null,

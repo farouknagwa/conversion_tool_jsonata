@@ -389,7 +389,7 @@ def generate_text_log(stats: ConversionStats, output_path: Path):
                 f.write(f"Question ID: {warning['question_id']}\n")
                 f.write(f"Warning: {warning['warning_message']}\n")
                 f.write(f"Timestamp: {warning['timestamp']}\n")
-                f.write("-" * 80 + "\n\n")
+            f.write("-" * 80 + "\n\n")
     
     print(f"Text log saved to: {output_path}")
 

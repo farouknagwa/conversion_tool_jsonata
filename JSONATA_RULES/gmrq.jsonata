@@ -55,10 +55,10 @@
     "type": "gmrq",
     "stem": part.stem,
     "items": {
-      "A": $itemsA,
-      "B": $itemsB,
-      "correct_answer": $correctAnswers
+      "A": [$itemsA],
+      "B": [$itemsB]
     },
+    "correct_answer": $correctAnswers,
     "explanation": explanation
   }
 )

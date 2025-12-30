@@ -1,0 +1,102 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "mcq",
+      "subtype": null,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Using the distributive property,</span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"\\displaystyle{4 \\times 357}\">\\displaystyle{4 \\times 357}</math-field></span><span style=\"white-space: pre-wrap;\"> </span><span style=\"white-space: pre-wrap;\">can be rewritten as</span><span data-node-type=\"blank-line\" data-node-variation=\"space\">&nbsp;</span></p><p class=\"LexicalTheme__paragraph\"><br></p>",
+      "choices": [
+        {
+          "type": "key",
+          "html_content": "<p class=\"LexicalTheme__paragraph\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"\\displaystyle{\\left(4\\times300\\right)+\\left(4\\times50\\right)+\\left(4\\times7\\right)}\">\\displaystyle{\\left(4\\times300\\right)+\\left(4\\times50\\right)+\\left(4\\times7\\right)}</math-field></span></p>",
+          "values": [],
+          "unit": null,
+          "index": 0,
+          "fixed_order": 1,
+          "correct_order": 4,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"\\displaystyle{\\left(4\\times300\\right)+\\left(4\\times50\\right)+\\left(4\\times70\\right)}\">\\displaystyle{\\left(4\\times300\\right)+\\left(4\\times50\\right)+\\left(4\\times70\\right)}</math-field></span></p>",
+          "values": [],
+          "unit": null,
+          "index": 1,
+          "fixed_order": 2,
+          "correct_order": 3,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"\\displaystyle{\\left(4\\times3\\right)+\\left(4\\times50\\right)+\\left(4\\times700\\right)}\">\\displaystyle{\\left(4\\times3\\right)+\\left(4\\times50\\right)+\\left(4\\times700\\right)}</math-field></span></p>",
+          "values": [],
+          "unit": null,
+          "index": 2,
+          "fixed_order": 3,
+          "correct_order": 2,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"\\displaystyle{\\left(4\\times30\\right)+\\left(4\\times50\\right)+\\left(4\\times7\\right)}\">\\displaystyle{\\left(4\\times30\\right)+\\left(4\\times50\\right)+\\left(4\\times7\\right)}</math-field></span></p>",
+          "values": [],
+          "unit": null,
+          "index": 3,
+          "fixed_order": 4,
+          "correct_order": 1,
+          "last_order": false,
+          "group": 1
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "n": 2,
+      "type": "input_box",
+      "subtype": null,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">The product =</span><span data-node-type=\"blank-line\" data-node-variation=\"space\">&nbsp;</span></p>",
+      "choices": [],
+      "standalone": false,
+      "answer": {
+        "value": "1,428",
+        "constrains": {
+          "type": "integer"
+        }
+      }
+    }
+  ],
+  "statement": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Consider the following problem:</span></p><p class=\"LexicalTheme__paragraph\" style=\"text-align: center;\"><span style=\"white-space: pre-wrap;\"> </span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"\\displaystyle{4 \\times 357}\">\\displaystyle{4 \\times 357}</math-field></span></p>",
+  "instance_number": 1,
+  "metadata": {
+    "id": 279128710423,
+    "title": "",
+    "country": null,
+    "dialect": [
+      "american"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "en",
+    "mapped_id": 279128710423,
+    "source_id": {
+      "value": 184132352767,
+      "page_number": null
+    },
+    "description": "Use the expanded form of 357 to rewrite 4 × 357. Evaluate this to find 4 × 357.",
+    "has_example": false,
+    "parts_count": 2,
+    "instances_count": 4,
+    "publication_date": "2019-10-27T07:05:44"
+  },
+  "section_id": "398106172192",
+  "language": "en",
+  "subject_id": "872198392582",
+  "subject": "Mathematics",
+  "grade_id": "675125694625",
+  "grade": "5",
+  "country": "eg",
+  "question_id": "279128710423"
+}

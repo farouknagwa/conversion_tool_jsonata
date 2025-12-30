@@ -4,11 +4,11 @@
       "n": 1,
       "type": "matching",
       "subtype": null,
-      "stem": "<p><span style=\"white-space: pre-wrap;\">Drag the diagram to match the need being fulfilled.</span></p>",
+      "stem": "<p dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Drag the diagram to match the need being fulfilled.</span></p>",
       "choices": [
         {
           "type": "distractor",
-          "html_content": "<p><span style=\"white-space: pre-wrap;\">Water</span></p>",
+          "html_content": "<p dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Water</span></p>",
           "values": [],
           "unit": null,
           "index": 0,
@@ -19,7 +19,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p><span style=\"white-space: pre-wrap;\">Food</span></p>",
+          "html_content": "<p dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Food</span></p>",
           "values": [],
           "unit": null,
           "index": 1,
@@ -30,7 +30,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p><span style=\"white-space: pre-wrap;\">Shelter</span></p>",
+          "html_content": "<p dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Shelter</span></p>",
           "values": [],
           "unit": null,
           "index": 2,

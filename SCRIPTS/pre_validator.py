@@ -39,9 +39,9 @@ def validate_json_structure(json_data: Dict[str, Any]) -> Tuple[List[str], List[
     if not json_data.get('metadata', {}) or not isinstance(json_data['metadata'], dict):
         errors.append("Missing or invalid 'metadata' object")
     
-    # Validate statement for multipart questions (WARNING only)
-    if len(json_data.get('parts', [])) > 1 and not json_data.get('statement'):
-        warnings.append("Multipart questions should have a 'statement' field")
+    # Validate statement for multipart questions (ERROR)
+    if len(json_data.get('parts', [])) > 1 and is_empty_or_none(json_data.get('statement')):
+        errors.append("Multipart questions must have a 'statement' field")
     
     country_code = extract_country_code_mandatory_return(json_data)
     
@@ -723,6 +723,13 @@ def _validate_input_box(part: Dict[str, Any], part_number: int) -> List[str]:
         errors.append(
             f"Part {part_number} (input_box): 'answer.value' must be a string"
         )
+    else:
+        # Check for fraction slashes - not supported
+        value = part['answer']['value']
+        if ('/' in value or '⁄' in value) and ('<' not in value and '>' not in value):
+            errors.append(
+                f"Part {part_number} (input_box): Fraction values (containing '/' or '⁄') are not supported. Value: '{value}'"
+            )
     
     # Validate constrains
     if not part['answer'].get('constrains') or not isinstance(part['answer']['constrains'], dict):
@@ -756,19 +763,20 @@ def _validate_root_answer_for_explanation(json_data: Dict[str, Any]) -> List[str
         try:
             # Parse HTML with BeautifulSoup
             soup = BeautifulSoup(explanation, 'html.parser')
-            if number_of_parts == 1: # For single part: must be only one <p> tag
-                direct_children = [tag for tag in soup.children if tag.name is not None] # Get soup direct children             
-                if len(direct_children) != 1:
-                    warnings.append(
-                        f"Root 'answer' field for single-part question must contain exactly one <p> tag, "
-                        f"but found {len(direct_children)} top-level elements"
-                    )
-                elif direct_children[0].name != 'p':
-                    warnings.append(
-                        f"Root 'answer' field for single-part question must contain a <p> tag, "
-                        f"but found <{direct_children[0].name}>"
-                    )            
-            elif number_of_parts > 1: # For multipart: must be one parent <div> with direct child <div>s equal to number_of_parts
+            # if number_of_parts == 1: # For single part: must be only one <p> tag
+            #     direct_children = [tag for tag in soup.children if tag.name is not None] # Get soup direct children             
+            #     if len(direct_children) != 1:
+            #         warnings.append(
+            #             f"Root 'answer' field for single-part question must contain exactly one <p> tag, "
+            #             f"but found {len(direct_children)} top-level elements"
+            #         )
+            #     elif direct_children[0].name != 'p':
+            #         warnings.append(
+            #             f"Root 'answer' field for single-part question must contain a <p> tag, "
+            #             f"but found <{direct_children[0].name}>"
+            #         )            
+            # elif number_of_parts > 1: # For multipart: must be one parent <div> with direct child <div>s equal to number_of_parts
+            if number_of_parts > 1: # For multipart: must be one parent <div> with direct child <div>s equal to number_of_parts
                 # Get all direct children of the soup
                 direct_children = [tag for tag in soup.children if tag.name is not None] # Get soup direct children
                 if len(direct_children) != 1:

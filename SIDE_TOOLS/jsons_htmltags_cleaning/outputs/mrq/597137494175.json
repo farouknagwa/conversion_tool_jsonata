@@ -4,7 +4,7 @@
       "n": 1,
       "type": "mrq",
       "subtype": null,
-      "stem": "<p><span style=\"white-space: pre-wrap;\">Which of the following diagrams show two living things interacting together? Pick </span><b><strong class=\"LexicalTheme__textBold\" style=\"white-space: pre-wrap;\">two</strong></b><span style=\"white-space: pre-wrap;\">.</span></p>",
+      "stem": "<p dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Which of the following diagrams show two living things interacting together? Pick </span><b><strong class=\"LexicalTheme__textBold\" style=\"white-space: pre-wrap;\">two</strong></b><span style=\"white-space: pre-wrap;\">.</span></p>",
       "choices": [
         {
           "type": "key",

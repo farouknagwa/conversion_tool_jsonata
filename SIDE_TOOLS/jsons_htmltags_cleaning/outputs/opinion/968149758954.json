@@ -4,7 +4,7 @@
       "n": 1,
       "type": "opinion",
       "subtype": null,
-      "stem": "<p><span style=\"white-space: pre-wrap;\">Which communication method do you mostly use?</span></p>",
+      "stem": "<p dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Which communication method do you mostly use?</span></p>",
       "choices": [
         {
           "type": "distractor",

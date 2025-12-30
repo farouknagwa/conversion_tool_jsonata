@@ -4,7 +4,7 @@
       "n": 1,
       "type": "counting",
       "subtype": null,
-      "stem": "<p><span style=\"white-space: pre-wrap;\">عُدَّ الأشياء الموضَّحة.</span></p><p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"Question Image\" class=\"displayed-image\" height=\"40\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/967130396069.svg\" style=\"aspect-ratio: 749/40;\" width=\"749\"/></span></p><p><span style=\"white-space: pre-wrap;\">وضِّح نفس العدد على إطار العشرة.</span></p>",
+      "stem": "<p dir=\"rtl\"><span style=\"white-space: pre-wrap;\">عُدَّ الأشياء الموضَّحة.</span></p><p dir=\"rtl\"><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"Question Image\" class=\"displayed-image\" height=\"40\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/967130396069.svg\" style=\"aspect-ratio: 749/40;\" width=\"749\"/></span></p><p dir=\"rtl\"><span style=\"white-space: pre-wrap;\">وضِّح نفس العدد على إطار العشرة.</span></p>",
       "choices": [],
       "standalone": false,
       "answer": "9",

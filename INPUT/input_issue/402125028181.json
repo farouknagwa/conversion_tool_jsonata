@@ -1,0 +1,50 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "input_box",
+      "subtype": null,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: justify;\"><span style=\"white-space: pre-wrap;\">احسب النسبة بين عدد لفات ملفي محول مثالي، وهي </span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"\\frac{N_{\\mathrm{s}}}{N_{\\mathrm{p}}}\" locale=\"en\">\\frac{N_{\\mathrm{s}}}{N_{\\mathrm{p}}}</math-field></span><span style=\"white-space: pre-wrap;\">، اللازمة لتحويل </span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"240\\,\\mathrm{V}\" locale=\"en\">240\\,\\mathrm{V}</math-field></span><span style=\"white-space: pre-wrap;\"> إلى </span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"12\\,\\mathrm{V}\" locale=\"en\">12\\,\\mathrm{V}</math-field></span><span style=\"white-space: pre-wrap;\">.</span><br></p>",
+      "choices": [],
+      "standalone": false,
+      "answer": {
+        "value": "</span>\n\n0.05",
+        "constrains": {
+          "type": "integer"
+        }
+      }
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 168173639789,
+    "title": "",
+    "category": "exam",
+    "country": "eg",
+    "language": "ar",
+    "dialect": [
+      "modern_standard"
+    ],
+    "mapped_id": 402125028181,
+    "source_id": {
+      "value": 927169194769,
+      "page_number": null
+    },
+    "description": "احسب النسبة بين عدد لفات ملفي محول مثالي، وهي \\frac{N_{\\mathrm{s}}}{N_{\\mathrm{p}}}، اللازمة لتحويل 240\\,\\mathrm{V} إلى 12\\,\\mathrm{V}.",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2025-12-04T08:56:05"
+  },
+  "section_id": "643149242390",
+  "language": "ar",
+  "subject_id": "190173763241",
+  "subject": "الفيزياء",
+  "grade_id": "979180725863",
+  "grade": "12",
+  "country": "eg",
+  "parent_id": "168173639789",
+  "question_id": "402125028181"
+}

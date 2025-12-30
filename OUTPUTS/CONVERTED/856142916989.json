@@ -1,0 +1,50 @@
+{
+  "question_id": "856142916989",
+  "parent_id": "418109146047",
+  "language_code": "ar",
+  "language": "Arabic",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "الرياضيات",
+  "subject_id": "846131028308",
+  "grade": "5",
+  "grade_id": "675125694625",
+  "number_of_parts": 1,
+  "section_id": "905154346565",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "input",
+        "stem": "<p>تُقدِّر لبنى حاصل ضرب 289 و17. قرَّبت 289 إلى 300، وقرَّبت 17 إلى 20. احسب تقدير لبنى.</p>",
+        "correct_answer": {
+          "value": 6000,
+          "unit": null,
+          "constraints": {
+            "type": "integer",
+            "number_format": {
+              "format": "arabic",
+              "must_have_thousand_sep": true
+            },
+            "allow_leading_zeros": false,
+            "allow_trailing_zeros": false,
+            "sign": "canBeExplicitOrImplicit",
+            "remove_leading_zeros_from_normalized_form": true,
+            "remove_trailing_zeros_from_normalized_form": true,
+            "add_single_leading_zero_to_normalized_form": false,
+            "remove_trailing_decimal_point_from_normalized_form": false,
+            "normalize_sign": "notSet",
+            "must_have_no_more_than_nsf": null,
+            "must_have_at_least_nsf": null,
+            "must_have_exactly_nsf": null,
+            "must_have_at_least_ndp": null,
+            "must_have_no_more_than_ndp": null,
+            "must_have_exactly_ndp": null
+          }
+        },
+        "explanation": null
+      }
+    ]
+  }
+}

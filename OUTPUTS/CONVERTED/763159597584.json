@@ -1,0 +1,144 @@
+{
+  "question_id": "763159597584",
+  "parent_id": "280150720306",
+  "language_code": "ar",
+  "language": "Arabic",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "الرياضيات",
+  "subject_id": "874157135823",
+  "grade": "4",
+  "grade_id": "415124760217",
+  "number_of_parts": 4,
+  "section_id": "315104590535",
+  "source": "human",
+  "content": {
+    "statement": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">أجب عن الأسئلة المتعلقة بهذه الأعداد:</span></p><p class=\"LexicalTheme__paragraph\" style=\"text-align: center;\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" defaultmode=\"inline-math\" read-only=\"\" value=\"4,835,716\">4,835,716</math-field></span><span style=\"white-space: pre-wrap;\"> </span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" defaultmode=\"inline-math\" read-only=\"\" value=\"1,863,547\">1,863,547</math-field></span><span style=\"white-space: pre-wrap;\"> </span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" defaultmode=\"inline-math\" read-only=\"\" value=\"6,357,841\">6,357,841</math-field></span><span style=\"white-space: pre-wrap;\"> </span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" defaultmode=\"inline-math\" read-only=\"\" value=\"4,761,583\">4,761,583</math-field></span><span style=\"white-space: pre-wrap;\"> </span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" defaultmode=\"inline-math\" read-only=\"\" value=\"6,351,478\">6,351,478</math-field></span></p>",
+    "parts": [
+      {
+        "n": 1,
+        "type": "input",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">أصغر عدد هو </span><span data-node-type=\"blank-line\" data-node-variation=\"space\">&nbsp;</span><span style=\"white-space: pre-wrap;\">.</span></p>",
+        "correct_answer": {
+          "value": 1863547,
+          "unit": null,
+          "constraints": {
+            "type": "integer",
+            "number_format": {
+              "format": "arabic",
+              "must_have_thousand_sep": true
+            },
+            "allow_leading_zeros": false,
+            "allow_trailing_zeros": false,
+            "sign": "canBeExplicitOrImplicit",
+            "remove_leading_zeros_from_normalized_form": true,
+            "remove_trailing_zeros_from_normalized_form": true,
+            "add_single_leading_zero_to_normalized_form": false,
+            "remove_trailing_decimal_point_from_normalized_form": false,
+            "normalize_sign": "notSet",
+            "must_have_no_more_than_nsf": null,
+            "must_have_at_least_nsf": null,
+            "must_have_exactly_nsf": null,
+            "must_have_at_least_ndp": null,
+            "must_have_no_more_than_ndp": null,
+            "must_have_exactly_ndp": null
+          }
+        },
+        "explanation": null
+      },
+      {
+        "n": 2,
+        "type": "input",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">أكبر عدد هو </span><span data-node-type=\"blank-line\" data-node-variation=\"space\">&nbsp;</span><span style=\"white-space: pre-wrap;\">.</span></p>",
+        "correct_answer": {
+          "value": 6357841,
+          "unit": null,
+          "constraints": {
+            "type": "integer",
+            "number_format": {
+              "format": "arabic",
+              "must_have_thousand_sep": true
+            },
+            "allow_leading_zeros": false,
+            "allow_trailing_zeros": false,
+            "sign": "canBeExplicitOrImplicit",
+            "remove_leading_zeros_from_normalized_form": true,
+            "remove_trailing_zeros_from_normalized_form": true,
+            "add_single_leading_zero_to_normalized_form": false,
+            "remove_trailing_decimal_point_from_normalized_form": false,
+            "normalize_sign": "notSet",
+            "must_have_no_more_than_nsf": null,
+            "must_have_at_least_nsf": null,
+            "must_have_exactly_nsf": null,
+            "must_have_at_least_ndp": null,
+            "must_have_no_more_than_ndp": null,
+            "must_have_exactly_ndp": null
+          }
+        },
+        "explanation": null
+      },
+      {
+        "n": 3,
+        "type": "input",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">الفرق بين أكبر عدد وأصغر عدد هو </span><span data-node-type=\"blank-line\" data-node-variation=\"space\">&nbsp;</span><span style=\"white-space: pre-wrap;\">.</span></p>",
+        "correct_answer": {
+          "value": 4494294,
+          "unit": null,
+          "constraints": {
+            "type": "integer",
+            "number_format": {
+              "format": "arabic",
+              "must_have_thousand_sep": true
+            },
+            "allow_leading_zeros": false,
+            "allow_trailing_zeros": false,
+            "sign": "canBeExplicitOrImplicit",
+            "remove_leading_zeros_from_normalized_form": true,
+            "remove_trailing_zeros_from_normalized_form": true,
+            "add_single_leading_zero_to_normalized_form": false,
+            "remove_trailing_decimal_point_from_normalized_form": false,
+            "normalize_sign": "notSet",
+            "must_have_no_more_than_nsf": null,
+            "must_have_at_least_nsf": null,
+            "must_have_exactly_nsf": null,
+            "must_have_at_least_ndp": null,
+            "must_have_no_more_than_ndp": null,
+            "must_have_exactly_ndp": null
+          }
+        },
+        "explanation": null
+      },
+      {
+        "n": 4,
+        "type": "input",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">أصغر عدد مقرب لأقرب مائة ألف هو </span><span data-node-type=\"blank-line\" data-node-variation=\"space\">&nbsp;</span><span style=\"white-space: pre-wrap;\">.</span></p>",
+        "correct_answer": {
+          "value": 1900000,
+          "unit": null,
+          "constraints": {
+            "type": "integer",
+            "number_format": {
+              "format": "arabic",
+              "must_have_thousand_sep": true
+            },
+            "allow_leading_zeros": false,
+            "allow_trailing_zeros": false,
+            "sign": "canBeExplicitOrImplicit",
+            "remove_leading_zeros_from_normalized_form": true,
+            "remove_trailing_zeros_from_normalized_form": true,
+            "add_single_leading_zero_to_normalized_form": false,
+            "remove_trailing_decimal_point_from_normalized_form": false,
+            "normalize_sign": "notSet",
+            "must_have_no_more_than_nsf": null,
+            "must_have_at_least_nsf": null,
+            "must_have_exactly_nsf": null,
+            "must_have_at_least_ndp": null,
+            "must_have_no_more_than_ndp": null,
+            "must_have_exactly_ndp": null
+          }
+        },
+        "explanation": null
+      }
+    ]
+  }
+}

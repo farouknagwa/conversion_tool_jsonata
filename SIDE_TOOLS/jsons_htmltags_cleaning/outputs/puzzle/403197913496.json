@@ -4,7 +4,7 @@
       "n": 1,
       "type": "puzzle",
       "subtype": null,
-      "stem": "<p>رتِّب الصُّوَر لمعرفة مَن الذي سنلتقيه اليوم.</p><p></p>",
+      "stem": "<p dir=\"rtl\">رتِّب الصُّوَر لمعرفة مَن الذي سنلتقيه اليوم.</p><p dir=\"rtl\"></p>",
       "answer": null,
       "grid_size": null,
       "gap_text_keys": null,

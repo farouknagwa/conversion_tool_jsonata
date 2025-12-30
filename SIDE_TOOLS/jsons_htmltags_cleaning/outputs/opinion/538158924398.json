@@ -4,14 +4,14 @@
       "n": 1,
       "type": "opinion",
       "subtype": null,
-      "stem": "<p>Read the problems that some students might face.</p><p>Choose one problem that you have faced before.</p>",
+      "stem": "<p dir=\"ltr\">Read the problems that some students might face.</p><p dir=\"ltr\">Choose one problem that you have faced before.</p>",
       "answer": null,
       "grid_size": null,
       "gap_text_keys": null,
       "choices": [
         {
           "type": "distractor",
-          "html_content": "<div class=\"h-scroll\" dir=\"ltr\" style=\"text-align: center;\"><img alt=\"Question Image\" class=\"displayed-image\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/646152108437.svg\" style=\"width: 200px;height: 201.03575482406356px;\"/></div><p>My baby brother won’t stop crying!</p>",
+          "html_content": "<div class=\"h-scroll\" dir=\"ltr\" style=\"text-align: center;\"><img alt=\"Question Image\" class=\"displayed-image\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/646152108437.svg\" style=\"width: 200px;height: 201.03575482406356px;\"/></div><p dir=\"ltr\">My baby brother won’t stop crying!</p>",
           "values": [],
           "unit": null,
           "index": 0,
@@ -22,7 +22,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<div class=\"h-scroll\" dir=\"ltr\" style=\"text-align: center;\"><img alt=\"Question Image\" class=\"displayed-image\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/519147560671.svg\" style=\"width: 200px;height: 203.85925085130535px;\"/></div><p>I’m hungry!</p>",
+          "html_content": "<div class=\"h-scroll\" dir=\"ltr\" style=\"text-align: center;\"><img alt=\"Question Image\" class=\"displayed-image\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/519147560671.svg\" style=\"width: 200px;height: 203.85925085130535px;\"/></div><p dir=\"ltr\">I’m hungry!</p>",
           "values": [],
           "unit": null,
           "index": 1,
@@ -33,7 +33,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<div class=\"h-scroll\" dir=\"ltr\" style=\"text-align: center;\"><img alt=\"Question Image\" class=\"displayed-image\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/927106247514.svg\" style=\"width: 200px;height: 201.03575482406356px;\"/></div><p>I overslept.</p>",
+          "html_content": "<div class=\"h-scroll\" dir=\"ltr\" style=\"text-align: center;\"><img alt=\"Question Image\" class=\"displayed-image\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/927106247514.svg\" style=\"width: 200px;height: 201.03575482406356px;\"/></div><p dir=\"ltr\">I overslept.</p>",
           "values": [],
           "unit": null,
           "index": 2,
@@ -44,7 +44,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<div class=\"h-scroll\" dir=\"ltr\" style=\"text-align: center;\"><img alt=\"Question Image\" class=\"displayed-image\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/410152894086.svg\" style=\"width: 230px;height: 157.5049659477866px;\"/></div><p>It’s raining and I don’t want to get wet.</p>",
+          "html_content": "<div class=\"h-scroll\" dir=\"ltr\" style=\"text-align: center;\"><img alt=\"Question Image\" class=\"displayed-image\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/410152894086.svg\" style=\"width: 230px;height: 157.5049659477866px;\"/></div><p dir=\"ltr\">It’s raining and I don’t want to get wet.</p>",
           "values": [],
           "unit": null,
           "index": 3,
@@ -67,7 +67,7 @@
   "instance_number": 1,
   "metadata": {
     "id": 538158924398,
-    "title": "New Q.2.1.2.1 \t\t\tSESSION Opinion MCQ",
+    "title": "New Q.2.1.2.1 SESSION Opinion MCQ",
     "category": "lesson",
     "country": "eg",
     "language": "en",

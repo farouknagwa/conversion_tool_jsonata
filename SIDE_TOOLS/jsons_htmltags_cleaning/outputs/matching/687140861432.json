@@ -4,11 +4,11 @@
       "n": 1,
       "type": "matching",
       "subtype": null,
-      "stem": "<p><span style=\"white-space: pre-wrap;\">Drag each part of a plant to match its function.</span></p>",
+      "stem": "<p dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Drag each part of a plant to match its function.</span></p>",
       "choices": [
         {
           "type": "distractor",
-          "html_content": "<p><span style=\"white-space: pre-wrap;\">They drink up water and nutrients from the soil and hold the plant in the ground.</span></p>",
+          "html_content": "<p dir=\"ltr\"><span style=\"white-space: pre-wrap;\">They drink up water and nutrients from the soil and hold the plant in the ground.</span></p>",
           "values": [],
           "unit": null,
           "index": 0,
@@ -19,7 +19,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p><span style=\"white-space: pre-wrap;\">It uses sunlight to make food for the plant.</span></p>",
+          "html_content": "<p dir=\"ltr\"><span style=\"white-space: pre-wrap;\">It uses sunlight to make food for the plant.</span></p>",
           "values": [],
           "unit": null,
           "index": 1,
@@ -30,7 +30,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p><span style=\"white-space: pre-wrap;\">It makes seeds.</span></p>",
+          "html_content": "<p dir=\"ltr\"><span style=\"white-space: pre-wrap;\">It makes seeds.</span></p>",
           "values": [],
           "unit": null,
           "index": 2,
@@ -41,7 +41,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p><span style=\"white-space: pre-wrap;\">It carries water from the roots to the other parts of the plant.</span></p>",
+          "html_content": "<p dir=\"ltr\"><span style=\"white-space: pre-wrap;\">It carries water from the roots to the other parts of the plant.</span></p>",
           "values": [],
           "unit": null,
           "index": 3,

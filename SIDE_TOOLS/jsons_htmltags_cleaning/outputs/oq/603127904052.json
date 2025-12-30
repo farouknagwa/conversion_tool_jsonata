@@ -4,7 +4,7 @@
       "n": 1,
       "type": "oq",
       "subtype": null,
-      "stem": "<p><span style=\"white-space: pre-wrap;\">Order these containers from the largest to the smallest capacity.</span></p>",
+      "stem": "<p dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Order these containers from the largest to the smallest capacity.</span></p>",
       "choices": [
         {
           "type": "distractor",

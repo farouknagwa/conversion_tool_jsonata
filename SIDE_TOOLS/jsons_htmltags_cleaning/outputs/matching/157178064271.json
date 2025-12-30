@@ -4,7 +4,7 @@
       "n": 1,
       "type": "matching",
       "subtype": null,
-      "stem": "<p><span style=\"white-space: pre-wrap;\">Drag each word to match its picture.</span></p>",
+      "stem": "<p dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Drag each word to match its picture.</span></p>",
       "choices": [
         {
           "type": "distractor",
@@ -52,7 +52,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p><span style=\"white-space: pre-wrap;\">Flower</span></p>",
+          "html_content": "<p dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Flower</span></p>",
           "values": [],
           "unit": null,
           "index": 0,
@@ -63,7 +63,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p><span style=\"white-space: pre-wrap;\">Roots</span></p>",
+          "html_content": "<p dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Roots</span></p>",
           "values": [],
           "unit": null,
           "index": 1,
@@ -74,7 +74,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p><span style=\"white-space: pre-wrap;\">Leaf</span></p>",
+          "html_content": "<p dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Leaf</span></p>",
           "values": [],
           "unit": null,
           "index": 2,
@@ -85,7 +85,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p><span style=\"white-space: pre-wrap;\">Stem</span></p>",
+          "html_content": "<p dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Stem</span></p>",
           "values": [],
           "unit": null,
           "index": 3,

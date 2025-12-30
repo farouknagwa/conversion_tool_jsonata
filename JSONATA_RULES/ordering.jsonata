@@ -23,8 +23,8 @@
     "type": "ordering",
     "stem": part.stem,
     "direction": part.direction,
-    "items": $items,
-    "correct_answer": $correctAnswer,
+    "items": [$items],
+    "correct_answer": [$correctAnswer],
     "explanation": explanation
   }
 )

@@ -1,0 +1,47 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "input_box",
+      "subtype": null,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">قدِّر حاصل ضرب</span><span style=\"white-space: pre-wrap;\"> </span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"\\displaystyle{171 \\times 63}\">\\displaystyle{171 \\times 63}</math-field></span><span style=\"white-space: pre-wrap;\"> بتقريب 171 لأقرب مائة و63 لأقرب عشرة.</span></p>",
+      "choices": [],
+      "standalone": false,
+      "answer": {
+        "value": "12,000",
+        "constrains": {
+          "type": "integer"
+        }
+      }
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 264176972585,
+    "title": "",
+    "country": "sa",
+    "dialect": [
+      "modern_standard"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "ar",
+    "mapped_id": 238136736908,
+    "source_id": null,
+    "description": "قدِّر حاصل ضرب ١٧١ × ٦٣، بتقريب ١٧١ لأقرب مائة، و٦٣ لأقرب عشرة.",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 10,
+    "publication_date": "2023-04-18T07:28:42"
+  },
+  "section_id": "905154346565",
+  "language": "ar",
+  "subject_id": "846131028308",
+  "subject": "الرياضيات",
+  "grade_id": "675125694625",
+  "grade": "5",
+  "country": "eg",
+  "parent_id": "264176972585",
+  "question_id": "238136736908"
+}

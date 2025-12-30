@@ -1,0 +1,51 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "input_box",
+      "subtype": null,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: justify;\"><span style=\"white-space: pre-wrap;\">ما القراءة الطبيعية لضغط الدم للبالغين الأصحاء؟</span></p>",
+      "choices": [],
+      "standalone": false,
+      "answer": {
+        "value": "120/80",
+        "constrains": {
+          "type": "integer"
+        },
+        "unit": "mmHg"
+      }
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 379160871817,
+    "title": "",
+    "category": "lesson",
+    "country": "eg",
+    "language": "ar",
+    "dialect": [
+      "modern_standard"
+    ],
+    "mapped_id": 545180425816,
+    "source_id": {
+      "value": 963163430437,
+      "page_number": null
+    },
+    "description": "ما القراءة الطبيعية لضغط الدم للبالغين الأصحاء؟",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2025-11-12T07:54:53"
+  },
+  "section_id": "325131892421",
+  "language": "ar",
+  "subject_id": "745131830242",
+  "subject": "العلوم المتكاملة",
+  "grade_id": "934185068749",
+  "grade": "10",
+  "country": "eg",
+  "parent_id": "379160871817",
+  "question_id": "545180425816"
+}

@@ -1,0 +1,51 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "input_box",
+      "subtype": null,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">قيمة لوح تزلُّج </span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"4,200\" locale=\"en\">4,200</math-field></span><span style=\"white-space: pre-wrap;\"> جنيه مصري دون إضافة ضريبة المبيعات. </span><span style=\"white-space: pre-wrap;\">ما سعر لوح التزلُّج بعد إضافة </span><span style=\"white-space: pre-wrap;\">ضريبة المبيعات؛ وهي </span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"24\\%\" locale=\"ar\" lang=\"ar\">24\\%</math-field></span><span style=\"white-space: pre-wrap;\">؟</span></p>",
+      "choices": [],
+      "standalone": false,
+      "answer": {
+        "value": "5,208",
+        "constrains": {
+          "type": "integer"
+        },
+        "unit": "جنيهات مصرية"
+      }
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 727152302358,
+    "title": "EG_6.2_S12_Quiz",
+    "category": "lesson",
+    "country": "eg",
+    "language": "ar",
+    "dialect": [
+      "modern_standard"
+    ],
+    "mapped_id": 423196373050,
+    "source_id": {
+      "value": 698106520137,
+      "page_number": null
+    },
+    "description": "قيمة لوح تزلُّج 4,200 جنيه مصري دون إضافة ضريبة المبيعات. ما سعر لوح التزلُّج بعد إضافة ضريبة المبيعات؛ وهي 24\\%؟",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2025-09-15T07:27:27"
+  },
+  "section_id": "465132308587",
+  "language": "ar",
+  "subject_id": "919174538509",
+  "subject": "الرياضيات",
+  "grade_id": "464173946403",
+  "grade": "7",
+  "country": "eg",
+  "parent_id": "727152302358",
+  "question_id": "423196373050"
+}

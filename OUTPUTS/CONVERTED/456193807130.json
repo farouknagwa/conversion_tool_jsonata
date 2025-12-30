@@ -1,0 +1,50 @@
+{
+  "question_id": "456193807130",
+  "parent_id": "456193807130",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Mathematics",
+  "subject_id": "975147138958",
+  "grade": "4",
+  "grade_id": "415124760217",
+  "number_of_parts": 1,
+  "section_id": "673125187294",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "input",
+        "stem": "<p><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{ 1{,}372 \\times 4 =\\textBlank }\">\\displaystyle{ 1{,}372 \\times 4 =\\textBlank }</math-field></span></p>",
+        "correct_answer": {
+          "value": 5488,
+          "unit": null,
+          "constraints": {
+            "type": "integer",
+            "number_format": {
+              "format": "arabic",
+              "must_have_thousand_sep": true
+            },
+            "allow_leading_zeros": false,
+            "allow_trailing_zeros": false,
+            "sign": "canBeExplicitOrImplicit",
+            "remove_leading_zeros_from_normalized_form": true,
+            "remove_trailing_zeros_from_normalized_form": true,
+            "add_single_leading_zero_to_normalized_form": false,
+            "remove_trailing_decimal_point_from_normalized_form": false,
+            "normalize_sign": "notSet",
+            "must_have_no_more_than_nsf": null,
+            "must_have_at_least_nsf": null,
+            "must_have_exactly_nsf": null,
+            "must_have_at_least_ndp": null,
+            "must_have_no_more_than_ndp": null,
+            "must_have_exactly_ndp": null
+          }
+        },
+        "explanation": "<p>We need to find <svg width=\"69.399\" height=\"12.5\" viewBox=\"370.032 271.146 52.049 9.375\" class=\"displayed_equation\" xmlns=\"http://www.w3.org/2000/svg\"><g font-family=\"NagwaMath\" font-size=\"13.5\"><text y=\"280.099\" x=\"369.188\">1</text><text y=\"280.099\" x=\"378.078\">3</text><text y=\"280.099\" x=\"384.736\">7</text><text y=\"280.099\" x=\"391.393\">2</text><text y=\"280.099\" x=\"401.037\">×</text><text y=\"280.099\" x=\"412.845\">4</text><text y=\"280.099\" x=\"419.503\">.</text></g></svg></p><p>There are many methods to multiply numbers. We will use the standard algorithm. To see the individual steps of the algorithm, check the table below. We get</p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"456193807130.02.svg\" /></div><p>Estimate by rounding to the nearest hundred to check if the answer is reasonable: <svg width=\"130.765\" height=\"12.542\" viewBox=\"347.018 271.115 98.074 9.406\" class=\"displayed_equation\" xmlns=\"http://www.w3.org/2000/svg\"><g font-family=\"NagwaMath\" font-size=\"13.5\"><text y=\"280.099\" x=\"346.174\">1</text><text y=\"280.099\" x=\"355.064\">4</text><text y=\"280.099\" x=\"361.722\">0</text><text y=\"280.099\" x=\"368.379\">0</text><text y=\"280.099\" x=\"378.023\">×</text><text y=\"280.099\" x=\"389.831\">4</text><text y=\"280.099\" x=\"400.214\">=</text><text y=\"280.099\" x=\"413.637\">5</text><text y=\"280.099\" x=\"422.541\">6</text><text y=\"280.099\" x=\"429.198\">0</text><text y=\"280.099\" x=\"435.856\">0</text><text y=\"280.099\" x=\"442.513\">.</text></g></svg></p><p><span class=\"no_margin merge\">5‎ ‎600</span> is close to <span class=\"merge\"><span class=\"no_margin merge\">5‎ ‎488</span>, </span>so the answer looks reasonable: <svg width=\"130.765\" height=\"12.542\" viewBox=\"347.018 271.115 98.074 9.406\" class=\"displayed_equation\" xmlns=\"http://www.w3.org/2000/svg\"><g font-family=\"NagwaMath\" font-size=\"13.5\"><text y=\"280.099\" x=\"346.174\">1</text><text y=\"280.099\" x=\"355.064\">3</text><text y=\"280.099\" x=\"361.722\">7</text><text y=\"280.099\" x=\"368.379\">2</text><text y=\"280.099\" x=\"378.023\">×</text><text y=\"280.099\" x=\"389.831\">4</text><text y=\"280.099\" x=\"400.214\">=</text><text y=\"280.099\" x=\"413.637\">5</text><text y=\"280.099\" x=\"422.541\">4</text><text y=\"280.099\" x=\"429.198\">8</text><text y=\"280.099\" x=\"435.856\">8</text><text y=\"280.099\" x=\"442.513\">.</text></g></svg></p><p>This table shows the steps of the algorithm.</p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"456193807130.01.svg\" /></div>"
+      }
+    ]
+  }
+}

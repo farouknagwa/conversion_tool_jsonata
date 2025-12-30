@@ -4,7 +4,7 @@
       "n": 1,
       "type": "mcq",
       "subtype": null,
-      "stem": "<p><span style=\"white-space: pre-wrap;\">أيُّ الجمل العددية ستستخدمها لإيجاد عدد القمصان التي طارت؟</span></p>",
+      "stem": "<p dir=\"rtl\"><span style=\"white-space: pre-wrap;\">أيُّ الجمل العددية ستستخدمها لإيجاد عدد القمصان التي طارت؟</span></p>",
       "choices": [
         {
           "type": "distractor",
@@ -46,7 +46,7 @@
       "n": 2,
       "type": "input_box",
       "subtype": null,
-      "stem": "<p><span style=\"white-space: pre-wrap;\">ما عدد القمصان التي طارت؟</span></p>",
+      "stem": "<p dir=\"rtl\"><span style=\"white-space: pre-wrap;\">ما عدد القمصان التي طارت؟</span></p>",
       "choices": [],
       "standalone": false,
       "answer": {
@@ -58,7 +58,7 @@
       }
     }
   ],
-  "statement": "<p><span style=\"white-space: pre-wrap;\">ماجد لديه ١١ قميصًا على أحد حِبال الغسيل. طار بعض القمصان منها. يوجد الآن ٤ قمصان على حبل الغسيل.</span></p>",
+  "statement": "<p dir=\"rtl\"><span style=\"white-space: pre-wrap;\">ماجد لديه ١١ قميصًا على أحد حِبال الغسيل. طار بعض القمصان منها. يوجد الآن ٤ قمصان على حبل الغسيل.</span></p>",
   "instance_number": 1,
   "metadata": {
     "id": 265124764618,

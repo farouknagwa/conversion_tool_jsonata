@@ -4,7 +4,7 @@
       "n": 1,
       "type": "puzzle",
       "subtype": null,
-      "stem": "<p><span style=\"white-space: pre-wrap;\">Arrange the pictures to find out the last animal we are going to meet.</span></p><p><br/></p>",
+      "stem": "<p dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Arrange the pictures to find out the last animal we are going to meet.</span></p><p><br/></p>",
       "choices": [],
       "standalone": false,
       "puzzleColumns": "3",
@@ -74,7 +74,7 @@
   "instance_number": 1,
   "metadata": {
     "id": 492194713781,
-    "title": "New.Q.1.1.12.9\t\tPuzzle                       Session only",
+    "title": "New.Q.1.1.12.9 Puzzle Session only",
     "category": "lesson",
     "country": "eg",
     "language": "en",

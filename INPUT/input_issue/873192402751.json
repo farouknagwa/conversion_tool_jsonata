@@ -1,0 +1,49 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>Find <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{4{,}712 \\times 56}\">\\displaystyle{4{,}712 \\times 56}</math-field></span> using area models.</p>",
+      "type": "input_box",
+      "answer": {
+        "value": "263,872",
+        "constrains": {
+          "type": "integer"
+        }
+      },
+      "choices": [],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 873192402751,
+    "title": "",
+    "country": "eg",
+    "dialect": [
+      "american british"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "en",
+    "mapped_id": 873192402751,
+    "source_id": {
+      "value": 590164090234,
+      "page_number": null
+    },
+    "description": "Find 4,712 × 56 using area models.",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2023-07-11T09:19:19"
+  },
+  "section_id": "416192120895",
+  "language": "en",
+  "subject_id": "872198392582",
+  "subject": "Mathematics",
+  "grade_id": "675125694625",
+  "grade": "5",
+  "country": "eg",
+  "question_id": "873192402751"
+}

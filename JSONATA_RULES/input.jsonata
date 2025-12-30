@@ -4,29 +4,77 @@
   
   /* Parse value based on type */
   $value := $string(part.answer.value);
+    
+  /* Detect number format based on digits used (Arabic-Indic ٠-٩, Extended Arabic-Indic ۰-۹, or Devanagari ०-९) */
+  $numberFormat := $contains($string(part.answer.value), /[٠-٩۰-۹०-९]/) ? "hindi" : "arabic";
   
-  /* Detect number format based on digits used */
-  $numberFormat := $contains($string(part.answer.value), /[٠-٩]/) ? "hindi" : "arabic";
+  /* Convert Hindi digits to Arabic digits (all possible encodings) */
+  $step0 := $replace($value, "٠", "0");      /* Arabic-Indic digit zero */
+  $step1 := $replace($step0, "۰", "0");     /* Extended Arabic-Indic digit zero */
+  $step2 := $replace($step1, "١", "1");     /* Arabic-Indic digit one */
+  $step3 := $replace($step2, "۱", "1");     /* Extended Arabic-Indic digit one */
+  $step4 := $replace($step3, "٢", "2");     /* Arabic-Indic digit two */
+  $step5 := $replace($step4, "۲", "2");     /* Extended Arabic-Indic digit two */
+  $step6 := $replace($step5, "٣", "3");     /* Arabic-Indic digit three */
+  $step7 := $replace($step6, "۳", "3");     /* Extended Arabic-Indic digit three */
+  $step8 := $replace($step7, "٤", "4");     /* Arabic-Indic digit four */
+  $step9 := $replace($step8, "۴", "4");     /* Extended Arabic-Indic digit four */
+  $step10 := $replace($step9, "٥", "5");    /* Arabic-Indic digit five */
+  $step11 := $replace($step10, "۵", "5");   /* Extended Arabic-Indic digit five */
+  $step12 := $replace($step11, "٦", "6");   /* Arabic-Indic digit six */
+  $step13 := $replace($step12, "۶", "6");   /* Extended Arabic-Indic digit six */
+  $step14 := $replace($step13, "٧", "7");   /* Arabic-Indic digit seven */
+  $step15 := $replace($step14, "۷", "7");   /* Extended Arabic-Indic digit seven */
+  $step16 := $replace($step15, "٨", "8");   /* Arabic-Indic digit eight */
+  $step17 := $replace($step16, "۸", "8");   /* Extended Arabic-Indic digit eight */
+  $step18 := $replace($step17, "٩", "9");   /* Arabic-Indic digit nine */
+  $step19 := $replace($step18, "۹", "9");   /* Extended Arabic-Indic digit nine */
   
-  /* Convert Hindi digits to Arabic digits and convert to number */
-  $step0 := $replace($value, "٠", "0");
-  $step1 := $replace($step0, "١", "1");
-  $step2 := $replace($step1, "٢", "2");
-  $step3 := $replace($step2, "٣", "3");
-  $step4 := $replace($step3, "٤", "4");
-  $step5 := $replace($step4, "٥", "5");
-  $step6 := $replace($step5, "٦", "6");
-  $step7 := $replace($step6, "٧", "7");
-  $step8 := $replace($step7, "٨", "8");
-  $step9 := $replace($step8, "٫", ".");
-  $arabicValue := $replace($step9, "٩", "9");
+  /* Devanagari digits (०-९) */
+  $step20 := $replace($step19, "०", "0");   /* Devanagari digit zero */
+  $step21 := $replace($step20, "१", "1");   /* Devanagari digit one */
+  $step22 := $replace($step21, "२", "2");   /* Devanagari digit two */
+  $step23 := $replace($step22, "३", "3");   /* Devanagari digit three */
+  $step24 := $replace($step23, "४", "4");   /* Devanagari digit four */
+  $step25 := $replace($step24, "५", "5");   /* Devanagari digit five */
+  $step26 := $replace($step25, "६", "6");   /* Devanagari digit six */
+  $step27 := $replace($step26, "७", "7");   /* Devanagari digit seven */
+  $step28 := $replace($step27, "८", "8");   /* Devanagari digit eight */
+  $step29 := $replace($step28, "९", "9");   /* Devanagari digit nine */
   
+  $step30 := $replace($step29, "−", "-");   /* Minus sign */
+  $step31 := $replace($step30, "٫", ".");   /* Arabic decimal separator */
+  
+  /* Replace comma with period ONLY if:
+     1. Number format is hindi, AND
+     2. No period exists yet (no ٫ was converted)
+     This handles cases where comma is used as decimal separator in hindi format */
+  $step32 := $numberFormat = "hindi" and $contains($step31, ".") = false ? $replace($step31, ",", ".") : $step31;
+
+  /* Detect if original value has thousand separator 
+     - For all formats: check for comma
+     - For hindi format: also check for space/thin-space between digits (common in Hindi number formatting)
+       Space characters include: regular space (U+0020), thin space (U+2009), no-break space (U+00A0), narrow no-break space (U+202F) */
+  $hasComma := $contains($step32, ",");
+  $hasSpaceSeparator := $numberFormat = "hindi" ? $match($step32, /\d+[\s \u2009\u00A0\u202F]+\d+/) != null : false;
+  $hasThousandSep := $hasComma or $hasSpaceSeparator;
+
+  /* Extract only valid numeric characters: 0-9, ., - (removes other chars) */
+  $arabicValue := $replace($step32, /[^0-9.\-]/, "");
+  
+  /* Convert to number */
   $numericValue := $number($arabicValue);
+  
+  /* Determine actual type based on numeric value (integer if no decimal part, decimal otherwise) */
+  $actualType := $numericValue = $floor($numericValue) ? "integer" : "decimal";
   
   /* Build full constraints object with defaults */
   $constraints := {
-    "type": $constraintType,
-    "number_format": $numberFormat,
+    "type": $actualType,
+    "number_format": {
+      "format": $numberFormat,
+      "must_have_thousand_sep": $hasThousandSep
+    },
     "allow_leading_zeros": $exists(part.answer.constrains.allow_leading_zeros) ? part.answer.constrains.allow_leading_zeros : false,
     "allow_trailing_zeros": $exists(part.answer.constrains.allow_trailing_zeros) ? part.answer.constrains.allow_trailing_zeros : false,
     "sign": $exists(part.answer.constrains.sign) ? part.answer.constrains.sign : "canBeExplicitOrImplicit",

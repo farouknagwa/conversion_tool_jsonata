@@ -1,0 +1,61 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "input_box",
+      "subtype": null,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">ما الناتج المجهول؟</span></p>",
+      "choices": [],
+      "standalone": false,
+      "answer": {
+        "value": "4,000",
+        "constrains": {
+          "type": "integer"
+        }
+      }
+    },
+    {
+      "n": 2,
+      "type": "input_box",
+      "subtype": null,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">ما الناتج الذي يجب أن يحصل عليه من حاصل ضرب</span><span style=\"white-space: pre-wrap;\"> </span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"\\displaystyle{569 \\times 78}\">\\displaystyle{569 \\times 78}</math-field></span><span style=\"white-space: pre-wrap;\">؟</span></p>",
+      "choices": [],
+      "standalone": false,
+      "answer": {
+        "value": "44,382",
+        "constrains": {
+          "type": "integer"
+        }
+      }
+    }
+  ],
+  "statement": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">يريد كريم إيجاد حاصل ضرب </span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"\\displaystyle{569 \\times 78}\">\\displaystyle{569 \\times 78}</math-field></span><span style=\"white-space: pre-wrap;\"> من خلال ملء نموذج مساحة المستطيل الآتي.</span></p><p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"595132767450.01.svg\" alt=\"\" class=\"displayed-image\"></span></p>",
+  "instance_number": 1,
+  "metadata": {
+    "id": 930181671936,
+    "title": "",
+    "country": "eg",
+    "dialect": [
+      "modern_standard"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "ar",
+    "mapped_id": 595132767450,
+    "source_id": null,
+    "description": "يريد شادي إيجاد حاصل ضرب ٥٦٩ × ٧٨ من خلال ملء نموذج مساحة المستطيل الآتي بنواتج عملية الضرب بالتجزئة. يتبقَّى له ملء ناتج واحد من نواتج عملية الضرب بالتجزئة.<شكل> ما ناتج عملية الضرب بالتجزئة الناقص؟ ما الناتج الذي يجب أن يحصل عليه من حاصل ضرب ٥٦٩ × ٧٨؟",
+    "has_example": false,
+    "parts_count": 2,
+    "instances_count": 10,
+    "publication_date": "2022-07-03T11:24:49"
+  },
+  "section_id": "390169169615",
+  "language": "ar",
+  "subject_id": "846131028308",
+  "subject": "الرياضيات",
+  "grade_id": "675125694625",
+  "grade": "5",
+  "country": "eg",
+  "parent_id": "930181671936",
+  "question_id": "595132767450"
+}

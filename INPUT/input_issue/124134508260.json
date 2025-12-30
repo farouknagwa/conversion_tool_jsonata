@@ -1,0 +1,50 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "input_box",
+      "subtype": null,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">يوضِّح الجدول الآتي توزيع مجموعة من ستة كتب حسب السعر </span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"\\left(س\\right)\" locale=\"ar\" lang=\"ar\">\\left(س\\right)</math-field></span><span style=\"white-space: pre-wrap;\"> لكلِّ كتاب، وحجم المبيعات </span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"\\left(ص\\right)\" locale=\"ar\" lang=\"ar\">\\left(ص\\right)</math-field></span><span style=\"white-space: pre-wrap;\">.</span></p><div class=\"table-wrapper\" style=\"padding: 0px 5px;\"><table class=\"LexicalTheme__table\"><colgroup><col><col><col><col><col><col><col></colgroup><tbody><tr><th class=\"LexicalTheme__tableCell LexicalTheme__tableCellHeader\" style=\"width: 75px; background-color: rgb(242, 243, 245);\"><p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">السعر </span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"\\left(س\\right)\" locale=\"ar\" lang=\"ar\">\\left(س\\right)</math-field></span></p></th><td class=\"LexicalTheme__tableCell\" style=\"width: 75px;\"><p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: center;\"><span style=\"white-space: pre-wrap;\">منخفض</span></p></td><td class=\"LexicalTheme__tableCell\" style=\"width: 75px;\"><p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: center;\"><span style=\"white-space: pre-wrap;\">منخفض جدًّا</span></p></td><td class=\"LexicalTheme__tableCell\" style=\"width: 75px;\"><p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: center;\"><span style=\"white-space: pre-wrap;\">متوسط</span></p></td><td class=\"LexicalTheme__tableCell\" style=\"width: 75px;\"><p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: center;\"><span style=\"white-space: pre-wrap;\">مرتفع </span><span style=\"white-space: pre-wrap;\">جدًّا</span></p></td><td class=\"LexicalTheme__tableCell\" style=\"width: 75px;\"><p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: center;\"><span style=\"white-space: pre-wrap;\">مرتفع</span></p></td><td class=\"LexicalTheme__tableCell\" style=\"width: 75px;\"><p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: center;\"><span style=\"white-space: pre-wrap;\">مرتفع </span><span style=\"white-space: pre-wrap;\">جدًّا</span></p></td></tr><tr><th class=\"LexicalTheme__tableCell LexicalTheme__tableCellHeader\" style=\"width: 75px; background-color: rgb(242, 243, 245);\"><p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">حجم المبيعات</span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"\\left(ص\\right)\" locale=\"ar\" lang=\"ar\">\\left(ص\\right)</math-field></span></p></th><td class=\"LexicalTheme__tableCell\" style=\"width: 75px;\"><p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: center;\"><span style=\"white-space: pre-wrap;\">مرتفع</span></p></td><td class=\"LexicalTheme__tableCell\" style=\"width: 75px;\"><p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: center;\"><span style=\"white-space: pre-wrap;\">مرتفع</span></p></td><td class=\"LexicalTheme__tableCell\" style=\"width: 75px;\"><p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: center;\"><span style=\"white-space: pre-wrap;\">مرتفع </span><span style=\"white-space: pre-wrap;\">جدًّا</span></p></td><td class=\"LexicalTheme__tableCell\" style=\"width: 75px;\"><p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: center;\"><span style=\"white-space: pre-wrap;\">منخفض</span></p></td><td class=\"LexicalTheme__tableCell\" style=\"width: 75px;\"><p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: center;\"><span style=\"white-space: pre-wrap;\">متوسط</span></p></td><td class=\"LexicalTheme__tableCell\" style=\"width: 75px;\"><p class=\"LexicalTheme__paragraph\" dir=\"rtl\" style=\"text-align: center;\"><span style=\"white-space: pre-wrap;\">منخفض</span></p></td></tr></tbody></table></div><p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">احسب معامل ارتباط الرُّتب لسبيرمان بين السعر، </span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"س\" locale=\"ar\" lang=\"ar\">س</math-field></span><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">، وحجم المبيعات، </span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"ص\" locale=\"ar\" lang=\"ar\">ص</math-field></span><span style=\"white-space: pre-wrap;\">.</span></p>",
+      "choices": [],
+      "standalone": false,
+      "answer": {
+        "value": " -۰,۷۲۹",
+        "constrains": {
+          "type": "decimal"
+        }
+      }
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 567127672196,
+    "title": "",
+    "category": "exam",
+    "country": "eg",
+    "language": "ar",
+    "dialect": [
+      "modern_standard"
+    ],
+    "mapped_id": 124134508260,
+    "source_id": {
+      "value": 643164068106,
+      "page_number": null
+    },
+    "description": "يوضِّح الجدول الآتي توزيع مجموعة من ستة كتب حسب السعر \\left(س\\right) لكلِّ كتاب، وحجم المبيعات \\left(ص\\right).السعر \\left(س\\right)منخفضمنخفض جدًّامتوسطمرتفع جدًّامرتفعمرتفع جدًّاحجم المبيعات\\left(ص\\right)مرتفعمرتفعمرتفع جدًّامنخفضمتوسطمنخفضاحسب معامل",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2025-05-25T08:32:24"
+  },
+  "section_id": "979146715870",
+  "language": "ar",
+  "subject_id": "795125386274",
+  "subject": "الإحصاء",
+  "grade_id": "979180725863",
+  "grade": "12",
+  "country": "eg",
+  "parent_id": "567127672196",
+  "question_id": "124134508260"
+}

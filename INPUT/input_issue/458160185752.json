@@ -1,0 +1,51 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p> Farida bought a bag of sugar of <span class=\"merge\"><span class=\"merge no_margin\">8 kilograms</span>. </span>If <span class=\"merge no_margin\">1 kilogram</span> makes <span class=\"merge\"><span class=\"merge no_margin\"><span class=\"no_margin merge\">1,000</span> grams</span>, </span>how many <span>grams</span> of sugar are in the bag?</p>",
+      "type": "input_box",
+      "answer": {
+        "value": "8,000",
+        "constrains": {
+          "type": "integer"
+        },
+        "unit": "<span class=\"merge no_margin\">grams</span>"
+      },
+      "choices": [],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 458160185752,
+    "title": "",
+    "country": "eg",
+    "dialect": [
+      "american british"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "en",
+    "mapped_id": 458160185752,
+    "source_id": {
+      "value": 793105710231,
+      "page_number": null
+    },
+    "description": "Farida bought a bag of sugar of 8 kilograms. If 1 kilogram makes 1,000 grams, how many grams of sugar are in the bag?",
+    "has_example": true,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2022-11-30T10:03:06"
+  },
+  "answer": "<p>Farida bought an <span class=\"merge no_margin\">8 kg</span> bag of sugar. We need to find how many <span>grams</span> of sugar are in the bag.</p><p>Since <span class=\"merge\"><svg style=\"vertical-align:-5.0373599003736pt\" width=\"82pt\" height=\"16pt\" viewBox=\"-1 -1 82 16\" xmlns=\"http://www.w3.org/2000/svg\"><g font-family=\"NagwaMath\" font-size=\"13.5\"><text y=\"9.963\">1</text><text y=\"9.963\" x=\"8.89\">0</text><text y=\"9.963\" x=\"15.548\">0</text><text y=\"9.963\" x=\"22.205\">0</text><text y=\"9.963\" x=\"42.278\">=</text><text y=\"9.963\" x=\"55.687\">1</text></g><g font-family=\"STIX2\" font-size=\"13.5\"><text y=\"9.963\" x=\"32.032\">g</text><text y=\"9.963\" x=\"65.516\">k</text><text y=\"9.963\" x=\"72.671\">g</text></g></svg>,\n        </span>to convert       <span>kilograms</span> into       \n        <span class=\"merge\"><span>grams</span>, </span>we multiply by <span class=\"merge\"><span class=\"no_margin merge\">1‎ ‎000</span>.</span></p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"458160185752.01.svg\" /></div><p>Since <span class=\"merge\"><svg style=\"vertical-align:-2.0373599003736pt\" width=\"99pt\" height=\"12pt\" viewBox=\"-1 0 99 12\" xmlns=\"http://www.w3.org/2000/svg\"><g font-family=\"NagwaMath\" font-size=\"13.5\"><text y=\"9.963\">8</text><text y=\"9.963\" x=\"9.643\">×</text><text y=\"9.963\" x=\"21.439\">1</text><text y=\"9.963\" x=\"30.342\">0</text><text y=\"9.963\" x=\"37\">0</text><text y=\"9.963\" x=\"43.657\">0</text><text y=\"9.963\" x=\"54.04\">=</text><text y=\"9.963\" x=\"67.463\">8</text><text y=\"9.963\" x=\"76.367\">0</text><text y=\"9.963\" x=\"83.024\">0</text><text y=\"9.963\" x=\"89.682\">0</text></g></svg>,\n        </span><svg width=\"108.386\" height=\"17.25\" viewBox=\"355.225 270.318 81.289 12.938\" class=\"displayed_equation\" xmlns=\"http://www.w3.org/2000/svg\"><g font-family=\"NagwaMath\" font-size=\"13.5\"><text y=\"280.099\" x=\"354.756\">8</text><text y=\"280.099\" x=\"381.974\">=</text><text y=\"280.099\" x=\"395.383\">8</text><text y=\"280.099\" x=\"404.287\">0</text><text y=\"280.099\" x=\"410.944\">0</text><text y=\"280.099\" x=\"417.602\">0</text><text y=\"280.099\" x=\"433.936\">.</text></g><g font-family=\"STIX2\" font-size=\"13.5\"><text y=\"280.099\" x=\"364.574\">k</text><text y=\"280.099\" x=\"371.729\">g</text><text y=\"280.099\" x=\"427.426\">g</text></g></svg></p><p>Farida bought an <span class=\"merge no_margin\"><span class=\"no_margin merge\">8‎ ‎000</span> g</span> bag of sugar.</p>",
+  "section_id": "494190408780",
+  "language": "en",
+  "subject_id": "872198392582",
+  "subject": "Mathematics",
+  "grade_id": "675125694625",
+  "grade": "5",
+  "country": "eg",
+  "question_id": "458160185752"
+}

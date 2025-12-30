@@ -1,0 +1,50 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p> A bottle holds <span class=\"merge no_margin\">100 grams</span> of medicine. How many grams are there in 76 bottles?</p>",
+      "type": "input_box",
+      "answer": {
+        "value": "7,600",
+        "constrains": {
+          "type": "integer"
+        },
+        "unit": "<span class=\"merge no_margin\">g</span>"
+      },
+      "choices": [],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 872151413758,
+    "title": "Solving Word Problems Involving Multiplication by 100",
+    "automark": true,
+    "category": "lesson",
+    "country": null,
+    "language": "en",
+    "dialect": [
+      "american british"
+    ],
+    "mapped_id": 872151413758,
+    "source_id": {
+      "value": 573126491845,
+      "page_number": null
+    },
+    "description": "A bottle holds 100 grams of medicine. How many grams are there in 76 bottles?",
+    "has_example": true,
+    "parts_count": 1,
+    "instances_count": 10,
+    "publication_date": "2025-08-25T12:09:29"
+  },
+  "section_id": "494190408780",
+  "language": "en",
+  "subject_id": "872198392582",
+  "subject": "Mathematics",
+  "grade_id": "675125694625",
+  "grade": "5",
+  "country": "eg",
+  "question_id": "872151413758"
+}

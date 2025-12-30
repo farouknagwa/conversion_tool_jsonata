@@ -1,0 +1,100 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "mcq",
+      "subtype": null,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">اختَر عبارة الضرب الناقصة الصحيحة لإكمال نموذج مساحة المستطيل.</span></p>",
+      "choices": [
+        {
+          "type": "key",
+          "html_content": "<p class=\"LexicalTheme__paragraph\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"\\displaystyle{60 \\times 30}\">\\displaystyle{60 \\times 30}</math-field></span></p>",
+          "values": [],
+          "unit": null,
+          "index": 0,
+          "fixed_order": 1,
+          "correct_order": 2,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"\\displaystyle{63 \\times 30}\">\\displaystyle{63 \\times 30}</math-field></span></p>",
+          "values": [],
+          "unit": null,
+          "index": 1,
+          "fixed_order": 2,
+          "correct_order": 1,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"\\displaystyle{6 \\times 30}\">\\displaystyle{6 \\times 30}</math-field></span></p>",
+          "values": [],
+          "unit": null,
+          "index": 2,
+          "fixed_order": 3,
+          "correct_order": 3,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"\\displaystyle{60 \\times 34}\">\\displaystyle{60 \\times 34}</math-field></span></p>",
+          "values": [],
+          "unit": null,
+          "index": 3,
+          "fixed_order": 4,
+          "correct_order": 4,
+          "last_order": false,
+          "group": 1
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "n": 2,
+      "type": "input_box",
+      "subtype": null,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">حاصل الضرب</span><span style=\"white-space: pre-wrap;\"> = </span><span data-node-type=\"blank-line\" data-node-variation=\"space\">&nbsp;</span><span style=\"white-space: pre-wrap;\">.</span></p>",
+      "choices": [],
+      "standalone": false,
+      "answer": {
+        "value": "1,800",
+        "constrains": {
+          "type": "integer"
+        }
+      }
+    }
+  ],
+  "statement": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">لدينا نموذج مساحة المستطيل المُوضَّح.</span><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"738189786483.01.svg\" alt=\"906164387098\" width=\"300\" height=\"230\" style=\"aspect-ratio: 300/230;\" class=\"displayed-image\"></span></p>",
+  "instance_number": 1,
+  "metadata": {
+    "id": 392186374304,
+    "title": "ضرب عدد مكوَّن من رقمين في عدد مكوَّن من رقمين باستخدام نموذج المساحة",
+    "country": null,
+    "dialect": [
+      "modern_standard"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "ar",
+    "mapped_id": 738189786483,
+    "source_id": null,
+    "description": "اختر مسائل الضرب الناقصة الصحيحة وحاصل الضرب الجزئي لاستكمال نموذج المساحة.<شكل> اختر عبارة الضرب الناقصة الصحيحة لاستكمال نموذج المساحة. أوجد حاصل الضرب الجزئي لهذه العبارة.",
+    "has_example": false,
+    "parts_count": 2,
+    "instances_count": 1,
+    "publication_date": "2018-07-02T09:32:15"
+  },
+  "section_id": "204181045894",
+  "language": "ar",
+  "subject_id": "846131028308",
+  "subject": "الرياضيات",
+  "grade_id": "675125694625",
+  "grade": "5",
+  "country": "eg",
+  "parent_id": "392186374304",
+  "question_id": "738189786483"
+}

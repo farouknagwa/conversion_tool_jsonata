@@ -1,0 +1,50 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "input_box",
+      "subtype": null,
+      "standalone": false,
+      "stem": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: justify;\"><span style=\"white-space: pre-line;\">Calculate the ratio between the number of turns of an ideal transformer's coils,</span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field data-question-id=\"null\" \n                                     data-part-index=\"0\" \n                                     data-field-type=\"stem\" \n                                     data-choice-index=\"-1\"\n                                     data-math-index=\"0\" default-mode=\"inline-math\" value=\"\\frac{N_{\\mathrm{s}}}{N_{\\mathrm{p}}}\" locale=\"en\"></math-field></span><span style=\"white-space: pre-line;\">, required to transform </span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field data-question-id=\"null\" \n                                     data-part-index=\"0\" \n                                     data-field-type=\"stem\" \n                                     data-choice-index=\"-1\"\n                                     data-math-index=\"1\" default-mode=\"inline-math\" value=\"240V\" locale=\"en\"></math-field></span><span style=\"white-space: pre-line;\">to</span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field data-question-id=\"null\" \n                                     data-part-index=\"0\" \n                                     data-field-type=\"stem\" \n                                     data-choice-index=\"-1\"\n                                     data-math-index=\"2\" default-mode=\"inline-math\" value=\"12V\" locale=\"en\"></math-field></span><span style=\"white-space: pre-line;\">.<br><span style=\"color: rgb(217, 70, 239)\"></span></span></p>",
+      "choices": [],
+      "answer": {
+        "value": "</span>\n\n0.05",
+        "constrains": {
+          "type": "integer"
+        }
+      }
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 168173639789,
+    "mapped_id": 168173639789,
+    "category": "exam",
+    "language": "en",
+    "country": "eg",
+    "dialect": [
+      "american",
+      "british"
+    ],
+    "source_id": {
+      "value": "182136230818",
+      "page_number": null
+    },
+    "description": "Calculate the ratio between the number of turns of an ideal transformer's coils,`\\frac{N_{\\mathrm{s}}}{N_{\\mathrm{p}}}`, required to transform `240V`t",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2025-11-29T21:35:29",
+    "schema_version": "1.0.0"
+  },
+  "section_id": "692120847046",
+  "language": "en",
+  "subject_id": "816170836074",
+  "subject": "Physics",
+  "grade_id": "979180725863",
+  "grade": "12",
+  "country": "eg",
+  "question_id": "168173639789"
+}

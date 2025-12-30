@@ -4,7 +4,7 @@
       "n": 1,
       "type": "gapText",
       "subtype": null,
-      "stem": "<p><span style=\"white-space: pre-wrap;\">Our bodies need lots of </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span><span style=\"white-space: pre-wrap;\"> vitamins in </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span><span style=\"white-space: pre-wrap;\"> amounts.</span></p>",
+      "stem": "<p dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Our bodies need lots of </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span><span style=\"white-space: pre-wrap;\"> vitamins in </span><span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span><span style=\"white-space: pre-wrap;\"> amounts.</span></p>",
       "choices": [],
       "standalone": false,
       "gap_text_keys": [
@@ -42,7 +42,7 @@
       "value": 945145262849,
       "page_number": null
     },
-    "description": "Our bodies need lots of   vitamins in   amounts.",
+    "description": "Our bodies need lots of vitamins in amounts.",
     "example_id": null,
     "has_example": false,
     "parts_count": 1,

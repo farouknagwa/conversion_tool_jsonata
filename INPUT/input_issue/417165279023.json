@@ -1,0 +1,47 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>احسب <span class=\"merge\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{4{,}175\\times 81}\">\\displaystyle{4{,}175\\times 81}</math-field></span>.</span></p>",
+      "type": "input_box",
+      "answer": {
+        "value": "338,175",
+        "constrains": {
+          "type": "integer"
+        }
+      },
+      "choices": [],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 839191860408,
+    "title": "",
+    "country": "eg",
+    "dialect": [
+      "modern_standard"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "ar",
+    "mapped_id": 417165279023,
+    "source_id": null,
+    "description": "احسب ٤ ،١٧٥× ٨١.",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 10,
+    "publication_date": "2016-02-23T08:01:39"
+  },
+  "section_id": "295167578453",
+  "language": "ar",
+  "subject_id": "846131028308",
+  "subject": "الرياضيات",
+  "grade_id": "675125694625",
+  "grade": "5",
+  "country": "eg",
+  "parent_id": "839191860408",
+  "question_id": "417165279023"
+}

@@ -1,0 +1,51 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "input_box",
+      "subtype": null,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Convert a pressure of 1.</span><span style=\"white-space: pre-wrap;\">2 bar to Pascals (Pa).</span></p><p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">(Given: 1 bar =</span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"10^{5\\text{ }}\\mathrm{Pa}\" locale=\"en\">10^{5\\text{ }}\\mathrm{Pa}</math-field></span><span style=\"white-space: pre-wrap;\">)</span></p>",
+      "choices": [],
+      "standalone": false,
+      "answer": {
+        "value": "120,000",
+        "constrains": {
+          "type": "integer"
+        },
+        "unit": "Pa"
+      }
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 630124292425,
+    "title": "S15 G11.1",
+    "category": "exam",
+    "country": "eg",
+    "language": "en",
+    "dialect": [
+      "american",
+      "british"
+    ],
+    "mapped_id": 630124292425,
+    "source_id": {
+      "value": 942130798452,
+      "page_number": null
+    },
+    "description": "Convert a pressure of 1.2 bar to Pascals (Pa).(Given: 1 bar =10^{5\\text{ }}\\mathrm{Pa})",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2025-10-29T11:25:25"
+  },
+  "section_id": "487107876053",
+  "language": "en",
+  "subject_id": "767157153518",
+  "subject": "Physics",
+  "grade_id": "898134813215",
+  "grade": "11",
+  "country": "eg",
+  "question_id": "630124292425"
+}

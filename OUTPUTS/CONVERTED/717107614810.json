@@ -1,0 +1,109 @@
+{
+  "question_id": "717107614810",
+  "parent_id": "717107614810",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Mathematics",
+  "subject_id": "975147138958",
+  "grade": "4",
+  "grade_id": "415124760217",
+  "number_of_parts": 3,
+  "section_id": "910165680476",
+  "source": "human",
+  "content": {
+    "statement": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Answer the questions about the number in the place value table.</span></p><p class=\"LexicalTheme__paragraph\" style=\"text-align: center;\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"717107614810.01.svg\" alt=\"Figure_Slide_3\" width=\"400\" height=\"133.33334350585938\" style=\"aspect-ratio: 400/133.33334350585938;\" class=\"displayed-image\"></span></p>",
+    "parts": [
+      {
+        "n": 1,
+        "type": "mcq",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">The number in expanded form is </span><span data-node-type=\"blank-line\" data-node-variation=\"space\">&nbsp;</span><span style=\"white-space: pre-wrap;\">.</span></p>",
+        "choices": [
+          {
+            "label": "A",
+            "value": "<p class=\"LexicalTheme__paragraph\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" defaultmode=\"inline-math\" read-only=\"\" value=\"2,000,000+300,000+50,000+700+40+9\">2,000,000+300,000+50,000+700+40+9</math-field></span></p>",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "value": "<p class=\"LexicalTheme__paragraph\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" defaultmode=\"inline-math\" read-only=\"\" value=\"20,000,000+300,000+50,000+4,000+700+40+9\">20,000,000+300,000+50,000+4,000+700+40+9</math-field></span></p>",
+            "is_correct": true
+          },
+          {
+            "label": "C",
+            "value": "<p class=\"LexicalTheme__paragraph\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" defaultmode=\"inline-math\" read-only=\"\" value=\"200,000,000+30,000+5,000+700+40+9\">200,000,000+30,000+5,000+700+40+9</math-field></span></p>",
+            "is_correct": false
+          }
+        ],
+        "correct_answer": {
+          "label": "B",
+          "value": "<p class=\"LexicalTheme__paragraph\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" defaultmode=\"inline-math\" read-only=\"\" value=\"20,000,000+300,000+50,000+4,000+700+40+9\">20,000,000+300,000+50,000+4,000+700+40+9</math-field></span></p>"
+        },
+        "explanation": null
+      },
+      {
+        "n": 2,
+        "type": "input",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">The value of the digit</span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" defaultmode=\"inline-math\" read-only=\"\" value=\"5\">5</math-field></span><span style=\"white-space: pre-wrap;\">in the number is </span><span data-node-type=\"blank-line\" data-node-variation=\"space\">&nbsp;</span><span style=\"white-space: pre-wrap;\">.</span></p>",
+        "correct_answer": {
+          "value": 50000,
+          "unit": null,
+          "constraints": {
+            "type": "integer",
+            "number_format": {
+              "format": "arabic",
+              "must_have_thousand_sep": true
+            },
+            "allow_leading_zeros": false,
+            "allow_trailing_zeros": false,
+            "sign": "canBeExplicitOrImplicit",
+            "remove_leading_zeros_from_normalized_form": true,
+            "remove_trailing_zeros_from_normalized_form": true,
+            "add_single_leading_zero_to_normalized_form": false,
+            "remove_trailing_decimal_point_from_normalized_form": false,
+            "normalize_sign": "notSet",
+            "must_have_no_more_than_nsf": null,
+            "must_have_at_least_nsf": null,
+            "must_have_exactly_nsf": null,
+            "must_have_at_least_ndp": null,
+            "must_have_no_more_than_ndp": null,
+            "must_have_exactly_ndp": null
+          }
+        },
+        "explanation": null
+      },
+      {
+        "n": 3,
+        "type": "input",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">The number rounded to the nearest million</span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" defaultmode=\"inline-math\" read-only=\"\" value=\"\\thickapprox\">\\thickapprox</math-field></span><span data-node-type=\"blank-line\" data-node-variation=\"space\">&nbsp;</span></p>",
+        "correct_answer": {
+          "value": 20000000,
+          "unit": null,
+          "constraints": {
+            "type": "integer",
+            "number_format": {
+              "format": "arabic",
+              "must_have_thousand_sep": true
+            },
+            "allow_leading_zeros": false,
+            "allow_trailing_zeros": false,
+            "sign": "canBeExplicitOrImplicit",
+            "remove_leading_zeros_from_normalized_form": true,
+            "remove_trailing_zeros_from_normalized_form": true,
+            "add_single_leading_zero_to_normalized_form": false,
+            "remove_trailing_decimal_point_from_normalized_form": false,
+            "normalize_sign": "notSet",
+            "must_have_no_more_than_nsf": null,
+            "must_have_at_least_nsf": null,
+            "must_have_exactly_nsf": null,
+            "must_have_at_least_ndp": null,
+            "must_have_no_more_than_ndp": null,
+            "must_have_exactly_ndp": null
+          }
+        },
+        "explanation": null
+      }
+    ]
+  }
+}

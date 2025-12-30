@@ -1,0 +1,66 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "input_box",
+      "subtype": null,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\"> ما مقدار الضريبة التي أنفقتها الأسرة؟</span></p>",
+      "choices": [],
+      "standalone": false,
+      "answer": {
+        "value": "245",
+        "constrains": {
+          "type": "integer"
+        },
+        "unit": "جنيهًا مصريًا"
+      }
+    },
+    {
+      "n": 2,
+      "type": "input_box",
+      "subtype": null,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">ما المبلغ الكلي الذي أنفقته الأسرة على الهدايا التذكارية؟</span></p>",
+      "choices": [],
+      "standalone": false,
+      "answer": {
+        "value": "3,745",
+        "constrains": {
+          "type": "integer"
+        },
+        "unit": "جنيهًا مصريًا"
+      }
+    }
+  ],
+  "statement": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">أنفقت أسرة </span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"3,500\" locale=\"en\">3,500</math-field></span><span style=\"white-space: pre-wrap;\"> جنيه مصري على هدايا تذكارية في الإجازة، وضريبة المبيعات </span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"7\\%\" locale=\"ar\" lang=\"ar\">7\\%</math-field></span><span style=\"white-space: pre-wrap;\">.</span></p><p class=\"LexicalTheme__paragraph\"><br></p>",
+  "instance_number": 1,
+  "metadata": {
+    "id": 603142686150,
+    "title": "EG_6.2_S12_Quiz",
+    "category": "lesson",
+    "country": "eg",
+    "language": "ar",
+    "dialect": [
+      "modern_standard"
+    ],
+    "mapped_id": 417137873207,
+    "source_id": {
+      "value": 698106520137,
+      "page_number": null
+    },
+    "description": "أنفقت أسرة 3,500 جنيه مصري على هدايا تذكارية في الإجازة، وضريبة المبيعات 7\\%.  ما مقدار الضريبة التي أنفقتها الأسرة؟ ما المبلغ الكلي الذي أنفقته الأسرة على الهدايا التذكارية؟",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 2,
+    "instances_count": 1,
+    "publication_date": "2025-09-14T09:16:42"
+  },
+  "section_id": "482134628914",
+  "language": "ar",
+  "subject_id": "919174538509",
+  "subject": "الرياضيات",
+  "grade_id": "464173946403",
+  "grade": "7",
+  "country": "eg",
+  "parent_id": "603142686150",
+  "question_id": "417137873207"
+}

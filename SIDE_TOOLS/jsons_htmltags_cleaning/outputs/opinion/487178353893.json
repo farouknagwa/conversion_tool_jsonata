@@ -4,11 +4,11 @@
       "n": 1,
       "type": "opinion",
       "subtype": null,
-      "stem": "<p><span style=\"white-space: pre-wrap;\">هل تعتقد أن يكون رشاد في حالة جيدة في النصف الثاني من المباراة؟</span></p><p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"Question Image\" class=\"displayed-image\" height=\"198\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/369163635105.svg\" style=\"aspect-ratio: 180/198;\" width=\"180\"/></span></p>",
+      "stem": "<p dir=\"rtl\"><span style=\"white-space: pre-wrap;\">هل تعتقد أن يكون رشاد في حالة جيدة في النصف الثاني من المباراة؟</span></p><p dir=\"rtl\"><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"Question Image\" class=\"displayed-image\" height=\"198\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/369163635105.svg\" style=\"aspect-ratio: 180/198;\" width=\"180\"/></span></p>",
       "choices": [
         {
           "type": "distractor",
-          "html_content": "<p><span style=\"white-space: pre-wrap;\">لا.</span></p>",
+          "html_content": "<p dir=\"rtl\"><span style=\"white-space: pre-wrap;\">لا.</span></p>",
           "values": [],
           "unit": null,
           "index": 0,
@@ -19,7 +19,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p><span style=\"white-space: pre-wrap;\">نعم.</span></p>",
+          "html_content": "<p dir=\"rtl\"><span style=\"white-space: pre-wrap;\">نعم.</span></p>",
           "values": [],
           "unit": null,
           "index": 1,
@@ -36,7 +36,7 @@
   "instance_number": 1,
   "metadata": {
     "id": 463104279060,
-    "title": "New.Q.3.1.4.6\t\t\t\tOpinion MCQ",
+    "title": "New.Q.3.1.4.6 Opinion MCQ",
     "category": "lesson",
     "country": "eg",
     "language": "ar",

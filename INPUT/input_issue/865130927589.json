@@ -1,0 +1,76 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "gapText",
+      "subtype": null,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">T</span><span style=\"white-space: pre-wrap;\">o describe how she can fix her error: She can change</span><span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span><span style=\"white-space: pre-wrap;\"> to</span><span data-node-type=\"blank-line\" data-node-variation=\"gap\">&nbsp;</span><span style=\"white-space: pre-wrap;\">.</span></p>",
+      "choices": [],
+      "standalone": false,
+      "gap_text_keys": [
+        {
+          "value": "800"
+        },
+        {
+          "value": "1,000"
+        },
+        {
+          "value": "80,000",
+          "correct_order": 1
+        },
+        {
+          "value": "80"
+        },
+        {
+          "value": "8,000",
+          "correct_order": 2
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "type": "input_box",
+      "subtype": null,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">What should she get for </span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"\\displaystyle{7{,}286 \\times 49}\">\\displaystyle{7{,}286 \\times 49}</math-field></span><span style=\"white-space: pre-wrap;\">?</span></p>",
+      "choices": [],
+      "standalone": false,
+      "answer": {
+        "value": "357,014",
+        "constrains": {
+          "type": "integer"
+        }
+      }
+    }
+  ],
+  "statement": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Dalia is trying to find </span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"\\displaystyle{7{,}286 \\times 49}\">\\displaystyle{7{,}286 \\times 49}</math-field></span><span style=\"white-space: pre-wrap;\"> by filling in the area model below with products. However, one of her products is incorrect.</span><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"865130927589.01.svg\" alt=\"1 (94)\" width=\"330\" height=\"137\" style=\"aspect-ratio: 330/137;\" class=\"displayed-image\"></span></p>",
+  "instance_number": 1,
+  "metadata": {
+    "id": 865130927589,
+    "title": "",
+    "country": "eg",
+    "dialect": [
+      "american british"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "en",
+    "mapped_id": 865130927589,
+    "source_id": {
+      "value": 343172873720,
+      "page_number": null
+    },
+    "description": "Dalia is trying to find 7,286 × 49 by filling in the area model below with partial products. However, one of her partial products is incorrect.<Figure> Fill in the blanks to describe how she can fix her error: She can change _ to _. What should she get for 7,286 × 49?",
+    "has_example": false,
+    "parts_count": 2,
+    "instances_count": 10,
+    "publication_date": "2020-12-22T11:04:55"
+  },
+  "section_id": "416192120895",
+  "language": "en",
+  "subject_id": "872198392582",
+  "subject": "Mathematics",
+  "grade_id": "675125694625",
+  "grade": "5",
+  "country": "eg",
+  "question_id": "865130927589"
+}

@@ -4,7 +4,7 @@
       "n": 1,
       "type": "gapText",
       "subtype": null,
-      "stem": "<p><span style=\"white-space: pre-wrap;\">Complete the text with the correct words.</span></p><p><span style=\"white-space: pre-wrap;\">During our trip to the Everglades, we rode a</span><span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span><span style=\"white-space: pre-wrap;\"> through the</span><span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span><span style=\"white-space: pre-wrap;\">. We saw an</span><span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span><span style=\"white-space: pre-wrap;\"> resting on the shore and heard an owl in the trees.</span></p>",
+      "stem": "<p dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Complete the text with the correct words.</span></p><p dir=\"ltr\"><span style=\"white-space: pre-wrap;\">During our trip to the Everglades, we rode a</span><span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span><span style=\"white-space: pre-wrap;\"> through the</span><span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span><span style=\"white-space: pre-wrap;\">. We saw an</span><span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span><span style=\"white-space: pre-wrap;\"> resting on the shore and heard an owl in the trees.</span></p>",
       "choices": [],
       "standalone": false,
       "gap_text_keys": [
@@ -40,7 +40,7 @@
       "value": 312126191387,
       "page_number": null
     },
-    "description": "Complete the text with the correct words.During our trip to the Everglades, we rode a  through the . We saw an  resting on the shore and heard an owl in the trees.",
+    "description": "Complete the text with the correct words.During our trip to the Everglades, we rode a through the . We saw an resting on the shore and heard an owl in the trees.",
     "example_id": null,
     "has_example": false,
     "parts_count": 1,

@@ -1,0 +1,49 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>Find the product of the following: <svg class=\"displayed_equation\" height=\"47.479\" viewbox=\"373.641,266.059,44.719,35.609\" width=\"59.625\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 0.001625,0.00025 L 44.720375,0.00025\" fill=\"none\" stroke=\"#000\" stroke-miterlimit=\"10\" stroke-width=\".398\" transform=\"matrix(1,0,0,-1,373.639,301.469)\"></path><g font-family=\"NagwaMath\" font-size=\"13.5\"><text x=\"388.426\" y=\"275.043\">6</text><text x=\"399.065\" y=\"275.043\">0</text><text x=\"409.703\" y=\"275.043\">8</text><text x=\"375.631\" y=\"295.218\">×</text><text x=\"399.06\" y=\"295.218\">2</text><text x=\"409.699\" y=\"295.218\">4</text></g></svg></p>",
+      "type": "input_box",
+      "answer": {
+        "value": "14,592",
+        "constrains": {
+          "type": "integer"
+        }
+      },
+      "choices": [],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 2,
+  "metadata": {
+    "id": 478147351780,
+    "title": "",
+    "country": "eg",
+    "dialect": [
+      "american british"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "en",
+    "mapped_id": 478147351780,
+    "source_id": {
+      "value": 343172873720,
+      "page_number": null
+    },
+    "description": "Find the product of the following: &amp;5&amp;0&amp;9 × &amp;&amp;2&amp;6",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 10,
+    "publication_date": "2024-11-27T13:00:07"
+  },
+  "section_id": "268131087012",
+  "language": "en",
+  "subject_id": "872198392582",
+  "subject": "Mathematics",
+  "grade_id": "675125694625",
+  "grade": "5",
+  "country": "eg",
+  "question_id": "478147351780"
+}

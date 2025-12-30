@@ -1,0 +1,50 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "input_box",
+      "subtype": null,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Mariam runs 1,200 metres each day. Find the total number of meters that she runs in 6 days.</span></p>",
+      "choices": [],
+      "standalone": false,
+      "answer": {
+        "value": "7,200",
+        "constrains": {
+          "type": "integer"
+        },
+        "unit": "metres"
+      }
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 697101727260,
+    "title": "",
+    "country": "eg",
+    "dialect": [
+      "american"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "en",
+    "mapped_id": 697101727260,
+    "source_id": {
+      "value": 523169754769,
+      "page_number": null
+    },
+    "description": "Mariam runs 1,200 metres each day. Find the total number of meters that she runs in 6 days.",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2019-09-15T10:42:09"
+  },
+  "section_id": "673125187294",
+  "language": "en",
+  "subject_id": "975147138958",
+  "subject": "Mathematics",
+  "grade_id": "415124760217",
+  "grade": "4",
+  "country": "eg",
+  "question_id": "697101727260"
+}

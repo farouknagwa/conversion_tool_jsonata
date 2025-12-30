@@ -4,7 +4,7 @@
       "n": 1,
       "type": "matching",
       "subtype": null,
-      "stem": "<p><span style=\"white-space: pre-wrap;\">Match the picture with the sentence.</span></p>",
+      "stem": "<p dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Match the picture with the sentence.</span></p>",
       "choices": [
         {
           "type": "distractor",
@@ -41,7 +41,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p><span style=\"white-space: pre-wrap;\">A house or apartment is a place where people live.</span></p>",
+          "html_content": "<p dir=\"ltr\"><span style=\"white-space: pre-wrap;\">A house or apartment is a place where people live.</span></p>",
           "values": [],
           "unit": null,
           "index": 0,
@@ -52,7 +52,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p><span style=\"white-space: pre-wrap;\">In Egypt, there are many new houses.</span></p>",
+          "html_content": "<p dir=\"ltr\"><span style=\"white-space: pre-wrap;\">In Egypt, there are many new houses.</span></p>",
           "values": [],
           "unit": null,
           "index": 1,
@@ -63,7 +63,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p><span style=\"white-space: pre-wrap;\">A houseboat is a home on the water.</span></p>",
+          "html_content": "<p dir=\"ltr\"><span style=\"white-space: pre-wrap;\">A houseboat is a home on the water.</span></p>",
           "values": [],
           "unit": null,
           "index": 2,

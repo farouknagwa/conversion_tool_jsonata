@@ -4,7 +4,7 @@
       "n": 1,
       "type": "mcq",
       "subtype": null,
-      "stem": "<p><span style=\"white-space: pre-wrap;\">أيُّ جملة عددية تُطابِق المسألة؟</span></p>",
+      "stem": "<p dir=\"rtl\"><span style=\"white-space: pre-wrap;\">أيُّ جملة عددية تُطابِق المسألة؟</span></p>",
       "choices": [
         {
           "type": "distractor",
@@ -46,7 +46,7 @@
       "n": 2,
       "type": "input_box",
       "subtype": null,
-      "stem": "<p><span style=\"white-space: pre-wrap;\">ما عدد السيارات البرتقالية؟</span></p>",
+      "stem": "<p dir=\"rtl\"><span style=\"white-space: pre-wrap;\">ما عدد السيارات البرتقالية؟</span></p>",
       "choices": [],
       "standalone": false,
       "answer": {
@@ -54,11 +54,11 @@
         "constrains": {
           "type": "integer"
         },
-        "unit": " سيارة برتقالية"
+        "unit": "سيارة برتقالية"
       }
     }
   ],
-  "statement": "<p><span style=\"white-space: pre-wrap;\">لدى سوزان ١٥ سيارة لعبة. توجد ٣ سيارات خضراء، وبقية السيارات برتقالية. تريد صديقة سوزان معرفة عدد السيارات البرتقالية لدى سوزان.</span></p>",
+  "statement": "<p dir=\"rtl\"><span style=\"white-space: pre-wrap;\">لدى سوزان ١٥ سيارة لعبة. توجد ٣ سيارات خضراء، وبقية السيارات برتقالية. تريد صديقة سوزان معرفة عدد السيارات البرتقالية لدى سوزان.</span></p>",
   "instance_number": 1,
   "metadata": {
     "id": 242176303148,

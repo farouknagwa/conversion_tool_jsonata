@@ -1,0 +1,48 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>خارج قسمة <span class=\"merge\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{6{,}452 \\div 4}\">\\displaystyle{6{,}452 \\div 4}</math-field></span>، </span>باستخدام نموذج مساحة المستطيل، يساوي <span class=\"merge\"><span data-node-type=\"blank-line\" data-node-variation=\"space\"> </span>.</span></p>",
+      "type": "input_box",
+      "answer": {
+        "value": "1,613",
+        "constrains": {
+          "type": "integer"
+        }
+      },
+      "choices": [],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 474162479638,
+    "title": "",
+    "country": "eg",
+    "dialect": [
+      "modern_standard"
+    ],
+    "automark": true,
+    "category": "exam",
+    "language": "ar",
+    "mapped_id": 145153562804,
+    "source_id": null,
+    "description": "خارج قسمة ٦ ،٤٥٢  ٤، باستخدام نموذج مساحة المستطيل، يساوي _.",
+    "has_example": true,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2022-11-23T11:18:37"
+  },
+  "answer": "<p>علينا حل الآتي: <svg width=\"71.175\" height=\"14.563\" viewBox=\"369.168 271.115 53.381 10.922\" direction=\"ltr\" class=\"displayed_equation\" xmlns=\"http://www.w3.org/2000/svg\"><g font-family=\"NagwaMath\" font-size=\"13.5\"><text y=\"280.099\" x=\"368.715\">6</text><text y=\"280.099\" x=\"375.373\">,</text><text y=\"280.099\" x=\"378.748\">4</text><text y=\"280.099\" x=\"385.406\">5</text><text y=\"280.099\" x=\"392.063\">2</text><text y=\"280.099\" x=\"401.707\">÷</text><text y=\"280.099\" x=\"413.314\">4</text><text y=\"280.099\" x=\"419.971\">.</text></g></svg></p><p>توجد عدة طرق لقسمة الأعداد. سنستخدم نموذج مساحة المستطيل لتحليل المقسوم إلى مضاعفات المقسوم عليه.</p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"145153562804.01.svg\" /></div><p>لدينا:<svg width=\"191.342\" height=\"14.563\" viewBox=\"324.301 271.115 143.506 10.922\" direction=\"ltr\" class=\"displayed_equation\" xmlns=\"http://www.w3.org/2000/svg\"><g font-family=\"NagwaMath\" font-size=\"13.5\"><text y=\"280.099\" x=\"323.457\">1</text><text y=\"280.099\" x=\"330.115\">,</text><text y=\"280.099\" x=\"333.49\">0</text><text y=\"280.099\" x=\"340.148\">0</text><text y=\"280.099\" x=\"346.805\">0</text><text y=\"280.099\" x=\"356.449\">+</text><text y=\"280.099\" x=\"369.118\">6</text><text y=\"280.099\" x=\"375.776\">0</text><text y=\"280.099\" x=\"382.433\">0</text><text y=\"280.099\" x=\"392.077\">+</text><text y=\"280.099\" x=\"404.746\">1</text><text y=\"280.099\" x=\"411.404\">3</text><text y=\"280.099\" x=\"421.8\">=</text><text y=\"280.099\" x=\"435.223\">1</text><text y=\"280.099\" x=\"441.88\">,</text><text y=\"280.099\" x=\"445.256\">6</text><text y=\"280.099\" x=\"451.914\">1</text><text y=\"280.099\" x=\"458.571\">3</text><text y=\"280.099\" x=\"465.229\">.</text></g></svg></p><p>إذن:<svg width=\"134.065\" height=\"14.563\" viewBox=\"345.587 271.115 100.549 10.922\" direction=\"ltr\" class=\"displayed_equation\" xmlns=\"http://www.w3.org/2000/svg\"><g font-family=\"NagwaMath\" font-size=\"13.5\"><text y=\"280.099\" x=\"345.134\">6</text><text y=\"280.099\" x=\"351.792\">,</text><text y=\"280.099\" x=\"355.167\">4</text><text y=\"280.099\" x=\"361.825\">5</text><text y=\"280.099\" x=\"368.482\">2</text><text y=\"280.099\" x=\"378.126\">÷</text><text y=\"280.099\" x=\"389.733\">4</text><text y=\"280.099\" x=\"400.129\">=</text><text y=\"280.099\" x=\"413.552\">1</text><text y=\"280.099\" x=\"420.209\">,</text><text y=\"280.099\" x=\"423.585\">6</text><text y=\"280.099\" x=\"430.243\">1</text><text y=\"280.099\" x=\"436.9\">3</text><text y=\"280.099\" x=\"443.558\">.</text></g></svg></p>",
+  "section_id": "834160575342",
+  "language": "ar",
+  "subject_id": "846131028308",
+  "subject": "الرياضيات",
+  "grade_id": "675125694625",
+  "grade": "5",
+  "country": "eg",
+  "parent_id": "474162479638",
+  "question_id": "145153562804"
+}

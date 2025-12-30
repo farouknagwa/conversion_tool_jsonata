@@ -1,0 +1,61 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "input_box",
+      "subtype": null,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">أوجد العدد الناقص.</span></p>",
+      "choices": [],
+      "standalone": false,
+      "answer": {
+        "value": "0",
+        "constrains": {
+          "type": "integer"
+        }
+      }
+    },
+    {
+      "n": 2,
+      "type": "input_box",
+      "subtype": null,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">أكمل العملية الحسابية.</span></p>",
+      "choices": [],
+      "standalone": false,
+      "answer": {
+        "value": "13‎,984",
+        "constrains": {
+          "type": "integer"
+        }
+      }
+    }
+  ],
+  "statement": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">لدينا مسألة الضرب الموضَّحة.</span><span style=\"white-space: pre-wrap;\"> </span><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"708160473046.01.svg\" alt=\"fill\" width=\"280\" height=\"200\" style=\"aspect-ratio: 280/200;\" class=\"displayed-image\"></span></p>",
+  "instance_number": 1,
+  "metadata": {
+    "id": 107132650702,
+    "title": "",
+    "country": "eg",
+    "dialect": [
+      "modern_standard"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "ar",
+    "mapped_id": 708160473046,
+    "source_id": null,
+    "description": "أوجد العدد المفقود.<شكل> أكمل العملية الحسابية.",
+    "has_example": false,
+    "parts_count": 2,
+    "instances_count": 1,
+    "publication_date": "2019-06-16T09:46:49"
+  },
+  "section_id": "706104548212",
+  "language": "ar",
+  "subject_id": "846131028308",
+  "subject": "الرياضيات",
+  "grade_id": "675125694625",
+  "grade": "5",
+  "country": "eg",
+  "parent_id": "107132650702",
+  "question_id": "708160473046"
+}

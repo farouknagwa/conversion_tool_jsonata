@@ -1,8 +1,14 @@
 
 import json
+import re
 from pathlib import Path
 from typing import Dict, Any, Union, List
 from bs4 import BeautifulSoup
+
+# Function to normalize text by removing extra spaces and newlines
+def normalize_text(text):
+    """Remove extra newlines and spaces from the text."""
+    return re.sub(r'\s+', ' ', text).strip()
 
 class ValidationError(Exception):
     def __init__(self, message, error_type, file_name, expected_format):
@@ -49,18 +55,29 @@ def clean_html_attributes(data: Union[Dict, List, str, Any]) -> Union[Dict, List
                     changed = False
                     for p in p_tags:
                         if p.attrs:
+                            # Preserve dir attribute if it's ltr or rtl
+                            preserved_dir = None
+                            if 'dir' in p.attrs and p.attrs.get('dir') in ['ltr', 'rtl']:
+                                preserved_dir = p.attrs['dir']
+                            
+                            # Clear all attributes
                             p.attrs = {}
+                            
+                            # Restore dir if it was preserved
+                            if preserved_dir:
+                                p.attrs['dir'] = preserved_dir
+                            
                             changed = True
                     if changed:
                          # str(soup) might return '<html><body>...</body></html>' if it added them.
                          # Generally for fragments it doesn't, but let's be careful.
                          # If the input didn't have <html>, we probably don't want it in output.
                          # For simple fragments, str(soup) is usually fine.
-                        return str(soup)
+                        return normalize_text(str(soup))
             except Exception:
                 # If parsing fails, return original string
                 pass
-        return data
+        return normalize_text(data)
     else:
         return data
 

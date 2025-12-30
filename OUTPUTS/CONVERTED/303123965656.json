@@ -1,0 +1,109 @@
+{
+  "question_id": "303123965656",
+  "parent_id": "717107614810",
+  "language_code": "ar",
+  "language": "Arabic",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "الرياضيات",
+  "subject_id": "874157135823",
+  "grade": "4",
+  "grade_id": "415124760217",
+  "number_of_parts": 3,
+  "section_id": "148169024861",
+  "source": "human",
+  "content": {
+    "statement": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">أجب عن الأسئلة المتعلقة بالعدد المُوضَّح في جدول القيمة المكانية.</span></p><p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"303123965656.01.svg\" alt=\"Untitled-1\" width=\"400\" height=\"133\" style=\"aspect-ratio: 400/133;\" class=\"displayed-image\"></span></p>",
+    "parts": [
+      {
+        "n": 1,
+        "type": "mcq",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">العدد بالصيغة الممتدة هو </span><span data-node-type=\"blank-line\" data-node-variation=\"space\">&nbsp;</span><span style=\"white-space: pre-wrap;\">.</span></p>",
+        "choices": [
+          {
+            "label": "أ",
+            "value": "<p class=\"LexicalTheme__paragraph\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" defaultmode=\"inline-math\" read-only=\"\" value=\"2,000,000+300,000+50,000+700+40+9\">2,000,000+300,000+50,000+700+40+9</math-field></span></p>",
+            "is_correct": false
+          },
+          {
+            "label": "ب",
+            "value": "<p class=\"LexicalTheme__paragraph\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" defaultmode=\"inline-math\" read-only=\"\" value=\"200,000,000+30,000+5,000+700+40+9\">200,000,000+30,000+5,000+700+40+9</math-field></span></p>",
+            "is_correct": false
+          },
+          {
+            "label": "ج",
+            "value": "<p class=\"LexicalTheme__paragraph\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" defaultmode=\"inline-math\" read-only=\"\" value=\"20,000,000+300,000+50,000+4,000+700+40+9\">20,000,000+300,000+50,000+4,000+700+40+9</math-field></span></p>",
+            "is_correct": true
+          }
+        ],
+        "correct_answer": {
+          "label": "ج",
+          "value": "<p class=\"LexicalTheme__paragraph\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" defaultmode=\"inline-math\" read-only=\"\" value=\"20,000,000+300,000+50,000+4,000+700+40+9\">20,000,000+300,000+50,000+4,000+700+40+9</math-field></span></p>"
+        },
+        "explanation": null
+      },
+      {
+        "n": 2,
+        "type": "input",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">قيمة الرقم</span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" defaultmode=\"inline-math\" read-only=\"\" value=\"5\">5</math-field></span><span style=\"white-space: pre-wrap;\">في العدد هي </span><span data-node-type=\"blank-line\" data-node-variation=\"space\">&nbsp;</span><span style=\"white-space: pre-wrap;\">.</span></p>",
+        "correct_answer": {
+          "value": 50000,
+          "unit": null,
+          "constraints": {
+            "type": "integer",
+            "number_format": {
+              "format": "arabic",
+              "must_have_thousand_sep": true
+            },
+            "allow_leading_zeros": false,
+            "allow_trailing_zeros": false,
+            "sign": "canBeExplicitOrImplicit",
+            "remove_leading_zeros_from_normalized_form": true,
+            "remove_trailing_zeros_from_normalized_form": true,
+            "add_single_leading_zero_to_normalized_form": false,
+            "remove_trailing_decimal_point_from_normalized_form": false,
+            "normalize_sign": "notSet",
+            "must_have_no_more_than_nsf": null,
+            "must_have_at_least_nsf": null,
+            "must_have_exactly_nsf": null,
+            "must_have_at_least_ndp": null,
+            "must_have_no_more_than_ndp": null,
+            "must_have_exactly_ndp": null
+          }
+        },
+        "explanation": null
+      },
+      {
+        "n": 3,
+        "type": "input",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">العدد مقربًا لأقرب مليون</span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" defaultmode=\"inline-math\" read-only=\"\" value=\"\\thickapprox\">\\thickapprox</math-field></span><span data-node-type=\"blank-line\" data-node-variation=\"space\">&nbsp;</span><span style=\"white-space: pre-wrap;\">.</span></p>",
+        "correct_answer": {
+          "value": 20000000,
+          "unit": null,
+          "constraints": {
+            "type": "integer",
+            "number_format": {
+              "format": "arabic",
+              "must_have_thousand_sep": true
+            },
+            "allow_leading_zeros": false,
+            "allow_trailing_zeros": false,
+            "sign": "canBeExplicitOrImplicit",
+            "remove_leading_zeros_from_normalized_form": true,
+            "remove_trailing_zeros_from_normalized_form": true,
+            "add_single_leading_zero_to_normalized_form": false,
+            "remove_trailing_decimal_point_from_normalized_form": false,
+            "normalize_sign": "notSet",
+            "must_have_no_more_than_nsf": null,
+            "must_have_at_least_nsf": null,
+            "must_have_exactly_nsf": null,
+            "must_have_at_least_ndp": null,
+            "must_have_no_more_than_ndp": null,
+            "must_have_exactly_ndp": null
+          }
+        },
+        "explanation": null
+      }
+    ]
+  }
+}

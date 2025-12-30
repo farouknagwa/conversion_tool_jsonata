@@ -4,11 +4,11 @@
       "n": 1,
       "type": "mrq",
       "subtype": null,
-      "stem": "<p><span style=\"white-space: pre-wrap;\">Which </span><b><strong class=\"LexicalTheme__textBold\" style=\"white-space: pre-wrap;\">two </strong></b><span style=\"white-space: pre-wrap;\">nutrient types give your body energy?</span></p><p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"595153649247 (1)\" class=\"displayed-image\" height=\"116.66666666666667\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/326182158986.svg\" style=\"aspect-ratio: 700/116.66666666666667;\" width=\"700\"/></span></p>",
+      "stem": "<p dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Which </span><b><strong class=\"LexicalTheme__textBold\" style=\"white-space: pre-wrap;\">two </strong></b><span style=\"white-space: pre-wrap;\">nutrient types give your body energy?</span></p><p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"595153649247 (1)\" class=\"displayed-image\" height=\"116.66666666666667\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/326182158986.svg\" style=\"aspect-ratio: 700/116.66666666666667;\" width=\"700\"/></span></p>",
       "choices": [
         {
           "type": "distractor",
-          "html_content": "<p><span style=\"white-space: pre-wrap;\">Proteins</span></p>",
+          "html_content": "<p dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Proteins</span></p>",
           "values": [],
           "unit": null,
           "index": 0,
@@ -19,7 +19,7 @@
         },
         {
           "type": "key",
-          "html_content": "<p><span style=\"white-space: pre-wrap;\">Fats</span></p>",
+          "html_content": "<p dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Fats</span></p>",
           "values": [],
           "unit": null,
           "index": 1,
@@ -30,7 +30,7 @@
         },
         {
           "type": "key",
-          "html_content": "<p><span style=\"white-space: pre-wrap;\">Carbohydrates</span></p>",
+          "html_content": "<p dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Carbohydrates</span></p>",
           "values": [],
           "unit": null,
           "index": 2,
@@ -47,7 +47,7 @@
   "instance_number": 1,
   "metadata": {
     "id": 546195387102,
-    "title": "New.Q.3.1.10.32                   MRQ",
+    "title": "New.Q.3.1.10.32 MRQ",
     "category": "lesson",
     "country": "eg",
     "language": "en",

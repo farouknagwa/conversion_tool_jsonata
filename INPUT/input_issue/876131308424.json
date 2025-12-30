@@ -1,0 +1,47 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>أوجد <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{4{,}712 \\times 56}\">\\displaystyle{4{,}712 \\times 56}</math-field></span> باستخدام نموذج مساحة المستطيل.</p>",
+      "type": "input_box",
+      "answer": {
+        "value": "263,872",
+        "constrains": {
+          "type": "integer"
+        }
+      },
+      "choices": [],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 873192402751,
+    "title": "",
+    "country": null,
+    "dialect": [
+      "modern_standard"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "ar",
+    "mapped_id": 876131308424,
+    "source_id": null,
+    "description": "أوجد ٤ ،٧١٢ × ٥٦ باستخدام نموذج مساحة المستطيل.",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2023-07-18T09:22:55"
+  },
+  "section_id": "390169169615",
+  "language": "ar",
+  "subject_id": "846131028308",
+  "subject": "الرياضيات",
+  "grade_id": "675125694625",
+  "grade": "5",
+  "country": "eg",
+  "parent_id": "873192402751",
+  "question_id": "876131308424"
+}

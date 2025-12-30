@@ -1,0 +1,49 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>Use the standard algorithm to calculate the following:</p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"409102848140.01.svg\"/></div>",
+      "type": "input_box",
+      "answer": {
+        "value": "3,232",
+        "constrains": {
+          "type": "integer"
+        }
+      },
+      "choices": [],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 409102848140,
+    "title": "",
+    "country": "eg",
+    "dialect": [
+      "american"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "en",
+    "mapped_id": 409102848140,
+    "source_id": {
+      "value": 952105301938,
+      "page_number": null
+    },
+    "description": "Use the standard algorithm to calculate the following:<Figure>",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2024-10-16T11:48:03"
+  },
+  "section_id": "982158678506",
+  "language": "en",
+  "subject_id": "972191941014",
+  "subject": "Mathematics",
+  "grade_id": "923158968214",
+  "grade": "3",
+  "country": "eg",
+  "question_id": "409102848140"
+}

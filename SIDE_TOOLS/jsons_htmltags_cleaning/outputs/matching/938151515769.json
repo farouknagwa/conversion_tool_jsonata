@@ -4,11 +4,11 @@
       "n": 1,
       "type": "matching",
       "subtype": null,
-      "stem": "<p><span style=\"white-space: pre-wrap;\">Drag each moving part of an animal to match its name.</span></p>",
+      "stem": "<p dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Drag each moving part of an animal to match its name.</span></p>",
       "choices": [
         {
           "type": "distractor",
-          "html_content": "<p><span style=\"white-space: pre-wrap;\">Fins</span></p>",
+          "html_content": "<p dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Fins</span></p>",
           "values": [],
           "unit": null,
           "index": 0,
@@ -19,7 +19,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p><span style=\"white-space: pre-wrap;\">Wings</span></p>",
+          "html_content": "<p dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Wings</span></p>",
           "values": [],
           "unit": null,
           "index": 1,
@@ -30,7 +30,7 @@
         },
         {
           "type": "distractor",
-          "html_content": "<p><span style=\"white-space: pre-wrap;\">Hooves</span></p>",
+          "html_content": "<p dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Hooves</span></p>",
           "values": [],
           "unit": null,
           "index": 2,

@@ -1,0 +1,49 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>Calculate the following using partial products: <svg class=\"displayed_equation\" height=\"47.479\" viewbox=\"376.006,266.059,42.353,35.609\" width=\"56.471\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 0.00059375,0.00025 L 31.926375,0.00025\" fill=\"none\" stroke=\"#000\" stroke-miterlimit=\"10\" stroke-width=\".398\" transform=\"matrix(1,0,0,-1,386.433,301.469)\"></path><g font-family=\"NagwaMath\" font-size=\"13.5\"><text x=\"388.426\" y=\"275.043\">8</text><text x=\"399.065\" y=\"275.043\">7</text><text x=\"409.703\" y=\"275.043\">6</text><text x=\"375.631\" y=\"295.218\">×</text><text x=\"399.06\" y=\"295.218\">6</text><text x=\"409.699\" y=\"295.218\">2</text></g></svg></p>",
+      "type": "input_box",
+      "answer": {
+        "value": "54,312",
+        "constrains": {
+          "type": "integer"
+        }
+      },
+      "choices": [],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 510167083490,
+    "title": "",
+    "country": "eg",
+    "dialect": [
+      "american british"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "en",
+    "mapped_id": 510167083490,
+    "source_id": {
+      "value": 894168289463,
+      "page_number": null
+    },
+    "description": "Calculate the following using partial products: &amp;8 &amp;7 &amp;6 × &amp; &amp; 6 &amp; 2 2-4",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2023-07-27T12:51:54"
+  },
+  "section_id": "268131087012",
+  "language": "en",
+  "subject_id": "872198392582",
+  "subject": "Mathematics",
+  "grade_id": "675125694625",
+  "grade": "5",
+  "country": "eg",
+  "question_id": "510167083490"
+}

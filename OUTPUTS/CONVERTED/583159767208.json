@@ -1,0 +1,50 @@
+{
+  "question_id": "583159767208",
+  "parent_id": "658136216361",
+  "language_code": "ar",
+  "language": "Arabic",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "الرياضيات",
+  "subject_id": "846131028308",
+  "grade": "5",
+  "grade_id": "675125694625",
+  "number_of_parts": 1,
+  "section_id": "295167578453",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "input",
+        "stem": "<p>إذا كان عدد البلاطات اللازمة لتغطية رصيف واحد في الشارع <span class=\"no_margin merge\">1,206</span> بلاطات، فكم بلاطةً لازمة لتغطية <span class=\"no_margin merge\">12</span> رصيفًا متساوي المساحة؟</p>",
+        "correct_answer": {
+          "value": 14472,
+          "unit": "بلاطةً",
+          "constraints": {
+            "type": "integer",
+            "number_format": {
+              "format": "arabic",
+              "must_have_thousand_sep": true
+            },
+            "allow_leading_zeros": false,
+            "allow_trailing_zeros": false,
+            "sign": "canBeExplicitOrImplicit",
+            "remove_leading_zeros_from_normalized_form": true,
+            "remove_trailing_zeros_from_normalized_form": true,
+            "add_single_leading_zero_to_normalized_form": false,
+            "remove_trailing_decimal_point_from_normalized_form": false,
+            "normalize_sign": "notSet",
+            "must_have_no_more_than_nsf": null,
+            "must_have_at_least_nsf": null,
+            "must_have_exactly_nsf": null,
+            "must_have_at_least_ndp": null,
+            "must_have_no_more_than_ndp": null,
+            "must_have_exactly_ndp": null
+          }
+        },
+        "explanation": "<p>يحتاج كل رصيف إلى <span class=\"no_margin merge\">1,206</span> بلاطات. ولا بد من تغطية 12 رصيفًا متساوي المساحة.</p><p>يمكننا إجراء الضرب لإيجاد إجمالي البلاطات اللازمة: <svg width=\"79.782\" height=\"14.563\" viewBox=\"366.136 271.115 59.836 10.922\" direction=\"ltr\" class=\"displayed_equation\" xmlns=\"http://www.w3.org/2000/svg\"><g font-family=\"NagwaMath\" font-size=\"13.5\"><text y=\"280.099\" x=\"365.292\">1</text><text y=\"280.099\" x=\"371.95\">,</text><text y=\"280.099\" x=\"375.325\">2</text><text y=\"280.099\" x=\"381.983\">0</text><text y=\"280.099\" x=\"388.64\">6</text><text y=\"280.099\" x=\"398.284\">×</text><text y=\"280.099\" x=\"410.079\">1</text><text y=\"280.099\" x=\"416.737\">2</text><text y=\"280.099\" x=\"423.394\">.</text></g></svg></p><p>هناك العديد من الطرق التي يمكننا استخدامها لضرب الأعداد. سنستخدم الخوارزمية المعيارية: <svg width=\"217.26\" height=\"134.031\" viewBox=\"314.759 260.93 162.945 100.524\" direction=\"ltr\" class=\"displayed_equation\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M -0.00190625 -0.00121875 L 53.212938 -0.00121875\" transform=\"matrix(1,0,0,-1,325.748,307.073)\" fill=\"none\" stroke-width=\".398\" stroke=\"#000\" stroke-miterlimit=\"10\" /><path d=\"M -0.00190625 0.000125 L 53.212938 0.000125\" transform=\"matrix(1,0,0,-1,325.748,347.422)\" fill=\"none\" stroke-width=\".398\" stroke=\"#000\" stroke-miterlimit=\"10\" /><g font-family=\"NagwaMath\" font-size=\"13.5\"><text y=\"280.647\" x=\"338.383\">1</text><text y=\"280.647\" x=\"349.022\">2</text><text y=\"280.647\" x=\"359.669\">0</text><text y=\"280.647\" x=\"370.311\">6</text><text y=\"300.821\" x=\"314.509\">×</text><text y=\"300.821\" x=\"359.659\">1</text><text y=\"300.821\" x=\"370.311\">2</text><text y=\"320.996\" x=\"338.383\">2</text><text y=\"320.996\" x=\"349.022\">4</text><text y=\"320.996\" x=\"359.66\">1</text><text y=\"320.996\" x=\"370.299\">2</text><text y=\"341.17\" x=\"314.072\">+</text><text y=\"341.17\" x=\"327.737\">1</text><text y=\"341.17\" x=\"338.375\">2</text><text y=\"341.17\" x=\"349.014\">0</text><text y=\"341.17\" x=\"359.666\">6</text><text y=\"341.17\" x=\"370.305\">0</text><text y=\"361.344\" x=\"327.741\">1</text><text y=\"361.344\" x=\"338.38\">4</text><text y=\"361.344\" x=\"349.018\">4</text><text y=\"361.344\" x=\"359.657\">7</text><text y=\"361.344\" x=\"370.309\">2</text><text y=\"321.37\" x=\"394.403\" fill=\"#55a4e0\">⟵</text><text y=\"321.37\" x=\"419.809\" fill=\"#55a4e0\">1</text><text y=\"321.37\" x=\"426.467\" fill=\"#55a4e0\">,</text><text y=\"321.37\" x=\"429.843\" fill=\"#55a4e0\">2</text><text y=\"321.37\" x=\"436.5\" fill=\"#55a4e0\">0</text><text y=\"321.37\" x=\"443.158\" fill=\"#55a4e0\">6</text><text y=\"321.37\" x=\"452.814\" fill=\"#55a4e0\">×</text><text y=\"321.37\" x=\"464.61\" fill=\"#55a4e0\">2</text><text y=\"341.544\" x=\"394.403\" fill=\"#55a4e0\">⟵</text><text y=\"341.544\" x=\"419.809\" fill=\"#55a4e0\">1</text><text y=\"341.544\" x=\"426.467\" fill=\"#55a4e0\">,</text><text y=\"341.544\" x=\"429.843\" fill=\"#55a4e0\">2</text><text y=\"341.544\" x=\"436.5\" fill=\"#55a4e0\">0</text><text y=\"341.544\" x=\"443.158\" fill=\"#55a4e0\">6</text><text y=\"341.544\" x=\"452.814\" fill=\"#55a4e0\">×</text><text y=\"341.544\" x=\"464.61\" fill=\"#55a4e0\">1</text><text y=\"341.544\" x=\"471.267\" fill=\"#55a4e0\">0</text></g><g font-family=\"NagwaMath\" font-size=\"9.467\"><text y=\"267.586\" x=\"360.328\" fill=\"#e14b3b\"></text></g></svg></p><p>إذن، نحصل على:<svg width=\"151.549\" height=\"14.563\" viewBox=\"339.226 271.115 113.662 10.922\" direction=\"ltr\" class=\"displayed_equation\" xmlns=\"http://www.w3.org/2000/svg\"><g font-family=\"NagwaMath\" font-size=\"13.5\"><text y=\"280.099\" x=\"338.382\">1</text><text y=\"280.099\" x=\"345.04\">,</text><text y=\"280.099\" x=\"348.415\">2</text><text y=\"280.099\" x=\"355.073\">0</text><text y=\"280.099\" x=\"361.73\">6</text><text y=\"280.099\" x=\"371.374\">×</text><text y=\"280.099\" x=\"383.169\">1</text><text y=\"280.099\" x=\"389.827\">2</text><text y=\"280.099\" x=\"400.223\">=</text><text y=\"280.099\" x=\"413.646\">1</text><text y=\"280.099\" x=\"420.303\">4</text><text y=\"280.099\" x=\"426.961\">,</text><text y=\"280.099\" x=\"430.337\">4</text><text y=\"280.099\" x=\"436.994\">7</text><text y=\"280.099\" x=\"443.652\">2</text><text y=\"280.099\" x=\"450.309\">.</text></g></svg></p>"
+      }
+    ]
+  }
+}

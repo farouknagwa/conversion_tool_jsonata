@@ -28,7 +28,7 @@
     "n": part.n,
     "type": "gap",
     "stem": part.stem,
-    "gap_keys": $gapKeys,
+    "gap_keys": [$gapKeys],
     "correct_answer": $correctAnswer,
     "explanation": explanation
   }

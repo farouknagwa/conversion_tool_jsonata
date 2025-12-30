@@ -1,0 +1,83 @@
+{
+  "question_id": "426183587341",
+  "parent_id": "426183587341",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Mathematics",
+  "subject_id": "872198392582",
+  "grade": "5",
+  "grade_id": "675125694625",
+  "number_of_parts": 2,
+  "section_id": "268131087012",
+  "source": "human",
+  "content": {
+    "statement": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Look at the expression </span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"\\displaystyle{549\\times 13}\">\\displaystyle{549\\times 13}</math-field></span></p>",
+    "parts": [
+      {
+        "n": 1,
+        "type": "mcq",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">How should we start the standard algorithm?</span></p>",
+        "choices": [
+          {
+            "label": "A",
+            "value": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"426183587341.02.svg\" alt=\"3\" width=\"250\" height=\"250\" style=\"aspect-ratio: 250/250;\" class=\"displayed-image\"></span></p>",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "value": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"426183587341.01.svg\" alt=\"2\" width=\"250\" height=\"250\" style=\"aspect-ratio: 250/250;\" class=\"displayed-image\"></span></p>",
+            "is_correct": true
+          },
+          {
+            "label": "C",
+            "value": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"426183587341.04.svg\" alt=\"4\" width=\"250\" height=\"250\" style=\"aspect-ratio: 250/250;\" class=\"displayed-image\"></span></p>",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "value": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"426183587341.03.svg\" alt=\"1\" width=\"250\" height=\"250\" style=\"aspect-ratio: 250/250;\" class=\"displayed-image\"></span></p>",
+            "is_correct": false
+          }
+        ],
+        "correct_answer": {
+          "label": "B",
+          "value": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"426183587341.01.svg\" alt=\"2\" width=\"250\" height=\"250\" style=\"aspect-ratio: 250/250;\" class=\"displayed-image\"></span></p>"
+        },
+        "explanation": null
+      },
+      {
+        "n": 2,
+        "type": "input",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Find the product.</span></p>",
+        "correct_answer": {
+          "value": 7137,
+          "unit": null,
+          "constraints": {
+            "type": "integer",
+            "number_format": {
+              "format": "arabic",
+              "must_have_thousand_sep": true
+            },
+            "allow_leading_zeros": false,
+            "allow_trailing_zeros": false,
+            "sign": "canBeExplicitOrImplicit",
+            "remove_leading_zeros_from_normalized_form": true,
+            "remove_trailing_zeros_from_normalized_form": true,
+            "add_single_leading_zero_to_normalized_form": false,
+            "remove_trailing_decimal_point_from_normalized_form": false,
+            "normalize_sign": "notSet",
+            "must_have_no_more_than_nsf": null,
+            "must_have_at_least_nsf": null,
+            "must_have_exactly_nsf": null,
+            "must_have_at_least_ndp": null,
+            "must_have_no_more_than_ndp": null,
+            "must_have_exactly_ndp": null
+          }
+        },
+        "explanation": null
+      }
+    ]
+  }
+}

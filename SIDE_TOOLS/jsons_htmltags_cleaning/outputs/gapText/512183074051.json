@@ -4,7 +4,7 @@
       "n": 1,
       "type": "gapText",
       "subtype": null,
-      "stem": "<p><span style=\"white-space: pre-wrap;\">Complete the text with the correct words.</span></p><p><span style=\"white-space: pre-wrap;\">My house is big. There is a</span><span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span><span style=\"white-space: pre-wrap;\"> where we cook food. There are two</span><span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span><span style=\"white-space: pre-wrap;\"> where we sleep. The TV is</span><span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span><span style=\"white-space: pre-wrap;\"> the table. My bed is</span><span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span><span style=\"white-space: pre-wrap;\"> the window.</span></p><p><br/></p>",
+      "stem": "<p dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Complete the text with the correct words.</span></p><p dir=\"ltr\"><span style=\"white-space: pre-wrap;\">My house is big. There is a</span><span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span><span style=\"white-space: pre-wrap;\"> where we cook food. There are two</span><span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span><span style=\"white-space: pre-wrap;\"> where we sleep. The TV is</span><span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span><span style=\"white-space: pre-wrap;\"> the table. My bed is</span><span data-node-type=\"blank-line\" data-node-variation=\"gap\"> </span><span style=\"white-space: pre-wrap;\"> the window.</span></p><p dir=\"ltr\"><br/></p>",
       "choices": [],
       "standalone": false,
       "gap_text_keys": [
@@ -31,7 +31,7 @@
   "instance_number": 1,
   "metadata": {
     "id": 512183074051,
-    "title": "G2 t1 s21 ",
+    "title": "G2 t1 s21",
     "category": "lesson",
     "country": "eg",
     "language": "en",
@@ -44,7 +44,7 @@
       "value": 289150706195,
       "page_number": null
     },
-    "description": "Complete the text with the correct words.My house is big. There is a  where we cook food. There are two  where we sleep. The TV is  the table. My bed is  the window.",
+    "description": "Complete the text with the correct words.My house is big. There is a where we cook food. There are two where we sleep. The TV is the table. My bed is the window.",
     "example_id": null,
     "has_example": false,
     "parts_count": 1,

@@ -1,0 +1,47 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>تستخدم سالي نموذج مساحة المستطيل الآتي لمساعدتها في حل مسألة ضرب.</p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"608123651340.01.svg\"/></div><p>ما الإجابة التي يجب أن تحصل عليها؟</p>",
+      "type": "input_box",
+      "answer": {
+        "value": "49,776",
+        "constrains": {
+          "type": "integer"
+        }
+      },
+      "choices": [],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 423138094948,
+    "title": "",
+    "country": "eg",
+    "dialect": [
+      "modern_standard"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "ar",
+    "mapped_id": 608123651340,
+    "source_id": null,
+    "description": "تستخدم سالي نموذج مساحة المستطيل الآتي لمساعدتها في حل مسألة ضرب.<شكل>ما الإجابة التي يجب أن تحصل عليها؟",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 10,
+    "publication_date": "2022-06-05T07:55:43"
+  },
+  "section_id": "390169169615",
+  "language": "ar",
+  "subject_id": "846131028308",
+  "subject": "الرياضيات",
+  "grade_id": "675125694625",
+  "grade": "5",
+  "country": "eg",
+  "parent_id": "423138094948",
+  "question_id": "608123651340"
+}

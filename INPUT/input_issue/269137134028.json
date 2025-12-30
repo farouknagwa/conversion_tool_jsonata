@@ -1,0 +1,51 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "input_box",
+      "subtype": null,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\" style=\"text-align: justify;\"><span style=\"white-space: pre-wrap;\">A step-up transformer at a power station has a turns ratio of 1:20. If the station generates 1000 V, what is the voltage across the secondary coil (assuming an ideal transformer)?</span></p>",
+      "choices": [],
+      "standalone": false,
+      "answer": {
+        "value": "20,000",
+        "constrains": {
+          "type": "integer"
+        },
+        "unit": "V"
+      }
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 269137134028,
+    "mapped_id": 269137134028,
+    "category": "exam",
+    "language": "en",
+    "country": "eg",
+    "dialect": [
+      "american",
+      "british"
+    ],
+    "source_id": {
+      "value": "618146184254",
+      "page_number": null
+    },
+    "description": "A step-up transformer at a power station has a turns ratio of 1:20. If the station generates 1000 V, what is the voltage across the transmission lines",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2025-12-02T01:29:50",
+    "schema_version": "1.0.0"
+  },
+  "section_id": "326131704264",
+  "language": "en",
+  "subject_id": "816170836074",
+  "subject": "Physics",
+  "grade_id": "979180725863",
+  "grade": "12",
+  "country": "eg",
+  "question_id": "269137134028"
+}

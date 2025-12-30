@@ -1,0 +1,51 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "input_box",
+      "subtype": null,
+      "standalone": false,
+      "stem": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">A bakery sold 168 cakes at 75 pounds each and 95 pies at 45 pounds each. How much did they earn in total?</span></p>",
+      "choices": [],
+      "answer": {
+        "value": "16,875",
+        "constrains": {
+          "type": "integer"
+        },
+        "unit": "pounds"
+      }
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 617128489021,
+    "mapped_id": 617128489021,
+    "category": "lesson",
+    "language": "en",
+    "country": "eg",
+    "dialect": [
+      "american",
+      "british"
+    ],
+    "source_id": {
+      "value": 182136230818,
+      "page_number": null
+    },
+    "description": "A bakery sold 168 cakes at 75 pounds each and 95 pies at 45 pounds each. How much did they earn in total?",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2025-09-02T09:26:12",
+    "schema_version": "1.0.0"
+  },
+  "section_id": "597171819149",
+  "language": "en",
+  "subject_id": "872198392582",
+  "subject": "Mathematics",
+  "grade_id": "675125694625",
+  "grade": "5",
+  "country": "eg",
+  "question_id": "617128489021"
+}

@@ -1,0 +1,50 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "input_box",
+      "subtype": null,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">A dessert factory uses 1,158 packets of sugar every week. How many packets of sugar are used in 3 weeks?</span></p>",
+      "choices": [],
+      "standalone": false,
+      "answer": {
+        "value": "3,474",
+        "constrains": {
+          "type": "integer"
+        },
+        "unit": "packets of sugar"
+      }
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 980127296260,
+    "title": "",
+    "country": "eg",
+    "dialect": [
+      "american british"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "en",
+    "mapped_id": 980127296260,
+    "source_id": {
+      "value": 373191540412,
+      "page_number": null
+    },
+    "description": "A dessert factory uses 1,158 packets of sugar every week. How many packets of sugar are used in 3 weeks?",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 10,
+    "publication_date": "2021-08-09T12:25:12"
+  },
+  "section_id": "673125187294",
+  "language": "en",
+  "subject_id": "975147138958",
+  "subject": "Mathematics",
+  "grade_id": "415124760217",
+  "grade": "4",
+  "country": "eg",
+  "question_id": "980127296260"
+}

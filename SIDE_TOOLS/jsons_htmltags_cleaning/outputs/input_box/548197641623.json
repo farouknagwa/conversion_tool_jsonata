@@ -4,7 +4,7 @@
       "n": 1,
       "type": "input_box",
       "subtype": null,
-      "stem": "<p><span style=\"white-space: pre-wrap;\">صممت ندى برجًا من ١٤ مكعبًا، ولكن سقط ٦ مكعبات منها. كم مكعبًا لا يزال في البرج؟</span></p><p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"1 (2) (1)\" class=\"displayed-image\" height=\"150\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/460105453569.svg\" style=\"aspect-ratio: 227/150;\" width=\"227\"/></span></p>",
+      "stem": "<p dir=\"rtl\"><span style=\"white-space: pre-wrap;\">صممت ندى برجًا من ١٤ مكعبًا، ولكن سقط ٦ مكعبات منها. كم مكعبًا لا يزال في البرج؟</span></p><p dir=\"rtl\"><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"1 (2) (1)\" class=\"displayed-image\" height=\"150\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/460105453569.svg\" style=\"aspect-ratio: 227/150;\" width=\"227\"/></span></p>",
       "choices": [],
       "standalone": false,
       "answer": {

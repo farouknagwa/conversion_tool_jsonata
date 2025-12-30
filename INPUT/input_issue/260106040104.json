@@ -1,0 +1,50 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "input_box",
+      "subtype": null,
+      "stem": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: right;\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"987\\times36=\\,\\textBlank\" locale=\"en\">987\\times36=\\,\\textBlank</math-field></span></p>",
+      "choices": [],
+      "standalone": false,
+      "answer": {
+        "value": "35,532",
+        "constrains": {
+          "type": "integer"
+        }
+      }
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 394181409697,
+    "title": "",
+    "category": "lesson",
+    "country": "eg",
+    "language": "ar",
+    "dialect": [
+      "modern_standard"
+    ],
+    "mapped_id": 260106040104,
+    "source_id": {
+      "value": 583147318469,
+      "page_number": null
+    },
+    "description": "987\\times36=\\,\\textBlank",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2025-10-01T20:10:49"
+  },
+  "section_id": "295167578453",
+  "language": "ar",
+  "subject_id": "846131028308",
+  "subject": "الرياضيات",
+  "grade_id": "675125694625",
+  "grade": "5",
+  "country": "eg",
+  "parent_id": "394181409697",
+  "question_id": "260106040104"
+}

@@ -1,0 +1,48 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "input_box",
+      "subtype": null,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">تركض سالي 1,200 متر يوميًّا. أوجِد إجمالي عدد الأمتار التي تركضها في 6 أيام.</span></p>",
+      "choices": [],
+      "standalone": false,
+      "answer": {
+        "value": "7,200",
+        "constrains": {
+          "type": "integer"
+        },
+        "unit": "متر"
+      }
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 697101727260,
+    "title": "",
+    "country": "eg",
+    "dialect": [
+      "modern_standard"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "ar",
+    "mapped_id": 709162613494,
+    "source_id": null,
+    "description": "تركض سالي ١ ،٢٠٠ متر يوميًّا. أوجد إجمالي عدد الأمتار التي تركضها في ٦ أيام.",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2021-11-11T17:08:00"
+  },
+  "section_id": "409159501070",
+  "language": "ar",
+  "subject_id": "874157135823",
+  "subject": "الرياضيات",
+  "grade_id": "415124760217",
+  "grade": "4",
+  "country": "eg",
+  "parent_id": "697101727260",
+  "question_id": "709162613494"
+}

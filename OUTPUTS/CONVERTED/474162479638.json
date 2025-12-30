@@ -1,0 +1,50 @@
+{
+  "question_id": "474162479638",
+  "parent_id": "474162479638",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Mathematics",
+  "subject_id": "872198392582",
+  "grade": "5",
+  "grade_id": "675125694625",
+  "number_of_parts": 1,
+  "section_id": "610175852154",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "input",
+        "stem": "<p>The quotient of <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{6{,}452 \\div 4}\">\\displaystyle{6{,}452 \\div 4}</math-field></span> using the area model is <span class=\"merge\"><span data-node-type=\"blank-line\" data-node-variation=\"space\"> </span>.</span></p>",
+        "correct_answer": {
+          "value": 1613,
+          "unit": null,
+          "constraints": {
+            "type": "integer",
+            "number_format": {
+              "format": "arabic",
+              "must_have_thousand_sep": true
+            },
+            "allow_leading_zeros": false,
+            "allow_trailing_zeros": false,
+            "sign": "canBeExplicitOrImplicit",
+            "remove_leading_zeros_from_normalized_form": true,
+            "remove_trailing_zeros_from_normalized_form": true,
+            "add_single_leading_zero_to_normalized_form": false,
+            "remove_trailing_decimal_point_from_normalized_form": false,
+            "normalize_sign": "notSet",
+            "must_have_no_more_than_nsf": null,
+            "must_have_at_least_nsf": null,
+            "must_have_exactly_nsf": null,
+            "must_have_at_least_ndp": null,
+            "must_have_no_more_than_ndp": null,
+            "must_have_exactly_ndp": null
+          }
+        },
+        "explanation": "<p>We need to solve the following: <svg width=\"69.669\" height=\"12.208\" viewBox=\"369.735 271.115 52.251 9.156\" class=\"displayed_equation\" xmlns=\"http://www.w3.org/2000/svg\"><g font-family=\"NagwaMath\" font-size=\"13.5\"><text y=\"280.099\" x=\"369.282\">6</text><text y=\"280.099\" x=\"378.172\">4</text><text y=\"280.099\" x=\"384.83\">5</text><text y=\"280.099\" x=\"391.487\">2</text><text y=\"280.099\" x=\"401.131\">÷</text><text y=\"280.099\" x=\"412.751\">4</text><text y=\"280.099\" x=\"419.409\">.</text></g></svg></p><p>There are many methods of dividing numbers. We will use an area model to decompose the dividend into multiples of the divisor.</p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"474162479638.01.svg\" /></div><p>We have <svg width=\"188.311\" height=\"12.688\" viewBox=\"325.435 271.115 141.233 9.516\" class=\"displayed_equation\" xmlns=\"http://www.w3.org/2000/svg\"><g font-family=\"NagwaMath\" font-size=\"13.5\"><text y=\"280.099\" x=\"324.591\">1</text><text y=\"280.099\" x=\"333.481\">0</text><text y=\"280.099\" x=\"340.139\">0</text><text y=\"280.099\" x=\"346.796\">0</text><text y=\"280.099\" x=\"356.44\">+</text><text y=\"280.099\" x=\"369.122\">6</text><text y=\"280.099\" x=\"375.78\">0</text><text y=\"280.099\" x=\"382.438\">0</text><text y=\"280.099\" x=\"392.081\">+</text><text y=\"280.099\" x=\"404.75\">1</text><text y=\"280.099\" x=\"411.408\">3</text><text y=\"280.099\" x=\"421.804\">=</text><text y=\"280.099\" x=\"435.227\">1</text><text y=\"280.099\" x=\"444.117\">6</text><text y=\"280.099\" x=\"450.775\">1</text><text y=\"280.099\" x=\"457.432\">3</text><text y=\"280.099\" x=\"464.09\">.</text></g></svg></p><p>Therefore, <svg width=\"131.035\" height=\"12.208\" viewBox=\"346.721 271.115 98.276 9.156\" class=\"displayed_equation\" xmlns=\"http://www.w3.org/2000/svg\"><g font-family=\"NagwaMath\" font-size=\"13.5\"><text y=\"280.099\" x=\"346.268\">6</text><text y=\"280.099\" x=\"355.158\">4</text><text y=\"280.099\" x=\"361.816\">5</text><text y=\"280.099\" x=\"368.473\">2</text><text y=\"280.099\" x=\"378.117\">÷</text><text y=\"280.099\" x=\"389.737\">4</text><text y=\"280.099\" x=\"400.12\">=</text><text y=\"280.099\" x=\"413.543\">1</text><text y=\"280.099\" x=\"422.446\">6</text><text y=\"280.099\" x=\"429.104\">1</text><text y=\"280.099\" x=\"435.761\">3</text><text y=\"280.099\" x=\"442.419\">.</text></g></svg></p>"
+      }
+    ]
+  }
+}

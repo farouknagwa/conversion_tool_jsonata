@@ -1,0 +1,64 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "input_box",
+      "subtype": null,
+      "standalone": false,
+      "stem": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: justify;\"><span style=\"white-space: pre-line;\">So, </span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field data-question-id=\"null\" \n                                     data-part-index=\"0\" \n                                     data-field-type=\"stem\" \n                                     data-choice-index=\"-1\"\n                                     data-math-index=\"0\" default-mode=\"inline-math\" value=\"5\\times90=\" locale=\"en\"></math-field></span><span data-node-type=\"blank-line\" data-node-variation=\"space\">&nbsp;</span></p>",
+      "choices": [],
+      "answer": {
+        "value": "450",
+        "constrains": {
+          "type": "integer"
+        }
+      }
+    },
+    {
+      "n": 2,
+      "type": "input_box",
+      "subtype": null,
+      "standalone": false,
+      "stem": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: justify;\"><span style=\"white-space: pre-line;\">And, </span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field data-question-id=\"null\" \n                                     data-part-index=\"1\" \n                                     data-field-type=\"stem\" \n                                     data-choice-index=\"-1\"\n                                     data-math-index=\"0\" default-mode=\"inline-math\" value=\"5\\times900=\" locale=\"en\"></math-field></span><span data-node-type=\"blank-line\" data-node-variation=\"space\">&nbsp;</span></p>",
+      "choices": [],
+      "answer": {
+        "value": "4,500",
+        "constrains": {
+          "type": "integer"
+        }
+      }
+    }
+  ],
+  "statement": "<p class=\"LexicalTheme__paragraph\" style=\"text-align: justify;\"><span style=\"white-space: pre-line;\">If </span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field data-question-id=\"null\" \n                                     data-part-index=\"-1\" \n                                     data-field-type=\"statement\" \n                                     data-choice-index=\"-1\"\n                                     data-math-index=\"0\" default-mode=\"inline-math\" value=\"5\\times9=45\" locale=\"en\"></math-field></span><span style=\"white-space: pre-line;\">.</span></p>",
+  "instance_number": 1,
+  "metadata": {
+    "id": 816167532370,
+    "mapped_id": 816167532370,
+    "category": "lesson",
+    "language": "en",
+    "country": "eg",
+    "dialect": [
+      "american",
+      "british"
+    ],
+    "source_id": {
+      "value": "345171316462",
+      "page_number": null
+    },
+    "description": "So, `5\\times90=`@BLANK",
+    "example_id": null,
+    "has_example": false,
+    "parts_count": 2,
+    "instances_count": 1,
+    "publication_date": "2025-10-23T12:13:09",
+    "schema_version": "1.0.0"
+  },
+  "section_id": "272182794257",
+  "language": "en",
+  "subject_id": "972191941014",
+  "subject": "Mathematics",
+  "grade_id": "923158968214",
+  "grade": "3",
+  "country": "eg",
+  "question_id": "816167532370"
+}

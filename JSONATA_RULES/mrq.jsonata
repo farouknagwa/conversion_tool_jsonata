@@ -28,8 +28,8 @@
     "n": part.n,
     "type": "mrq",
     "stem": part.stem,
-    "choices": $transformedChoices,
-    "correct_answer": $correctAnswers,
+    "choices": [$transformedChoices],
+    "correct_answer": [$correctAnswers],
     "explanation": explanation
   }
 )

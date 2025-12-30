@@ -1,0 +1,49 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>Find the result of the following subtraction:</p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"160148720389.01.svg\"/></div>",
+      "type": "input_box",
+      "answer": {
+        "value": "8,788",
+        "constrains": {
+          "type": "integer"
+        }
+      },
+      "choices": [],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 160148720389,
+    "title": "",
+    "country": "eg",
+    "dialect": [
+      "american"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "en",
+    "mapped_id": 160148720389,
+    "source_id": {
+      "value": 253187642141,
+      "page_number": null
+    },
+    "description": "Find the result of the following subtraction:<Figure>",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2024-10-16T11:48:06"
+  },
+  "section_id": "982158678506",
+  "language": "en",
+  "subject_id": "972191941014",
+  "subject": "Mathematics",
+  "grade_id": "923158968214",
+  "grade": "3",
+  "country": "eg",
+  "question_id": "160148720389"
+}

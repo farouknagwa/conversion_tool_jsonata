@@ -1,0 +1,47 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "input_box",
+      "subtype": null,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">عشرون مُضافة إلى أربعة أمثال عدد ما تساوي ثمانية. ما قيمة العدد؟</span></p>",
+      "choices": [],
+      "standalone": false,
+      "answer": {
+        "value": "−3",
+        "constrains": {
+          "type": "integer"
+        }
+      }
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 390197056863,
+    "title": "تكوين معادلات خطية وحلها في متغير واحد",
+    "country": null,
+    "dialect": [
+      "modern_standard"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "ar",
+    "mapped_id": 318158264068,
+    "source_id": null,
+    "description": "عشرون مضافة إلى أربعة أمثال عدد ما تساوي ثمانية. ما قيمة العدد؟",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2018-05-24T09:14:49"
+  },
+  "section_id": "862187247063",
+  "language": "ar",
+  "subject_id": "919174538509",
+  "subject": "الرياضيات",
+  "grade_id": "464173946403",
+  "grade": "7",
+  "country": "eg",
+  "parent_id": "390197056863",
+  "question_id": "318158264068"
+}

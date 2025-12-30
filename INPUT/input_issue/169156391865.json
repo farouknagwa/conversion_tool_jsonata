@@ -1,0 +1,47 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>إذا كان <span class=\"merge\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{7{,}780 \\div 35 = 222}\">\\displaystyle{7{,}780 \\div 35 = 222}</math-field></span>، </span>والباقي 10، فإن <span class=\"merge\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{35 \\times 222 = \\textBlank }\">\\displaystyle{35 \\times 222 = \\textBlank }</math-field></span>.</span></p>",
+      "type": "input_box",
+      "answer": {
+        "value": "7,770",
+        "constrains": {
+          "type": "integer"
+        }
+      },
+      "choices": [],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 160130352836,
+    "title": "",
+    "country": "eg",
+    "dialect": [
+      "modern_standard"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "ar",
+    "mapped_id": 169156391865,
+    "source_id": null,
+    "description": "إذا كان ٧ ،٧٨٠  ٣٥ = ٢٢٢، والباقي ١٠، فإن ٣٥ × ٢٢٢ = _.",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 2,
+    "publication_date": "2023-09-17T12:56:18"
+  },
+  "section_id": "316136730671",
+  "language": "ar",
+  "subject_id": "846131028308",
+  "subject": "الرياضيات",
+  "grade_id": "675125694625",
+  "grade": "5",
+  "country": "eg",
+  "parent_id": "160130352836",
+  "question_id": "169156391865"
+}

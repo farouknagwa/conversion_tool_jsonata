@@ -1,0 +1,47 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>املأ الفراغ: <span class=\"merge\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{123{,}456{,}789 = 100{,}000{,}000 + 20{,}000{,}000 + {\\textBlank } + 400{,}000 + 50{,}000 + 6{,}000 + 700 + 80 + 9}\">\\displaystyle{123{,}456{,}789 = 100{,}000{,}000 + 20{,}000{,}000 + {\\textBlank } + 400{,}000 + 50{,}000 + 6{,}000 + 700 + 80 + 9}</math-field></span>.</span></p>",
+      "type": "input_box",
+      "answer": {
+        "value": "3,000,000",
+        "constrains": {
+          "type": "integer"
+        }
+      },
+      "choices": [],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 272163234085,
+    "title": "",
+    "country": null,
+    "dialect": [
+      "modern_standard"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "ar",
+    "mapped_id": 528170430272,
+    "source_id": null,
+    "description": "املأ الفراغ: ١٢٣‎ ‎٤٥٦‎ ‎٧٨٩ = ١٠٠‎ ‎٠٠٠‎ ‎٠٠٠ + ٢٠٠‎ ‎٠٠٠‎ ‎٠٠ + _ + ٤٠٠‎ ‎٠٠٠ + ٥٠٠‎ ‎٠٠ + ٦٠٠‎ ‎٠ + ٧٠٠ + ٨٠ + ٩.",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 10,
+    "publication_date": "2022-06-01T07:25:05"
+  },
+  "section_id": "268139309629",
+  "language": "ar",
+  "subject_id": "874157135823",
+  "subject": "الرياضيات",
+  "grade_id": "415124760217",
+  "grade": "4",
+  "country": "eg",
+  "parent_id": "272163234085",
+  "question_id": "528170430272"
+}

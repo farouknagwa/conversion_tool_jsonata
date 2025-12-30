@@ -4,7 +4,7 @@
       "n": 1,
       "type": "opinion",
       "subtype": null,
-      "stem": "<p><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">Which sports event do you prefer?</span></p>",
+      "stem": "<p dir=\"ltr\"><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">Which sports event do you prefer?</span></p>",
       "choices": [
         {
           "type": "distractor",

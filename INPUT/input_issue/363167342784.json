@@ -1,0 +1,48 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "input_box",
+      "subtype": null,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">يُنتِج مصنع شوكولاتة 4,532 قطعة شوكولاتة في اليوم. إذا باع المصنع كلَّ قطعة بـ 18 جنيهًا مصريًّا، فما مقدار ما يكسبه في اليوم؟</span></p>",
+      "choices": [],
+      "standalone": false,
+      "answer": {
+        "value": "81,576",
+        "constrains": {
+          "type": "integer"
+        },
+        "unit": "جنيهًا مصريًّا"
+      }
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 872165075632,
+    "title": "",
+    "country": "eg",
+    "dialect": [
+      "modern_standard"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "ar",
+    "mapped_id": 363167342784,
+    "source_id": null,
+    "description": "يُنتِج مصنع للشوكولاتة ٤ ،٥٣٢ قطعة شوكولاتة في اليوم. إذا باع المصنع كلَّ قطعة مُقابِل ١٨ دولارًا أمريكيًّا، فما مقدار ما يكسبه في اليوم؟",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 10,
+    "publication_date": "2020-06-21T06:24:37"
+  },
+  "section_id": "295167578453",
+  "language": "ar",
+  "subject_id": "846131028308",
+  "subject": "الرياضيات",
+  "grade_id": "675125694625",
+  "grade": "5",
+  "country": "eg",
+  "parent_id": "872165075632",
+  "question_id": "363167342784"
+}

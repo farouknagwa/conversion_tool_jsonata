@@ -1,0 +1,155 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "mcq",
+      "subtype": null,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Round 199 to the nearest hundred.</span></p>",
+      "choices": [
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">400</span></p>",
+          "values": [],
+          "unit": null,
+          "index": 0,
+          "fixed_order": 1,
+          "correct_order": 2,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">300</span></p>",
+          "values": [],
+          "unit": null,
+          "index": 1,
+          "fixed_order": 2,
+          "correct_order": 3,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">100</span></p>",
+          "values": [],
+          "unit": null,
+          "index": 2,
+          "fixed_order": 3,
+          "correct_order": 4,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "key",
+          "html_content": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">200</span></p>",
+          "values": [],
+          "unit": null,
+          "index": 3,
+          "fixed_order": 4,
+          "correct_order": 1,
+          "last_order": false,
+          "group": 1
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "n": 2,
+      "type": "mcq",
+      "subtype": null,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Round 14 to the nearest ten.</span></p>",
+      "choices": [
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">30</span></p>",
+          "values": [],
+          "unit": null,
+          "index": 0,
+          "fixed_order": 1,
+          "correct_order": 1,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "key",
+          "html_content": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">10</span></p>",
+          "values": [],
+          "unit": null,
+          "index": 1,
+          "fixed_order": 2,
+          "correct_order": 4,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">40</span></p>",
+          "values": [],
+          "unit": null,
+          "index": 2,
+          "fixed_order": 3,
+          "correct_order": 2,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\"><span style=\"white-space: pre-wrap;\">20</span></p>",
+          "values": [],
+          "unit": null,
+          "index": 3,
+          "fixed_order": 4,
+          "correct_order": 3,
+          "last_order": false,
+          "group": 1
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "n": 3,
+      "type": "input_box",
+      "subtype": null,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">The estimate the product</span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"=\\textBlank\" locale=\"en\">=\\textBlank</math-field></span></p>",
+      "choices": [],
+      "standalone": false,
+      "answer": {
+        "value": "2,000",
+        "constrains": {
+          "type": "integer"
+        }
+      }
+    }
+  ],
+  "statement": "<p class=\"LexicalTheme__paragraph\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"\\displaystyle{199 \\times 14}\">\\displaystyle{199 \\times 14}</math-field></span><span style=\"white-space: pre-wrap;\">.</span></p>",
+  "instance_number": 1,
+  "metadata": {
+    "id": 438132523238,
+    "title": "",
+    "country": "eg",
+    "dialect": [
+      "american"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "en",
+    "mapped_id": 438132523238,
+    "source_id": {
+      "value": 318178172082,
+      "page_number": null
+    },
+    "description": "Round 199 to the nearest hundred. Round 14 to the nearest ten. Use the above results to estimate the product of 199 × 14.",
+    "has_example": false,
+    "parts_count": 3,
+    "instances_count": 10,
+    "publication_date": "2020-02-03T17:24:35"
+  },
+  "section_id": "639108012084",
+  "language": "en",
+  "subject_id": "872198392582",
+  "subject": "Mathematics",
+  "grade_id": "675125694625",
+  "grade": "5",
+  "country": "eg",
+  "question_id": "438132523238"
+}

@@ -1,0 +1,49 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "input_box",
+      "subtype": null,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Estimate the product </span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"\\displaystyle{171 \\times 63}\">\\displaystyle{171 \\times 63}</math-field></span><span style=\"white-space: pre-wrap;\"> by rounding 171 to the nearest hundred and 63 to the nearest ten.</span></p>",
+      "choices": [],
+      "standalone": false,
+      "answer": {
+        "value": "12,000",
+        "constrains": {
+          "type": "integer"
+        }
+      }
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 264176972585,
+    "title": "",
+    "country": "sa",
+    "dialect": [
+      "american"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "en",
+    "mapped_id": 264176972585,
+    "source_id": {
+      "value": 952105301938,
+      "page_number": null
+    },
+    "description": "Estimate the product 171 × 63 by rounding 171 to the nearest hundred and 63 to the nearest ten.",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 10,
+    "publication_date": "2023-04-18T07:01:05"
+  },
+  "section_id": "639108012084",
+  "language": "en",
+  "subject_id": "872198392582",
+  "subject": "Mathematics",
+  "grade_id": "675125694625",
+  "grade": "5",
+  "country": "eg",
+  "question_id": "264176972585"
+}

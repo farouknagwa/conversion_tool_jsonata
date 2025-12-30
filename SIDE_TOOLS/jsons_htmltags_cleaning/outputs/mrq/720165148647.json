@@ -5,7 +5,7 @@
       "type": "mrq",
       "subtype": null,
       "standalone": false,
-      "stem": "<p><span style=\"white-space: pre-wrap;\">Select </span><span style=\"color:#0D80F2; white-space: pre-wrap;\">all</span><span style=\"white-space: pre-wrap;\"> the causes of pollution.</span></p>",
+      "stem": "<p dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Select </span><span style=\"color:#0D80F2; white-space: pre-wrap;\">all</span><span style=\"white-space: pre-wrap;\"> the causes of pollution.</span></p>",
       "choices": [
         {
           "type": "key",

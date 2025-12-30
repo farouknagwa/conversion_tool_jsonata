@@ -1,0 +1,100 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "mcq",
+      "subtype": null,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">كيف يجب أن نبدأ الخوارزمية المعيارية؟</span></p>",
+      "choices": [
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"523181384734.01.svg\" alt=\"1\" width=\"250\" height=\"250\" style=\"aspect-ratio: 250/250;\" class=\"displayed-image\"></span></p>",
+          "values": [],
+          "unit": null,
+          "index": 0,
+          "fixed_order": 1,
+          "correct_order": 2,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"523181384734.03.svg\" alt=\"3\" width=\"250\" height=\"250\" style=\"aspect-ratio: 250/250;\" class=\"displayed-image\"></span></p>",
+          "values": [],
+          "unit": null,
+          "index": 1,
+          "fixed_order": 2,
+          "correct_order": 3,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "key",
+          "html_content": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"523181384734.02.svg\" alt=\"2\" width=\"250\" height=\"250\" style=\"aspect-ratio: 250/250;\" class=\"displayed-image\"></span></p>",
+          "values": [],
+          "unit": null,
+          "index": 2,
+          "fixed_order": 3,
+          "correct_order": 4,
+          "last_order": false,
+          "group": 1
+        },
+        {
+          "type": "distractor",
+          "html_content": "<p class=\"LexicalTheme__paragraph\"><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"523181384734.04.svg\" alt=\"4\" width=\"250\" height=\"250\" style=\"aspect-ratio: 250/250;\" class=\"displayed-image\"></span></p>",
+          "values": [],
+          "unit": null,
+          "index": 3,
+          "fixed_order": 4,
+          "correct_order": 1,
+          "last_order": false,
+          "group": 1
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "n": 2,
+      "type": "input_box",
+      "subtype": null,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">أوجد حاصل الضرب.</span></p>",
+      "choices": [],
+      "standalone": false,
+      "answer": {
+        "value": "7,137",
+        "constrains": {
+          "type": "integer"
+        }
+      }
+    }
+  ],
+  "statement": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">انظر إلى التعبير </span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"\\displaystyle{549\\times13}\">\\displaystyle{549\\times13}</math-field></span><span style=\"white-space: pre-wrap;\">.</span></p>",
+  "instance_number": 1,
+  "metadata": {
+    "id": 426183587341,
+    "title": "",
+    "country": "eg",
+    "dialect": [
+      "modern_standard"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "ar",
+    "mapped_id": 523181384734,
+    "source_id": null,
+    "description": "انظر إلى التعبير العددي ٥٤٩× ١٣: كيف يجب أن نبدأ الخوارزمية المعيارية؟ أوجد ناتج الضرب.",
+    "has_example": false,
+    "parts_count": 2,
+    "instances_count": 1,
+    "publication_date": "2020-02-13T13:30:14"
+  },
+  "section_id": "706104548212",
+  "language": "ar",
+  "subject_id": "846131028308",
+  "subject": "الرياضيات",
+  "grade_id": "675125694625",
+  "grade": "5",
+  "country": "eg",
+  "parent_id": "426183587341",
+  "question_id": "523181384734"
+}

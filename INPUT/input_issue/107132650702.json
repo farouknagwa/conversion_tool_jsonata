@@ -1,0 +1,63 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "input_box",
+      "subtype": null,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Find the missing number.</span></p>",
+      "choices": [],
+      "standalone": false,
+      "answer": {
+        "value": "0",
+        "constrains": {
+          "type": "integer"
+        }
+      }
+    },
+    {
+      "n": 2,
+      "type": "input_box",
+      "subtype": null,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Complete the calculation.</span></p>",
+      "choices": [],
+      "standalone": false,
+      "answer": {
+        "value": "13‎,984",
+        "constrains": {
+          "type": "integer"
+        }
+      }
+    }
+  ],
+  "statement": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">In the opposite product.</span><span style=\"white-space: pre-wrap;\"> </span><span data-node-type=\"image\" data-node-variation=\"block\" class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\"><img src=\"107132650702.01.svg\" alt=\"fill\" width=\"280\" height=\"200\" style=\"aspect-ratio: 280/200;\" class=\"displayed-image\"></span></p>",
+  "instance_number": 1,
+  "metadata": {
+    "id": 107132650702,
+    "title": "Finding Missing Numbers in a Standard Multiplication Algorithm",
+    "country": "eg",
+    "dialect": [
+      "american british"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "en",
+    "mapped_id": 107132650702,
+    "source_id": {
+      "value": 185160691748,
+      "page_number": null
+    },
+    "description": "Fill in the missing number.<Figure> Complete the calculation.",
+    "has_example": false,
+    "parts_count": 2,
+    "instances_count": 1,
+    "publication_date": "2018-02-15T12:45:22"
+  },
+  "section_id": "268131087012",
+  "language": "en",
+  "subject_id": "872198392582",
+  "subject": "Mathematics",
+  "grade_id": "675125694625",
+  "grade": "5",
+  "country": "eg",
+  "question_id": "107132650702"
+}

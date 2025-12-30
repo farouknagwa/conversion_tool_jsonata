@@ -1,0 +1,63 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "type": "input_box",
+      "subtype": null,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Estimate the product by rounding to the nearest ten.</span></p>",
+      "choices": [],
+      "standalone": false,
+      "answer": {
+        "value": "11,900",
+        "constrains": {
+          "type": "integer"
+        }
+      }
+    },
+    {
+      "n": 2,
+      "type": "input_box",
+      "subtype": null,
+      "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Calculate the product.</span></p>",
+      "choices": [],
+      "standalone": false,
+      "answer": {
+        "value": "11,180",
+        "constrains": {
+          "type": "integer"
+        }
+      }
+    }
+  ],
+  "statement": "<p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><span style=\"white-space: pre-wrap;\">Consider the following problem:</span></p><p class=\"LexicalTheme__paragraph\" dir=\"ltr\"><svg width=\"56.471\" height=\"47.437\" viewBox=\"376.006 266.09 42.353 35.578\" class=\"displayed_equation\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 0.00059375 0.00025 L 31.926375 0.00025\" transform=\"matrix(1,0,0,-1,386.433,301.469)\" fill=\"none\" stroke-width=\".398\" stroke=\"#000\" stroke-miterlimit=\"10\"></path><g font-family=\"NagwaMath\" font-size=\"13.5\"><text y=\"275.043\" x=\"388.426\">1</text><text y=\"275.043\" x=\"399.065\">7</text><text y=\"275.043\" x=\"409.703\">2</text><text y=\"295.218\" x=\"375.631\">×</text><text y=\"295.218\" x=\"399.06\">6</text><text y=\"295.218\" x=\"409.699\">5</text></g></svg></p>",
+  "instance_number": 1,
+  "metadata": {
+    "id": 142171529215,
+    "title": "",
+    "country": "eg",
+    "dialect": [
+      "american british"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "en",
+    "mapped_id": 142171529215,
+    "source_id": {
+      "value": 894168289463,
+      "page_number": null
+    },
+    "description": "Consider the following problem:  &amp;1 &amp;7 &amp;2 ×&amp; &amp; 6 &amp; 5 2-4 Estimate the product by rounding to the nearest ten. Calculate the product using partial products.",
+    "has_example": false,
+    "parts_count": 2,
+    "instances_count": 1,
+    "publication_date": "2023-07-27T12:49:04"
+  },
+  "section_id": "639108012084",
+  "language": "en",
+  "subject_id": "872198392582",
+  "subject": "Mathematics",
+  "grade_id": "675125694625",
+  "grade": "5",
+  "country": "eg",
+  "question_id": "142171529215"
+}

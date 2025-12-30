@@ -18,7 +18,7 @@
     "stem": part.stem,
     "rows": part.puzzleRows,
     "columns": part.puzzleColumns,
-    "pieces": $pieces,
+    "pieces": [$pieces],
     "correct_answer": part.puzzleImage
   }
 )

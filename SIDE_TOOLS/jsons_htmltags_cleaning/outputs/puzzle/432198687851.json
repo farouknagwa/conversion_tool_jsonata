@@ -4,7 +4,7 @@
       "n": 1,
       "type": "puzzle",
       "subtype": null,
-      "stem": "<p><span style=\"white-space: pre-wrap;\">حُلَّ اللغز لاكتشاف ما سوف نتعلم عنه اليوم.</span></p>",
+      "stem": "<p dir=\"rtl\"><span style=\"white-space: pre-wrap;\">حُلَّ اللغز لاكتشاف ما سوف نتعلم عنه اليوم.</span></p>",
       "choices": [],
       "standalone": false,
       "ai": {
@@ -77,7 +77,7 @@
   "instance_number": 1,
   "metadata": {
     "id": 640107264349,
-    "title": "Ques 1.1.18.3\t\t\tPuzzle",
+    "title": "Ques 1.1.18.3 Puzzle",
     "category": "lesson",
     "country": "eg",
     "language": "ar",

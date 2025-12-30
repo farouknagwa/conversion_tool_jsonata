@@ -1,0 +1,49 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>Knowing that <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{4 \\div 2=2}\">\\displaystyle{4 \\div 2=2}</math-field></span> and <span class=\"merge\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{400 \\div 2=200}\">\\displaystyle{400 \\div 2=200}</math-field></span>, </span>find <span class=\"merge\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{4{,}000 \\div 2}\">\\displaystyle{4{,}000 \\div 2}</math-field></span>.</span></p>",
+      "type": "input_box",
+      "answer": {
+        "value": "2,000",
+        "constrains": {
+          "type": "integer"
+        }
+      },
+      "choices": [],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 259198968254,
+    "title": "",
+    "country": "eg",
+    "dialect": [
+      "american british"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "en",
+    "mapped_id": 259198968254,
+    "source_id": {
+      "value": 486104968092,
+      "page_number": null
+    },
+    "description": "Knowing that 4  2=2 and 400  2=200, find 4,000  2.",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 10,
+    "publication_date": "2020-04-06T11:14:05"
+  },
+  "section_id": "540143293483",
+  "language": "en",
+  "subject_id": "975147138958",
+  "subject": "Mathematics",
+  "grade_id": "415124760217",
+  "grade": "4",
+  "country": "eg",
+  "question_id": "259198968254"
+}
