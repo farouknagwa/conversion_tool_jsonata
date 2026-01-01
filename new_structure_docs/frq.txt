@@ -1,0 +1,69 @@
+FRQ (Free Response Question) - JSON Structure Documentation
+
+ROOT LEVEL (Common to all question types):
+{
+  "question_id": "string",
+  "parent_id": "string or null",
+  "language_code": "string (en, ar, etc.)",
+  "language": "string (English, Arabic, etc.)",
+  "country_code": "string (eg, us, etc.)",
+  "country": "string (Egypt, United States, etc.)",
+  "subject": "string",
+  "subject_id": "string (required)",
+  "grade": "string",
+  "grade_id": "string (required)",
+  "number_of_parts": 1,
+  "section_id": "string",
+  "source": "string",
+  "content": {
+    "parts": [...]
+  }
+}
+
+FRQ PART STRUCTURE:
+{
+  "n": 1,
+  "type": "frq",
+  "stem": "string (HTML content)",
+  "ai_template_id": "string (exactly 12 digits)",
+  "acceptable_answers": [
+    "string",
+    ...
+  ],
+  "explanation": "string (HTML content) or null"
+}
+
+FIELD DESCRIPTIONS:
+
+n (integer, required):
+- Part number, must match position in parts array
+- For single-part questions, always 1
+
+type (string, required):
+- Always "frq" for this question type
+
+stem (string, required):
+- HTML content containing the question text
+- May include formatting tags (p, span, strong, etc.)
+
+ai_template_id (string, required):
+- AI template identifier used for automated grading
+- Must be exactly 12 digits (numeric string)
+- Example: "123456789012"
+
+acceptable_answers (array, required):
+- Array of acceptable answer strings
+- Each element is a string representing a valid answer
+- Used for answer validation and matching
+- Can be a single-element array if only one acceptable answer
+
+explanation (string or null, optional):
+- HTML content explaining the answer or providing feedback
+- Extracted from root answer field for single-part questions
+- For multipart questions, extracted from corresponding child <div>
+
+VALIDATION RULES:
+- ai_template_id must be a string containing exactly 12 digits
+- acceptable_answers must be a non-empty array
+- Each element in acceptable_answers must be a string
+

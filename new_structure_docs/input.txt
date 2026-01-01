@@ -1,0 +1,103 @@
+INPUT (Input Box Question) - JSON Structure Documentation
+
+ROOT LEVEL (Common to all question types):
+{
+  "question_id": "string",
+  "parent_id": "string or null",
+  "language_code": "string (en, ar, etc.)",
+  "language": "string (English, Arabic, etc.)",
+  "country_code": "string (eg, us, etc.)",
+  "country": "string (Egypt, United States, etc.)",
+  "subject": "string",
+  "subject_id": "string (required)",
+  "grade": "string",
+  "grade_id": "string (required)",
+  "number_of_parts": 1,
+  "section_id": "string",
+  "source": "string",
+  "content": {
+    "parts": [...]
+  }
+}
+
+INPUT PART STRUCTURE:
+{
+  "n": 1,
+  "type": "input",
+  "stem": "string (HTML content)",
+  "correct_answer": {
+    "value": number,
+    "unit": "string or null",
+    "constraints": {
+      "type": "string (integer or decimal)",
+      "answer_format": {
+        "number_format": "string (arabic or hindi)",
+        "contains_thousand_separator": boolean
+      },
+      "allow_leading_zeros": boolean,
+      "allow_trailing_zeros": boolean,
+      "sign": "string (canBeExplicitOrImplicit, etc.)",
+      "remove_leading_zeros_from_normalized_form": boolean,
+      "remove_trailing_zeros_from_normalized_form": boolean,
+      "add_single_leading_zero_to_normalized_form": boolean,
+      "remove_trailing_decimal_point_from_normalized_form": boolean,
+      "normalize_sign": "string (notSet, etc.)",
+      "must_have_no_more_than_nsf": integer or null,
+      "must_have_at_least_nsf": integer or null,
+      "must_have_exactly_nsf": integer or null,
+      "must_have_at_least_ndp": integer or null,
+      "must_have_no_more_than_ndp": integer or null,
+      "must_have_exactly_ndp": integer or null
+    }
+  },
+  "explanation": "string (HTML content) or null"
+}
+
+FIELD DESCRIPTIONS:
+
+n (integer, required):
+- Part number, must match position in parts array
+- For single-part questions, always 1
+
+type (string, required):
+- Always "input" for this question type
+
+stem (string, required):
+- HTML content containing the question text
+- May include formatting tags (p, span, strong, etc.)
+
+correct_answer (object, required):
+- Contains the correct numeric answer and constraints:
+  * value: Numeric value (integer or decimal number)
+  * unit: String representing the unit (e.g., "kg", "cm") or null if no unit
+  * constraints: Object containing validation rules
+
+constraints (object, required):
+- type: "integer" or "decimal" (automatically determined from value)
+  * "integer" if value has no decimal part
+  * "decimal" if value has decimal part
+- answer_format: Object describing number format:
+  * number_format: "arabic" (Western digits 0-9) or "hindi" (Arabic-Indic/Extended Arabic-Indic/Devanagari digits)
+  * contains_thousand_separator: Boolean indicating if original value had thousand separator
+- Other constraint fields control validation behavior (leading zeros, trailing zeros, sign, normalization, significant/decimal places, etc.)
+
+explanation (string or null, optional):
+- HTML content explaining the correct answer
+- Extracted from root answer field for single-part questions
+- For multipart questions, extracted from corresponding child <div>
+
+NUMBER FORMAT HANDLING:
+- Supports Arabic-Indic digits (٠-٩), Extended Arabic-Indic digits (۰-۹), and Devanagari digits (०-९)
+- Automatically converts all digit systems to Western numerals (0-9) for value field
+- Detects format based on presence of non-Western digits in original input
+- Thousand separators: comma (,) and space characters (regular space, thin space U+2009, no-break space U+00A0, narrow no-break space U+202F)
+- Decimal separators: period (.) for Arabic format, Arabic decimal (٫) or comma (,) for Hindi format
+- Fraction slashes (⁄ or /) are not allowed and will cause validation failure
+
+VALIDATION RULES:
+- value must be a number (integer or decimal)
+- constraints.type must be "integer" or "decimal"
+- Original input value must not contain fraction slashes ("⁄" or "/")
+- number_format is automatically determined from digit system used
+- contains_thousand_separator is automatically determined from original input
+

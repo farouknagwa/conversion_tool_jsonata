@@ -3,16 +3,18 @@ PURPOSE: Main orchestrator for JSON conversion tool with CLI interface
 
 FUNCTIONS:
 - ConversionStats: Tracks conversion statistics (total, success, failures by type, errors, warnings)
-  * add_error(): Logs conversion/validation errors
+  * add_error(): Logs conversion/validation errors with detailed metadata
   * add_warning(): Logs non-blocking warnings
 - discover_json_files(input_path, filter_types): Recursively finds JSON files, optionally filters by question type
+  * Uses detect_question_types() to identify part types for filtering
 - process_file(filepath, output_dir, ...): Processes single file through validation-conversion-validation pipeline
-  * Collects warnings even when validation passes
+  * Collects warnings even when validation passes (warnings don't block conversion)
+  * Handles three failure categories: pre-validation, conversion, post-validation
 - generate_excel_report(stats, output_path): Creates Excel report with two sheets:
   * "Errors" sheet: filename, question_id, error_type, error_message, field, actual_value, expected, timestamp
   * "Warnings" sheet: filename, question_id, warning_message, timestamp
-- generate_text_log(stats, output_path): Creates text log with summary, errors, and warnings sections
-- main(): Entry point - parses CLI args, discovers files, processes batch, generates reports
+- generate_text_log(stats, output_path): Creates text log with summary (including total warnings count), errors, and warnings sections
+- main(): Entry point - parses CLI args, discovers files, processes batch, generates reports, returns exit code
 
 CLI ARGUMENTS:
 --input/-i: Input directory or file path (default: INPUT)
@@ -40,7 +42,13 @@ WARNINGS SYSTEM:
 - Tracked separately from errors in stats.warnings list
 - Appear in separate "Warnings" sheet in Excel report
 - Appear in separate WARNINGS section in text log
-- Examples: multipart questions without statement field, single-part answer HTML structure
+- Total warnings count included in summary output
+- Examples: multipart questions without statement field, single-part answer HTML structure issues
+
+METADATA FIELDS:
+- Supports subject_id and grade_id as required fields
+- Extracts from root level JSON data
+- Included in final converted JSON output
 
 DEPENDENCIES: tqdm (progress bar), openpyxl (Excel reports), jsonata-python (via converter), beautifulsoup4 (HTML parsing)
 

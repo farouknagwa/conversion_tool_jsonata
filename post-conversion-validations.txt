@@ -1,13 +1,13 @@
 POST-CONVERSION VALIDATIONS (NEW JSON STRUCTURE)
 
 ROOT LEVEL FIELDS:
-- Required: question_id, parent_id, language_code, language, country_code, country, subject, grade, number_of_parts, section_id, source, content
+- Required: question_id, parent_id, language_code, language, country_code, country, subject, subject_id, grade, grade_id, number_of_parts, section_id, source, content
 - question_id must be string
 - parent_id must be null or string
 - language_code must be valid and match language name
 - country_code must be valid and match country name
 - number_of_parts must be positive integer
-- grade, section_id, source must be strings
+- grade, grade_id, subject, subject_id, section_id, source must be strings
 
 CONTENT STRUCTURE:
 - content.parts array required and non-empty
@@ -19,7 +19,7 @@ COMMON PART FIELDS:
 - n (part number) must match position
 - type must exist
 - stem must be string
-- explanation: for single-part should be string
+- explanation: optional string (for single-part questions)
 
 COUNTING PART:
 - grid object required with rows and columns (both integers)
@@ -36,14 +36,22 @@ GAP PART:
 
 INPUT PART:
 - correct_answer must be object with:
-  * value (required)
-  * constraints object with type (required)
+  * value (required, number)
+  * constraints object with type (required, "integer" or "decimal")
+  * constraints.answer_format.number_format ("arabic" or "hindi")
+  * constraints.answer_format.contains_thousand_separator (boolean)
+
+GMRQ PART:
+- items object required with:
+  * A (required, array of items with label, value, is_correct)
+  * B (required, array of items with label, value, is_correct)
+- correct_answer object required with A and B keys (string values)
 
 MATCHING PART:
 - items object required with:
-  * A (required)
-  * B (required)
-  * correct_answer (required)
+  * A (required, array of items with value, label)
+  * B (required, array of items with value, label, matches)
+- correct_answer array required (objects with A and B keys)
 
 MCQ PART:
 - choices array required
@@ -52,23 +60,26 @@ MCQ PART:
 
 MRQ PART:
 - choices array required
-- correct_answer must be array
+- Each choice must have: label, value, is_correct
+- correct_answer must be array (objects with label and value)
 
 OPINION PART:
-- choices array required
+- choices array required (with label, value)
 - correct_answer must NOT exist (no correct answer for opinion questions)
 
 ORDERING PART:
-- direction must be "vertical" or "horizontal"
-- items array required
-- correct_answer array required
+- direction must be "vertical" or "horizontal" (lowercase)
+- items array required (objects with value, display_order, correct_order)
+- correct_answer array required (strings)
 
 PUZZLE PART:
-- rows required
-- columns required
-- pieces array required
+- rows required (integer)
+- columns required (integer)
+- pieces array required (objects with display_order, correct_order, src, alt)
+- correct_answer object required with src and alt
 
 STRING PART:
 - ai_template_id required (string)
 - acceptable_answers must be array
+- guidelines optional: array of objects with student_answer (string), mark (number, 0 or 1), comment (string)
 

@@ -36,3 +36,15 @@ mcq, mrq, gmrq, frq, frq_ai, oq, gapText, string, opinion, matching, counting, p
 CONVERSION RULES:
 JSONata transformation rules located in JSONATA_RULES/ folder (one .jsonata file per type)
 
+OUTPUT STRUCTURE:
+- Root fields: question_id, parent_id, language_code, language, country_code, country, 
+  subject, subject_id, grade, grade_id, number_of_parts, section_id, source, content
+- content.parts: Array of converted parts (one per question part)
+- content.statement: Required for multipart questions only
+- Each part includes: n (part number), type, stem, type-specific fields, explanation (optional)
+
+DOCUMENTATION:
+- See individual type structure files (mcq.txt, mrq.txt, etc.) for detailed JSON structure
+- See pre-conversion-validations.txt for input validation rules
+- See post-conversion-validations.txt for output validation rules
+

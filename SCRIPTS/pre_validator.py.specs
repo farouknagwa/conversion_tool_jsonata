@@ -29,7 +29,7 @@ PART TYPE VALIDATORS:
 - _validate_matching(part, part_number): Matching validation - exactly 2 groups, all distractors
 - _validate_counting(part, part_number): Counting validation - answer as string number, grid_size format (rows×columns)
 - _validate_puzzle(part, part_number): Puzzle validation - required fields (puzzleColumns, puzzleImage, puzzleImageHeight, puzzleImageSplited, puzzleImageWidth, puzzleRows), pieces count
-- _validate_input_box(part, part_number): Input box validation - answer object with value and constrains (type: decimal/integer)
+- _validate_input_box(part, part_number): Input box validation - answer object with value and constrains (type: decimal/integer), validates no fraction slash ("⁄" or "/") in value
 
 VALIDATIONS:
 - Top-level: parts array exists and non-empty, metadata object exists

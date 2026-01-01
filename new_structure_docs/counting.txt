@@ -1,0 +1,72 @@
+COUNTING (Counting Question) - JSON Structure Documentation
+
+ROOT LEVEL (Common to all question types):
+{
+  "question_id": "string",
+  "parent_id": "string or null",
+  "language_code": "string (en, ar, etc.)",
+  "language": "string (English, Arabic, etc.)",
+  "country_code": "string (eg, us, etc.)",
+  "country": "string (Egypt, United States, etc.)",
+  "subject": "string",
+  "subject_id": "string (required)",
+  "grade": "string",
+  "grade_id": "string (required)",
+  "number_of_parts": 1,
+  "section_id": "string",
+  "source": "string",
+  "content": {
+    "parts": [...]
+  }
+}
+
+COUNTING PART STRUCTURE:
+{
+  "n": 1,
+  "type": "counting",
+  "stem": "string (HTML content)",
+  "grid": {
+    "rows": integer,
+    "columns": integer
+  },
+  "correct_answer": integer,
+  "explanation": "string (HTML content) or null"
+}
+
+FIELD DESCRIPTIONS:
+
+n (integer, required):
+- Part number, must match position in parts array
+- For single-part questions, always 1
+
+type (string, required):
+- Always "counting" for this question type
+
+stem (string, required):
+- HTML content containing the question text
+- May include formatting tags (p, span, strong, etc.)
+- Typically asks student to count items in a grid
+
+grid (object, required):
+- Defines the grid dimensions:
+  * rows: Integer representing number of rows in the grid
+  * columns: Integer representing number of columns in the grid
+- Example: {"rows": 5, "columns": 4} for a 5×4 grid
+- Grid size is parsed from original "grid_size" field (format: "rows×columns")
+
+correct_answer (integer, required):
+- Integer representing the correct count
+- Must be a non-negative integer
+- Converted from string representation in original data
+
+explanation (string or null, optional):
+- HTML content explaining how to count or the correct answer
+- Extracted from root answer field for single-part questions
+- For multipart questions, extracted from corresponding child <div>
+
+VALIDATION RULES:
+- grid.rows must be a positive integer
+- grid.columns must be a positive integer
+- correct_answer must be a non-negative integer
+- Original grid_size must be in format "rows×columns" (e.g., "5×4")
+

@@ -16,7 +16,7 @@ EXTRACTION FUNCTIONS:
 - extract_language_code(json_data): Extracts and validates language code from language or metadata.language fields; raises ValidationError if invalid
 - extract_country_code(json_data): Extracts country code with priority logic:
   * Rule 1: 'eg' (Egypt) always wins if present
-  * Rule 2: If exactly 2 codes with exactly 1 'zz', prefer the other valid country code
+  * Rule 2: If exactly 2 codes found and exactly 1 is 'zz', prefer the other valid country code (handles both "zz + valid" and "valid + zz" cases)
   * Rule 3: Otherwise, return first valid code found (top-level priority)
   * Raises ValidationError if no valid country code found
 - extract_country_code_mandatory_return(json_data): Same as extract_country_code but returns raw value instead of raising error if invalid

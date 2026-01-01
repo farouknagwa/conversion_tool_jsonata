@@ -1,0 +1,99 @@
+PUZZLE (Puzzle Question) - JSON Structure Documentation
+
+ROOT LEVEL (Common to all question types):
+{
+  "question_id": "string",
+  "parent_id": "string or null",
+  "language_code": "string (en, ar, etc.)",
+  "language": "string (English, Arabic, etc.)",
+  "country_code": "string (eg, us, etc.)",
+  "country": "string (Egypt, United States, etc.)",
+  "subject": "string",
+  "subject_id": "string (required)",
+  "grade": "string",
+  "grade_id": "string (required)",
+  "number_of_parts": 1,
+  "section_id": "string",
+  "source": "string",
+  "content": {
+    "parts": [...]
+  }
+}
+
+PUZZLE PART STRUCTURE:
+{
+  "n": 1,
+  "type": "puzzle",
+  "stem": "string (HTML content)",
+  "rows": integer,
+  "columns": integer,
+  "pieces": [
+    {
+      "display_order": integer,
+      "correct_order": integer,
+      "src": "string (URL)",
+      "alt": "string"
+    },
+    ...
+  ],
+  "correct_answer": {
+    "src": "string (URL)",
+    "alt": "string"
+  },
+  "explanation": "string (HTML content) or null"
+}
+
+FIELD DESCRIPTIONS:
+
+n (integer, required):
+- Part number, must match position in parts array
+- For single-part questions, always 1
+
+type (string, required):
+- Always "puzzle" for this question type
+
+stem (string, required):
+- HTML content containing the question text
+- May include formatting tags (p, span, strong, etc.)
+- Typically asks student to arrange puzzle pieces to form an image
+
+rows (integer, required):
+- Number of rows in the puzzle grid
+- Must be a positive integer
+- Extracted from original puzzleRows field
+
+columns (integer, required):
+- Number of columns in the puzzle grid
+- Must be a positive integer
+- Extracted from original puzzleColumns field
+- Total number of pieces = rows × columns
+
+pieces (array, required):
+- Array of puzzle piece objects, each containing:
+  * display_order: Integer indicating initial display order (from fixed_order)
+  * correct_order: Integer indicating correct position in the puzzle (1-based)
+  * src: URL string pointing to the piece image
+  * alt: Alt text for accessibility (typically empty string "")
+- Pieces are sorted by display_order for initial presentation
+- Student must arrange pieces according to correct_order
+- Number of pieces must equal rows × columns
+
+correct_answer (object, required):
+- Contains the completed puzzle image:
+  * src: URL string pointing to the complete puzzle image (from puzzleImage)
+  * alt: Alt text for accessibility (typically empty string "")
+
+explanation (string or null, optional):
+- HTML content explaining the puzzle solution
+- Extracted from root answer field for single-part questions
+- For multipart questions, extracted from corresponding child <div>
+
+VALIDATION RULES:
+- rows must be a positive integer
+- columns must be a positive integer
+- pieces must be a non-empty array
+- Number of pieces must equal rows × columns
+- Each piece must have display_order, correct_order, src, and alt
+- correct_answer must have src and alt fields
+- All piece src URLs and correct_answer.src URL must be valid strings
+

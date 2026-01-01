@@ -90,6 +90,8 @@ INPUT_BOX SPECIFIC:
 - answer must be object with "value" (string)
 - answer.constrains must be object with "type" ("decimal" or "integer")
 - answer.unit optional (string or undefined)
+- Validation fails if value contains fraction slash characters ("⁄" or "/")
+- Supports Arabic-Indic (٠-٩), Extended Arabic-Indic (۰-۹), and Devanagari (०-९) digits
 
 VALIDATION SEVERITY:
 ERRORS (block conversion):

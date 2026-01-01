@@ -1,0 +1,112 @@
+MULTIPART (Multi-Part Question) - JSON Structure Documentation
+
+ROOT LEVEL (Common to all question types):
+{
+  "question_id": "string",
+  "parent_id": "string or null",
+  "language_code": "string (en, ar, etc.)",
+  "language": "string (English, Arabic, etc.)",
+  "country_code": "string (eg, us, etc.)",
+  "country": "string (Egypt, United States, etc.)",
+  "subject": "string",
+  "subject_id": "string (required)",
+  "grade": "string",
+  "grade_id": "string (required)",
+  "number_of_parts": integer (> 1),
+  "section_id": "string",
+  "source": "string",
+  "content": {
+    "statement": "string (HTML content, required for multipart)",
+    "parts": [...]
+  }
+}
+
+MULTIPART STRUCTURE OVERVIEW:
+- A multipart question consists of multiple question parts, each with its own type and structure
+- All parts share common root-level metadata
+- The content object includes a statement field (shared question text)
+- Each part in content.parts follows its own type-specific structure (see individual type documentation)
+
+CONTENT STRUCTURE:
+{
+  "statement": "string (HTML content, required)",
+  "parts": [
+    {
+      "n": 1,
+      "type": "mcq|mrq|gmrq|frq|gap|input|matching|counting|ordering|opinion|puzzle|string",
+      ...
+    },
+    {
+      "n": 2,
+      "type": "mcq|mrq|gmrq|frq|gap|input|matching|counting|ordering|opinion|puzzle|string",
+      ...
+    },
+    ...
+  ]
+}
+
+FIELD DESCRIPTIONS:
+
+number_of_parts (integer, required):
+- Must be greater than 1 for multipart questions
+- Must match the number of objects in content.parts array
+
+statement (string, required):
+- HTML content containing the shared question text or context
+- Applies to all parts in the question
+- Required only for multipart questions (not allowed in single-part)
+- Warning is issued if missing, but conversion proceeds (non-blocking)
+
+content.parts (array, required):
+- Array of part objects, each following its type-specific structure
+- Each part must have:
+  * n: Part number (must match position: 1, 2, 3, ...)
+  * type: One of the supported question types
+  * stem: Question text for this specific part
+  * Type-specific fields (choices, correct_answer, etc.)
+  * explanation: Extracted from corresponding child <div> in root answer field
+- Parts can be of different types (e.g., part 1 is MCQ, part 2 is FRQ)
+
+EXPLANATION EXTRACTION FOR MULTIPART:
+- Root answer field must contain parent <div> with N child <div>s (N = number_of_parts)
+- Each child <div> corresponds to explanation for one part (by part_index)
+- Part 1 explanation comes from first child <div>
+- Part 2 explanation comes from second child <div>
+- And so on...
+- HTML structure is validated: parent <div> must have exactly number_of_parts direct child <div>s
+
+VALIDATION RULES:
+- number_of_parts must be greater than 1
+- content.statement is REQUIRED (warning issued if missing, but not blocking)
+- Number of parts in content.parts array must equal number_of_parts
+- Each part's n field must match its position (1, 2, 3, ...)
+- Root answer field HTML structure must be: parent <div> with N direct child <div>s
+- Each part must follow its type-specific validation rules
+
+EXAMPLE STRUCTURE:
+{
+  "question_id": "123456789",
+  "number_of_parts": 2,
+  "content": {
+    "statement": "<p>Answer the following questions:</p>",
+    "parts": [
+      {
+        "n": 1,
+        "type": "mcq",
+        "stem": "<p>What is 2+2?</p>",
+        "choices": [...],
+        "correct_answer": {...},
+        "explanation": "<p>Part 1 explanation from first div</p>"
+      },
+      {
+        "n": 2,
+        "type": "frq",
+        "stem": "<p>Explain your answer.</p>",
+        "ai_template_id": "123456789012",
+        "acceptable_answers": [...],
+        "explanation": "<p>Part 2 explanation from second div</p>"
+      }
+    ]
+  }
+}
+

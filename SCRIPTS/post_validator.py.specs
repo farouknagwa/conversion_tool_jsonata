@@ -13,23 +13,24 @@ PART TYPE VALIDATORS:
 - _validate_counting_part(part, part_number): Validates grid (rows, columns integers), correct_answer (integer)
 - _validate_frq_part(part, part_number): Validates acceptable_answers array, ai_template_id (12 digit string)
 - _validate_gap_part(part, part_number): Validates gap_keys array with value and display_order, correct_answer string
-- _validate_input_part(part, part_number): Validates correct_answer object with value and constraints.type
-- _validate_matching_part(part, part_number): Validates items object with A, B, correct_answer
-- _validate_mcq_part(part, part_number): Validates choices array (label, value, is_correct), correct_answer object
+- _validate_input_part(part, part_number): Validates correct_answer object with value (number) and constraints.type (integer/decimal)
+- _validate_gmrq_part(part, part_number): Validates items object with A, B arrays, correct_answer object with A and B keys
+- _validate_matching_part(part, part_number): Validates items object with A, B arrays, correct_answer array
+- _validate_mcq_part(part, part_number): Validates choices array (label, value, is_correct), correct_answer object (label, value)
 - _validate_mrq_part(part, part_number): Validates choices array, correct_answer array
 - _validate_opinion_part(part, part_number): Validates choices array, ensures NO correct_answer
-- _validate_ordering_part(part, part_number): Validates direction (vertical/horizontal), items array, correct_answer array
-- _validate_puzzle_part(part, part_number): Validates rows, columns, pieces array
-- _validate_string_part(part, part_number): Validates ai_template_id string, acceptable_answers array
+- _validate_ordering_part(part, part_number): Validates direction (lowercase vertical/horizontal), items array (value, display_order, correct_order), correct_answer array
+- _validate_puzzle_part(part, part_number): Validates rows, columns integers, pieces array (display_order, correct_order, src, alt), correct_answer object
+- _validate_string_part(part, part_number): Validates ai_template_id string, acceptable_answers array, optional guidelines array
 
 ROOT LEVEL VALIDATIONS:
-- Required fields: question_id, language_code, language, country_code, country, subject, grade, number_of_parts, section_id, source, content
+- Required fields: question_id, language_code, language, country_code, country, subject, subject_id, grade, grade_id, number_of_parts, section_id, source, content
 - question_id must be string
 - parent_id must be null or string
 - language_code must be valid and match language
 - country_code must be valid and match country
 - number_of_parts must be positive integer
-- grade, section_id, source must be strings
+- grade, grade_id, subject, subject_id, section_id, source must be strings
 
 CONTENT VALIDATIONS:
 - parts array required and non-empty
@@ -38,5 +39,5 @@ CONTENT VALIDATIONS:
 - parts count must match number_of_parts
 - Each part: n, type, stem required
 - Part number n must match position
-- explanation logic: single-part should have root answer as string
+- explanation: optional string field
 
