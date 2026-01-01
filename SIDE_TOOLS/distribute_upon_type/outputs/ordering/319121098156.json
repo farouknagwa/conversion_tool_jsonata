@@ -1,0 +1,55 @@
+{
+  "question_id": "319121098156",
+  "parent_id": "319121098156",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "zz",
+  "country": "ZZ",
+  "subject": "Science",
+  "subject_id": "828197025630",
+  "grade": "6",
+  "grade_id": "612152797413",
+  "number_of_parts": 1,
+  "section_id": "893167812893",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "ordering",
+        "stem": "<p>A teacher asked her class to write down some properties of materials.</p><div class=\"displayed-figure-group\"><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"319121098156.10.svg\"/></div><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"319121098156.09.svg\"/></div><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"319121098156.08.svg\"/></div><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"319121098156.03.svg\"/></div><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"319121098156.02.svg\"/></div></div><p>She then gave them the definitions to match up.</p><p>Put the definitions in order so they match up to the correct word.</p>",
+        "direction": "vertical",
+        "items": [
+          {
+            "value": "<div class=\"h-scroll\"><img class=\"displayed-image\" src=\"319121098156.05.svg\"/></div>",
+            "display_order": 1
+          },
+          {
+            "value": "<div class=\"h-scroll\"><img class=\"displayed-image\" src=\"319121098156.07.svg\"/></div>",
+            "display_order": 2
+          },
+          {
+            "value": "<div class=\"h-scroll\"><img class=\"displayed-image\" src=\"319121098156.01.svg\"/></div>",
+            "display_order": 3
+          },
+          {
+            "value": "<div class=\"h-scroll\"><img class=\"displayed-image\" src=\"319121098156.06.svg\"/></div>",
+            "display_order": 4
+          },
+          {
+            "value": "<div class=\"h-scroll\"><img class=\"displayed-image\" src=\"319121098156.04.svg\"/></div>",
+            "display_order": 5
+          }
+        ],
+        "correct_answer": [
+          "<div class=\"h-scroll\"><img class=\"displayed-image\" src=\"319121098156.01.svg\"/></div>",
+          "<div class=\"h-scroll\"><img class=\"displayed-image\" src=\"319121098156.06.svg\"/></div>",
+          "<div class=\"h-scroll\"><img class=\"displayed-image\" src=\"319121098156.05.svg\"/></div>",
+          "<div class=\"h-scroll\"><img class=\"displayed-image\" src=\"319121098156.04.svg\"/></div>",
+          "<div class=\"h-scroll\"><img class=\"displayed-image\" src=\"319121098156.07.svg\"/></div>"
+        ],
+        "explanation": null
+      }
+    ]
+  }
+}

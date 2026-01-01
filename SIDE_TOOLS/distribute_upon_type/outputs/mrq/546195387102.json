@@ -1,0 +1,52 @@
+{
+  "question_id": "546195387102",
+  "parent_id": "546195387102",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Discover",
+  "subject_id": "123456789012",
+  "grade": "3",
+  "grade_id": "123456789012",
+  "number_of_parts": 1,
+  "section_id": "593138146764",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "mrq",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">Which </span><b><strong class=\"LexicalTheme__textBold\" style=\"white-space: pre-wrap;\">two </strong></b><span style=\"white-space: pre-wrap;\">nutrient types give your body energy?</span></p><p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"595153649247 (1)\" class=\"displayed-image\" height=\"116.66666666666667\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/326182158986.svg\" style=\"aspect-ratio: 700/116.66666666666667;\" width=\"700\"/></span></p>",
+        "choices": [
+          {
+            "label": "A",
+            "value": "<p><span style=\"white-space: pre-wrap;\">Proteins</span></p>",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "value": "<p><span style=\"white-space: pre-wrap;\">Fats</span></p>",
+            "is_correct": true
+          },
+          {
+            "label": "C",
+            "value": "<p><span style=\"white-space: pre-wrap;\">Carbohydrates</span></p>",
+            "is_correct": true
+          }
+        ],
+        "correct_answer": [
+          {
+            "label": "B",
+            "value": "<p><span style=\"white-space: pre-wrap;\">Fats</span></p>"
+          },
+          {
+            "label": "C",
+            "value": "<p><span style=\"white-space: pre-wrap;\">Carbohydrates</span></p>"
+          }
+        ],
+        "explanation": null
+      }
+    ]
+  }
+}

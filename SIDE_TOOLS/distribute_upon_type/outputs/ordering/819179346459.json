@@ -1,0 +1,55 @@
+{
+  "question_id": "819179346459",
+  "parent_id": "707130120901",
+  "language_code": "ar",
+  "language": "Arabic",
+  "country_code": "zz",
+  "country": "ZZ",
+  "subject": "العلوم",
+  "subject_id": "302182486849",
+  "grade": "6",
+  "grade_id": "612152797413",
+  "number_of_parts": 1,
+  "section_id": "854148930389",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "ordering",
+        "stem": "<p>شعر كريم بالتعب. ذهب إلى ممرِّضة المدرسة. على الممرِّضة قياس درجة حرارة كريم. بدأت الممرِّضة بتنظيف الترمومتر باستخدام المناديل والكحول الإيثيلي. </p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"819179346459.01.svg\"/></div><p>ضع باقي الخطوات في الترتيب الصحيح.</p>",
+        "direction": "vertical",
+        "items": [
+          {
+            "value": "أخرج الترمومتر من الفم وانظر القراءة.",
+            "display_order": 1
+          },
+          {
+            "value": "ضع الترمومتر تحت اللسان لمدَّة <span class=\"merge\"><span>دقيقة واحدة</span>.</span>",
+            "display_order": 2
+          },
+          {
+            "value": "هُزَّ الترمومتر.",
+            "display_order": 3
+          },
+          {
+            "value": "عقِّم الترمومتر.",
+            "display_order": 4
+          },
+          {
+            "value": "جفِّف الترمومتر.",
+            "display_order": 5
+          }
+        ],
+        "correct_answer": [
+          "جفِّف الترمومتر.",
+          "هُزَّ الترمومتر.",
+          "ضع الترمومتر تحت اللسان لمدَّة <span class=\"merge\"><span>دقيقة واحدة</span>.</span>",
+          "أخرج الترمومتر من الفم وانظر القراءة.",
+          "عقِّم الترمومتر."
+        ],
+        "explanation": null
+      }
+    ]
+  }
+}

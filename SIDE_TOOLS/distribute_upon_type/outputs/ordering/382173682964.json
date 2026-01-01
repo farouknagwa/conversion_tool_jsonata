@@ -1,0 +1,66 @@
+{
+  "question_id": "382173682964",
+  "parent_id": "382173682964",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Connect Plus",
+  "subject_id": "123456789012",
+  "grade": "4",
+  "grade_id": "123456789012",
+  "number_of_parts": 1,
+  "section_id": "424161237038",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "ordering",
+        "stem": "<p><span style=\"color: rgb(0, 0, 0); white-space: pre-wrap;\">Put the words in the correct order to form a sentence.</span></p>",
+        "direction": "horizontal",
+        "items": [
+          {
+            "value": "<p><span style=\"white-space: pre-wrap;\">she</span></p>",
+            "display_order": 1,
+            "correct_order": 2
+          },
+          {
+            "value": "<p><span style=\"white-space: pre-wrap;\">as</span></p>",
+            "display_order": 2,
+            "correct_order": 5
+          },
+          {
+            "value": "<p><span style=\"white-space: pre-wrap;\">a copyeditor?</span></p>",
+            "display_order": 3,
+            "correct_order": 6
+          },
+          {
+            "value": "<p><span style=\"white-space: pre-wrap;\">ever</span></p>",
+            "display_order": 4,
+            "correct_order": 3
+          },
+          {
+            "value": "<p><span style=\"white-space: pre-wrap;\">Has</span></p>",
+            "display_order": 5,
+            "correct_order": 1
+          },
+          {
+            "value": "<p><span style=\"white-space: pre-wrap;\">worked</span></p>",
+            "display_order": 6,
+            "correct_order": 4
+          }
+        ],
+        "correct_answer": [
+          "<p><span style=\"white-space: pre-wrap;\">Has</span></p>",
+          "<p><span style=\"white-space: pre-wrap;\">she</span></p>",
+          "<p><span style=\"white-space: pre-wrap;\">ever</span></p>",
+          "<p><span style=\"white-space: pre-wrap;\">worked</span></p>",
+          "<p><span style=\"white-space: pre-wrap;\">as</span></p>",
+          "<p><span style=\"white-space: pre-wrap;\">a copyeditor?</span></p>"
+        ],
+        "explanation": null
+      }
+    ]
+  }
+}

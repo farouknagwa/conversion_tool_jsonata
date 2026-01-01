@@ -1,0 +1,55 @@
+{
+  "question_id": "652157174132",
+  "parent_id": "652157174132",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "zz",
+  "country": "ZZ",
+  "subject": "Science",
+  "subject_id": "250135489649",
+  "grade": "5",
+  "grade_id": "837170567976",
+  "number_of_parts": 1,
+  "section_id": "428109870575",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "ordering",
+        "stem": "<p>Put the steps of urine formation and excretion in the correct order.</p>",
+        "direction": "vertical",
+        "items": [
+          {
+            "value": "Urine is released to the outside.",
+            "display_order": 1
+          },
+          {
+            "value": "Urine is stored temporarily in the bladder.",
+            "display_order": 2
+          },
+          {
+            "value": "Blood containing harmful nitrogenous wastes is carried to the kidneys.",
+            "display_order": 3
+          },
+          {
+            "value": "Excretory materials are transferred from the kidneys to the bladder.",
+            "display_order": 4
+          },
+          {
+            "value": "Wastes are filtered from the blood.",
+            "display_order": 5
+          }
+        ],
+        "correct_answer": [
+          "Blood containing harmful nitrogenous wastes is carried to the kidneys.",
+          "Wastes are filtered from the blood.",
+          "Excretory materials are transferred from the kidneys to the bladder.",
+          "Urine is stored temporarily in the bladder.",
+          "Urine is released to the outside."
+        ],
+        "explanation": null
+      }
+    ]
+  }
+}

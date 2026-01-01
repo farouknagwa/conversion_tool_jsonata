@@ -1,0 +1,43 @@
+{
+  "question_id": "514102526509",
+  "parent_id": "514102526509",
+  "language_code": "it",
+  "language": "Italian",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Italiano",
+  "subject_id": "123456789012",
+  "grade": "12",
+  "grade_id": "123456789012",
+  "number_of_parts": 1,
+  "section_id": "426109162749",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "opinion",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">Tu come proteggi l’ambiente?</span></p>",
+        "choices": [
+          {
+            "label": "A",
+            "value": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"402183242126\" class=\"displayed-image\" height=\"159.99786512955995\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/593120838386.jpg\" style=\"aspect-ratio: 200/159.99786512955995;\" width=\"200\"/></span><span style=\"white-space: pre-wrap;\">Uso i mezzi pubblici</span></p>"
+          },
+          {
+            "label": "B",
+            "value": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"630121517186\" class=\"displayed-image\" height=\"159.99786512955995\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/310107024785.jpg\" style=\"aspect-ratio: 200/159.99786512955995;\" width=\"200\"/></span><span style=\"white-space: pre-wrap;\">Uso lampadine a basso</span></p><p><span style=\"white-space: pre-wrap;\">consumo</span></p>"
+          },
+          {
+            "label": "C",
+            "value": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"870192948987\" class=\"displayed-image\" height=\"159.99786512955995\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/686131481607.jpg\" style=\"aspect-ratio: 200/159.99786512955995;\" width=\"200\"/></span><span style=\"white-space: pre-wrap;\">Faccio la raccolta</span></p><p><span style=\"white-space: pre-wrap;\">differenziata</span></p>"
+          },
+          {
+            "label": "D",
+            "value": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"348101956525\" class=\"displayed-image\" height=\"159.99786512955995\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/802198978372.jpg\" style=\"aspect-ratio: 200/159.99786512955995;\" width=\"200\"/></span><span style=\"white-space: pre-wrap;\">Cerco di usare poca acqua</span></p>"
+          }
+        ],
+        "explanation": null
+      }
+    ]
+  }
+}

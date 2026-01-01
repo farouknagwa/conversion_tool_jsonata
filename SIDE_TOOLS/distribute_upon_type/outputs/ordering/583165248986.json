@@ -1,0 +1,50 @@
+{
+  "question_id": "583165248986",
+  "parent_id": "216134267605",
+  "language_code": "ar",
+  "language": "Arabic",
+  "country_code": "zz",
+  "country": "ZZ",
+  "subject": "العلوم",
+  "subject_id": "125142764527",
+  "grade": "4",
+  "grade_id": "616145068630",
+  "number_of_parts": 1,
+  "section_id": "827158484313",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "ordering",
+        "stem": "<p>يُصدِر هذا الكمان صوتًا عذبًا.<div class=\"h-scroll\"><img class=\"displayed-image\" src=\"583165248986.01.svg\"/></div></p><p>رتِّب خطوات إصدار الصوت وسماعه.</p>",
+        "direction": "vertical",
+        "items": [
+          {
+            "value": "يَصدُر الصوت بسبب الاهتزاز.",
+            "display_order": 1
+          },
+          {
+            "value": "يهتزُّ الوتر.",
+            "display_order": 2
+          },
+          {
+            "value": "يَصِل الصوت إلى الأذن ليُسمَع.",
+            "display_order": 3
+          },
+          {
+            "value": "يحرِّك الشخص وتر الكمان.",
+            "display_order": 4
+          }
+        ],
+        "correct_answer": [
+          "يحرِّك الشخص وتر الكمان.",
+          "يهتزُّ الوتر.",
+          "يَصدُر الصوت بسبب الاهتزاز.",
+          "يَصِل الصوت إلى الأذن ليُسمَع."
+        ],
+        "explanation": null
+      }
+    ]
+  }
+}

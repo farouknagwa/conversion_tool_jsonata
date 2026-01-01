@@ -1,0 +1,55 @@
+{
+  "question_id": "946146021984",
+  "parent_id": "946146021984",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "zz",
+  "country": "ZZ",
+  "subject": "Science",
+  "subject_id": "250135489649",
+  "grade": "5",
+  "grade_id": "837170567976",
+  "number_of_parts": 1,
+  "section_id": "456143458435",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "ordering",
+        "stem": "<p>Soil fertility of different types of soil can be measured.</p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"946146021984.01.svg\"/></div><p>Put the method in order.</p>",
+        "direction": "vertical",
+        "items": [
+          {
+            "value": "Measure the amount of humus to find out soil fertility.",
+            "display_order": 1
+          },
+          {
+            "value": "Put equal samples of the different types of soil in three equal-sized cylinders so that each has only one type of soil.",
+            "display_order": 2
+          },
+          {
+            "value": "Shake each cylinder to mix the soil and water thoroughly.",
+            "display_order": 3
+          },
+          {
+            "value": "Add an equal amount of water to each cylinder.",
+            "display_order": 4
+          },
+          {
+            "value": "Allow the mixture to settle into separate layers.",
+            "display_order": 5
+          }
+        ],
+        "correct_answer": [
+          "Put equal samples of the different types of soil in three equal-sized cylinders so that each has only one type of soil.",
+          "Add an equal amount of water to each cylinder.",
+          "Shake each cylinder to mix the soil and water thoroughly.",
+          "Allow the mixture to settle into separate layers.",
+          "Measure the amount of humus to find out soil fertility."
+        ],
+        "explanation": null
+      }
+    ]
+  }
+}

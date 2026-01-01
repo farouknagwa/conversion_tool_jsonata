@@ -1,0 +1,50 @@
+{
+  "question_id": "948128191508",
+  "parent_id": "948128191508",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "zz",
+  "country": "ZZ",
+  "subject": "Science",
+  "subject_id": "250135489649",
+  "grade": "5",
+  "grade_id": "837170567976",
+  "number_of_parts": 1,
+  "section_id": "876130735707",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "ordering",
+        "stem": "<p>Put the stages of sexual reproduction in animals in the correct order.</p>",
+        "direction": "vertical",
+        "items": [
+          {
+            "value": "The sperm joins the egg.",
+            "display_order": 1
+          },
+          {
+            "value": "The embryo develops into a baby animal.",
+            "display_order": 2
+          },
+          {
+            "value": "An embryo is formed.",
+            "display_order": 3
+          },
+          {
+            "value": "The sperm meets the egg.",
+            "display_order": 4
+          }
+        ],
+        "correct_answer": [
+          "The sperm meets the egg.",
+          "The sperm joins the egg.",
+          "An embryo is formed.",
+          "The embryo develops into a baby animal."
+        ],
+        "explanation": null
+      }
+    ]
+  }
+}

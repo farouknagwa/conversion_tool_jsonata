@@ -1,0 +1,45 @@
+{
+  "question_id": "540168361043",
+  "parent_id": "540168361043",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "zz",
+  "country": "ZZ",
+  "subject": "Science",
+  "subject_id": "736170238984",
+  "grade": "3",
+  "grade_id": "302134381873",
+  "number_of_parts": 1,
+  "section_id": "512183486947",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "ordering",
+        "stem": "<p>Match the names of the magnets with their shapes in the correct order. <div class=\"h-scroll\"><img class=\"displayed-image\" src=\"540168361043.01.svg\"/></div></p>",
+        "direction": "vertical",
+        "items": [
+          {
+            "value": "Ring magnet",
+            "display_order": 1
+          },
+          {
+            "value": "Horseshoe magnet",
+            "display_order": 2
+          },
+          {
+            "value": "Bar magnet",
+            "display_order": 3
+          }
+        ],
+        "correct_answer": [
+          "Horseshoe magnet",
+          "Bar magnet",
+          "Ring magnet"
+        ],
+        "explanation": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "question_id": "105125342748",
+  "parent_id": "105125342748",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "zz",
+  "country": "ZZ",
+  "subject": "Science",
+  "subject_id": "828197025630",
+  "grade": "6",
+  "grade_id": "612152797413",
+  "number_of_parts": 1,
+  "section_id": "815156851757",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "ordering",
+        "stem": "<p>Put the steps for taking your pulse in the correct order.</p>",
+        "direction": "vertical",
+        "items": [
+          {
+            "value": "Take the pulse using the artery in your wrist or the artery in your neck.",
+            "display_order": 1
+          },
+          {
+            "value": "Rest for several minutes before taking the pulse.",
+            "display_order": 2
+          },
+          {
+            "value": "Count the pulse for a full <span class=\"merge\"><span class=\"merge no_margin\">60 seconds</span>.</span>",
+            "display_order": 3
+          }
+        ],
+        "correct_answer": [
+          "Rest for several minutes before taking the pulse.",
+          "Take the pulse using the artery in your wrist or the artery in your neck.",
+          "Count the pulse for a full <span class=\"merge\"><span class=\"merge no_margin\">60 seconds</span>.</span>"
+        ],
+        "explanation": null
+      }
+    ]
+  }
+}

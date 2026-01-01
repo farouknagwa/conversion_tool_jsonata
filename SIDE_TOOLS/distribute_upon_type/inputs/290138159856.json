@@ -1,0 +1,113 @@
+{
+  "question_id": "290138159856",
+  "parent_id": "290138159856",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Mathematics",
+  "subject_id": "972191941014",
+  "grade": "3",
+  "grade_id": "923158968214",
+  "number_of_parts": 3,
+  "section_id": "652137171052",
+  "source": "human",
+  "content": {
+    "statement": "<p>Look at the number line. <div class=\"h-scroll\"><img class=\"displayed-image\" src=\"290138159856.03.svg\"/></div></p>",
+    "parts": [
+      {
+        "n": 1,
+        "type": "input",
+        "stem": "<p>What number is represented by <span class=\"LexicalTheme__image LexicalTheme__image--inline h-scroll\" data-node-type=\"image\" data-node-variation=\"inline\" style=\"vertical-align:-8.56720464761052pt\"><img alt=\"290138159856.2\" height=\"41.323\" src=\"290138159856.02.svg\" style=\"aspect-ratio: 41.323/41.323;\" width=\"41.323\"/></span>?</p>",
+        "correct_answer": {
+          "value": 6000,
+          "unit": null,
+          "constraints": {
+            "type": "integer",
+            "answer_format": {
+              "number_format": "arabic",
+              "contains_thousand_separator": true
+            },
+            "allow_leading_zeros": false,
+            "allow_trailing_zeros": false,
+            "sign": "canBeExplicitOrImplicit",
+            "remove_leading_zeros_from_normalized_form": true,
+            "remove_trailing_zeros_from_normalized_form": true,
+            "add_single_leading_zero_to_normalized_form": false,
+            "remove_trailing_decimal_point_from_normalized_form": false,
+            "normalize_sign": "notSet",
+            "must_have_no_more_than_nsf": null,
+            "must_have_at_least_nsf": null,
+            "must_have_exactly_nsf": null,
+            "must_have_at_least_ndp": null,
+            "must_have_no_more_than_ndp": null,
+            "must_have_exactly_ndp": null
+          }
+        },
+        "explanation": null
+      },
+      {
+        "n": 2,
+        "type": "input",
+        "stem": "<p>What number is represented by <span class=\"LexicalTheme__image LexicalTheme__image--inline h-scroll\" data-node-type=\"image\" data-node-variation=\"inline\" style=\"vertical-align:-12.2549953056896pt\"><img alt=\"290138159856.3\" height=\"55.986\" src=\"290138159856.05.svg\" style=\"aspect-ratio: 58.652/55.986;\" width=\"58.652\"/></span>?</p>",
+        "correct_answer": {
+          "value": 3000,
+          "unit": null,
+          "constraints": {
+            "type": "integer",
+            "answer_format": {
+              "number_format": "arabic",
+              "contains_thousand_separator": true
+            },
+            "allow_leading_zeros": false,
+            "allow_trailing_zeros": false,
+            "sign": "canBeExplicitOrImplicit",
+            "remove_leading_zeros_from_normalized_form": true,
+            "remove_trailing_zeros_from_normalized_form": true,
+            "add_single_leading_zero_to_normalized_form": false,
+            "remove_trailing_decimal_point_from_normalized_form": false,
+            "normalize_sign": "notSet",
+            "must_have_no_more_than_nsf": null,
+            "must_have_at_least_nsf": null,
+            "must_have_exactly_nsf": null,
+            "must_have_at_least_ndp": null,
+            "must_have_no_more_than_ndp": null,
+            "must_have_exactly_ndp": null
+          }
+        },
+        "explanation": null
+      },
+      {
+        "n": 3,
+        "type": "input",
+        "stem": "<p>What number is represented by <span class=\"LexicalTheme__image LexicalTheme__image--inline h-scroll\" data-node-type=\"image\" data-node-variation=\"inline\" style=\"vertical-align:-15.5934727194894pt\"><img alt=\"290138159856.4\" height=\"45.321999999999996\" src=\"290138159856.01.svg\" style=\"aspect-ratio: 63.983999999999995/45.321999999999996;\" width=\"63.983999999999995\"/></span>?</p>",
+        "correct_answer": {
+          "value": 1000,
+          "unit": null,
+          "constraints": {
+            "type": "integer",
+            "answer_format": {
+              "number_format": "arabic",
+              "contains_thousand_separator": true
+            },
+            "allow_leading_zeros": false,
+            "allow_trailing_zeros": false,
+            "sign": "canBeExplicitOrImplicit",
+            "remove_leading_zeros_from_normalized_form": true,
+            "remove_trailing_zeros_from_normalized_form": true,
+            "add_single_leading_zero_to_normalized_form": false,
+            "remove_trailing_decimal_point_from_normalized_form": false,
+            "normalize_sign": "notSet",
+            "must_have_no_more_than_nsf": null,
+            "must_have_at_least_nsf": null,
+            "must_have_exactly_nsf": null,
+            "must_have_at_least_ndp": null,
+            "must_have_no_more_than_ndp": null,
+            "must_have_exactly_ndp": null
+          }
+        },
+        "explanation": null
+      }
+    ]
+  }
+}

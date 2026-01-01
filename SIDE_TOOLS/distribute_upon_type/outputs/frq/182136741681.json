@@ -1,0 +1,29 @@
+{
+  "question_id": "182136741681",
+  "parent_id": "182136741681",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Science",
+  "subject_id": "123456789012",
+  "grade": "4",
+  "grade_id": "123456789012",
+  "number_of_parts": 1,
+  "section_id": "486138475278",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "frq",
+        "stem": "<p><span style=\"white-space: pre-line;\">What is meant by gravity?</span></p>",
+        "ai_template_id": "352108393701",
+        "acceptable_answers": [
+          "<p><span style=\"white-space: pre-line;\">The force that pulls objects towards the center of the Earth.</span></p>"
+        ],
+        "explanation": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "question_id": "943168489342",
+  "parent_id": "218154382802",
+  "language_code": "ar",
+  "language": "Arabic",
+  "country_code": "zz",
+  "country": "ZZ",
+  "subject": "العلوم",
+  "subject_id": "862194150479",
+  "grade": "5",
+  "grade_id": "837170567976",
+  "number_of_parts": 1,
+  "section_id": "496146065019",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "ordering",
+        "stem": "<p>يمتلك رامي كرسيَيْن. كرسي به عجلات، والآخر ليس به عجلات.</p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"943168489342.01.svg\"/></div><p>رتِّب هذه الجمل ترتيبًا صحيحًا لتكوين جملة صحيحة.</p>",
+        "direction": "vertical",
+        "items": [
+          {
+            "value": "الذي ليس به عجلات من الصعب دفعه على الأرض",
+            "display_order": 1
+          },
+          {
+            "value": "بينما الكرسي",
+            "display_order": 2
+          },
+          {
+            "value": "لأن الاحتكاك بينه وبين الأرض يكون أقل.",
+            "display_order": 3
+          },
+          {
+            "value": "من السهل دفعه على الأرض",
+            "display_order": 4
+          },
+          {
+            "value": "الكرسي",
+            "display_order": 5
+          },
+          {
+            "value": "الذي به عجلات",
+            "display_order": 6
+          }
+        ],
+        "correct_answer": [
+          "الكرسي",
+          "الذي به عجلات",
+          "من السهل دفعه على الأرض",
+          "بينما الكرسي",
+          "الذي ليس به عجلات من الصعب دفعه على الأرض",
+          "لأن الاحتكاك بينه وبين الأرض يكون أقل."
+        ],
+        "explanation": null
+      }
+    ]
+  }
+}

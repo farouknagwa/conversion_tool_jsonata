@@ -58,9 +58,9 @@
     "stem": part.stem,
     "items": {
       "A": [$itemsA],
-      "B": [$itemsB],
-      "correct_answer": [$correctAnswers]
+      "B": [$itemsB]
     },
+    "correct_answer": [$correctAnswers],
     "explanation": explanation
   }
 )

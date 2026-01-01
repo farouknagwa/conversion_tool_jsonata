@@ -1,0 +1,70 @@
+{
+  "question_id": "164151671274",
+  "parent_id": "164151671274",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "zz",
+  "country": "ZZ",
+  "subject": "Science",
+  "subject_id": "250135489649",
+  "grade": "5",
+  "grade_id": "837170567976",
+  "number_of_parts": 1,
+  "section_id": "642180694738",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "ordering",
+        "stem": "<p>Order the planets by their distance from the Sun, from closest to farthest.</p>",
+        "direction": "vertical",
+        "items": [
+          {
+            "value": "Mars",
+            "display_order": 1
+          },
+          {
+            "value": "Venus",
+            "display_order": 2
+          },
+          {
+            "value": "Uranus",
+            "display_order": 3
+          },
+          {
+            "value": "Mercury",
+            "display_order": 4
+          },
+          {
+            "value": "Jupiter",
+            "display_order": 5
+          },
+          {
+            "value": "Earth",
+            "display_order": 6
+          },
+          {
+            "value": "Saturn",
+            "display_order": 7
+          },
+          {
+            "value": "Neptune",
+            "display_order": 8
+          }
+        ],
+        "correct_answer": [
+          "Mercury",
+          "Venus",
+          "Earth",
+          "Mars",
+          "Jupiter",
+          "Saturn",
+          "Uranus",
+          "Neptune"
+        ],
+        "explanation": null
+      }
+    ]
+  }
+}

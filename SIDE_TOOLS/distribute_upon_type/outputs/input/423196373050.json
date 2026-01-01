@@ -1,0 +1,50 @@
+{
+  "question_id": "423196373050",
+  "parent_id": "727152302358",
+  "language_code": "ar",
+  "language": "Arabic",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "الرياضيات",
+  "subject_id": "919174538509",
+  "grade": "7",
+  "grade_id": "464173946403",
+  "number_of_parts": 1,
+  "section_id": "465132308587",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "input",
+        "stem": "<p class=\"LexicalTheme__paragraph\" dir=\"rtl\"><span style=\"white-space: pre-wrap;\">قيمة لوح تزلُّج </span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"4,200\" locale=\"en\">4,200</math-field></span><span style=\"white-space: pre-wrap;\"> جنيه مصري دون إضافة ضريبة المبيعات. </span><span style=\"white-space: pre-wrap;\">ما سعر لوح التزلُّج بعد إضافة </span><span style=\"white-space: pre-wrap;\">ضريبة المبيعات؛ وهي </span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" value=\"24\\%\" locale=\"ar\" lang=\"ar\">24\\%</math-field></span><span style=\"white-space: pre-wrap;\">؟</span></p>",
+        "correct_answer": {
+          "value": 5208,
+          "unit": "جنيهات مصرية",
+          "constraints": {
+            "type": "integer",
+            "answer_format": {
+              "number_format": "arabic",
+              "contains_thousand_separator": true
+            },
+            "allow_leading_zeros": false,
+            "allow_trailing_zeros": false,
+            "sign": "canBeExplicitOrImplicit",
+            "remove_leading_zeros_from_normalized_form": true,
+            "remove_trailing_zeros_from_normalized_form": true,
+            "add_single_leading_zero_to_normalized_form": false,
+            "remove_trailing_decimal_point_from_normalized_form": false,
+            "normalize_sign": "notSet",
+            "must_have_no_more_than_nsf": null,
+            "must_have_at_least_nsf": null,
+            "must_have_exactly_nsf": null,
+            "must_have_at_least_ndp": null,
+            "must_have_no_more_than_ndp": null,
+            "must_have_exactly_ndp": null
+          }
+        },
+        "explanation": null
+      }
+    ]
+  }
+}

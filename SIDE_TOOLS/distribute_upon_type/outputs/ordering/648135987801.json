@@ -1,0 +1,50 @@
+{
+  "question_id": "648135987801",
+  "parent_id": "648135987801",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "zz",
+  "country": "ZZ",
+  "subject": "Science",
+  "subject_id": "418143869295",
+  "grade": "2",
+  "grade_id": "108127568584",
+  "number_of_parts": 1,
+  "section_id": "310125714936",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "ordering",
+        "stem": "<p>Put the parts of the flowering plant through which water is transported in order.</p>",
+        "direction": "vertical",
+        "items": [
+          {
+            "value": "Roots",
+            "display_order": 1
+          },
+          {
+            "value": "Leaves",
+            "display_order": 2
+          },
+          {
+            "value": "Stem",
+            "display_order": 3
+          },
+          {
+            "value": "Flower",
+            "display_order": 4
+          }
+        ],
+        "correct_answer": [
+          "Roots",
+          "Stem",
+          "Leaves",
+          "Flower"
+        ],
+        "explanation": null
+      }
+    ]
+  }
+}

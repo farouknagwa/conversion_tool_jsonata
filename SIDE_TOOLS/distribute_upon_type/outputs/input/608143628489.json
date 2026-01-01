@@ -1,0 +1,50 @@
+{
+  "question_id": "608143628489",
+  "parent_id": "458160185752",
+  "language_code": "ar",
+  "language": "Arabic",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "الرياضيات",
+  "subject_id": "846131028308",
+  "grade": "5",
+  "grade_id": "675125694625",
+  "number_of_parts": 1,
+  "section_id": "980143243672",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "input",
+        "stem": "<p>اشترت رانيا عبوة سكر وزنها <span class=\"merge\"><span class=\"merge no_margin\" dir=\"rtl\">8 كيلوجرامات</span>. </span>إذا كان <span dir=\"rtl\">كيلوجرام واحد</span> يساوي <span class=\"merge\"><span class=\"merge no_margin\" dir=\"rtl\"><span class=\"no_margin merge\">1,000</span> جرام</span>، </span>فكم <span dir=\"rtl\">جرام</span> سكر في العبوة؟</p>",
+        "correct_answer": {
+          "value": 8000,
+          "unit": "<span class=\"merge no_margin\" dir=\"rtl\">جرام</span>",
+          "constraints": {
+            "type": "integer",
+            "answer_format": {
+              "number_format": "arabic",
+              "contains_thousand_separator": true
+            },
+            "allow_leading_zeros": false,
+            "allow_trailing_zeros": false,
+            "sign": "canBeExplicitOrImplicit",
+            "remove_leading_zeros_from_normalized_form": true,
+            "remove_trailing_zeros_from_normalized_form": true,
+            "add_single_leading_zero_to_normalized_form": false,
+            "remove_trailing_decimal_point_from_normalized_form": false,
+            "normalize_sign": "notSet",
+            "must_have_no_more_than_nsf": null,
+            "must_have_at_least_nsf": null,
+            "must_have_exactly_nsf": null,
+            "must_have_at_least_ndp": null,
+            "must_have_no_more_than_ndp": null,
+            "must_have_exactly_ndp": null
+          }
+        },
+        "explanation": "<p>اشترت فريدة عبوة السكر وزنها <span class=\"merge\"><span class=\"merge no_margin\" dir=\"rtl\">8 كجم</span>.</span> وعلينا معرفة كم <span dir=\"rtl\">جرام</span> من السكر في العبوة.</p><p>بما أن <span class=\"merge\"><svg style=\"vertical-align:-6.0373599003736pt\" width=\"99pt\" height=\"16pt\" viewBox=\"-1 0 99 16\" direction=\"ltr\" xmlns=\"http://www.w3.org/2000/svg\"><g font-family=\"Noto\" font-size=\"13.5\"><text y=\"9.963\" x=\"7.099\">ﺟ</text><text y=\"9.963\" x=\".007\">ﻢ</text><text y=\"9.963\" x=\"81.103\">ﻛ</text><text y=\"9.963\" x=\"72.154\">ﺠ</text><text y=\"9.963\" x=\"65.059\">ﻢ</text></g><g font-family=\"NagwaMath\" font-size=\"13.5\"><text y=\"9.963\" x=\"17.891\">1</text><text y=\"9.963\" x=\"24.549\">,</text><text y=\"9.963\" x=\"27.924\">0</text><text y=\"9.963\" x=\"34.582\">0</text><text y=\"9.963\" x=\"41.239\">0</text><text y=\"9.963\" x=\"51.622\">=</text><text y=\"9.963\" x=\"89.833\">1</text></g></svg>، </span>إذن فلتحويل <span dir=\"rtl\">كيلوجرام</span> إلى <span dir=\"rtl\">جرام</span> نضرب في <span class=\"merge\"><span class=\"no_margin merge\">1,000</span>. </span></p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"608143628489.01.svg\" /></div><p>بما أن <span class=\"merge\"><svg style=\"vertical-align:-4.0373599003736pt\" width=\"101pt\" height=\"14pt\" viewBox=\"-1 0 101 14\" direction=\"ltr\" xmlns=\"http://www.w3.org/2000/svg\"><g font-family=\"NagwaMath\" font-size=\"13.5\"><text y=\"9.963\">8</text><text y=\"9.963\" x=\"9.643\">×</text><text y=\"9.963\" x=\"21.439\">1</text><text y=\"9.963\" x=\"28.096\">,</text><text y=\"9.963\" x=\"31.472\">0</text><text y=\"9.963\" x=\"38.13\">0</text><text y=\"9.963\" x=\"44.787\">0</text><text y=\"9.963\" x=\"55.184\">=</text><text y=\"9.963\" x=\"68.606\">8</text><text y=\"9.963\" x=\"75.264\">,</text><text y=\"9.963\" x=\"78.64\">0</text><text y=\"9.963\" x=\"85.297\">0</text><text y=\"9.963\" x=\"91.955\">0</text></g></svg>: </span><svg width=\"130.924\" height=\"17.271\" viewBox=\"346.979 271.115 98.193 12.953\" direction=\"ltr\" class=\"displayed_equation\" xmlns=\"http://www.w3.org/2000/svg\"><g font-family=\"STIX2\" font-size=\"13.5\"><text y=\"280.099\" x=\"370.884\">8</text></g><g font-family=\"Noto\" font-size=\"13.5\"><text y=\"280.099\" x=\"362.148\">ﻛ</text><text y=\"280.099\" x=\"353.199\">ﺠ</text><text y=\"280.099\" x=\"346.104\">ﻢ</text><text y=\"280.099\" x=\"401.796\">ﺟ</text><text y=\"280.099\" x=\"394.704\">ﻢ</text></g><g font-family=\"NagwaMath\" font-size=\"13.5\"><text y=\"280.099\" x=\"381.277\">=</text><text y=\"280.099\" x=\"412.588\">8</text><text y=\"280.099\" x=\"419.246\">,</text><text y=\"280.099\" x=\"422.621\">0</text><text y=\"280.099\" x=\"429.279\">0</text><text y=\"280.099\" x=\"435.936\">0</text><text y=\"280.099\" x=\"442.594\">.</text></g></svg></p><p>إذن اشترت فريدة عبوة من السكر وزنها <span class=\"merge\"><span class=\"merge no_margin\" dir=\"rtl\"><span class=\"no_margin merge\">8,000</span> جم</span>.</span></p>"
+      }
+    ]
+  }
+}

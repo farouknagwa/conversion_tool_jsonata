@@ -1,0 +1,30 @@
+{
+  "question_id": "392158053614",
+  "parent_id": "289152482561",
+  "language_code": "ar",
+  "language": "Arabic",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "الرياضيات",
+  "subject_id": "123456789012",
+  "grade": "1",
+  "grade_id": "123456789012",
+  "number_of_parts": 1,
+  "section_id": "970194294617",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "counting",
+        "stem": "<p>وضِّح هذا العدد باستخدام قِطَع العدِّ في إطار الخمسة.</p><p></p><p></p><div class=\"h-scroll\" dir=\"rtl\" style=\"text-align: center;\"><img alt=\"صورة السؤال\" class=\"displayed-image\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/872106591732.svg\" style=\"width: 58.3302px;height: 120px;\"/></div><div class=\"audio-wrapper\" dir=\"\" style=\"text-align: ;\"><audio class=\"audio-player\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/813154820852.mp3\"></audio></div>",
+        "grid": {
+          "rows": 1,
+          "columns": 5
+        },
+        "correct_answer": 3,
+        "explanation": null
+      }
+    ]
+  }
+}

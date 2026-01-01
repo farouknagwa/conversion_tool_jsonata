@@ -136,6 +136,8 @@ def _validate_part(part: Dict[str, Any], part_number: int, total_parts: int) -> 
         errors.extend(_validate_input_part(part, part_number))
     elif part_type == 'matching':
         errors.extend(_validate_matching_part(part, part_number))
+    elif part_type == 'gmrq':
+        errors.extend(_validate_gmrq_part(part, part_number))
     elif part_type == 'mcq':
         errors.extend(_validate_mcq_part(part, part_number))
     elif part_type == 'mrq':
@@ -242,7 +244,10 @@ def _validate_input_part(part: Dict[str, Any], part_number: int) -> List[str]:
 def _validate_matching_part(part: Dict[str, Any], part_number: int) -> List[str]:
     """Validate matching type part"""
     errors = []
-    
+
+    if 'correct_answer' not in part:
+        errors.append(f"Part {part_number} (matching): Missing 'correct_answer'")        
+
     if 'items' not in part:
         errors.append(f"Part {part_number} (matching): Missing 'items'")
     elif isinstance(part['items'], dict):
@@ -250,8 +255,24 @@ def _validate_matching_part(part: Dict[str, Any], part_number: int) -> List[str]
             errors.append(f"Part {part_number} (matching): 'items.A' is required")
         if 'B' not in part['items']:
             errors.append(f"Part {part_number} (matching): 'items.B' is required")
-        if 'correct_answer' not in part['items']:
-            errors.append(f"Part {part_number} (matching): 'items.correct_answer' is required")
+    
+    return errors
+
+
+def _validate_gmrq_part(part: Dict[str, Any], part_number: int) -> List[str]:
+    """Validate gmrq type part"""
+    errors = []
+
+    if 'correct_answer' not in part:
+        errors.append(f"Part {part_number} (gmrq): Missing 'correct_answer'")        
+
+    if 'items' not in part:
+        errors.append(f"Part {part_number} (gmrq): Missing 'items'")
+    elif isinstance(part['items'], dict):
+        if 'A' not in part['items']:
+            errors.append(f"Part {part_number} (gmrq): 'items.A' is required")
+        if 'B' not in part['items']:
+            errors.append(f"Part {part_number} (gmrq): 'items.B' is required")
     
     return errors
 

@@ -1,0 +1,45 @@
+{
+  "question_id": "732131241646",
+  "parent_id": "732131241646",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "zz",
+  "country": "ZZ",
+  "subject": "Science",
+  "subject_id": "250135489649",
+  "grade": "5",
+  "grade_id": "837170567976",
+  "number_of_parts": 1,
+  "section_id": "572168752385",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "ordering",
+        "stem": "<p> Emma mixes sand, salt, iron ball bearings, and water.</p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"732131241646.01.svg\"/></div><p>She wants to separate them in the following order:</p><ol type=\"1\"><li>The iron ball bearings</li><li>The sand</li><li>The salt</li></ol><p>Put the methods in the correct order to separate Emma&rsquo;s mixture as she wants.</p>",
+        "direction": "vertical",
+        "items": [
+          {
+            "value": "Magnetic attraction",
+            "display_order": 1
+          },
+          {
+            "value": "Evaporation",
+            "display_order": 2
+          },
+          {
+            "value": "Filtration",
+            "display_order": 3
+          }
+        ],
+        "correct_answer": [
+          "Magnetic attraction",
+          "Filtration",
+          "Evaporation"
+        ],
+        "explanation": null
+      }
+    ]
+  }
+}

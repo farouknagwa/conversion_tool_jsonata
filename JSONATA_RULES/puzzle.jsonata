@@ -7,7 +7,8 @@
     {
       "display_order": $piece.fixed_order,
       "correct_order": $piece.correct_order,
-      "src": $piece.src
+      "src": $piece.src,
+      "alt": ""
     }
   });
   
@@ -19,7 +20,10 @@
     "rows": part.puzzleRows,
     "columns": part.puzzleColumns,
     "pieces": [$pieces],
-    "correct_answer": part.puzzleImage
+    "correct_answer": {
+      "src": part.puzzleImage,
+      "alt": ""
+      }
   }
 )
 

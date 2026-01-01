@@ -1,0 +1,50 @@
+{
+  "question_id": "457192384650",
+  "parent_id": "457192384650",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "zz",
+  "country": "ZZ",
+  "subject": "Science",
+  "subject_id": "250135489649",
+  "grade": "5",
+  "grade_id": "837170567976",
+  "number_of_parts": 1,
+  "section_id": "169140295968",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "ordering",
+        "stem": "<p>Fill in the blanks: Saprophytism is important for environmental <span class=\"merge\"><span data-node-type=\"blank-line\" data-node-variation=\"space\">&nbsp;</span>. </span>Without it, the bodies of dead organisms would remain without <span data-node-type=\"blank-line\" data-node-variation=\"space\">&nbsp;</span> and <span data-node-type=\"blank-line\" data-node-variation=\"space\">&nbsp;</span> would not be recycled for use by other <span class=\"merge\"><span data-node-type=\"blank-line\" data-node-variation=\"space\">&nbsp;</span>. </span></p><p>Put the words in the correct order to complete the paragraph.</p>",
+        "direction": "vertical",
+        "items": [
+          {
+            "value": "organisms",
+            "display_order": 1
+          },
+          {
+            "value": "decomposing",
+            "display_order": 2
+          },
+          {
+            "value": "nutrients",
+            "display_order": 3
+          },
+          {
+            "value": "balance",
+            "display_order": 4
+          }
+        ],
+        "correct_answer": [
+          "balance",
+          "decomposing",
+          "nutrients",
+          "organisms"
+        ],
+        "explanation": null
+      }
+    ]
+  }
+}

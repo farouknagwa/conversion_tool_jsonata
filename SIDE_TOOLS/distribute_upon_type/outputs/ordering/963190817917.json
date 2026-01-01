@@ -1,0 +1,55 @@
+{
+  "question_id": "963190817917",
+  "parent_id": "383176728187",
+  "language_code": "ar",
+  "language": "Arabic",
+  "country_code": "zz",
+  "country": "ZZ",
+  "subject": "العلوم",
+  "subject_id": "862194150479",
+  "grade": "5",
+  "grade_id": "837170567976",
+  "number_of_parts": 1,
+  "section_id": "896183458131",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "ordering",
+        "stem": "<p>يقارن رامي مدى سرعة ذوبان المواد المذابة المختلفة في الماء. لديه مادتان مُذابتان مختلفتان يريد اختبارهما: كلوريد الصوديوم وكربونات الصوديوم. يقيس مقدار <span class=\"merge no_margin\">٨٠ مل</span> من الماء في درجة حرارة الغرفة في كأسين.</p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"963190817917.01.svg\"/></div><p>رتِّب الخطوات الآتية ترتيبًا صحيحًا.</p>",
+        "direction": "vertical",
+        "items": [
+          {
+            "value": "يحسب الزمن الذي تستغرقه المادتين المُذابتين لكي تذوبا.",
+            "display_order": 1
+          },
+          {
+            "value": "يزن <span class=\"merge no_margin\">٥ جم</span> من كل مادة مُذابة.",
+            "display_order": 2
+          },
+          {
+            "value": "يسكب المادة المذابة الثانية في الكأس ٢.",
+            "display_order": 3
+          },
+          {
+            "value": "يحرك كلا الكأسين بالمعدل نفسه.",
+            "display_order": 4
+          },
+          {
+            "value": "يسكب المادة المذابة الأولى في الكأس ١.",
+            "display_order": 5
+          }
+        ],
+        "correct_answer": [
+          "يزن <span class=\"merge no_margin\">٥ جم</span> من كل مادة مُذابة.",
+          "يسكب المادة المذابة الأولى في الكأس ١.",
+          "يسكب المادة المذابة الثانية في الكأس ٢.",
+          "يحرك كلا الكأسين بالمعدل نفسه.",
+          "يحسب الزمن الذي تستغرقه المادتين المُذابتين لكي تذوبا."
+        ],
+        "explanation": null
+      }
+    ]
+  }
+}

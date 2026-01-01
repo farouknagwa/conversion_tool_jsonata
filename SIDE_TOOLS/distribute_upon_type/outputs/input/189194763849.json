@@ -1,0 +1,50 @@
+{
+  "question_id": "189194763849",
+  "parent_id": "890171974156",
+  "language_code": "ar",
+  "language": "Arabic",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "الرياضيات",
+  "subject_id": "846131028308",
+  "grade": "5",
+  "grade_id": "675125694625",
+  "number_of_parts": 1,
+  "section_id": "295167578453",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "input",
+        "stem": "<p><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{3{,}024\\times 23= \\textBlank }\">\\displaystyle{3{,}024\\times 23= \\textBlank }</math-field></span></p>",
+        "correct_answer": {
+          "value": 69552,
+          "unit": null,
+          "constraints": {
+            "type": "integer",
+            "answer_format": {
+              "number_format": "arabic",
+              "contains_thousand_separator": true
+            },
+            "allow_leading_zeros": false,
+            "allow_trailing_zeros": false,
+            "sign": "canBeExplicitOrImplicit",
+            "remove_leading_zeros_from_normalized_form": true,
+            "remove_trailing_zeros_from_normalized_form": true,
+            "add_single_leading_zero_to_normalized_form": false,
+            "remove_trailing_decimal_point_from_normalized_form": false,
+            "normalize_sign": "notSet",
+            "must_have_no_more_than_nsf": null,
+            "must_have_at_least_nsf": null,
+            "must_have_exactly_nsf": null,
+            "must_have_at_least_ndp": null,
+            "must_have_no_more_than_ndp": null,
+            "must_have_exactly_ndp": null
+          }
+        },
+        "explanation": "<p>علينا إيجاد حاصل الضرب الآتي:<svg width=\"80.053\" height=\"14.521\" viewBox=\"365.933 271.146 60.04 10.891\" direction=\"ltr\" class=\"displayed_equation\" xmlns=\"http://www.w3.org/2000/svg\"><g font-family=\"NagwaMath\" font-size=\"13.5\"><text y=\"280.099\" x=\"365.292\">3</text><text y=\"280.099\" x=\"371.95\">,</text><text y=\"280.099\" x=\"375.325\">0</text><text y=\"280.099\" x=\"381.983\">2</text><text y=\"280.099\" x=\"388.64\">4</text><text y=\"280.099\" x=\"398.284\">×</text><text y=\"280.099\" x=\"410.079\">2</text><text y=\"280.099\" x=\"416.737\">3</text><text y=\"280.099\" x=\"423.394\">.</text></g></svg></p><p>هناك العديد من الطرق لضرب الأعداد. سنستخدم الخوارزمية المعيارية: <svg width=\"220.99\" height=\"136.586\" viewBox=\"313.359 263.875 165.743 102.44\" direction=\"ltr\" class=\"displayed_equation\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M -0.00034375 0.00053125 L 56.5895 0.00053125\" transform=\"matrix(1,0,0,-1,324.348,310.106)\" fill=\"none\" stroke-width=\".398\" stroke=\"#000\" stroke-miterlimit=\"10\" /><path d=\"M -0.00034375 0.000875 L 56.5895 0.000875\" transform=\"matrix(1,0,0,-1,324.348,350.454)\" fill=\"none\" stroke-width=\".398\" stroke=\"#000\" stroke-miterlimit=\"10\" /><g font-family=\"NagwaMath\" font-size=\"13.5\"><text y=\"283.68\" x=\"336.983\">3</text><text y=\"283.68\" x=\"343.641\">,</text><text y=\"283.68\" x=\"350.997\">0</text><text y=\"283.68\" x=\"361.644\">2</text><text y=\"283.68\" x=\"372.287\">4</text><text y=\"303.854\" x=\"313.109\">×</text><text y=\"303.854\" x=\"361.635\">2</text><text y=\"303.854\" x=\"372.287\">3</text><text y=\"324.028\" x=\"336.983\">9</text><text y=\"324.028\" x=\"343.641\">,</text><text y=\"324.028\" x=\"350.997\">0</text><text y=\"324.028\" x=\"361.636\">7</text><text y=\"324.028\" x=\"372.275\">2</text><text y=\"344.203\" x=\"312.672\">+</text><text y=\"344.203\" x=\"326.337\">6</text><text y=\"344.203\" x=\"336.975\">0</text><text y=\"344.203\" x=\"343.633\">,</text><text y=\"344.203\" x=\"350.99\">4</text><text y=\"344.203\" x=\"361.642\">8</text><text y=\"344.203\" x=\"372.28\">0</text><text y=\"364.377\" x=\"326.341\">6</text><text y=\"364.377\" x=\"336.98\">9</text><text y=\"364.377\" x=\"343.637\">,</text><text y=\"364.377\" x=\"350.994\">5</text><text y=\"364.377\" x=\"361.633\">5</text><text y=\"364.377\" x=\"372.285\">2</text><text y=\"322.366\" x=\"396.379\" fill=\"#55a4e0\">⟵</text><text y=\"322.366\" x=\"421.22\" fill=\"#55a4e0\">3</text><text y=\"322.366\" x=\"427.878\" fill=\"#55a4e0\">,</text><text y=\"322.366\" x=\"431.253\" fill=\"#55a4e0\">0</text><text y=\"322.366\" x=\"437.911\" fill=\"#55a4e0\">2</text><text y=\"322.366\" x=\"444.568\" fill=\"#55a4e0\">4</text><text y=\"322.366\" x=\"454.212\" fill=\"#55a4e0\">×</text><text y=\"322.366\" x=\"466.007\" fill=\"#55a4e0\">3</text><text y=\"347.521\" x=\"396.379\" fill=\"#55a4e0\">⟵</text><text y=\"347.521\" x=\"421.22\" fill=\"#55a4e0\">3</text><text y=\"347.521\" x=\"427.878\" fill=\"#55a4e0\">,</text><text y=\"347.521\" x=\"431.253\" fill=\"#55a4e0\">0</text><text y=\"347.521\" x=\"437.911\" fill=\"#55a4e0\">2</text><text y=\"347.521\" x=\"444.568\" fill=\"#55a4e0\">4</text><text y=\"347.521\" x=\"454.212\" fill=\"#55a4e0\">×</text><text y=\"347.521\" x=\"466.007\" fill=\"#55a4e0\">2</text><text y=\"347.521\" x=\"472.665\" fill=\"#55a4e0\">0</text></g><g font-family=\"NagwaMath\" font-size=\"9.467\"><text y=\"270.531\" x=\"362.304\" fill=\"#e14b3b\"></text></g></svg></p><p>نوجِد التقدير بتقريب <span class=\"no_margin merge\">3,024</span> لأقرب ألف، وتقريب <span class=\"no_margin merge\">23</span> لأقرب عشرة للتأكد من أن الإجابة منطقية: <svg width=\"151.82\" height=\"14.563\" viewBox=\"339.023 271.115 113.865 10.922\" direction=\"ltr\" class=\"displayed_equation\" xmlns=\"http://www.w3.org/2000/svg\"><g font-family=\"NagwaMath\" font-size=\"13.5\"><text y=\"280.099\" x=\"338.382\">3</text><text y=\"280.099\" x=\"345.04\">,</text><text y=\"280.099\" x=\"348.415\">0</text><text y=\"280.099\" x=\"355.073\">0</text><text y=\"280.099\" x=\"361.73\">0</text><text y=\"280.099\" x=\"371.374\">×</text><text y=\"280.099\" x=\"383.169\">2</text><text y=\"280.099\" x=\"389.827\">0</text><text y=\"280.099\" x=\"400.223\">=</text><text y=\"280.099\" x=\"413.646\">6</text><text y=\"280.099\" x=\"420.303\">0</text><text y=\"280.099\" x=\"426.961\">,</text><text y=\"280.099\" x=\"430.337\">0</text><text y=\"280.099\" x=\"436.994\">0</text><text y=\"280.099\" x=\"443.652\">0</text><text y=\"280.099\" x=\"450.309\">.</text></g></svg></p><p>العدد <span class=\"no_margin merge\">60,000</span> قريب من العدد <span class=\"merge\"><span class=\"no_margin merge\">69,552</span>، </span>لذا تبدو الإجابة منطقية.</p><p>إذن:<svg width=\"151.82\" height=\"14.563\" viewBox=\"339.023 271.115 113.865 10.922\" direction=\"ltr\" class=\"displayed_equation\" xmlns=\"http://www.w3.org/2000/svg\"><g font-family=\"NagwaMath\" font-size=\"13.5\"><text y=\"280.099\" x=\"338.382\">3</text><text y=\"280.099\" x=\"345.04\">,</text><text y=\"280.099\" x=\"348.415\">0</text><text y=\"280.099\" x=\"355.073\">2</text><text y=\"280.099\" x=\"361.73\">4</text><text y=\"280.099\" x=\"371.374\">×</text><text y=\"280.099\" x=\"383.169\">2</text><text y=\"280.099\" x=\"389.827\">3</text><text y=\"280.099\" x=\"400.223\">=</text><text y=\"280.099\" x=\"413.646\">6</text><text y=\"280.099\" x=\"420.303\">9</text><text y=\"280.099\" x=\"426.961\">,</text><text y=\"280.099\" x=\"430.337\">5</text><text y=\"280.099\" x=\"436.994\">5</text><text y=\"280.099\" x=\"443.652\">2</text><text y=\"280.099\" x=\"450.309\">.</text></g></svg></p>"
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "question_id": "404131976047",
+  "parent_id": "404131976047",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "zz",
+  "country": "ZZ",
+  "subject": "Science",
+  "subject_id": "407174923510",
+  "grade": "4",
+  "grade_id": "616145068630",
+  "number_of_parts": 1,
+  "section_id": "579194804685",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "ordering",
+        "stem": "<p>Order these celestial bodies from largest to smallest. </p>",
+        "direction": "vertical",
+        "items": [
+          {
+            "value": "Earth&rsquo;s moon",
+            "display_order": 1
+          },
+          {
+            "value": "The Sun",
+            "display_order": 2
+          },
+          {
+            "value": "Earth",
+            "display_order": 3
+          }
+        ],
+        "correct_answer": [
+          "The Sun",
+          "Earth",
+          "Earth&rsquo;s moon"
+        ],
+        "explanation": null
+      }
+    ]
+  }
+}

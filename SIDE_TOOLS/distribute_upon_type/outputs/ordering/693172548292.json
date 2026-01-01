@@ -1,0 +1,55 @@
+{
+  "question_id": "693172548292",
+  "parent_id": "693172548292",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "zz",
+  "country": "ZZ",
+  "subject": "Science",
+  "subject_id": "828197025630",
+  "grade": "6",
+  "grade_id": "612152797413",
+  "number_of_parts": 1,
+  "section_id": "690101729478",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "ordering",
+        "stem": "<p>Scarlett wants to test if sunlight is necessary for photosynthesis.</p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"693172548292.01.svg\"/></div><p>Put her experiment steps in the correct order.</p>",
+        "direction": "vertical",
+        "items": [
+          {
+            "value": "Collect two green plants in plant pots.",
+            "display_order": 1
+          },
+          {
+            "value": "Leave both plants for two days and water them regularly.",
+            "display_order": 2
+          },
+          {
+            "value": "Compare the appearance of the two plants.",
+            "display_order": 3
+          },
+          {
+            "value": "Take off the bag.",
+            "display_order": 4
+          },
+          {
+            "value": "Place a paper bag with holes over one.",
+            "display_order": 5
+          }
+        ],
+        "correct_answer": [
+          "Collect two green plants in plant pots.",
+          "Place a paper bag with holes over one.",
+          "Leave both plants for two days and water them regularly.",
+          "Take off the bag.",
+          "Compare the appearance of the two plants."
+        ],
+        "explanation": null
+      }
+    ]
+  }
+}

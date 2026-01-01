@@ -1,0 +1,48 @@
+{
+  "question_id": "603127904052",
+  "parent_id": "603127904052",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Mathematics",
+  "subject_id": "123456789012",
+  "grade": "3",
+  "grade_id": "123456789012",
+  "number_of_parts": 1,
+  "section_id": "823157592983",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "ordering",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">Order these containers from the largest to the smallest capacity.</span></p>",
+        "direction": "horizontal",
+        "items": [
+          {
+            "value": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"783146169859 (1)\" class=\"displayed-image\" height=\"149.99998855590908\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/126159787856.svg\" style=\"aspect-ratio: 50/149.99998855590908;\" width=\"50\"/></span></p>",
+            "display_order": 1,
+            "correct_order": 2
+          },
+          {
+            "value": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"243109762717\" class=\"displayed-image\" height=\"83.32771238847698\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/613192732047.svg\" style=\"aspect-ratio: 80/83.32771238847698;\" width=\"80\"/></span></p>",
+            "display_order": 2,
+            "correct_order": 3
+          },
+          {
+            "value": "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"462154250359\" class=\"displayed-image\" height=\"103.39236857096354\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/929150475896.svg\" style=\"aspect-ratio: 220/103.39236857096354;\" width=\"220\"/></span></p>",
+            "display_order": 3,
+            "correct_order": 1
+          }
+        ],
+        "correct_answer": [
+          "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"462154250359\" class=\"displayed-image\" height=\"103.39236857096354\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/929150475896.svg\" style=\"aspect-ratio: 220/103.39236857096354;\" width=\"220\"/></span></p>",
+          "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"783146169859 (1)\" class=\"displayed-image\" height=\"149.99998855590908\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/126159787856.svg\" style=\"aspect-ratio: 50/149.99998855590908;\" width=\"50\"/></span></p>",
+          "<p><span class=\"LexicalTheme__image LexicalTheme__image--block h-scroll\" data-node-type=\"image\" data-node-variation=\"block\"><img alt=\"243109762717\" class=\"displayed-image\" height=\"83.32771238847698\" src=\"https://files-cds-chestnut-com.s3.amazonaws.com/images/613192732047.svg\" style=\"aspect-ratio: 80/83.32771238847698;\" width=\"80\"/></span></p>"
+        ],
+        "explanation": null
+      }
+    ]
+  }
+}

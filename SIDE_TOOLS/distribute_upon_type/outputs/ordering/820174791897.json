@@ -1,0 +1,45 @@
+{
+  "question_id": "820174791897",
+  "parent_id": "820174791897",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "zz",
+  "country": "ZZ",
+  "subject": "Science",
+  "subject_id": "407174923510",
+  "grade": "4",
+  "grade_id": "616145068630",
+  "number_of_parts": 1,
+  "section_id": "246104354630",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "ordering",
+        "stem": "<p>Order the results of switching off electronic devices when we are not using them.</p>",
+        "direction": "vertical",
+        "items": [
+          {
+            "value": "Reducing pollution",
+            "display_order": 1
+          },
+          {
+            "value": "Reducing electricity consumption",
+            "display_order": 2
+          },
+          {
+            "value": "Reducing the need to burn fossil fuels",
+            "display_order": 3
+          }
+        ],
+        "correct_answer": [
+          "Reducing electricity consumption",
+          "Reducing the need to burn fossil fuels",
+          "Reducing pollution"
+        ],
+        "explanation": null
+      }
+    ]
+  }
+}

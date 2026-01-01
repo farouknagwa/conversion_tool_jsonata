@@ -1,0 +1,51 @@
+{
+  "question_id": "849120319149",
+  "parent_id": "849120319149",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Mathematics",
+  "subject_id": "123456789012",
+  "grade": "4",
+  "grade_id": "123456789012",
+  "number_of_parts": 1,
+  "section_id": "482142617197",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "mcq",
+        "stem": "<p><span style=\"white-space: pre-wrap;\">A box contains</span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field data-choice-index=\"-1\" data-field-type=\"undefined\" data-math-index=\"0\" data-part-index=\"undefined\" data-question-id=\"undefined\" default-mode=\"inline-math\" locale=\"en\" value=\"2,400\"></math-field></span><span style=\"white-space: pre-wrap;\">apples. Some are red, and</span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field data-choice-index=\"-1\" data-field-type=\"undefined\" data-math-index=\"1\" data-part-index=\"undefined\" data-question-id=\"undefined\" default-mode=\"inline-math\" locale=\"en\" value=\"1,025\"></math-field></span><span style=\"white-space: pre-wrap;\">are green.\nWhich equation shows the number of red apples</span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field data-choice-index=\"-1\" data-field-type=\"undefined\" data-math-index=\"2\" data-part-index=\"undefined\" data-question-id=\"undefined\" default-mode=\"inline-math\" locale=\"en\" value=\"a\"></math-field></span><span style=\"white-space: pre-wrap;\">?</span></p>",
+        "choices": [
+          {
+            "label": "A",
+            "value": "<p><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field data-choice-index=\"-1\" data-field-type=\"undefined\" data-math-index=\"0\" data-part-index=\"undefined\" data-question-id=\"undefined\" default-mode=\"inline-math\" locale=\"en\" value=\"a+1,025=2,400\"></math-field></span></p>",
+            "is_correct": true
+          },
+          {
+            "label": "B",
+            "value": "<p><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field data-choice-index=\"-1\" data-field-type=\"undefined\" data-math-index=\"0\" data-part-index=\"undefined\" data-question-id=\"undefined\" default-mode=\"inline-math\" locale=\"en\" value=\"2,400+a=1,025\"></math-field></span></p>",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "value": "<p><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field data-choice-index=\"-1\" data-field-type=\"undefined\" data-math-index=\"0\" data-part-index=\"undefined\" data-question-id=\"undefined\" default-mode=\"inline-math\" locale=\"en\" value=\"a−1,025=2,400\"></math-field></span></p>",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "value": "<p><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field data-choice-index=\"-1\" data-field-type=\"undefined\" data-math-index=\"0\" data-part-index=\"undefined\" data-question-id=\"undefined\" default-mode=\"inline-math\" locale=\"en\" value=\"1,025+2,400=a\"></math-field></span></p>",
+            "is_correct": false
+          }
+        ],
+        "correct_answer": {
+          "label": "A",
+          "value": "<p><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field data-choice-index=\"-1\" data-field-type=\"undefined\" data-math-index=\"0\" data-part-index=\"undefined\" data-question-id=\"undefined\" default-mode=\"inline-math\" locale=\"en\" value=\"a+1,025=2,400\"></math-field></span></p>"
+        },
+        "explanation": null
+      }
+    ]
+  }
+}

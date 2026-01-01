@@ -1,0 +1,50 @@
+{
+  "question_id": "107150178323",
+  "parent_id": "457192384650",
+  "language_code": "ar",
+  "language": "Arabic",
+  "country_code": "zz",
+  "country": "ZZ",
+  "subject": "العلوم",
+  "subject_id": "862194150479",
+  "grade": "5",
+  "grade_id": "837170567976",
+  "number_of_parts": 1,
+  "section_id": "169137185849",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "ordering",
+        "stem": "<p>املأ الفراغات: يُعتبَر الترمم ذا أهمية من أجل <span data-node-type=\"blank-line\" data-node-variation=\"space\">&nbsp;</span> البيئي. بدونه، ستظلُّ أجسام الكائنات الميتة دون أن <span data-node-type=\"blank-line\" data-node-variation=\"space\">&nbsp;</span> ولن يُعاد تدوير <span data-node-type=\"blank-line\" data-node-variation=\"space\">&nbsp;</span> لتستخدمها <span data-node-type=\"blank-line\" data-node-variation=\"space\">&nbsp;</span> أخرى.</p><p>ضع الكلمات في الترتيب الصحيح لإكمال الفقرة.</p>",
+        "direction": "vertical",
+        "items": [
+          {
+            "value": "كائنات حية",
+            "display_order": 1
+          },
+          {
+            "value": "تتحلَّل",
+            "display_order": 2
+          },
+          {
+            "value": "المغذِّيات",
+            "display_order": 3
+          },
+          {
+            "value": "التوازن",
+            "display_order": 4
+          }
+        ],
+        "correct_answer": [
+          "التوازن",
+          "تتحلَّل",
+          "المغذِّيات",
+          "كائنات حية"
+        ],
+        "explanation": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "question_id": "106136720826",
+  "parent_id": "732131241646",
+  "language_code": "ar",
+  "language": "Arabic",
+  "country_code": "zz",
+  "country": "ZZ",
+  "subject": "العلوم",
+  "subject_id": "862194150479",
+  "grade": "5",
+  "grade_id": "837170567976",
+  "number_of_parts": 1,
+  "section_id": "572167915416",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "ordering",
+        "stem": "<p>مزجت رانيا بين الرمل، والملح، والكرات الحديدية، والماء.</p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"106136720826.01.svg\"/></div><p>أرادتْ فصلها بالترتيب الآتي:</p><ol class=\"arabic-numbers\"><li>الكرات الحديدية</li><li>الرمل</li><li>الملح</li></ol><p>رتب طرق الفصل بالترتيب الصحيح حسب ما تريده رانيا.</p>",
+        "direction": "vertical",
+        "items": [
+          {
+            "value": "الجذب المغناطيسي",
+            "display_order": 1
+          },
+          {
+            "value": "التبخُّر",
+            "display_order": 2
+          },
+          {
+            "value": "الترشيح",
+            "display_order": 3
+          }
+        ],
+        "correct_answer": [
+          "الجذب المغناطيسي",
+          "الترشيح",
+          "التبخُّر"
+        ],
+        "explanation": null
+      }
+    ]
+  }
+}

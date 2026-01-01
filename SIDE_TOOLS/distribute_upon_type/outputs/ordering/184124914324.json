@@ -1,0 +1,50 @@
+{
+  "question_id": "184124914324",
+  "parent_id": "184124914324",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Discover",
+  "subject_id": "412126067593",
+  "grade": "3",
+  "grade_id": "923158968214",
+  "number_of_parts": 1,
+  "section_id": "892139672328",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "ordering",
+        "stem": "<p>Rearrange the sentence to discover the goal.</p>",
+        "direction": "horizontal",
+        "items": [
+          {
+            "value": "fruits",
+            "display_order": 1
+          },
+          {
+            "value": "every day.",
+            "display_order": 2
+          },
+          {
+            "value": "I want",
+            "display_order": 3
+          },
+          {
+            "value": "to eat",
+            "display_order": 4
+          }
+        ],
+        "correct_answer": [
+          "I want",
+          "to eat",
+          "fruits",
+          "every day."
+        ],
+        "explanation": null
+      }
+    ]
+  }
+}

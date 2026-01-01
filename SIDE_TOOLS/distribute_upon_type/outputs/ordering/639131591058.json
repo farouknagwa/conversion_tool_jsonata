@@ -1,0 +1,45 @@
+{
+  "question_id": "639131591058",
+  "parent_id": "639131591058",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "zz",
+  "country": "ZZ",
+  "subject": "Science",
+  "subject_id": "250135489649",
+  "grade": "5",
+  "grade_id": "837170567976",
+  "number_of_parts": 1,
+  "section_id": "215137383498",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "ordering",
+        "stem": "<p> Shady is researching how the agricultural soils of Egypt were formed. Read the passage Shady has found. <div class=\"h-scroll\"><img class=\"displayed-image\" src=\"639131591058.01.svg\"/></div></p><p>Order the following words to fill in the blanks.</p>",
+        "direction": "horizontal",
+        "items": [
+          {
+            "value": "Nile River",
+            "display_order": 1
+          },
+          {
+            "value": "Ethiopian plateau",
+            "display_order": 2
+          },
+          {
+            "value": "Nile valley",
+            "display_order": 3
+          }
+        ],
+        "correct_answer": [
+          "Ethiopian plateau",
+          "Nile River",
+          "Nile valley"
+        ],
+        "explanation": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "question_id": "514129801324",
+  "parent_id": "514129801324",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "zz",
+  "country": "ZZ",
+  "subject": "Science",
+  "subject_id": "250135489649",
+  "grade": "5",
+  "grade_id": "837170567976",
+  "number_of_parts": 1,
+  "section_id": "408172475617",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "ordering",
+        "stem": "<p>Artificial magnets can be different shapes.</p><p>Put the names of the magnet shapes in the correct order to complete the table.</p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"514129801324.01.svg\"/></div>",
+        "direction": "vertical",
+        "items": [
+          {
+            "value": "Needle magnet",
+            "display_order": 1
+          },
+          {
+            "value": "Ring magnet",
+            "display_order": 2
+          },
+          {
+            "value": "Horseshoe magnet",
+            "display_order": 3
+          }
+        ],
+        "correct_answer": [
+          "Horseshoe magnet",
+          "Ring magnet",
+          "Needle magnet"
+        ],
+        "explanation": null
+      }
+    ]
+  }
+}

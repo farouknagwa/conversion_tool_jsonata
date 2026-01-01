@@ -1,0 +1,50 @@
+{
+  "question_id": "542191204626",
+  "parent_id": "542191204626",
+  "language_code": "en",
+  "language": "English",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Mathematics",
+  "subject_id": "975147138958",
+  "grade": "4",
+  "grade_id": "415124760217",
+  "number_of_parts": 1,
+  "section_id": "319107475712",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "input",
+        "stem": "<p>Calculate the following: <svg class=\"displayed_equation\" height=\"47.479\" viewbox=\"368.997,266.059,56.374,35.609\" width=\"75.165\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 0.00178125,0.00025 L 45.947094,0.00025\" fill=\"none\" stroke=\"#000\" stroke-miterlimit=\"10\" stroke-width=\".398\" transform=\"matrix(1,0,0,-1,379.424,301.469)\"></path><g font-family=\"NagwaMath\" font-size=\"13.5\"><text x=\"381.417\" y=\"275.043\">1</text><text x=\"388.075\" y=\"275.043\">,</text><text x=\"395.431\" y=\"275.043\">0</text><text x=\"406.07\" y=\"275.043\">2</text><text x=\"416.709\" y=\"275.043\">6</text><text x=\"368.622\" y=\"295.218\">×</text><text x=\"416.718\" y=\"295.218\">4</text></g></svg></p>",
+        "correct_answer": {
+          "value": 4104,
+          "unit": null,
+          "constraints": {
+            "type": "integer",
+            "answer_format": {
+              "number_format": "arabic",
+              "contains_thousand_separator": true
+            },
+            "allow_leading_zeros": false,
+            "allow_trailing_zeros": false,
+            "sign": "canBeExplicitOrImplicit",
+            "remove_leading_zeros_from_normalized_form": true,
+            "remove_trailing_zeros_from_normalized_form": true,
+            "add_single_leading_zero_to_normalized_form": false,
+            "remove_trailing_decimal_point_from_normalized_form": false,
+            "normalize_sign": "notSet",
+            "must_have_no_more_than_nsf": null,
+            "must_have_at_least_nsf": null,
+            "must_have_exactly_nsf": null,
+            "must_have_at_least_ndp": null,
+            "must_have_no_more_than_ndp": null,
+            "must_have_exactly_ndp": null
+          }
+        },
+        "explanation": null
+      }
+    ]
+  }
+}
