@@ -8,8 +8,10 @@ import sys
 import shutil
 from pathlib import Path
 from datetime import datetime
-from typing import List
+from typing import List, Tuple, Dict, Any
 import json
+from multiprocessing import Pool
+import multiprocessing
 
 try:
     from tqdm import tqdm
@@ -104,6 +106,110 @@ def discover_json_files(input_path: Path, filter_types: List[str] = None) -> Lis
         json_files = filtered
     
     return json_files
+
+
+def process_file_worker(args_tuple: Tuple[Path, Path, Path, Path, Path, bool, bool]) -> Dict[str, Any]:
+    """
+    Worker function for parallel processing.
+    Returns a dictionary with processing results.
+    """
+    filepath, output_dir, pre_validation_failed_dir, failed_dir, post_validation_failed_dir, dry_run, verbose = args_tuple
+    filename = filepath.name
+    
+    result = {
+        'filename': filename,
+        'success': False,
+        'error_type': None,
+        'error_message': None,
+        'error_field': None,
+        'error_actual': None,
+        'error_expected': None,
+        'question_id': 'unknown',
+        'warnings': [],
+        'failed_path': None
+    }
+    
+    try:
+        # Load JSON file
+        json_data = load_json_file(filepath)
+        question_id = str(json_data.get('question_id', 'unknown'))
+        result['question_id'] = question_id
+        
+        # Pre-conversion validation
+        is_valid, errors, warnings = validate_pre_conversion(json_data, filename)
+        
+        # Collect warnings
+        result['warnings'] = warnings
+        
+        if not is_valid:
+            # Copy pre-validation failed file
+            if not dry_run:
+                pre_validation_failed_path = pre_validation_failed_dir / filename
+                shutil.copy2(filepath, pre_validation_failed_path)
+                result['failed_path'] = str(pre_validation_failed_path)
+            
+            result['error_type'] = ERROR_TYPES['PRE_VALIDATION']
+            result['error_message'] = errors[0] if errors else "Pre-validation failed"
+            result['errors'] = errors
+            
+            return result
+        
+        # Convert
+        try:
+            converted_json = convert_question(json_data, filename)
+        except (ValidationError, ConversionError) as e:
+            # Copy failed file
+            if not dry_run:
+                failed_path = failed_dir / filename
+                shutil.copy2(filepath, failed_path)
+                result['failed_path'] = str(failed_path)
+            
+            result['error_type'] = ERROR_TYPES['CONVERSION']
+            result['error_message'] = str(e)
+            result['error_field'] = getattr(e, 'field', '')
+            result['error_actual'] = getattr(e, 'actual_value', '')
+            result['error_expected'] = getattr(e, 'expected', '')
+            
+            return result
+        
+        # Post-conversion validation
+        is_valid_post, post_errors = validate_post_conversion(converted_json)
+        
+        if not is_valid_post:
+            # Save post-validation failed file
+            if not dry_run:
+                post_validation_failed_path = post_validation_failed_dir / filename
+                save_json_file(converted_json, post_validation_failed_path)
+                result['failed_path'] = str(post_validation_failed_path)
+            
+            result['error_type'] = ERROR_TYPES['POST_VALIDATION']
+            result['error_message'] = post_errors[0] if post_errors else "Post-validation failed"
+            result['errors'] = post_errors
+            
+            return result
+        
+        # Success - save converted file
+        if not dry_run:
+            output_path = output_dir / filename
+            save_json_file(converted_json, output_path)
+        
+        result['success'] = True
+        return result
+        
+    except Exception as e:
+        # Copy failed file
+        if not dry_run:
+            failed_path = failed_dir / filename
+            try:
+                shutil.copy2(filepath, failed_path)
+                result['failed_path'] = str(failed_path)
+            except:
+                pass
+        
+        result['error_type'] = ERROR_TYPES['CONVERSION']
+        result['error_message'] = f"Unexpected error: {str(e)}"
+        
+        return result
 
 
 def process_file(filepath: Path, output_dir: Path, pre_validation_failed_dir: Path, 
@@ -425,6 +531,8 @@ Examples:
                        help='Run without writing files (validation only)')
     parser.add_argument('--verbose', '-v', action='store_true',
                        help='Print detailed progress messages')
+    parser.add_argument('--workers', '-w', type=int, default=50,
+                       help='Number of parallel workers (default: 50)')
     
     args = parser.parse_args()
     
@@ -472,23 +580,84 @@ Examples:
     
     # Process files
     stats = ConversionStats()
+    stats.total = len(json_files)
     
-    print("\nProcessing files...")
+    # Number of parallel workers
+    num_workers = args.workers
     
+    print(f"\nProcessing {len(json_files)} files with {num_workers} parallel workers...")
+    
+    # Prepare arguments for worker function (must be serializable)
+    worker_args = [
+        (filepath, output_dir, pre_validation_failed_dir, failed_dir, post_validation_failed_dir, args.dry_run, args.verbose)
+        for filepath in json_files
+    ]
+    
+    # Process files in parallel
     if HAS_TQDM and not args.verbose:
-        # Use progress bar
-        for filepath in tqdm(json_files, desc="Converting", unit="file"):
-            process_file(filepath, output_dir, pre_validation_failed_dir, failed_dir, post_validation_failed_dir, stats, args.dry_run, args.verbose)
+        # Use progress bar with parallel processing
+        with Pool(processes=num_workers) as pool:
+            results = list(tqdm(
+                pool.imap(process_file_worker, worker_args),
+                total=len(json_files),
+                desc="Converting",
+                unit="file"
+            ))
     else:
-        # Simple counter
-        for i, filepath in enumerate(json_files, 1):
-            if not args.verbose:
-                if i % 100 == 0 or i == len(json_files):
-                    print(f"  Progress: {i}/{len(json_files)} ({i*100//len(json_files)}%)")
+        # Simple progress with parallel processing
+        with Pool(processes=num_workers) as pool:
+            if args.verbose:
+                results = []
+                for i, result in enumerate(pool.imap(process_file_worker, worker_args), 1):
+                    results.append(result)
+                    print(f"[{i}/{len(json_files)}] Processed: {result['filename']} - {'SUCCESS' if result['success'] else 'FAILED'}")
             else:
-                print(f"[{i}/{len(json_files)}] Processing: {filepath.name}")
-            
-            process_file(filepath, output_dir, pre_validation_failed_dir, failed_dir, post_validation_failed_dir, stats, args.dry_run, args.verbose)
+                results = []
+                for i, result in enumerate(pool.imap(process_file_worker, worker_args), 1):
+                    results.append(result)
+                    # Print periodic progress
+                    if i % 100 == 0 or i == len(json_files):
+                        print(f"  Progress: {i}/{len(json_files)} ({i*100//len(json_files)}%)")
+    
+    # Aggregate results into stats
+    for result in results:
+        if result['success']:
+            stats.success += 1
+        else:
+            if result['error_type'] == ERROR_TYPES['PRE_VALIDATION']:
+                stats.pre_validation_failed += 1
+                # Log all errors
+                errors = result.get('errors', [result['error_message']])
+                for error in errors:
+                    stats.add_error(
+                        result['filename'], result['question_id'],
+                        result['error_type'],
+                        error if isinstance(error, str) else str(error)
+                    )
+            elif result['error_type'] == ERROR_TYPES['POST_VALIDATION']:
+                stats.post_validation_failed += 1
+                # Log all errors
+                errors = result.get('errors', [result['error_message']])
+                for error in errors:
+                    stats.add_error(
+                        result['filename'], result['question_id'],
+                        result['error_type'],
+                        error if isinstance(error, str) else str(error)
+                    )
+            else:
+                stats.conversion_failed += 1
+                stats.add_error(
+                    result['filename'], result['question_id'],
+                    result['error_type'],
+                    result['error_message'],
+                    result['error_field'],
+                    result['error_actual'],
+                    result['error_expected']
+                )
+        
+        # Add warnings
+        for warning in result.get('warnings', []):
+            stats.add_warning(result['filename'], result['question_id'], warning)
     
     # Print summary
     print("\n" + "=" * 80)
@@ -531,4 +700,6 @@ Examples:
 
 
 if __name__ == '__main__':
+    # Required for Windows multiprocessing support
+    multiprocessing.freeze_support()
     main()
