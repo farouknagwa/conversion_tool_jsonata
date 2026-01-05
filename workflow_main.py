@@ -41,6 +41,7 @@ REQUIRED_SHEET_COLUMNS = [
     "grade_url_text",
     "country_iso_code",
     "parent_id",
+    "clone_parent_id",
     "IsSuccess",
 ]
 
