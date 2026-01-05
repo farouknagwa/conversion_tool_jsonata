@@ -17,6 +17,18 @@ env.bak/
 venv.bak/
 .venv/
 
+
+INPUT/
+OUTPUTS/
+Step4_OUTPUT/
+Step5_OUTPUT/
+new_structure_docs/
+INPUTS/
+inputs/
+outputs/
+input/
+output/
+
 # PyCharm
 .idea/
 
