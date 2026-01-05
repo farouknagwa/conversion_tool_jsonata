@@ -52,6 +52,7 @@ WORKFLOW MODE (Step4_OUTPUT -> Step5_OUTPUT):
 - The workflow will:
   * Empty Step5_OUTPUT
   * Copy Step4_OUTPUT -> Step5_OUTPUT (excluding *.log files)
+  * Process only QuestionIds where the input CSV has IsSuccess=True (IsSuccess=False rows are skipped and their JSONs are not modified)
   * Rewrite Step5_OUTPUT/questions_updated_sheet.csv to one row per QuestionId and add:
     IsSuccess, Error Message, Error Type, Warning Message
   * Run HTML cleaning (clean_json_html.py) on each target JSON before conversion

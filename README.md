@@ -62,6 +62,37 @@ Dry-run (validation only):
 python3 -B main.py --dry-run
 ```
 
+## Workflow Mode (Step4_OUTPUT → Step5_OUTPUT)
+Use `workflow_main.py` when your dataset is already in the Step4 pipeline folder structure:
+
+- Target JSON edited in place: `Step4_OUTPUT/<QuestionId>/Updated/<QuestionId>.json`
+- Input sheet: `Step4_OUTPUT/questions_updated_sheet.csv`
+
+What it does:
+- Empties `Step5_OUTPUT`
+- Copies all contents from `Step4_OUTPUT` → `Step5_OUTPUT` (**excluding `*.log` files**)
+- Rewrites `Step5_OUTPUT/questions_updated_sheet.csv` to **one row per `QuestionId`** keeping only:
+  `QuestionId, SectionCode, language_iso_code, subject_id, subject_name, grade_id, grade_url_text, country_iso_code, parent_id, IsSuccess`
+  and adds workflow output columns:
+  `Error Message, Error Type, Warning Message`
+- Runs HTML cleaning (`SIDE_TOOLS/jsons_htmltags_cleaning/clean_json_html.py`) **before** conversion for each processed question
+- Converts JSONs **in place** inside `Step5_OUTPUT/<QuestionId>/Updated/<QuestionId>.json`
+- Writes a Step5 log file in `Step5_OUTPUT`:
+  `Step5_JsonCleaningAndConversion_<YYYYMMDD>_<HHMMSSmmm>.log`
+
+Important:
+- **IsSuccess gating**: Only rows where `IsSuccess=True` (from the input Step4 sheet) are processed in Step5.
+  Rows with `IsSuccess=False` are skipped and their JSONs remain unchanged in `Step5_OUTPUT`.
+- Paths are intentionally kept **relative** by default; run from the repo root or pass explicit paths.
+
+Examples:
+
+```bash
+python3 -B workflow_main.py
+python3 -B workflow_main.py --inputstep Step4_OUTPUT --outputstep Step5_OUTPUT
+python3 -B workflow_main.py --inputstep path/to/Step4_OUTPUT --outputstep path/to/Step5_OUTPUT -v
+```
+
 ## Supported Question Types
 `mcq`, `mrq`, `gmrq`, `frq`, `frq_ai`, `oq`, `gapText`, `string`, `opinion`, `matching`, `counting`, `puzzle`, `input_box`
 

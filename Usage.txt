@@ -23,6 +23,7 @@ python3 -B workflow_main.py --inputstep path/to/Step4_OUTPUT --outputstep path/t
 
 WORKFLOW OUTPUTS (Step5_OUTPUT):
 - Step5_OUTPUT is first emptied, then fully copied from Step4_OUTPUT (excluding *.log files).
+- Only QuestionId rows with IsSuccess=True are processed in Step5; IsSuccess=False rows are skipped and their JSONs are not modified.
 - Step5_OUTPUT/questions_updated_sheet.csv is rewritten to these columns (one row per QuestionId):
   QuestionId, SectionCode, language_iso_code, subject_id, subject_name, grade_id,
   grade_url_text, country_iso_code, parent_id, IsSuccess, Error Message, Error Type, Warning Message

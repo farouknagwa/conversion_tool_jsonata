@@ -41,10 +41,10 @@ REQUIRED_SHEET_COLUMNS = [
     "grade_url_text",
     "country_iso_code",
     "parent_id",
+    "IsSuccess",
 ]
 
 OUTPUT_SHEET_COLUMNS = REQUIRED_SHEET_COLUMNS + [
-    "IsSuccess",
     "Error Message",
     "Error Type",
     "Warning Message",
@@ -134,17 +134,41 @@ def build_deduped_question_rows(rows: List[Dict[str, str]], logger: Logger) -> L
     Keeps the first occurrence of each QuestionId.
     """
     seen: Dict[str, Dict[str, str]] = {}
+    # QuestionId-level IsSuccess gate:
+    # - If ANY row for a QuestionId has IsSuccess == False -> overall False (skip processing later)
+    # - Else if we see at least one True -> overall True
+    # - Else keep empty / as-is
+    is_success_gate: Dict[str, Optional[bool]] = {}
 
     for row in rows:
         qid = (row.get("QuestionId") or "").strip()
         if not qid:
             continue
+
+        raw_is_success = (row.get("IsSuccess") or "").strip().lower()
+        if raw_is_success == "false":
+            is_success_gate[qid] = False
+        elif raw_is_success == "true":
+            # Only set True if not already locked to False
+            if is_success_gate.get(qid) is None:
+                is_success_gate[qid] = True
+
         if qid in seen:
             continue
         kept = {}
         for col in REQUIRED_SHEET_COLUMNS:
             kept[col] = (row.get(col) or "").strip()
         seen[qid] = kept
+
+    # Apply the QuestionId-level IsSuccess gate to the deduped rows
+    for qid, kept in seen.items():
+        gate_val = is_success_gate.get(qid)
+        if gate_val is True:
+            kept["IsSuccess"] = "True"
+        elif gate_val is False:
+            kept["IsSuccess"] = "False"
+        else:
+            kept["IsSuccess"] = (kept.get("IsSuccess") or "").strip()
 
     deduped = list(seen.values())
     logger.info(f"Deduped questions_updated_sheet.csv to {len(deduped)} unique QuestionId rows")
@@ -318,10 +342,11 @@ def main() -> None:
 
     # Initialize output columns
     for row in question_rows:
-        row["IsSuccess"] = ""
-        row["Error Message"] = ""
-        row["Error Type"] = ""
-        row["Warning Message"] = ""
+        # Keep IsSuccess from Step4 sheet (it is the processing gate)
+        row.setdefault("IsSuccess", "")
+        row.setdefault("Error Message", "")
+        row.setdefault("Error Type", "")
+        row.setdefault("Warning Message", "")
 
     # 3) Load HTML cleaning module (relative path)
     cleaner_path = Path("SIDE_TOOLS") / "jsons_htmltags_cleaning" / "clean_json_html.py"
@@ -332,12 +357,20 @@ def main() -> None:
     total = len(question_rows)
     success = 0
     failed = 0
+    skipped = 0
 
     logger.info(f"Processing {total} questions...")
 
     for idx, row in enumerate(question_rows, 1):
         qid = row.get("QuestionId", "").strip()
         if not qid:
+            continue
+
+        # Process only rows that were originally IsSuccess=True.
+        # If IsSuccess is False, do NOT touch the JSON and do NOT change the row.
+        if (row.get("IsSuccess") or "").strip().lower() != "true":
+            skipped += 1
+            logger.debug(f"SKIP [{qid}]: IsSuccess is not True in input sheet")
             continue
 
         json_path = step5_dir / qid / "Updated" / f"{qid}.json"
@@ -370,7 +403,9 @@ def main() -> None:
                 logger.info(f"  WARNINGS [{qid}]: {result.warning_message}")
 
         if idx % 100 == 0 or idx == total:
-            logger.info(f"Progress: {idx}/{total} (success={success}, failed={failed})")
+            logger.info(
+                f"Progress: {idx}/{total} (success={success}, failed={failed}, skipped={skipped})"
+            )
 
     # 5) Write updated CSV in Step5 (overwrite)
     logger.info(f"Writing updated CSV (one row per QuestionId): {sheet_path}")
@@ -383,6 +418,7 @@ def main() -> None:
     logger.info(f"Total questions: {total}")
     logger.info(f"Success:         {success}")
     logger.info(f"Failed:          {failed}")
+    logger.info(f"Skipped:         {skipped}")
     logger.info("=" * 80)
 
     if failed > 0:

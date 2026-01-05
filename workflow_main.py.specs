@@ -19,15 +19,19 @@ KEY BEHAVIOR:
      pre-validation -> conversion -> post-validation
   3) Saves the converted JSON in place (same path in Step5_OUTPUT)
   4) Writes IsSuccess / Error Message / Error Type / Warning Message into the CSV row
+- IsSuccess gating:
+  * Only QuestionId rows with IsSuccess == True (from the input Step4 sheet) are processed in Step5.
+  * Rows with IsSuccess == False are skipped and their JSONs remain unchanged in Step5_OUTPUT.
+  * For processed rows only, IsSuccess is overwritten to True/False based on the Step5 workflow result.
 - Writes a Step5-style log file to Step5_OUTPUT root:
   Step5_JsonCleaningAndConversion_<YYYYMMDD>_<HHMMSSmmm>.log
 
 CONSTANTS:
 - REQUIRED_SHEET_COLUMNS:
   QuestionId, SectionCode, language_iso_code, subject_id, subject_name, grade_id,
-  grade_url_text, country_iso_code, parent_id
+  grade_url_text, country_iso_code, parent_id, IsSuccess
 - OUTPUT_SHEET_COLUMNS:
-  REQUIRED_SHEET_COLUMNS + IsSuccess, Error Message, Error Type, Warning Message
+  REQUIRED_SHEET_COLUMNS + Error Message, Error Type, Warning Message
 
 FUNCTIONS / CLASSES:
 - _now_step_style_stamp():
