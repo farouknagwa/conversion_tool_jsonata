@@ -1,0 +1,53 @@
+\documentclass[tikz,border=12pt]{standalone}
+\usepackage{stix}
+\usepackage{tikz}
+\usetikzlibrary{decorations.markings}
+\usetikzlibrary{angles}
+\usetikzlibrary{quotes}
+\usetikzlibrary{positioning}
+\usetikzlibrary{calc}
+\usepackage{tkz-euclide}
+\usetkzobj{all}
+\usetikzlibrary{arrows, arrows.meta}
+\definecolor{blue}{RGB}{0,51,255}
+\definecolor{green}{RGB}{0,153,0}
+\begin{document}
+\begin{tikzpicture}
+\scope[>={Stealth[scale=1.2]},thick]
+
+\tkzDefPoint(0,0){C}
+\tkzDefPoint(90:#p1#){D}
+\tkzDefPoint(0:#p1#){B}
+\path(B)--++(90:#p1#)coordinate(A);
+\draw(A)--(B)--(C)--(D)--cycle--(A)--(C) (B)--(D);
+\tkzInterLL(A,C)(B,D)
+\tkzGetPoint{M}
+\tkzDefLine[parallel=through M](C,B) \tkzGetPoint{Z}
+\tkzInterLL(M,Z)(A,B)
+\tkzGetPoint{F}
+\tkzDrawLine[arrows=->,add= 0 and 0.2mm](F,Z)
+\draw[postaction={decorate, decoration={markings,mark=at position 0.6 with {\arrow[blue]{>}}}}](M)--(F);
+\draw[postaction={decorate, decoration={markings,mark=at position 0.5 with {\arrow[blue]{>}}}}](C)--(B);
+
+
+%\tkzLabelPoints[above right,blue](@A)
+\path pic ["$@A$", blue, angle radius=18] {angle = F--A--D}; 
+
+%\tkzLabelPoints[below right,blue](@B)
+\path pic ["$@B$", blue, angle radius=18] {angle = C--B--F}; 
+
+%\tkzLabelPoints[below left,blue](@C)
+\path pic ["$@C$", blue, angle radius=18] {angle = D--C--B}; 
+
+%\tkzLabelPoints[above left,blue](@D)
+\path pic ["$@D$", blue, angle radius=18] {angle = A--D--C}; 
+
+%\tkzLabelPoints[below=0.3,blue](@M)
+\path pic ["$@M$", blue, angle radius=18] {angle = B--M--C}; 
+
+%\tkzLabelPoints[above right,blue](@F)
+\path pic ["$@F$", blue, angle radius=18] {angle = M--F--A}; 
+
+\endscope
+\end{tikzpicture}
+\end{document}

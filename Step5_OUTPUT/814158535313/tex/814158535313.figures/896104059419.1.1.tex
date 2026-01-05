@@ -1,0 +1,32 @@
+\documentclass[tikz, border=12]{standalone}
+\usepackage{stix}
+\usepackage{tkz-euclide, pgfmath,fp}
+\usetikzlibrary
+	{
+	intersections, decorations.markings, angles,
+	quotes, calc, arrows, arrows.meta
+	}
+\usetkzobj{all}
+%
+\definecolor{blue}{RGB}{0,51,255}
+\definecolor{green}{RGB}{0,153,0}
+\begin{document}
+\begin{tikzpicture}
+%
+\pgfgettransformentries{\mya}{\myb}{\myc}{\myd}{\mys}{\myt}
+\pgfmathsetmacro{\preserve}{1/\mya}
+
+\def \a {6} 
+\def \b{11}		
+
+\begin{scope} [>={Stealth[scale=1.2]},thick]
+\path(0,0)coordinate(C)--(90:\a)coordinate(A) (C)--(-180:\b)coordinate(B);
+\tkzMarkRightAngles[size=0.22*\preserve,opacity=1,color=blue](A,C,B)
+\path($(B)!5mm*\preserve!-90:(C)$)--node[blue, fill=white] {$11\ \textrm{cm}$} ($(C)!5mm*\preserve!90:(B)$);
+\path($(A)!5mm*\preserve!90:(C)$)--node[blue, fill=white] {$6\ \textrm{cm}$} ($(C)!5mm*\preserve!-90:(A)$);
+\path($(B)!5mm*\preserve!90:(A)$)--node[blue, fill=white] {$x\ \textrm{cm}$} ($(A)!5mm*\preserve!-90:(B)$);
+\draw(A)--(B)--(C)--cycle;
+
+\end{scope}
+\end{tikzpicture}
+\end{document}

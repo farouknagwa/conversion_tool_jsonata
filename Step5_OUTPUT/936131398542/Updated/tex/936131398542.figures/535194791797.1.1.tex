@@ -1,0 +1,55 @@
+\documentclass[tikz,border=12pt]{standalone}
+
+\usepackage{stix}
+\usepackage{tikz}
+\usetikzlibrary{intersections}
+\usetikzlibrary{decorations.markings}
+\usetikzlibrary{angles}
+\usetikzlibrary{quotes}
+\usetikzlibrary{calc}
+\usepackage{tkz-euclide}
+\usetkzobj{all}
+\usetikzlibrary{arrows}
+\usetikzlibrary{arrows.meta}
+\definecolor{blue}{RGB}{0,51,255}
+\definecolor{green}{RGB}{0,153,0}
+
+\begin{document}
+
+\begin{tikzpicture}
+\begin{scope}[>={Stealth[scale=1.2]},thick]
+\pgfgettransformentries{\mya}{\myb}{\myc}{\myd}{\mys}{\myt}
+\pgfmathsetmacro{\preserve}{1/\mya}
+
+
+\coordinate[label=left:\textcolor {blue}{$B$}](b)at(0,0);
+\path(b)--(0:{2*8})coordinate[label=right :\textcolor {blue}{$C$}](c);
+\path(b)--(60:5)coordinate(d);
+\path(b)--(60:{2*5})coordinate[label=above :\textcolor{blue}{$A$}](a);
+\tkzDrawPolygon[thick](a,b,c)
+\tkzDefLine[parallel=through d](b,c) \tkzGetPoint{e}
+\tkzInterLL(d,e)(a,c)
+\tkzGetPoint{E}
+%
+
+\path pic ["$E$", blue, angle radius=18] {angle = c--E--a};
+\path pic ["$D$", blue, angle radius=18] {angle = a--d--b};
+%
+\draw(d)--(E);
+\tkzMarkSegments[mark=|,color=blue](a,d)
+\tkzMarkSegments[mark=|,color=blue](d,b)
+\tkzMarkSegments[mark=||,color=blue](E,c)
+\tkzMarkSegments[mark=||,color=blue](a,E)
+
+
+\draw[<->,thin] ($(c)!8mm*\preserve!90:(b)$)--node[color=blue,fill=white] {\nagwaTikZLabel{$(x+3)$}} ($(b)!8mm*\preserve!-90:(c)$);
+\path($(E)!4mm*\preserve!90:(d)$)--node[color=blue,fill=white] {\nagwaTikZLabel{$8$}}($(d)!4mm*\preserve!-90:(E)$);
+\draw[<->,thin] ($(a)!11mm*\preserve!90:(E)$)--node[color=blue,fill=white] {\nagwaTikZLabel{$(x-3)$}} ($(E)!11mm*\preserve!-90:(a)$);
+\draw[<->,thin] ($(E)!11mm*\preserve!90:(c)$)--node[color=blue,fill=white] {\nagwaTikZLabel{$(y+5)$}} ($(c)!11mm*\preserve!-90:(E)$);
+
+
+
+
+\end{scope}
+\end{tikzpicture}
+\end{document}

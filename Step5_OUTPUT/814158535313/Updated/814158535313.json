@@ -1,0 +1,51 @@
+{
+  "question_id": "814158535313",
+  "parent_id": "896104059419",
+  "language_code": "fr",
+  "language": "French",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Mathématiques",
+  "subject_id": "916194089098",
+  "grade": "10",
+  "grade_id": "934185068749",
+  "number_of_parts": 1,
+  "section_id": "917191419130",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "mcq",
+        "stem": "<p>Laquelle des relations suivantes est correcte<span style=\"white - space:nowrap\"> </span>?</p><div class=\"h-scroll\"><img alt=\"290160513671.1\" class=\"displayed-image\" height=\"208.49453\" src=\"814158535313.01.svg\" style=\"aspect-ratio: 319.42679/208.49453;\" width=\"319.42679\"/></div>",
+        "choices": [
+          {
+            "label": "A",
+            "value": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{x^2=6^2+11^2}\">\\displaystyle{x^2=6^2+11^2}</math-field></span>",
+            "is_correct": true
+          },
+          {
+            "label": "B",
+            "value": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{x=6^2+11^2}\">\\displaystyle{x=6^2+11^2}</math-field></span>",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "value": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{121=x^2+36}\">\\displaystyle{121=x^2+36}</math-field></span>",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "value": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{x^2=\\left(11+6\\right)^2 }\">\\displaystyle{x^2=\\left(11+6\\right)^2 }</math-field></span>",
+            "is_correct": false
+          }
+        ],
+        "correct_answer": {
+          "label": "A",
+          "value": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{x^2=6^2+11^2}\">\\displaystyle{x^2=6^2+11^2}</math-field></span>"
+        },
+        "explanation": null
+      }
+    ]
+  }
+}

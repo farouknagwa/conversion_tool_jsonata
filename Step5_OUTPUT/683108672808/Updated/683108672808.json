@@ -1,0 +1,51 @@
+{
+  "question_id": "683108672808",
+  "parent_id": "319179292468",
+  "language_code": "fr",
+  "language": "French",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Mathématiques",
+  "subject_id": "107123209036",
+  "grade": "9",
+  "grade_id": "424170340194",
+  "number_of_parts": 1,
+  "section_id": "917181292108",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "mcq",
+        "stem": "<p>Donne une expression du périmètre de la partie hachurée. </p><div class=\"h-scroll\"><img alt=\"127159838394.1\" class=\"displayed-image\" height=\"206.80161999999999\" src=\"683108672808.01.svg\" style=\"aspect-ratio: 345.22034/206.80161999999999;\" width=\"345.22034\"/></div>",
+        "choices": [
+          {
+            "label": "A",
+            "value": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{56a^{2}-52ab-48b^{2}}\">\\displaystyle{56a^{2}-52ab-48b^{2}}</math-field></span>",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "value": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{36a+4b}\">\\displaystyle{36a+4b}</math-field></span>",
+            "is_correct": true
+          },
+          {
+            "label": "C",
+            "value": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{40a^{2}-86ab-63b^{2}}\">\\displaystyle{40a^{2}-86ab-63b^{2}}</math-field></span>",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "value": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{18a+2b}\">\\displaystyle{18a+2b}</math-field></span>",
+            "is_correct": false
+          }
+        ],
+        "correct_answer": {
+          "label": "B",
+          "value": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{36a+4b}\">\\displaystyle{36a+4b}</math-field></span>"
+        },
+        "explanation": null
+      }
+    ]
+  }
+}

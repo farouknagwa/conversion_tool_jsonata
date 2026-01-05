@@ -1,0 +1,51 @@
+{
+  "question_id": "908193510303",
+  "parent_id": "182193214874",
+  "language_code": "pt",
+  "language": "Portuguese",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Mathematics",
+  "subject_id": "796174902818",
+  "grade": "9",
+  "grade_id": "424170340194",
+  "number_of_parts": 1,
+  "section_id": "917180190168",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "mcq",
+        "stem": "<p>O perímetro do quadrado <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{ABCD}\">\\displaystyle{ABCD}</math-field></span> é 352. Encontre <span class=\"merge\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{AF}\">\\displaystyle{AF}</math-field></span>.</span></p><div class=\"h-scroll\"><img alt=\"695135308495.1\" class=\"displayed-image\" height=\"256.94908\" src=\"908193510303.01.svg\" style=\"aspect-ratio: 331.39713/256.94908;\" width=\"331.39713\"/></div>",
+        "choices": [
+          {
+            "label": "A",
+            "value": "88",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "value": "44",
+            "is_correct": true
+          },
+          {
+            "label": "C",
+            "value": "132",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "value": "176",
+            "is_correct": false
+          }
+        ],
+        "correct_answer": {
+          "label": "B",
+          "value": "44"
+        },
+        "explanation": null
+      }
+    ]
+  }
+}

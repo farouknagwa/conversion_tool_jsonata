@@ -1,0 +1,51 @@
+{
+  "question_id": "304146825376",
+  "parent_id": "809193816729",
+  "language_code": "pt",
+  "language": "Portuguese",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Mathematics",
+  "subject_id": "796174902818",
+  "grade": "9",
+  "grade_id": "424170340194",
+  "number_of_parts": 1,
+  "section_id": "917180190168",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "mcq",
+        "stem": "<p>Encontre os valores de <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{x}\">\\displaystyle{x}</math-field></span> e <span class=\"merge\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{y}\">\\displaystyle{y}</math-field></span>. </span></p><div class=\"h-scroll\"><img alt=\"272138701040.1\" class=\"displayed-image\" height=\"259.54843\" src=\"304146825376.01.svg\" style=\"aspect-ratio: 375.87934/259.54843;\" width=\"375.87934\"/></div>",
+        "choices": [
+          {
+            "label": "A",
+            "value": "<span class=\"merge\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{x=11}\">\\displaystyle{x=11}</math-field></span>, </span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{y=3}\">\\displaystyle{y=3}</math-field></span>",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "value": "<span class=\"merge\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{x=5}\">\\displaystyle{x=5}</math-field></span>, </span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{y=3}\">\\displaystyle{y=3}</math-field></span>",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "value": "<span class=\"merge\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{x=21}\">\\displaystyle{x=21}</math-field></span>, </span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{y=13 }\">\\displaystyle{y=13 }</math-field></span>",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "value": "<span class=\"merge\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{x=13}\">\\displaystyle{x=13}</math-field></span>, </span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{y=5}\">\\displaystyle{y=5}</math-field></span>",
+            "is_correct": true
+          }
+        ],
+        "correct_answer": {
+          "label": "D",
+          "value": "<span class=\"merge\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{x=13}\">\\displaystyle{x=13}</math-field></span>, </span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{y=5}\">\\displaystyle{y=5}</math-field></span>"
+        },
+        "explanation": null
+      }
+    ]
+  }
+}

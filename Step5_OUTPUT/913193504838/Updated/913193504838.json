@@ -1,0 +1,51 @@
+{
+  "question_id": "913193504838",
+  "parent_id": "838193492572",
+  "language_code": "fr",
+  "language": "French",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Mathématiques",
+  "subject_id": "107123209036",
+  "grade": "9",
+  "grade_id": "424170340194",
+  "number_of_parts": 1,
+  "section_id": "917181292108",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "mcq",
+        "stem": "<p><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{ABCD}\">\\displaystyle{ABCD}</math-field></span> est un carré, <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{AE=6{,}4}\">\\displaystyle{AE=6{,}4}</math-field></span> et <span class=\"merge\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{ED=6{,}1}\">\\displaystyle{ED=6{,}1}</math-field></span>. </span>Quelle est l'aire de la partie ombrée, au centième près<span style=\"white - space:nowrap\"> </span>?</p><div class=\"h-scroll\"><img alt=\"923128682418.1\" class=\"displayed-image\" height=\"315.26783\" src=\"913193504838.01.svg\" style=\"aspect-ratio: 315.28116/315.26783;\" width=\"315.28116\"/></div>",
+        "choices": [
+          {
+            "label": "A",
+            "value": "39,13",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "value": "19,52",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "value": "78,17",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "value": "58,65",
+            "is_correct": true
+          }
+        ],
+        "correct_answer": {
+          "label": "D",
+          "value": "58,65"
+        },
+        "explanation": null
+      }
+    ]
+  }
+}

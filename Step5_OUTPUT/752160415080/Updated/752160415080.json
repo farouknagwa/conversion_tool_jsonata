@@ -1,0 +1,51 @@
+{
+  "question_id": "752160415080",
+  "parent_id": "265106268476",
+  "language_code": "fr",
+  "language": "French",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Mathématiques",
+  "subject_id": "107123209036",
+  "grade": "9",
+  "grade_id": "424170340194",
+  "number_of_parts": 1,
+  "section_id": "917181292108",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "mcq",
+        "stem": "<p>Sur la figure, détermine toutes les valeurs possibles de <span class=\"merge\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{y}\">\\displaystyle{y}</math-field></span>.</span></p><div class=\"h-scroll\"><img alt=\"349153105368.1\" class=\"displayed-image\" height=\"193.79154\" src=\"752160415080.01.svg\" style=\"aspect-ratio: 325.57192/193.79154;\" width=\"325.57192\"/></div>",
+        "choices": [
+          {
+            "label": "A",
+            "value": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{y=-3}\">\\displaystyle{y=-3}</math-field></span> ou <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{y=1}\">\\displaystyle{y=1}</math-field></span>",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "value": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{y=3}\">\\displaystyle{y=3}</math-field></span> ou <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{y=-1}\">\\displaystyle{y=-1}</math-field></span>",
+            "is_correct": true
+          },
+          {
+            "label": "C",
+            "value": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{y=-3}\">\\displaystyle{y=-3}</math-field></span> ou <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{y=-1}\">\\displaystyle{y=-1}</math-field></span>",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "value": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{y=3}\">\\displaystyle{y=3}</math-field></span> ou <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{y=1}\">\\displaystyle{y=1}</math-field></span>",
+            "is_correct": false
+          }
+        ],
+        "correct_answer": {
+          "label": "B",
+          "value": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{y=3}\">\\displaystyle{y=3}</math-field></span> ou <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{y=-1}\">\\displaystyle{y=-1}</math-field></span>"
+        },
+        "explanation": null
+      }
+    ]
+  }
+}

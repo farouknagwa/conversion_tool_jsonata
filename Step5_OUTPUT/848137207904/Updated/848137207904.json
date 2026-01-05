@@ -1,0 +1,51 @@
+{
+  "question_id": "848137207904",
+  "parent_id": "495135682942",
+  "language_code": "pt",
+  "language": "Portuguese",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Mathematics",
+  "subject_id": "796174902818",
+  "grade": "9",
+  "grade_id": "424170340194",
+  "number_of_parts": 1,
+  "section_id": "917180190168",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "mcq",
+        "stem": "<p>Calcula o perímetro de <span class=\"merge\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{DECF}\">\\displaystyle{DECF}</math-field></span>. </span></p><div class=\"h-scroll\"><img alt=\"813173169850.1\" class=\"displayed-image\" height=\"322.35939\" src=\"848137207904.01.svg\" style=\"aspect-ratio: 368.08128999999997/322.35939;\" width=\"368.08128999999997\"/></div>",
+        "choices": [
+          {
+            "label": "A",
+            "value": "<span class=\"merge no_margin\">604 cm</span>",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "value": "<span class=\"merge no_margin\">302 cm</span>",
+            "is_correct": true
+          },
+          {
+            "label": "C",
+            "value": "<span class=\"merge no_margin\">151 cm</span>",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "value": "<span class=\"merge no_margin\">319,2 cm</span>",
+            "is_correct": false
+          }
+        ],
+        "correct_answer": {
+          "label": "B",
+          "value": "<span class=\"merge no_margin\">302 cm</span>"
+        },
+        "explanation": null
+      }
+    ]
+  }
+}

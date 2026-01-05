@@ -1,0 +1,46 @@
+{
+  "question_id": "939180946174",
+  "parent_id": "105161714325",
+  "language_code": "es",
+  "language": "Spanish",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Mathematics",
+  "subject_id": "570157275265",
+  "grade": "3",
+  "grade_id": "923158968214",
+  "number_of_parts": 1,
+  "section_id": "683128905713",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "mcq",
+        "stem": "<p>Escoge los dibujos que completan la secuencia. <img class=\"displayed-image\" src=\"939180946174.02.svg\"/></p>",
+        "choices": [
+          {
+            "label": "A",
+            "value": "<span class=\"LexicalTheme__image LexicalTheme__image--inline h-scroll\" data-node-type=\"image\" data-node-variation=\"inline\" style=\"vertical-align:-1.85657179132939pt\"><img alt=\"497189530491.4\" height=\"42.656\" src=\"939180946174.03.svg\" style=\"aspect-ratio: 91.977/42.656;\" width=\"91.977\"/></span>",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "value": "<span class=\"LexicalTheme__image LexicalTheme__image--inline h-scroll\" data-node-type=\"image\" data-node-variation=\"inline\" style=\"vertical-align:-1.85657179132939pt\"><img alt=\"497189530491.2\" height=\"42.656\" src=\"939180946174.01.svg\" style=\"aspect-ratio: 91.977/42.656;\" width=\"91.977\"/></span>",
+            "is_correct": true
+          },
+          {
+            "label": "C",
+            "value": "<span class=\"LexicalTheme__image LexicalTheme__image--inline h-scroll\" data-node-type=\"image\" data-node-variation=\"inline\" style=\"vertical-align:-1.85657179132939pt\"><img alt=\"497189530491.3\" height=\"42.656\" src=\"939180946174.04.svg\" style=\"aspect-ratio: 91.977/42.656;\" width=\"91.977\"/></span>",
+            "is_correct": false
+          }
+        ],
+        "correct_answer": {
+          "label": "B",
+          "value": "<span class=\"LexicalTheme__image LexicalTheme__image--inline h-scroll\" data-node-type=\"image\" data-node-variation=\"inline\" style=\"vertical-align:-1.85657179132939pt\"><img alt=\"497189530491.2\" height=\"42.656\" src=\"939180946174.01.svg\" style=\"aspect-ratio: 91.977/42.656;\" width=\"91.977\"/></span>"
+        },
+        "explanation": null
+      }
+    ]
+  }
+}

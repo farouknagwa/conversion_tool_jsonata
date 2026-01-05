@@ -46,3 +46,20 @@ TYPICAL USAGE:
 python3 -B main.py
 (Processes all INPUT/ files with detailed progress)
 
+WORKFLOW MODE (Step4_OUTPUT -> Step5_OUTPUT):
+- Use workflow_main.py when you already have a Step4 pipeline folder with per-question subfolders:
+  Step4_OUTPUT/<QuestionId>/Updated/<QuestionId>.json
+- The workflow will:
+  * Empty Step5_OUTPUT
+  * Copy Step4_OUTPUT -> Step5_OUTPUT (excluding *.log files)
+  * Rewrite Step5_OUTPUT/questions_updated_sheet.csv to one row per QuestionId and add:
+    IsSuccess, Error Message, Error Type, Warning Message
+  * Run HTML cleaning (clean_json_html.py) on each target JSON before conversion
+  * Convert each JSON in place inside Step5_OUTPUT
+  * Write a Step5 log file:
+    Step5_JsonCleaningAndConversion_<YYYYMMDD>_<HHMMSSmmm>.log
+
+TYPICAL WORKFLOW USAGE:
+python3 -B workflow_main.py
+python3 -B workflow_main.py --inputstep Step4_OUTPUT --outputstep Step5_OUTPUT
+

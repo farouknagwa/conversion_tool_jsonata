@@ -1,0 +1,51 @@
+{
+  "question_id": "425121493728",
+  "parent_id": "492136862704",
+  "language_code": "es",
+  "language": "Spanish",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Mathematics",
+  "subject_id": "215181641502",
+  "grade": "8",
+  "grade_id": "195136132631",
+  "number_of_parts": 1,
+  "section_id": "698135858152",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "mcq",
+        "stem": "<p>Determina el volumen de un cilindro con radio 7 y altura 5. Calcula tu soluci&oacute;n con una precisi&oacute;n de dos decimales.</p>",
+        "choices": [
+          {
+            "label": "A",
+            "value": "549.78",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "value": "769.69",
+            "is_correct": true
+          },
+          {
+            "label": "C",
+            "value": "219.91",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "value": "<span class=\"no_margin merge\">1&lrm; &lrm;099.56</span>",
+            "is_correct": false
+          }
+        ],
+        "correct_answer": {
+          "label": "B",
+          "value": "769.69"
+        },
+        "explanation": null
+      }
+    ]
+  }
+}

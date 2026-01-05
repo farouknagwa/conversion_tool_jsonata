@@ -12,6 +12,24 @@ python3 -B main.py --output path/to/output            # Specify custom output pa
 python3 -B main.py --types mcq,mrq,counting           # Filter by question types
 python3 -B main.py --dry-run                          # Validation only, no files written
 
+WORKFLOW USAGE (Step4_OUTPUT -> Step5_OUTPUT):
+Use this mode when your dataset is already arranged in the Step4 pipeline structure:
+- Step4_OUTPUT/<QuestionId>/Updated/<QuestionId>.json is the JSON that must be cleaned + converted in place.
+- Step4_OUTPUT/questions_updated_sheet.csv exists and must be rewritten to one row per QuestionId.
+
+python3 -B workflow_main.py                                               # Uses Step4_OUTPUT -> Step5_OUTPUT
+python3 -B workflow_main.py -v                                            # Verbose workflow logging
+python3 -B workflow_main.py --inputstep path/to/Step4_OUTPUT --outputstep path/to/Step5_OUTPUT
+
+WORKFLOW OUTPUTS (Step5_OUTPUT):
+- Step5_OUTPUT is first emptied, then fully copied from Step4_OUTPUT (excluding *.log files).
+- Step5_OUTPUT/questions_updated_sheet.csv is rewritten to these columns (one row per QuestionId):
+  QuestionId, SectionCode, language_iso_code, subject_id, subject_name, grade_id,
+  grade_url_text, country_iso_code, parent_id, IsSuccess, Error Message, Error Type, Warning Message
+- A Step5 log file is created in Step5_OUTPUT root:
+  Step5_JsonCleaningAndConversion_<YYYYMMDD>_<HHMMSSmmm>.log
+- No OUTPUTS/CONVERTED or failure folders are created in workflow mode; JSONs are edited in place inside Step5_OUTPUT.
+
 INPUT/OUTPUT:
 - Place JSON files in INPUT/ folder (supports subdirectories)
 - Converted files saved to OUTPUTS/CONVERTED/

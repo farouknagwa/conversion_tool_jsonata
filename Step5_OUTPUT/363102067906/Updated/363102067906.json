@@ -1,0 +1,51 @@
+{
+  "question_id": "363102067906",
+  "parent_id": "812169842632",
+  "language_code": "ar",
+  "language": "Arabic",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "الكيمياء",
+  "subject_id": "108185721980",
+  "grade": "10",
+  "grade_id": "934185068749",
+  "number_of_parts": 1,
+  "section_id": "769101818624",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "mcq",
+        "stem": "<p>أيٌّ من الجزيئات الآتية له كتلة جزيئية تساوي <span class=\"merge no_margin\" dir=\"ltr\">28 u</span>؟ [<span class=\"merge\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{\\ce{C} = 12\\ \\textrm{g}/\\textrm{mol}}\">\\displaystyle{\\ce{C} = 12\\ \\textrm{g}/\\textrm{mol}}</math-field></span>، </span><span class=\"merge\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{\\ce{H} = 1\\ \\textrm{g}/\\textrm{mol}}\">\\displaystyle{\\ce{H} = 1\\ \\textrm{g}/\\textrm{mol}}</math-field></span>، </span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{\\ce{F} = 19\\ \\textrm{g}/\\textrm{mol}}\">\\displaystyle{\\ce{F} = 19\\ \\textrm{g}/\\textrm{mol}}</math-field></span>] </p>",
+        "choices": [
+          {
+            "label": "أ",
+            "value": "<figure><div class=\"h-scroll displayed-text-svg\"><img alt=\"604120935767.3\" class=\"displayed-image\" height=\"82.0\" src=\"363102067906.03.svg\" style=\"aspect-ratio: 110.0/82.0;\" width=\"110.0\"/></div></figure>",
+            "is_correct": false
+          },
+          {
+            "label": "ب",
+            "value": "<figure><div class=\"h-scroll displayed-text-svg\"><img alt=\"604120935767.1\" class=\"displayed-image\" height=\"50.0\" src=\"363102067906.02.svg\" style=\"aspect-ratio: 106.0/50.0;\" width=\"106.0\"/></div></figure>",
+            "is_correct": true
+          },
+          {
+            "label": "ج",
+            "value": "<figure><div class=\"h-scroll displayed-text-svg\"><img alt=\"604120935767.2\" class=\"displayed-image\" height=\"18.0\" src=\"363102067906.01.svg\" style=\"aspect-ratio: 101.0/18.0;\" width=\"101.0\"/></div></figure>",
+            "is_correct": false
+          },
+          {
+            "label": "د",
+            "value": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{\\ce{CH4}}\">\\displaystyle{\\ce{CH4}}</math-field></span>",
+            "is_correct": false
+          }
+        ],
+        "correct_answer": {
+          "label": "ب",
+          "value": "<figure><div class=\"h-scroll displayed-text-svg\"><img alt=\"604120935767.1\" class=\"displayed-image\" height=\"50.0\" src=\"363102067906.02.svg\" style=\"aspect-ratio: 106.0/50.0;\" width=\"106.0\"/></div></figure>"
+        },
+        "explanation": null
+      }
+    ]
+  }
+}

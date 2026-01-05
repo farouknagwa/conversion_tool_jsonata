@@ -1,0 +1,28 @@
+2026-01-01 10:21:39.516 +02:00 [INF] === Step4_ApplyMediaRenameMap Started ===
+2026-01-01 10:21:39.545 +02:00 [INF] Using S3Url: https://s3.us-east-1.amazonaws.com/beta-qms.nagwa.com
+2026-01-01 10:21:39.550 +02:00 [INF] Copying question folders from Step3_OUTPUT to Step4_OUTPUT...
+2026-01-01 10:21:39.616 +02:00 [INF] Copied 100 question folders to Step4_OUTPUT
+2026-01-01 10:21:39.705 +02:00 [INF] Read 100 records from CSV file: E:\ContentMigrationPipelineOutput\Step3_OUTPUT\questions_rename_map.csv
+2026-01-01 10:21:39.707 +02:00 [INF] Loaded 100 rename rows
+2026-01-01 10:21:39.711 +02:00 [INF] Found 100 question folders in Step4_OUTPUT
+2026-01-01 10:21:39.714 +02:00 [INF] Filtered to 10 records with Status='Mapped' and Source='JSON' (out of 100 total). 90 non-Mapped records will be included in output.
+2026-01-01 10:21:39.717 +02:00 [INF] Creating Updated folders for all questions...
+2026-01-01 10:21:39.898 +02:00 [INF] Created Updated folders for all questions
+2026-01-01 10:21:39.940 +02:00 [INF] Added 90 non-Mapped records to output CSV
+2026-01-01 10:21:39.942 +02:00 [INF] Flushing 100 log records to database for step Step4_ApplyMediaRenameMap
+2026-01-01 10:21:41.912 +02:00 [INF] Inserted 100 records into lookup.content_migration_steps in 1 batches
+2026-01-01 10:21:41.919 +02:00 [INF] Successfully logged 100 records to database for step Step4_ApplyMediaRenameMap
+2026-01-01 10:21:41.921 +02:00 [INF] Successfully flushed all log records to database
+2026-01-01 10:21:41.964 +02:00 [INF] Wrote 100 records to CSV file: E:\ContentMigrationPipelineOutput\Step4_OUTPUT\questions_updated_sheet.csv
+2026-01-01 10:21:41.966 +02:00 [INF] Wrote updated CSV with 100 rows
+2026-01-01 10:21:41.968 +02:00 [INF] === Processing Summary ===
+2026-01-01 10:21:41.970 +02:00 [INF] Start Time: "2026-01-01T10:21:39.4719332+02:00" ("2026-01-01T08:21:39.4719332Z" UTC)
+2026-01-01 10:21:41.973 +02:00 [INF] End Time: "2026-01-01T10:21:41.9696799+02:00" ("2026-01-01T08:21:41.9696799Z" UTC)
+2026-01-01 10:21:41.975 +02:00 [INF] Duration: "00:00:02.4977467"
+2026-01-01 10:21:41.979 +02:00 [INF] Total Processed: 10
+2026-01-01 10:21:41.980 +02:00 [INF] Total Succeeded: 10
+2026-01-01 10:21:41.982 +02:00 [INF] Total Failed: 0
+2026-01-01 10:21:41.988 +02:00 [INF] Success Rate: 100.00 %
+2026-01-01 10:21:41.993 +02:00 [INF] === End Summary ===
+2026-01-01 10:21:41.994 +02:00 [INF] Step 4 completed successfully
+2026-01-01 10:21:41.996 +02:00 [INF] === Step4_ApplyMediaRenameMap Finished ===

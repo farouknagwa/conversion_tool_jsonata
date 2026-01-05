@@ -1,0 +1,46 @@
+{
+  "question_id": "364197356929",
+  "parent_id": "692140762180",
+  "language_code": "ar",
+  "language": "Arabic",
+  "country_code": "sa",
+  "country": "Saudi Arabia",
+  "subject": "الرياضيات",
+  "subject_id": "629163908605",
+  "grade": "1",
+  "grade_id": "753160982640",
+  "number_of_parts": 1,
+  "section_id": "148145632901",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "mcq",
+        "stem": "<p>بدأ فهد من ٦. عَدَّ إلى الأمام بمقدار ١ خمس مرات.</p><p>ما العدد الذي انتهى عنده؟</p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"364197356929.01.svg\"/></div>",
+        "choices": [
+          {
+            "label": "أ",
+            "value": "١٢",
+            "is_correct": false
+          },
+          {
+            "label": "ب",
+            "value": "١٠",
+            "is_correct": false
+          },
+          {
+            "label": "ج",
+            "value": "١١",
+            "is_correct": true
+          }
+        ],
+        "correct_answer": {
+          "label": "ج",
+          "value": "١١"
+        },
+        "explanation": null
+      }
+    ]
+  }
+}

@@ -616,8 +616,8 @@ Examples:
                 for i, result in enumerate(pool.imap(process_file_worker, worker_args), 1):
                     results.append(result)
                     # Print periodic progress
-                    if i % 100 == 0 or i == len(json_files):
-                        print(f"  Progress: {i}/{len(json_files)} ({i*100//len(json_files)}%)")
+                if i % 100 == 0 or i == len(json_files):
+                    print(f"  Progress: {i}/{len(json_files)} ({i*100//len(json_files)}%)")
     
     # Aggregate results into stats
     for result in results:

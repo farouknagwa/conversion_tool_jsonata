@@ -1,0 +1,51 @@
+{
+  "question_id": "732132161529",
+  "parent_id": "814150378713",
+  "language_code": "fr",
+  "language": "French",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Mathématiques",
+  "subject_id": "916194089098",
+  "grade": "10",
+  "grade_id": "934185068749",
+  "number_of_parts": 1,
+  "section_id": "917191419130",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "mcq",
+        "stem": "<p>Détermine la valeur de <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{x}\">\\displaystyle{x}</math-field></span> au dixième près.</p><div class=\"h-scroll\"><img alt=\"890193230712.1\" class=\"displayed-image\" height=\"288.26125\" src=\"732132161529.01.svg\" style=\"aspect-ratio: 359.77669999999995/288.26125;\" width=\"359.77669999999995\"/></div>",
+        "choices": [
+          {
+            "label": "A",
+            "value": "5,4",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "value": "2,3",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "value": "4,1",
+            "is_correct": true
+          },
+          {
+            "label": "D",
+            "value": "1,5",
+            "is_correct": false
+          }
+        ],
+        "correct_answer": {
+          "label": "C",
+          "value": "4,1"
+        },
+        "explanation": null
+      }
+    ]
+  }
+}

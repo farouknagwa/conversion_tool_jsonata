@@ -1,0 +1,65 @@
+\documentclass[tikz,border=12pt]{standalone}
+
+\usepackage{stix}
+\usepackage{tikz}
+\usetikzlibrary{decorations.markings}
+\usetikzlibrary{angles}
+\usetikzlibrary{quotes}
+\usetikzlibrary{positioning}
+\usetikzlibrary{calc}
+\usepackage{tkz-euclide}
+\usetkzobj{all}
+\usetikzlibrary{arrows, arrows.meta}
+
+\definecolor{Blue}{RGB}{85,164,224}
+\definecolor{Grey1}{RGB}{130,130,131}
+
+
+\begin{document}
+
+\begin{tikzpicture}
+\scope[>={Stealth[scale=1.2]},thick]
+\pgfgettransformentries{\mya}{\myb}{\myc}{\myd}{\mys}{\myt}
+\pgfmathsetmacro{\preserve}{1/\mya}
+
+\tkzDefPoint(0,0){C}
+\tkzDefPoint(0:159.6){B}
+\tkzDefPoint(70:142.4){A}
+
+\tkzDefMidPoint(A,C)
+\tkzGetPoint{F}
+
+\tkzDefMidPoint(A,B)
+\tkzGetPoint{D}
+
+\tkzDefMidPoint(C,B)
+\tkzGetPoint{E}
+
+\fill[Grey1!30](C)--(E)--(D)--(F);
+\draw(A)--(B)--(C)--cycle;
+\draw(F)--(D)--(E);
+
+\tkzMarkSegments[mark=|,color=Blue,pos=0.5](C,E)
+\tkzMarkSegments[mark=|,color=Blue,pos=0.5](E,B)
+
+\tkzMarkSegments[mark=||,color=Blue,pos=0.5](A,D)
+\tkzMarkSegments[mark=||,color=Blue,pos=0.5](D,B)
+
+\tkzMarkSegments[mark=|||,color=Blue,pos=0.5](A,F)
+\tkzMarkSegments[mark=|||,color=Blue,pos=0.5](F,C)
+
+
+\tkzLabelPoint[Blue,above](A){$A$}
+\tkzLabelPoint[Blue,below right](B){$B$}
+\tkzLabelPoint[Blue,below left](C){$C$}
+\tkzLabelPoint[Blue,above right](D){$D$}
+\tkzLabelPoint[Blue,below](E){$E$}
+\tkzLabelPoint[Blue,above left](F){$F$}
+
+\draw[|-|,thin] ($(C)!-10mm*\preserve!90:(B)$)--node[fill=white] {\textcolor {Blue}{$159{,}6\ \textrm{cm}$}} ($(B)!-10mm*\preserve!-90:(C)$);
+
+\draw[|-|,thin] ($(C)!14mm*\preserve!90:(A)$)--node[fill=white] {\textcolor {Blue}{$142{,}4\ \textrm{cm}$}} ($(A)!14mm*\preserve!-90:(C)$);
+
+\endscope
+\end{tikzpicture}
+\end{document}

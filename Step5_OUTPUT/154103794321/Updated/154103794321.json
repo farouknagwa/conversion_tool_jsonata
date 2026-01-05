@@ -1,0 +1,51 @@
+{
+  "question_id": "154103794321",
+  "parent_id": "905180797323",
+  "language_code": "ar",
+  "language": "Arabic",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "تكنولوجيا المعلومات والاتصالات",
+  "subject_id": "759129548570",
+  "grade": "11",
+  "grade_id": "898134813215",
+  "number_of_parts": 1,
+  "section_id": "815193916062",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "mcq",
+        "stem": "<p>أيُّ المواقع الآتية أكثر أمانًا؟</p>",
+        "choices": [
+          {
+            "label": "أ",
+            "value": "https://example123website.com",
+            "is_correct": true
+          },
+          {
+            "label": "ب",
+            "value": "http://secure123website.com",
+            "is_correct": false
+          },
+          {
+            "label": "ج",
+            "value": "http://notsecure123website.com",
+            "is_correct": false
+          },
+          {
+            "label": "د",
+            "value": "http://example123website.com",
+            "is_correct": false
+          }
+        ],
+        "correct_answer": {
+          "label": "أ",
+          "value": "https://example123website.com"
+        },
+        "explanation": null
+      }
+    ]
+  }
+}

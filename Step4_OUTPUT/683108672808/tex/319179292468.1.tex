@@ -1,0 +1,69 @@
+\documentclass[tikz,border=12pt]{standalone}
+\usepackage{stix}
+\usepackage{tkz-euclide}
+\usetikzlibrary{angles,quotes,arrows.meta}
+\definecolor{blue}{RGB}{0,51,255}
+\definecolor{green}{RGB}{0,153,0}
+\usetkzobj{all}
+% defining the new dimensions and parameters
+\newlength{\hatchspread}
+\newlength{\hatchthickness}
+\newlength{\hatchshift}
+\newcommand{\hatchcolor}{}
+% declaring the keys in tikz
+\tikzset{hatchspread/.code={\setlength{\hatchspread}{#1}},
+         hatchthickness/.code={\setlength{\hatchthickness}{#1}},
+         hatchshift/.code={\setlength{\hatchshift}{#1}},% must be >= 0
+         hatchcolor/.code={\renewcommand{\hatchcolor}{#1}}}
+ %setting the default values
+\tikzset{hatchspread=3pt,
+         hatchthickness=0.4pt,
+         hatchshift=0pt,% must be >= 0
+         hatchcolor=black}
+% declaring the pattern
+\pgfdeclarepatternformonly[\hatchspread,\hatchthickness,\hatchshift,\hatchcolor]% variables
+   {custom north west lines}% name
+   {\pgfqpoint{\dimexpr-2\hatchthickness}{\dimexpr-2\hatchthickness}}% lower left corner
+   {\pgfqpoint{\dimexpr\hatchspread+2\hatchthickness}{\dimexpr\hatchspread+2\hatchthickness}}% upper right corner
+   {\pgfqpoint{\dimexpr\hatchspread}{\dimexpr\hatchspread}}% tile size
+   {% shape description
+    \pgfsetlinewidth{\hatchthickness}
+    \pgfpathmoveto{\pgfqpoint{0pt}{\dimexpr\hatchspread+\hatchshift}}
+    \pgfpathlineto{\pgfqpoint{\dimexpr\hatchspread+0.15pt+\hatchshift}{-0.15pt}}
+    \ifdim \hatchshift > 0pt
+      \pgfpathmoveto{\pgfqpoint{0pt}{\hatchshift}}
+      \pgfpathlineto{\pgfqpoint{\dimexpr0.15pt+\hatchshift}{-0.15pt}}
+    \fi
+    \pgfsetstrokecolor{\hatchcolor}
+%    \pgfsetdash{{1pt}{1pt}}{0pt}% dashing cannot work correctly in all situation this way
+    \pgfusepath{stroke}
+   }
+
+\begin{document}
+\begin{tikzpicture}
+\begin{scope}[>={Stealth[scale=1.2]},thick]
+\pgfgettransformentries{\mya}{\myb}{\myc}{\myd}{\mys}{\myt}
+\pgfmathsetmacro{\preserve}{1/\mya}
+
+
+\coordinate(a)at(0,0);
+\coordinate(e)at(3,3);
+\coordinate(q)at(0,2);
+\coordinate(r)at(3,2);
+\path(a)--(0:5) coordinate(b);
+\path(a)--(90:3)coordinate(d);
+\path(d)--++(0:5) coordinate(c);
+\path(c)--(b);
+%\draw(q)--(b);
+\tkzDrawPolygon[pattern=custom north west lines, hatchspread=.5cm,hatchthickness=1pt,hatchcolor=gray](c,b,a,d)
+\tkzDrawPolygon[fill=white](e,r,q,d)
+
+
+
+\path[blue] (d)--(e) node[above,midway,sloped] {$#p2#$}; 
+\path[blue] (d)--(q) node[below,midway,left] {$#p3#$}; 
+\path[blue] (q)--(a) node[below,midway,left] {$#p4#$}; 
+\path[blue] (e)--(c) node[above,midway,sloped] {$#p1#$};
+\end{scope}
+\end{tikzpicture}
+\end{document}

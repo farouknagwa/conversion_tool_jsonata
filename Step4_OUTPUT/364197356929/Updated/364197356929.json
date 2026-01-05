@@ -1,0 +1,76 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>بدأ فهد من ٦. عَدَّ إلى الأمام بمقدار ١ خمس مرات.</p><p>ما العدد الذي انتهى عنده؟</p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"364197356929.01.svg\"/></div>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [
+            {
+              "type": "integer",
+              "value": "11",
+              "constrains": null
+            }
+          ],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "١١"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "١٢"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "١٠"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 692140762180,
+    "title": "",
+    "country": "sa",
+    "dialect": [
+      "modern_standard"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "ar",
+    "mapped_id": 364197356929,
+    "source_id": null,
+    "description": "بدأ فهد من ٦. عَدَّ إلى الأمام بمقدار ١ خمس مرات.ما العدد الذي انتهى عنده؟<شكل>",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 1,
+    "publication_date": "2023-04-13T12:48:19"
+  },
+  "section_id": "148145632901",
+  "language": "ar",
+  "subject_id": "629163908605",
+  "subject": "الرياضيات",
+  "grade_id": "753160982640",
+  "grade": "1",
+  "country": "zz",
+  "parent_id": "692140762180",
+  "question_id": "364197356929"
+}

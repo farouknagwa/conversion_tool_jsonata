@@ -1,0 +1,94 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>Determina o valor de <span class=\"merge\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{x}\">\\displaystyle{x}</math-field></span>, </span>arredondado às décimas.</p><div class=\"h-scroll\"><img alt=\"867196969024.1\" class=\"displayed-image\" height=\"288.47453\" src=\"212192398218.01.svg\" style=\"aspect-ratio: 359.77669999999995/288.47453;\" width=\"359.77669999999995\"/></div>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": null,
+          "index": 0,
+          "values": [
+            {
+              "type": "decimal",
+              "value": "4.1",
+              "constrains": null
+            }
+          ],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "4,1"
+        },
+        {
+          "type": "distractor",
+          "unit": "",
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "5,4"
+        },
+        {
+          "type": "distractor",
+          "unit": "",
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "1,5"
+        },
+        {
+          "type": "distractor",
+          "unit": "",
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "2,3"
+        },
+        {
+          "type": "distractor",
+          "unit": "",
+          "index": 4,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 5,
+          "html_content": "7,3"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 814150378713,
+    "title": "Aplicando o Teorema de Pitágoras para Resolver Mais Problemas Complexos",
+    "automark": true,
+    "category": "lesson",
+    "country": null,
+    "language": "pt",
+    "dialect": [
+      "european"
+    ],
+    "mapped_id": 212192398218,
+    "source_id": null,
+    "description": "Determina o valor de x, arredondado às décimas.<Figura>",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 10,
+    "publication_date": "2025-07-17T07:31:17"
+  },
+  "section_id": "917189021362",
+  "language": "pt",
+  "subject_id": "986160321713",
+  "subject": "Mathematics",
+  "grade_id": "934185068749",
+  "grade": "10",
+  "country": "eg",
+  "parent_id": "814150378713",
+  "question_id": "212192398218"
+}

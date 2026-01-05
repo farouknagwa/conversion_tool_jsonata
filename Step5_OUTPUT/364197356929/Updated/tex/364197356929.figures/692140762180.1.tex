@@ -1,0 +1,76 @@
+	\documentclass[border = 12]{standalone}
+	\usepackage{amsmath}
+	\usepackage{stix}
+	\usepackage{tikz}
+	\usepackage{tkz-euclide}
+	\usepackage{makecell}
+	\usepackage{ifthen}
+	\usepackage{pgfmath}
+	\definecolor{blue}{RGB}{0,51,255} 
+	\usetkzobj{all}
+	
+	\usetikzlibrary{intersections}
+	\usetikzlibrary{decorations.markings}
+	\usetikzlibrary{angles}
+	\usetikzlibrary{quotes}
+	\usetikzlibrary{calc}
+	\usetikzlibrary{arrows}
+	\usetikzlibrary{arrows.meta}
+	\usetikzlibrary{shapes.geometric}
+	\usetikzlibrary{patterns}
+	\usetikzlibrary{shapes}
+	%
+	\definecolor{Grey}{RGB}{76,76,78}
+	\definecolor{Blue}{RGB}{85,164,224}
+	\definecolor{Red}{RGB}{225,75,59}
+	\definecolor{Green}{RGB}{16,158,36}
+	\definecolor{Orange}{RGB}{243,162,3}
+	\definecolor{Purple}{RGB}{124,36,231}
+	\definecolor{Fushia}{RGB}{225,50,162}
+	
+	
+	
+	%
+	\definecolor{Grey1}{RGB}{130,130,131}
+	\definecolor{Blue1}{RGB}{98,170,223}
+	\definecolor{Red1}{RGB}{236,98,88}
+	\definecolor{Green1}{RGB}{105,186,108}
+	\definecolor{Orange1}{RGB}{251,192,79}
+	\definecolor{Purple1}{RGB}{160,114,235}
+	\definecolor{Fushia1}{RGB}{237,97,174}
+	
+	\usepackage{tikz-3dplot}
+	\usepackage{tikz}
+	\usetikzlibrary{calc,intersections,arrows.meta}
+	\begin{document}
+		\begin{tikzpicture}
+		
+		\begin{scope}[>={Stealth[scale=1.2]}, thick,font=\fontsize{11.25}{11.25}\selectfont,line join=round, line cap=round]
+		
+		\pgfgettransformentries{\mya}{\myb}{\myc}{\myd}{\mys}{\myt}
+		\pgfmathsetmacro{\preserve}{1/\mya}
+		
+\draw (0.5,0)--(10.5,0);
+
+\foreach \x  in {1,2,3,4,5,6,7,8,9,10}{
+	\node at (\x,0) {\tikz{\draw [thick] (0,-0.35ex)--(0,0.35ex);}};}
+
+\node [anchor=north] at (3,-0.35ex) {$6$};
+
+
+\draw [->,Blue] (3,0.3) to [bend left=80,looseness=1.4] (4,0.3);
+\draw [->,Blue] (4,0.3) to [bend left=80,looseness=1.4] (5,0.3);
+\draw [->,Blue] (5,0.3) to [bend left=80,looseness=1.4] (6,0.3);
+\draw [->,Blue] (6,0.3) to [bend left=80,looseness=1.4] (7,0.3);
+\draw [->,Blue] (7,0.3) to [bend left=80,looseness=1.4] (8,0.3);
+
+
+
+
+
+
+	\end{scope}
+	\end{tikzpicture}
+\end{document}
+
+

@@ -1,0 +1,46 @@
+{
+  "question_id": "278171702932",
+  "parent_id": "192187680937",
+  "language_code": "pt",
+  "language": "Portuguese",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Mathematics",
+  "subject_id": "876139201973",
+  "grade": "11",
+  "grade_id": "898134813215",
+  "number_of_parts": 1,
+  "section_id": "829128916010",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "mcq",
+        "stem": "<p>Este é o gráfico de <span class=\"merge\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{y=g\\left(x\\right)}\">\\displaystyle{y=g\\left(x\\right)}</math-field></span>. </span><div class=\"h-scroll\"><img alt=\"463157403450.1\" class=\"displayed-image\" height=\"307.22983999999997\" src=\"278171702932.02.svg\" style=\"aspect-ratio: 305.27033/307.22983999999997;\" width=\"305.27033\"/></div></p><p>Qual das seguintes alternativas é o gráfico de <span class=\"merge\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{g\\left(-x\\right)}\">\\displaystyle{g\\left(-x\\right)}</math-field></span>? </span><div class=\"h-scroll\"><img alt=\"463157403450.2\" class=\"displayed-image\" height=\"337.72888\" src=\"278171702932.03.svg\" style=\"aspect-ratio: 571.73703/337.72888;\" width=\"571.73703\"/></div><div class=\"h-scroll\"><img alt=\"463157403450.3\" class=\"displayed-image\" height=\"356.0443\" src=\"278171702932.01.svg\" style=\"aspect-ratio: 305.27033/356.0443;\" width=\"305.27033\"/></div></p>",
+        "choices": [
+          {
+            "label": "A",
+            "value": "(b)",
+            "is_correct": true
+          },
+          {
+            "label": "B",
+            "value": "(c)",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "value": "(a)",
+            "is_correct": false
+          }
+        ],
+        "correct_answer": {
+          "label": "A",
+          "value": "(b)"
+        },
+        "explanation": null
+      }
+    ]
+  }
+}

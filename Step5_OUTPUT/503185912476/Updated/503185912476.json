@@ -1,0 +1,51 @@
+{
+  "question_id": "503185912476",
+  "parent_id": "460128731423",
+  "language_code": "ar",
+  "language": "Arabic",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "الكيمياء",
+  "subject_id": "829135270943",
+  "grade": "12",
+  "grade_id": "979180725863",
+  "number_of_parts": 1,
+  "section_id": "954157280848",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "mcq",
+        "stem": "<p>يوضِّح الشكل الآتي أحد مشتقات البنزين الأحادي الاستبدال. أيُّ من الآتي يعبر عن المجموعة X التي توجِّه الاستبدال التالي غالبًا إلى الموضع ميتا؟ </p><figure><div class=\"h-scroll displayed-text-svg\"><img alt=\"926148747340.1\" class=\"displayed-image\" height=\"109.0\" src=\"503185912476.01.svg\" style=\"aspect-ratio: 63.0/109.0;\" width=\"63.0\"/></div></figure>",
+        "choices": [
+          {
+            "label": "أ",
+            "value": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{\\ce{Cl}}\">\\displaystyle{\\ce{Cl}}</math-field></span>",
+            "is_correct": false
+          },
+          {
+            "label": "ب",
+            "value": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{\\ce{CH3}}\">\\displaystyle{\\ce{CH3}}</math-field></span>",
+            "is_correct": false
+          },
+          {
+            "label": "ج",
+            "value": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{\\ce{NO2}}\">\\displaystyle{\\ce{NO2}}</math-field></span>",
+            "is_correct": true
+          },
+          {
+            "label": "د",
+            "value": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{\\ce{OH}}\">\\displaystyle{\\ce{OH}}</math-field></span>",
+            "is_correct": false
+          }
+        ],
+        "correct_answer": {
+          "label": "ج",
+          "value": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{\\ce{NO2}}\">\\displaystyle{\\ce{NO2}}</math-field></span>"
+        },
+        "explanation": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "question_id": "925106425634",
+  "parent_id": "356182123108",
+  "language_code": "pt",
+  "language": "Portuguese",
+  "country_code": "zz",
+  "country": "ZZ",
+  "subject": "Mathematics",
+  "subject_id": "605197106901",
+  "grade": "7",
+  "grade_id": "747181064157",
+  "number_of_parts": 1,
+  "section_id": "436170972865",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "mcq",
+        "stem": "<p>Na figura, determine todos os valores possíveis de <span class=\"merge\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{y}\">\\displaystyle{y}</math-field></span>.</span></p><div class=\"h-scroll\"><img alt=\"870140465307.1\" class=\"displayed-image\" height=\"192.45854\" src=\"925106425634.01.svg\" style=\"aspect-ratio: 324.25225/192.45854;\" width=\"324.25225\"/></div>",
+        "choices": [
+          {
+            "label": "A",
+            "value": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{y=-3}\">\\displaystyle{y=-3}</math-field></span> ou <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{y=1}\">\\displaystyle{y=1}</math-field></span>",
+            "is_correct": false
+          },
+          {
+            "label": "B",
+            "value": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{y=-2}\">\\displaystyle{y=-2}</math-field></span> ou <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{y=-3}\">\\displaystyle{y=-3}</math-field></span>",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "value": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{y=3}\">\\displaystyle{y=3}</math-field></span> ou <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{y=-1}\">\\displaystyle{y=-1}</math-field></span>",
+            "is_correct": true
+          },
+          {
+            "label": "D",
+            "value": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{y=-3}\">\\displaystyle{y=-3}</math-field></span> ou <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{y=-1}\">\\displaystyle{y=-1}</math-field></span>",
+            "is_correct": false
+          },
+          {
+            "label": "E",
+            "value": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{y=3}\">\\displaystyle{y=3}</math-field></span> ou <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{y=1}\">\\displaystyle{y=1}</math-field></span>",
+            "is_correct": false
+          }
+        ],
+        "correct_answer": {
+          "label": "C",
+          "value": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{y=3}\">\\displaystyle{y=3}</math-field></span> ou <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{y=-1}\">\\displaystyle{y=-1}</math-field></span>"
+        },
+        "explanation": null
+      }
+    ]
+  }
+}

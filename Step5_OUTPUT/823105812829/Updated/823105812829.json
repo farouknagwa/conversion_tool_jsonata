@@ -1,0 +1,51 @@
+{
+  "question_id": "823105812829",
+  "parent_id": "613187323568",
+  "language_code": "ar",
+  "language": "Arabic",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "الكيمياء",
+  "subject_id": "108185721980",
+  "grade": "10",
+  "grade_id": "934185068749",
+  "number_of_parts": 1,
+  "section_id": "769101818624",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "mcq",
+        "stem": "<p>الصيغة التوضيحية لمركَّب <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{5\\textrm{،} 3\\textrm{،} 1}\">\\displaystyle{5\\textrm{،} 3\\textrm{،} 1}</math-field></span>-ثلاثي برومو الهكسان الحلقي موضَّحة بالشكل. ما كتلة الصيغة النسبية له؟ قرِّب إجابتك لأقرب عدد صحيح. [<span class=\"merge\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{\\ce{C} = 12}\">\\displaystyle{\\ce{C} = 12}</math-field></span>، </span><span class=\"merge\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{\\ce{H} =1}\">\\displaystyle{\\ce{H} =1}</math-field></span>، </span><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{\\ce{Br} = 80}\">\\displaystyle{\\ce{Br} = 80}</math-field></span>]</p><figure><div class=\"h-scroll displayed-text-svg\"><img alt=\"379183583424.1\" class=\"displayed-image\" height=\"137.0\" src=\"823105812829.01.svg\" style=\"aspect-ratio: 140.0/137.0;\" width=\"140.0\"/></div></figure>",
+        "choices": [
+          {
+            "label": "أ",
+            "value": "321",
+            "is_correct": true
+          },
+          {
+            "label": "ب",
+            "value": "401",
+            "is_correct": false
+          },
+          {
+            "label": "ج",
+            "value": "241",
+            "is_correct": false
+          },
+          {
+            "label": "د",
+            "value": "152",
+            "is_correct": false
+          }
+        ],
+        "correct_answer": {
+          "label": "أ",
+          "value": "321"
+        },
+        "explanation": null
+      }
+    ]
+  }
+}

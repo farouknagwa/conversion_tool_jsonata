@@ -1,0 +1,86 @@
+FILE: workflow_main.py
+PURPOSE: Step4_OUTPUT -> Step5_OUTPUT workflow runner (HTML clean + in-place conversion + CSV update)
+
+OVERVIEW:
+- Designed for pipeline-style datasets where each QuestionId has its own folder
+  and the JSON to be edited is located at:
+  Step4_OUTPUT/<QuestionId>/Updated/<QuestionId>.json
+- Produces a new Step5_OUTPUT folder that is a copy of Step4_OUTPUT (excluding *.log files),
+  then edits the Step5 JSONs in place and updates the Step5 CSV sheet.
+
+KEY BEHAVIOR:
+- Uses RELATIVE PATHS by default (no .resolve()).
+- Empties Step5_OUTPUT before running, then copies Step4_OUTPUT -> Step5_OUTPUT (excluding *.log).
+- Rewrites Step5_OUTPUT/questions_updated_sheet.csv to ONE ROW PER QuestionId with required metadata columns,
+  plus workflow result columns.
+- For each QuestionId:
+  1) Runs HTML cleaning using SIDE_TOOLS/jsons_htmltags_cleaning/clean_json_html.py (in-place)
+  2) Runs the standard conversion pipeline:
+     pre-validation -> conversion -> post-validation
+  3) Saves the converted JSON in place (same path in Step5_OUTPUT)
+  4) Writes IsSuccess / Error Message / Error Type / Warning Message into the CSV row
+- Writes a Step5-style log file to Step5_OUTPUT root:
+  Step5_JsonCleaningAndConversion_<YYYYMMDD>_<HHMMSSmmm>.log
+
+CONSTANTS:
+- REQUIRED_SHEET_COLUMNS:
+  QuestionId, SectionCode, language_iso_code, subject_id, subject_name, grade_id,
+  grade_url_text, country_iso_code, parent_id
+- OUTPUT_SHEET_COLUMNS:
+  REQUIRED_SHEET_COLUMNS + IsSuccess, Error Message, Error Type, Warning Message
+
+FUNCTIONS / CLASSES:
+- _now_step_style_stamp():
+  Returns (YYYYMMDD, HHMMSSmmm) to match the Step4/Step5 naming style.
+- Logger:
+  Simple console + file logger (always writes to the Step5 log file; verbose adds debug).
+- empty_directory(dir_path):
+  Deletes all contents of a directory (used to clear Step5_OUTPUT at start).
+- copy_step4_to_step5(step4_dir, step5_dir, logger):
+  Copies entire Step4 folder into Step5 folder, ignoring *.log files.
+- load_cleaner_module(cleaner_path):
+  Dynamically loads SIDE_TOOLS/jsons_htmltags_cleaning/clean_json_html.py
+  so we can reuse clean_html_attributes() without subprocess calls.
+- read_questions_sheet(sheet_path):
+  Reads questions_updated_sheet.csv with csv.DictReader.
+- build_deduped_question_rows(rows, logger):
+  Deduplicates to one row per QuestionId (keeps first occurrence).
+- write_questions_sheet(sheet_path, rows):
+  Writes the rewritten Step5 CSV with OUTPUT_SHEET_COLUMNS.
+- QuestionResult:
+  Dataclass holding is_success + error_type/message + warning_message.
+- stringify_messages(msgs):
+  Joins multiple messages into one string (pipe-separated).
+- clean_json_in_place(json_path, cleaner_module, logger):
+  Runs clean_html_attributes() and overwrites the JSON (in place).
+- process_question_json(question_id, json_path, cleaner_module, logger):
+  Implements the per-question workflow:
+  HTML clean -> pre-validate (collect warnings) -> convert -> post-validate -> save converted JSON
+- main():
+  Orchestrates full workflow over all QuestionIds found in the Step5 CSV.
+
+CLI ARGUMENTS:
+--inputstep/-i:
+  Step4_OUTPUT folder path (default: Step4_OUTPUT)
+--outputstep/-o:
+  Step5_OUTPUT folder path (default: Step5_OUTPUT)
+--verbose/-v:
+  Verbose logging (adds per-file debug logging)
+
+OUTPUTS (Step5_OUTPUT):
+- Step5_OUTPUT/<QuestionId>/... :
+  Full copied folder tree from Step4, with Updated/<QuestionId>.json edited in place.
+- Step5_OUTPUT/questions_updated_sheet.csv:
+  Rewritten, deduped, and filled with conversion results columns.
+- Step5_OUTPUT/Step5_JsonCleaningAndConversion_<date>_<timestamp>.log:
+  Workflow log.
+
+IMPORTANT DIFFERENCE VS main.py:
+- workflow_main.py does NOT create OUTPUTS/CONVERTED or failure folders.
+  It operates inside Step5_OUTPUT and records results via the CSV + Step5 log.
+
+DEPENDENCIES:
+- Uses the same core dependencies as the main tool: beautifulsoup4 (via cleaner / validators),
+  jsonata-python (via converter), plus standard library modules.
+
+

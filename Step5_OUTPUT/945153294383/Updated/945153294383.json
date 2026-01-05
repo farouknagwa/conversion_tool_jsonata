@@ -1,0 +1,51 @@
+{
+  "question_id": "945153294383",
+  "parent_id": "909176097482",
+  "language_code": "fr",
+  "language": "French",
+  "country_code": "eg",
+  "country": "Egypt",
+  "subject": "Mathématiques",
+  "subject_id": "107123209036",
+  "grade": "9",
+  "grade_id": "424170340194",
+  "number_of_parts": 1,
+  "section_id": "917181292108",
+  "source": "human",
+  "content": {
+    "parts": [
+      {
+        "n": 1,
+        "type": "mcq",
+        "stem": "<p>Détermine l’aire de la figure ci-dessous sous la forme d’une expression littérale.</p><div class=\"h-scroll\"><img alt=\"264102029728.1\" class=\"displayed-image\" height=\"241.84619\" src=\"945153294383.01.svg\" style=\"aspect-ratio: 355.55109/241.84619;\" width=\"355.55109\"/></div>",
+        "choices": [
+          {
+            "label": "A",
+            "value": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{239x^{2}}\">\\displaystyle{239x^{2}}</math-field></span>",
+            "is_correct": true
+          },
+          {
+            "label": "B",
+            "value": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{241x^{2}}\">\\displaystyle{241x^{2}}</math-field></span>",
+            "is_correct": false
+          },
+          {
+            "label": "C",
+            "value": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{239x}\">\\displaystyle{239x}</math-field></span>",
+            "is_correct": false
+          },
+          {
+            "label": "D",
+            "value": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{241x}\">\\displaystyle{241x}</math-field></span>",
+            "is_correct": false
+          }
+        ],
+        "correct_answer": {
+          "label": "A",
+          "value": "<span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"true\" style=\"padding: 0\" value=\"\\displaystyle{239x^{2}}\">\\displaystyle{239x^{2}}</math-field></span>"
+        },
+        "explanation": null
+      }
+    ]
+  }
+}

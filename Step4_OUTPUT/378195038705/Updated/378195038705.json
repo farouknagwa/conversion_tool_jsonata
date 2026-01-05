@@ -1,0 +1,85 @@
+{
+  "parts": [
+    {
+      "n": 1,
+      "stem": "<p>Sabiendo que <span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{ABCD}\">\\displaystyle{ABCD}</math-field></span> es un romboide, calcula el &aacute;rea de <span class=\"merge\"><span class=\"LexicalTheme__math--inline\" data-node-type=\"math\" data-node-variation=\"inline\"><math-field default-mode=\"inline-math\" read-only=\"\" style=\"padding: 0\" value=\"\\displaystyle{MBCD}\">\\displaystyle{MBCD}</math-field></span>.</span></p><div class=\"h-scroll\"><img class=\"displayed-image\" src=\"378195038705.01.svg\"/></div>",
+      "type": "mcq",
+      "answer": null,
+      "choices": [
+        {
+          "type": "key",
+          "unit": "<span class=\"merge no_margin\">cm<sup>2</sup></span>",
+          "index": 0,
+          "values": [
+            {
+              "type": "decimal",
+              "value": "300",
+              "constrains": null
+            }
+          ],
+          "last_order": false,
+          "fixed_order": 4,
+          "html_content": "<span class=\"merge no_margin\">300 cm<sup>2</sup></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 1,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 1,
+          "html_content": "<span class=\"merge no_margin\">100 cm<sup>2</sup></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 2,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 3,
+          "html_content": "<span class=\"merge no_margin\">200 cm<sup>2</sup></span>"
+        },
+        {
+          "type": "distractor",
+          "unit": null,
+          "index": 3,
+          "values": [],
+          "last_order": false,
+          "fixed_order": 2,
+          "html_content": "<span class=\"merge no_margin\">400 cm<sup>2</sup></span>"
+        }
+      ],
+      "subtype": null,
+      "standalone": true
+    }
+  ],
+  "statement": null,
+  "instance_number": 1,
+  "metadata": {
+    "id": 102101560845,
+    "title": "",
+    "country": null,
+    "dialect": [
+      "european latin_american"
+    ],
+    "automark": true,
+    "category": "lesson",
+    "language": "es",
+    "mapped_id": 378195038705,
+    "source_id": null,
+    "description": "Sabiendo que ABCD es un romboide, calcula el área de MBCD.<Figura>",
+    "has_example": false,
+    "parts_count": 1,
+    "instances_count": 10,
+    "publication_date": "2020-03-27T15:50:26"
+  },
+  "section_id": "182192034538",
+  "language": "es",
+  "subject_id": "493140928097",
+  "subject": "Mathematics",
+  "grade_id": "612152797413",
+  "grade": "6",
+  "country": "zz",
+  "parent_id": "102101560845",
+  "question_id": "378195038705"
+}
