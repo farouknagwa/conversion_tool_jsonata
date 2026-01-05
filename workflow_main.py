@@ -108,16 +108,39 @@ def copy_step4_to_step5(step4_dir: Path, step5_dir: Path, logger: Logger) -> Non
 
 def load_cleaner_module(cleaner_path: Path):
     """
-    Load SIDE_TOOLS/jsons_htmltags_cleaning/clean_json_html.py as a module (relative path expected).
+    Load clean_json_html.py as a module.
+
+    Path resolution rules:
+    - If cleaner_path is absolute: use it as-is.
+    - If cleaner_path is relative:
+      1) Try relative to current working directory (where the command is run)
+      2) If not found, try relative to this script's directory
     """
-    if not cleaner_path.exists():
+    original_path = cleaner_path
+    tried_paths: List[Path] = []
+
+    if cleaner_path.is_absolute():
+        tried_paths.append(cleaner_path)
+        resolved = cleaner_path
+    else:
+        cwd_candidate = Path.cwd() / cleaner_path
+        tried_paths.append(cwd_candidate)
+        if cwd_candidate.exists():
+            resolved = cwd_candidate
+        else:
+            script_dir_candidate = Path(__file__).resolve().parent / cleaner_path
+            tried_paths.append(script_dir_candidate)
+            resolved = script_dir_candidate
+
+    if not resolved.exists():
+        tried = " | ".join(str(p) for p in tried_paths)
         raise FileNotFoundError(
-            f"Cleaning script not found at: {cleaner_path}. "
-            f"Run from repo root or pass correct working directory."
+            f"Cleaning script not found. Given: {original_path}. Tried: {tried}. "
+            f"Pass a correct path or run from a directory that has SIDE_TOOLS/."
         )
-    spec = importlib.util.spec_from_file_location("clean_json_html", cleaner_path)
+    spec = importlib.util.spec_from_file_location("clean_json_html", resolved)
     if spec is None or spec.loader is None:
-        raise ImportError(f"Failed to load module spec for: {cleaner_path}")
+        raise ImportError(f"Failed to load module spec for: {resolved}")
     module = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(module)
     return module
