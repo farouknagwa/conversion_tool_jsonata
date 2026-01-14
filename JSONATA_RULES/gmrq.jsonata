@@ -51,7 +51,7 @@
   
   /* Return the complete part structure */
   {
-    "n": part.n,
+    "n": part_index,
     "type": "gmrq",
     "stem": part.stem,
     "items": {

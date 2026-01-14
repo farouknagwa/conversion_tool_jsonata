@@ -27,7 +27,7 @@
   
   /* Return the complete part structure */
   {
-    "n": part.n,
+    "n": part_index,
     "type": "mcq",
     "stem": part.stem,
     "choices": [$transformedChoices],

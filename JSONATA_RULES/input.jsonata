@@ -1,7 +1,4 @@
 (
-  /* Extract constraint type */
-  $constraintType := part.answer.constrains.type;
-  
   /* Parse value based on type */
   $value := $string(part.answer.value);
     
@@ -100,7 +97,7 @@
   
   /* Return the complete part structure */
   {
-    "n": part.n,
+    "n": part_index,
     "type": "input",
     "stem": part.stem,
     "correct_answer": $correctAnswer,

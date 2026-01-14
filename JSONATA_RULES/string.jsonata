@@ -1,5 +1,5 @@
 (
-  $aiTemplateId := $string(part.ai.ai_template_id);
+  $aiTemplateId := "593158513739";
   
   /* Handle answer as array */
   $acceptableAnswers := $type(part.answer) = "array" ? part.answer : [part.answer];
@@ -7,12 +7,19 @@
   /* Extract guidelines if present and convert mark to number */
   $guidelinesRaw := part.ai.guidelines;
   $guidelines := $guidelinesRaw ? $map($guidelinesRaw, function($item) {
-    $merge([$item, {"mark": $number($item.mark)}])
+    (
+      $markStr := $string($item.mark);
+      $validMarks := ["0", "1"];
+      $effectiveMark := $markStr in $validMarks 
+          ? $markStr 
+          : ($item.comment = "إجابة صحيحة!" ? "1" : $item.mark);
+      $merge([$item, {"mark": $number($effectiveMark)}])
+    )
   }) : null;
   
   /* Build base without explanation */
   $base := {
-    "n": part.n,
+    "n": part_index,
     "type": "string",
     "stem": part.stem,
     "ai_template_id": $aiTemplateId,

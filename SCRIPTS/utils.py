@@ -84,73 +84,30 @@ def extract_language_code(json_data: Dict[str, Any]) -> str:
 
 
 def extract_country_code(json_data: Dict[str, Any]) -> str:
-    # 1. Define candidates in standard priority order
-    raw_candidates = [
-        json_data.get('country'),
-        json_data.get('metadata', {}).get('country')
-    ]
+    raw_candidate = json_data.get('country')
 
-    # 2. Collect ALL valid, normalized codes found in the input
-    valid_found_codes = []
-    for code in raw_candidates:
-        if isinstance(code, str) and not is_empty_or_none(code):
-            norm = code.lower().strip()
-            if norm in COUNTRIES:
-                valid_found_codes.append(norm)
-
-    # 3. Apply the specific priority logic
-    if valid_found_codes:
-        # Rule 1: If 'eg' was found anywhere (top level or metadata), it wins.
-        if "eg" in valid_found_codes:
-            return "eg"
-
-        # Rule 2: If we have exactly 2 codes with exactly one 'zz', prefer the other valid country code
-        if len(valid_found_codes) == 2 and valid_found_codes.count("zz") == 1:
-            valid_found_codes.remove("zz")
-            return valid_found_codes[0]
-
-        # Rule 3: Otherwise, return the first one found (preserves Top Level priority)
-        return valid_found_codes[0]
-
-    # 4. Error Handling (No valid codes found)
-    found_value = json_data.get('country') or json_data.get('metadata', {}).get('country')
+    if isinstance(raw_candidate, str) and not is_empty_or_none(raw_candidate):
+        norm = raw_candidate.lower().strip()
+        if norm in COUNTRIES:
+            return norm
 
     raise ValidationError(
         "Invalid country code",
         "country",
-        found_value,
+        raw_candidate,
         f"One of: {', '.join(COUNTRIES.keys())}"
     )    
 
 
 def extract_country_code_mandatory_return(json_data: Dict[str, Any]) -> str:
-    # 1. Define candidates in standard priority order
-    raw_candidates = [
-        json_data.get('country'),
-        json_data.get('metadata', {}).get('country')
-    ]
+    raw_candidate = json_data.get('country')
 
-    # 2. Collect ALL valid, normalized codes found in the input
-    valid_found_codes = []
-    for code in raw_candidates:
-        if isinstance(code, str) and not is_empty_or_none(code):
-            norm = code.lower().strip()
-            if norm in COUNTRIES:
-                valid_found_codes.append(norm)
+    if isinstance(raw_candidate, str) and not is_empty_or_none(raw_candidate):
+        norm = raw_candidate.lower().strip()
+        if norm in COUNTRIES:
+            return norm
 
-    # 3. Apply the specific priority logic
-    if valid_found_codes:
-        # Rule 1: If 'eg' was found anywhere (top level or metadata), it wins.
-        if "eg" in valid_found_codes:
-            return "eg"
-        
-        # Rule 2: Otherwise, return the first one found (preserves Top Level priority)
-        return valid_found_codes[0]
-
-    # 4. Error Handling (No valid codes found)
-    found_value = json_data.get('country') or json_data.get('metadata', {}).get('country')
-
-    return found_value
+    return raw_candidate
 
 
 def validate_id_consistency(json_data: Dict[str, Any], filename: str) -> str:
@@ -241,6 +198,8 @@ def extract_part_explanation(explanation: Any, number_of_parts: int, part_index:
                         parent_div = direct_children[0]
                         # Get all direct child divs
                         child_divs = [tag for tag in parent_div.children if tag.name == 'div']
+                        if len(child_divs) != number_of_parts:
+                            return None
                         
                         # part_index is 1-based, so we need to subtract 1 for 0-based array indexing
                         if 0 < part_index <= len(child_divs):
@@ -252,3 +211,93 @@ def extract_part_explanation(explanation: Any, number_of_parts: int, part_index:
                     part_explanation = None
                     
     return part_explanation
+
+
+def remove_one_distractor(part: Dict[str, Any], threshold: int) -> bool:
+    """
+    Remove one distractor from MCQ/MRQ part if choices count >= threshold.
+    
+    Uses the same logic as Extra_Choices_Removal_and_Renumber.py:
+    - Prefers removing distractors with last_order=False
+    - Falls back to distractors with last_order=True if no others available
+    
+    Args:
+        part: The part dictionary to modify
+        threshold: Minimum number of choices to trigger removal (e.g., 5 means remove if >= 5)
+    
+    Returns:
+        True if a distractor was removed, False otherwise
+    """
+    part_type = part.get('type', '')
+    choices = part.get('choices', [])
+    choices_len_before = len(choices) if isinstance(choices, list) else 0
+
+    if part_type not in ['mcq', 'mrq'] or choices_len_before < threshold:
+        return False
+
+    distractors_not_last_idx = []
+    distractors_last_idx = []
+
+    for idx, ch in enumerate(choices):
+        if not isinstance(ch, dict):
+            return False
+        if ch.get('type', '') == 'distractor':
+            if ch.get('last_order', False):
+                distractors_last_idx.append(idx)
+            else:
+                distractors_not_last_idx.append(idx)
+
+    removed_idx = None
+    if distractors_not_last_idx:
+        removed_idx = distractors_not_last_idx[-1]
+    elif distractors_last_idx:
+        removed_idx = distractors_last_idx[-1]
+    else:
+        return False
+
+    choices.pop(removed_idx)
+    return True
+
+
+def robust_renumber(part: Dict[str, Any]) -> None:
+    """
+    Renumber index and fixed_order fields of choices to ensure sequential numbering.
+    
+    - Renumbers index to be 0-based sequential: [0, 1, 2, ...]
+    - Renumbers fixed_order to be 1-based sequential: [1, 2, 3, ...]
+    
+    Args:
+        part: The part dictionary to modify (must have 'choices' list)
+    """
+    choices = part.get('choices', [])
+    
+    if not isinstance(choices, list) or not choices:
+        return
+    
+    # Collect existing index and fixed_order values
+    part_choice_indexes = []
+    part_choice_fixed_orders = []
+    
+    for part_choice in choices:
+        part_choice_index = part_choice.get('index', '')
+        part_choice_fixed_order = part_choice.get('fixed_order', '')
+        
+        if not isinstance(part_choice_index, int) or not isinstance(part_choice_fixed_order, int):
+            return  # Skip renumbering if invalid data types
+        else:
+            part_choice_indexes.append(part_choice_index)
+            part_choice_fixed_orders.append(part_choice_fixed_order)
+    
+    # Check and renumber index if needed (0-based: 0, 1, 2, ...)
+    if part_choice_indexes and part_choice_fixed_orders:
+        if sorted(part_choice_indexes) != list(range(len(part_choice_indexes))):
+            new_index_mapping = {old: new for new, old in enumerate(sorted(part_choice_indexes))}
+            for part_choice in choices:
+                part_choice['index'] = new_index_mapping[part_choice['index']]
+        
+        # Check and renumber fixed_order if needed
+        # Check if sorted fixed_orders are NOT 0-based sequential, then renumber to 1-based sequential
+        if sorted(part_choice_fixed_orders) != list(range(len(part_choice_fixed_orders))):
+            new_fixed_order_mapping = {old: new for new, old in enumerate(sorted(part_choice_fixed_orders), 1)}
+            for part_choice in choices:
+                part_choice['fixed_order'] = new_fixed_order_mapping[part_choice['fixed_order']]

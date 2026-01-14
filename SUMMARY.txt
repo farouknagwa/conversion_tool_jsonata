@@ -13,7 +13,7 @@ CAPABILITIES:
 KEY FEATURES:
 - Pre-conversion validation ensures input quality (OLD structure)
 - Post-conversion validation ensures output correctness (NEW structure)
-- Warning system for non-blocking issues (e.g., missing statement in multipart)
+- Warning system for non-blocking issues (e.g., missing statement in multipart, EG MCQ/MRQ with > 4 choices)
 - Failed files automatically segregated by failure type
 - Supports filtering by question type
 - Dry-run mode for validation-only testing
@@ -23,6 +23,8 @@ KEY FEATURES:
 - Supports subject_id and grade_id metadata fields
 - Enhanced country code extraction with priority logic (Egypt priority, zz filtering)
 - Comprehensive number format handling for input_box (Arabic/Hindi digits, thousand separators)
+- Automatic choice removal for EG MCQ/MRQ parts with > 4 choices (removes distractors, renumbers choices)
+- Tex file cleaning in workflow mode (extracts and renames tex files from figures subfolders)
 
 OUTPUT CATEGORIES:
 ✓ CONVERTED/ - Successfully converted files
@@ -54,7 +56,8 @@ WORKFLOW MODE (Step4_OUTPUT -> Step5_OUTPUT):
   * Copy Step4_OUTPUT -> Step5_OUTPUT (excluding *.log files)
   * Process only QuestionIds where the input CSV has IsSuccess=True (IsSuccess=False rows are skipped and their JSONs are not modified)
   * Rewrite Step5_OUTPUT/questions_updated_sheet.csv to one row per QuestionId and add:
-    IsSuccess, Error Message, Error Type, Warning Message
+    IsSuccess, Error Message, Error Type, Warning Message, tex_cleaning
+  * Clean tex files from tex/<question_id>.figures/ (if exists) before processing
   * Run HTML cleaning (clean_json_html.py) on each target JSON before conversion
   * Convert each JSON in place inside Step5_OUTPUT
   * Write a Step5 log file:

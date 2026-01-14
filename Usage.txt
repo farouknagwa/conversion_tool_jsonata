@@ -26,7 +26,13 @@ WORKFLOW OUTPUTS (Step5_OUTPUT):
 - Only QuestionId rows with IsSuccess=True are processed in Step5; IsSuccess=False rows are skipped and their JSONs are not modified.
 - Step5_OUTPUT/questions_updated_sheet.csv is rewritten to these columns (one row per QuestionId):
   QuestionId, SectionCode, language_iso_code, subject_id, subject_name, grade_id,
-  grade_url_text, country_iso_code, parent_id, IsSuccess, Error Message, Error Type, Warning Message
+  grade_url_text, country_iso_code, parent_id, clone_parent_id, IsSuccess, 
+  Error Message, Error Type, Warning Message, tex_cleaning
+- Tex file cleaning: For each question, if tex/<question_id>.figures/ exists:
+  * Finds files matching <12-digit ID>.1.<index>.tex -> renames to <question_id>.<indexmodified>.tex (zero-padded)
+  * Finds files matching <12-digit ID>.1.tex -> renames to <question_id>.01.tex
+  * Copies renamed files to Updated/ folder and removes tex/ folder
+  * Status logged in tex_cleaning column
 - A Step5 log file is created in Step5_OUTPUT root:
   Step5_JsonCleaningAndConversion_<YYYYMMDD>_<HHMMSSmmm>.log
 - No OUTPUTS/CONVERTED or failure folders are created in workflow mode; JSONs are edited in place inside Step5_OUTPUT.

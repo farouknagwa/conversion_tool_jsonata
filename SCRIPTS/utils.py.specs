@@ -29,6 +29,14 @@ EXTRACTION FUNCTIONS:
   * Multipart (number_of_parts>1): Parses HTML, extracts child <div> at part_index (1-based)
   * Uses BeautifulSoup to parse parent <div> and return specific child <div> HTML
   * Returns None if parsing fails or index out of range
+- remove_one_distractor(part, threshold): Removes one distractor from MCQ/MRQ part if choices count >= threshold
+  * Prefers removing distractors with last_order=False
+  * Falls back to distractors with last_order=True if no others available
+  * Returns True if removed, False otherwise
+- robust_renumber(part): Renumbers index and fixed_order fields of choices to ensure sequential numbering
+  * Renumbers index to be 0-based sequential: [0, 1, 2, ...]
+  * Renumbers fixed_order to be 1-based sequential: [1, 2, 3, ...]
+  * Only renumbers if current values are not already sequential
 
 VALIDATION HELPERS:
 - Language codes validated against LANGUAGES dict from config

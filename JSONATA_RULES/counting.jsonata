@@ -11,7 +11,7 @@
   
   /* Return the complete part structure */
   {
-    "n": part.n,
+    "n": part_index,
     "type": "counting",
     "stem": part.stem,
     "grid": $grid,

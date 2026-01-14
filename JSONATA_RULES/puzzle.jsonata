@@ -2,11 +2,17 @@
   /* Sort puzzleImageSplited by fixed_order for display */
   $sortedpuzzleImageSplited := part.puzzleImageSplited^(fixed_order);
 
+  /* Detect if orders are 0-based and calculate offsets */
+  $minFixed := $min(part.puzzleImageSplited.fixed_order);
+  $minCorrect := $min(part.puzzleImageSplited.correct_order);
+  $fixedOffset := $minFixed = 0 ? 1 : 0;
+  $correctOffset := $minCorrect = 0 ? 1 : 0;
+
   /* Transform puzzle pieces */
   $pieces := $map($sortedpuzzleImageSplited, function($piece) {
     {
-      "display_order": $piece.fixed_order,
-      "correct_order": $piece.correct_order,
+      "display_order": $piece.fixed_order + $fixedOffset,
+      "correct_order": $piece.correct_order + $correctOffset,
       "src": $piece.src,
       "alt": ""
     }
@@ -14,7 +20,7 @@
   
   /* Return the complete part structure */
   {
-    "n": part.n,
+    "n": part_index,
     "type": "puzzle",
     "stem": part.stem,
     "rows": part.puzzleRows,

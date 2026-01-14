@@ -1,16 +1,5 @@
 """Configuration file for JSON conversion tool."""
 
-# Language code to language name mapping
-# LANGUAGES = {
-#     "en": "English",
-#     "ar": "العربية",
-#     "de": "Deutsch",
-#     "fr": "Français",
-#     "es": "Español",
-#     "it": "Italiano",
-#     "pt": "Português",
-#     "zh": "中文"    
-# }
 LANGUAGES = {
     "en": "English",
     "ar": "Arabic",
@@ -25,10 +14,6 @@ LANGUAGES = {
 # Country code to country name mapping
 COUNTRIES = {
     "eg": "Egypt",
-    "us": "United States",
-    "uk": "United Kingdom",
-    "sa": "Saudi Arabia",
-    "in": "India",
     "zz": "ZZ"
 }
 
@@ -56,10 +41,7 @@ VALID_DIRECTIONS = ["vertical", "horizontal"]
 VALID_CHOICE_TYPES = ["key", "distractor"]
 
 # Valid constraint types for input_box
-VALID_CONSTRAINT_TYPES = ["decimal", "integer"]
-
-# Valid string AI template IDs
-VALID_STRING_AI_TEMPLATE_IDS = ["593158513739"]
+VALID_CONSTRAINT_TYPES = ["decimal", "integer", "currencyValue"]
 
 # Default source value
 DEFAULT_SOURCE = "human"

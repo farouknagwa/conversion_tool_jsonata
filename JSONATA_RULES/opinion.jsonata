@@ -16,7 +16,7 @@
   
   /* Return the complete part structure (no correct_answer for opinion) */
   {
-    "n": part.n,
+    "n": part_index,
     "type": "opinion",
     "stem": part.stem,
     "choices": [$transformedChoices],

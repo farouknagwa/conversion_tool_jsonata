@@ -53,7 +53,7 @@
   
   /* Return the complete part structure */
   {
-    "n": part.n,
+    "n": part_index,
     "type": "matching",
     "stem": part.stem,
     "items": {

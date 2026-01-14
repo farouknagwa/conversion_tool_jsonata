@@ -1,13 +1,13 @@
 (
   /* Extract AI template ID */
-  $aiTemplateId := $string(part.ai.ai_template_id);
+  $aiTemplateId := "123456789012";
   
   /* Handle answer as array */
   $acceptableAnswers := $type(part.answer) = "array" ? part.answer : [part.answer];
   
   /* Return the complete part structure */
   {
-    "n": part.n,
+    "n": part_index,
     "type": "frq",
     "stem": part.stem,
     "ai_template_id": $aiTemplateId,

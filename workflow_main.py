@@ -19,6 +19,7 @@ import csv
 import sys
 import shutil
 import importlib.util
+import re
 from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
@@ -49,6 +50,7 @@ OUTPUT_SHEET_COLUMNS = REQUIRED_SHEET_COLUMNS + [
     "Error Message",
     "Error Type",
     "Warning Message",
+    "tex_cleaning",
 ]
 
 
@@ -144,6 +146,94 @@ def load_cleaner_module(cleaner_path: Path):
     module = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(module)
     return module
+
+
+def clean_tex_files(question_id: str, updated_dir: Path, logger: Logger) -> str:
+    """
+    Clean tex files from tex/<question_id>.figures/ folder.
+    
+    Finds files matching pattern: <12-digit ID>.1.<index>.tex in tex/<question_id>.figures/
+    Renames them to <question_id>.<indexmodified>.tex (with leading zeros: 1→01, 2→02, but 10→10, 13→13)
+    Copies renamed files to Updated/ folder
+    Removes the entire tex/ folder
+    
+    Args:
+        question_id: The question ID
+        updated_dir: Path to Updated/ folder (step5_dir / qid / "Updated")
+        logger: Logger instance
+    
+    Returns:
+        Status message for logging (e.g., "Cleaned X files" or "No tex folder found" or error message)
+    """
+    tex_dir = updated_dir / "tex"
+    
+    if not tex_dir.exists() or not tex_dir.is_dir():
+        return "No tex folder found"
+    
+    figures_dir = tex_dir / f"{question_id}.figures"
+    
+    if not figures_dir.exists() or not figures_dir.is_dir():
+        # Remove tex folder if figures subfolder doesn't exist
+        try:
+            shutil.rmtree(tex_dir)
+            return "tex folder removed (no figures subfolder)"
+        except Exception as e:
+            return f"Error removing tex folder: {str(e)}"
+    
+    # Pattern 1: <12-digit ID>.1.<index>.tex
+    # Pattern 2: <12-digit ID>.1.tex (without index)
+    pattern_with_index = re.compile(r"^(\d{12})\.1\.(\d+)\.tex$")
+    pattern_without_index = re.compile(r"^(\d{12})\.1\.tex$")
+    
+    cleaned_count = 0
+    errors = []
+    
+    try:
+        # Find matching tex files
+        matching_files = []
+        for tex_file in figures_dir.glob("*.tex"):
+            # Check pattern with index first
+            match = pattern_with_index.match(tex_file.name)
+            if match:
+                # Group 1: 12-digit ID (ignored), Group 2: index
+                index = int(match.group(2))
+                # Format index with leading zeros (1→01, 2→02, but 10→10, 13→13)
+                # So zero-pad to 2 digits
+                indexmodified = f"{index:02d}"
+                new_name = f"{question_id}.{indexmodified}.tex"
+                matching_files.append((tex_file, new_name))
+            else:
+                # Check pattern without index
+                match = pattern_without_index.match(tex_file.name)
+                if match:
+                    # Rename .1 to .01
+                    new_name = f"{question_id}.01.tex"
+                    matching_files.append((tex_file, new_name))
+        
+        if not matching_files:
+            # No matching files, just remove tex folder
+            shutil.rmtree(tex_dir)
+            return "tex folder removed (no matching files)"
+        
+        # Copy renamed files to Updated/ folder
+        for source_file, new_name in matching_files:
+            try:
+                dest_file = updated_dir / new_name
+                shutil.copy2(source_file, dest_file)
+                cleaned_count += 1
+            except Exception as e:
+                errors.append(f"Failed to copy {source_file.name}: {str(e)}")
+        
+        # Remove the entire tex folder
+        shutil.rmtree(tex_dir)
+        
+        if errors:
+            return f"Cleaned {cleaned_count} files, but errors: {'; '.join(errors)}"
+        else:
+            return f"Cleaned {cleaned_count} file(s)"
+            
+    except Exception as e:
+        return f"Error during tex cleaning: {str(e)}"
 
 
 def read_questions_sheet(sheet_path: Path) -> List[Dict[str, str]]:
@@ -371,6 +461,7 @@ def main() -> None:
         row.setdefault("Error Message", "")
         row.setdefault("Error Type", "")
         row.setdefault("Warning Message", "")
+        row.setdefault("tex_cleaning", "")
 
     # 3) Load HTML cleaning module (relative path)
     cleaner_path = Path("SIDE_TOOLS") / "jsons_htmltags_cleaning" / "clean_json_html.py"
@@ -397,7 +488,14 @@ def main() -> None:
             logger.debug(f"SKIP [{qid}]: IsSuccess is not True in input sheet")
             continue
 
-        json_path = step5_dir / qid / "Updated" / f"{qid}.json"
+        updated_dir = step5_dir / qid / "Updated"
+        json_path = updated_dir / f"{qid}.json"
+
+        # Clean tex files before processing
+        tex_cleaning_msg = clean_tex_files(qid, updated_dir, logger)
+        row["tex_cleaning"] = tex_cleaning_msg
+        if tex_cleaning_msg and "Error" not in tex_cleaning_msg and "No tex folder" not in tex_cleaning_msg:
+            logger.debug(f"TEX CLEANING [{qid}]: {tex_cleaning_msg}")
 
         try:
             result = process_question_json(qid, json_path, cleaner_module, logger)

@@ -17,12 +17,16 @@
     $choice.html_content
   });
   
+  /* Validate direction: use part.direction if it's 'vertical' or 'horizontal', else default to 'vertical' */
+  $directionLower := $lowercase($string(part.direction));
+  $direction := ($directionLower = "vertical" or $directionLower = "horizontal") ? $directionLower : "vertical";
+  
   /* Return the complete part structure */
   {
-    "n": part.n,
+    "n": part_index,
     "type": "ordering",
     "stem": part.stem,
-    "direction": $lowercase($string(part.direction)),
+    "direction": $direction,
     "items": [$items],
     "correct_answer": [$correctAnswer],
     "explanation": explanation

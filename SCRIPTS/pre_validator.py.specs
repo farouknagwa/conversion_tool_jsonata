@@ -18,12 +18,16 @@ VALIDATION FUNCTIONS:
   * Multipart: must have parent <div> with N child <div>s (error if not)
 
 PART TYPE VALIDATORS:
-- _validate_mcq(part, part_number, country_code): MCQ validation - exactly 1 key choice, max 4 choices for Egypt
-- _validate_mrq(part, part_number): MRQ validation - at least 2 key choices
+- _validate_mcq(part, part_number, country_code): MCQ validation - exactly 1 key choice, returns (errors, warnings)
+  * Egypt country with choices > 4: WARNING (extra choices will be automatically removed during conversion)
+- _validate_mrq(part, part_number, country_code): MRQ validation - at least 1 key choice, returns (errors, warnings)
+  * Egypt country with choices > 4: WARNING (extra choices will be automatically removed during conversion)
 - _validate_gmrq(part, part_number): GMRQ validation - exactly 2 groups, exactly 1 key choice per group, is_correct field required
 - _validate_frq_ai(part, part_number): FRQ AI validation - validates answer field, ai object, ai_template_id (12 digits)
 - _validate_oq(part, part_number): Ordering validation - all distractors, direction field required
 - _validate_gap_text(part, part_number): Gap text validation - gap_text_keys array, stem must have gaps, correct_order validation
+  * Uses BeautifulSoup to count valid <span> elements with data-node-variation="gap" attribute
+  * Filters out gaps extracted from malformed HTML (e.g., embedded in attribute values)
 - _validate_string(part, part_number): String validation - answer array of strings, optional AI template ID, guidelines validation (if present: array of objects with student_answer, mark [1/0/"1"/"0"], comment)
 - _validate_opinion(part, part_number): Opinion validation - all distractors
 - _validate_matching(part, part_number): Matching validation - exactly 2 groups, all distractors
@@ -46,6 +50,7 @@ WARNINGS vs ERRORS:
 - WARNINGS: Logged but don't block conversion, appear in separate Excel "Warnings" sheet
   * Multipart without statement field → WARNING
   * Single-part answer with wrong HTML structure → WARNING
+  * EG MCQ/MRQ with > 4 choices → WARNING (extra choices automatically removed during conversion)
 
 DEPENDENCIES:
 - BeautifulSoup4: For HTML parsing in answer field validation

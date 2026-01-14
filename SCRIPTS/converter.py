@@ -6,7 +6,8 @@ from SCRIPTS.utils import (
     ValidationError, ConversionError,
     validate_id_consistency, extract_parent_id,
     extract_language_code, extract_country_code,
-    get_source, is_empty_or_none, extract_part_explanation
+    get_source, is_empty_or_none, extract_part_explanation,
+    remove_one_distractor, robust_renumber
 )
 from SCRIPTS.config import (
     LANGUAGES, COUNTRIES
@@ -55,13 +56,27 @@ def extract_common_metadata(json_data: Dict[str, Any], filename: str) -> Dict[st
     }
 
 
-def convert_part(part: Dict[str, Any], part_index: int, language_code: str, json_data: Dict[str, Any]) -> Dict[str, Any]:
+def convert_part(part: Dict[str, Any], part_index: int, language_code: str, json_data: Dict[str, Any], country_code: str) -> Dict[str, Any]:
     """
     Convert a single part based on its type.
     Returns: Converted part in new structure        
     Raises: ConversionError: If conversion fails
     """
     part_type = part.get('type')
+
+    # Remove extra choices for EG MCQ/MRQ parts (if choices > 4)
+    if part_type in ['mcq', 'mrq'] and country_code == 'eg':
+        choices = part.get('choices', [])
+        choices_count = len(choices) if isinstance(choices, list) else 0
+        if choices_count > 4:
+            # Remove distractors until we have 4 or fewer choices
+            # threshold=5 means remove if >= 5, so we keep removing until <= 4
+            while choices_count > 4:
+                if not remove_one_distractor(part, threshold=5):
+                    break  # Can't remove more, exit loop
+                choices_count = len(part.get('choices', []))
+            # Renumber index and fixed_order after removal
+            robust_renumber(part)
 
     explanation = json_data.get('answer')
     number_of_parts = len(json_data.get('parts', []))
@@ -99,7 +114,8 @@ def convert_part(part: Dict[str, Any], part_index: int, language_code: str, json
         result = expr.evaluate({
             "part": part,
             "languageCode": language_code,
-            "explanation": explanation
+            "explanation": explanation,
+            "part_index": part_index
         })
         
         return result
@@ -123,7 +139,7 @@ def build_final_json(metadata: Dict[str, Any], converted_parts: List[Dict[str, A
        
     # Add statement if multi-part
     if metadata['number_of_parts'] > 1:
-        content['statement'] = original_json.get('statement', '')
+        content['statement'] = original_json.get('statement')
 
     content["parts"] = converted_parts
 
@@ -160,7 +176,7 @@ def convert_question(json_data: Dict[str, Any], filename: str) -> Dict[str, Any]
     # Convert each part
     converted_parts = []
     for i, part in enumerate(json_data.get('parts', []), 1):
-        converted_part = convert_part(part, i, metadata['language_code'], json_data)
+        converted_part = convert_part(part, i, metadata['language_code'], json_data, metadata['country_code'])
         converted_parts.append(converted_part)
     
     # Build final JSON

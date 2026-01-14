@@ -34,10 +34,11 @@ CHOICE VALIDATIONS (mcq, mrq, oq, opinion, matching):
 
 MCQ SPECIFIC:
 - Must have exactly 1 key choice
-- Egypt country: max 4 choices allowed
+- Egypt country: max 4 choices allowed (WARNING if > 4, extra choices automatically removed during conversion)
 
 MRQ SPECIFIC:
-- Must have at least 2 key choices
+- Must have at least 1 key choice
+- Egypt country: max 4 choices allowed (WARNING if > 4, extra choices automatically removed during conversion)
 
 GMRQ (GROUPED MULTIPLE RESPONSE) SPECIFIC:
 - Must have exactly 2 groups (group=1 and group=2)
@@ -58,6 +59,8 @@ GAP_TEXT SPECIFIC:
 - gap_text_keys array must be non-empty
 - Each gap_text_key must have "value"
 - stem must contain gap markers (data-node-variation="gap")
+  * Uses BeautifulSoup to count valid <span> elements with data-node-variation="gap" attribute
+  * Filters out gaps extracted from malformed HTML (e.g., embedded in attribute values)
 - Number of correct_order entries must match number of gaps in stem
 
 STRING SPECIFIC:
@@ -103,4 +106,5 @@ ERRORS (block conversion):
 WARNINGS (don't block conversion):
 - Multipart questions without statement field
 - Single-part answer field with wrong HTML structure (should be <p> tag)
+- EG MCQ/MRQ with > 4 choices (extra choices automatically removed during conversion)
 

@@ -14,11 +14,16 @@ KEY BEHAVIOR:
 - Rewrites Step5_OUTPUT/questions_updated_sheet.csv to ONE ROW PER QuestionId with required metadata columns,
   plus workflow result columns.
 - For each QuestionId:
-  1) Runs HTML cleaning using SIDE_TOOLS/jsons_htmltags_cleaning/clean_json_html.py (in-place)
-  2) Runs the standard conversion pipeline:
+  1) Cleans tex files (if tex/<question_id>.figures/ exists):
+     * Finds files matching <12-digit ID>.1.<index>.tex pattern -> renames to <question_id>.<indexmodified>.tex (index zero-padded: 1→01, 2→02, 10→10)
+     * Finds files matching <12-digit ID>.1.tex pattern -> renames to <question_id>.01.tex
+     * Copies renamed files to Updated/ folder
+     * Removes entire tex/ folder
+  2) Runs HTML cleaning using SIDE_TOOLS/jsons_htmltags_cleaning/clean_json_html.py (in-place)
+  3) Runs the standard conversion pipeline:
      pre-validation -> conversion -> post-validation
-  3) Saves the converted JSON in place (same path in Step5_OUTPUT)
-  4) Writes IsSuccess / Error Message / Error Type / Warning Message into the CSV row
+  4) Saves the converted JSON in place (same path in Step5_OUTPUT)
+  5) Writes IsSuccess / Error Message / Error Type / Warning Message / tex_cleaning into the CSV row
 - IsSuccess gating:
   * Only QuestionId rows with IsSuccess == True (from the input Step4 sheet) are processed in Step5.
   * Rows with IsSuccess == False are skipped and their JSONs remain unchanged in Step5_OUTPUT.
@@ -29,9 +34,9 @@ KEY BEHAVIOR:
 CONSTANTS:
 - REQUIRED_SHEET_COLUMNS:
   QuestionId, SectionCode, language_iso_code, subject_id, subject_name, grade_id,
-  grade_url_text, country_iso_code, parent_id, IsSuccess
+  grade_url_text, country_iso_code, parent_id, clone_parent_id, IsSuccess
 - OUTPUT_SHEET_COLUMNS:
-  REQUIRED_SHEET_COLUMNS + Error Message, Error Type, Warning Message
+  REQUIRED_SHEET_COLUMNS + Error Message, Error Type, Warning Message, tex_cleaning
 
 FUNCTIONS / CLASSES:
 - _now_step_style_stamp():
@@ -45,10 +50,19 @@ FUNCTIONS / CLASSES:
 - load_cleaner_module(cleaner_path):
   Dynamically loads SIDE_TOOLS/jsons_htmltags_cleaning/clean_json_html.py
   so we can reuse clean_html_attributes() without subprocess calls.
+  Supports both absolute and relative paths (tries cwd first, then script dir).
+- clean_tex_files(question_id, updated_dir, logger):
+  Cleans tex files from tex/<question_id>.figures/ folder.
+  Matches files: <12-digit ID>.1.<index>.tex -> <question_id>.<indexmodified>.tex (zero-padded)
+  Matches files: <12-digit ID>.1.tex -> <question_id>.01.tex
+  Copies to Updated/ folder and removes tex/ folder.
+  Returns status message for logging.
 - read_questions_sheet(sheet_path):
   Reads questions_updated_sheet.csv with csv.DictReader.
 - build_deduped_question_rows(rows, logger):
   Deduplicates to one row per QuestionId (keeps first occurrence).
+  Implements IsSuccess gating: if ANY row for a QuestionId has IsSuccess=False, overall becomes False.
+  Otherwise, if at least one row has IsSuccess=True, overall becomes True.
 - write_questions_sheet(sheet_path, rows):
   Writes the rewritten Step5 CSV with OUTPUT_SHEET_COLUMNS.
 - QuestionResult:
