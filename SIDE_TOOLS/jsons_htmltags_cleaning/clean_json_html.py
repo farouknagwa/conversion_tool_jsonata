@@ -1,14 +1,15 @@
-
 import json
 import re
 from pathlib import Path
 from typing import Dict, Any, Union, List
 from bs4 import BeautifulSoup
 
+
 # Function to normalize text by removing extra spaces and newlines
 def normalize_text(text):
     """Remove extra newlines and spaces from the text."""
-    return re.sub(r'\s+', ' ', text).strip()
+    return re.sub(r"\s+", " ", text).strip()
+
 
 class ValidationError(Exception):
     def __init__(self, message, error_type, file_name, expected_format):
@@ -17,62 +18,110 @@ class ValidationError(Exception):
         self.file_name = file_name
         self.expected_format = expected_format
 
+
 def load_json_file(filepath: Path) -> Dict[str, Any]:
     try:
-        with open(filepath, 'r', encoding='utf-8') as f:
+        with open(filepath, "r", encoding="utf-8") as f:
             return json.load(f)
     except json.JSONDecodeError as e:
-        raise ValidationError(f"Invalid JSON format: {str(e)}", "file", filepath.name, "Valid JSON")
+        raise ValidationError(
+            f"Invalid JSON format: {str(e)}", "file", filepath.name, "Valid JSON"
+        )
     except Exception as e:
-        raise ValidationError(f"Failed to read file: {str(e)}", "file", filepath.name, "Readable file")
+        raise ValidationError(
+            f"Failed to read file: {str(e)}", "file", filepath.name, "Readable file"
+        )
 
 
 def save_json_file(data: Dict[str, Any], filepath: Path, pretty: bool = True) -> None:
     filepath.parent.mkdir(parents=True, exist_ok=True)
-    with open(filepath, 'w', encoding='utf-8') as f:
+    with open(filepath, "w", encoding="utf-8") as f:
         if pretty:
             json.dump(data, f, ensure_ascii=False, indent=2)
         else:
             json.dump(data, f, ensure_ascii=False)
 
-def clean_html_attributes(data: Union[Dict, List, str, Any]) -> Union[Dict, List, str, Any]:
+
+def clean_html_attributes(
+    data: Union[Dict, List, str, Any],
+    language_code: str,
+) -> Union[Dict, List, str, Any]:
     """
     Recursively traverses the data structure.
     If a string is found, it attempts to parse it as HTML.
     If <p> tags are found, all attributes are removed from them.
     """
     if isinstance(data, dict):
-        return {k: clean_html_attributes(v) for k, v in data.items()}
+        return {k: clean_html_attributes(v, language_code) for k, v in data.items()}
     elif isinstance(data, list):
-        return [clean_html_attributes(item) for item in data]
+        return [clean_html_attributes(item, language_code) for item in data]
     elif isinstance(data, str):
         # Optimization: check if it looks like HTML before parsing
-        if "<p" in data: 
+        if "<p" in data:
             try:
-                soup = BeautifulSoup(data, 'html.parser')
-                p_tags = soup.find_all('p')
+                soup = BeautifulSoup(data, "html.parser")
+                p_tags = soup.find_all("p")
                 if p_tags:
                     changed = False
                     for p in p_tags:
                         if p.attrs:
-                            # Preserve dir attribute if it's ltr or rtl
+                            # Determine which attributes to preserve based on language_code
                             preserved_dir = None
-                            if 'dir' in p.attrs and p.attrs.get('dir') in ['ltr', 'rtl']:
-                                preserved_dir = p.attrs['dir']
-                            
+                            preserved_style = None
+
+                            # Check dir attribute preservation conditions
+                            dir_attr = p.attrs.get("dir", None)
+                            if dir_attr:
+                                if language_code != "ar" and dir_attr != "ltr":
+                                    preserved_dir = dir_attr
+                                elif language_code == "ar" and dir_attr != "rtl":
+                                    preserved_dir = dir_attr
+
+                            # Check style: text-align preservation conditions
+                            style_attr = p.attrs.get("style", None)
+                            if style_attr:
+                                # Parse style attribute to extract text-align
+                                text_align_match = re.search(
+                                    r"text-align\s*:\s*([^;]+)",
+                                    style_attr,
+                                    re.IGNORECASE,
+                                )
+                                if text_align_match:
+                                    text_align_value = text_align_match.group(1).strip()
+                                    should_preserve_text_align = False
+
+                                    if (
+                                        language_code != "ar"
+                                        and text_align_value != "left"
+                                    ):
+                                        should_preserve_text_align = True
+                                    elif (
+                                        language_code == "ar"
+                                        and text_align_value != "right"
+                                    ):
+                                        should_preserve_text_align = True
+
+                                    if should_preserve_text_align:
+                                        # Preserve only the text-align part of the style
+                                        preserved_style = (
+                                            f"text-align: {text_align_value}"
+                                        )
+
                             # Clear all attributes
                             p.attrs = {}
-                            
-                            # Restore dir if it was preserved
+
+                            # Restore preserved attributes
                             if preserved_dir:
-                                p.attrs['dir'] = preserved_dir
-                            
+                                p.attrs["dir"] = preserved_dir
+                            if preserved_style:
+                                p.attrs["style"] = preserved_style
+
                             changed = True
                     if changed:
-                         # str(soup) might return '<html><body>...</body></html>' if it added them.
-                         # Generally for fragments it doesn't, but let's be careful.
-                         # If the input didn't have <html>, we probably don't want it in output.
-                         # For simple fragments, str(soup) is usually fine.
+                        # str(soup) might return '<html><body>...</body></html>' if it added them.
+                        # Generally for fragments it doesn't, but let's be careful.
+                        # If the input didn't have <html>, we probably don't want it in output.
+                        # For simple fragments, str(soup) is usually fine.
                         return normalize_text(str(soup))
             except Exception:
                 # If parsing fails, return original string
@@ -81,10 +130,11 @@ def clean_html_attributes(data: Union[Dict, List, str, Any]) -> Union[Dict, List
     else:
         return data
 
+
 def main():
     input_dir = Path("inputs")
     output_dir = Path("outputs")
-    
+
     if not input_dir.exists():
         print(f"Input directory '{input_dir}' does not exist.")
         return
@@ -99,19 +149,22 @@ def main():
     for json_file in json_files:
         try:
             data = load_json_file(json_file)
-            cleaned_data = clean_html_attributes(data)
-            
+            language_code = data.get("metadata", {}).get("language")
+            print(language_code)
+            cleaned_data = clean_html_attributes(data, language_code)
+
             # Preserve directory structure
             relative_path = json_file.relative_to(input_dir)
             output_path = output_dir / relative_path
-            
+
             save_json_file(cleaned_data, output_path)
             print(f"Processed: {relative_path}")
-            
+
         except ValidationError as e:
             print(f"Error processing {json_file.name}: {e}")
         except Exception as e:
             print(f"Unexpected error processing {json_file.name}: {e}")
+
 
 if __name__ == "__main__":
     main()
