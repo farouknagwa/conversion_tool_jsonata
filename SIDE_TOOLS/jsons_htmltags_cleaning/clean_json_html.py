@@ -150,7 +150,6 @@ def main():
         try:
             data = load_json_file(json_file)
             language_code = data.get("metadata", {}).get("language")
-            print(language_code)
             cleaned_data = clean_html_attributes(data, language_code)
 
             # Preserve directory structure
