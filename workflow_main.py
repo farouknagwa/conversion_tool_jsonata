@@ -317,7 +317,8 @@ def clean_json_in_place(json_path: Path, cleaner_module, logger: Logger) -> None
     Run the HTML cleaner on a single JSON file and overwrite it.
     """
     data = load_json_file(json_path)
-    cleaned = cleaner_module.clean_html_attributes(data)
+    language_code = data.get("language", "").strip().lower()
+    cleaned = cleaner_module.clean_html_attributes(data, language_code)
     save_json_file(cleaned, json_path)
     logger.debug(f"Cleaned HTML attributes: {json_path}")
 
