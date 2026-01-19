@@ -111,8 +111,8 @@ ORDERING PART:
 - correct_answer must be array (strict type check) (strings)
 
 PUZZLE PART:
-- rows must be integer (strict type check)
-- columns must be integer (strict type check)
+- rows must be string (strict type check)
+- columns must be string (strict type check)
 - pieces must be array (strict type check)
 - Each piece must be object (strict type check) with:
   * display_order (integer, strict type check)

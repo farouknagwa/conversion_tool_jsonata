@@ -21,7 +21,7 @@ PART TYPE VALIDATORS:
 - _validate_mrq_part(part, part_number): Validates choices array (strict type), correct_answer array (strict type)
 - _validate_opinion_part(part, part_number): Validates choices array (strict type), ensures NO correct_answer
 - _validate_ordering_part(part, part_number): Validates direction (string, strict type, lowercase vertical/horizontal), items array (strict type), each item object with value (string, strict type), display_order (integer, strict type), correct_order (integer, strict type), correct_answer array (strict type)
-- _validate_puzzle_part(part, part_number): Validates rows (integer, strict type), columns (integer, strict type), pieces array (strict type), each piece object with display_order (integer, strict type), correct_order (integer, strict type), src (string, strict type), alt (string, strict type), correct_answer object (strict type) with src (string, strict type), alt (string, strict type)
+- _validate_puzzle_part(part, part_number): Validates rows (string, strict type), columns (string, strict type), pieces array (strict type), each piece object with display_order (integer, strict type), correct_order (integer, strict type), src (string, strict type), alt (string, strict type), correct_answer object (strict type) with src (string, strict type), alt (string, strict type)
 - _validate_string_part(part, part_number): Validates ai_template_id (string, strict type), acceptable_answers array (strict type) with each item string (strict type), optional guidelines array (strict type) with each guideline object containing student_answer (string, strict type), mark (number, strict type, 0 or 1), comment (string, strict type)
 
 ROOT LEVEL VALIDATIONS:
