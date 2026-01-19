@@ -1,0 +1,105 @@
+FILE: validate_new_structure.py
+PURPOSE: Standalone validator for JSON files in new structure format
+
+OVERVIEW:
+- Validates JSON files that are already in the new structure format (output from conversion tool)
+- Uses post_validator.py to check structure correctness
+- Generates comprehensive reports (Excel + text log) with validation errors
+- Designed as a standalone script that can validate any directory of new-structure JSON files
+
+KEY BEHAVIOR:
+- Recursively discovers all JSON files in the input path
+- Validates each file using post_validator.validate_post_conversion()
+- Tracks validation statistics (total, valid, invalid, errors)
+- Generates Excel report with errors (if openpyxl available)
+- Generates text log with detailed error information
+- Exit code: 0 if all valid, 1 if any invalid files found
+
+FUNCTIONS / CLASSES:
+- ValidationStats:
+  Dataclass-like object tracking validation statistics
+  * total: Total number of files processed
+  * valid: Number of valid files
+  * invalid: Number of invalid files
+  * errors: List of error dictionaries (filename, question_id, error_message, timestamp)
+  * add_error(): Adds an error entry to the errors list
+
+- discover_json_files(input_path):
+  Recursively finds all JSON files in the input path
+  * If input_path is a file: returns list with that file (if .json)
+  * If input_path is a directory: returns all .json files found recursively
+  * Returns sorted list of Path objects
+
+- validate_file(filepath, stats, verbose):
+  Validates a single JSON file using post_validator
+  * Loads JSON file using load_json_file()
+  * Calls validate_post_conversion() to validate structure
+  * Updates stats (valid/invalid counters, error list)
+  * Returns True if valid, False otherwise
+  * Handles ValidationError and other exceptions gracefully
+
+- generate_excel_report(stats, output_path):
+  Creates Excel workbook with validation errors
+  * Creates "Errors" sheet with columns: Filename, Question ID, Error Message, Timestamp
+  * Auto-adjusts column widths for readability
+  * Requires openpyxl (prints warning if not available)
+
+- generate_text_log(stats, output_path):
+  Creates text log file with validation summary and detailed errors
+  * Summary section: total, valid, invalid, error count
+  * Errors section: grouped by filename with all error messages
+  * Human-readable format with clear sections
+
+- main():
+  CLI entry point
+  * Parses command-line arguments
+  * Discovers JSON files
+  * Validates all files (with progress bar if tqdm available)
+  * Generates reports (Excel + text log)
+  * Prints summary and exits with appropriate status code
+
+CLI ARGUMENTS:
+--input/-i:
+  Input directory or file path containing JSON files to validate
+  (default: OUTPUTS/CONVERTED)
+
+--output/-o:
+  Output directory for validation reports
+  (default: VALIDATION_REPORTS)
+
+--verbose/-v:
+  Verbose mode: shows detailed validation results for each file
+
+OUTPUTS:
+- VALIDATION_REPORTS/validation_report_<YYYYMMDD>_<HHMMSS>.xlsx:
+  Excel workbook with "Errors" sheet containing all validation errors
+
+- VALIDATION_REPORTS/validation_log_<YYYYMMDD>_<HHMMSS>.txt:
+  Text log with summary and detailed error information
+
+DEPENDENCIES:
+- post_validator.py: Core validation logic (validate_post_conversion function)
+- utils.py: load_json_file, format_timestamp, ValidationError
+- Optional: tqdm (for progress bar), openpyxl (for Excel reports)
+- Standard library: argparse, pathlib, datetime, json, typing
+
+VALIDATION RULES:
+- Uses post_validator.validate_post_conversion() which validates:
+  * Root level fields (question_id, language_code, country_code, etc.)
+  * Content structure (parts array, statement for multipart)
+  * Part-specific validations (per question type)
+  * See post-conversion-validations.txt and new_structure_docs/ for detailed rules
+
+EXIT CODES:
+0: All files are valid (no errors found)
+1: One or more files are invalid (errors found)
+
+EXAMPLE USAGE:
+# Validate all JSON files in OUTPUTS/CONVERTED
+python3 validate_new_structure.py
+
+# Validate files in custom directory with verbose output
+python3 validate_new_structure.py --input path/to/json/files -v
+
+# Validate and save reports to custom directory
+python3 validate_new_structure.py --input path/to/json/files --output my_reports

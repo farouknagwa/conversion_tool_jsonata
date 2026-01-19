@@ -2,44 +2,72 @@ POST-CONVERSION VALIDATIONS (NEW JSON STRUCTURE)
 
 ROOT LEVEL FIELDS:
 - Required: question_id, parent_id, language_code, language, country_code, country, subject, subject_id, grade, grade_id, number_of_parts, section_id, source, content
-- question_id must be string
-- parent_id must be null or string
+- question_id must be string (strict type check)
+- parent_id must be null or string (strict type check)
 - language_code must be valid and match language name
 - country_code must be valid and match country name
-- number_of_parts must be positive integer
-- grade, grade_id, subject, subject_id, section_id, source must be strings
+- number_of_parts must be positive integer (strict type: integer, not string like "1")
+- subject must be string (strict type check)
+- subject_id must be string (strict type check, required)
+- grade must be string (strict type check)
+- grade_id must be string (strict type check, required)
+- section_id must be string (strict type check)
+- source must be string (strict type check)
 
 CONTENT STRUCTURE:
 - content.parts array required and non-empty
 - content.statement required only for multi-part (number_of_parts > 1)
 - content.statement NOT allowed for single-part
-- Number of parts in array must match number_of_parts
+- Number of parts in array must match number_of_parts (with type conversion handling)
 
 COMMON PART FIELDS:
-- n (part number) must match position
-- type must exist
-- stem must be string
-- explanation: optional string (for single-part questions)
+- n (part number) must be integer (strict type: integer, not string) and must match position
+- type must exist and must be string (strict type check)
+- stem must be string (strict type check)
+- explanation: optional string or null (strict type check if present)
 
 COUNTING PART:
-- grid object required with rows and columns (both integers)
-- correct_answer must be integer
+- grid object required with rows and columns (both must be integers, strict type check)
+- correct_answer must be integer (strict type check)
 
 FRQ PART:
 - acceptable_answers must be array
-- ai_template_id required (string, exactly 12 digits)
+- ai_template_id required (string, exactly 12 digits, strict type check)
 
 GAP PART:
 - gap_keys must be array
-- Each gap_key must have: value, display_order
-- correct_answer must be string
+- Each gap_key must have:
+  * value (string, strict type check)
+  * display_order (integer, strict type check)
+  * correct_order (integer, optional, strict type check if present)
+- correct_answer must be string (strict type check)
 
 INPUT PART:
-- correct_answer must be object with:
-  * value (required, number)
-  * constraints object with type (required, "integer" or "decimal")
-  * constraints.answer_format.number_format ("arabic" or "hindi")
-  * constraints.answer_format.contains_thousand_separator (boolean)
+- correct_answer must be object (strict type check) with:
+  * value (required, number - int or float, strict type check)
+  * unit (optional, string or null, strict type check)
+  * constraints object (strict type check) with:
+    - type (required, string, strict type check)
+    - answer_format object (strict type check) with:
+      * number_format (string, strict type check)
+      * contains_thousand_separator (boolean, strict type check)
+    - Boolean constraint fields (strict type: boolean):
+      * allow_leading_zeros
+      * allow_trailing_zeros
+      * remove_leading_zeros_from_normalized_form
+      * remove_trailing_zeros_from_normalized_form
+      * add_single_leading_zero_to_normalized_form
+      * remove_trailing_decimal_point_from_normalized_form
+    - Integer constraint fields (strict type: integer or null):
+      * must_have_no_more_than_nsf
+      * must_have_at_least_nsf
+      * must_have_exactly_nsf
+      * must_have_at_least_ndp
+      * must_have_no_more_than_ndp
+      * must_have_exactly_ndp
+    - String constraint fields (strict type: string):
+      * sign
+      * normalize_sign
 
 GMRQ PART:
 - items object required with:
@@ -54,32 +82,57 @@ MATCHING PART:
 - correct_answer array required (objects with A and B keys)
 
 MCQ PART:
-- choices array required
-- Each choice must have: label, value, is_correct
-- correct_answer object required with label and value
+- choices must be array (strict type check)
+- Each choice must be object (strict type check) with:
+  * label (string, strict type check)
+  * value (string, strict type check)
+  * is_correct (boolean, strict type check)
+- correct_answer must be object (strict type check) with:
+  * label (string, strict type check)
+  * value (string, strict type check)
 
 MRQ PART:
-- choices array required
+- choices must be array (strict type check)
 - Each choice must have: label, value, is_correct
-- correct_answer must be array (objects with label and value)
+- correct_answer must be array (strict type check) (objects with label and value)
 
 OPINION PART:
-- choices array required (with label, value)
+- choices must be array (strict type check)
+- Each choice must have: label, value
 - correct_answer must NOT exist (no correct answer for opinion questions)
 
 ORDERING PART:
-- direction must be "vertical" or "horizontal" (lowercase)
-- items array required (objects with value, display_order, correct_order)
-- correct_answer array required (strings)
+- direction must be string (strict type check) and must be "vertical" or "horizontal" (lowercase)
+- items must be array (strict type check)
+- Each item must be object (strict type check) with:
+  * value (string, strict type check)
+  * display_order (integer, strict type check)
+  * correct_order (integer, strict type check)
+- correct_answer must be array (strict type check) (strings)
 
 PUZZLE PART:
-- rows required (integer)
-- columns required (integer)
-- pieces array required (objects with display_order, correct_order, src, alt)
-- correct_answer object required with src and alt
+- rows must be integer (strict type check)
+- columns must be integer (strict type check)
+- pieces must be array (strict type check)
+- Each piece must be object (strict type check) with:
+  * display_order (integer, strict type check)
+  * correct_order (integer, strict type check)
+  * src (string, strict type check)
+  * alt (string, strict type check)
+- correct_answer must be object (strict type check) with:
+  * src (string, strict type check)
+  * alt (string, strict type check)
 
 STRING PART:
-- ai_template_id required (string)
-- acceptable_answers must be array
-- guidelines optional: array of objects with student_answer (string), mark (number, 0 or 1), comment (string)
+- ai_template_id must be string (strict type check, required)
+- acceptable_answers must be array (strict type check)
+- Each acceptable_answer must be string (strict type check)
+- guidelines optional: array (strict type check) of objects (strict type check) with:
+  * student_answer (string, strict type check)
+  * mark (number - int or float, strict type check, must be 0 or 1)
+  * comment (string, strict type check)
 
+NOTES:
+- All type validations are STRICT: fields must be the exact type (integer not string, boolean not string, etc.)
+- Error messages show the actual type received (e.g., "must be an integer, got str")
+- Type mismatches like "1" (string) vs 1 (integer) are caught and reported

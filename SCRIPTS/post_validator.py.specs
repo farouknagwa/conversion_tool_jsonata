@@ -1,43 +1,58 @@
 FILE: post_validator.py
 PURPOSE: Validates converted JSON structure after conversion (NEW structure validation)
+Includes comprehensive strict type validation for all fields
 
 MAIN FUNCTION:
 - validate_post_conversion(converted_json): Entry point returning (is_valid, errors_list)
 
 VALIDATION FUNCTIONS:
-- _validate_root_fields(data): Validates root level metadata fields
-- _validate_content(content, number_of_parts): Validates content object structure
-- _validate_part(part, part_number, total_parts): Validates individual converted part
+- _validate_root_fields(data): Validates root level metadata fields with strict type checking
+- _validate_content(content, number_of_parts): Validates content object structure with type conversion handling
+- _validate_part(part, part_number, total_parts): Validates individual converted part with strict type checks
 
 PART TYPE VALIDATORS:
-- _validate_counting_part(part, part_number): Validates grid (rows, columns integers), correct_answer (integer)
-- _validate_frq_part(part, part_number): Validates acceptable_answers array, ai_template_id (12 digit string)
-- _validate_gap_part(part, part_number): Validates gap_keys array with value and display_order, correct_answer string
-- _validate_input_part(part, part_number): Validates correct_answer object with value (number) and constraints.type (integer/decimal)
+- _validate_counting_part(part, part_number): Validates grid.rows, grid.columns (integers, strict type), correct_answer (integer, strict type)
+- _validate_frq_part(part, part_number): Validates acceptable_answers array, ai_template_id (string, 12 digits, strict type)
+- _validate_gap_part(part, part_number): Validates gap_keys array with value (string, strict type), display_order (integer, strict type), correct_order (integer, optional, strict type), correct_answer (string, strict type)
+- _validate_input_part(part, part_number): Validates correct_answer object (strict type) with value (number, strict type), unit (string/null, strict type), constraints object with comprehensive type validation for all constraint fields (type, answer_format, boolean fields, integer fields, string fields)
 - _validate_gmrq_part(part, part_number): Validates items object with A, B arrays, correct_answer object with A and B keys
 - _validate_matching_part(part, part_number): Validates items object with A, B arrays, correct_answer array
-- _validate_mcq_part(part, part_number): Validates choices array (label, value, is_correct), correct_answer object (label, value)
-- _validate_mrq_part(part, part_number): Validates choices array, correct_answer array
-- _validate_opinion_part(part, part_number): Validates choices array, ensures NO correct_answer
-- _validate_ordering_part(part, part_number): Validates direction (lowercase vertical/horizontal), items array (value, display_order, correct_order), correct_answer array
-- _validate_puzzle_part(part, part_number): Validates rows, columns integers, pieces array (display_order, correct_order, src, alt), correct_answer object
-- _validate_string_part(part, part_number): Validates ai_template_id string, acceptable_answers array, optional guidelines array
+- _validate_mcq_part(part, part_number): Validates choices array (strict type), each choice object with label (string, strict type), value (string, strict type), is_correct (boolean, strict type), correct_answer object (strict type) with label (string, strict type), value (string, strict type)
+- _validate_mrq_part(part, part_number): Validates choices array (strict type), correct_answer array (strict type)
+- _validate_opinion_part(part, part_number): Validates choices array (strict type), ensures NO correct_answer
+- _validate_ordering_part(part, part_number): Validates direction (string, strict type, lowercase vertical/horizontal), items array (strict type), each item object with value (string, strict type), display_order (integer, strict type), correct_order (integer, strict type), correct_answer array (strict type)
+- _validate_puzzle_part(part, part_number): Validates rows (integer, strict type), columns (integer, strict type), pieces array (strict type), each piece object with display_order (integer, strict type), correct_order (integer, strict type), src (string, strict type), alt (string, strict type), correct_answer object (strict type) with src (string, strict type), alt (string, strict type)
+- _validate_string_part(part, part_number): Validates ai_template_id (string, strict type), acceptable_answers array (strict type) with each item string (strict type), optional guidelines array (strict type) with each guideline object containing student_answer (string, strict type), mark (number, strict type, 0 or 1), comment (string, strict type)
 
 ROOT LEVEL VALIDATIONS:
 - Required fields: question_id, language_code, language, country_code, country, subject, subject_id, grade, grade_id, number_of_parts, section_id, source, content
-- question_id must be string
-- parent_id must be null or string
+- question_id must be string (strict type check)
+- parent_id must be null or string (strict type check)
 - language_code must be valid and match language
 - country_code must be valid and match country
-- number_of_parts must be positive integer
-- grade, grade_id, subject, subject_id, section_id, source must be strings
+- number_of_parts must be positive integer (strict type: integer not string like "1")
+- subject must be string (strict type check)
+- subject_id must be string (strict type check, required)
+- grade must be string (strict type check)
+- grade_id must be string (strict type check, required)
+- section_id must be string (strict type check)
+- source must be string (strict type check)
 
 CONTENT VALIDATIONS:
 - parts array required and non-empty
 - statement required for multi-part (number_of_parts > 1)
 - statement NOT allowed for single-part
-- parts count must match number_of_parts
+- parts count must match number_of_parts (with type conversion handling for string/int mismatches)
 - Each part: n, type, stem required
-- Part number n must match position
-- explanation: optional string field
+- Part number n must be integer (strict type) and must match position
+- type must be string (strict type check)
+- stem must be string (strict type check)
+- explanation: optional string or null (strict type check if present)
 
+TYPE VALIDATION FEATURES:
+- All validations perform strict type checking (integer not string, boolean not string, etc.)
+- Error messages include the actual type received (e.g., "must be an integer, got str")
+- Catches type mismatches like "1" (string) vs 1 (integer), "true" (string) vs true (boolean)
+- Comprehensive validation for input part constraints (20+ fields with proper type checking)
+- Validates array elements individually (choices, items, pieces, etc.)
+- Validates nested objects (correct_answer, constraints, answer_format, etc.)
