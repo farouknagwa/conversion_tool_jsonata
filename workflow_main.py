@@ -94,7 +94,9 @@ def empty_directory(dir_path: Path) -> None:
         if child.is_dir():
             shutil.rmtree(child)
         else:
-            child.unlink()
+            # Preserve .log and .csv files
+            if child.suffix.lower() not in ['.log', '.csv']:
+                child.unlink()
 
 
 def copy_step4_to_step5(step4_dir: Path, step5_dir: Path, logger: Logger) -> None:
@@ -297,6 +299,35 @@ def write_questions_sheet(sheet_path: Path, rows: List[Dict[str, str]]) -> None:
         for row in rows:
             out_row = {col: (row.get(col, "") or "") for col in OUTPUT_SHEET_COLUMNS}
             writer.writerow(out_row)
+
+
+def append_to_all_sheet(step5_dir: Path, rows: List[Dict[str, str]], logger: Logger) -> None:
+    """
+    Append records from questions_updated_sheet.csv to questions_updated_sheet_ALL.csv.
+    If questions_updated_sheet_ALL.csv doesn't exist, create it as a copy of the current CSV.
+    If it exists, append all records (without header) to it.
+    """
+    all_sheet_path = step5_dir / "questions_updated_sheet_ALL.csv"
+    
+    if not all_sheet_path.exists():
+        # Create it as a copy (write with header)
+        logger.info(f"Creating questions_updated_sheet_ALL.csv: {all_sheet_path}")
+        with open(all_sheet_path, "w", encoding="utf-8", newline="") as f:
+            writer = csv.DictWriter(f, fieldnames=OUTPUT_SHEET_COLUMNS)
+            writer.writeheader()
+            for row in rows:
+                out_row = {col: (row.get(col, "") or "") for col in OUTPUT_SHEET_COLUMNS}
+                writer.writerow(out_row)
+        logger.info(f"Created questions_updated_sheet_ALL.csv with {len(rows)} records")
+    else:
+        # Append records (without header)
+        logger.info(f"Appending {len(rows)} records to questions_updated_sheet_ALL.csv")
+        with open(all_sheet_path, "a", encoding="utf-8", newline="") as f:
+            writer = csv.DictWriter(f, fieldnames=OUTPUT_SHEET_COLUMNS)
+            for row in rows:
+                out_row = {col: (row.get(col, "") or "") for col in OUTPUT_SHEET_COLUMNS}
+                writer.writerow(out_row)
+        logger.info(f"Appended records to questions_updated_sheet_ALL.csv")
 
 
 @dataclass
@@ -533,6 +564,9 @@ def main() -> None:
     # 5) Write updated CSV in Step5 (overwrite)
     logger.info(f"Writing updated CSV (one row per QuestionId): {sheet_path}")
     write_questions_sheet(sheet_path, question_rows)
+
+    # 5.5) Append to questions_updated_sheet_ALL.csv
+    append_to_all_sheet(step5_dir, question_rows, logger)
 
     # 6) Summary
     logger.info("\n" + "=" * 80)
