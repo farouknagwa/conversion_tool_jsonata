@@ -1,6 +1,6 @@
 (
   /* Extract AI template ID */
-  $aiTemplateId := "123456789012";
+  $aiTemplateId := "763168478489";
   
   /* Handle answer as array */
   $acceptableAnswers := $type(part.answer) = "array" ? part.answer : [part.answer];
