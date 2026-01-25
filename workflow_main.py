@@ -17,6 +17,7 @@ Run it from the repo root, or pass explicit --inputstep/--outputstep paths.
 import argparse
 import csv
 import sys
+import pandas as pd
 import shutil
 import importlib.util
 import re
@@ -239,9 +240,15 @@ def clean_tex_files(question_id: str, updated_dir: Path, logger: Logger) -> str:
 
 
 def read_questions_sheet(sheet_path: Path) -> List[Dict[str, str]]:
-    with open(sheet_path, "r", encoding="utf-8-sig", newline="") as f:
-        reader = csv.DictReader(f)
-        return list(reader)
+    """Read CSV via pandas (UTF-8, all strings) to support large fields and avoid csv field-size limit."""
+    df = pd.read_csv(
+        sheet_path,
+        encoding="utf-8",
+        dtype=str,
+        keep_default_na=False,
+        low_memory=False,
+    )
+    return df.to_dict("records")
 
 
 def build_deduped_question_rows(rows: List[Dict[str, str]], logger: Logger) -> List[Dict[str, str]]:
